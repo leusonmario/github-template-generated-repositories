@@ -1,0 +1,331 @@
+[
+  {
+    "key": "99b59c39-a2d2-49f7-b817-491086a1985d",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "app-generator__api-server-nodejs:src/config/passport.ts",
+    "project": "app-generator__api-server-nodejs",
+    "line": 13,
+    "hash": "1cd5708fe0b860dad0a1703641df013b",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 47,
+      "endOffset": 49
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T21:19:02+0000",
+    "updateDate": "2026-07-16T21:19:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9fdaee4a-f0ed-42aa-a71b-3115208580e5",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "app-generator__api-server-nodejs:src/index.ts",
+    "project": "app-generator__api-server-nodejs",
+    "line": 3,
+    "hash": "293112686f31b248c7a606abdf5ad532",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 17,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:http` over `http`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T21:19:02+0000",
+    "updateDate": "2026-07-16T21:19:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6335f529-5d9d-4045-b21d-a1ded9129c7c",
+    "rule": "typescript:S101",
+    "severity": "MINOR",
+    "component": "app-generator__api-server-nodejs:src/migrations/1626737786922-init.ts",
+    "project": "app-generator__api-server-nodejs",
+    "line": 3,
+    "hash": "aa0865ce07c5a7eceda6fce981896ad4",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 13,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename class \"init1626737786922\" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T21:19:02+0000",
+    "updateDate": "2026-07-16T21:19:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "67ec4a38-5dbe-403f-9f45-47be3949aca3",
+    "rule": "typescript:S2004",
+    "severity": "CRITICAL",
+    "component": "app-generator__api-server-nodejs:src/routes/users.ts",
+    "project": "app-generator__api-server-nodejs",
+    "line": 55,
+    "hash": "758b38df7ead719f59c99682e8a45ceb",
+    "textRange": {
+      "startLine": 55,
+      "endLine": 55,
+      "startOffset": 46,
+      "endOffset": 48
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "app-generator__api-server-nodejs:src/routes/users.ts",
+            "textRange": {
+              "startLine": 28,
+              "endLine": 28,
+              "startOffset": 36,
+              "endOffset": 38
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "app-generator__api-server-nodejs:src/routes/users.ts",
+            "textRange": {
+              "startLine": 43,
+              "endLine": 43,
+              "startOffset": 48,
+              "endOffset": 50
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "app-generator__api-server-nodejs:src/routes/users.ts",
+            "textRange": {
+              "startLine": 47,
+              "endLine": 47,
+              "startOffset": 38,
+              "endOffset": 40
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "app-generator__api-server-nodejs:src/routes/users.ts",
+            "textRange": {
+              "startLine": 48,
+              "endLine": 48,
+              "startOffset": 48,
+              "endOffset": 50
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this code to not nest functions more than 4 levels deep.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-16T21:19:02+0000",
+    "updateDate": "2026-07-16T21:19:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "babf1765-b479-4ea5-8fa4-37166a3e5a64",
+    "rule": "typescript:S7723",
+    "severity": "MINOR",
+    "component": "app-generator__api-server-nodejs:src/services/session.service.ts",
+    "project": "app-generator__api-server-nodejs",
+    "line": 32,
+    "hash": "8cecfc76d229bbd45f83ca5c565fcee2",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 32,
+      "startOffset": 12,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `new Error()` instead of `Error()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T21:19:02+0000",
+    "updateDate": "2026-07-16T21:19:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "63439427-9597-4709-ad03-fadcb4c4e24f",
+    "rule": "typescript:S7723",
+    "severity": "MINOR",
+    "component": "app-generator__api-server-nodejs:src/services/session.service.ts",
+    "project": "app-generator__api-server-nodejs",
+    "line": 52,
+    "hash": "a9556d2319af30febaafcce7d0e05a32",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 52,
+      "startOffset": 12,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `new Error()` instead of `Error()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T21:19:02+0000",
+    "updateDate": "2026-07-16T21:19:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

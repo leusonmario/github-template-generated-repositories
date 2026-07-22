@@ -1,0 +1,89 @@
+[
+  {
+    "key": "07d38b4f-87b2-4082-9f05-be8b48c624e8",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "tychoc__prebuiltjava:src/main/java/com/mycompany/app/App.java",
+    "project": "tychoc__prebuiltjava",
+    "line": 10,
+    "hash": "b20cb3dc9d89d4c4429bc614b9ee0a10",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T20:30:06+0000",
+    "updateDate": "2026-07-21T20:30:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d87e1f45-7329-4c02-b010-ac1bbb23f311",
+    "rule": "java:S1186",
+    "severity": "CRITICAL",
+    "component": "tychoc__prebuiltjava:src/test/java/com/mycompany/app/AppTest.java",
+    "project": "tychoc__prebuiltjava",
+    "line": 9,
+    "hash": "b21ba11bc15bbe2447da5d0fa6617e2b",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 11,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-21T20:30:06+0000",
+    "updateDate": "2026-07-21T20:30:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

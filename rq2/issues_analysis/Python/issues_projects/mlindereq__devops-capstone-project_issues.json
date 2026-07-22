@@ -1,0 +1,220 @@
+[
+  {
+    "key": "4eece55a-df7a-45b4-935d-34aba3f0be07",
+    "rule": "kubernetes:S6865",
+    "severity": "MAJOR",
+    "component": "mlindereq__devops-capstone-project:temp_repos/devops-capstone-project/deploy/deployment.yaml",
+    "project": "mlindereq__devops-capstone-project",
+    "line": 23,
+    "hash": "d9e939dad9db0fbf12a7e7ed37d92d0f",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 6,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Bind this resource's automounted service account to RBAC or disable automounting.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T20:16:08+0000",
+    "updateDate": "2026-07-17T20:16:08+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "82b5b5a9-23af-4c14-9b5a-499fd972358b",
+    "rule": "kubernetes:S6897",
+    "severity": "MAJOR",
+    "component": "mlindereq__devops-capstone-project:temp_repos/devops-capstone-project/deploy/deployment.yaml",
+    "project": "mlindereq__devops-capstone-project",
+    "line": 24,
+    "hash": "3066aa2c8936cb5abf21c0793441a168",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify a storage request for this container.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T20:16:08+0000",
+    "updateDate": "2026-07-17T20:16:08+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "efd9d3fe-34b8-45aa-bbfd-bcd780f57cf1",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "mlindereq__devops-capstone-project:temp_repos/devops-capstone-project/service/routes.py",
+    "project": "mlindereq__devops-capstone-project",
+    "line": 19,
+    "hash": "601fccda365ce21177aed52cbed5f631",
+    "textRange": {
+      "startLine": 19,
+      "endLine": 19,
+      "startOffset": 19,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T20:16:08+0000",
+    "updateDate": "2026-07-17T20:16:08+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1309a38b-6ccd-479f-940c-b10f2542208b",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "mlindereq__devops-capstone-project:temp_repos/devops-capstone-project/service/routes.py",
+    "project": "mlindereq__devops-capstone-project",
+    "line": 32,
+    "hash": "059335eb048b553c87d3a1d4f961dbc5",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 32,
+      "startOffset": 12,
+      "endOffset": 61
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:16:08+0000",
+    "updateDate": "2026-07-17T20:16:08+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "28561822-9e0b-49a3-8cd4-066bedd3d3c4",
+    "rule": "python:S5906",
+    "severity": "MINOR",
+    "component": "mlindereq__devops-capstone-project:temp_repos/devops-capstone-project/tests/test_models.py",
+    "project": "mlindereq__devops-capstone-project",
+    "line": 61,
+    "hash": "aee3ad6743de50451c430c3b7f1a0718",
+    "textRange": {
+      "startLine": 61,
+      "endLine": 61,
+      "startOffset": 8,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Consider using \"assertIsNone\" instead.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "tests",
+      "unittest"
+    ],
+    "creationDate": "2026-07-17T20:16:08+0000",
+    "updateDate": "2026-07-17T20:16:08+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

@@ -1,0 +1,297 @@
+[
+  {
+    "key": "ff53a286-4aa2-4914-93e8-ab6fffed34e6",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "sledger9__newhk:temp_repos/newHk/Dockerfile",
+    "project": "sledger9__newhk",
+    "line": 7,
+    "hash": "75e07ea15d35a2108137a8377b22f017",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "sledger9__newhk:temp_repos/newHk/Dockerfile",
+            "textRange": {
+              "startLine": 8,
+              "endLine": 8,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T22:19:28+0000",
+    "updateDate": "2026-07-17T22:19:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "001ba156-09b1-49dd-bbd4-b090cf6218d5",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "sledger9__newhk:temp_repos/newHk/update.py",
+    "project": "sledger9__newhk",
+    "line": 9,
+    "hash": "59413217efe828218f7c121fd3bad8b5",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 17,
+      "endOffset": 26
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "sledger9__newhk:temp_repos/newHk/update.py",
+            "textRange": {
+              "startLine": 10,
+              "endLine": 10,
+              "startOffset": 14,
+              "endOffset": 23
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "sledger9__newhk:temp_repos/newHk/update.py",
+            "textRange": {
+              "startLine": 18,
+              "endLine": 18,
+              "startOffset": 34,
+              "endOffset": 43
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal 'log.txt' 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T22:19:28+0000",
+    "updateDate": "2026-07-17T22:19:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8c7f847f-c6c6-44f4-b63a-bb4fb790b123",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "sledger9__newhk:temp_repos/newHk/update.py",
+    "project": "sledger9__newhk",
+    "line": 28,
+    "hash": "642e3b3ad2139bee7e7f9eec4ee7bb25",
+    "textRange": {
+      "startLine": 28,
+      "endLine": 28,
+      "startOffset": 22,
+      "endOffset": 34
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "sledger9__newhk:temp_repos/newHk/update.py",
+            "textRange": {
+              "startLine": 37,
+              "endLine": 37,
+              "startOffset": 12,
+              "endOffset": 24
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "sledger9__newhk:temp_repos/newHk/update.py",
+            "textRange": {
+              "startLine": 64,
+              "endLine": 64,
+              "startOffset": 68,
+              "endOffset": 80
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal 'config.env' 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T22:19:28+0000",
+    "updateDate": "2026-07-17T22:19:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "49f0f60b-7360-4ca4-bdf1-7434585e2646",
+    "rule": "python:S5754",
+    "severity": "CRITICAL",
+    "component": "sledger9__newhk:temp_repos/newHk/update.py",
+    "project": "sledger9__newhk",
+    "line": 34,
+    "hash": "3e264f5fbab10735799511f21ca70842",
+    "textRange": {
+      "startLine": 34,
+      "endLine": 34,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify an exception class to catch or reraise the exception",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "bad-practice",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T22:19:28+0000",
+    "updateDate": "2026-07-17T22:19:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "978cc086-85ee-4abd-86f8-231e7d90563e",
+    "rule": "python:S5754",
+    "severity": "CRITICAL",
+    "component": "sledger9__newhk:temp_repos/newHk/update.py",
+    "project": "sledger9__newhk",
+    "line": 43,
+    "hash": "3e264f5fbab10735799511f21ca70842",
+    "textRange": {
+      "startLine": 43,
+      "endLine": 43,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify an exception class to catch or reraise the exception",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "bad-practice",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T22:19:28+0000",
+    "updateDate": "2026-07-17T22:19:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

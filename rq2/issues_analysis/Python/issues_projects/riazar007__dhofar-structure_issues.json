@@ -1,0 +1,145 @@
+[
+  {
+    "key": "f3b90ba7-351a-42c7-9ed8-24598bc962d1",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "riazar007__dhofar-structure:temp_repos/Dhofar-Structure/Dockerfile",
+    "project": "riazar007__dhofar-structure",
+    "line": 9,
+    "hash": "d4b97294e0e1382f388f8b8635704643",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "riazar007__dhofar-structure:temp_repos/Dhofar-Structure/Dockerfile",
+            "textRange": {
+              "startLine": 10,
+              "endLine": 10,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:18:58+0000",
+    "updateDate": "2026-07-17T19:18:58+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "67231efd-8c42-422b-a979-1cabda06f86e",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "riazar007__dhofar-structure:temp_repos/Dhofar-Structure/core/settings.py",
+    "project": "riazar007__dhofar-structure",
+    "line": 28,
+    "hash": "1d99c7795171ee7752feb7a22cdcba97",
+    "textRange": {
+      "startLine": 28,
+      "endLine": 28,
+      "startOffset": 70,
+      "endOffset": 71
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused loop index \"i\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:18:58+0000",
+    "updateDate": "2026-07-17T19:18:58+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7d716fc4-1f05-4d9c-851b-8927fede5a41",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "riazar007__dhofar-structure:temp_repos/Dhofar-Structure/core/settings.py",
+    "project": "riazar007__dhofar-structure",
+    "line": 153,
+    "hash": "32930e9e3212967851b2a888e04a92c1",
+    "textRange": {
+      "startLine": 153,
+      "endLine": 153,
+      "startOffset": 0,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:18:58+0000",
+    "updateDate": "2026-07-17T19:18:58+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

@@ -1,0 +1,5317 @@
+[
+  {
+    "key": "30ea1629-07a6-42ee-abb2-36abe5565192",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "joshuac215__agent-service-toolkit:docker/Dockerfile.app",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 10,
+    "hash": "0b9d02dc1c3466ba540a1b1de0ac5260",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:docker/Dockerfile.app",
+            "textRange": {
+              "startLine": 15,
+              "endLine": 15,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ae358bbd-0454-4323-a403-6b960a6e101d",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "joshuac215__agent-service-toolkit:docker/Dockerfile.service",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 10,
+    "hash": "0b9d02dc1c3466ba540a1b1de0ac5260",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:docker/Dockerfile.service",
+            "textRange": {
+              "startLine": 11,
+              "endLine": 11,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bd0b0f70-68ea-416c-8928-2b339d0f5a36",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "joshuac215__agent-service-toolkit:scripts/agui-client/client.mjs",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 14,
+    "hash": "8bb8a4c0bcaa1c529b3164dfb1c2c6ca",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 27,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:crypto` over `crypto`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "11c2db60-cd22-438f-98ba-d4eb8546d584",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "joshuac215__agent-service-toolkit:scripts/e2e_ui_tests.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 145,
+    "hash": "894d4c95e73657240f7feec28f9ee234",
+    "textRange": {
+      "startLine": 145,
+      "endLine": 145,
+      "startOffset": 4,
+      "endOffset": 21
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/e2e_ui_tests.py",
+            "textRange": {
+              "startLine": 160,
+              "endLine": 160,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/e2e_ui_tests.py",
+            "textRange": {
+              "startLine": 164,
+              "endLine": 164,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/e2e_ui_tests.py",
+            "textRange": {
+              "startLine": 164,
+              "endLine": 164,
+              "startOffset": 35,
+              "endOffset": 38
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/e2e_ui_tests.py",
+            "textRange": {
+              "startLine": 166,
+              "endLine": 166,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/e2e_ui_tests.py",
+            "textRange": {
+              "startLine": 166,
+              "endLine": 166,
+              "startOffset": 20,
+              "endOffset": 23
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/e2e_ui_tests.py",
+            "textRange": {
+              "startLine": 167,
+              "endLine": 167,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/e2e_ui_tests.py",
+            "textRange": {
+              "startLine": 168,
+              "endLine": 168,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/e2e_ui_tests.py",
+            "textRange": {
+              "startLine": 168,
+              "endLine": 168,
+              "startOffset": 36,
+              "endOffset": 39
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/e2e_ui_tests.py",
+            "textRange": {
+              "startLine": 170,
+              "endLine": 170,
+              "startOffset": 16,
+              "endOffset": 20
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.",
+    "effort": "9min",
+    "debt": "9min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7ef3535d-4e2d-4e6c-8c8d-29bc4ccc64a1",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "joshuac215__agent-service-toolkit:scripts/e2e_ui_tests.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 180,
+    "hash": "5d288c18d7d46a3ac4bcf4cda4bac1bc",
+    "textRange": {
+      "startLine": 180,
+      "endLine": 180,
+      "startOffset": 17,
+      "endOffset": 46
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/e2e_ui_tests.py",
+            "textRange": {
+              "startLine": 184,
+              "endLine": 184,
+              "startOffset": 23,
+              "endOffset": 52
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/e2e_ui_tests.py",
+            "textRange": {
+              "startLine": 264,
+              "endLine": 264,
+              "startOffset": 26,
+              "endOffset": 55
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/e2e_ui_tests.py",
+            "textRange": {
+              "startLine": 365,
+              "endLine": 365,
+              "startOffset": 23,
+              "endOffset": 52
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal '[data-testid=\"stSelectbox\"]' 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3135d14b-a7ad-42a9-81ab-2533b367df03",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "joshuac215__agent-service-toolkit:scripts/e2e_ui_tests.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 194,
+    "hash": "40900cf21e4dfd7a828c7505bd5c1edd",
+    "textRange": {
+      "startLine": 194,
+      "endLine": 194,
+      "startOffset": 13,
+      "endOffset": 47
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/e2e_ui_tests.py",
+            "textRange": {
+              "startLine": 294,
+              "endLine": 294,
+              "startOffset": 13,
+              "endOffset": 47
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/e2e_ui_tests.py",
+            "textRange": {
+              "startLine": 322,
+              "endLine": 322,
+              "startOffset": 13,
+              "endOffset": 47
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/e2e_ui_tests.py",
+            "textRange": {
+              "startLine": 332,
+              "endLine": 332,
+              "startOffset": 13,
+              "endOffset": 47
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Reply with the single word: pong\" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7cfd6360-fbdc-4aaf-a7c8-2396b0dd0615",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "joshuac215__agent-service-toolkit:scripts/e2e_ui_tests.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 263,
+    "hash": "8c1e4fafc90379e334662bb27f6f5fa0",
+    "textRange": {
+      "startLine": 263,
+      "endLine": 263,
+      "startOffset": 42,
+      "endOffset": 56
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/e2e_ui_tests.py",
+            "textRange": {
+              "startLine": 264,
+              "endLine": 264,
+              "startOffset": 73,
+              "endOffset": 87
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/e2e_ui_tests.py",
+            "textRange": {
+              "startLine": 277,
+              "endLine": 277,
+              "startOffset": 29,
+              "endOffset": 43
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Agent to use\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "271a99b0-16dd-4c31-b1ab-78cd5e565977",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "joshuac215__agent-service-toolkit:scripts/smoke_live_app.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 66,
+    "hash": "0987b568f974b4b87d2c013678467c7b",
+    "textRange": {
+      "startLine": 66,
+      "endLine": 66,
+      "startOffset": 4,
+      "endOffset": 8
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/smoke_live_app.py",
+            "textRange": {
+              "startLine": 67,
+              "endLine": 67,
+              "startOffset": 22,
+              "endOffset": 24
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/smoke_live_app.py",
+            "textRange": {
+              "startLine": 73,
+              "endLine": 73,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/smoke_live_app.py",
+            "textRange": {
+              "startLine": 75,
+              "endLine": 75,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/smoke_live_app.py",
+            "textRange": {
+              "startLine": 89,
+              "endLine": 89,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/smoke_live_app.py",
+            "textRange": {
+              "startLine": 96,
+              "endLine": 96,
+              "startOffset": 67,
+              "endOffset": 69
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/smoke_live_app.py",
+            "textRange": {
+              "startLine": 96,
+              "endLine": 96,
+              "startOffset": 52,
+              "endOffset": 54
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/smoke_live_app.py",
+            "textRange": {
+              "startLine": 106,
+              "endLine": 106,
+              "startOffset": 8,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/smoke_live_app.py",
+            "textRange": {
+              "startLine": 107,
+              "endLine": 107,
+              "startOffset": 24,
+              "endOffset": 26
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/smoke_live_app.py",
+            "textRange": {
+              "startLine": 108,
+              "endLine": 108,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/smoke_live_app.py",
+            "textRange": {
+              "startLine": 108,
+              "endLine": 108,
+              "startOffset": 21,
+              "endOffset": 24
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/smoke_live_app.py",
+            "textRange": {
+              "startLine": 110,
+              "endLine": 110,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/smoke_live_app.py",
+            "textRange": {
+              "startLine": 110,
+              "endLine": 110,
+              "startOffset": 49,
+              "endOffset": 52
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/smoke_live_app.py",
+            "textRange": {
+              "startLine": 111,
+              "endLine": 111,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/smoke_live_app.py",
+            "textRange": {
+              "startLine": 112,
+              "endLine": 112,
+              "startOffset": 24,
+              "endOffset": 26
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/smoke_live_app.py",
+            "textRange": {
+              "startLine": 112,
+              "endLine": 112,
+              "startOffset": 40,
+              "endOffset": 43
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:scripts/smoke_live_app.py",
+            "textRange": {
+              "startLine": 116,
+              "endLine": 116,
+              "startOffset": 20,
+              "endOffset": 24
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 27 to the 15 allowed.",
+    "effort": "17min",
+    "debt": "17min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "650bc11c-f0a6-4722-ba74-440b98b9a331",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "joshuac215__agent-service-toolkit:src/agents/interrupt_agent.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 77,
+    "hash": "93ef78a79514350511f609014dc449c4",
+    "textRange": {
+      "startLine": 77,
+      "endLine": 77,
+      "startOffset": 10,
+      "endOffset": 29
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/agents/interrupt_agent.py",
+            "textRange": {
+              "startLine": 89,
+              "endLine": 89,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/agents/interrupt_agent.py",
+            "textRange": {
+              "startLine": 98,
+              "endLine": 98,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/agents/interrupt_agent.py",
+            "textRange": {
+              "startLine": 99,
+              "endLine": 99,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/agents/interrupt_agent.py",
+            "textRange": {
+              "startLine": 100,
+              "endLine": 100,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/agents/interrupt_agent.py",
+            "textRange": {
+              "startLine": 102,
+              "endLine": 102,
+              "startOffset": 16,
+              "endOffset": 20
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/agents/interrupt_agent.py",
+            "textRange": {
+              "startLine": 105,
+              "endLine": 105,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/agents/interrupt_agent.py",
+            "textRange": {
+              "startLine": 105,
+              "endLine": 105,
+              "startOffset": 25,
+              "endOffset": 28
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/agents/interrupt_agent.py",
+            "textRange": {
+              "startLine": 108,
+              "endLine": 108,
+              "startOffset": 66,
+              "endOffset": 68
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/agents/interrupt_agent.py",
+            "textRange": {
+              "startLine": 117,
+              "endLine": 117,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/agents/interrupt_agent.py",
+            "textRange": {
+              "startLine": 122,
+              "endLine": 122,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/agents/interrupt_agent.py",
+            "textRange": {
+              "startLine": 137,
+              "endLine": 137,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/agents/interrupt_agent.py",
+            "textRange": {
+              "startLine": 147,
+              "endLine": 147,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/agents/interrupt_agent.py",
+            "textRange": {
+              "startLine": 158,
+              "endLine": 158,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/agents/interrupt_agent.py",
+            "textRange": {
+              "startLine": 158,
+              "endLine": 158,
+              "startOffset": 15,
+              "endOffset": 18
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/agents/interrupt_agent.py",
+            "textRange": {
+              "startLine": 160,
+              "endLine": 160,
+              "startOffset": 46,
+              "endOffset": 48
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/agents/interrupt_agent.py",
+            "textRange": {
+              "startLine": 163,
+              "endLine": 163,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.",
+    "effort": "18min",
+    "debt": "18min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "559d23f8-2f9d-4fc5-a31a-b338f8e44033",
+    "rule": "python:S2772",
+    "severity": "MINOR",
+    "component": "joshuac215__agent-service-toolkit:src/agents/interrupt_agent.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 121,
+    "hash": "1a1dc91c907325c69271ddf0c944bc72",
+    "textRange": {
+      "startLine": 121,
+      "endLine": 121,
+      "startOffset": 12,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unneeded \"pass\".",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "314fe383-e8a4-481a-89ed-f5320a792b26",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "joshuac215__agent-service-toolkit:src/agents/knowledge_base_agent.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 124,
+    "hash": "4be5b364b91af49d7e42c006d82ef460",
+    "textRange": {
+      "startLine": 124,
+      "endLine": 124,
+      "startOffset": 10,
+      "endOffset": 34
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/agents/knowledge_base_agent.py",
+            "textRange": {
+              "startLine": 124,
+              "endLine": 124,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "289656d8-8fd1-4376-8250-2f67831373cc",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "joshuac215__agent-service-toolkit:src/agents/rag_assistant.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 90,
+    "hash": "e62adfb638f23e9d284ee97e7026a5cf",
+    "textRange": {
+      "startLine": 90,
+      "endLine": 90,
+      "startOffset": 10,
+      "endOffset": 30
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/agents/rag_assistant.py",
+            "textRange": {
+              "startLine": 90,
+              "endLine": 90,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cdee820d-9de2-49eb-b053-c34a4e0d0c9f",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "joshuac215__agent-service-toolkit:src/agents/research_assistant.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 94,
+    "hash": "e62adfb638f23e9d284ee97e7026a5cf",
+    "textRange": {
+      "startLine": 94,
+      "endLine": 94,
+      "startOffset": 10,
+      "endOffset": 30
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/agents/research_assistant.py",
+            "textRange": {
+              "startLine": 94,
+              "endLine": 94,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "147f1862-3fba-4d3e-b567-603f1eb4f6a4",
+    "rule": "python:S5713",
+    "severity": "MINOR",
+    "component": "joshuac215__agent-service-toolkit:src/agents/safeguard.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 86,
+    "hash": "395ae2a7f5c45641c351a12676221e9b",
+    "textRange": {
+      "startLine": 86,
+      "endLine": 86,
+      "startOffset": 12,
+      "endOffset": 32
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/agents/safeguard.py",
+            "textRange": {
+              "startLine": 86,
+              "endLine": 86,
+              "startOffset": 44,
+              "endOffset": 54
+            },
+            "msg": "Parent class.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Remove this redundant Exception class; it derives from another which is already caught.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "bad-practice",
+      "unused"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a1257e18-7f8b-49dd-b016-018b88728c38",
+    "rule": "python:S5850",
+    "severity": "MAJOR",
+    "component": "joshuac215__agent-service-toolkit:src/agents/tools.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 33,
+    "hash": "c7d1292eceebca76ccd0a678e4d73e21",
+    "textRange": {
+      "startLine": 33,
+      "endLine": 33,
+      "startOffset": 24,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Group parts of the regex together to make the intended operator precedence explicit.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "regex"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "96886688-8d37-4a23-8d67-e4abd3a71cf7",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "joshuac215__agent-service-toolkit:src/client/client.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 108,
+    "hash": "9086c30af52a84813d3714f1ffaf0e4b",
+    "textRange": {
+      "startLine": 108,
+      "endLine": 108,
+      "startOffset": 35,
+      "endOffset": 94
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/client/client.py",
+            "textRange": {
+              "startLine": 154,
+              "endLine": 154,
+              "startOffset": 35,
+              "endOffset": 94
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/client/client.py",
+            "textRange": {
+              "startLine": 231,
+              "endLine": 231,
+              "startOffset": 35,
+              "endOffset": 94
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/client/client.py",
+            "textRange": {
+              "startLine": 288,
+              "endLine": 288,
+              "startOffset": 35,
+              "endOffset": 94
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"No agent selected. Use update_agent() to select an agent.\" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "549cce59-42da-488b-8712-f702bfa5b22a",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "joshuac215__agent-service-toolkit:src/client/client.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 186,
+    "hash": "184baa9ab70af84af737d4595299c008",
+    "textRange": {
+      "startLine": 186,
+      "endLine": 186,
+      "startOffset": 22,
+      "endOffset": 79
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2316dbed-f8f2-4064-b7d9-7f06b94e26c0",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "joshuac215__agent-service-toolkit:src/client/client.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 193,
+    "hash": "9488c6dc11287be4fd1406a2d6082f13",
+    "textRange": {
+      "startLine": 193,
+      "endLine": 193,
+      "startOffset": 30,
+      "endOffset": 80
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c496cd44-37b0-467d-803a-690fed0cafc9",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "joshuac215__agent-service-toolkit:src/core/llm.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 67,
+    "hash": "e3c754896d71ce1db69d7ddc707c5507",
+    "textRange": {
+      "startLine": 67,
+      "endLine": 67,
+      "startOffset": 4,
+      "endOffset": 13
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/llm.py",
+            "textRange": {
+              "startLine": 71,
+              "endLine": 71,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/llm.py",
+            "textRange": {
+              "startLine": 74,
+              "endLine": 74,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/llm.py",
+            "textRange": {
+              "startLine": 76,
+              "endLine": 76,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/llm.py",
+            "textRange": {
+              "startLine": 77,
+              "endLine": 77,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/llm.py",
+            "textRange": {
+              "startLine": 77,
+              "endLine": 77,
+              "startOffset": 44,
+              "endOffset": 46
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/llm.py",
+            "textRange": {
+              "startLine": 87,
+              "endLine": 87,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/llm.py",
+            "textRange": {
+              "startLine": 88,
+              "endLine": 88,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/llm.py",
+            "textRange": {
+              "startLine": 88,
+              "endLine": 88,
+              "startOffset": 45,
+              "endOffset": 47
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/llm.py",
+            "textRange": {
+              "startLine": 100,
+              "endLine": 100,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/llm.py",
+            "textRange": {
+              "startLine": 108,
+              "endLine": 108,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/llm.py",
+            "textRange": {
+              "startLine": 109,
+              "endLine": 109,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/llm.py",
+            "textRange": {
+              "startLine": 115,
+              "endLine": 115,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/llm.py",
+            "textRange": {
+              "startLine": 117,
+              "endLine": 117,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/llm.py",
+            "textRange": {
+              "startLine": 119,
+              "endLine": 119,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/llm.py",
+            "textRange": {
+              "startLine": 120,
+              "endLine": 120,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/llm.py",
+            "textRange": {
+              "startLine": 123,
+              "endLine": 123,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/llm.py",
+            "textRange": {
+              "startLine": 124,
+              "endLine": 124,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/llm.py",
+            "textRange": {
+              "startLine": 128,
+              "endLine": 128,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/llm.py",
+            "textRange": {
+              "startLine": 129,
+              "endLine": 129,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/llm.py",
+            "textRange": {
+              "startLine": 133,
+              "endLine": 133,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/llm.py",
+            "textRange": {
+              "startLine": 136,
+              "endLine": 136,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/llm.py",
+            "textRange": {
+              "startLine": 144,
+              "endLine": 144,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.",
+    "effort": "18min",
+    "debt": "18min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e26936eb-4126-44d0-a6ac-7d48402da144",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "joshuac215__agent-service-toolkit:src/core/settings.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 155,
+    "hash": "5f10de77a912ccbf87aaa3feb720d9a5",
+    "textRange": {
+      "startLine": 155,
+      "endLine": 155,
+      "startOffset": 8,
+      "endOffset": 23
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/settings.py",
+            "textRange": {
+              "startLine": 158,
+              "endLine": 158,
+              "startOffset": 65,
+              "endOffset": 68
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/settings.py",
+            "textRange": {
+              "startLine": 171,
+              "endLine": 171,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/settings.py",
+            "textRange": {
+              "startLine": 175,
+              "endLine": 175,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/settings.py",
+            "textRange": {
+              "startLine": 175,
+              "endLine": 175,
+              "startOffset": 31,
+              "endOffset": 34
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/settings.py",
+            "textRange": {
+              "startLine": 178,
+              "endLine": 178,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/settings.py",
+            "textRange": {
+              "startLine": 181,
+              "endLine": 181,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/settings.py",
+            "textRange": {
+              "startLine": 185,
+              "endLine": 185,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/settings.py",
+            "textRange": {
+              "startLine": 189,
+              "endLine": 189,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/settings.py",
+            "textRange": {
+              "startLine": 193,
+              "endLine": 193,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/settings.py",
+            "textRange": {
+              "startLine": 197,
+              "endLine": 197,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/settings.py",
+            "textRange": {
+              "startLine": 201,
+              "endLine": 201,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/settings.py",
+            "textRange": {
+              "startLine": 205,
+              "endLine": 205,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/settings.py",
+            "textRange": {
+              "startLine": 209,
+              "endLine": 209,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/settings.py",
+            "textRange": {
+              "startLine": 213,
+              "endLine": 213,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/settings.py",
+            "textRange": {
+              "startLine": 217,
+              "endLine": 217,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/settings.py",
+            "textRange": {
+              "startLine": 221,
+              "endLine": 221,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/settings.py",
+            "textRange": {
+              "startLine": 225,
+              "endLine": 225,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/settings.py",
+            "textRange": {
+              "startLine": 229,
+              "endLine": 229,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/settings.py",
+            "textRange": {
+              "startLine": 231,
+              "endLine": 231,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/settings.py",
+            "textRange": {
+              "startLine": 233,
+              "endLine": 233,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/settings.py",
+            "textRange": {
+              "startLine": 237,
+              "endLine": 237,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/settings.py",
+            "textRange": {
+              "startLine": 242,
+              "endLine": 242,
+              "startOffset": 24,
+              "endOffset": 30
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/core/settings.py",
+            "textRange": {
+              "startLine": 248,
+              "endLine": 248,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 60 to the 15 allowed.",
+    "effort": "50min",
+    "debt": "50min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8c150693-3f0e-42a5-9d36-3ded35447660",
+    "rule": "python:S1135",
+    "severity": "INFO",
+    "component": "joshuac215__agent-service-toolkit:src/memory/__init__.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 35,
+    "hash": "3ba538bee17a6174ca27f1935072d131",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 4,
+      "endOffset": 79
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e917c368-6849-4b10-9c38-b7ccadec972c",
+    "rule": "python:S5806",
+    "severity": "MAJOR",
+    "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 173,
+    "hash": "4926e12e872398a0fa9c3401f54ebf3c",
+    "textRange": {
+      "startLine": 173,
+      "endLine": 173,
+      "startOffset": 8,
+      "endOffset": 13
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 175,
+              "endLine": 175,
+              "startOffset": 8,
+              "endOffset": 13
+            },
+            "msg": "Variable also assigned here.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Rename this variable; it shadows a builtin.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "confusing",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5faa5e02-75ae-48b2-b93d-f63a824466d0",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 226,
+    "hash": "5e44ce8ad49e1be3d0b60fc81f41bdd6",
+    "textRange": {
+      "startLine": 226,
+      "endLine": 226,
+      "startOffset": 10,
+      "endOffset": 27
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 239,
+              "endLine": 239,
+              "startOffset": 14,
+              "endOffset": 17
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 242,
+              "endLine": 242,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 245,
+              "endLine": 245,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 248,
+              "endLine": 248,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 252,
+              "endLine": 252,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 253,
+              "endLine": 253,
+              "startOffset": 16,
+              "endOffset": 19
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 257,
+              "endLine": 257,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 259,
+              "endLine": 259,
+              "startOffset": 24,
+              "endOffset": 27
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 262,
+              "endLine": 262,
+              "startOffset": 38,
+              "endOffset": 40
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 265,
+              "endLine": 265,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 265,
+              "endLine": 265,
+              "startOffset": 44,
+              "endOffset": 46
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 267,
+              "endLine": 267,
+              "startOffset": 24,
+              "endOffset": 26
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 268,
+              "endLine": 268,
+              "startOffset": 28,
+              "endOffset": 30
+            },
+            "msg": "+6 (incl 5 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 268,
+              "endLine": 268,
+              "startOffset": 51,
+              "endOffset": 54
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 271,
+              "endLine": 271,
+              "startOffset": 28,
+              "endOffset": 32
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 274,
+              "endLine": 274,
+              "startOffset": 24,
+              "endOffset": 28
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 278,
+              "endLine": 278,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 287,
+              "endLine": 287,
+              "startOffset": 12,
+              "endOffset": 15
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 288,
+              "endLine": 288,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 292,
+              "endLine": 292,
+              "startOffset": 16,
+              "endOffset": 20
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 294,
+              "endLine": 294,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 300,
+              "endLine": 300,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 303,
+              "endLine": 303,
+              "startOffset": 12,
+              "endOffset": 15
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 307,
+              "endLine": 307,
+              "startOffset": 16,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 312,
+              "endLine": 312,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 312,
+              "endLine": 312,
+              "startOffset": 48,
+              "endOffset": 51
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 316,
+              "endLine": 316,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 317,
+              "endLine": 317,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 320,
+              "endLine": 320,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 324,
+              "endLine": 324,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 327,
+              "endLine": 327,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/service/service.py",
+            "textRange": {
+              "startLine": 332,
+              "endLine": 332,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 78 to the 15 allowed.",
+    "effort": "1h8min",
+    "debt": "1h8min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c8ee3312-f30c-448c-b230-acfd4ce24f5c",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 56,
+    "hash": "e129f611f60ac7f6119e411f40f9465d",
+    "textRange": {
+      "startLine": 56,
+      "endLine": 56,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 75,
+              "endLine": 75,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 83,
+              "endLine": 83,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 86,
+              "endLine": 86,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 93,
+              "endLine": 93,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 100,
+              "endLine": 100,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 104,
+              "endLine": 104,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 106,
+              "endLine": 106,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 109,
+              "endLine": 109,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 112,
+              "endLine": 112,
+              "startOffset": 56,
+              "endOffset": 58
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 117,
+              "endLine": 117,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 134,
+              "endLine": 134,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 138,
+              "endLine": 138,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 160,
+              "endLine": 160,
+              "startOffset": 35,
+              "endOffset": 37
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 162,
+              "endLine": 162,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 162,
+              "endLine": 162,
+              "startOffset": 29,
+              "endOffset": 31
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 166,
+              "endLine": 166,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 185,
+              "endLine": 185,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 197,
+              "endLine": 197,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 211,
+              "endLine": 211,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 222,
+              "endLine": 222,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 241,
+              "endLine": 241,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 248,
+              "endLine": 248,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 254,
+              "endLine": 254,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 264,
+              "endLine": 264,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 266,
+              "endLine": 266,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 269,
+              "endLine": 269,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 273,
+              "endLine": 273,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 284,
+              "endLine": 284,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 284,
+              "endLine": 284,
+              "startOffset": 42,
+              "endOffset": 45
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 287,
+              "endLine": 287,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 287,
+              "endLine": 287,
+              "startOffset": 45,
+              "endOffset": 48
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 294,
+              "endLine": 294,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 304,
+              "endLine": 304,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 304,
+              "endLine": 304,
+              "startOffset": 29,
+              "endOffset": 32
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 306,
+              "endLine": 306,
+              "startOffset": 20,
+              "endOffset": 24
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 309,
+              "endLine": 309,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 314,
+              "endLine": 314,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 314,
+              "endLine": 314,
+              "startOffset": 25,
+              "endOffset": 28
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 55 to the 15 allowed.",
+    "effort": "45min",
+    "debt": "45min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dc7eb81c-0f82-4a2f-9361-0d4a54abe1cc",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 319,
+    "hash": "42624802b77c5e7da450bd71f4307b52",
+    "textRange": {
+      "startLine": 319,
+      "endLine": 319,
+      "startOffset": 10,
+      "endOffset": 23
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 350,
+              "endLine": 350,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 352,
+              "endLine": 352,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 355,
+              "endLine": 355,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 356,
+              "endLine": 356,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 365,
+              "endLine": 365,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 380,
+              "endLine": 380,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 384,
+              "endLine": 384,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 391,
+              "endLine": 391,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 392,
+              "endLine": 392,
+              "startOffset": 24,
+              "endOffset": 26
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 396,
+              "endLine": 396,
+              "startOffset": 24,
+              "endOffset": 28
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 399,
+              "endLine": 399,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 404,
+              "endLine": 404,
+              "startOffset": 24,
+              "endOffset": 27
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 406,
+              "endLine": 406,
+              "startOffset": 28,
+              "endOffset": 30
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 408,
+              "endLine": 408,
+              "startOffset": 28,
+              "endOffset": 32
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 413,
+              "endLine": 413,
+              "startOffset": 48,
+              "endOffset": 50
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 418,
+              "endLine": 418,
+              "startOffset": 24,
+              "endOffset": 27
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 419,
+              "endLine": 419,
+              "startOffset": 28,
+              "endOffset": 30
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 431,
+              "endLine": 431,
+              "startOffset": 28,
+              "endOffset": 30
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 438,
+              "endLine": 438,
+              "startOffset": 28,
+              "endOffset": 30
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 440,
+              "endLine": 440,
+              "startOffset": 28,
+              "endOffset": 30
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 453,
+              "endLine": 453,
+              "startOffset": 16,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 458,
+              "endLine": 458,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 461,
+              "endLine": 461,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 77 to the 15 allowed.",
+    "effort": "1h7min",
+    "debt": "1h7min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "66596fbb-1a26-464f-9bb1-bae05f4e59e7",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 508,
+    "hash": "07eb249cdb42850de2618087950fdbc6",
+    "textRange": {
+      "startLine": 508,
+      "endLine": 508,
+      "startOffset": 10,
+      "endOffset": 31
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 525,
+              "endLine": 525,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 529,
+              "endLine": 529,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 537,
+              "endLine": 537,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 541,
+              "endLine": 541,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 541,
+              "endLine": 541,
+              "startOffset": 34,
+              "endOffset": 37
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 548,
+              "endLine": 548,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 551,
+              "endLine": 551,
+              "startOffset": 12,
+              "endOffset": 15
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 554,
+              "endLine": 554,
+              "startOffset": 12,
+              "endOffset": 15
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 555,
+              "endLine": 555,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 558,
+              "endLine": 558,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 562,
+              "endLine": 562,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 567,
+              "endLine": 567,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 568,
+              "endLine": 568,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 571,
+              "endLine": 571,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 571,
+              "endLine": 571,
+              "startOffset": 46,
+              "endOffset": 49
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 572,
+              "endLine": 572,
+              "startOffset": 16,
+              "endOffset": 19
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 574,
+              "endLine": 574,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 578,
+              "endLine": 578,
+              "startOffset": 44,
+              "endOffset": 46
+            },
+            "msg": "+6 (incl 5 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:src/streamlit_app.py",
+            "textRange": {
+              "startLine": 584,
+              "endLine": 584,
+              "startOffset": 20,
+              "endOffset": 24
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 50 to the 15 allowed.",
+    "effort": "40min",
+    "debt": "40min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5be50cb4-7b2d-4c53-a918-a8080565f771",
+    "rule": "python:S1854",
+    "severity": "MAJOR",
+    "component": "joshuac215__agent-service-toolkit:tests/app/test_streamlit_app.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 78,
+    "hash": "83efa43d05082c90913127c41d7b28e9",
+    "textRange": {
+      "startLine": 78,
+      "endLine": 78,
+      "startOffset": 4,
+      "endOffset": 62
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:tests/app/test_streamlit_app.py",
+            "textRange": {
+              "startLine": 81,
+              "endLine": 81,
+              "startOffset": 4,
+              "endOffset": 56
+            },
+            "msg": "'at' is reassigned here.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Remove this assignment to local variable 'at'; the value is never used.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cf6f0f70-6ee1-4961-873b-393f580ed869",
+    "rule": "python:S1244",
+    "severity": "MAJOR",
+    "component": "joshuac215__agent-service-toolkit:tests/client/test_client.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 27,
+    "hash": "82f6352047a42508ce922f1bc13e71c1",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 11,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not perform equality checks with floating point values.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pytorch",
+      "data-science",
+      "numpy",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ba00e6bb-0004-4bc6-8a49-90f72a3434b8",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "joshuac215__agent-service-toolkit:tests/client/test_client.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 71,
+    "hash": "d072128e6658473c77b85ff8036d99f3",
+    "textRange": {
+      "startLine": 71,
+      "endLine": 71,
+      "startOffset": 8,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused local variable \"args\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "df9339e1-4d48-4245-bd8a-ef02cd6f8ef1",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "joshuac215__agent-service-toolkit:tests/client/test_client.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 110,
+    "hash": "d072128e6658473c77b85ff8036d99f3",
+    "textRange": {
+      "startLine": 110,
+      "endLine": 110,
+      "startOffset": 8,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused local variable \"args\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dccd8cba-d2ad-4c15-8aa2-1907d6e777dc",
+    "rule": "python:S108",
+    "severity": "MAJOR",
+    "component": "joshuac215__agent-service-toolkit:tests/client/test_client.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 236,
+    "hash": "1a1dc91c907325c69271ddf0c944bc72",
+    "textRange": {
+      "startLine": 236,
+      "endLine": 236,
+      "startOffset": 16,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Either remove or fill this block of code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7e9d68d6-0acb-456e-aae8-4b9e3db8aff7",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "joshuac215__agent-service-toolkit:tests/client/test_client.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 253,
+    "hash": "d072128e6658473c77b85ff8036d99f3",
+    "textRange": {
+      "startLine": 253,
+      "endLine": 253,
+      "startOffset": 8,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused local variable \"args\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d40b249a-e6b5-477c-8944-410a98a8b53d",
+    "rule": "python:S1244",
+    "severity": "MAJOR",
+    "component": "joshuac215__agent-service-toolkit:tests/client/test_client.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 256,
+    "hash": "098c41446e7418477bdb15bec6989bc5",
+    "textRange": {
+      "startLine": 256,
+      "endLine": 256,
+      "startOffset": 15,
+      "endOffset": 47
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not perform equality checks with floating point values.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pytorch",
+      "data-science",
+      "numpy",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d369462a-568e-4b71-b056-0162045f3801",
+    "rule": "python:S1244",
+    "severity": "MAJOR",
+    "component": "joshuac215__agent-service-toolkit:tests/core/test_llm.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 34,
+    "hash": "ce1f6e071acbdb646c300c9fa2f036d5",
+    "textRange": {
+      "startLine": 34,
+      "endLine": 34,
+      "startOffset": 15,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not perform equality checks with floating point values.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pytorch",
+      "data-science",
+      "numpy",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4cb2ed9d-a362-49d0-8121-cf9ed6a44959",
+    "rule": "python:S1244",
+    "severity": "MAJOR",
+    "component": "joshuac215__agent-service-toolkit:tests/core/test_llm.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 53,
+    "hash": "ce1f6e071acbdb646c300c9fa2f036d5",
+    "textRange": {
+      "startLine": 53,
+      "endLine": 53,
+      "startOffset": 15,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not perform equality checks with floating point values.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pytorch",
+      "data-science",
+      "numpy",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1b114f20-328a-46bf-a29b-0ecdfd9a997d",
+    "rule": "python:S1244",
+    "severity": "MAJOR",
+    "component": "joshuac215__agent-service-toolkit:tests/core/test_llm.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 70,
+    "hash": "ce1f6e071acbdb646c300c9fa2f036d5",
+    "textRange": {
+      "startLine": 70,
+      "endLine": 70,
+      "startOffset": 15,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not perform equality checks with floating point values.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pytorch",
+      "data-science",
+      "numpy",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "86d1c020-0ecb-4452-8ed2-6c36c2f26ce7",
+    "rule": "python:S1244",
+    "severity": "MAJOR",
+    "component": "joshuac215__agent-service-toolkit:tests/core/test_llm.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 78,
+    "hash": "ce1f6e071acbdb646c300c9fa2f036d5",
+    "textRange": {
+      "startLine": 78,
+      "endLine": 78,
+      "startOffset": 15,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not perform equality checks with floating point values.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pytorch",
+      "data-science",
+      "numpy",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "38273490-6194-410f-a11c-a81282be1c2f",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "joshuac215__agent-service-toolkit:tests/service/test_agui.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 37,
+    "hash": "d6fca17317793abe1678178a3bb130a2",
+    "textRange": {
+      "startLine": 37,
+      "endLine": 37,
+      "startOffset": 10,
+      "endOffset": 19
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:tests/service/test_agui.py",
+            "textRange": {
+              "startLine": 37,
+              "endLine": 37,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d66b4762-2a98-4f93-84ef-4ad5a303f656",
+    "rule": "python:S1244",
+    "severity": "MAJOR",
+    "component": "joshuac215__agent-service-toolkit:tests/service/test_service.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 131,
+    "hash": "ea8e2294abd653fc00e8c56404caca47",
+    "textRange": {
+      "startLine": 131,
+      "endLine": 131,
+      "startOffset": 11,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not perform equality checks with floating point values.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pytorch",
+      "data-science",
+      "numpy",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3bce395b-bdc1-4bdd-b45a-bdb8c9a89407",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "joshuac215__agent-service-toolkit:tests/service/test_service_e2e.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 71,
+    "hash": "85d1ec18227b3a31f975862952705f07",
+    "textRange": {
+      "startLine": 71,
+      "endLine": 71,
+      "startOffset": 10,
+      "endOffset": 25
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:tests/service/test_service_e2e.py",
+            "textRange": {
+              "startLine": 71,
+              "endLine": 71,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8b82332f-b117-4531-ba9b-88122779e072",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "joshuac215__agent-service-toolkit:tests/service/test_service_lifespan.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 19,
+    "hash": "74dd1caf11a4569575305261d87b7251",
+    "textRange": {
+      "startLine": 19,
+      "endLine": 19,
+      "startOffset": 18,
+      "endOffset": 23
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:tests/service/test_service_lifespan.py",
+            "textRange": {
+              "startLine": 19,
+              "endLine": 19,
+              "startOffset": 8,
+              "endOffset": 13
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8cf84387-e9e9-4fa1-a1ef-eee34fdc59ae",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "joshuac215__agent-service-toolkit:tests/service/test_service_lifespan.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 24,
+    "hash": "74dd1caf11a4569575305261d87b7251",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 18,
+      "endOffset": 23
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:tests/service/test_service_lifespan.py",
+            "textRange": {
+              "startLine": 24,
+              "endLine": 24,
+              "startOffset": 8,
+              "endOffset": 13
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ad9be757-644b-4fbc-b3f9-b0864c339e4c",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "joshuac215__agent-service-toolkit:tests/service/test_service_lifespan.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 44,
+    "hash": "8e156f82178bc1bd603d8fb285c4ee1b",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 44,
+      "startOffset": 14,
+      "endOffset": 29
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "joshuac215__agent-service-toolkit:tests/service/test_service_lifespan.py",
+            "textRange": {
+              "startLine": 44,
+              "endLine": 44,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f4ba2d20-a039-46a0-81e3-8804b7540eb1",
+    "rule": "python:S108",
+    "severity": "MAJOR",
+    "component": "joshuac215__agent-service-toolkit:tests/service/test_service_lifespan.py",
+    "project": "joshuac215__agent-service-toolkit",
+    "line": 67,
+    "hash": "1a1dc91c907325c69271ddf0c944bc72",
+    "textRange": {
+      "startLine": 67,
+      "endLine": 67,
+      "startOffset": 8,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Either remove or fill this block of code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T14:26:42+0000",
+    "updateDate": "2026-07-20T14:26:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

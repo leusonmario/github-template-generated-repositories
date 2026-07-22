@@ -1,0 +1,663 @@
+[
+  {
+    "key": "50bdbf5d-accc-40cb-8ed0-a990f8646b66",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "amirolimi__ml_ds_jun:temp_repos/ML_DS_Jun/streamlit_app.py",
+    "project": "amirolimi__ml_ds_jun",
+    "line": 22,
+    "hash": "d325ab4da11bc5ab0890be691e3af03e",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 9,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused local variable \"ax\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T22:10:55+0000",
+    "updateDate": "2026-07-17T22:10:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bd28b61c-08b6-48da-92b3-81b00cf9a9fb",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "amirolimi__ml_ds_jun:temp_repos/ML_DS_Jun/streamlit_app.py",
+    "project": "amirolimi__ml_ds_jun",
+    "line": 23,
+    "hash": "3c4f795df28f69ae8a82fa65cff83397",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 79,
+      "endOffset": 88
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "amirolimi__ml_ds_jun:temp_repos/ML_DS_Jun/streamlit_app.py",
+            "textRange": {
+              "startLine": 23,
+              "endLine": 23,
+              "startOffset": 115,
+              "endOffset": 124
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "amirolimi__ml_ds_jun:temp_repos/ML_DS_Jun/streamlit_app.py",
+            "textRange": {
+              "startLine": 180,
+              "endLine": 180,
+              "startOffset": 79,
+              "endOffset": 88
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "amirolimi__ml_ds_jun:temp_repos/ML_DS_Jun/streamlit_app.py",
+            "textRange": {
+              "startLine": 180,
+              "endLine": 180,
+              "startOffset": 115,
+              "endOffset": 124
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Class 1\" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T22:10:55+0000",
+    "updateDate": "2026-07-17T22:10:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f68ba4f5-88ca-4fca-972a-fa16ef3cc572",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "amirolimi__ml_ds_jun:temp_repos/ML_DS_Jun/streamlit_app.py",
+    "project": "amirolimi__ml_ds_jun",
+    "line": 23,
+    "hash": "3c4f795df28f69ae8a82fa65cff83397",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 68,
+      "endOffset": 77
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "amirolimi__ml_ds_jun:temp_repos/ML_DS_Jun/streamlit_app.py",
+            "textRange": {
+              "startLine": 23,
+              "endLine": 23,
+              "startOffset": 104,
+              "endOffset": 113
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "amirolimi__ml_ds_jun:temp_repos/ML_DS_Jun/streamlit_app.py",
+            "textRange": {
+              "startLine": 180,
+              "endLine": 180,
+              "startOffset": 68,
+              "endOffset": 77
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "amirolimi__ml_ds_jun:temp_repos/ML_DS_Jun/streamlit_app.py",
+            "textRange": {
+              "startLine": 180,
+              "endLine": 180,
+              "startOffset": 104,
+              "endOffset": 113
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Class 0\" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T22:10:55+0000",
+    "updateDate": "2026-07-17T22:10:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b0f7b30c-a294-461f-bc39-55e446888bd6",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "amirolimi__ml_ds_jun:temp_repos/ML_DS_Jun/streamlit_app.py",
+    "project": "amirolimi__ml_ds_jun",
+    "line": 34,
+    "hash": "ba48c2f58c7cab4c531ce1d46e85a820",
+    "textRange": {
+      "startLine": 34,
+      "endLine": 34,
+      "startOffset": 40,
+      "endOffset": 61
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "amirolimi__ml_ds_jun:temp_repos/ML_DS_Jun/streamlit_app.py",
+            "textRange": {
+              "startLine": 127,
+              "endLine": 127,
+              "startOffset": 25,
+              "endOffset": 46
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "amirolimi__ml_ds_jun:temp_repos/ML_DS_Jun/streamlit_app.py",
+            "textRange": {
+              "startLine": 189,
+              "endLine": 189,
+              "startOffset": 40,
+              "endOffset": 61
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"K-Nearest Neighbors\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T22:10:55+0000",
+    "updateDate": "2026-07-17T22:10:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ac517a43-8d07-4995-b358-bb527d171767",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "amirolimi__ml_ds_jun:temp_repos/ML_DS_Jun/streamlit_app.py",
+    "project": "amirolimi__ml_ds_jun",
+    "line": 35,
+    "hash": "d08859cf87cecdb82b183b79daae06c0",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 44,
+      "endOffset": 65
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "amirolimi__ml_ds_jun:temp_repos/ML_DS_Jun/streamlit_app.py",
+            "textRange": {
+              "startLine": 127,
+              "endLine": 127,
+              "startOffset": 59,
+              "endOffset": 80
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "amirolimi__ml_ds_jun:temp_repos/ML_DS_Jun/streamlit_app.py",
+            "textRange": {
+              "startLine": 169,
+              "endLine": 169,
+              "startOffset": 33,
+              "endOffset": 54
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "amirolimi__ml_ds_jun:temp_repos/ML_DS_Jun/streamlit_app.py",
+            "textRange": {
+              "startLine": 190,
+              "endLine": 190,
+              "startOffset": 44,
+              "endOffset": 65
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Logistic Regression\" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T22:10:55+0000",
+    "updateDate": "2026-07-17T22:10:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "70646606-a3ca-4cf7-9c54-dd673c01345f",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "amirolimi__ml_ds_jun:temp_repos/ML_DS_Jun/streamlit_app.py",
+    "project": "amirolimi__ml_ds_jun",
+    "line": 36,
+    "hash": "d2042cb519f916bcacccf8c9eecf4b23",
+    "textRange": {
+      "startLine": 36,
+      "endLine": 36,
+      "startOffset": 40,
+      "endOffset": 55
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "amirolimi__ml_ds_jun:temp_repos/ML_DS_Jun/streamlit_app.py",
+            "textRange": {
+              "startLine": 127,
+              "endLine": 127,
+              "startOffset": 89,
+              "endOffset": 104
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "amirolimi__ml_ds_jun:temp_repos/ML_DS_Jun/streamlit_app.py",
+            "textRange": {
+              "startLine": 169,
+              "endLine": 169,
+              "startOffset": 56,
+              "endOffset": 71
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "amirolimi__ml_ds_jun:temp_repos/ML_DS_Jun/streamlit_app.py",
+            "textRange": {
+              "startLine": 191,
+              "endLine": 191,
+              "startOffset": 40,
+              "endOffset": 55
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Decision Tree\" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T22:10:55+0000",
+    "updateDate": "2026-07-17T22:10:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "94b142ec-1b06-42bc-ae19-c6b9c9d00115",
+    "rule": "python:S6973",
+    "severity": "MAJOR",
+    "component": "amirolimi__ml_ds_jun:temp_repos/ML_DS_Jun/streamlit_app.py",
+    "project": "amirolimi__ml_ds_jun",
+    "line": 108,
+    "hash": "8b877eb13d484e2cfe5bdaae9918416a",
+    "textRange": {
+      "startLine": 108,
+      "endLine": 108,
+      "startOffset": 10,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add the missing hyperparameter ccp_alpha for this Scikit-learn estimator.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "machine-learning",
+      "scikit-learn",
+      "pytorch"
+    ],
+    "creationDate": "2026-07-17T22:10:55+0000",
+    "updateDate": "2026-07-17T22:10:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e62f0a25-23b1-491b-92ed-4cb5749cb7a1",
+    "rule": "python:S6709",
+    "severity": "MAJOR",
+    "component": "amirolimi__ml_ds_jun:temp_repos/ML_DS_Jun/streamlit_app.py",
+    "project": "amirolimi__ml_ds_jun",
+    "line": 108,
+    "hash": "8b877eb13d484e2cfe5bdaae9918416a",
+    "textRange": {
+      "startLine": 108,
+      "endLine": 108,
+      "startOffset": 10,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Provide a seed for the random_state parameter.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "scientific-computing",
+      "data-science",
+      "numpy"
+    ],
+    "creationDate": "2026-07-17T22:10:55+0000",
+    "updateDate": "2026-07-17T22:10:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c1f071ef-47e5-42d7-b2e1-f18eaca2c165",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "amirolimi__ml_ds_jun:temp_repos/ML_DS_Jun/streamlit_app.py",
+    "project": "amirolimi__ml_ds_jun",
+    "line": 126,
+    "hash": "8881cb81c69d705035138c4b349f3768",
+    "textRange": {
+      "startLine": 126,
+      "endLine": 126,
+      "startOffset": 4,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused local variable \"fig\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T22:10:55+0000",
+    "updateDate": "2026-07-17T22:10:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "43bc769e-54fd-4d3d-8965-5f3532f87dc2",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "amirolimi__ml_ds_jun:temp_repos/ML_DS_Jun/streamlit_app.py",
+    "project": "amirolimi__ml_ds_jun",
+    "line": 179,
+    "hash": "d325ab4da11bc5ab0890be691e3af03e",
+    "textRange": {
+      "startLine": 179,
+      "endLine": 179,
+      "startOffset": 9,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused local variable \"ax\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T22:10:55+0000",
+    "updateDate": "2026-07-17T22:10:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

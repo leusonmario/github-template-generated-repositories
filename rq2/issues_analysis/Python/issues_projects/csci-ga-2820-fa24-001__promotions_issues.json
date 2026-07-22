@@ -1,0 +1,1608 @@
+[
+  {
+    "key": "7bc6f2f8-9d69-448b-99ce-a7023b3e9566",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/features/steps/web_steps.py",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 207,
+    "hash": "39d461e9eaedd38d32f7cbb81bdbb04a",
+    "textRange": {
+      "startLine": 207,
+      "endLine": 207,
+      "startOffset": 50,
+      "endOffset": 69
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/features/steps/web_steps.py",
+            "textRange": {
+              "startLine": 208,
+              "endLine": 208,
+              "startOffset": 46,
+              "endOffset": 65
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/features/steps/web_steps.py",
+            "textRange": {
+              "startLine": 215,
+              "endLine": 215,
+              "startOffset": 51,
+              "endOffset": 70
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/features/steps/web_steps.py",
+            "textRange": {
+              "startLine": 216,
+              "endLine": 216,
+              "startOffset": 49,
+              "endOffset": 68
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"%Y-%m-%dT%H:%M:%S\" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "99926aac-383b-41ab-bb31-333673b78b9b",
+    "rule": "kubernetes:S6865",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/k8s/deployment.yaml",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 23,
+    "hash": "d9e939dad9db0fbf12a7e7ed37d92d0f",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 6,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Bind this resource's automounted service account to RBAC or disable automounting.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cdcf3267-c3aa-4d82-882a-8639862521d4",
+    "rule": "kubernetes:S6897",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/k8s/deployment.yaml",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 24,
+    "hash": "5b822479e0974bfc7d4a557d6693513d",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify a storage request for this container.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8e74480d-55ee-4404-838f-770b23308216",
+    "rule": "kubernetes:S6865",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/k8s/postgresql/statefulset.yaml",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 21,
+    "hash": "d9e939dad9db0fbf12a7e7ed37d92d0f",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 6,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Bind this resource's automounted service account to RBAC or disable automounting.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4747ee8a-fd34-4b2c-8eae-8111f052e5c4",
+    "rule": "kubernetes:S6870",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/k8s/postgresql/statefulset.yaml",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 22,
+    "hash": "fe36e22994fdb5387d55f4b86a3b8f6d",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/k8s/postgresql/statefulset.yaml",
+            "textRange": {
+              "startLine": 44,
+              "endLine": 44,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "for this volume mount",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Specify a storage limit for this container.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "74a89d91-c27e-4f30-92e6-0d48f2fd9a05",
+    "rule": "kubernetes:S6897",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/k8s/postgresql/statefulset.yaml",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 22,
+    "hash": "fe36e22994fdb5387d55f4b86a3b8f6d",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify a storage request for this container.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8989b7dd-8299-40f8-aaae-254e5c1ee4a3",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/service/common/route_utils.py",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 1,
+    "hash": "cf28eb03dff9ed50cfc3c5f71c44dbd3",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 0,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "722665b3-f042-4b66-9b69-5ba57f2a3839",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/service/config.py",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 16,
+    "hash": "23741feba191b485658111d13f474bf9",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 0,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "36acbc9b-bb2a-4311-a74d-ea6ebd29d2a3",
+    "rule": "Web:S5254",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/service/static/index.html",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 2,
+    "hash": "166248a6129a1e4370d20adc2d4c23f3",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"<html>\" element",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "478bedef-c97d-474a-bf1f-a1c120b82439",
+    "rule": "Web:S5256",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/service/static/index.html",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 21,
+    "hash": "99686b27b2ad525df0b3aa55cb0ffd73",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 6,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add \"<th>\" headers to this \"<table>\".",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "35280c8b-1602-458b-8a11-24915a3b54f7",
+    "rule": "Web:S6842",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/service/static/index.html",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 32,
+    "hash": "ca3f48b420211c1fbda762d5812cc2f6",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 32,
+      "startOffset": 4,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Non-interactive elements should not be assigned interactive roles.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "79db770b-8633-4035-a3b0-11dbaf99daf7",
+    "rule": "Web:S6819",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/service/static/index.html",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 33,
+    "hash": "28054971b53d111bbf57c4b962ebec04",
+    "textRange": {
+      "startLine": 33,
+      "endLine": 33,
+      "startOffset": 6,
+      "endOffset": 45
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <img> instead of the presentation role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f9d2d761-0126-4cce-ae43-e04674eaf129",
+    "rule": "Web:S6819",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/service/static/index.html",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 35,
+    "hash": "2fa53d5f988e492ba5c72b4f0f9a95e9",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 6,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <img> instead of the presentation role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f69e1f16-1bfa-47b1-bc76-b07d76e1daa4",
+    "rule": "Web:S6819",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/service/static/index.html",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 39,
+    "hash": "745476e90bde4de8e77050b7daacf517",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 39,
+      "startOffset": 6,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <img> instead of the presentation role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "42f1dd9b-2693-4d4d-9997-08f79f7c8fc8",
+    "rule": "Web:S6819",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/service/static/index.html",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 42,
+    "hash": "1a9e6be876ad150119914bc5dffc8425",
+    "textRange": {
+      "startLine": 42,
+      "endLine": 42,
+      "startOffset": 6,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <img> instead of the presentation role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a575d417-5728-4243-b13a-3f0f520973d3",
+    "rule": "Web:S6853",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/service/static/index.html",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 215,
+    "hash": "d380e6b296bb806bd27e2d7a0c37f023",
+    "textRange": {
+      "startLine": 215,
+      "endLine": 215,
+      "startOffset": 14,
+      "endOffset": 52
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A form label must be associated with a control.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a009d8a2-9849-4d03-8957-91ca7bb305f8",
+    "rule": "Web:AvoidCommentedOutCodeCheck",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/service/static/index.html",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 260,
+    "hash": "e8f3a71078e11ad5132d3ef1ab451ed6",
+    "textRange": {
+      "startLine": 260,
+      "endLine": 260,
+      "startOffset": 0,
+      "endOffset": 101
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5ed8c967-8807-4edc-b2e9-ee20a5a3d6c7",
+    "rule": "Web:S7930",
+    "severity": "CRITICAL",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/service/static/index.html",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 268,
+    "hash": "064c2cf5f61b77e50cab16164e8e0f2c",
+    "textRange": {
+      "startLine": 268,
+      "endLine": 269,
+      "startOffset": 16,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Duplicate id \"clear-create\" found. First occurrence was on line 141.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "web",
+      "html"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "eb90b381-6a2c-4747-ba0c-a651e916da2c",
+    "rule": "Web:S7930",
+    "severity": "CRITICAL",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/service/static/index.html",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 408,
+    "hash": "064c2cf5f61b77e50cab16164e8e0f2c",
+    "textRange": {
+      "startLine": 408,
+      "endLine": 409,
+      "startOffset": 16,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Duplicate id \"clear-create\" found. First occurrence was on line 141.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "web",
+      "html"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b362dda0-456c-4fcf-b6be-23332535d097",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/service/static/js/rest_api.js",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 36,
+    "hash": "d4f174cc0e6086b113c664e3d7aae70f",
+    "textRange": {
+      "startLine": 36,
+      "endLine": 36,
+      "startOffset": 19,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "01cb14df-ba15-42e7-954c-5643435b71a9",
+    "rule": "javascript:S2703",
+    "severity": "BLOCKER",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/service/static/js/rest_api.js",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 289,
+    "hash": "0c6363bf76e3a9b67de428fd4ba5fb89",
+    "textRange": {
+      "startLine": 289,
+      "endLine": 289,
+      "startOffset": 8,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add the \"let\", \"const\" or \"var\" keyword to this declaration of \"data\" to make it explicit.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3d98392f-a739-4cc4-8c05-e397ab9e8bdf",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/service/static/js/utils.js",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 101,
+    "hash": "80478af5236c2c97ac82f11441ec0d2c",
+    "textRange": {
+      "startLine": 101,
+      "endLine": 101,
+      "startOffset": 61,
+      "endOffset": 68
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "18dc04d4-91e0-4927-8079-c87e5a63db6c",
+    "rule": "javascript:S1301",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/service/static/js/utils.js",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 110,
+    "hash": "5aeacecddbdde97ae44ed0363d93f88a",
+    "textRange": {
+      "startLine": 110,
+      "endLine": 110,
+      "startOffset": 4,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this \"switch\" statement by \"if\" statements to increase readability.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "98c66b99-6f0b-4671-a39a-062d49abb2d8",
+    "rule": "javascript:S6836",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/service/static/js/utils.js",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 112,
+    "hash": "85772c886e1e0e4d4c3e4d36453a8884",
+    "textRange": {
+      "startLine": 112,
+      "endLine": 112,
+      "startOffset": 12,
+      "endOffset": 51
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected lexical declaration in case block.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "049dbc99-9c2e-4dbf-99f5-821fc8f94488",
+    "rule": "python:S5906",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/tests/test_models.py",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 183,
+    "hash": "135059eea0bef6fc3a7bb21c45b0247e",
+    "textRange": {
+      "startLine": 183,
+      "endLine": 183,
+      "startOffset": 8,
+      "endOffset": 75
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Consider using \"assertIn\" instead.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "tests",
+      "unittest"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b4149a06-396c-48a4-b567-5dd2ada26618",
+    "rule": "python:S5906",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/tests/test_models.py",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 227,
+    "hash": "8d223f7f28cbc968faa32a1b7ab0fcfe",
+    "textRange": {
+      "startLine": 227,
+      "endLine": 227,
+      "startOffset": 8,
+      "endOffset": 84
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Consider using \"assertIn\" instead.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "tests",
+      "unittest"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "65060607-1300-41bf-9447-862623d8e93b",
+    "rule": "python:S5906",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/tests/test_models.py",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 246,
+    "hash": "8bdb02d2cdf642f9956e0d9b3b4c5247",
+    "textRange": {
+      "startLine": 246,
+      "endLine": 249,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Consider using \"assertIn\" instead.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "tests",
+      "unittest"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "65799a04-4566-4d22-9540-ead26bfa5dc7",
+    "rule": "python:S5906",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/tests/test_models.py",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 301,
+    "hash": "8bdb02d2cdf642f9956e0d9b3b4c5247",
+    "textRange": {
+      "startLine": 301,
+      "endLine": 304,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Consider using \"assertIn\" instead.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "tests",
+      "unittest"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4502037b-e8ac-4a07-9066-474b50ea2e68",
+    "rule": "python:S5906",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/tests/test_models.py",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 453,
+    "hash": "a598b51771514da5fb6eab77d67c6e0e",
+    "textRange": {
+      "startLine": 453,
+      "endLine": 453,
+      "startOffset": 8,
+      "endOffset": 62
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Consider using \"assertIn\" instead.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "tests",
+      "unittest"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e8242b6f-249c-4cc1-a3b0-dbabbd6e9914",
+    "rule": "python:S5906",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/tests/test_models.py",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 454,
+    "hash": "fbc097c920bddbdb338f365bdc1ab0eb",
+    "textRange": {
+      "startLine": 454,
+      "endLine": 454,
+      "startOffset": 8,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Consider using \"assertIn\" instead.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "tests",
+      "unittest"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0bcd2cc7-2cf8-4bb5-908e-f67710fb7f7a",
+    "rule": "python:S5906",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/tests/test_routes.py",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 424,
+    "hash": "5a703bc6207ee381d3844524e2462a55",
+    "textRange": {
+      "startLine": 424,
+      "endLine": 424,
+      "startOffset": 12,
+      "endOffset": 72
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Consider using \"assertIn\" instead.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "tests",
+      "unittest"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5278be2b-d529-48ea-bbb5-230e3ea5c1fa",
+    "rule": "python:S5906",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/tests/test_routes.py",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 480,
+    "hash": "8bdb02d2cdf642f9956e0d9b3b4c5247",
+    "textRange": {
+      "startLine": 480,
+      "endLine": 485,
+      "startOffset": 12,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Consider using \"assertGreaterEqual\" instead.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "tests",
+      "unittest"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b43b466a-cfe4-499d-86f6-d763cf5f928b",
+    "rule": "python:S5906",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/tests/test_routes.py",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 507,
+    "hash": "8bdb02d2cdf642f9956e0d9b3b4c5247",
+    "textRange": {
+      "startLine": 507,
+      "endLine": 512,
+      "startOffset": 12,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Consider using \"assertEqual\" instead.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "tests",
+      "unittest"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2dbfe9e8-8844-43f8-a003-73152ff344ac",
+    "rule": "python:S5906",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/tests/test_routes.py",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 534,
+    "hash": "8bdb02d2cdf642f9956e0d9b3b4c5247",
+    "textRange": {
+      "startLine": 534,
+      "endLine": 539,
+      "startOffset": 12,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Consider using \"assertLessEqual\" instead.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "tests",
+      "unittest"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a7c147ce-ad43-4cab-b40d-dbd20ae4b386",
+    "rule": "python:S5906",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa24-001__promotions:temp_repos/promotions/tests/test_routes.py",
+    "project": "csci-ga-2820-fa24-001__promotions",
+    "line": 561,
+    "hash": "8bdb02d2cdf642f9956e0d9b3b4c5247",
+    "textRange": {
+      "startLine": 561,
+      "endLine": 566,
+      "startOffset": 12,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Consider using \"assertEqual\" instead.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "tests",
+      "unittest"
+    ],
+    "creationDate": "2026-07-17T21:19:42+0000",
+    "updateDate": "2026-07-17T21:19:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

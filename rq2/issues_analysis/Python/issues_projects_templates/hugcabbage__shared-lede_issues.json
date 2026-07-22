@@ -1,0 +1,1236 @@
+[
+  {
+    "key": "392c46cd-a4ce-47ef-8545-217eac39b5b9",
+    "rule": "python:S5685",
+    "severity": "MINOR",
+    "component": "hugcabbage__shared-lede:extra-files/renew.py",
+    "project": "hugcabbage__shared-lede",
+    "line": 30,
+    "hash": "3f6c9198c05259a2cae973103e343a0d",
+    "textRange": {
+      "startLine": 30,
+      "endLine": 30,
+      "startOffset": 16,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this assignment out of the argument list; \":=\" operator is confusing in this context.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "pep",
+      "confusing"
+    ],
+    "creationDate": "2026-07-20T14:24:11+0000",
+    "updateDate": "2026-07-20T14:24:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "64857393-3ab8-4bf6-ae94-d43eda6d51eb",
+    "rule": "python:S1143",
+    "severity": "CRITICAL",
+    "component": "hugcabbage__shared-lede:extra-files/tools/code_summary.py",
+    "project": "hugcabbage__shared-lede",
+    "line": 75,
+    "hash": "7aa28ed115707345d0274032757e8991",
+    "textRange": {
+      "startLine": 75,
+      "endLine": 75,
+      "startOffset": 24,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this \"continue\" statement from this \"finally\" block.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-20T14:24:11+0000",
+    "updateDate": "2026-07-20T14:24:11+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f391cc26-e2a3-42a4-8877-7688297e5061",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "hugcabbage__shared-lede:extra-files/tools/code_summary.py",
+    "project": "hugcabbage__shared-lede",
+    "line": 80,
+    "hash": "7f69b5f58a0f36ba1f011fd955f5b122",
+    "textRange": {
+      "startLine": 80,
+      "endLine": 80,
+      "startOffset": 8,
+      "endOffset": 20
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:extra-files/tools/code_summary.py",
+            "textRange": {
+              "startLine": 103,
+              "endLine": 103,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:extra-files/tools/code_summary.py",
+            "textRange": {
+              "startLine": 105,
+              "endLine": 105,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:extra-files/tools/code_summary.py",
+            "textRange": {
+              "startLine": 107,
+              "endLine": 107,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:extra-files/tools/code_summary.py",
+            "textRange": {
+              "startLine": 120,
+              "endLine": 120,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:extra-files/tools/code_summary.py",
+            "textRange": {
+              "startLine": 121,
+              "endLine": 121,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:extra-files/tools/code_summary.py",
+            "textRange": {
+              "startLine": 123,
+              "endLine": 123,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:extra-files/tools/code_summary.py",
+            "textRange": {
+              "startLine": 125,
+              "endLine": 125,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:extra-files/tools/code_summary.py",
+            "textRange": {
+              "startLine": 125,
+              "endLine": 125,
+              "startOffset": 41,
+              "endOffset": 43
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:extra-files/tools/code_summary.py",
+            "textRange": {
+              "startLine": 127,
+              "endLine": 127,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:extra-files/tools/code_summary.py",
+            "textRange": {
+              "startLine": 130,
+              "endLine": 130,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:extra-files/tools/code_summary.py",
+            "textRange": {
+              "startLine": 136,
+              "endLine": 136,
+              "startOffset": 12,
+              "endOffset": 15
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:extra-files/tools/code_summary.py",
+            "textRange": {
+              "startLine": 137,
+              "endLine": 137,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:extra-files/tools/code_summary.py",
+            "textRange": {
+              "startLine": 139,
+              "endLine": 139,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:extra-files/tools/code_summary.py",
+            "textRange": {
+              "startLine": 142,
+              "endLine": 142,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:extra-files/tools/code_summary.py",
+            "textRange": {
+              "startLine": 144,
+              "endLine": 144,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T14:24:11+0000",
+    "updateDate": "2026-07-20T14:24:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7ef34021-dd8b-4f44-a638-ac16366e0f1e",
+    "rule": "python:S108",
+    "severity": "MAJOR",
+    "component": "hugcabbage__shared-lede:extra-files/tools/code_summary.py",
+    "project": "hugcabbage__shared-lede",
+    "line": 126,
+    "hash": "1a1dc91c907325c69271ddf0c944bc72",
+    "textRange": {
+      "startLine": 126,
+      "endLine": 126,
+      "startOffset": 16,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Either remove or fill this block of code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T14:24:11+0000",
+    "updateDate": "2026-07-20T14:24:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "64df6bfa-b2b0-443f-a72b-5dd7139372ef",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "hugcabbage__shared-lede:extra-files/tools/code_summary.py",
+    "project": "hugcabbage__shared-lede",
+    "line": 184,
+    "hash": "f713dd5539e1bc45c743d0930a3733d6",
+    "textRange": {
+      "startLine": 184,
+      "endLine": 184,
+      "startOffset": 19,
+      "endOffset": 28
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:extra-files/tools/code_summary.py",
+            "textRange": {
+              "startLine": 185,
+              "endLine": 185,
+              "startOffset": 22,
+              "endOffset": 31
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:extra-files/tools/code_summary.py",
+            "textRange": {
+              "startLine": 212,
+              "endLine": 212,
+              "startOffset": 15,
+              "endOffset": 24
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal 'not set' 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-20T14:24:11+0000",
+    "updateDate": "2026-07-20T14:24:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5976c7e5-1608-495e-8592-636e3f63699b",
+    "rule": "python:S6353",
+    "severity": "MINOR",
+    "component": "hugcabbage__shared-lede:extra-files/tools/process_text.py",
+    "project": "hugcabbage__shared-lede",
+    "line": 134,
+    "hash": "7dfbd144f8f95b6fac56d007e0a67e0a",
+    "textRange": {
+      "startLine": 134,
+      "endLine": 134,
+      "startOffset": 38,
+      "endOffset": 50
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use concise character class syntax '\\w' instead of '[a-zA-Z0-9_]'.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "regex"
+    ],
+    "creationDate": "2026-07-20T14:24:11+0000",
+    "updateDate": "2026-07-20T14:24:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c00446a9-b9ea-4f6c-ae97-b21a88939acb",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "hugcabbage__shared-lede:extra-files/tools/workflow.py",
+    "project": "hugcabbage__shared-lede",
+    "line": 46,
+    "hash": "51099a35ef3928c717020071aaeaeec8",
+    "textRange": {
+      "startLine": 46,
+      "endLine": 46,
+      "startOffset": 10,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-20T14:24:11+0000",
+    "updateDate": "2026-07-20T14:24:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "41d19c7e-9902-4a96-8e36-dc380477afea",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "hugcabbage__shared-lede:extra-files/tools/workflow.py",
+    "project": "hugcabbage__shared-lede",
+    "line": 54,
+    "hash": "3b44014d862aed9e98a0f5946f969c69",
+    "textRange": {
+      "startLine": 54,
+      "endLine": 54,
+      "startOffset": 10,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-20T14:24:11+0000",
+    "updateDate": "2026-07-20T14:24:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5701ade3-8398-4b1d-8542-4e88799ab4e4",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "hugcabbage__shared-lede:extra-files/tools/workflow.py",
+    "project": "hugcabbage__shared-lede",
+    "line": 58,
+    "hash": "519ae64692826b61a1b3a304394915e1",
+    "textRange": {
+      "startLine": 58,
+      "endLine": 58,
+      "startOffset": 10,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-20T14:24:11+0000",
+    "updateDate": "2026-07-20T14:24:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b01f3a60-91e1-42e6-b77a-c6cfe4deb5ec",
+    "rule": "python:S2208",
+    "severity": "CRITICAL",
+    "component": "hugcabbage__shared-lede:extra-files/transit.py",
+    "project": "hugcabbage__shared-lede",
+    "line": 10,
+    "hash": "ea12d9e772feec0222b710527932fffe",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 0,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Import only needed names or import the module and then use its members.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-20T14:24:11+0000",
+    "updateDate": "2026-07-20T14:24:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "738f2b8a-9fc4-42cb-bef0-e3d26fa4ade4",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "hugcabbage__shared-lede:extra-files/transit.py",
+    "project": "hugcabbage__shared-lede",
+    "line": 25,
+    "hash": "54735110538bf2bf75e57fa0840f1d5a",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 13,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T14:24:11+0000",
+    "updateDate": "2026-07-20T14:24:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f29e21f3-9c56-4819-8e27-169b17f396ef",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "hugcabbage__shared-lede:extra-files/transit.py",
+    "project": "hugcabbage__shared-lede",
+    "line": 54,
+    "hash": "19e85edfbb835230db123b9d7379ff20",
+    "textRange": {
+      "startLine": 54,
+      "endLine": 54,
+      "startOffset": 17,
+      "endOffset": 26
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:extra-files/transit.py",
+            "textRange": {
+              "startLine": 59,
+              "endLine": 59,
+              "startOffset": 57,
+              "endOffset": 66
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:extra-files/transit.py",
+            "textRange": {
+              "startLine": 63,
+              "endLine": 63,
+              "startOffset": 44,
+              "endOffset": 53
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:extra-files/transit.py",
+            "textRange": {
+              "startLine": 143,
+              "endLine": 143,
+              "startOffset": 78,
+              "endOffset": 87
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal '.config' 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-20T14:24:11+0000",
+    "updateDate": "2026-07-20T14:24:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "64ef1c9b-a0e2-48cf-8a4c-527efe4c6408",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "hugcabbage__shared-lede:extra-files/transit.py",
+    "project": "hugcabbage__shared-lede",
+    "line": 68,
+    "hash": "d9ecc37c45ff31b84668169d6e452620",
+    "textRange": {
+      "startLine": 68,
+      "endLine": 68,
+      "startOffset": 38,
+      "endOffset": 49
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:extra-files/transit.py",
+            "textRange": {
+              "startLine": 69,
+              "endLine": 69,
+              "startOffset": 20,
+              "endOffset": 31
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:extra-files/transit.py",
+            "textRange": {
+              "startLine": 74,
+              "endLine": 74,
+              "startOffset": 28,
+              "endOffset": 39
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal '.clone.sh' 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-20T14:24:11+0000",
+    "updateDate": "2026-07-20T14:24:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6f226e1f-cbcd-4a53-8aee-9465bd556fbe",
+    "rule": "python:S5685",
+    "severity": "MINOR",
+    "component": "hugcabbage__shared-lede:extra-files/transit.py",
+    "project": "hugcabbage__shared-lede",
+    "line": 74,
+    "hash": "675531d1322e82a9b73c2ea6006fc0b8",
+    "textRange": {
+      "startLine": 74,
+      "endLine": 74,
+      "startOffset": 14,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this assignment out of the argument list; \":=\" operator is confusing in this context.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "pep",
+      "confusing"
+    ],
+    "creationDate": "2026-07-20T14:24:11+0000",
+    "updateDate": "2026-07-20T14:24:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4fe82756-1f62-43f5-9b81-38460934c191",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "hugcabbage__shared-lede:extra-files/transit.py",
+    "project": "hugcabbage__shared-lede",
+    "line": 80,
+    "hash": "c44c64aff1833c427e2139ff3618568d",
+    "textRange": {
+      "startLine": 80,
+      "endLine": 80,
+      "startOffset": 38,
+      "endOffset": 50
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:extra-files/transit.py",
+            "textRange": {
+              "startLine": 81,
+              "endLine": 81,
+              "startOffset": 26,
+              "endOffset": 38
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:extra-files/transit.py",
+            "textRange": {
+              "startLine": 81,
+              "endLine": 81,
+              "startOffset": 54,
+              "endOffset": 66
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal '.modify.sh' 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-20T14:24:11+0000",
+    "updateDate": "2026-07-20T14:24:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "40916232-92d6-48d6-ba4e-797b5b62d8ea",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "hugcabbage__shared-lede:extra-files/transit.py",
+    "project": "hugcabbage__shared-lede",
+    "line": 117,
+    "hash": "7fc07b7847f114e129b16eadc95775c0",
+    "textRange": {
+      "startLine": 117,
+      "endLine": 117,
+      "startOffset": 12,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T14:24:11+0000",
+    "updateDate": "2026-07-20T14:24:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bec33f13-f85a-4d93-acff-1bb493de8b86",
+    "rule": "python:S2208",
+    "severity": "CRITICAL",
+    "component": "hugcabbage__shared-lede:templet/produce.py",
+    "project": "hugcabbage__shared-lede",
+    "line": 11,
+    "hash": "ea12d9e772feec0222b710527932fffe",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 0,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Import only needed names or import the module and then use its members.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-20T14:24:11+0000",
+    "updateDate": "2026-07-20T14:24:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0c2dd2e6-1921-4f20-b255-b433f9d83949",
+    "rule": "python:S3358",
+    "severity": "MAJOR",
+    "component": "hugcabbage__shared-lede:templet/produce.py",
+    "project": "hugcabbage__shared-lede",
+    "line": 24,
+    "hash": "ca4fed4714ce133107d49207f658dedd",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 50,
+      "endOffset": 84
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:templet/produce.py",
+            "textRange": {
+              "startLine": 24,
+              "endLine": 24,
+              "startOffset": 23,
+              "endOffset": 25
+            },
+            "msg": "Parent conditional expression.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Extract this nested conditional expression into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-20T14:24:11+0000",
+    "updateDate": "2026-07-20T14:24:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "029462f8-a3fc-478b-8430-49a50f5d1ba4",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "hugcabbage__shared-lede:templet/produce.py",
+    "project": "hugcabbage__shared-lede",
+    "line": 131,
+    "hash": "3edc269378e3efeab089d7407c866a31",
+    "textRange": {
+      "startLine": 131,
+      "endLine": 131,
+      "startOffset": 23,
+      "endOffset": 32
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:templet/produce.py",
+            "textRange": {
+              "startLine": 179,
+              "endLine": 179,
+              "startOffset": 50,
+              "endOffset": 59
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "hugcabbage__shared-lede:templet/produce.py",
+            "textRange": {
+              "startLine": 180,
+              "endLine": 180,
+              "startOffset": 29,
+              "endOffset": 38
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal '.config' 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-20T14:24:11+0000",
+    "updateDate": "2026-07-20T14:24:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

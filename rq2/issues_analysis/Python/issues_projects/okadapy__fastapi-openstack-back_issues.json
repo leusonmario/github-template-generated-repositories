@@ -1,0 +1,369 @@
+[
+  {
+    "key": "2446d1c3-3ee3-4b09-88db-078cec748b24",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "okadapy__fastapi-openstack-back:temp_repos/fastapi-openstack-back/app/commands/user.py",
+    "project": "okadapy__fastapi-openstack-back",
+    "line": 174,
+    "hash": "238c2754d4687e935e98fd9c0fb52521",
+    "textRange": {
+      "startLine": 174,
+      "endLine": 174,
+      "startOffset": 13,
+      "endOffset": 28
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "okadapy__fastapi-openstack-back:temp_repos/fastapi-openstack-back/app/commands/user.py",
+            "textRange": {
+              "startLine": 202,
+              "endLine": 202,
+              "startOffset": 13,
+              "endOffset": 28
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "okadapy__fastapi-openstack-back:temp_repos/fastapi-openstack-back/app/commands/user.py",
+            "textRange": {
+              "startLine": 236,
+              "endLine": 236,
+              "startOffset": 13,
+              "endOffset": 28
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "okadapy__fastapi-openstack-back:temp_repos/fastapi-openstack-back/app/commands/user.py",
+            "textRange": {
+              "startLine": 281,
+              "endLine": 281,
+              "startOffset": 13,
+              "endOffset": 28
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"The user's id\" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T21:52:27+0000",
+    "updateDate": "2026-07-17T21:52:27+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8d0fdde1-321f-4500-8be4-c50445418d34",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "okadapy__fastapi-openstack-back:temp_repos/fastapi-openstack-back/app/database/helpers.py",
+    "project": "okadapy__fastapi-openstack-back",
+    "line": 35,
+    "hash": "ae2111af9bfaedf287aeac5e47d5c4b9",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 10,
+      "endOffset": 23
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "okadapy__fastapi-openstack-back:temp_repos/fastapi-openstack-back/app/database/helpers.py",
+            "textRange": {
+              "startLine": 35,
+              "endLine": 35,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T21:52:27+0000",
+    "updateDate": "2026-07-17T21:52:27+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4140ddf7-261a-481a-8e73-23eaf351c19f",
+    "rule": "python:S1135",
+    "severity": "INFO",
+    "component": "okadapy__fastapi-openstack-back:temp_repos/fastapi-openstack-back/tests/unit/test_auth_manager.py",
+    "project": "okadapy__fastapi-openstack-back",
+    "line": 44,
+    "hash": "25dadad4215e6cd8d2db9179e47b8753",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 44,
+      "startOffset": 8,
+      "endOffset": 78
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T21:52:27+0000",
+    "updateDate": "2026-07-17T21:52:27+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "29b3bfaf-2211-4e6b-9cbb-07b68d9279de",
+    "rule": "python:S1135",
+    "severity": "INFO",
+    "component": "okadapy__fastapi-openstack-back:temp_repos/fastapi-openstack-back/tests/unit/test_auth_manager.py",
+    "project": "okadapy__fastapi-openstack-back",
+    "line": 70,
+    "hash": "25dadad4215e6cd8d2db9179e47b8753",
+    "textRange": {
+      "startLine": 70,
+      "endLine": 70,
+      "startOffset": 8,
+      "endOffset": 78
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T21:52:27+0000",
+    "updateDate": "2026-07-17T21:52:27+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "21a6c0b1-57a8-462a-a210-80693f16c8b2",
+    "rule": "python:S1135",
+    "severity": "INFO",
+    "component": "okadapy__fastapi-openstack-back:temp_repos/fastapi-openstack-back/tests/unit/test_auth_manager.py",
+    "project": "okadapy__fastapi-openstack-back",
+    "line": 97,
+    "hash": "25dadad4215e6cd8d2db9179e47b8753",
+    "textRange": {
+      "startLine": 97,
+      "endLine": 97,
+      "startOffset": 8,
+      "endOffset": 78
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T21:52:27+0000",
+    "updateDate": "2026-07-17T21:52:27+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b3198514-2f47-42aa-b853-f1900e5290d5",
+    "rule": "python:S1135",
+    "severity": "INFO",
+    "component": "okadapy__fastapi-openstack-back:temp_repos/fastapi-openstack-back/tests/unit/test_email_manager.py",
+    "project": "okadapy__fastapi-openstack-back",
+    "line": 63,
+    "hash": "1ad89dcce1e43f919e119332b89fa097",
+    "textRange": {
+      "startLine": 63,
+      "endLine": 63,
+      "startOffset": 8,
+      "endOffset": 78
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T21:52:27+0000",
+    "updateDate": "2026-07-17T21:52:27+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5deda450-c141-4680-9cb7-d2047b16fcc8",
+    "rule": "python:S1135",
+    "severity": "INFO",
+    "component": "okadapy__fastapi-openstack-back:temp_repos/fastapi-openstack-back/tests/unit/test_email_manager.py",
+    "project": "okadapy__fastapi-openstack-back",
+    "line": 74,
+    "hash": "70bdc63203d1b32ed05c59f0a0bed019",
+    "textRange": {
+      "startLine": 74,
+      "endLine": 74,
+      "startOffset": 8,
+      "endOffset": 78
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T21:52:27+0000",
+    "updateDate": "2026-07-17T21:52:27+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

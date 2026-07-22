@@ -1,0 +1,4600 @@
+[
+  {
+    "key": "0b8749e2-c9e1-4eb6-827c-ed22f6025258",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/docker/Dockerfile",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 11,
+    "hash": "4964f1a9e67d658be1d9f5b7a0e804e1",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/docker/Dockerfile",
+            "textRange": {
+              "startLine": 15,
+              "endLine": 15,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5f9a9b19-7567-4d50-88c4-9e6a9f55280e",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/publish.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 2,
+    "hash": "44f9b15d3b1641faca5561b190d8261a",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 19,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b37470a0-2755-4d7b-bf41-bfcee6863c33",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/publish.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 3,
+    "hash": "85968f5b9f570a82c65709eacc211a09",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 21,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "039ff265-902b-463f-8ce5-811a29286e7f",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/publish.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 4,
+    "hash": "0c760efc61184d4bd28505d5c71fdd3c",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 29,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:child_process` over `child_process`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "849489ca-474f-4ec5-aa33-a4add0e0c2df",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/publish.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 5,
+    "hash": "0f5112fdfbed13e02b369eab319992fb",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 25,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:readline` over `readline`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "aba96e4b-b661-4c77-8fed-484bbf15b05e",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/publish.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 51,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 51,
+      "endLine": 53,
+      "startOffset": 4,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3ae84d31-aef9-4225-8cc4-f90d0a38328b",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/publish.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 60,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 60,
+      "endLine": 62,
+      "startOffset": 4,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a27caaca-ece6-49a2-aaca-81db1f85e514",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/publish.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 93,
+    "hash": "f28d265ebd52ef09c18207d8fb59bbc8",
+    "textRange": {
+      "startLine": 93,
+      "endLine": 93,
+      "startOffset": 19,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fc433e67-0b9d-4e3c-b086-f8322f16d049",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/publish.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 135,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 135,
+      "endLine": 138,
+      "startOffset": 6,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d2ba3d05-1ba7-463f-a4d5-d816ac9d41c1",
+    "rule": "javascript:S7785",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/publish.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 155,
+    "hash": "73377e1e0d1751a7f97a777ee007d8ff",
+    "textRange": {
+      "startLine": 155,
+      "endLine": 155,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over an async function `main` call.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ba921a30-0589-4b04-983a-1999a0922ae6",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 2,
+    "hash": "b54c5f1452b26764a4661bf06a14be46",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 26,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:child_process` over `child_process`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "67f77e47-ff64-43c5-907d-1e9d8d2714d4",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 3,
+    "hash": "44f9b15d3b1641faca5561b190d8261a",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 19,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "add7c609-df4f-4d5b-a2f8-7163d264c07d",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 4,
+    "hash": "f227fe2b921eb49152d336ed73ba5db8",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 19,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:os` over `os`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4cab60d9-5fce-4571-b924-166378e589a7",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 5,
+    "hash": "85968f5b9f570a82c65709eacc211a09",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 21,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ccc09b99-5cce-4c6b-b967-a4f255916458",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 13,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 16,
+      "startOffset": 2,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a5789f89-c09b-41b3-b199-741f018d879f",
+    "rule": "javascript:S3776",
+    "severity": "CRITICAL",
+    "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 61,
+    "hash": "2a2a7cd513fc51997c6da5e27c2b7532",
+    "textRange": {
+      "startLine": 61,
+      "endLine": 61,
+      "startOffset": 15,
+      "endOffset": 24
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 78,
+              "endLine": 78,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 146,
+              "endLine": 146,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 146,
+              "endLine": 146,
+              "startOffset": 22,
+              "endOffset": 24
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 148,
+              "endLine": 148,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 155,
+              "endLine": 155,
+              "startOffset": 2,
+              "endOffset": 5
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 158,
+              "endLine": 158,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 158,
+              "endLine": 158,
+              "startOffset": 29,
+              "endOffset": 31
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 160,
+              "endLine": 160,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 161,
+              "endLine": 161,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 166,
+              "endLine": 166,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 167,
+              "endLine": 167,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 167,
+              "endLine": 167,
+              "startOffset": 39,
+              "endOffset": 41
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 172,
+              "endLine": 172,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 173,
+              "endLine": 173,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 173,
+              "endLine": 173,
+              "startOffset": 39,
+              "endOffset": 41
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 178,
+              "endLine": 178,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 179,
+              "endLine": 179,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 183,
+              "endLine": 183,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 186,
+              "endLine": 186,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 190,
+              "endLine": 190,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 191,
+              "endLine": 191,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 195,
+              "endLine": 195,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 198,
+              "endLine": 198,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 202,
+              "endLine": 202,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 203,
+              "endLine": 203,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 207,
+              "endLine": 207,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 210,
+              "endLine": 210,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 214,
+              "endLine": 214,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 215,
+              "endLine": 215,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 220,
+              "endLine": 220,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 222,
+              "endLine": 222,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 224,
+              "endLine": 224,
+              "startOffset": 6,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 231,
+              "endLine": 231,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 237,
+              "endLine": 237,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 237,
+              "endLine": 237,
+              "startOffset": 35,
+              "endOffset": 37
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 241,
+              "endLine": 241,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 241,
+              "endLine": 241,
+              "startOffset": 35,
+              "endOffset": 37
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 245,
+              "endLine": 245,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 245,
+              "endLine": 245,
+              "startOffset": 38,
+              "endOffset": 40
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 61 to the 15 allowed.",
+    "effort": "51min",
+    "debt": "51min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "673ea7cf-7993-431f-91df-db9b482bdd73",
+    "rule": "javascript:S2310",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 185,
+    "hash": "abd73dc25743daca34722f6707cc98fb",
+    "textRange": {
+      "startLine": 185,
+      "endLine": 185,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 155,
+              "endLine": 155,
+              "startOffset": 35,
+              "endOffset": 36
+            },
+            "msg": "Counter variable update",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Remove this assignment of \"i\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "daa9c6af-6f63-463b-a960-c3ff522c8e80",
+    "rule": "javascript:S2310",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 197,
+    "hash": "abd73dc25743daca34722f6707cc98fb",
+    "textRange": {
+      "startLine": 197,
+      "endLine": 197,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 155,
+              "endLine": 155,
+              "startOffset": 35,
+              "endOffset": 36
+            },
+            "msg": "Counter variable update",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Remove this assignment of \"i\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "46289f1d-81c3-4480-bd00-567b6a52fbfb",
+    "rule": "javascript:S2310",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 209,
+    "hash": "abd73dc25743daca34722f6707cc98fb",
+    "textRange": {
+      "startLine": 209,
+      "endLine": 209,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 155,
+              "endLine": 155,
+              "startOffset": 35,
+              "endOffset": 36
+            },
+            "msg": "Counter variable update",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Remove this assignment of \"i\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8c012095-b3c5-40be-99f3-c228af947a8d",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 276,
+    "hash": "0aa9f0f5a555c11f285ab8275a0738d1",
+    "textRange": {
+      "startLine": 276,
+      "endLine": 276,
+      "startOffset": 6,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c2326b6f-c9f7-44be-b1db-b5ae9be92c83",
+    "rule": "javascript:S3358",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 281,
+    "hash": "57148714cd419318ce65bb1c1564666d",
+    "textRange": {
+      "startLine": 281,
+      "endLine": 281,
+      "startOffset": 63,
+      "endOffset": 114
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a98f0e86-76c4-4762-925a-ee18d5517a8b",
+    "rule": "javascript:S3776",
+    "severity": "CRITICAL",
+    "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 322,
+    "hash": "50933e532b2538087013ab45adf64254",
+    "textRange": {
+      "startLine": 322,
+      "endLine": 322,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 325,
+              "endLine": 325,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 332,
+              "endLine": 332,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 334,
+              "endLine": 334,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 340,
+              "endLine": 340,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 343,
+              "endLine": 343,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 348,
+              "endLine": 348,
+              "startOffset": 6,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 357,
+              "endLine": 357,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 361,
+              "endLine": 361,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 372,
+              "endLine": 372,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 381,
+              "endLine": 381,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 408,
+              "endLine": 408,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 418,
+              "endLine": 418,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 429,
+              "endLine": 429,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 438,
+              "endLine": 438,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 439,
+              "endLine": 439,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 521,
+              "endLine": 521,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 444,
+              "endLine": 444,
+              "startOffset": 10,
+              "endOffset": 12
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 455,
+              "endLine": 455,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 448,
+              "endLine": 448,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+4 (incl. 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 451,
+              "endLine": 451,
+              "startOffset": 14,
+              "endOffset": 18
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 458,
+              "endLine": 458,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+4 (incl. 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 461,
+              "endLine": 461,
+              "startOffset": 14,
+              "endOffset": 18
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 467,
+              "endLine": 467,
+              "startOffset": 10,
+              "endOffset": 15
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 474,
+              "endLine": 474,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 477,
+              "endLine": 477,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 516,
+              "endLine": 516,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 524,
+              "endLine": 524,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 527,
+              "endLine": 527,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 566,
+              "endLine": 566,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 573,
+              "endLine": 573,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 577,
+              "endLine": 577,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 588,
+              "endLine": 588,
+              "startOffset": 10,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 581,
+              "endLine": 581,
+              "startOffset": 10,
+              "endOffset": 12
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 584,
+              "endLine": 584,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 591,
+              "endLine": 591,
+              "startOffset": 10,
+              "endOffset": 12
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 594,
+              "endLine": 594,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 600,
+              "endLine": 600,
+              "startOffset": 8,
+              "endOffset": 13
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 608,
+              "endLine": 608,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 611,
+              "endLine": 611,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 613,
+              "endLine": 613,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 619,
+              "endLine": 619,
+              "startOffset": 10,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 625,
+              "endLine": 625,
+              "startOffset": 10,
+              "endOffset": 12
+            },
+            "msg": "+4 (incl. 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 628,
+              "endLine": 628,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 638,
+              "endLine": 638,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 654,
+              "endLine": 654,
+              "startOffset": 8,
+              "endOffset": 13
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 672,
+              "endLine": 672,
+              "startOffset": 8,
+              "endOffset": 13
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 679,
+              "endLine": 679,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 684,
+              "endLine": 684,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 701,
+              "endLine": 701,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 91 to the 15 allowed.",
+    "effort": "1h21min",
+    "debt": "1h21min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c1d05879-4f57-4886-9402-e1f530470550",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 394,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 394,
+      "endLine": 396,
+      "startOffset": 8,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cba8fe69-6b1a-4229-8b3a-1f3309927865",
+    "rule": "javascript:S4144",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 544,
+    "hash": "a866c12ba479011741bfbd14808e21f5",
+    "textRange": {
+      "startLine": 544,
+      "endLine": 544,
+      "startOffset": 41,
+      "endOffset": 43
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 494,
+              "endLine": 494,
+              "startOffset": 41,
+              "endOffset": 43
+            },
+            "msg": "Original implementation",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Update this function so that its implementation is not identical to the one on line 494.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [
+      "confusing",
+      "duplicate",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "02e959b3-1221-447f-97eb-6073b7afaa32",
+    "rule": "javascript:S6660",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 613,
+    "hash": "e87826e79cd9f72efbe937bbee42a092",
+    "textRange": {
+      "startLine": 613,
+      "endLine": 613,
+      "startOffset": 8,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'If' statement should not be the only statement in 'else' block",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ac1947bf-50f1-4b14-853a-39a29f5bb6a5",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 654,
+    "hash": "cd0b43a70dc3f336db02ee5d194b6db2",
+    "textRange": {
+      "startLine": 654,
+      "endLine": 656,
+      "startOffset": 8,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9df21d57-4f63-4f41-bb96-e1847bbcd3d8",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 672,
+    "hash": "2ae78a657b88d60dbd24b0b0f7eddca9",
+    "textRange": {
+      "startLine": 672,
+      "endLine": 672,
+      "startOffset": 8,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3333b077-f255-4300-93b2-bfd3231d9568",
+    "rule": "javascript:S7785",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:npx/run-claude-artifact.js",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 712,
+    "hash": "73377e1e0d1751a7f97a777ee007d8ff",
+    "textRange": {
+      "startLine": 712,
+      "endLine": 712,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over an async function `main` call.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "363cdadd-3def-4d46-910a-8850a582ca10",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:src/artifacts/signup.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 20,
+    "hash": "0c04e3e57e54823801a0794b8e2fa5b2",
+    "textRange": {
+      "startLine": 20,
+      "endLine": 20,
+      "startOffset": 15,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e58f941f-c389-441d-9a59-2e0fe7405e51",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:src/components/layout.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 3,
+    "hash": "5f626cf21dbc82711e8a7538147e5969",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 31,
+      "endOffset": 74
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "701ff68b-24bb-418f-a96e-7d711fc99042",
+    "rule": "typescript:S6850",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:src/components/ui/alert.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 39,
+    "hash": "942f8e7d3863befe2a3defa9fd02b7dc",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 43,
+      "startOffset": 2,
+      "endOffset": 4
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Headings must have content and the content must be accessible by a screen reader.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b0cbd62d-3a8e-440d-9a64-799d4f76e1b2",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:src/components/ui/breadcrumb.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 64,
+    "hash": "8a6c065819987cf2b44de8c2f5493486",
+    "textRange": {
+      "startLine": 64,
+      "endLine": 71,
+      "startOffset": 2,
+      "endOffset": 4
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <a href=...>, or <area href=...> instead of the \"link\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d51f9a9c-7941-4e4c-9d90-d796c220f69e",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:src/components/ui/breadcrumb.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 80,
+    "hash": "b0651008da5abf68c9d90e615f642cd4",
+    "textRange": {
+      "startLine": 80,
+      "endLine": 85,
+      "startOffset": 2,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <img alt=...> instead of the \"presentation\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e7632d8b-6f97-4dc8-b560-cc482770a8cf",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:src/components/ui/breadcrumb.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 95,
+    "hash": "8a6c065819987cf2b44de8c2f5493486",
+    "textRange": {
+      "startLine": 95,
+      "endLine": 100,
+      "startOffset": 2,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <img alt=...> instead of the \"presentation\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7915950e-1d71-4fcb-97c3-671c58475b60",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:src/components/ui/calendar.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 55,
+    "hash": "b2d64792aab4882536cb886c4d306280",
+    "textRange": {
+      "startLine": 55,
+      "endLine": 55,
+      "startOffset": 21,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "279f206e-8823-4d4e-9a1e-e73a4586fc9a",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:src/components/ui/calendar.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 56,
+    "hash": "147b9d883b3bdad29517651bd7caa398",
+    "textRange": {
+      "startLine": 56,
+      "endLine": 56,
+      "startOffset": 22,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "81d5b4af-f97f-486f-8441-3f1f81137ad5",
+    "rule": "typescript:S6850",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:src/components/ui/card.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 36,
+    "hash": "7bbb0578ee9897d673a97250669d8dec",
+    "textRange": {
+      "startLine": 36,
+      "endLine": 43,
+      "startOffset": 2,
+      "endOffset": 4
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Headings must have content and the content must be accessible by a screen reader.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "15c8fcea-e2d3-41a5-84f1-7ae604b19102",
+    "rule": "typescript:S6481",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:src/components/ui/carousel.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 123,
+    "hash": "67a8a13e3c41d46fa1510212abb1a4af",
+    "textRange": {
+      "startLine": 123,
+      "endLine": 133,
+      "startOffset": 15,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The object passed as the value prop to the Context provider changes every render. To fix this consider wrapping it in a useMemo hook.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "baa4b2ee-5a54-417b-8ba9-e6571f1a2790",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:src/components/ui/carousel.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 135,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 135,
+      "endLine": 142,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <section aria-label=...>, or <section aria-labelledby=...> instead of the \"region\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "eea9cc01-84a5-4c61-b4d0-a279835cb50e",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:src/components/ui/carousel.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 180,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 180,
+      "endLine": 190,
+      "startOffset": 4,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <details>, <fieldset>, <optgroup>, or <address> instead of the \"group\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "62ab00a2-4f9b-4c97-923f-919e4077c4e8",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:src/components/ui/chart.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 45,
+    "hash": "e322bc4db5d433dcf539ea6244128b01",
+    "textRange": {
+      "startLine": 45,
+      "endLine": 45,
+      "startOffset": 42,
+      "endOffset": 49
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d4c1ec1c-f2bf-4f4d-8905-7d52f31968be",
+    "rule": "typescript:S6481",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:src/components/ui/chart.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 48,
+    "hash": "a8f9004863a6e44d7512ef281cb21a23",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 34,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The object passed as the value prop to the Context provider changes every render. To fix this consider wrapping it in a useMemo hook.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d26da691-e994-43dd-b575-4c1f608677d4",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:src/components/ui/chart.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 182,
+    "hash": "bac20a6d207f17efe3476f3d3c95adf3",
+    "textRange": {
+      "startLine": 182,
+      "endLine": 182,
+      "startOffset": 9,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b979d4b4-8678-4ba7-8500-72d8e77c76f8",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:src/components/ui/chart.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 351,
+    "hash": "b2d27f7a11ec7672177e62d6a2cb638d",
+    "textRange": {
+      "startLine": 351,
+      "endLine": 351,
+      "startOffset": 13,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d77a0d3c-d893-4946-b826-fc6e19cbcc86",
+    "rule": "typescript:S6747",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:src/components/ui/command.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 42,
+    "hash": "48e69635da2a4c96c3ee289eafe98d9e",
+    "textRange": {
+      "startLine": 42,
+      "endLine": 42,
+      "startOffset": 51,
+      "endOffset": 72
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unknown property 'cmdk-input-wrapper' found",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ed2d9648-0b98-44e3-b985-2dd82dc4717c",
+    "rule": "typescript:S6481",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:src/components/ui/form.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 36,
+    "hash": "67a261a453fe58f7c5782a0f2e21dcc9",
+    "textRange": {
+      "startLine": 36,
+      "endLine": 36,
+      "startOffset": 38,
+      "endOffset": 58
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The object passed as the value prop to the Context provider changes every render. To fix this consider wrapping it in a useMemo hook.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "94c72eb0-bf37-4621-bf37-9fa8f610b4b4",
+    "rule": "typescript:S6481",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:src/components/ui/form.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 80,
+    "hash": "471e6011dfb5d503b04373806824705c",
+    "textRange": {
+      "startLine": 80,
+      "endLine": 80,
+      "startOffset": 37,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The object passed as the value prop to the Context provider changes every render. To fix this consider wrapping it in a useMemo hook.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4ebf3562-dbf8-447e-b548-2e40daa8b4c5",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:src/components/ui/form.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 115,
+    "hash": "e0d7ead16591dc999f55a68b661b7012",
+    "textRange": {
+      "startLine": 115,
+      "endLine": 115,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ab70d036-dd14-4182-bfb5-eba75e71a005",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:src/components/ui/input-otp.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 63,
+    "hash": "822728075383fd3d31fc742a36eb278d",
+    "textRange": {
+      "startLine": 63,
+      "endLine": 63,
+      "startOffset": 2,
+      "endOffset": 45
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <hr> instead of the \"separator\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b8ea1fa8-8746-4df0-bff4-8ccdc571baeb",
+    "rule": "typescript:S6827",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:src/components/ui/pagination.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 48,
+    "hash": "2518e8d779a92f826f3c8b7a1c062913",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 58,
+      "startOffset": 2,
+      "endOffset": 4
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchors must have content and the content must be accessible by a screen reader.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c9271c8d-8916-4193-8a4a-dc03c2a8bd9c",
+    "rule": "typescript:S5256",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:src/components/ui/table.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 10,
+    "hash": "e2874e8e0fdc613d154ecc1ffa50bef1",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 14,
+      "startOffset": 4,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a valid header row or column to this \"<table>\".",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "353650d2-743a-40f4-80ae-2f2a68dd9f57",
+    "rule": "typescript:S6481",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:src/components/ui/toggle-group.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 25,
+    "hash": "6b5bad61b25ebb777d4826a5de633a90",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 40,
+      "endOffset": 57
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The object passed as the value prop to the Context provider changes every render. To fix this consider wrapping it in a useMemo hook.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f5569c63-8205-4dac-a250-09c72aa7495f",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:src/components/ui/use-toast.ts",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 99,
+    "hash": "e5c54efb35efeeeef87e6374e07248da",
+    "textRange": {
+      "startLine": 99,
+      "endLine": 99,
+      "startOffset": 21,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "69bd815d-35e7-4aed-a68d-1341069f2785",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:src/components/ui/use-toast.ts",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 136,
+    "hash": "ebfeee73357295d127ffd7a9c2d502f9",
+    "textRange": {
+      "startLine": 136,
+      "endLine": 136,
+      "startOffset": 12,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2533e273-3883-462c-9f6c-125047740211",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 8,
+    "hash": "e1e36e6ada5b84e00bcee8235b7ed814",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 49,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ead9e7ef-9e6c-48ce-b0d4-4bef08c08844",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 8,
+    "hash": "e1e36e6ada5b84e00bcee8235b7ed814",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 23,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis.window` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "76943c6c-091a-4149-a419-59f935be0cbf",
+    "rule": "typescript:S3776",
+    "severity": "CRITICAL",
+    "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 11,
+    "hash": "633558f230c4a445a5c9e347a926571d",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 9,
+      "endOffset": 20
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+            "textRange": {
+              "startLine": 16,
+              "endLine": 16,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+            "textRange": {
+              "startLine": 16,
+              "endLine": 16,
+              "startOffset": 15,
+              "endOffset": 17
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+            "textRange": {
+              "startLine": 18,
+              "endLine": 18,
+              "startOffset": 46,
+              "endOffset": 47
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+            "textRange": {
+              "startLine": 19,
+              "endLine": 19,
+              "startOffset": 42,
+              "endOffset": 43
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+            "textRange": {
+              "startLine": 21,
+              "endLine": 21,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+            "textRange": {
+              "startLine": 21,
+              "endLine": 21,
+              "startOffset": 19,
+              "endOffset": 21
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+            "textRange": {
+              "startLine": 28,
+              "endLine": 28,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+            "textRange": {
+              "startLine": 31,
+              "endLine": 31,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+            "textRange": {
+              "startLine": 34,
+              "endLine": 34,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+            "textRange": {
+              "startLine": 34,
+              "endLine": 34,
+              "startOffset": 29,
+              "endOffset": 31
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+            "textRange": {
+              "startLine": 36,
+              "endLine": 36,
+              "startOffset": 12,
+              "endOffset": 13
+            },
+            "msg": "+4 (incl. 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+            "textRange": {
+              "startLine": 38,
+              "endLine": 38,
+              "startOffset": 10,
+              "endOffset": 12
+            },
+            "msg": "+4 (incl. 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+            "textRange": {
+              "startLine": 38,
+              "endLine": 38,
+              "startOffset": 19,
+              "endOffset": 21
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+            "textRange": {
+              "startLine": 42,
+              "endLine": 42,
+              "startOffset": 8,
+              "endOffset": 13
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+            "textRange": {
+              "startLine": 52,
+              "endLine": 52,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+            "textRange": {
+              "startLine": 52,
+              "endLine": 52,
+              "startOffset": 18,
+              "endOffset": 20
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+            "textRange": {
+              "startLine": 55,
+              "endLine": 55,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+            "textRange": {
+              "startLine": 55,
+              "endLine": 55,
+              "startOffset": 19,
+              "endOffset": 21
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+            "textRange": {
+              "startLine": 63,
+              "endLine": 63,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+            "textRange": {
+              "startLine": 66,
+              "endLine": 66,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+            "textRange": {
+              "startLine": 66,
+              "endLine": 66,
+              "startOffset": 23,
+              "endOffset": 25
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 41 to the 15 allowed.",
+    "effort": "31min",
+    "debt": "31min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4f48d548-a245-43e4-8b04-42a70dea9ee1",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 28,
+    "hash": "7b104c68ea27764eedffa38bf01a5bee",
+    "textRange": {
+      "startLine": 28,
+      "endLine": 28,
+      "startOffset": 13,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis.window` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3426b363-edfe-414a-8b28-55c736b0b299",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 33,
+    "hash": "c3a4d9fe8a70db988ab03841c073c728",
+    "textRange": {
+      "startLine": 33,
+      "endLine": 33,
+      "startOffset": 46,
+      "endOffset": 52
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1a62c2ef-53fe-45cc-96ad-844d04fac01c",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 48,
+    "hash": "d61bf3047a2baee17d85a914f2578165",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 21,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3c93ed04-5e86-4f76-b47d-12e11688fb77",
+    "rule": "typescript:S6594",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 51,
+    "hash": "6df2cb58c1fb9a7dafdb40986bb90e69",
+    "textRange": {
+      "startLine": 51,
+      "endLine": 51,
+      "startOffset": 31,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the \"RegExp.exec()\" method instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "regex",
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "238a5027-59b3-430c-ae05-f7ce9b17e3ac",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 52,
+    "hash": "14812460d52d7c8f546389ec5439ae02",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 52,
+      "startOffset": 8,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8d0f3d29-46a9-401b-9db8-3d6196cab22a",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 81,
+    "hash": "e9de6f895839be6f47105240f1467958",
+    "textRange": {
+      "startLine": 81,
+      "endLine": 81,
+      "startOffset": 43,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2dceff93-2e45-473f-bec7-85665468a0d2",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:src/main.tsx",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 82,
+    "hash": "89f5ba035033a21d10ed54160775bb0a",
+    "textRange": {
+      "startLine": 82,
+      "endLine": 82,
+      "startOffset": 46,
+      "endOffset": 62
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d6cfa202-0399-4a46-95a1-a62ec8720bf9",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "claudio-silva__claude-artifact-runner:vite.config.ts",
+    "project": "claudio-silva__claude-artifact-runner",
+    "line": 3,
+    "hash": "86d5e1b4b9e37b9f521e62e76cad3435",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 17,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T21:35:43+0000",
+    "updateDate": "2026-07-16T21:35:43+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

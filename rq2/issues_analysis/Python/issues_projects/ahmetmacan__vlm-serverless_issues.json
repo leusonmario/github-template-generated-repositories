@@ -1,0 +1,386 @@
+[
+  {
+    "key": "c20bcca1-6ae2-4608-a289-8e146d4e979e",
+    "rule": "docker:S6476",
+    "severity": "MAJOR",
+    "component": "ahmetmacan__vlm-serverless:temp_repos/vlm-serverless/Dockerfile",
+    "project": "ahmetmacan__vlm-serverless",
+    "line": 2,
+    "hash": "008ce0e33549062a0e65fae3cb6255db",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 19,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace \"as\" with upper case format \"AS\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T21:49:33+0000",
+    "updateDate": "2026-07-17T21:49:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FORMATTED",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ed4b2afd-e784-4a0f-a430-62cc9bd999ac",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "ahmetmacan__vlm-serverless:temp_repos/vlm-serverless/Dockerfile",
+    "project": "ahmetmacan__vlm-serverless",
+    "line": 11,
+    "hash": "b50d83463eef325903b2ed72afdfb007",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "ahmetmacan__vlm-serverless:temp_repos/vlm-serverless/Dockerfile",
+            "textRange": {
+              "startLine": 12,
+              "endLine": 12,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ahmetmacan__vlm-serverless:temp_repos/vlm-serverless/Dockerfile",
+            "textRange": {
+              "startLine": 13,
+              "endLine": 13,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:49:33+0000",
+    "updateDate": "2026-07-17T21:49:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "22a27691-55e3-43a8-a43e-e5368570748f",
+    "rule": "docker:S7018",
+    "severity": "MINOR",
+    "component": "ahmetmacan__vlm-serverless:temp_repos/vlm-serverless/Dockerfile",
+    "project": "ahmetmacan__vlm-serverless",
+    "line": 15,
+    "hash": "d21ad0b7b6e53312d6cedfb5ea7bce9c",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 19,
+      "startOffset": 4,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Sort these package names alphanumerically.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:49:33+0000",
+    "updateDate": "2026-07-17T21:49:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0e06d685-1e80-4ee9-92bc-ece27f0bdd63",
+    "rule": "docker:S6587",
+    "severity": "MAJOR",
+    "component": "ahmetmacan__vlm-serverless:temp_repos/vlm-serverless/Dockerfile",
+    "project": "ahmetmacan__vlm-serverless",
+    "line": 27,
+    "hash": "74590be06fc12249f81d102de9075527",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 22,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove cache after installing packages or store it in a cache mount.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:49:33+0000",
+    "updateDate": "2026-07-17T21:49:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "56632ac8-7bed-4f10-97b7-961525069b52",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "ahmetmacan__vlm-serverless:temp_repos/vlm-serverless/Dockerfile",
+    "project": "ahmetmacan__vlm-serverless",
+    "line": 33,
+    "hash": "648659cad4b23dd7c56fbf448ec37f7f",
+    "textRange": {
+      "startLine": 33,
+      "endLine": 33,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "ahmetmacan__vlm-serverless:temp_repos/vlm-serverless/Dockerfile",
+            "textRange": {
+              "startLine": 34,
+              "endLine": 34,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:49:33+0000",
+    "updateDate": "2026-07-17T21:49:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4d03816e-8632-445a-9c3f-b7c75fe9a397",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "ahmetmacan__vlm-serverless:temp_repos/vlm-serverless/sd_runner.py",
+    "project": "ahmetmacan__vlm-serverless",
+    "line": 38,
+    "hash": "345cb4e6e51740b75f4ac0fe074408a9",
+    "textRange": {
+      "startLine": 38,
+      "endLine": 38,
+      "startOffset": 8,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused local variable \"safety_checker\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:49:33+0000",
+    "updateDate": "2026-07-17T21:49:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7e99efde-6b54-4c09-9baf-f5f86bfa7868",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "ahmetmacan__vlm-serverless:temp_repos/vlm-serverless/sd_runner.py",
+    "project": "ahmetmacan__vlm-serverless",
+    "line": 45,
+    "hash": "145724dafb291f2697962d75161daffe",
+    "textRange": {
+      "startLine": 45,
+      "endLine": 45,
+      "startOffset": 12,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:49:33+0000",
+    "updateDate": "2026-07-17T21:49:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9bc57139-f13c-48fe-bf25-53bcdde41dce",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "ahmetmacan__vlm-serverless:temp_repos/vlm-serverless/sd_runner.py",
+    "project": "ahmetmacan__vlm-serverless",
+    "line": 94,
+    "hash": "581477db8ca000655dc35f4766473b4d",
+    "textRange": {
+      "startLine": 94,
+      "endLine": 95,
+      "startOffset": 18,
+      "endOffset": 90
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-17T21:49:33+0000",
+    "updateDate": "2026-07-17T21:49:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "key": "6461f435-0c80-4502-82a3-1906deaece26",
+    "rule": "docker:S6570",
+    "severity": "MAJOR",
+    "component": "appelbe__gcpdemo:temp_repos/gcpdemo/Dockerfile",
+    "project": "appelbe__gcpdemo",
+    "line": 37,
+    "hash": "8799e88acde317a820a1cf1b5ca8c75f",
+    "textRange": {
+      "startLine": 37,
+      "endLine": 37,
+      "startOffset": 26,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Surround this variable with double quotes; otherwise, it can lead to unexpected behavior.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T20:08:16+0000",
+    "updateDate": "2026-07-17T20:08:16+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "711da0aa-f871-43a7-8eea-89ae83eb1a58",
+    "rule": "docker:S7019",
+    "severity": "MAJOR",
+    "component": "appelbe__gcpdemo:temp_repos/gcpdemo/Dockerfile",
+    "project": "appelbe__gcpdemo",
+    "line": 37,
+    "hash": "8799e88acde317a820a1cf1b5ca8c75f",
+    "textRange": {
+      "startLine": 37,
+      "endLine": 37,
+      "startOffset": 4,
+      "endOffset": 75
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Consider wrapping this instruction in a script file and call it with exec form.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T20:08:16+0000",
+    "updateDate": "2026-07-17T20:08:16+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9ca623a6-0c0c-4a12-a0f2-83e7e1d372a9",
+    "rule": "python:S5886",
+    "severity": "MAJOR",
+    "component": "appelbe__gcpdemo:temp_repos/gcpdemo/test/conftest.py",
+    "project": "appelbe__gcpdemo",
+    "line": 24,
+    "hash": "d384ea9d9415ef953ead49d6437756dc",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 4,
+      "endOffset": 19
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "appelbe__gcpdemo:temp_repos/gcpdemo/test/conftest.py",
+            "textRange": {
+              "startLine": 23,
+              "endLine": 23,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "Function definition.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "appelbe__gcpdemo:temp_repos/gcpdemo/test/conftest.py",
+            "textRange": {
+              "startLine": 23,
+              "endLine": 23,
+              "startOffset": 13,
+              "endOffset": 17
+            },
+            "msg": "Type hint.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Remove this yield statement or annotate function \"app\" with \"typing.Generator\" or one of its supertypes.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "typing"
+    ],
+    "creationDate": "2026-07-17T20:08:16+0000",
+    "updateDate": "2026-07-17T20:08:16+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "82214efc-9f80-40ce-90b1-87d59d6cb76d",
+    "rule": "python:S1542",
+    "severity": "MAJOR",
+    "component": "appelbe__gcpdemo:temp_repos/gcpdemo/utils/logging.py",
+    "project": "appelbe__gcpdemo",
+    "line": 62,
+    "hash": "d2722d80b25a5900a5bf41e5522f371d",
+    "textRange": {
+      "startLine": 62,
+      "endLine": 62,
+      "startOffset": 4,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename function \"getJSONLogger\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "convention",
+      "pep"
+    ],
+    "creationDate": "2026-07-17T20:08:16+0000",
+    "updateDate": "2026-07-17T20:08:16+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

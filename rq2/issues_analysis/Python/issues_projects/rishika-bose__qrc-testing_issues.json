@@ -1,0 +1,2382 @@
+[
+  {
+    "key": "49edc582-abc4-48ae-a0ad-ae002934adbb",
+    "rule": "python:S1515",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/experiments/example/learning_curve.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 66,
+    "hash": "e6f9858c19ac997871a532b01eb6fcbf",
+    "textRange": {
+      "startLine": 66,
+      "endLine": 66,
+      "startOffset": 69,
+      "endOffset": 72
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/experiments/example/learning_curve.py",
+            "textRange": {
+              "startLine": 66,
+              "endLine": 66,
+              "startOffset": 30,
+              "endOffset": 36
+            },
+            "msg": "Lambda capturing the variable",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/experiments/example/learning_curve.py",
+            "textRange": {
+              "startLine": 60,
+              "endLine": 60,
+              "startOffset": 12,
+              "endOffset": 15
+            },
+            "msg": "Assignment in the loop",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Add a parameter to the parent lambda function and use variable \"exp\" as its default value; The value of \"exp\" might change at the next loop iteration.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9015cd0a-7a53-4eac-a27f-643bd9c630ba",
+    "rule": "python:S1542",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/scripts/slurm.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 39,
+    "hash": "82b1b84b3eb29ceb38a66a8353a09381",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 39,
+      "startOffset": 4,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename function \"getJobScript\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "convention",
+      "pep"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "83400e30-d46e-4dcc-86c9-978919ec5144",
+    "rule": "python:S1542",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/algorithms/registry.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 10,
+    "hash": "f5478a8247c9190520fbe0804173b758",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 4,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename function \"getAgent\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "convention",
+      "pep"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d21ce6b9-6504-43b7-9938-ef1f402ef516",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/algorithms/registry.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 23,
+    "hash": "eb11d2a1c2b286d0daa85b1d538ec013",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 10,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8eb45dce-ac28-48d3-90ee-bf493cdd063a",
+    "rule": "python:S100",
+    "severity": "MINOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/analysis/colors.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 27,
+    "hash": "0c21abad25db199a74d24c02843b7147",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename method \"_pickColor\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7da8ae0c-128b-406a-b48d-dcc4b390083d",
+    "rule": "python:S100",
+    "severity": "MINOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/analysis/colors.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 38,
+    "hash": "51fbb9292c32082c0af9581cfe930525",
+    "textRange": {
+      "startLine": 38,
+      "endLine": 38,
+      "startOffset": 8,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename method \"colorClasses\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bce85fe8-7567-4a1c-a00c-315db5467503",
+    "rule": "python:S1135",
+    "severity": "INFO",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/analysis/colors.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 43,
+    "hash": "290094ce0ec4d080a075de2b2d2f8975",
+    "textRange": {
+      "startLine": 43,
+      "endLine": 43,
+      "startOffset": 12,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ef75409a-8bc6-439f-bd68-aeeaea4bf31f",
+    "rule": "python:S1542",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/analysis/results.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 5,
+    "hash": "94fdfb94d9aec322b5ee9407dd46fb43",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 4,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename function \"findExpPath\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "convention",
+      "pep"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7be668db-4868-421e-b6fa-c109d4be373b",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/analysis/results.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 10,
+    "hash": "8af01ad7626cff6cb22e5e49d99e7990",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 10,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b74b9a5b-f0fa-474b-8db3-ef0bcb6e12b9",
+    "rule": "python:S1515",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/continuing_main.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 86,
+    "hash": "d48b1157044dd96aae2eb35519f3fc06",
+    "textRange": {
+      "startLine": 86,
+      "endLine": 86,
+      "startOffset": 50,
+      "endOffset": 53
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/continuing_main.py",
+            "textRange": {
+              "startLine": 86,
+              "endLine": 86,
+              "startOffset": 29,
+              "endOffset": 35
+            },
+            "msg": "Lambda capturing the variable",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/continuing_main.py",
+            "textRange": {
+              "startLine": 59,
+              "endLine": 59,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "Assignment in the loop",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Add a parameter to the parent lambda function and use variable \"idx\" as its default value; The value of \"idx\" might change at the next loop iteration.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cb9cf3f5-f30c-403d-9175-a8565d178fe0",
+    "rule": "python:S1515",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/continuing_main.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 86,
+    "hash": "d48b1157044dd96aae2eb35519f3fc06",
+    "textRange": {
+      "startLine": 86,
+      "endLine": 86,
+      "startOffset": 55,
+      "endOffset": 64
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/continuing_main.py",
+            "textRange": {
+              "startLine": 86,
+              "endLine": 86,
+              "startOffset": 29,
+              "endOffset": 35
+            },
+            "msg": "Lambda capturing the variable",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/continuing_main.py",
+            "textRange": {
+              "startLine": 64,
+              "endLine": 64,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "Assignment in the loop",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Add a parameter to the parent lambda function and use variable \"collector\" as its default value; The value of \"collector\" might change at the next loop iteration.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "15920cf9-7e50-432d-b34a-53d85777b513",
+    "rule": "python:S1515",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/continuing_main.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 90,
+    "hash": "04f94ede47f94968215e5e441f651cb3",
+    "textRange": {
+      "startLine": 90,
+      "endLine": 90,
+      "startOffset": 51,
+      "endOffset": 54
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/continuing_main.py",
+            "textRange": {
+              "startLine": 90,
+              "endLine": 90,
+              "startOffset": 29,
+              "endOffset": 35
+            },
+            "msg": "Lambda capturing the variable",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/continuing_main.py",
+            "textRange": {
+              "startLine": 88,
+              "endLine": 88,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "Assignment in the loop",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Add a parameter to the parent lambda function and use variable \"env\" as its default value; The value of \"env\" might change at the next loop iteration.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "de933ff1-ea3f-434d-8533-e0fb56e737da",
+    "rule": "python:S1515",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/continuing_main.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 90,
+    "hash": "04f94ede47f94968215e5e441f651cb3",
+    "textRange": {
+      "startLine": 90,
+      "endLine": 90,
+      "startOffset": 44,
+      "endOffset": 49
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/continuing_main.py",
+            "textRange": {
+              "startLine": 90,
+              "endLine": 90,
+              "startOffset": 29,
+              "endOffset": 35
+            },
+            "msg": "Lambda capturing the variable",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/continuing_main.py",
+            "textRange": {
+              "startLine": 87,
+              "endLine": 87,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "Assignment in the loop",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Add a parameter to the parent lambda function and use variable \"agent\" as its default value; The value of \"agent\" might change at the next loop iteration.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "87262623-6d4b-4543-a2dd-3cd2f4ac7844",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/environments/Atari.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 16,
+    "hash": "8cb22038b787e92ad1b7cf2bd7e6cb2e",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 8,
+      "endOffset": 97
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "08d2cc0c-3754-4884-8e15-072cf49cb3b1",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/environments/Gym.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 14,
+    "hash": "04ef98fde3b45b00bcae89ffe37e016e",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 11,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused local variable \"info\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "12abf80a-0cbc-424f-b439-fac7fef5fd64",
+    "rule": "python:S1542",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/experiment/tools.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 14,
+    "hash": "18284a3bbd90ac1760eaf1bcca9742d6",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 4,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename function \"iterateDomains\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "convention",
+      "pep"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7b0177aa-f8a9-40a5-8e2b-44c16ce6d76f",
+    "rule": "python:S1542",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/experiment/tools.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 26,
+    "hash": "1d92344246df151f8604f8af32c616a3",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 4,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename function \"parseCmdLineArgs\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "convention",
+      "pep"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4e200a78-b127-4fc8-97dc-0ed2b2616c43",
+    "rule": "python:S1515",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/main.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 89,
+    "hash": "d48b1157044dd96aae2eb35519f3fc06",
+    "textRange": {
+      "startLine": 89,
+      "endLine": 89,
+      "startOffset": 55,
+      "endOffset": 64
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/main.py",
+            "textRange": {
+              "startLine": 89,
+              "endLine": 89,
+              "startOffset": 29,
+              "endOffset": 35
+            },
+            "msg": "Lambda capturing the variable",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/main.py",
+            "textRange": {
+              "startLine": 63,
+              "endLine": 63,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "Assignment in the loop",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Add a parameter to the parent lambda function and use variable \"collector\" as its default value; The value of \"collector\" might change at the next loop iteration.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "566980df-c9db-43eb-9313-cb57d95522e9",
+    "rule": "python:S1515",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/main.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 89,
+    "hash": "d48b1157044dd96aae2eb35519f3fc06",
+    "textRange": {
+      "startLine": 89,
+      "endLine": 89,
+      "startOffset": 50,
+      "endOffset": 53
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/main.py",
+            "textRange": {
+              "startLine": 89,
+              "endLine": 89,
+              "startOffset": 29,
+              "endOffset": 35
+            },
+            "msg": "Lambda capturing the variable",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/main.py",
+            "textRange": {
+              "startLine": 58,
+              "endLine": 58,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "Assignment in the loop",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Add a parameter to the parent lambda function and use variable \"idx\" as its default value; The value of \"idx\" might change at the next loop iteration.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "51c83542-b48b-4c8c-a708-7516f2f1812e",
+    "rule": "python:S1515",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/main.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 93,
+    "hash": "04f94ede47f94968215e5e441f651cb3",
+    "textRange": {
+      "startLine": 93,
+      "endLine": 93,
+      "startOffset": 44,
+      "endOffset": 49
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/main.py",
+            "textRange": {
+              "startLine": 93,
+              "endLine": 93,
+              "startOffset": 29,
+              "endOffset": 35
+            },
+            "msg": "Lambda capturing the variable",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/main.py",
+            "textRange": {
+              "startLine": 90,
+              "endLine": 90,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "Assignment in the loop",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Add a parameter to the parent lambda function and use variable \"agent\" as its default value; The value of \"agent\" might change at the next loop iteration.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "80c635ef-2206-4de7-a746-831c0047917b",
+    "rule": "python:S1515",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/main.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 93,
+    "hash": "04f94ede47f94968215e5e441f651cb3",
+    "textRange": {
+      "startLine": 93,
+      "endLine": 93,
+      "startOffset": 51,
+      "endOffset": 54
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/main.py",
+            "textRange": {
+              "startLine": 93,
+              "endLine": 93,
+              "startOffset": 29,
+              "endOffset": 35
+            },
+            "msg": "Lambda capturing the variable",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/main.py",
+            "textRange": {
+              "startLine": 91,
+              "endLine": 91,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "Assignment in the loop",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Add a parameter to the parent lambda function and use variable \"env\" as its default value; The value of \"env\" might change at the next loop iteration.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bb1da000-3675-48d1-8445-4f42073a89f1",
+    "rule": "python:S1542",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/problems/Atari.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 6,
+    "hash": "a39f3c2cb3aa223990bfcad464fa9e56",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 4,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename function \"upperFirst\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "convention",
+      "pep"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b21ede31-5b05-4507-93d5-2e97ce074c38",
+    "rule": "python:S1542",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/problems/Atari.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 10,
+    "hash": "7df2fc9600ab9fed44132cc9eea0e6ff",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 4,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename function \"toGymStr\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "convention",
+      "pep"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f85c585e-96c1-44bb-8aa0-a13bfb2f1644",
+    "rule": "python:S100",
+    "severity": "MINOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/problems/BaseProblem.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 31,
+    "hash": "04db1f2a8875baaa3c2c316f86394473",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 8,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename method \"getEnvironment\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2d1cee47-b393-406d-8108-a607697b9e10",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/problems/BaseProblem.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 33,
+    "hash": "73b76d44a0a693b392df3c797f223508",
+    "textRange": {
+      "startLine": 33,
+      "endLine": 33,
+      "startOffset": 18,
+      "endOffset": 88
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8ca490cb-4b82-44f8-84fa-00b3f31ce572",
+    "rule": "python:S100",
+    "severity": "MINOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/problems/BaseProblem.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 37,
+    "hash": "1d5ba8063464b28a57a75b9417ddd7f6",
+    "textRange": {
+      "startLine": 37,
+      "endLine": 37,
+      "startOffset": 8,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename method \"getAgent\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "de3c5659-93de-4cdf-961e-2217403ac0ed",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/problems/BaseProblem.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 44,
+    "hash": "f8067ffe9ffe00ad5e002a16958abd14",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 44,
+      "startOffset": 8,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"Agent\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d7928e56-7935-47eb-bcce-3c93fd9e09aa",
+    "rule": "python:S1542",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/problems/registry.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 5,
+    "hash": "346300d6db48bbe64f8bdc29ec45f96b",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 4,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename function \"getProblem\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "convention",
+      "pep"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "97eb05c1-4b5c-4b85-8b99-b458c6deb137",
+    "rule": "python:S100",
+    "severity": "MINOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/representations/networks.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 26,
+    "hash": "e74d25687161a01a823718d6d421a345",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 8,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename method \"getParams\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6fae0df6-9a85-4e01-9803-6635e66be0bc",
+    "rule": "python:S100",
+    "severity": "MINOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/representations/networks.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 30,
+    "hash": "a3d54a12e3ba841f0e6e0c52f92e2f34",
+    "textRange": {
+      "startLine": 30,
+      "endLine": 30,
+      "startOffset": 8,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename method \"getFeatureFunction\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5a75b244-5fd3-4b73-b16c-75aaa92566ab",
+    "rule": "python:S100",
+    "severity": "MINOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/representations/networks.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 36,
+    "hash": "9a111b82f4a29263731aa6bc9d4eee18",
+    "textRange": {
+      "startLine": 36,
+      "endLine": 36,
+      "startOffset": 8,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename method \"addHead\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5a36d21d-2987-4cd9-9bbc-001f9fa9cc4d",
+    "rule": "python:S1542",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/representations/networks.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 67,
+    "hash": "1dae0c73c7e9edc2337947f838c9e326",
+    "textRange": {
+      "startLine": 67,
+      "endLine": 67,
+      "startOffset": 4,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename function \"reluLayers\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "convention",
+      "pep"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f0eb6b28-e825-4b99-8102-2623304fa096",
+    "rule": "python:S1542",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/representations/networks.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 78,
+    "hash": "ee994468cf5cd4b94e9414c3ce4b2325",
+    "textRange": {
+      "startLine": 78,
+      "endLine": 78,
+      "startOffset": 4,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename function \"buildFeatureNetwork\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "convention",
+      "pep"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "daf73bdc-932a-483f-94c7-797ca5bb7fbc",
+    "rule": "python:S1871",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/representations/networks.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 99,
+    "hash": "fd1a7379c19ffa4ebf429cff10d16114",
+    "textRange": {
+      "startLine": 99,
+      "endLine": 105,
+      "startOffset": 12,
+      "endOffset": 54
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/representations/networks.py",
+            "textRange": {
+              "startLine": 90,
+              "endLine": 96,
+              "startOffset": 12,
+              "endOffset": 54
+            },
+            "msg": "Original",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Either merge this branch with the identical one on line \"90\" or change one of the implementations.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "design",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a3284546-ba6e-4108-8fe0-22f12edab341",
+    "rule": "python:S1542",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/utils/hk.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 17,
+    "hash": "7611dde634a8c5f9e7db3c38cf195639",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 17,
+      "startOffset": 4,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename function \"accumulatingSequence\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "convention",
+      "pep"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e7655204-7c59-4f74-b20e-1308f2fa97be",
+    "rule": "python:S1542",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/utils/jax.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 29,
+    "hash": "5f20632de8312047c064cc99a4e061b9",
+    "textRange": {
+      "startLine": 29,
+      "endLine": 29,
+      "startOffset": 4,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename function \"takeAlongAxis\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "convention",
+      "pep"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a9cf5f74-89de-4a0b-b4c1-7b067b915ac8",
+    "rule": "python:S1542",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/utils/plotting.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 1,
+    "hash": "6d4539966aa9a347e86fce8fbb42a579",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 4,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename function \"confidenceInterval\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "convention",
+      "pep"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1d954712-49ab-4a03-ba5b-05059ba8f1af",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/utils/plotting.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 5,
+    "hash": "89bef9af12b41d9aef4344cb2c2387a9",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused local variable \"runs\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2badaea3-4a22-44fc-a253-28ff9a697b33",
+    "rule": "python:S100",
+    "severity": "MINOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/utils/policies.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 13,
+    "hash": "76f0008f6bfb93b0e103fe7296947b27",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 8,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename method \"selectAction\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dce5801e-80c9-41ce-ac38-a2bca7ea6341",
+    "rule": "python:S1542",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/utils/policies.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 21,
+    "hash": "ee8378b5b0b43d7cac37bbf67858aaba",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 4,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename function \"fromStateArray\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "convention",
+      "pep"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7357523f-f8b4-45a8-a8cf-e73e52275042",
+    "rule": "python:S1542",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/utils/policies.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 24,
+    "hash": "6050f23133a1a86c8025bc12f1b903db",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 4,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename function \"fromActionArray\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "convention",
+      "pep"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "184b4721-8a5d-4cfe-96d2-327969f2684a",
+    "rule": "python:S1542",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/utils/policies.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 27,
+    "hash": "17f72b63cee87bbce5d99e7680f7f66e",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 4,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename function \"createEGreedy\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "convention",
+      "pep"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "783210d0-1399-4dbd-ace8-a50c10f7e8c0",
+    "rule": "python:S1845",
+    "severity": "BLOCKER",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/utils/results.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 14,
+    "hash": "4e61f79dc90972ac86d7b53b89dc6ac5",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 13,
+      "endOffset": 16
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/utils/results.py",
+            "textRange": {
+              "startLine": 11,
+              "endLine": 11,
+              "startOffset": 13,
+              "endOffset": 16
+            },
+            "msg": "Original",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Rename field \"exp\" to prevent any misunderstanding/clash with field \"Exp\" defined on line 11",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "convention",
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b5f246b5-6de3-49be-9912-21ffa0659106",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/utils/results.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 18,
+    "hash": "48e5fac586469a77c07cc40505101d06",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 55,
+      "endOffset": 67
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/utils/results.py",
+            "textRange": {
+              "startLine": 90,
+              "endLine": 90,
+              "startOffset": 27,
+              "endOffset": 39
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/utils/results.py",
+            "textRange": {
+              "startLine": 92,
+              "endLine": 92,
+              "startOffset": 26,
+              "endOffset": 38
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal 'results.db' 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "960b7bc1-f898-47fc-b7fa-72b7cfd7ac51",
+    "rule": "python:S116",
+    "severity": "MINOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/utils/results.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 41,
+    "hash": "c18d0cae95a4cb4307074cbc0362b4de",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 41,
+      "startOffset": 13,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this field \"Model\" to match the regular expression ^[_a-z][_a-z0-9]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "caf201c0-9695-4bef-ad19-3e3014e73dee",
+    "rule": "python:S7505",
+    "severity": "MAJOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/utils/results.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 52,
+    "hash": "4f6dbafb740ebbb1b1c6be7e09774140",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 52,
+      "startOffset": 16,
+      "endOffset": 60
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this map call with a comprehension.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3967c7ad-056d-4f0b-b999-3a129e1c6553",
+    "rule": "python:S7494",
+    "severity": "MINOR",
+    "component": "rishika-bose__qrc-testing:temp_repos/QRC-testing/src/utils/results.py",
+    "project": "rishika-bose__qrc-testing",
+    "line": 73,
+    "hash": "6e5106692eb33191c5c166753dfa6411",
+    "textRange": {
+      "startLine": 73,
+      "endLine": 73,
+      "startOffset": 18,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace set constructor call with a set comprehension.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T18:47:41+0000",
+    "updateDate": "2026-07-17T18:47:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

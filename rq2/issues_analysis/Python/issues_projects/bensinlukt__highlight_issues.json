@@ -1,0 +1,2112 @@
+[
+  {
+    "key": "9a621175-1f35-4497-a3f0-bf8c8118b90d",
+    "rule": "python:S905",
+    "severity": "MAJOR",
+    "component": "bensinlukt__highlight:temp_repos/highlight/app/build.py",
+    "project": "bensinlukt__highlight",
+    "line": 25,
+    "hash": "25952a5881f5105953a6860f867d47d1",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 12,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove or refactor this statement; it has no side effects.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3e9544e5-1e41-4d0d-9324-ec70a16ceaae",
+    "rule": "python:S3626",
+    "severity": "MINOR",
+    "component": "bensinlukt__highlight:temp_repos/highlight/app/build.py",
+    "project": "bensinlukt__highlight",
+    "line": 41,
+    "hash": "e70c4df10ef0983b9c8c31bd06b2a2c3",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 41,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant return.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "redundant",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5672f105-e47d-45ae-9dfd-db8ee0912f09",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "bensinlukt__highlight:temp_repos/highlight/app/build.py",
+    "project": "bensinlukt__highlight",
+    "line": 60,
+    "hash": "a46f2f7995625d5e4a17971e3a944f5f",
+    "textRange": {
+      "startLine": 60,
+      "endLine": 60,
+      "startOffset": 41,
+      "endOffset": 48
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/build.py",
+            "textRange": {
+              "startLine": 133,
+              "endLine": 133,
+              "startOffset": 22,
+              "endOffset": 29
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/build.py",
+            "textRange": {
+              "startLine": 168,
+              "endLine": 168,
+              "startOffset": 22,
+              "endOffset": 29
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal 'site/' 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6fb974e3-2ab5-4cf4-95ba-1fadf53a8d64",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "bensinlukt__highlight:temp_repos/highlight/app/build.py",
+    "project": "bensinlukt__highlight",
+    "line": 61,
+    "hash": "16f774d08f2d746e04eebc6f6bf57c6c",
+    "textRange": {
+      "startLine": 61,
+      "endLine": 61,
+      "startOffset": 22,
+      "endOffset": 29
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/build.py",
+            "textRange": {
+              "startLine": 121,
+              "endLine": 121,
+              "startOffset": 55,
+              "endOffset": 62
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/build.py",
+            "textRange": {
+              "startLine": 133,
+              "endLine": 133,
+              "startOffset": 39,
+              "endOffset": 46
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/build.py",
+            "textRange": {
+              "startLine": 158,
+              "endLine": 158,
+              "startOffset": 55,
+              "endOffset": 62
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/build.py",
+            "textRange": {
+              "startLine": 168,
+              "endLine": 168,
+              "startOffset": 39,
+              "endOffset": 46
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal '.html' 5 times.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0bfa9b57-e3d3-4cc2-9a83-376409c7f871",
+    "rule": "python:S5806",
+    "severity": "MAJOR",
+    "component": "bensinlukt__highlight:temp_repos/highlight/app/build.py",
+    "project": "bensinlukt__highlight",
+    "line": 67,
+    "hash": "d590c296ba9c1b0c8a2909bb2f7208a5",
+    "textRange": {
+      "startLine": 67,
+      "endLine": 67,
+      "startOffset": 16,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this variable; it shadows a builtin.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "confusing",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "222fd838-5692-468d-8165-ce6ac199594a",
+    "rule": "python:S1172",
+    "severity": "MAJOR",
+    "component": "bensinlukt__highlight:temp_repos/highlight/app/build.py",
+    "project": "bensinlukt__highlight",
+    "line": 108,
+    "hash": "dae2fce16e1e3a5fb89aea4c33c3243e",
+    "textRange": {
+      "startLine": 108,
+      "endLine": 108,
+      "startOffset": 29,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused function parameter \"single\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1950d0a7-bb5c-4837-80eb-1652043c68f7",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "bensinlukt__highlight:temp_repos/highlight/app/build.py",
+    "project": "bensinlukt__highlight",
+    "line": 141,
+    "hash": "c5f0c58641a499fb460c753fc9c71cb7",
+    "textRange": {
+      "startLine": 141,
+      "endLine": 141,
+      "startOffset": 8,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused local variable \"RESUMES\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "da470d9d-c391-4f2e-84c1-dd073e37fea1",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+    "project": "bensinlukt__highlight",
+    "line": 12,
+    "hash": "34732a19553ee547020b8d23ef0a0ff4",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 8,
+      "endOffset": 19
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 144,
+              "endLine": 144,
+              "startOffset": 27,
+              "endOffset": 38
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 145,
+              "endLine": 145,
+              "startOffset": 33,
+              "endOffset": 44
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal 'src/pages' 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "149d687d-e429-48bd-82b8-15bf9744ae69",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+    "project": "bensinlukt__highlight",
+    "line": 20,
+    "hash": "c1f02741c8c4bdac57f0fa335740e242",
+    "textRange": {
+      "startLine": 20,
+      "endLine": 20,
+      "startOffset": 4,
+      "endOffset": 16
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 25,
+              "endLine": 25,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 28,
+              "endLine": 28,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 34,
+              "endLine": 34,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 38,
+              "endLine": 38,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 40,
+              "endLine": 40,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 45,
+              "endLine": 45,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 45,
+              "endLine": 45,
+              "startOffset": 24,
+              "endOffset": 27
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 49,
+              "endLine": 49,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 49,
+              "endLine": 49,
+              "startOffset": 24,
+              "endOffset": 27
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 52,
+              "endLine": 52,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 62,
+              "endLine": 62,
+              "startOffset": 51,
+              "endOffset": 53
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 66,
+              "endLine": 66,
+              "startOffset": 60,
+              "endOffset": 62
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 69,
+              "endLine": 69,
+              "startOffset": 63,
+              "endOffset": 65
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 74,
+              "endLine": 74,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 75,
+              "endLine": 75,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 82,
+              "endLine": 82,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 82,
+              "endLine": 82,
+              "startOffset": 52,
+              "endOffset": 55
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 91,
+              "endLine": 91,
+              "startOffset": 16,
+              "endOffset": 20
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 98,
+              "endLine": 98,
+              "startOffset": 53,
+              "endOffset": 55
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 99,
+              "endLine": 99,
+              "startOffset": 55,
+              "endOffset": 57
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 100,
+              "endLine": 100,
+              "startOffset": 45,
+              "endOffset": 47
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 101,
+              "endLine": 101,
+              "startOffset": 47,
+              "endOffset": 49
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 109,
+              "endLine": 109,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 111,
+              "endLine": 111,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 120,
+              "endLine": 120,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+            "textRange": {
+              "startLine": 122,
+              "endLine": 122,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 59 to the 15 allowed.",
+    "effort": "49min",
+    "debt": "49min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "09993bc5-02d3-41c7-8a99-1d9e826f2fb1",
+    "rule": "python:S1940",
+    "severity": "MINOR",
+    "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+    "project": "bensinlukt__highlight",
+    "line": 38,
+    "hash": "779ddd08d6eafd49f760425c5caa3d38",
+    "textRange": {
+      "startLine": 38,
+      "endLine": 38,
+      "startOffset": 11,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the opposite operator (\"is not\") instead.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5a0b18ae-bf6d-4f11-a03c-2a0cf644fc92",
+    "rule": "python:S1940",
+    "severity": "MINOR",
+    "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+    "project": "bensinlukt__highlight",
+    "line": 82,
+    "hash": "ea19727e0652be738a1020cb78dd2ae0",
+    "textRange": {
+      "startLine": 82,
+      "endLine": 82,
+      "startOffset": 56,
+      "endOffset": 103
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the opposite operator (\"!=\") instead.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "781c7ddc-c581-429f-8176-be653ff13f29",
+    "rule": "python:S1135",
+    "severity": "INFO",
+    "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+    "project": "bensinlukt__highlight",
+    "line": 114,
+    "hash": "5d7eb3e0d4efac54f530b601ea364c88",
+    "textRange": {
+      "startLine": 114,
+      "endLine": 114,
+      "startOffset": 16,
+      "endOffset": 52
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "40d0dbeb-7baf-4e69-a2ba-04b9a2f0bece",
+    "rule": "python:S1940",
+    "severity": "MINOR",
+    "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+    "project": "bensinlukt__highlight",
+    "line": 135,
+    "hash": "190bef7c71f0e85f13b0c83645230f90",
+    "textRange": {
+      "startLine": 135,
+      "endLine": 135,
+      "startOffset": 19,
+      "endOffset": 49
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the opposite operator (\"not in\") instead.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c7e732b1-2d90-4633-b427-0186da87f7c2",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+    "project": "bensinlukt__highlight",
+    "line": 137,
+    "hash": "94a205180b7390ab241b2df54bb8e0e3",
+    "textRange": {
+      "startLine": 137,
+      "endLine": 137,
+      "startOffset": 33,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused local variable \"exc\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "617ff776-d582-4e7c-a8f4-c0b26ee79de5",
+    "rule": "python:S1172",
+    "severity": "MAJOR",
+    "component": "bensinlukt__highlight:temp_repos/highlight/app/helpers.py",
+    "project": "bensinlukt__highlight",
+    "line": 167,
+    "hash": "63c15c3790f6d6e6952c2c6263a112dd",
+    "textRange": {
+      "startLine": 167,
+      "endLine": 167,
+      "startOffset": 16,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused function parameter \"status\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "71d3cfa1-40f7-4453-ad93-61469d46ee7c",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "bensinlukt__highlight:temp_repos/highlight/app/load.py",
+    "project": "bensinlukt__highlight",
+    "line": 8,
+    "hash": "5adc3ec07737265165c590b098314afd",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 4,
+      "endOffset": 14
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/load.py",
+            "textRange": {
+              "startLine": 13,
+              "endLine": 13,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/load.py",
+            "textRange": {
+              "startLine": 19,
+              "endLine": 19,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/load.py",
+            "textRange": {
+              "startLine": 19,
+              "endLine": 19,
+              "startOffset": 61,
+              "endOffset": 64
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/load.py",
+            "textRange": {
+              "startLine": 24,
+              "endLine": 24,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/load.py",
+            "textRange": {
+              "startLine": 30,
+              "endLine": 30,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/load.py",
+            "textRange": {
+              "startLine": 33,
+              "endLine": 33,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/load.py",
+            "textRange": {
+              "startLine": 35,
+              "endLine": 35,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/load.py",
+            "textRange": {
+              "startLine": 41,
+              "endLine": 41,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/load.py",
+            "textRange": {
+              "startLine": 43,
+              "endLine": 43,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/load.py",
+            "textRange": {
+              "startLine": 45,
+              "endLine": 45,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/load.py",
+            "textRange": {
+              "startLine": 53,
+              "endLine": 53,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/load.py",
+            "textRange": {
+              "startLine": 57,
+              "endLine": 57,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/load.py",
+            "textRange": {
+              "startLine": 62,
+              "endLine": 62,
+              "startOffset": 44,
+              "endOffset": 46
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bensinlukt__highlight:temp_repos/highlight/app/load.py",
+            "textRange": {
+              "startLine": 66,
+              "endLine": 66,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0a24383e-c8b0-4953-81c2-f7d75e879a7e",
+    "rule": "python:S1940",
+    "severity": "MINOR",
+    "component": "bensinlukt__highlight:temp_repos/highlight/app/load.py",
+    "project": "bensinlukt__highlight",
+    "line": 35,
+    "hash": "52dabdfafff6809c2ae88b5d266f5501",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 15,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the opposite operator (\"is not\") instead.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e8578eeb-08ff-45db-a3d0-e8d177ba8156",
+    "rule": "python:S1940",
+    "severity": "MINOR",
+    "component": "bensinlukt__highlight:temp_repos/highlight/app/load.py",
+    "project": "bensinlukt__highlight",
+    "line": 43,
+    "hash": "76ab2c89ac5369dbebeeb19075052e73",
+    "textRange": {
+      "startLine": 43,
+      "endLine": 43,
+      "startOffset": 19,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the opposite operator (\"not in\") instead.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0e401f03-e065-4797-ab3e-f21b02c9d022",
+    "rule": "python:S1940",
+    "severity": "MINOR",
+    "component": "bensinlukt__highlight:temp_repos/highlight/app/load.py",
+    "project": "bensinlukt__highlight",
+    "line": 45,
+    "hash": "7b68a21c9b7879ceee540186cfab6bac",
+    "textRange": {
+      "startLine": 45,
+      "endLine": 45,
+      "startOffset": 19,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the opposite operator (\"not in\") instead.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "25d70cde-2c1c-4dcf-8764-fdc6d7be2be1",
+    "rule": "python:S1135",
+    "severity": "INFO",
+    "component": "bensinlukt__highlight:temp_repos/highlight/app/load.py",
+    "project": "bensinlukt__highlight",
+    "line": 55,
+    "hash": "61a66c7c164d42c0b070f40a4cddb313",
+    "textRange": {
+      "startLine": 55,
+      "endLine": 55,
+      "startOffset": 8,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9eb3314c-9a53-4be0-b864-be53080d95f1",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "bensinlukt__highlight:temp_repos/highlight/app/server.py",
+    "project": "bensinlukt__highlight",
+    "line": 10,
+    "hash": "db072e5d580a70be5a0482a9983b2aec",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused local variable \"f\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "94bb3846-32cc-47b8-9129-827badc98ad2",
+    "rule": "python:S1172",
+    "severity": "MAJOR",
+    "component": "bensinlukt__highlight:temp_repos/highlight/app/watch.py",
+    "project": "bensinlukt__highlight",
+    "line": 4,
+    "hash": "51094cf7abacc97069e6c1de350c1c7f",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 19,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused function parameter \"sig\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fe8d3a30-e092-4cb2-9b78-a075ef611fbc",
+    "rule": "python:S1172",
+    "severity": "MAJOR",
+    "component": "bensinlukt__highlight:temp_repos/highlight/app/watch.py",
+    "project": "bensinlukt__highlight",
+    "line": 4,
+    "hash": "51094cf7abacc97069e6c1de350c1c7f",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 24,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused function parameter \"frame\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7eba19a0-e2d2-48c4-8c6e-e0954a42d292",
+    "rule": "Web:S5254",
+    "severity": "MAJOR",
+    "component": "bensinlukt__highlight:temp_repos/highlight/src/skybridge/demo-video/index.html",
+    "project": "bensinlukt__highlight",
+    "line": 2,
+    "hash": "166248a6129a1e4370d20adc2d4c23f3",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 2,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"<html>\" element",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "62564b09-3537-4ee4-a363-e901cf4c568a",
+    "rule": "Web:MetaRefreshCheck",
+    "severity": "MAJOR",
+    "component": "bensinlukt__highlight:temp_repos/highlight/src/skybridge/demo-video/index.html",
+    "project": "bensinlukt__highlight",
+    "line": 6,
+    "hash": "b9e443833344a015160217f03513204d",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 5,
+      "endOffset": 95
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this meta refresh tag.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "user-experience"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "88048d17-1347-4c1b-8b34-28ab95e7d4e1",
+    "rule": "Web:S5254",
+    "severity": "MAJOR",
+    "component": "bensinlukt__highlight:temp_repos/highlight/src/skybridge/pitch-deck/index.html",
+    "project": "bensinlukt__highlight",
+    "line": 2,
+    "hash": "166248a6129a1e4370d20adc2d4c23f3",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 2,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"<html>\" element",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e5166c18-be2d-4a74-bd81-27c47cac814b",
+    "rule": "Web:MetaRefreshCheck",
+    "severity": "MAJOR",
+    "component": "bensinlukt__highlight:temp_repos/highlight/src/skybridge/pitch-deck/index.html",
+    "project": "bensinlukt__highlight",
+    "line": 6,
+    "hash": "6472e8f95cf6583c49de35ea2eb125da",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 5,
+      "endOffset": 125
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this meta refresh tag.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "user-experience"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f8a0ba84-8467-41e3-bbde-bf173778518a",
+    "rule": "Web:ImgWithoutAltCheck",
+    "severity": "MINOR",
+    "component": "bensinlukt__highlight:temp_repos/highlight/src/templates/home.html",
+    "project": "bensinlukt__highlight",
+    "line": 5,
+    "hash": "0103d961252091e48c5f05d6396f6d1d",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 8,
+      "startOffset": 8,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add an \"alt\" attribute to this image.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6534d9d8-629a-4d72-9ea4-ca6fd9225996",
+    "rule": "Web:AvoidCommentedOutCodeCheck",
+    "severity": "MAJOR",
+    "component": "bensinlukt__highlight:temp_repos/highlight/src/templates/home.html",
+    "project": "bensinlukt__highlight",
+    "line": 11,
+    "hash": "80eccd40b02e56f375f38ff4035c539c",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 0,
+      "endOffset": 196
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cff967d1-3a02-40af-8edc-b7a62f135f76",
+    "rule": "css:S125",
+    "severity": "MAJOR",
+    "component": "bensinlukt__highlight:temp_repos/highlight/src/templates/layout.html",
+    "project": "bensinlukt__highlight",
+    "line": 24,
+    "hash": "5222ec9d0c6494517edeba46f90dca9c",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 0,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "baf1b9da-3a50-4cd5-b354-f8a01e5085cd",
+    "rule": "css:S125",
+    "severity": "MAJOR",
+    "component": "bensinlukt__highlight:temp_repos/highlight/src/templates/layout.html",
+    "project": "bensinlukt__highlight",
+    "line": 31,
+    "hash": "739fdf4323234ac4b63fb72b2f436500",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 0,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3fc759ac-e935-41fa-b65c-ed7ef7d3c58b",
+    "rule": "Web:AvoidCommentedOutCodeCheck",
+    "severity": "MAJOR",
+    "component": "bensinlukt__highlight:temp_repos/highlight/src/templates/resume.html",
+    "project": "bensinlukt__highlight",
+    "line": 12,
+    "hash": "4fe787bf232f30938761642d88e4e6b1",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 0,
+      "endOffset": 76
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T18:48:22+0000",
+    "updateDate": "2026-07-17T18:48:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

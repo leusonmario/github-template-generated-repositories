@@ -1,0 +1,2965 @@
+[
+  {
+    "key": "497bb615-f0a4-46c5-aa25-45d8cb364d14",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/Dockerfile",
+    "project": "ryz-code__bottt",
+    "line": 6,
+    "hash": "d4b97294e0e1382f388f8b8635704643",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/Dockerfile",
+            "textRange": {
+              "startLine": 7,
+              "endLine": 7,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "36a5c558-a53c-49ae-8336-ae44207dd4c8",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/__main__.py",
+    "project": "ryz-code__bottt",
+    "line": 44,
+    "hash": "f0bb7f1c7c815e6f12b11b2714e04281",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 44,
+      "startOffset": 10,
+      "endOffset": 78
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/__main__.py",
+            "textRange": {
+              "startLine": 48,
+              "endLine": 48,
+              "startOffset": 10,
+              "endOffset": 78
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/__main__.py",
+            "textRange": {
+              "startLine": 53,
+              "endLine": 53,
+              "startOffset": 10,
+              "endOffset": 78
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"------------------------------ DONE ------------------------------\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9c02ed36-869f-414f-b88c-af822f6956d4",
+    "rule": "python:S7494",
+    "severity": "MINOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/clients.py",
+    "project": "ryz-code__bottt",
+    "line": 10,
+    "hash": "e32eb8d32b7b73046bd5cbf3aa08d67d",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 17,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace dict constructor call with a dictionary comprehension.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0735f2f0-685d-4a3f-93ef-b9fde33ddea3",
+    "rule": "python:S5806",
+    "severity": "MAJOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+    "project": "ryz-code__bottt",
+    "line": 32,
+    "hash": "02f7fa8a7e2b17af081701adff8ae7d7",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 32,
+      "startOffset": 4,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this variable; it shadows a builtin.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "confusing",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ef08cd21-2cf2-45e8-aa55-2335f19531c9",
+    "rule": "python:S5806",
+    "severity": "MAJOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+    "project": "ryz-code__bottt",
+    "line": 53,
+    "hash": "98bf9e4b9298b3f71d5405615181ba19",
+    "textRange": {
+      "startLine": 53,
+      "endLine": 53,
+      "startOffset": 4,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this variable; it shadows a builtin.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "confusing",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "28960eb3-aad8-4c46-aff7-46d970d54129",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+    "project": "ryz-code__bottt",
+    "line": 72,
+    "hash": "490841ef91b518f581e421a228fb85ac",
+    "textRange": {
+      "startLine": 72,
+      "endLine": 72,
+      "startOffset": 10,
+      "endOffset": 20
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 75,
+              "endLine": 75,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 77,
+              "endLine": 77,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 94,
+              "endLine": 94,
+              "startOffset": 14,
+              "endOffset": 17
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 99,
+              "endLine": 99,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 101,
+              "endLine": 101,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 103,
+              "endLine": 103,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 105,
+              "endLine": 105,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 108,
+              "endLine": 108,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 110,
+              "endLine": 110,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 120,
+              "endLine": 120,
+              "startOffset": 16,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 122,
+              "endLine": 122,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 127,
+              "endLine": 127,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 132,
+              "endLine": 132,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a856bf95-b29f-46bd-a2e4-3bda07a13e0f",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+    "project": "ryz-code__bottt",
+    "line": 76,
+    "hash": "c0a8a87fae343082bf3cbe4ee9498cf8",
+    "textRange": {
+      "startLine": 76,
+      "endLine": 76,
+      "startOffset": 72,
+      "endOffset": 73
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused loop index \"i\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "02a9448d-4f9e-423f-a312-24ad9b716b9f",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+    "project": "ryz-code__bottt",
+    "line": 80,
+    "hash": "743d1f074fb4eb26daf2388495c39afc",
+    "textRange": {
+      "startLine": 80,
+      "endLine": 80,
+      "startOffset": 13,
+      "endOffset": 104
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "04c37644-4d6b-4e55-8271-5e413eba3f8a",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+    "project": "ryz-code__bottt",
+    "line": 87,
+    "hash": "4bed34d7ef749cc55f394fafeea5d010",
+    "textRange": {
+      "startLine": 87,
+      "endLine": 87,
+      "startOffset": 34,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ee81f4c2-64a6-4c4f-9df8-96d73841c7ea",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+    "project": "ryz-code__bottt",
+    "line": 93,
+    "hash": "5bc949be9f42ed1848a4d131a0e6ff4c",
+    "textRange": {
+      "startLine": 93,
+      "endLine": 93,
+      "startOffset": 29,
+      "endOffset": 44
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 134,
+              "endLine": 134,
+              "startOffset": 21,
+              "endOffset": 36
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 138,
+              "endLine": 138,
+              "startOffset": 14,
+              "endOffset": 29
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal 'broadcast.txt' 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d1ee85aa-2555-4935-800a-be75fe0ee304",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+    "project": "ryz-code__bottt",
+    "line": 112,
+    "hash": "a8208786884e8e2545eb3372ef1b7b34",
+    "textRange": {
+      "startLine": 112,
+      "endLine": 112,
+      "startOffset": 20,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c0688932-ab90-4ee5-a355-0b3867c8eda2",
+    "rule": "python:S5754",
+    "severity": "CRITICAL",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+    "project": "ryz-code__bottt",
+    "line": 120,
+    "hash": "3e264f5fbab10735799511f21ca70842",
+    "textRange": {
+      "startLine": 120,
+      "endLine": 120,
+      "startOffset": 16,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify an exception class to catch or reraise the exception",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "bad-practice",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d64f0242-1ce6-47d1-abed-2c04f5ffbeea",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+    "project": "ryz-code__bottt",
+    "line": 148,
+    "hash": "4c0426a021fd99688bfc8399e6124442",
+    "textRange": {
+      "startLine": 148,
+      "endLine": 148,
+      "startOffset": 17,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "87c27e34-f388-4412-ad3d-c436b6e99108",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/admin.py",
+    "project": "ryz-code__bottt",
+    "line": 155,
+    "hash": "409bea89352e2884f24279aab222f6c7",
+    "textRange": {
+      "startLine": 155,
+      "endLine": 155,
+      "startOffset": 13,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "90262c58-fc0a-4870-9e26-c09e9f9d651d",
+    "rule": "python:S3626",
+    "severity": "MINOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/callback.py",
+    "project": "ryz-code__bottt",
+    "line": 52,
+    "hash": "e70c4df10ef0983b9c8c31bd06b2a2c3",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 52,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant return.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "redundant",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e9447340-d258-443b-8e01-2d55b87f366d",
+    "rule": "python:S3626",
+    "severity": "MINOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/callback.py",
+    "project": "ryz-code__bottt",
+    "line": 60,
+    "hash": "e70c4df10ef0983b9c8c31bd06b2a2c3",
+    "textRange": {
+      "startLine": 60,
+      "endLine": 60,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant return.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "redundant",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a9116a74-7f16-475b-ba91-22ab474748b4",
+    "rule": "python:S3626",
+    "severity": "MINOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/callback.py",
+    "project": "ryz-code__bottt",
+    "line": 80,
+    "hash": "e70c4df10ef0983b9c8c31bd06b2a2c3",
+    "textRange": {
+      "startLine": 80,
+      "endLine": 80,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant return.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "redundant",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a277380c-e24e-4ea5-a889-afffa310291a",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/callback.py",
+    "project": "ryz-code__bottt",
+    "line": 158,
+    "hash": "71c3056ed87535681ecbcb3e2abf818c",
+    "textRange": {
+      "startLine": 158,
+      "endLine": 158,
+      "startOffset": 4,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"TiMe\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8f6b65a8-5c01-4072-89d2-3e9f7976e9cc",
+    "rule": "python:S6660",
+    "severity": "MINOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/callback.py",
+    "project": "ryz-code__bottt",
+    "line": 159,
+    "hash": "83b9a1f6a52a8a3d969ef469059498c4",
+    "textRange": {
+      "startLine": 159,
+      "endLine": 159,
+      "startOffset": 18,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the `isinstance()` function here.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "typing"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b019955c-236c-4172-96a1-152d8a615444",
+    "rule": "python:S1172",
+    "severity": "MAJOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/callback.py",
+    "project": "ryz-code__bottt",
+    "line": 169,
+    "hash": "80b5caa3ccc355d95295a9e197637a9c",
+    "textRange": {
+      "startLine": 169,
+      "endLine": 169,
+      "startOffset": 32,
+      "endOffset": 49
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused function parameter \"file_list_no\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "058a657e-7583-44fa-ae81-f31b7a01ce2f",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/callback.py",
+    "project": "ryz-code__bottt",
+    "line": 181,
+    "hash": "b537aeb07fec08ef82e03ca996c7cab2",
+    "textRange": {
+      "startLine": 181,
+      "endLine": 181,
+      "startOffset": 91,
+      "endOffset": 105
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4d8bd828-500f-4d01-a8af-d1b8e0912d39",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/callback.py",
+    "project": "ryz-code__bottt",
+    "line": 196,
+    "hash": "da5b88299447306ddc1a24727939f74f",
+    "textRange": {
+      "startLine": 196,
+      "endLine": 196,
+      "startOffset": 92,
+      "endOffset": 100
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "41a3f161-9d37-444e-8c88-1b532f1442eb",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/start.py",
+    "project": "ryz-code__bottt",
+    "line": 18,
+    "hash": "2064740fc06f1f013ef6814ac4f30679",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 10,
+      "endOffset": 15
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 19,
+              "endLine": 19,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 23,
+              "endLine": 23,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 24,
+              "endLine": 24,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 31,
+              "endLine": 31,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 38,
+              "endLine": 38,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 39,
+              "endLine": 39,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 43,
+              "endLine": 43,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 54,
+              "endLine": 54,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 56,
+              "endLine": 56,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 60,
+              "endLine": 60,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 66,
+              "endLine": 66,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 72,
+              "endLine": 72,
+              "startOffset": 20,
+              "endOffset": 26
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 75,
+              "endLine": 75,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 77,
+              "endLine": 77,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 81,
+              "endLine": 81,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.",
+    "effort": "22min",
+    "debt": "22min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b6f2f1ba-0e91-4cc3-8214-9bbde29b79ea",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/start.py",
+    "project": "ryz-code__bottt",
+    "line": 82,
+    "hash": "f8a0f8acb715469f6ed243532d1c81f8",
+    "textRange": {
+      "startLine": 82,
+      "endLine": 82,
+      "startOffset": 37,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "20da8152-f008-4b26-b43a-7d04b7331e56",
+    "rule": "python:S1066",
+    "severity": "MAJOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/stream.py",
+    "project": "ryz-code__bottt",
+    "line": 35,
+    "hash": "a0a4f4bb42e5c8894932577284cc9f2b",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 8,
+      "endOffset": 10
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 34,
+              "endLine": 34,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "enclosing",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this if statement with the enclosing one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "clumsy"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "91c8bf79-151d-4384-8df7-06f53e2e083f",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/stream.py",
+    "project": "ryz-code__bottt",
+    "line": 77,
+    "hash": "9d8ce17139cdb290d27bdb578f09ca28",
+    "textRange": {
+      "startLine": 77,
+      "endLine": 77,
+      "startOffset": 22,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused local variable \"stream_link\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "feeebd62-48ed-4e95-93db-5d4d54764b78",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/bot/plugins/stream.py",
+    "project": "ryz-code__bottt",
+    "line": 77,
+    "hash": "9d8ce17139cdb290d27bdb578f09ca28",
+    "textRange": {
+      "startLine": 77,
+      "endLine": 77,
+      "startOffset": 8,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused local variable \"reply_markup\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d0a8b098-da31-42f2-ba42-7dbda7703be6",
+    "rule": "python:S7494",
+    "severity": "MINOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/config.py",
+    "project": "ryz-code__bottt",
+    "line": 27,
+    "hash": "16302b999a060b85b8ac9d9fe1f97ebf",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 22,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace set constructor call with a set comprehension.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ca19412d-0dc9-4807-ba12-473fb2ab95e1",
+    "rule": "python:S7494",
+    "severity": "MINOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/server/stream_routes.py",
+    "project": "ryz-code__bottt",
+    "line": 24,
+    "hash": "9edb97628006f99659a66a47c8fd5b16",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 21,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace dict constructor call with a dictionary comprehension.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "05324556-a8c3-486a-97df-1afb673001b9",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/server/stream_routes.py",
+    "project": "ryz-code__bottt",
+    "line": 123,
+    "hash": "534f0592cd8abf337874f70b19c25849",
+    "textRange": {
+      "startLine": 123,
+      "endLine": 123,
+      "startOffset": 4,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2f5d2eb5-5877-4cd2-b7df-2158bb64542e",
+    "rule": "Web:UnsupportedTagsInHtml5Check",
+    "severity": "MAJOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/template/play.html",
+    "project": "ryz-code__bottt",
+    "line": 33,
+    "hash": "8d2087217220f9ecca1ebde6c049ba92",
+    "textRange": {
+      "startLine": 33,
+      "endLine": 33,
+      "startOffset": 4,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this deprecated \"center\" element.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "html5",
+      "obsolete",
+      "user-experience"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3fd450c1-f9dd-48e8-8ffb-187593c18ef3",
+    "rule": "Web:S4084",
+    "severity": "MAJOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/template/play.html",
+    "project": "ryz-code__bottt",
+    "line": 44,
+    "hash": "a01ad12e181e8ac29eec4fbe77cf2c44",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 45,
+      "startOffset": 16,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add subtitles and description files for this video.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "html5"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6bcc5d41-0ebb-4b0a-9a46-5e33a463c26c",
+    "rule": "Web:UnsupportedTagsInHtml5Check",
+    "severity": "MAJOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/template/play.html",
+    "project": "ryz-code__bottt",
+    "line": 120,
+    "hash": "8d2087217220f9ecca1ebde6c049ba92",
+    "textRange": {
+      "startLine": 120,
+      "endLine": 120,
+      "startOffset": 12,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this deprecated \"center\" element.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "html5",
+      "obsolete",
+      "user-experience"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d7078d3f-04ba-4ed8-9954-03bb99e612f1",
+    "rule": "Web:ImgWithoutAltCheck",
+    "severity": "MINOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/template/play.html",
+    "project": "ryz-code__bottt",
+    "line": 128,
+    "hash": "ece1a02ff4d352e5316ded3a33b5a158",
+    "textRange": {
+      "startLine": 128,
+      "endLine": 128,
+      "startOffset": 28,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add an \"alt\" attribute to this image.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "41a2a4f4-ef70-447f-aba0-23a5dac3546c",
+    "rule": "Web:UnsupportedTagsInHtml5Check",
+    "severity": "MAJOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/template/play.html",
+    "project": "ryz-code__bottt",
+    "line": 143,
+    "hash": "8d2087217220f9ecca1ebde6c049ba92",
+    "textRange": {
+      "startLine": 143,
+      "endLine": 143,
+      "startOffset": 12,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this deprecated \"center\" element.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "html5",
+      "obsolete",
+      "user-experience"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "648b9c75-cbf4-4cb5-9974-eb8bedc2b174",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/bot_utils.py",
+    "project": "ryz-code__bottt",
+    "line": 96,
+    "hash": "997be892e3ff82fd854c3e2f6103dd3f",
+    "textRange": {
+      "startLine": 96,
+      "endLine": 96,
+      "startOffset": 85,
+      "endOffset": 95
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/bot_utils.py",
+            "textRange": {
+              "startLine": 105,
+              "endLine": 105,
+              "startOffset": 38,
+              "endOffset": 48
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/bot_utils.py",
+            "textRange": {
+              "startLine": 128,
+              "endLine": 128,
+              "startOffset": 85,
+              "endOffset": 95
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/bot_utils.py",
+            "textRange": {
+              "startLine": 135,
+              "endLine": 135,
+              "startOffset": 38,
+              "endOffset": 48
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"ᴅᴏᴡɴʟᴏᴀᴅ\" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "732812a5-9191-4413-80ee-8734faab6e1f",
+    "rule": "python:S1172",
+    "severity": "MAJOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/bot_utils.py",
+    "project": "ryz-code__bottt",
+    "line": 114,
+    "hash": "a9e54b321a51152443d40d3bb1b8ab6a",
+    "textRange": {
+      "startLine": 114,
+      "endLine": 114,
+      "startOffset": 20,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused function parameter \"m\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b37bd4c7-85f1-4528-a12b-f97597b13bec",
+    "rule": "python:S1172",
+    "severity": "MAJOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/bot_utils.py",
+    "project": "ryz-code__bottt",
+    "line": 114,
+    "hash": "a9e54b321a51152443d40d3bb1b8ab6a",
+    "textRange": {
+      "startLine": 114,
+      "endLine": 114,
+      "startOffset": 37,
+      "endOffset": 47
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused function parameter \"name\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9e5352a8-dc9d-4e08-b534-be55b2c9933c",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/bot_utils.py",
+    "project": "ryz-code__bottt",
+    "line": 160,
+    "hash": "a5dde08a1b52ef7dee6c8a83475a49af",
+    "textRange": {
+      "startLine": 160,
+      "endLine": 160,
+      "startOffset": 37,
+      "endOffset": 57
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c3884d55-9cb4-4000-8a51-4f6ea9fe9966",
+    "rule": "python:S1940",
+    "severity": "MINOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/bot_utils.py",
+    "project": "ryz-code__bottt",
+    "line": 174,
+    "hash": "6dabb3980cc5226084a8adecd2901f31",
+    "textRange": {
+      "startLine": 174,
+      "endLine": 174,
+      "startOffset": 11,
+      "endOffset": 47
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the opposite operator (\"not in\") instead.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3eb11ff9-03fb-4569-833c-4ac3622ecaab",
+    "rule": "python:S1066",
+    "severity": "MAJOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/bot_utils.py",
+    "project": "ryz-code__bottt",
+    "line": 213,
+    "hash": "a0a4f4bb42e5c8894932577284cc9f2b",
+    "textRange": {
+      "startLine": 213,
+      "endLine": 213,
+      "startOffset": 8,
+      "endOffset": 10
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/bot_utils.py",
+            "textRange": {
+              "startLine": 212,
+              "endLine": 212,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "enclosing",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this if statement with the enclosing one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "clumsy"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "55a71d18-25b3-45a3-b240-ee6aa6254804",
+    "rule": "python:S7502",
+    "severity": "MAJOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/custom_dl.py",
+    "project": "ryz-code__bottt",
+    "line": 17,
+    "hash": "0b07994826821e2f996d354a1330ad98",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 17,
+      "startOffset": 8,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Save this task in a variable to prevent premature garbage collection.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "asyncio",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0d34d51f-a8ce-456b-b072-8fec18eefe7f",
+    "rule": "python:S1940",
+    "severity": "MINOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/custom_dl.py",
+    "project": "ryz-code__bottt",
+    "line": 25,
+    "hash": "095505e63cb304639fbe50f83929f919",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 11,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the opposite operator (\"not in\") instead.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "157744a1-688f-4c01-9b2d-2a4e035423dc",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/database.py",
+    "project": "ryz-code__bottt",
+    "line": 18,
+    "hash": "237e3b6da3ce41e05da68d73543052c3",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c6cc348d-b2d4-4f8b-9ee2-2f554a3cf0b1",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/database.py",
+    "project": "ryz-code__bottt",
+    "line": 39,
+    "hash": "76d10cf9354eed12ed6228ed159764e9",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 39,
+      "startOffset": 14,
+      "endOffset": 27
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/database.py",
+            "textRange": {
+              "startLine": 39,
+              "endLine": 39,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a8902097-650b-4448-bc1d-a04bc3091a82",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/database.py",
+    "project": "ryz-code__bottt",
+    "line": 49,
+    "hash": "237e3b6da3ce41e05da68d73543052c3",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 49,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "20b3d2b5-9c23-4a84-a139-80c8916b4907",
+    "rule": "python:S1940",
+    "severity": "MINOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/file_properties.py",
+    "project": "ryz-code__bottt",
+    "line": 20,
+    "hash": "d6ba3220f7a15ffcdf0c2231a992b0ef",
+    "textRange": {
+      "startLine": 20,
+      "endLine": 20,
+      "startOffset": 8,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the opposite operator (\"not in\") instead.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9c77820e-e2b6-4cdd-bccf-91563bc11d29",
+    "rule": "python:S1940",
+    "severity": "MINOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/file_properties.py",
+    "project": "ryz-code__bottt",
+    "line": 30,
+    "hash": "3f554052c32e3078c6b1fdb1adad2c8f",
+    "textRange": {
+      "startLine": 30,
+      "endLine": 30,
+      "startOffset": 7,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the opposite operator (\"not in\") instead.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5a392221-de77-4de8-8a5b-58e2fac670bb",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/file_properties.py",
+    "project": "ryz-code__bottt",
+    "line": 143,
+    "hash": "20520be2813dfcb80cafa29880f23cb5",
+    "textRange": {
+      "startLine": 143,
+      "endLine": 143,
+      "startOffset": 4,
+      "endOffset": 74
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ef9df023-7d30-4988-ae90-f64d6faeac97",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/human_readable.py",
+    "project": "ryz-code__bottt",
+    "line": 6,
+    "hash": "2a6054e60a2aa7c529c2d7828cc91271",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 4,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"Dic_powerN\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8548223a-df7d-4bdd-9799-6f84c470877a",
+    "rule": "python:S7493",
+    "severity": "MAJOR",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/render_template.py",
+    "project": "ryz-code__bottt",
+    "line": 23,
+    "hash": "9ae174a85234c6cd86574dc162f6f318",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 9,
+      "endOffset": 28
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/render_template.py",
+            "textRange": {
+              "startLine": 9,
+              "endLine": 9,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an asynchronous file API instead of synchronous open() in this async function.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "48f62c6d-b42a-4fcb-ad82-25e0a7ae2d93",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/translation.py",
+    "project": "ryz-code__bottt",
+    "line": 50,
+    "hash": "e9f068010845f87a26f0f69f84adbd7a",
+    "textRange": {
+      "startLine": 50,
+      "endLine": 50,
+      "startOffset": 33,
+      "endOffset": 40
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/translation.py",
+            "textRange": {
+              "startLine": 59,
+              "endLine": 59,
+              "startOffset": 33,
+              "endOffset": 40
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/translation.py",
+            "textRange": {
+              "startLine": 68,
+              "endLine": 68,
+              "startOffset": 33,
+              "endOffset": 40
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal 'ᴄʟᴏsᴇ' 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6e6be472-8c0a-44fa-9d01-6f6dbf6061a1",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/translation.py",
+    "project": "ryz-code__bottt",
+    "line": 52,
+    "hash": "898e5fe36864db425c0cb94854530789",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 52,
+      "startOffset": 34,
+      "endOffset": 53
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/translation.py",
+            "textRange": {
+              "startLine": 61,
+              "endLine": 61,
+              "startOffset": 34,
+              "endOffset": 53
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryz-code__bottt:temp_repos/Bottt/FileStream/utils/translation.py",
+            "textRange": {
+              "startLine": 70,
+              "endLine": 70,
+              "startOffset": 34,
+              "endOffset": 53
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"📢 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T19:00:25+0000",
+    "updateDate": "2026-07-17T19:00:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

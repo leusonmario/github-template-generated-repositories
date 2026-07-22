@@ -1,0 +1,7123 @@
+[
+  {
+    "key": "12e48b54-2f7b-4d32-8229-922ecef57d44",
+    "rule": "docker:S7018",
+    "severity": "MINOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Dockerfile",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 9,
+    "hash": "816a2469545f023e78cf7785e8fad434",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 12,
+      "startOffset": 4,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Sort these package names alphanumerically.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1b96c883-f5d8-464e-8c02-b0ae1dfe0a3b",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 52,
+    "hash": "4154a86f8d04b1c1682c257ccdc09e84",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 52,
+      "startOffset": 10,
+      "endOffset": 24
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 52,
+              "endLine": 52,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dc310115-8c88-4ffc-a35b-08506fb586a1",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 96,
+    "hash": "a6419413447387a6d3275270448a2fd2",
+    "textRange": {
+      "startLine": 96,
+      "endLine": 96,
+      "startOffset": 10,
+      "endOffset": 24
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 105,
+              "endLine": 105,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 112,
+              "endLine": 112,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 124,
+              "endLine": 124,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 132,
+              "endLine": 132,
+              "startOffset": 16,
+              "endOffset": 22
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 140,
+              "endLine": 140,
+              "startOffset": 16,
+              "endOffset": 22
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 145,
+              "endLine": 145,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 149,
+              "endLine": 149,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 152,
+              "endLine": 152,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 161,
+              "endLine": 161,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 173,
+              "endLine": 173,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 195,
+              "endLine": 195,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 197,
+              "endLine": 197,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 197,
+              "endLine": 197,
+              "startOffset": 47,
+              "endOffset": 50
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 201,
+              "endLine": 201,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 205,
+              "endLine": 205,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 209,
+              "endLine": 209,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 213,
+              "endLine": 213,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 237,
+              "endLine": 237,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 238,
+              "endLine": 238,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 242,
+              "endLine": 242,
+              "startOffset": 16,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 247,
+              "endLine": 247,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 252,
+              "endLine": 252,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 255,
+              "endLine": 255,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 255,
+              "endLine": 255,
+              "startOffset": 36,
+              "endOffset": 39
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 258,
+              "endLine": 258,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 38 to the 15 allowed.",
+    "effort": "28min",
+    "debt": "28min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6c9685b5-255d-46b0-b203-3bd3201fbac1",
+    "rule": "python:S108",
+    "severity": "MAJOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 150,
+    "hash": "1a1dc91c907325c69271ddf0c944bc72",
+    "textRange": {
+      "startLine": 150,
+      "endLine": 150,
+      "startOffset": 12,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Either remove or fill this block of code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3a3ace42-a0cd-42d6-96c0-361e78f5c713",
+    "rule": "python:S7497",
+    "severity": "MAJOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 201,
+    "hash": "31a2a68cbd755754be0e72cd2b717a58",
+    "textRange": {
+      "startLine": 201,
+      "endLine": 201,
+      "startOffset": 19,
+      "endOffset": 41
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 96,
+              "endLine": 96,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Ensure that the asyncio.CancelledError exception is re-raised after your cleanup code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bcb1bedf-642e-4372-9664-99466c33b974",
+    "rule": "python:S7497",
+    "severity": "MAJOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 242,
+    "hash": "31a2a68cbd755754be0e72cd2b717a58",
+    "textRange": {
+      "startLine": 242,
+      "endLine": 242,
+      "startOffset": 23,
+      "endOffset": 45
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 96,
+              "endLine": 96,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Ensure that the asyncio.CancelledError exception is re-raised after your cleanup code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4bbaeb30-48dd-4a21-bf43-27ad5a032225",
+    "rule": "python:S7497",
+    "severity": "MAJOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 267,
+    "hash": "31a2a68cbd755754be0e72cd2b717a58",
+    "textRange": {
+      "startLine": 267,
+      "endLine": 267,
+      "startOffset": 15,
+      "endOffset": 37
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 262,
+              "endLine": 262,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Ensure that the asyncio.CancelledError exception is re-raised after your cleanup code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0e5f272e-058a-437e-a41a-2bb5811fc2df",
+    "rule": "python:S1110",
+    "severity": "MAJOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 180,
+    "hash": "a1c7103a97b154c60b9101c36eef1694",
+    "textRange": {
+      "startLine": 180,
+      "endLine": 180,
+      "startOffset": 25,
+      "endOffset": 26
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 180,
+              "endLine": 180,
+              "startOffset": 134,
+              "endOffset": 135
+            },
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Remove those redundant parentheses.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "03f91a03-9f36-4fed-9853-2bfcbb1cf5c2",
+    "rule": "python:S1110",
+    "severity": "MAJOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 198,
+    "hash": "187f457c5f119f374c8c3618594bb251",
+    "textRange": {
+      "startLine": 198,
+      "endLine": 198,
+      "startOffset": 25,
+      "endOffset": 26
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 198,
+              "endLine": 198,
+              "startOffset": 138,
+              "endOffset": 139
+            },
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Remove those redundant parentheses.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a547ddd3-8e1b-4c57-9512-08fb6b4373e9",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 229,
+    "hash": "633ee34da45d3cee52150f388aee63ee",
+    "textRange": {
+      "startLine": 229,
+      "endLine": 229,
+      "startOffset": 10,
+      "endOffset": 21
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 230,
+              "endLine": 230,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 235,
+              "endLine": 235,
+              "startOffset": 47,
+              "endOffset": 49
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 236,
+              "endLine": 236,
+              "startOffset": 44,
+              "endOffset": 46
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 238,
+              "endLine": 238,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 241,
+              "endLine": 241,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 248,
+              "endLine": 248,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 254,
+              "endLine": 254,
+              "startOffset": 16,
+              "endOffset": 22
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 258,
+              "endLine": 258,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 260,
+              "endLine": 260,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 267,
+              "endLine": 267,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 273,
+              "endLine": 273,
+              "startOffset": 16,
+              "endOffset": 22
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 277,
+              "endLine": 277,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 280,
+              "endLine": 280,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 282,
+              "endLine": 282,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "696f53fd-095b-4e0e-9f6d-71e79677be0c",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 288,
+    "hash": "da1392037407469a506de9188c44100a",
+    "textRange": {
+      "startLine": 288,
+      "endLine": 288,
+      "startOffset": 10,
+      "endOffset": 23
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 289,
+              "endLine": 289,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 295,
+              "endLine": 295,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 296,
+              "endLine": 296,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 298,
+              "endLine": 298,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 300,
+              "endLine": 300,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 301,
+              "endLine": 301,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 306,
+              "endLine": 306,
+              "startOffset": 20,
+              "endOffset": 26
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 310,
+              "endLine": 310,
+              "startOffset": 16,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 312,
+              "endLine": 312,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 314,
+              "endLine": 314,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 316,
+              "endLine": 316,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.",
+    "effort": "7min",
+    "debt": "7min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "791e354b-51d8-428a-9f20-6d0c0104297b",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 322,
+    "hash": "3fe80f3a27a3545be51e7474dde310cb",
+    "textRange": {
+      "startLine": 322,
+      "endLine": 322,
+      "startOffset": 10,
+      "endOffset": 27
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 323,
+              "endLine": 323,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 343,
+              "endLine": 343,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 346,
+              "endLine": 346,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 350,
+              "endLine": 350,
+              "startOffset": 32,
+              "endOffset": 34
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 354,
+              "endLine": 354,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 359,
+              "endLine": 359,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 367,
+              "endLine": 367,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 374,
+              "endLine": 374,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 377,
+              "endLine": 377,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 383,
+              "endLine": 383,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 389,
+              "endLine": 389,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 391,
+              "endLine": 391,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f7e4b2ed-4e64-448b-969e-7fa9eb426758",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/callbacks.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 69,
+    "hash": "55ec6eee48e95b2239b9abd822274d56",
+    "textRange": {
+      "startLine": 69,
+      "endLine": 69,
+      "startOffset": 40,
+      "endOffset": 78
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/callbacks.py",
+            "textRange": {
+              "startLine": 72,
+              "endLine": 72,
+              "startOffset": 40,
+              "endOffset": 78
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/callbacks.py",
+            "textRange": {
+              "startLine": 103,
+              "endLine": 103,
+              "startOffset": 40,
+              "endOffset": 78
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/callbacks.py",
+            "textRange": {
+              "startLine": 106,
+              "endLine": 106,
+              "startOffset": 40,
+              "endOffset": 78
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/callbacks.py",
+            "textRange": {
+              "startLine": 140,
+              "endLine": 140,
+              "startOffset": 40,
+              "endOffset": 78
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/callbacks.py",
+            "textRange": {
+              "startLine": 143,
+              "endLine": 143,
+              "startOffset": 40,
+              "endOffset": 78
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/callbacks.py",
+            "textRange": {
+              "startLine": 209,
+              "endLine": 209,
+              "startOffset": 40,
+              "endOffset": 78
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/callbacks.py",
+            "textRange": {
+              "startLine": 212,
+              "endLine": 212,
+              "startOffset": 40,
+              "endOffset": 78
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"An error occurred. Please try again.\" 8 times.",
+    "effort": "16min",
+    "debt": "16min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2300c5ac-9a74-41be-9071-5144e27a4de8",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/common.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 35,
+    "hash": "25832bc8820202a3dd3739f249f36acc",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 10,
+      "endOffset": 23
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/common.py",
+            "textRange": {
+              "startLine": 36,
+              "endLine": 36,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/common.py",
+            "textRange": {
+              "startLine": 39,
+              "endLine": 39,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/common.py",
+            "textRange": {
+              "startLine": 42,
+              "endLine": 42,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/common.py",
+            "textRange": {
+              "startLine": 45,
+              "endLine": 45,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/common.py",
+            "textRange": {
+              "startLine": 47,
+              "endLine": 47,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/common.py",
+            "textRange": {
+              "startLine": 49,
+              "endLine": 49,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/common.py",
+            "textRange": {
+              "startLine": 50,
+              "endLine": 50,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/common.py",
+            "textRange": {
+              "startLine": 56,
+              "endLine": 56,
+              "startOffset": 20,
+              "endOffset": 26
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/common.py",
+            "textRange": {
+              "startLine": 63,
+              "endLine": 63,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/common.py",
+            "textRange": {
+              "startLine": 69,
+              "endLine": 69,
+              "startOffset": 20,
+              "endOffset": 26
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/common.py",
+            "textRange": {
+              "startLine": 87,
+              "endLine": 87,
+              "startOffset": 16,
+              "endOffset": 22
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/common.py",
+            "textRange": {
+              "startLine": 90,
+              "endLine": 90,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/common.py",
+            "textRange": {
+              "startLine": 93,
+              "endLine": 93,
+              "startOffset": 16,
+              "endOffset": 22
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/common.py",
+            "textRange": {
+              "startLine": 97,
+              "endLine": 97,
+              "startOffset": 55,
+              "endOffset": 57
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/common.py",
+            "textRange": {
+              "startLine": 99,
+              "endLine": 99,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/common.py",
+            "textRange": {
+              "startLine": 109,
+              "endLine": 109,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/common.py",
+            "textRange": {
+              "startLine": 114,
+              "endLine": 114,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 40 to the 15 allowed.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a7aedccd-4271-4cd8-82c0-72a8abb99887",
+    "rule": "python:S108",
+    "severity": "MAJOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/common.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 46,
+    "hash": "1a1dc91c907325c69271ddf0c944bc72",
+    "textRange": {
+      "startLine": 46,
+      "endLine": 46,
+      "startOffset": 12,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Either remove or fill this block of code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "45a39e85-68e3-41eb-a554-c18282091185",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/common.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 76,
+    "hash": "0d73b3abdca8f3cb6cd18c89c4011216",
+    "textRange": {
+      "startLine": 76,
+      "endLine": 76,
+      "startOffset": 22,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9e453120-39ef-4ed2-b84f-42a8544b0252",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 189,
+    "hash": "a3fc4d8e832d6d28ed22fa5d88dbb988",
+    "textRange": {
+      "startLine": 189,
+      "endLine": 189,
+      "startOffset": 10,
+      "endOffset": 22
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 192,
+              "endLine": 192,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 194,
+              "endLine": 194,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 194,
+              "endLine": 194,
+              "startOffset": 29,
+              "endOffset": 32
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 204,
+              "endLine": 204,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 215,
+              "endLine": 215,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 216,
+              "endLine": 216,
+              "startOffset": 16,
+              "endOffset": 19
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 220,
+              "endLine": 220,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 220,
+              "endLine": 220,
+              "startOffset": 40,
+              "endOffset": 42
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 223,
+              "endLine": 223,
+              "startOffset": 37,
+              "endOffset": 39
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 230,
+              "endLine": 230,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 233,
+              "endLine": 233,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 238,
+              "endLine": 238,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 244,
+              "endLine": 244,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 248,
+              "endLine": 248,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 250,
+              "endLine": 250,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 30 to the 15 allowed.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d6c214e1-7b63-4212-b72a-1dd833aa4ec1",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 291,
+    "hash": "57a6892ce23d120c3ca727ed53360b9b",
+    "textRange": {
+      "startLine": 291,
+      "endLine": 291,
+      "startOffset": 10,
+      "endOffset": 33
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 293,
+              "endLine": 293,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 297,
+              "endLine": 297,
+              "startOffset": 63,
+              "endOffset": 66
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 300,
+              "endLine": 300,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 300,
+              "endLine": 300,
+              "startOffset": 32,
+              "endOffset": 34
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 304,
+              "endLine": 304,
+              "startOffset": 16,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 307,
+              "endLine": 307,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 310,
+              "endLine": 310,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 313,
+              "endLine": 313,
+              "startOffset": 39,
+              "endOffset": 41
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 318,
+              "endLine": 318,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 324,
+              "endLine": 324,
+              "startOffset": 45,
+              "endOffset": 47
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 326,
+              "endLine": 326,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 338,
+              "endLine": 338,
+              "startOffset": 20,
+              "endOffset": 26
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 349,
+              "endLine": 349,
+              "startOffset": 16,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 352,
+              "endLine": 352,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 358,
+              "endLine": 358,
+              "startOffset": 16,
+              "endOffset": 22
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 361,
+              "endLine": 361,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 364,
+              "endLine": 364,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 367,
+              "endLine": 367,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 371,
+              "endLine": 371,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 371,
+              "endLine": 371,
+              "startOffset": 23,
+              "endOffset": 26
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 373,
+              "endLine": 373,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 376,
+              "endLine": 376,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 39 to the 15 allowed.",
+    "effort": "29min",
+    "debt": "29min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "66945563-07b4-4857-88c8-288c5d0a6573",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 384,
+    "hash": "163364d52800d67ce97b44f015e64eab",
+    "textRange": {
+      "startLine": 384,
+      "endLine": 384,
+      "startOffset": 10,
+      "endOffset": 24
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 395,
+              "endLine": 395,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 399,
+              "endLine": 399,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 412,
+              "endLine": 412,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 414,
+              "endLine": 414,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 414,
+              "endLine": 414,
+              "startOffset": 69,
+              "endOffset": 72
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 415,
+              "endLine": 415,
+              "startOffset": 77,
+              "endOffset": 79
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 416,
+              "endLine": 416,
+              "startOffset": 42,
+              "endOffset": 44
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 419,
+              "endLine": 419,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 421,
+              "endLine": 421,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 422,
+              "endLine": 422,
+              "startOffset": 66,
+              "endOffset": 68
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 424,
+              "endLine": 424,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 425,
+              "endLine": 425,
+              "startOffset": 48,
+              "endOffset": 50
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 427,
+              "endLine": 427,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 427,
+              "endLine": 427,
+              "startOffset": 23,
+              "endOffset": 26
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 439,
+              "endLine": 439,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 451,
+              "endLine": 451,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 454,
+              "endLine": 454,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 456,
+              "endLine": 456,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.",
+    "effort": "13min",
+    "debt": "13min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c2218c35-2bbb-4f09-ab44-a7e2c6481c85",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 415,
+    "hash": "be5fed332cc677028698f9bc19f94d5f",
+    "textRange": {
+      "startLine": 415,
+      "endLine": 415,
+      "startOffset": 80,
+      "endOffset": 90
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 566,
+              "endLine": 566,
+              "startOffset": 85,
+              "endOffset": 95
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 574,
+              "endLine": 574,
+              "startOffset": 85,
+              "endOffset": 95
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"the chat\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4e7f95dd-8b22-4ae5-8d8f-73193fdf99ca",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 466,
+    "hash": "d962f3478188015d61727b3e87aa6e96",
+    "textRange": {
+      "startLine": 466,
+      "endLine": 466,
+      "startOffset": 10,
+      "endOffset": 23
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 478,
+              "endLine": 478,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 490,
+              "endLine": 490,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 499,
+              "endLine": 499,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 504,
+              "endLine": 504,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 507,
+              "endLine": 507,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 509,
+              "endLine": 509,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 512,
+              "endLine": 512,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 513,
+              "endLine": 513,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 513,
+              "endLine": 513,
+              "startOffset": 17,
+              "endOffset": 20
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 515,
+              "endLine": 515,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 518,
+              "endLine": 518,
+              "startOffset": 16,
+              "endOffset": 20
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 520,
+              "endLine": 520,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 522,
+              "endLine": 522,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 522,
+              "endLine": 522,
+              "startOffset": 61,
+              "endOffset": 63
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 532,
+              "endLine": 532,
+              "startOffset": 16,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 541,
+              "endLine": 541,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 543,
+              "endLine": 543,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 553,
+              "endLine": 553,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 561,
+              "endLine": 561,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 561,
+              "endLine": 561,
+              "startOffset": 51,
+              "endOffset": 54
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 566,
+              "endLine": 566,
+              "startOffset": 82,
+              "endOffset": 84
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 570,
+              "endLine": 570,
+              "startOffset": 16,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 574,
+              "endLine": 574,
+              "startOffset": 82,
+              "endOffset": 84
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 578,
+              "endLine": 578,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 581,
+              "endLine": 581,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 591,
+              "endLine": 591,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 600,
+              "endLine": 600,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 50 to the 15 allowed.",
+    "effort": "40min",
+    "debt": "40min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c1175415-1488-4db5-beb2-824f63443ae9",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/server/__init__.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 6,
+    "hash": "3376127d2bdb500c62c69e83a70f9516",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 10,
+      "endOffset": 20
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/server/__init__.py",
+            "textRange": {
+              "startLine": 6,
+              "endLine": 6,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3554ec07-2b6a-4d60-a579-0b70e7d8a63c",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/server/stream_routes.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 171,
+    "hash": "79233e67a51e60aaf3f0bfe2f8372f3a",
+    "textRange": {
+      "startLine": 171,
+      "endLine": 171,
+      "startOffset": 10,
+      "endOffset": 24
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 182,
+              "endLine": 182,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 185,
+              "endLine": 185,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 191,
+              "endLine": 191,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 199,
+              "endLine": 199,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 199,
+              "endLine": 199,
+              "startOffset": 26,
+              "endOffset": 29
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 203,
+              "endLine": 203,
+              "startOffset": 43,
+              "endOffset": 45
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 205,
+              "endLine": 205,
+              "startOffset": 43,
+              "endOffset": 45
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 217,
+              "endLine": 217,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 220,
+              "endLine": 220,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 223,
+              "endLine": 223,
+              "startOffset": 31,
+              "endOffset": 33
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 232,
+              "endLine": 232,
+              "startOffset": 26,
+              "endOffset": 29
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 234,
+              "endLine": 234,
+              "startOffset": 24,
+              "endOffset": 26
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 235,
+              "endLine": 235,
+              "startOffset": 28,
+              "endOffset": 30
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 242,
+              "endLine": 242,
+              "startOffset": 24,
+              "endOffset": 26
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 245,
+              "endLine": 245,
+              "startOffset": 24,
+              "endOffset": 26
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 249,
+              "endLine": 249,
+              "startOffset": 24,
+              "endOffset": 26
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 254,
+              "endLine": 254,
+              "startOffset": 27,
+              "endOffset": 29
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 259,
+              "endLine": 259,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 262,
+              "endLine": 262,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 271,
+              "endLine": 271,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 274,
+              "endLine": 274,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 34 to the 15 allowed.",
+    "effort": "24min",
+    "debt": "24min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ec2edcd1-8fa8-4b1e-af8b-2b0d2ad0ea05",
+    "rule": "Web:MetaRefreshCheck",
+    "severity": "MAJOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/template/dl.html",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 9,
+    "hash": "f6bcfebb4dd4fed9bb8b65e898bf5f13",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 4,
+      "endOffset": 57
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this meta refresh tag.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "user-experience"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d501c367-d8f5-4ca7-8bff-09e65c03595e",
+    "rule": "Web:S6819",
+    "severity": "MAJOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/template/req.html",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 47,
+    "hash": "71ee3bca50a08fefd36765cf8127b016",
+    "textRange": {
+      "startLine": 47,
+      "endLine": 47,
+      "startOffset": 16,
+      "endOffset": 79
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <address> or <details> or <fieldset> or <optgroup> instead of the group role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bc101ff8-2f7c-44c2-b320-74b2225fbc53",
+    "rule": "Web:S4084",
+    "severity": "MAJOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/template/req.html",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 53,
+    "hash": "d8fca5cf708dfc43a7d277450eaf479f",
+    "textRange": {
+      "startLine": 53,
+      "endLine": 53,
+      "startOffset": 16,
+      "endOffset": 118
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add subtitles and description files for this video.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "html5"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f1a86b4f-ef97-4e31-a93a-996036de913b",
+    "rule": "Web:S6819",
+    "severity": "MAJOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/template/req.html",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 75,
+    "hash": "19c20bf25f4c5dfecfb7407506f0f371",
+    "textRange": {
+      "startLine": 75,
+      "endLine": 75,
+      "startOffset": 32,
+      "endOffset": 104
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <address> or <details> or <fieldset> or <optgroup> instead of the group role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d4f20212-0ad7-44c5-9249-71f3c781901c",
+    "rule": "Web:S6819",
+    "severity": "MAJOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/template/req.html",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 104,
+    "hash": "795d969e9d1b06fcf91340d615e2ec29",
+    "textRange": {
+      "startLine": 104,
+      "endLine": 104,
+      "startOffset": 32,
+      "endOffset": 105
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <address> or <details> or <fieldset> or <optgroup> instead of the group role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a2e38e3f-010f-4cad-a8c5-7cd6a191868e",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/bot_utils.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 109,
+    "hash": "c18135b0ba3401aa5b887b8b8d7e3562",
+    "textRange": {
+      "startLine": 109,
+      "endLine": 109,
+      "startOffset": 10,
+      "endOffset": 20
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/bot_utils.py",
+            "textRange": {
+              "startLine": 109,
+              "endLine": 109,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8267d52f-caef-41ff-ab17-c9a3763194c7",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 27,
+    "hash": "483cb540ccbff206930477acea501ee9",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 10,
+      "endOffset": 27
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+            "textRange": {
+              "startLine": 28,
+              "endLine": 28,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+            "textRange": {
+              "startLine": 31,
+              "endLine": 31,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+            "textRange": {
+              "startLine": 47,
+              "endLine": 47,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+            "textRange": {
+              "startLine": 60,
+              "endLine": 60,
+              "startOffset": 14,
+              "endOffset": 17
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+            "textRange": {
+              "startLine": 61,
+              "endLine": 61,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+            "textRange": {
+              "startLine": 66,
+              "endLine": 66,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+            "textRange": {
+              "startLine": 68,
+              "endLine": 68,
+              "startOffset": 20,
+              "endOffset": 24
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+            "textRange": {
+              "startLine": 70,
+              "endLine": 70,
+              "startOffset": 16,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+            "textRange": {
+              "startLine": 71,
+              "endLine": 71,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+            "textRange": {
+              "startLine": 74,
+              "endLine": 74,
+              "startOffset": 20,
+              "endOffset": 24
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+            "textRange": {
+              "startLine": 77,
+              "endLine": 77,
+              "startOffset": 20,
+              "endOffset": 24
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+            "textRange": {
+              "startLine": 80,
+              "endLine": 80,
+              "startOffset": 20,
+              "endOffset": 24
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+            "textRange": {
+              "startLine": 83,
+              "endLine": 83,
+              "startOffset": 20,
+              "endOffset": 24
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+            "textRange": {
+              "startLine": 86,
+              "endLine": 86,
+              "startOffset": 20,
+              "endOffset": 24
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+            "textRange": {
+              "startLine": 89,
+              "endLine": 89,
+              "startOffset": 20,
+              "endOffset": 24
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+            "textRange": {
+              "startLine": 99,
+              "endLine": 99,
+              "startOffset": 16,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+            "textRange": {
+              "startLine": 103,
+              "endLine": 103,
+              "startOffset": 24,
+              "endOffset": 26
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+            "textRange": {
+              "startLine": 105,
+              "endLine": 105,
+              "startOffset": 24,
+              "endOffset": 28
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+            "textRange": {
+              "startLine": 107,
+              "endLine": 107,
+              "startOffset": 20,
+              "endOffset": 26
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+            "textRange": {
+              "startLine": 110,
+              "endLine": 110,
+              "startOffset": 24,
+              "endOffset": 26
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+            "textRange": {
+              "startLine": 112,
+              "endLine": 112,
+              "startOffset": 24,
+              "endOffset": 28
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+            "textRange": {
+              "startLine": 114,
+              "endLine": 114,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+            "textRange": {
+              "startLine": 120,
+              "endLine": 120,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+            "textRange": {
+              "startLine": 135,
+              "endLine": 135,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 51 to the 15 allowed.",
+    "effort": "41min",
+    "debt": "41min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fdfa6f9a-67c7-4559-a2aa-6ad160865cb5",
+    "rule": "python:S1172",
+    "severity": "MAJOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 27,
+    "hash": "483cb540ccbff206930477acea501ee9",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 28,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused function parameter \"client\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "62783e59-a4bb-4a77-a9b1-806b082109eb",
+    "rule": "python:S1871",
+    "severity": "MAJOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 81,
+    "hash": "45d1aae583e80ce84793c01008900bbc",
+    "textRange": {
+      "startLine": 81,
+      "endLine": 82,
+      "startOffset": 24,
+      "endOffset": 54
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+            "textRange": {
+              "startLine": 75,
+              "endLine": 76,
+              "startOffset": 24,
+              "endOffset": 54
+            },
+            "msg": "Original",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Either merge this branch with the identical one on line \"75\" or change one of the implementations.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "design",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "94df70cd-4ddc-4dad-850b-fdde9295539e",
+    "rule": "python:S7502",
+    "severity": "MAJOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/broadcast.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 150,
+    "hash": "8f85e5019f02850ae9d3b4c64c440c53",
+    "textRange": {
+      "startLine": 150,
+      "endLine": 150,
+      "startOffset": 4,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Save this task in a variable to prevent premature garbage collection.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "asyncio",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5c6944c4-a79e-4285-a29f-6f48d926c642",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/database.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 42,
+    "hash": "3c44dbdefa20f1623a4b4daf0d7d9691",
+    "textRange": {
+      "startLine": 42,
+      "endLine": 42,
+      "startOffset": 29,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cc3e6aee-21f0-4fa6-a998-317690804040",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/database.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 96,
+    "hash": "14f3f21ea5469629c5adc0fa074aa095",
+    "textRange": {
+      "startLine": 96,
+      "endLine": 96,
+      "startOffset": 29,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7dc47ac8-7d0c-40c8-b24c-3de7338a9c41",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/database.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 135,
+    "hash": "14f3f21ea5469629c5adc0fa074aa095",
+    "textRange": {
+      "startLine": 135,
+      "endLine": 135,
+      "startOffset": 29,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d3674012-b8b6-4062-9770-d0c3dba84e41",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/database.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 190,
+    "hash": "2349c7227b47319437a1afc91c03a6a6",
+    "textRange": {
+      "startLine": 190,
+      "endLine": 190,
+      "startOffset": 29,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9f1257ff-b8e0-4416-9ca7-77a034770a86",
+    "rule": "python:S1172",
+    "severity": "MAJOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 16,
+    "hash": "b51f09f58ed4a43ca235a1aa8eb50920",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 23,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused function parameter \"client\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9807aaec-50d4-48d1-ad2b-f6817b78f9ba",
+    "rule": "python:S3358",
+    "severity": "MAJOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 30,
+    "hash": "40d3f6dc5fe019c49e6f4189226171b0",
+    "textRange": {
+      "startLine": 30,
+      "endLine": 30,
+      "startOffset": 21,
+      "endOffset": 59
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+            "textRange": {
+              "startLine": 29,
+              "endLine": 29,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "Parent conditional expression.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Extract this nested conditional expression into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1a9ab48d-e7f3-41c4-8e38-c9b8dc982197",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 56,
+    "hash": "9fd9acd7238749ad60106bdd6563b2ee",
+    "textRange": {
+      "startLine": 56,
+      "endLine": 56,
+      "startOffset": 10,
+      "endOffset": 23
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+            "textRange": {
+              "startLine": 58,
+              "endLine": 58,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+            "textRange": {
+              "startLine": 61,
+              "endLine": 61,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+            "textRange": {
+              "startLine": 65,
+              "endLine": 65,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+            "textRange": {
+              "startLine": 65,
+              "endLine": 65,
+              "startOffset": 61,
+              "endOffset": 63
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+            "textRange": {
+              "startLine": 71,
+              "endLine": 71,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+            "textRange": {
+              "startLine": 75,
+              "endLine": 75,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+            "textRange": {
+              "startLine": 80,
+              "endLine": 80,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+            "textRange": {
+              "startLine": 84,
+              "endLine": 84,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+            "textRange": {
+              "startLine": 91,
+              "endLine": 91,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+            "textRange": {
+              "startLine": 94,
+              "endLine": 94,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+            "textRange": {
+              "startLine": 98,
+              "endLine": 98,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+            "textRange": {
+              "startLine": 107,
+              "endLine": 107,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+            "textRange": {
+              "startLine": 109,
+              "endLine": 109,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+            "textRange": {
+              "startLine": 120,
+              "endLine": 120,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+            "textRange": {
+              "startLine": 131,
+              "endLine": 131,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+            "textRange": {
+              "startLine": 136,
+              "endLine": 136,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+            "textRange": {
+              "startLine": 139,
+              "endLine": 139,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.",
+    "effort": "12min",
+    "debt": "12min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d71447e0-7b8a-4ecb-aeff-3704f5ab1883",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 74,
+    "hash": "c29d8e1e79563d8fb37e5bc5b1ff9756",
+    "textRange": {
+      "startLine": 74,
+      "endLine": 74,
+      "startOffset": 41,
+      "endOffset": 114
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+            "textRange": {
+              "startLine": 77,
+              "endLine": 77,
+              "startOffset": 41,
+              "endOffset": 114
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+            "textRange": {
+              "startLine": 83,
+              "endLine": 83,
+              "startOffset": 41,
+              "endOffset": 114
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+            "textRange": {
+              "startLine": 86,
+              "endLine": 86,
+              "startOffset": 41,
+              "endOffset": 114
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Sorry, could not generate an access token link. Please try again later.\" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1b582163-4b01-42ad-8f59-03c721b1876b",
+    "rule": "python:S1172",
+    "severity": "MAJOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 143,
+    "hash": "b72bf4594bcee1409445804f4b3cd778",
+    "textRange": {
+      "startLine": 143,
+      "endLine": 143,
+      "startOffset": 31,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused function parameter \"client\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "768b5aa2-fa3e-458f-8c27-0804bdf83644",
+    "rule": "python:S1172",
+    "severity": "MAJOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/decorators.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 158,
+    "hash": "93a9882cbce33c001c969adcbf1d1e01",
+    "textRange": {
+      "startLine": 158,
+      "endLine": 158,
+      "startOffset": 21,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused function parameter \"client\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9409f4c1-6640-41df-a9a4-930a514ee352",
+    "rule": "python:S108",
+    "severity": "MAJOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/file_properties.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 21,
+    "hash": "1a1dc91c907325c69271ddf0c944bc72",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 16,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Either remove or fill this block of code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4b9e2d00-e75d-45b8-a04f-88007b72424e",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/force_channel.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 39,
+    "hash": "5ef3f85c89a93ad239063d0055694ed5",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 39,
+      "startOffset": 10,
+      "endOffset": 29
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/force_channel.py",
+            "textRange": {
+              "startLine": 40,
+              "endLine": 40,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/force_channel.py",
+            "textRange": {
+              "startLine": 43,
+              "endLine": 43,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/force_channel.py",
+            "textRange": {
+              "startLine": 47,
+              "endLine": 47,
+              "startOffset": 8,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/force_channel.py",
+            "textRange": {
+              "startLine": 50,
+              "endLine": 50,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/force_channel.py",
+            "textRange": {
+              "startLine": 54,
+              "endLine": 54,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/force_channel.py",
+            "textRange": {
+              "startLine": 57,
+              "endLine": 57,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/force_channel.py",
+            "textRange": {
+              "startLine": 59,
+              "endLine": 59,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/force_channel.py",
+            "textRange": {
+              "startLine": 59,
+              "endLine": 59,
+              "startOffset": 16,
+              "endOffset": 19
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/force_channel.py",
+            "textRange": {
+              "startLine": 67,
+              "endLine": 67,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/force_channel.py",
+            "textRange": {
+              "startLine": 75,
+              "endLine": 75,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/force_channel.py",
+            "textRange": {
+              "startLine": 78,
+              "endLine": 78,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/force_channel.py",
+            "textRange": {
+              "startLine": 82,
+              "endLine": 82,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/force_channel.py",
+            "textRange": {
+              "startLine": 86,
+              "endLine": 86,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.",
+    "effort": "11min",
+    "debt": "11min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a764442c-f03a-4ff8-aa10-813cb661d150",
+    "rule": "python:S7497",
+    "severity": "MAJOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/keepalive.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 19,
+    "hash": "31a2a68cbd755754be0e72cd2b717a58",
+    "textRange": {
+      "startLine": 19,
+      "endLine": 19,
+      "startOffset": 23,
+      "endOffset": 45
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/keepalive.py",
+            "textRange": {
+              "startLine": 8,
+              "endLine": 8,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Ensure that the asyncio.CancelledError exception is re-raised after your cleanup code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4dc2c86a-184f-4b59-8dee-1962253d5db3",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 118,
+    "hash": "390057a532957e848f6a09be0f45504b",
+    "textRange": {
+      "startLine": 118,
+      "endLine": 118,
+      "startOffset": 14,
+      "endOffset": 26
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 118,
+              "endLine": 118,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "029561f5-2569-417d-93bd-a1b9b3e2e00e",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 178,
+    "hash": "c6c04721566d0fe132c7da3a4e9db85c",
+    "textRange": {
+      "startLine": 178,
+      "endLine": 178,
+      "startOffset": 14,
+      "endOffset": 30
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 180,
+              "endLine": 180,
+              "startOffset": 8,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 185,
+              "endLine": 185,
+              "startOffset": 74,
+              "endOffset": 76
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 186,
+              "endLine": 186,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 193,
+              "endLine": 193,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 194,
+              "endLine": 194,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 205,
+              "endLine": 205,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 209,
+              "endLine": 209,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 215,
+              "endLine": 215,
+              "startOffset": 16,
+              "endOffset": 22
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 219,
+              "endLine": 219,
+              "startOffset": 16,
+              "endOffset": 22
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 224,
+              "endLine": 224,
+              "startOffset": 24,
+              "endOffset": 26
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 224,
+              "endLine": 224,
+              "startOffset": 37,
+              "endOffset": 40
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 226,
+              "endLine": 226,
+              "startOffset": 28,
+              "endOffset": 30
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 229,
+              "endLine": 229,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 232,
+              "endLine": 232,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.",
+    "effort": "18min",
+    "debt": "18min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cb25f9df-6565-44c0-8e46-5082a249db8f",
+    "rule": "python:S7497",
+    "severity": "MAJOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 229,
+    "hash": "31a2a68cbd755754be0e72cd2b717a58",
+    "textRange": {
+      "startLine": 229,
+      "endLine": 229,
+      "startOffset": 19,
+      "endOffset": 41
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 178,
+              "endLine": 178,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Ensure that the asyncio.CancelledError exception is re-raised after your cleanup code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "021536c1-8081-4c83-8e8c-6b3049005955",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 339,
+    "hash": "1116784182ed9a53c7e49236b7f4de75",
+    "textRange": {
+      "startLine": 339,
+      "endLine": 339,
+      "startOffset": 10,
+      "endOffset": 37
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 341,
+              "endLine": 341,
+              "startOffset": 25,
+              "endOffset": 27
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 341,
+              "endLine": 341,
+              "startOffset": 78,
+              "endOffset": 80
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 341,
+              "endLine": 341,
+              "startOffset": 89,
+              "endOffset": 92
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 342,
+              "endLine": 342,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 346,
+              "endLine": 346,
+              "startOffset": 54,
+              "endOffset": 56
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 346,
+              "endLine": 346,
+              "startOffset": 65,
+              "endOffset": 68
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 348,
+              "endLine": 348,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 353,
+              "endLine": 353,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 358,
+              "endLine": 358,
+              "startOffset": 40,
+              "endOffset": 43
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 360,
+              "endLine": 360,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 367,
+              "endLine": 367,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 373,
+              "endLine": 373,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 375,
+              "endLine": 375,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 377,
+              "endLine": 377,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 379,
+              "endLine": 379,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.",
+    "effort": "9min",
+    "debt": "9min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f0bd39d8-4168-4a2b-892b-ab1df5a3fa84",
+    "rule": "python:S3358",
+    "severity": "MAJOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 341,
+    "hash": "6c83d74845902e29eae3513e6a991f43",
+    "textRange": {
+      "startLine": 341,
+      "endLine": 341,
+      "startOffset": 57,
+      "endOffset": 120
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/rate_limiter.py",
+            "textRange": {
+              "startLine": 341,
+              "endLine": 341,
+              "startOffset": 25,
+              "endOffset": 27
+            },
+            "msg": "Parent conditional expression.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Extract this nested conditional expression into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b3010fad-58b1-4680-8800-2a22c12cd3f2",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/shortener.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 96,
+    "hash": "c3e881e9745b327d86df21b9d68fceba",
+    "textRange": {
+      "startLine": 96,
+      "endLine": 96,
+      "startOffset": 14,
+      "endOffset": 24
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/shortener.py",
+            "textRange": {
+              "startLine": 96,
+              "endLine": 96,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f29666cb-5003-4531-aa2e-560f35ece928",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/tokens.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 22,
+    "hash": "97c308db71d30219954cb960a2b1777b",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 23,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7bde6be8-bb3a-4f5c-a6b7-29c7dcc02011",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/tokens.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 44,
+    "hash": "d6192f0e2a6df61bd47b8c8952bd0eb7",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 44,
+      "startOffset": 75,
+      "endOffset": 92
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dc4df009-7612-488a-951c-172e9c761de8",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/tokens.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 58,
+    "hash": "faa85413894c877c932361e3cf06527e",
+    "textRange": {
+      "startLine": 58,
+      "endLine": 58,
+      "startOffset": 29,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a0df84cf-0631-4556-adba-1847581c08ac",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/tokens.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 101,
+    "hash": "9eade54872788c27e70f08c20e863af0",
+    "textRange": {
+      "startLine": 101,
+      "endLine": 101,
+      "startOffset": 29,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d7c57d53-0df2-4269-90bf-d2e4648e5dc2",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/tokens.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 141,
+    "hash": "97c308db71d30219954cb960a2b1777b",
+    "textRange": {
+      "startLine": 141,
+      "endLine": 141,
+      "startOffset": 23,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fb289f32-edcd-4460-8f9f-5baab0096aa0",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/Thunder/utils/tokens.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 153,
+    "hash": "97c308db71d30219954cb960a2b1777b",
+    "textRange": {
+      "startLine": 153,
+      "endLine": 153,
+      "startOffset": 23,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "62ff2d1b-5354-4a19-a2e9-e09b41eaa51c",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/update.py",
+    "project": "shakthyoffl__leoxf2l",
+    "line": 6,
+    "hash": "1d488b5de6b2be53d6580476807244e1",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 12,
+      "endOffset": 24
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/update.py",
+            "textRange": {
+              "startLine": 15,
+              "endLine": 15,
+              "startOffset": 24,
+              "endOffset": 36
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/update.py",
+            "textRange": {
+              "startLine": 16,
+              "endLine": 16,
+              "startOffset": 19,
+              "endOffset": 31
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "shakthyoffl__leoxf2l:temp_repos/LeoXF2L/update.py",
+            "textRange": {
+              "startLine": 41,
+              "endLine": 41,
+              "startOffset": 34,
+              "endOffset": 46
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal 'config.env' 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:00:11+0000",
+    "updateDate": "2026-07-17T20:00:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

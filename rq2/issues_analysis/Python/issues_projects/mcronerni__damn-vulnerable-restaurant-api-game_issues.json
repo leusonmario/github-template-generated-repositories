@@ -1,0 +1,2021 @@
+[
+  {
+    "key": "6f62f8fb-26a0-4b88-9057-f189bdc8cc3a",
+    "rule": "docker:S6476",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/Dockerfile",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 1,
+    "hash": "600097e4c2bfd6dea8e8fe294c27d70e",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 26,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace \"as\" with upper case format \"AS\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FORMATTED",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9ac048dd-4344-4448-b683-e6469264dc4c",
+    "rule": "docker:S6476",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/Dockerfile",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 10,
+    "hash": "acafb82d585aff7110f1d9b06aec7620",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 31,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace \"as\" with upper case format \"AS\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FORMATTED",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5cce5eae-faec-4e0f-b473-bb08e46963d5",
+    "rule": "docker:S6595",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/Dockerfile",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 12,
+    "hash": "7933be1dec8c790625dab193422d3a3d",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 4,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Update cache and install packages in single RUN instruction.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ecf14f6b-bfda-4760-9bf5-3a8b3e16ed69",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/Dockerfile",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 12,
+    "hash": "7933be1dec8c790625dab193422d3a3d",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/Dockerfile",
+            "textRange": {
+              "startLine": 13,
+              "endLine": 13,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4401bfdf-2754-4053-8604-f3701bfd5220",
+    "rule": "docker:S7018",
+    "severity": "MINOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/Dockerfile",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 13,
+    "hash": "5f56ca7447e32be90d7f66bec501afb1",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 4,
+      "endOffset": 45
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Sort these package names alphanumerically.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "84131968-64fe-498e-968c-af0db1ab337a",
+    "rule": "docker:S6587",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/Dockerfile",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 13,
+    "hash": "5f56ca7447e32be90d7f66bec501afb1",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 4,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove cache after installing packages or store it in a cache mount.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c6dca05a-887b-4a73-8b3e-21db97ac0065",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/Dockerfile",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 23,
+    "hash": "2ff64e2c80d3ac7e9ecb22f4fe0ed113",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/Dockerfile",
+            "textRange": {
+              "startLine": 26,
+              "endLine": 26,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/Dockerfile",
+            "textRange": {
+              "startLine": 27,
+              "endLine": 27,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a54a2f8d-acd2-4f16-b37c-8ab4f4ee0107",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/apis/admin/services/reset_chef_password_service.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 37,
+    "hash": "7ebf2708c0597cc474c9aaa881dec4a8",
+    "textRange": {
+      "startLine": 37,
+      "endLine": 37,
+      "startOffset": 58,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused loop index \"i\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bec66b87-6026-4f6d-a758-0d7f9f8c7e2d",
+    "rule": "python:S5754",
+    "severity": "CRITICAL",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/apis/admin/utils.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 38,
+    "hash": "3e264f5fbab10735799511f21ca70842",
+    "textRange": {
+      "startLine": 38,
+      "endLine": 38,
+      "startOffset": 4,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify an exception class to catch or reraise the exception",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "bad-practice",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f8a97a98-96e9-4ff6-a479-69ca0dcff568",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/apis/admin/utils.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 39,
+    "hash": "4965bc0ef215cd8064e3db81a257ac2a",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 39,
+      "startOffset": 14,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "227ff24e-2b5a-4624-a397-47ca95e0178d",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/apis/auth/utils/jwt_auth.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 18,
+    "hash": "ce36317c2298deb073705bb6b8eb6bea",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 10,
+      "endOffset": 26
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/apis/auth/utils/jwt_auth.py",
+            "textRange": {
+              "startLine": 18,
+              "endLine": 18,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "70542e1e-88f3-4186-b897-cd8113b53a00",
+    "rule": "python:S5659",
+    "severity": "CRITICAL",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/apis/auth/utils/jwt_auth.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 32,
+    "hash": "86e7874a3b89fd4baedb6a5e224173c7",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 32,
+      "startOffset": 20,
+      "endOffset": 58
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use a JWT token without verifying its signature.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "privacy"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ba9f08e0-60af-4746-b30b-2bf21ed01517",
+    "rule": "python:S1135",
+    "severity": "INFO",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/apis/debug/service.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 7,
+    "hash": "b8fab7de525430d0c2d8c81a02b53ca1",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 0,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9ab34c6b-fa00-48eb-bd1c-04280d43b674",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/apis/healthcheck/service.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 8,
+    "hash": "6496196e08c140d6f44da2d9051a1025",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 4,
+      "endOffset": 72
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f960fadd-213e-4f31-8eee-98d048c77224",
+    "rule": "python:S5795",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/apis/menu/utils.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 14,
+    "hash": "87542b34545f9d2f4040b719449932a4",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 27,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this \"is not\" operator with \"!=\"; identity operator is not reliable here.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "28d27a50-9851-46d6-b797-a7ed3d223e75",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/apis/users/services/update_user_role_service.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 32,
+    "hash": "b5cddea3f0effea11f9d84137c542a5f",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 32,
+      "startOffset": 4,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused local variable \"db_user\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a168532c-164d-44b6-8af1-42e049b312d6",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/db/schemas.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 78,
+    "hash": "50b78c6caf5051bd9d9e4658b1442608",
+    "textRange": {
+      "startLine": 78,
+      "endLine": 78,
+      "startOffset": 29,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8ebfcffe-9a58-43ac-b6b5-b7dbfb9d2070",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/game.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 104,
+    "hash": "c0f79c7d23124272bcb6a9fca50274e9",
+    "textRange": {
+      "startLine": 104,
+      "endLine": 104,
+      "startOffset": 14,
+      "endOffset": 45
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "25840a5b-989f-431f-b06b-3698e350017f",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/game.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 186,
+    "hash": "5550101d4bdacce72972206572ae2d9e",
+    "textRange": {
+      "startLine": 186,
+      "endLine": 186,
+      "startOffset": 8,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused loop index \"line\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f611af5c-0da3-455d-a453-31024453c5d6",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/game.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 203,
+    "hash": "59b948e07b71612d4aeb8d302461658d",
+    "textRange": {
+      "startLine": 203,
+      "endLine": 203,
+      "startOffset": 8,
+      "endOffset": 177
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "22ec0728-9821-42e3-8e82-5ea8cbf28a68",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/game.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 246,
+    "hash": "1fcfce33bb1e9d7e78580fce023bd948",
+    "textRange": {
+      "startLine": 246,
+      "endLine": 246,
+      "startOffset": 16,
+      "endOffset": 236
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "728b334b-dbc2-4c10-8835-cc0650451c7c",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/game.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 270,
+    "hash": "d891c401e036ceac3b3a181503309134",
+    "textRange": {
+      "startLine": 270,
+      "endLine": 270,
+      "startOffset": 16,
+      "endOffset": 190
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "017e67cf-9f12-49f4-ba62-c60a55aa256d",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 15,
+    "hash": "c092b54794e16ccee7d3de1ab628bcd6",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 54,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused loop index \"i\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e103929e-9b50-4f82-9799-d3fdcf1c842d",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 66,
+    "hash": "0582981837b46b996ce24526e827df85",
+    "textRange": {
+      "startLine": 66,
+      "endLine": 66,
+      "startOffset": 21,
+      "endOffset": 40
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+            "textRange": {
+              "startLine": 74,
+              "endLine": 74,
+              "startOffset": 21,
+              "endOffset": 40
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+            "textRange": {
+              "startLine": 83,
+              "endLine": 83,
+              "startOffset": 21,
+              "endOffset": 40
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+            "textRange": {
+              "startLine": 92,
+              "endLine": 92,
+              "startOffset": 21,
+              "endOffset": 40
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Pollos Breakfasts\" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5c75319d-012d-484c-a9dc-14b32b45f67a",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 102,
+    "hash": "cc1e49777e540f4a4ec0ef56c7faa017",
+    "textRange": {
+      "startLine": 102,
+      "endLine": 102,
+      "startOffset": 21,
+      "endOffset": 38
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+            "textRange": {
+              "startLine": 111,
+              "endLine": 111,
+              "startOffset": 21,
+              "endOffset": 38
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+            "textRange": {
+              "startLine": 120,
+              "endLine": 120,
+              "startOffset": 21,
+              "endOffset": 38
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+            "textRange": {
+              "startLine": 129,
+              "endLine": 129,
+              "startOffset": 21,
+              "endOffset": 38
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Pollos Burritos\" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1bbb204d-6e9d-422c-8663-9f50d7f7b6d4",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 140,
+    "hash": "eda80f0856015ac7efe682b2964db5f8",
+    "textRange": {
+      "startLine": 140,
+      "endLine": 140,
+      "startOffset": 21,
+      "endOffset": 42
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+            "textRange": {
+              "startLine": 150,
+              "endLine": 150,
+              "startOffset": 21,
+              "endOffset": 42
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+            "textRange": {
+              "startLine": 160,
+              "endLine": 160,
+              "startOffset": 21,
+              "endOffset": 42
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+            "textRange": {
+              "startLine": 170,
+              "endLine": 170,
+              "startOffset": 21,
+              "endOffset": 42
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Chicken Specialties\" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a043892c-483c-46ab-a9e9-f3701e9a9574",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/conftest.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 23,
+    "hash": "1e4e6064785ceda6192137a591047074",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 0,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "23b7e89d-0467-48e2-a050-ff3094816aa7",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/admin/test_admin_service.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 19,
+    "hash": "0c7c9762dfba73f97bc4676c141a2a77",
+    "textRange": {
+      "startLine": 19,
+      "endLine": 19,
+      "startOffset": 31,
+      "endOffset": 60
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4273595f-e52e-4026-a70b-752082ba7d6d",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/admin/test_admin_service.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 42,
+    "hash": "0c7c9762dfba73f97bc4676c141a2a77",
+    "textRange": {
+      "startLine": 42,
+      "endLine": 42,
+      "startOffset": 31,
+      "endOffset": 60
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "baf14e00-9001-4628-be77-be68da6f68be",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/admin/test_admin_service.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 48,
+    "hash": "1ed20eb0c682cfd6b933263406efb555",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 31,
+      "endOffset": 51
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f0aff5db-2846-4211-877c-c4ef52baa43b",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/admin/test_admin_service.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 56,
+    "hash": "fc818dfd55167a3ecf72d62c8c515c92",
+    "textRange": {
+      "startLine": 56,
+      "endLine": 56,
+      "startOffset": 31,
+      "endOffset": 51
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "502eed2d-19f1-49ff-815c-03d50d6606d8",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/admin/test_admin_service.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 63,
+    "hash": "5e929d8ac2eaf4b25a9d35b1fe716f1a",
+    "textRange": {
+      "startLine": 63,
+      "endLine": 63,
+      "startOffset": 35,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e6a0fe0c-3b40-4b81-ad9f-7aaa9dbe177a",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/admin/test_admin_service.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 70,
+    "hash": "1ed44cea33e9838c7e92210b3cf961ae",
+    "textRange": {
+      "startLine": 70,
+      "endLine": 70,
+      "startOffset": 35,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4704d84e-21f5-4d5d-aa32-6cf0ee1860cb",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/auth/test_auth_service.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 51,
+    "hash": "5e7293a9a718a2ae8e13857b8fb278fa",
+    "textRange": {
+      "startLine": 51,
+      "endLine": 51,
+      "startOffset": 4,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "becb5ec9-8aec-4a3b-8fca-50c22b1a8c7c",
+    "rule": "python:S1542",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/auth/test_roles_based_auth_checker.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 9,
+    "hash": "04e6925c2c8774b0b9c41fc6cdd63a64",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 4,
+      "endOffset": 98
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename function \"test_RolesBasedAuthChecker_should_raise_403_http_exception_if_user_does_not_have_required_role\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "convention",
+      "pep"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d7350173-5864-478d-8e23-36508767c86f",
+    "rule": "python:S1542",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/auth/test_roles_based_auth_checker.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 24,
+    "hash": "c3f574c1be568e1a40a247c4a0d99293",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 4,
+      "endOffset": 75
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename function \"test_RolesBasedAuthChecker_should_return_true_if_user_has_required_role\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "convention",
+      "pep"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "17a94876-290d-40e8-a809-43df45f5920d",
+    "rule": "python:S1244",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/menu/test_menu_service.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 23,
+    "hash": "a07435b58e54aa08518fb9a7dfef63a2",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 11,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not perform equality checks with floating point values.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pytorch",
+      "data-science",
+      "numpy",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5fa34d76-6f08-4435-93ec-0fb8d26ff362",
+    "rule": "python:S1244",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/menu/test_menu_service.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 25,
+    "hash": "c2d4a67427940711ef39d0ce80ae5963",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 11,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not perform equality checks with floating point values.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pytorch",
+      "data-science",
+      "numpy",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d6716a46-ae17-4d86-addb-6afd36dd3ff1",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/vulns/level_2_unrestricted_profile_update_IDOR.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 43,
+    "hash": "2130d61e8008114abc7e45b9a1e0147f",
+    "textRange": {
+      "startLine": 43,
+      "endLine": 43,
+      "startOffset": 35,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "38e7fc04-cea4-4e69-8ba1-4f431a2a31a1",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/vulns/level_3_privilege_escalation.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 47,
+    "hash": "70e003c30705a7eccc19ea029ef6c400",
+    "textRange": {
+      "startLine": 47,
+      "endLine": 47,
+      "startOffset": 8,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "246adb74-4605-4070-9d86-3b349cc8635a",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/vulns/level_4_server_side_request_forgery.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 78,
+    "hash": "e7138e32ba4964adba20a5add2b3d7af",
+    "textRange": {
+      "startLine": 78,
+      "endLine": 78,
+      "startOffset": 35,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a45e4088-8a6b-44ce-b40c-a10b42f5fbec",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "mcronerni__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/vulns/level_5_remote_code_execution.py",
+    "project": "mcronerni__damn-vulnerable-restaurant-api-game",
+    "line": 40,
+    "hash": "637d297be30415e3f730b82d05a9307f",
+    "textRange": {
+      "startLine": 40,
+      "endLine": 40,
+      "startOffset": 8,
+      "endOffset": 66
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:20:45+0000",
+    "updateDate": "2026-07-17T22:20:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

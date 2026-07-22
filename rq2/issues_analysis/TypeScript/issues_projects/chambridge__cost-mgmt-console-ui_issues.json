@@ -1,0 +1,1212 @@
+[
+  {
+    "key": "d6c9fc80-c5e5-45da-8d39-ed7e6824a83a",
+    "rule": "docker:S6596",
+    "severity": "MAJOR",
+    "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/Dockerfile",
+    "project": "chambridge__cost-mgmt-console-ui",
+    "line": 1,
+    "hash": "40101553ec15e32896424ef1e1f571f7",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 5,
+      "endOffset": 53
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use a specific version tag for the image.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:36:29+0000",
+    "updateDate": "2026-07-16T03:36:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "08602e18-842a-4ddf-bde2-3bb47cd662ae",
+    "rule": "docker:S7029",
+    "severity": "MAJOR",
+    "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/Dockerfile",
+    "project": "chambridge__cost-mgmt-console-ui",
+    "line": 5,
+    "hash": "99303e1c8bbc5586a2f5b4e73da732aa",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 0,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this ADD instruction with a COPY instruction.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:36:29+0000",
+    "updateDate": "2026-07-16T03:36:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1c5a3ee2-305f-4dbe-9df8-b0dbe3b6c3ca",
+    "rule": "docker:S6596",
+    "severity": "MAJOR",
+    "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/Dockerfile",
+    "project": "chambridge__cost-mgmt-console-ui",
+    "line": 9,
+    "hash": "a0a8d89fb87ee7b6293e5bcfeffdfe49",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 5,
+      "endOffset": 53
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use a specific version tag for the image.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:36:29+0000",
+    "updateDate": "2026-07-16T03:36:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a623991a-d3cd-4094-a01c-a9ca1e9b9599",
+    "rule": "kubernetes:S6864",
+    "severity": "MAJOR",
+    "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/charts/openshift-console-plugin/templates/patch-consoles-job.yaml",
+    "project": "chambridge__cost-mgmt-console-ui",
+    "line": 27,
+    "hash": "40e458a3836bc68bf093966ef151a31e",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify a memory limit for this container.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:36:29+0000",
+    "updateDate": "2026-07-16T03:36:29+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b601b1fd-e1ea-40b5-a681-642f72548650",
+    "rule": "kubernetes:S6897",
+    "severity": "MAJOR",
+    "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/charts/openshift-console-plugin/templates/patch-consoles-job.yaml",
+    "project": "chambridge__cost-mgmt-console-ui",
+    "line": 27,
+    "hash": "40e458a3836bc68bf093966ef151a31e",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify a storage request for this container.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:36:29+0000",
+    "updateDate": "2026-07-16T03:36:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b5307a11-6d58-45ea-a2e5-f0e2e48d90c7",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/i18n-scripts/common.js",
+    "project": "chambridge__cost-mgmt-console-ui",
+    "line": 1,
+    "hash": "44f9b15d3b1641faca5561b190d8261a",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 19,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T03:36:29+0000",
+    "updateDate": "2026-07-16T03:36:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "389f3d8b-9f4b-4419-af62-ff50c15297a7",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/i18n-scripts/common.js",
+    "project": "chambridge__cost-mgmt-console-ui",
+    "line": 2,
+    "hash": "85968f5b9f570a82c65709eacc211a09",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 21,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T03:36:29+0000",
+    "updateDate": "2026-07-16T03:36:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "26187899-f26a-41cd-a904-85772f9e73cb",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/i18n-scripts/common.js",
+    "project": "chambridge__cost-mgmt-console-ui",
+    "line": 9,
+    "hash": "550051ee6b000602ffe414172dfff76d",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 12,
+      "startOffset": 6,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-16T03:36:29+0000",
+    "updateDate": "2026-07-16T03:36:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c2cb2287-834c-4249-9251-7bc9b7ac49b3",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/i18n-scripts/lexers.js",
+    "project": "chambridge__cost-mgmt-console-ui",
+    "line": 1,
+    "hash": "96026fbbab9a544f3ada3acaff3a0a2a",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 29,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:events` over `events`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T03:36:29+0000",
+    "updateDate": "2026-07-16T03:36:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6820fa77-da0c-4146-b6f9-8704465c73be",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/i18n-scripts/set-english-defaults.js",
+    "project": "chambridge__cost-mgmt-console-ui",
+    "line": 1,
+    "hash": "44f9b15d3b1641faca5561b190d8261a",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 19,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T03:36:29+0000",
+    "updateDate": "2026-07-16T03:36:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0affd12d-8adb-4d08-bcde-124ca723ac55",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/i18n-scripts/set-english-defaults.js",
+    "project": "chambridge__cost-mgmt-console-ui",
+    "line": 2,
+    "hash": "85968f5b9f570a82c65709eacc211a09",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 21,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T03:36:29+0000",
+    "updateDate": "2026-07-16T03:36:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "664e5222-ff62-44b9-8be0-dc917f207043",
+    "rule": "javascript:S4138",
+    "severity": "MINOR",
+    "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/i18n-scripts/set-english-defaults.js",
+    "project": "chambridge__cost-mgmt-console-ui",
+    "line": 29,
+    "hash": "869e1783869f34f952156de008c85896",
+    "textRange": {
+      "startLine": 29,
+      "endLine": 55,
+      "startOffset": 2,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Expected a `for-of` loop instead of a `for` loop with this simple iteration.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "clumsy"
+    ],
+    "creationDate": "2026-07-16T03:36:29+0000",
+    "updateDate": "2026-07-16T03:36:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e46b6d16-d66f-4910-9dd8-fbd7ab2b690a",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/integration-tests/plugins/index.ts",
+    "project": "chambridge__cost-mgmt-console-ui",
+    "line": 3,
+    "hash": "41cb1fb78097dd802c7ea709c99183b6",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 30,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T03:36:29+0000",
+    "updateDate": "2026-07-16T03:36:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2092c7c0-f82b-4b29-896f-4b6b06639cf4",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/integration-tests/tests/example-page.cy.ts",
+    "project": "chambridge__cost-mgmt-console-ui",
+    "line": 39,
+    "hash": "94332f2413ac9791552ad3275938ebe6",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 39,
+      "startOffset": 8,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T03:36:29+0000",
+    "updateDate": "2026-07-16T03:36:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "39cd672c-9521-4ba4-9ee6-a21564f1b37e",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/integration-tests/tests/example-page.cy.ts",
+    "project": "chambridge__cost-mgmt-console-ui",
+    "line": 62,
+    "hash": "94332f2413ac9791552ad3275938ebe6",
+    "textRange": {
+      "startLine": 62,
+      "endLine": 62,
+      "startOffset": 8,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T03:36:29+0000",
+    "updateDate": "2026-07-16T03:36:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b0612784-1b07-4519-8152-7c619c53f3a7",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/src/components/ExamplePage.tsx",
+    "project": "chambridge__cost-mgmt-console-ui",
+    "line": 2,
+    "hash": "1ed2f167ad1b216d0110554697dd70d6",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 0,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T03:36:29+0000",
+    "updateDate": "2026-07-16T03:36:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "083ee428-616b-4fc7-a5bf-4b94a98bebf6",
+    "rule": "typescript:S3776",
+    "severity": "CRITICAL",
+    "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/src/components/ExamplePage.tsx",
+    "project": "chambridge__cost-mgmt-console-ui",
+    "line": 10,
+    "hash": "b69ce2cc65cc4a166452c9f0c0d33bcf",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 15,
+      "endOffset": 28
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/src/components/ExamplePage.tsx",
+            "textRange": {
+              "startLine": 20,
+              "endLine": 20,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/src/components/ExamplePage.tsx",
+            "textRange": {
+              "startLine": 28,
+              "endLine": 28,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/src/components/ExamplePage.tsx",
+            "textRange": {
+              "startLine": 44,
+              "endLine": 44,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/src/components/ExamplePage.tsx",
+            "textRange": {
+              "startLine": 28,
+              "endLine": 28,
+              "startOffset": 15,
+              "endOffset": 17
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/src/components/ExamplePage.tsx",
+            "textRange": {
+              "startLine": 29,
+              "endLine": 29,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/src/components/ExamplePage.tsx",
+            "textRange": {
+              "startLine": 41,
+              "endLine": 41,
+              "startOffset": 6,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/src/components/ExamplePage.tsx",
+            "textRange": {
+              "startLine": 29,
+              "endLine": 29,
+              "startOffset": 25,
+              "endOffset": 27
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/src/components/ExamplePage.tsx",
+            "textRange": {
+              "startLine": 30,
+              "endLine": 30,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/src/components/ExamplePage.tsx",
+            "textRange": {
+              "startLine": 38,
+              "endLine": 38,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/src/components/ExamplePage.tsx",
+            "textRange": {
+              "startLine": 33,
+              "endLine": 33,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+4 (incl. 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-16T03:36:29+0000",
+    "updateDate": "2026-07-16T03:36:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "26dfcc97-1391-4cb3-9c88-62069a4c43cd",
+    "rule": "typescript:S3504",
+    "severity": "CRITICAL",
+    "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/src/components/ExamplePage.tsx",
+    "project": "chambridge__cost-mgmt-console-ui",
+    "line": 11,
+    "hash": "7b104a13bfc7de767a1aaba6e58e2483",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 2,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected var, use let or const instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-16T03:36:29+0000",
+    "updateDate": "2026-07-16T03:36:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c0028120-4881-479f-9269-cf13a9c3f6e5",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/src/components/ExamplePage.tsx",
+    "project": "chambridge__cost-mgmt-console-ui",
+    "line": 21,
+    "hash": "e0bda55553c67741ce81c68b5aaff4dd",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 4,
+      "endOffset": 71
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T03:36:29+0000",
+    "updateDate": "2026-07-16T03:36:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a23a102b-1c15-44cf-955b-ef5e9a05ebff",
+    "rule": "typescript:S3504",
+    "severity": "CRITICAL",
+    "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/src/components/ExamplePage.tsx",
+    "project": "chambridge__cost-mgmt-console-ui",
+    "line": 33,
+    "hash": "187b464df413258f0f495e72563a8a6a",
+    "textRange": {
+      "startLine": 33,
+      "endLine": 33,
+      "startOffset": 13,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected var, use let or const instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-16T03:36:29+0000",
+    "updateDate": "2026-07-16T03:36:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "853970f9-286f-4235-b587-95489a6725e2",
+    "rule": "typescript:S3504",
+    "severity": "CRITICAL",
+    "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/src/components/ExamplePage.tsx",
+    "project": "chambridge__cost-mgmt-console-ui",
+    "line": 35,
+    "hash": "0a30ccb2c3a4241fba42c93566e4df61",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 10,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected var, use let or const instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-16T03:36:29+0000",
+    "updateDate": "2026-07-16T03:36:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "35bed572-5fda-4ead-a623-9a35627a5571",
+    "rule": "typescript:S3504",
+    "severity": "CRITICAL",
+    "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/src/components/ExamplePage.tsx",
+    "project": "chambridge__cost-mgmt-console-ui",
+    "line": 58,
+    "hash": "b1ab97305ef3d80ca07377e9efba0bc3",
+    "textRange": {
+      "startLine": 58,
+      "endLine": 58,
+      "startOffset": 6,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected var, use let or const instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-16T03:36:29+0000",
+    "updateDate": "2026-07-16T03:36:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "49e67215-6700-40a9-92f3-2612d1913c47",
+    "rule": "typescript:S6477",
+    "severity": "MAJOR",
+    "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/src/components/ExamplePage.tsx",
+    "project": "chambridge__cost-mgmt-console-ui",
+    "line": 85,
+    "hash": "2526cfd5ec82dbbf33073d23396f4030",
+    "textRange": {
+      "startLine": 85,
+      "endLine": 88,
+      "startOffset": 16,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Missing \"key\" prop for element in iterator",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T03:36:29+0000",
+    "updateDate": "2026-07-16T03:36:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "07e673b1-b759-46f1-a403-849ce8f88192",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "chambridge__cost-mgmt-console-ui:temp_repos/cost-mgmt-console-ui/webpack.config.ts",
+    "project": "chambridge__cost-mgmt-console-ui",
+    "line": 3,
+    "hash": "6c88602ec87337f7ced5b0656f1d5f29",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 22,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T03:36:29+0000",
+    "updateDate": "2026-07-16T03:36:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

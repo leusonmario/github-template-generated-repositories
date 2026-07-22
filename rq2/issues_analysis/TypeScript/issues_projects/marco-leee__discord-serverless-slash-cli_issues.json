@@ -1,0 +1,1132 @@
+[
+  {
+    "key": "a0bf54ed-fd1c-4238-bc4f-d8f4bd111366",
+    "rule": "typescript:S2310",
+    "severity": "MAJOR",
+    "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/scripts/run.ts",
+    "project": "marco-leee__discord-serverless-slash-cli",
+    "line": 84,
+    "hash": "0dd578d50cfa4265d49d2164f357a42b",
+    "textRange": {
+      "startLine": 84,
+      "endLine": 84,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/scripts/run.ts",
+            "textRange": {
+              "startLine": 70,
+              "endLine": 70,
+              "startOffset": 35,
+              "endOffset": 36
+            },
+            "msg": "Counter variable update",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Remove this assignment of \"i\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T05:22:55+0000",
+    "updateDate": "2026-07-16T05:22:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "90fed135-5272-47aa-887a-5d6fd7019ab5",
+    "rule": "typescript:S7786",
+    "severity": "MINOR",
+    "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/scripts/run.ts",
+    "project": "marco-leee__discord-serverless-slash-cli",
+    "line": 110,
+    "hash": "707744405ffc07ff984fe7f5108416c7",
+    "textRange": {
+      "startLine": 110,
+      "endLine": 110,
+      "startOffset": 14,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "`new Error()` is too unspecific for a type check. Use `new TypeError()` instead.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "error-handling",
+      "type-checking"
+    ],
+    "creationDate": "2026-07-16T05:22:55+0000",
+    "updateDate": "2026-07-16T05:22:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4d562040-b760-424d-a08c-598a1836282f",
+    "rule": "typescript:S7765",
+    "severity": "MINOR",
+    "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/scripts/run.ts",
+    "project": "marco-leee__discord-serverless-slash-cli",
+    "line": 120,
+    "hash": "c938347cd01cdc640b7bcc0afb079e57",
+    "textRange": {
+      "startLine": 120,
+      "endLine": 120,
+      "startOffset": 13,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `.includes()` instead of `.some()` when checking value existence.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es6"
+    ],
+    "creationDate": "2026-07-16T05:22:55+0000",
+    "updateDate": "2026-07-16T05:22:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "198c473a-6914-42c7-9cdf-416186d15193",
+    "rule": "typescript:S7776",
+    "severity": "MINOR",
+    "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/scripts/sync.ts",
+    "project": "marco-leee__discord-serverless-slash-cli",
+    "line": 74,
+    "hash": "ce25ca03b267743426242713171d21d3",
+    "textRange": {
+      "startLine": 74,
+      "endLine": 74,
+      "startOffset": 8,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "`argv` should be a `Set`, and use `argv.has()` to check existence or non-existence.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "optimization"
+    ],
+    "creationDate": "2026-07-16T05:22:55+0000",
+    "updateDate": "2026-07-16T05:22:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "69906d25-14fc-4c48-9465-74e193fddacc",
+    "rule": "typescript:S4624",
+    "severity": "MAJOR",
+    "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/commands/ambiguity-check.ts",
+    "project": "marco-leee__discord-serverless-slash-cli",
+    "line": 55,
+    "hash": "b35cd7a8d0a6a3c5f7b9bb743f501fa1",
+    "textRange": {
+      "startLine": 55,
+      "endLine": 55,
+      "startOffset": 64,
+      "endOffset": 72
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Refactor this code to not use nested template literals.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T05:22:55+0000",
+    "updateDate": "2026-07-16T05:22:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "61ae511a-b6f0-4759-a112-ff6c5b312053",
+    "rule": "typescript:S7765",
+    "severity": "MINOR",
+    "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/commands/atomic-task.ts",
+    "project": "marco-leee__discord-serverless-slash-cli",
+    "line": 148,
+    "hash": "395a7c72afad8eb0699918cac246fb20",
+    "textRange": {
+      "startLine": 148,
+      "endLine": 148,
+      "startOffset": 13,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `.includes()` instead of `.some()` when checking value existence.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es6"
+    ],
+    "creationDate": "2026-07-16T05:22:55+0000",
+    "updateDate": "2026-07-16T05:22:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "600fe030-14eb-4658-9201-46d981f20f31",
+    "rule": "typescript:S4624",
+    "severity": "MAJOR",
+    "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/commands/domain-mapper.ts",
+    "project": "marco-leee__discord-serverless-slash-cli",
+    "line": 198,
+    "hash": "0ee48f727f2d1025572fa3c66050c62f",
+    "textRange": {
+      "startLine": 198,
+      "endLine": 198,
+      "startOffset": 60,
+      "endOffset": 102
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Refactor this code to not use nested template literals.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T05:22:55+0000",
+    "updateDate": "2026-07-16T05:22:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1776a518-c3f6-4d7d-9928-5af4a425ebda",
+    "rule": "typescript:S4624",
+    "severity": "MAJOR",
+    "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/commands/domain-mapper.ts",
+    "project": "marco-leee__discord-serverless-slash-cli",
+    "line": 200,
+    "hash": "c59c420545fb9df1a775437ab273d2e6",
+    "textRange": {
+      "startLine": 200,
+      "endLine": 200,
+      "startOffset": 64,
+      "endOffset": 83
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Refactor this code to not use nested template literals.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T05:22:55+0000",
+    "updateDate": "2026-07-16T05:22:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6adcfd10-9037-4fb0-ad0a-257afcc93b46",
+    "rule": "typescript:S7748",
+    "severity": "MINOR",
+    "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/commands/energy.ts",
+    "project": "marco-leee__discord-serverless-slash-cli",
+    "line": 25,
+    "hash": "9177b74d62c950f002a9cba4b3bf920b",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 28,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use a zero fraction in the number.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "consistency",
+      "formatting"
+    ],
+    "creationDate": "2026-07-16T05:22:55+0000",
+    "updateDate": "2026-07-16T05:22:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c090ac01-3f23-45d2-b375-aae3cce6a06a",
+    "rule": "typescript:S1444",
+    "severity": "MINOR",
+    "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/commands/energy.ts",
+    "project": "marco-leee__discord-serverless-slash-cli",
+    "line": 25,
+    "hash": "9177b74d62c950f002a9cba4b3bf920b",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 9,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make this public static property readonly.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T05:22:55+0000",
+    "updateDate": "2026-07-16T05:22:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "84741a30-dcd6-4127-969f-eae3a7c08a87",
+    "rule": "typescript:S1444",
+    "severity": "MINOR",
+    "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/commands/energy.ts",
+    "project": "marco-leee__discord-serverless-slash-cli",
+    "line": 26,
+    "hash": "ca4af76362996617aed78dcab6e965e6",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 9,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make this public static property readonly.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T05:22:55+0000",
+    "updateDate": "2026-07-16T05:22:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bd1ae476-de4c-46ce-812a-e303c95ba03f",
+    "rule": "typescript:S7748",
+    "severity": "MINOR",
+    "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/commands/energy.ts",
+    "project": "marco-leee__discord-serverless-slash-cli",
+    "line": 26,
+    "hash": "ca4af76362996617aed78dcab6e965e6",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 30,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use a zero fraction in the number.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "consistency",
+      "formatting"
+    ],
+    "creationDate": "2026-07-16T05:22:55+0000",
+    "updateDate": "2026-07-16T05:22:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "29f2f98f-28da-475e-ae2f-bb6f39b75164",
+    "rule": "typescript:S1444",
+    "severity": "MINOR",
+    "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/commands/energy.ts",
+    "project": "marco-leee__discord-serverless-slash-cli",
+    "line": 27,
+    "hash": "ed44f5ecacae297352a3f91a5aad70f4",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 9,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make this public static property readonly.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T05:22:55+0000",
+    "updateDate": "2026-07-16T05:22:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "08605bd0-e4e0-4c10-86b6-2be506d4cc96",
+    "rule": "typescript:S7748",
+    "severity": "MINOR",
+    "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/commands/energy.ts",
+    "project": "marco-leee__discord-serverless-slash-cli",
+    "line": 28,
+    "hash": "a20b1139b470f3a4fd86d645eeafee29",
+    "textRange": {
+      "startLine": 28,
+      "endLine": 28,
+      "startOffset": 27,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use a zero fraction in the number.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "consistency",
+      "formatting"
+    ],
+    "creationDate": "2026-07-16T05:22:55+0000",
+    "updateDate": "2026-07-16T05:22:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2eafd15f-71a4-4ee7-9e05-061590ee7965",
+    "rule": "typescript:S1444",
+    "severity": "MINOR",
+    "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/commands/energy.ts",
+    "project": "marco-leee__discord-serverless-slash-cli",
+    "line": 28,
+    "hash": "a20b1139b470f3a4fd86d645eeafee29",
+    "textRange": {
+      "startLine": 28,
+      "endLine": 28,
+      "startOffset": 9,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make this public static property readonly.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T05:22:55+0000",
+    "updateDate": "2026-07-16T05:22:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3f43696c-4ba9-4226-a4b1-ac3293324412",
+    "rule": "typescript:S1444",
+    "severity": "MINOR",
+    "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/commands/energy.ts",
+    "project": "marco-leee__discord-serverless-slash-cli",
+    "line": 29,
+    "hash": "6c2c2475578721a87c500b5779de3cd8",
+    "textRange": {
+      "startLine": 29,
+      "endLine": 29,
+      "startOffset": 9,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make this public static property readonly.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T05:22:55+0000",
+    "updateDate": "2026-07-16T05:22:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e620300c-ef66-4e6f-94ca-425e658c2daa",
+    "rule": "typescript:S1444",
+    "severity": "MINOR",
+    "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/commands/energy.ts",
+    "project": "marco-leee__discord-serverless-slash-cli",
+    "line": 30,
+    "hash": "943ebcc72d8d68854f277f431cb9c36f",
+    "textRange": {
+      "startLine": 30,
+      "endLine": 30,
+      "startOffset": 9,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make this public static property readonly.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T05:22:55+0000",
+    "updateDate": "2026-07-16T05:22:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f24002ba-1096-43df-a059-4fe2c8b02054",
+    "rule": "typescript:S1444",
+    "severity": "MINOR",
+    "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/commands/energy.ts",
+    "project": "marco-leee__discord-serverless-slash-cli",
+    "line": 31,
+    "hash": "9597d1537b1dc2a5455c4d629674c79c",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 9,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make this public static property readonly.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T05:22:55+0000",
+    "updateDate": "2026-07-16T05:22:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2f03be82-3c7e-4b06-bcab-5f44a8b42c1c",
+    "rule": "typescript:S4624",
+    "severity": "MAJOR",
+    "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/commands/premortem.ts",
+    "project": "marco-leee__discord-serverless-slash-cli",
+    "line": 88,
+    "hash": "10f3d5355f389dab62b4c6f3f8becc8c",
+    "textRange": {
+      "startLine": 88,
+      "endLine": 88,
+      "startOffset": 88,
+      "endOffset": 98
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Refactor this code to not use nested template literals.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T05:22:55+0000",
+    "updateDate": "2026-07-16T05:22:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0af11e26-3904-48e8-abc7-6222643c11c5",
+    "rule": "typescript:S4624",
+    "severity": "MAJOR",
+    "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/discord.ts",
+    "project": "marco-leee__discord-serverless-slash-cli",
+    "line": 17,
+    "hash": "571c543b1cc07f13e5916d310de29d5b",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 17,
+      "startOffset": 46,
+      "endOffset": 57
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Refactor this code to not use nested template literals.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T05:22:55+0000",
+    "updateDate": "2026-07-16T05:22:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1ccacdac-cf67-4d73-a81c-75391efb1252",
+    "rule": "typescript:S3776",
+    "severity": "CRITICAL",
+    "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/discord.ts",
+    "project": "marco-leee__discord-serverless-slash-cli",
+    "line": 42,
+    "hash": "bc922f0ddccca634cf1f16a8b0eaa2a8",
+    "textRange": {
+      "startLine": 42,
+      "endLine": 42,
+      "startOffset": 16,
+      "endOffset": 31
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/discord.ts",
+            "textRange": {
+              "startLine": 43,
+              "endLine": 43,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/discord.ts",
+            "textRange": {
+              "startLine": 48,
+              "endLine": 48,
+              "startOffset": 2,
+              "endOffset": 5
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/discord.ts",
+            "textRange": {
+              "startLine": 49,
+              "endLine": 49,
+              "startOffset": 25,
+              "endOffset": 26
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/discord.ts",
+            "textRange": {
+              "startLine": 50,
+              "endLine": 50,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/discord.ts",
+            "textRange": {
+              "startLine": 60,
+              "endLine": 60,
+              "startOffset": 6,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/discord.ts",
+            "textRange": {
+              "startLine": 51,
+              "endLine": 51,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/discord.ts",
+            "textRange": {
+              "startLine": 52,
+              "endLine": 52,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/discord.ts",
+            "textRange": {
+              "startLine": 57,
+              "endLine": 57,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/discord.ts",
+            "textRange": {
+              "startLine": 53,
+              "endLine": 53,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+4 (incl. 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/discord.ts",
+            "textRange": {
+              "startLine": 65,
+              "endLine": 65,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.",
+    "effort": "9min",
+    "debt": "9min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-16T05:22:55+0000",
+    "updateDate": "2026-07-16T05:22:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "24b97365-bdc5-488b-9721-f2715bc2d7be",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "marco-leee__discord-serverless-slash-cli:temp_repos/discord-serverless-slash-cli/src/discord.ts",
+    "project": "marco-leee__discord-serverless-slash-cli",
+    "line": 83,
+    "hash": "0c7cf9a532c2eabe2be37816d87dcb51",
+    "textRange": {
+      "startLine": 83,
+      "endLine": 83,
+      "startOffset": 23,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-16T05:22:55+0000",
+    "updateDate": "2026-07-16T05:22:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

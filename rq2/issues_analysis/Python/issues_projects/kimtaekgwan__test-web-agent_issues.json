@@ -1,0 +1,4094 @@
+[
+  {
+    "key": "4b1c2788-28dc-4892-ac19-86fa8c87e140",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/docker/Dockerfile.app",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 10,
+    "hash": "71955b465d83b1e95e3e8909d8680af7",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/docker/Dockerfile.app",
+            "textRange": {
+              "startLine": 12,
+              "endLine": 12,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "46ffc986-6b8e-4abe-b3da-044cfb8ca30c",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/docker/Dockerfile.service",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 10,
+    "hash": "71955b465d83b1e95e3e8909d8680af7",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/docker/Dockerfile.service",
+            "textRange": {
+              "startLine": 11,
+              "endLine": 11,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "de446b31-bde7-48d8-b291-1f61780dc7f0",
+    "rule": "python:S7493",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/index_graph/graph.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 37,
+    "hash": "e192c70fb3bdd657f8f724a119f546b9",
+    "textRange": {
+      "startLine": 37,
+      "endLine": 37,
+      "startOffset": 13,
+      "endOffset": 42
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/index_graph/graph.py",
+            "textRange": {
+              "startLine": 15,
+              "endLine": 15,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an asynchronous file API instead of synchronous open() in this async function.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "10c0a054-6026-4980-a13f-a02b49d4de71",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/research_assistant.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 130,
+    "hash": "e62adfb638f23e9d284ee97e7026a5cf",
+    "textRange": {
+      "startLine": 130,
+      "endLine": 130,
+      "startOffset": 10,
+      "endOffset": 30
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/research_assistant.py",
+            "textRange": {
+              "startLine": 130,
+              "endLine": 130,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "07fe3848-f151-4146-8f35-9656ac787e09",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/research_assistant.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 253,
+    "hash": "5e11fcffc5ca1f600d0bf53d38f19ae7",
+    "textRange": {
+      "startLine": 253,
+      "endLine": 253,
+      "startOffset": 24,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused local variable \"e\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cf5ac504-e527-461a-ae3b-c62f4820dbcb",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 27,
+    "hash": "00310f7f7048ef2100e74cc932c04c6e",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 0,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "19deba22-6e21-46a9-b366-bc4137433d99",
+    "rule": "python:S1172",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 78,
+    "hash": "7007eaf1caf6df7cd39ad4ffe3b056d3",
+    "textRange": {
+      "startLine": 78,
+      "endLine": 78,
+      "startOffset": 37,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused function parameter \"config\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7cb1066e-9324-41a9-acf0-c37b1504d8cd",
+    "rule": "python:S1172",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 78,
+    "hash": "7007eaf1caf6df7cd39ad4ffe3b056d3",
+    "textRange": {
+      "startLine": 78,
+      "endLine": 78,
+      "startOffset": 18,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused function parameter \"state\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b13cc836-2067-4475-a340-bd7a6e663d5d",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 132,
+    "hash": "f05f856b55d8edc0914e66300496d8ae",
+    "textRange": {
+      "startLine": 132,
+      "endLine": 132,
+      "startOffset": 4,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b361f518-b60b-4d3e-862d-a467c10aeff7",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 148,
+    "hash": "cd5a22dac486b84aa1fe1d2340864849",
+    "textRange": {
+      "startLine": 148,
+      "endLine": 148,
+      "startOffset": 4,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "da25aaa7-c0e2-4696-8286-948c3e006614",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 171,
+    "hash": "5488004788610f5d2d1e14d10226121f",
+    "textRange": {
+      "startLine": 171,
+      "endLine": 171,
+      "startOffset": 4,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8d8f195f-dec9-43c9-92e6-50a511399ffc",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 186,
+    "hash": "e7e8477f00ec54c4827cc659987dadbc",
+    "textRange": {
+      "startLine": 186,
+      "endLine": 186,
+      "startOffset": 4,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a8e68e85-4a96-4f6c-987b-871c30facbb4",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 199,
+    "hash": "e36571e22f0132a32d6f6246c7008785",
+    "textRange": {
+      "startLine": 199,
+      "endLine": 199,
+      "startOffset": 4,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "729f9837-9a7a-4182-ae60-a894ea02a80c",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 273,
+    "hash": "b49df28ecdd46b315552e401c0747a86",
+    "textRange": {
+      "startLine": 273,
+      "endLine": 273,
+      "startOffset": 30,
+      "endOffset": 37
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+            "textRange": {
+              "startLine": 277,
+              "endLine": 277,
+              "startOffset": 38,
+              "endOffset": 45
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+            "textRange": {
+              "startLine": 279,
+              "endLine": 279,
+              "startOffset": 30,
+              "endOffset": 37
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"콘텐츠생성\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7a5c38f2-04ab-460c-96ab-85258f72451b",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 290,
+    "hash": "14a4f81d1ae827fcfa68cef7e844cd79",
+    "textRange": {
+      "startLine": 290,
+      "endLine": 290,
+      "startOffset": 15,
+      "endOffset": 22
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+            "textRange": {
+              "startLine": 301,
+              "endLine": 301,
+              "startOffset": 22,
+              "endOffset": 29
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+            "textRange": {
+              "startLine": 304,
+              "endLine": 304,
+              "startOffset": 15,
+              "endOffset": 22
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+            "textRange": {
+              "startLine": 305,
+              "endLine": 305,
+              "startOffset": 15,
+              "endOffset": 22
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"사용자입력\" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8f81f225-8356-4dfc-9230-cf416ebc387c",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 291,
+    "hash": "4a7d917b912eaae23b921a08f78f1a90",
+    "textRange": {
+      "startLine": 291,
+      "endLine": 291,
+      "startOffset": 15,
+      "endOffset": 28
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+            "textRange": {
+              "startLine": 304,
+              "endLine": 304,
+              "startOffset": 24,
+              "endOffset": 37
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+            "textRange": {
+              "startLine": 306,
+              "endLine": 306,
+              "startOffset": 15,
+              "endOffset": 28
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"pdf_분석_에이전트\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2df17cc8-a32c-4060-ab33-82988a252bcd",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 292,
+    "hash": "1a0382d0ddb440ba9a6e3566b76099b7",
+    "textRange": {
+      "startLine": 292,
+      "endLine": 292,
+      "startOffset": 15,
+      "endOffset": 28
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+            "textRange": {
+              "startLine": 305,
+              "endLine": 305,
+              "startOffset": 24,
+              "endOffset": 37
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+            "textRange": {
+              "startLine": 307,
+              "endLine": 307,
+              "startOffset": 15,
+              "endOffset": 28
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"텍스트_분석_에이전트\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ba4919f9-f4f9-4533-b26e-d731c2f9e504",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 293,
+    "hash": "7228ad6f903335da92026867e939a2ef",
+    "textRange": {
+      "startLine": 293,
+      "endLine": 293,
+      "startOffset": 15,
+      "endOffset": 25
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+            "textRange": {
+              "startLine": 306,
+              "endLine": 306,
+              "startOffset": 30,
+              "endOffset": 40
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+            "textRange": {
+              "startLine": 307,
+              "endLine": 307,
+              "startOffset": 30,
+              "endOffset": 40
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+            "textRange": {
+              "startLine": 308,
+              "endLine": 308,
+              "startOffset": 15,
+              "endOffset": 25
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"벡터화_에이전트\" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d4914b72-c793-4a50-85da-c32d6bb690f0",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 295,
+    "hash": "e89c7bdb372df7611bb0b362024ad1d0",
+    "textRange": {
+      "startLine": 295,
+      "endLine": 295,
+      "startOffset": 15,
+      "endOffset": 24
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+            "textRange": {
+              "startLine": 308,
+              "endLine": 308,
+              "startOffset": 27,
+              "endOffset": 36
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+            "textRange": {
+              "startLine": 309,
+              "endLine": 309,
+              "startOffset": 15,
+              "endOffset": 24
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"PM_에이전트\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ff6f5561-3aee-4c7d-8c24-4cc09b18477d",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 296,
+    "hash": "d52ece7d83b0fc98257d5506a0243d35",
+    "textRange": {
+      "startLine": 296,
+      "endLine": 296,
+      "startOffset": 15,
+      "endOffset": 28
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+            "textRange": {
+              "startLine": 309,
+              "endLine": 309,
+              "startOffset": 26,
+              "endOffset": 39
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+            "textRange": {
+              "startLine": 310,
+              "endLine": 310,
+              "startOffset": 15,
+              "endOffset": 28
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"사이트_기획_에이전트\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "04b964ef-bfac-427c-834e-adc1c27e52ff",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 297,
+    "hash": "a705ae8d92e525fb0c87b12ba6b57e08",
+    "textRange": {
+      "startLine": 297,
+      "endLine": 297,
+      "startOffset": 15,
+      "endOffset": 31
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+            "textRange": {
+              "startLine": 310,
+              "endLine": 310,
+              "startOffset": 30,
+              "endOffset": 46
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+            "textRange": {
+              "startLine": 311,
+              "endLine": 311,
+              "startOffset": 15,
+              "endOffset": 31
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"페이지_구조_기획_에이전트\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5c7a5973-c729-4ee3-a929-72c715b53cff",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 298,
+    "hash": "dd37cd7bc4601f44377b85f602dff7b5",
+    "textRange": {
+      "startLine": 298,
+      "endLine": 298,
+      "startOffset": 15,
+      "endOffset": 31
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+            "textRange": {
+              "startLine": 311,
+              "endLine": 311,
+              "startOffset": 33,
+              "endOffset": 49
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/agents.py",
+            "textRange": {
+              "startLine": 312,
+              "endLine": 312,
+              "startOffset": 15,
+              "endOffset": 31
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"섹션_제작_에디터_에이전트\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d2a530d9-c6ed-4df6-b807-395fbd7002c9",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/render copy.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 201,
+    "hash": "a1e36a221e1673c8f9eb1b46f10c6725",
+    "textRange": {
+      "startLine": 201,
+      "endLine": 201,
+      "startOffset": 4,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused local variable \"tag_tree_data\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "64bc8129-507a-4103-b8e4-6ddbc2580ed6",
+    "rule": "python:S1135",
+    "severity": "INFO",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/render.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 169,
+    "hash": "b1156225d55af34912052c8563e9ea9a",
+    "textRange": {
+      "startLine": 169,
+      "endLine": 169,
+      "startOffset": 12,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1a719d30-7d96-4be9-bf8f-c7fd5d898a5f",
+    "rule": "python:S1135",
+    "severity": "INFO",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/sample_agent/render.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 252,
+    "hash": "b1156225d55af34912052c8563e9ea9a",
+    "textRange": {
+      "startLine": 252,
+      "endLine": 252,
+      "startOffset": 4,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cbeb1b85-251d-4d8c-a108-207fd5444312",
+    "rule": "python:S5850",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/agents/tools.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 31,
+    "hash": "c7d1292eceebca76ccd0a678e4d73e21",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 24,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Group parts of the regex together to make the intended operator precedence explicit.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "regex"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c7558ad7-01b6-4932-b6ce-bb88eef93788",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/client/client.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 106,
+    "hash": "9086c30af52a84813d3714f1ffaf0e4b",
+    "textRange": {
+      "startLine": 106,
+      "endLine": 106,
+      "startOffset": 35,
+      "endOffset": 94
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/client/client.py",
+            "textRange": {
+              "startLine": 148,
+              "endLine": 148,
+              "startOffset": 35,
+              "endOffset": 94
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/client/client.py",
+            "textRange": {
+              "startLine": 220,
+              "endLine": 220,
+              "startOffset": 35,
+              "endOffset": 94
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/client/client.py",
+            "textRange": {
+              "startLine": 273,
+              "endLine": 273,
+              "startOffset": 35,
+              "endOffset": 94
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"No agent selected. Use update_agent() to select an agent.\" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "af6e0486-78df-435f-90c6-afc3a5eef6a8",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/client/client.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 178,
+    "hash": "184baa9ab70af84af737d4595299c008",
+    "textRange": {
+      "startLine": 178,
+      "endLine": 178,
+      "startOffset": 22,
+      "endOffset": 79
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "44693aa8-6f3d-42c7-b2e9-67d7db034663",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/client/client.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 185,
+    "hash": "9488c6dc11287be4fd1406a2d6082f13",
+    "textRange": {
+      "startLine": 185,
+      "endLine": 185,
+      "startOffset": 30,
+      "endOffset": 80
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "881994e3-0fab-4674-b665-2d66f79f1443",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/client/client.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 190,
+    "hash": "87f1fafffdac675df55be0959476d601",
+    "textRange": {
+      "startLine": 190,
+      "endLine": 190,
+      "startOffset": 26,
+      "endOffset": 54
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4290b946-9530-43cf-b236-dbfddfa39f9a",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/core/settings.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 64,
+    "hash": "5f10de77a912ccbf87aaa3feb720d9a5",
+    "textRange": {
+      "startLine": 64,
+      "endLine": 64,
+      "startOffset": 8,
+      "endOffset": 23
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/core/settings.py",
+            "textRange": {
+              "startLine": 76,
+              "endLine": 76,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/core/settings.py",
+            "textRange": {
+              "startLine": 79,
+              "endLine": 79,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/core/settings.py",
+            "textRange": {
+              "startLine": 82,
+              "endLine": 82,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/core/settings.py",
+            "textRange": {
+              "startLine": 86,
+              "endLine": 86,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/core/settings.py",
+            "textRange": {
+              "startLine": 90,
+              "endLine": 90,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/core/settings.py",
+            "textRange": {
+              "startLine": 94,
+              "endLine": 94,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/core/settings.py",
+            "textRange": {
+              "startLine": 98,
+              "endLine": 98,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/core/settings.py",
+            "textRange": {
+              "startLine": 102,
+              "endLine": 102,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/core/settings.py",
+            "textRange": {
+              "startLine": 106,
+              "endLine": 106,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/core/settings.py",
+            "textRange": {
+              "startLine": 110,
+              "endLine": 110,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.",
+    "effort": "16min",
+    "debt": "16min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e1e853e5-6617-43f9-bebe-421bbb65240d",
+    "rule": "python:S1135",
+    "severity": "INFO",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/service/service.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 64,
+    "hash": "da1609042dbbde7e742f67b16930e0dc",
+    "textRange": {
+      "startLine": 64,
+      "endLine": 64,
+      "startOffset": 4,
+      "endOffset": 85
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e261ac55-9a71-4457-bae3-c217341fa577",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/service/service.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 136,
+    "hash": "5e44ce8ad49e1be3d0b60fc81f41bdd6",
+    "textRange": {
+      "startLine": 136,
+      "endLine": 136,
+      "startOffset": 10,
+      "endOffset": 27
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/service/service.py",
+            "textRange": {
+              "startLine": 148,
+              "endLine": 148,
+              "startOffset": 10,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/service/service.py",
+            "textRange": {
+              "startLine": 149,
+              "endLine": 149,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/service/service.py",
+            "textRange": {
+              "startLine": 154,
+              "endLine": 154,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/service/service.py",
+            "textRange": {
+              "startLine": 158,
+              "endLine": 158,
+              "startOffset": 12,
+              "endOffset": 15
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/service/service.py",
+            "textRange": {
+              "startLine": 160,
+              "endLine": 160,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/service/service.py",
+            "textRange": {
+              "startLine": 162,
+              "endLine": 162,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/service/service.py",
+            "textRange": {
+              "startLine": 166,
+              "endLine": 166,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/service/service.py",
+            "textRange": {
+              "startLine": 166,
+              "endLine": 166,
+              "startOffset": 47,
+              "endOffset": 50
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/service/service.py",
+            "textRange": {
+              "startLine": 171,
+              "endLine": 171,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/service/service.py",
+            "textRange": {
+              "startLine": 175,
+              "endLine": 175,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/service/service.py",
+            "textRange": {
+              "startLine": 180,
+              "endLine": 180,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/service/service.py",
+            "textRange": {
+              "startLine": 182,
+              "endLine": 182,
+              "startOffset": 16,
+              "endOffset": 19
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/service/service.py",
+            "textRange": {
+              "startLine": 188,
+              "endLine": 188,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/service/service.py",
+            "textRange": {
+              "startLine": 191,
+              "endLine": 191,
+              "startOffset": 12,
+              "endOffset": 15
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/service/service.py",
+            "textRange": {
+              "startLine": 194,
+              "endLine": 194,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.",
+    "effort": "18min",
+    "debt": "18min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c97113e7-2410-473f-aff3-a129816655bb",
+    "rule": "python:S3626",
+    "severity": "MINOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/service/service.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 199,
+    "hash": "7aa28ed115707345d0274032757e8991",
+    "textRange": {
+      "startLine": 199,
+      "endLine": 199,
+      "startOffset": 12,
+      "endOffset": 20
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/service/service.py",
+            "textRange": {
+              "startLine": 148,
+              "endLine": 148,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Remove this redundant continue.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "redundant",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c3d0a46d-857b-4e38-b844-0777c2fe3909",
+    "rule": "python:S1135",
+    "severity": "INFO",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/service/service.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 269,
+    "hash": "e6a7e4aea32be325750160efaefd012c",
+    "textRange": {
+      "startLine": 269,
+      "endLine": 269,
+      "startOffset": 4,
+      "endOffset": 51
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "05093229-23a9-4e8b-8e22-0b7562d3afb5",
+    "rule": "python:S1226",
+    "severity": "MINOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/shared/retrieval.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 20,
+    "hash": "dd122b7ca4aa085dd329f84310a8f966",
+    "textRange": {
+      "startLine": 20,
+      "endLine": 20,
+      "startOffset": 22,
+      "endOffset": 32
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/shared/retrieval.py",
+            "textRange": {
+              "startLine": 23,
+              "endLine": 23,
+              "startOffset": 4,
+              "endOffset": 56
+            },
+            "msg": "'model' is reassigned here.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Introduce a new variable or use its initial value before reassigning 'model'.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "50cdf9e2-44ce-4cd6-924b-834bd4465ce4",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/shared/retrieval.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 22,
+    "hash": "2ab9364da7328f1893d903df332cb9cb",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 4,
+      "endOffset": 52
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "588c4759-7f5b-47a1-b31c-f222303d99ba",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/shared/retrieval.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 32,
+    "hash": "e9b776109351e4f7fd3dfd039898dde6",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 32,
+      "startOffset": 8,
+      "endOffset": 66
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7df897d0-d04f-44ab-aad4-71a69a3720a8",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/shared/retrieval.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 40,
+    "hash": "7a4d100627ab50ed9e5fed5fd8fd2aca",
+    "textRange": {
+      "startLine": 40,
+      "endLine": 40,
+      "startOffset": 0,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e7a72828-8b92-4214-8760-9de4b33a6602",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/shared/retrieval.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 64,
+    "hash": "912dec345b1c9dd8a12b8cf823cc9112",
+    "textRange": {
+      "startLine": 64,
+      "endLine": 64,
+      "startOffset": 0,
+      "endOffset": 74
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "369f9381-16c7-4042-bd26-297316609101",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/shared/retrieval.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 80,
+    "hash": "7a4d100627ab50ed9e5fed5fd8fd2aca",
+    "textRange": {
+      "startLine": 80,
+      "endLine": 80,
+      "startOffset": 0,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5da2c609-e09a-41bc-9525-badbed62ff98",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/shared/retrieval.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 117,
+    "hash": "1a94e1ba7e8e78b15ed2caedeb0df10e",
+    "textRange": {
+      "startLine": 117,
+      "endLine": 117,
+      "startOffset": 16,
+      "endOffset": 70
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0a11a5af-0806-4af2-9673-328c8c371325",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/shared/state.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 16,
+    "hash": "76a7b0134112679afe91625b1d788f05",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 4,
+      "endOffset": 15
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/shared/state.py",
+            "textRange": {
+              "startLine": 38,
+              "endLine": 38,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/shared/state.py",
+            "textRange": {
+              "startLine": 41,
+              "endLine": 41,
+              "startOffset": 35,
+              "endOffset": 37
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/shared/state.py",
+            "textRange": {
+              "startLine": 42,
+              "endLine": 42,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/shared/state.py",
+            "textRange": {
+              "startLine": 48,
+              "endLine": 48,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/shared/state.py",
+            "textRange": {
+              "startLine": 50,
+              "endLine": 50,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/shared/state.py",
+            "textRange": {
+              "startLine": 51,
+              "endLine": 51,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/shared/state.py",
+            "textRange": {
+              "startLine": 56,
+              "endLine": 56,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/shared/state.py",
+            "textRange": {
+              "startLine": 58,
+              "endLine": 58,
+              "startOffset": 47,
+              "endOffset": 49
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/shared/state.py",
+            "textRange": {
+              "startLine": 62,
+              "endLine": 62,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/shared/state.py",
+            "textRange": {
+              "startLine": 68,
+              "endLine": 68,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/shared/state.py",
+            "textRange": {
+              "startLine": 70,
+              "endLine": 70,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/shared/state.py",
+            "textRange": {
+              "startLine": 74,
+              "endLine": 74,
+              "startOffset": 16,
+              "endOffset": 20
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/shared/state.py",
+            "textRange": {
+              "startLine": 77,
+              "endLine": 77,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "50d21ea5-4c8c-400f-9c95-2f46223757b3",
+    "rule": "python:S7494",
+    "severity": "MINOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/shared/state.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 49,
+    "hash": "899b4f62040215ca3317bdfaa8a7106f",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 49,
+      "startOffset": 23,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace set constructor call with a set comprehension.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6f306de4-b254-47ed-8d63-ae80ee619f16",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 30,
+    "hash": "e129f611f60ac7f6119e411f40f9465d",
+    "textRange": {
+      "startLine": 30,
+      "endLine": 30,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 49,
+              "endLine": 49,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 54,
+              "endLine": 54,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 57,
+              "endLine": 57,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 64,
+              "endLine": 64,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 70,
+              "endLine": 70,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 72,
+              "endLine": 72,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 75,
+              "endLine": 75,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 80,
+              "endLine": 80,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 115,
+              "endLine": 115,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 137,
+              "endLine": 137,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 137,
+              "endLine": 137,
+              "startOffset": 51,
+              "endOffset": 54
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 143,
+              "endLine": 143,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 154,
+              "endLine": 154,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 161,
+              "endLine": 161,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 167,
+              "endLine": 167,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 171,
+              "endLine": 171,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 178,
+              "endLine": 178,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 187,
+              "endLine": 187,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 192,
+              "endLine": 192,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 192,
+              "endLine": 192,
+              "startOffset": 25,
+              "endOffset": 28
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 29 to the 15 allowed.",
+    "effort": "19min",
+    "debt": "19min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4ab5c9c4-2d03-4920-a1d6-0d2cdc5e163f",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 197,
+    "hash": "42624802b77c5e7da450bd71f4307b52",
+    "textRange": {
+      "startLine": 197,
+      "endLine": 197,
+      "startOffset": 10,
+      "endOffset": 23
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 228,
+              "endLine": 228,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 231,
+              "endLine": 231,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 234,
+              "endLine": 234,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 235,
+              "endLine": 235,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 244,
+              "endLine": 244,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 258,
+              "endLine": 258,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 262,
+              "endLine": 262,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 269,
+              "endLine": 269,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 270,
+              "endLine": 270,
+              "startOffset": 24,
+              "endOffset": 26
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 274,
+              "endLine": 274,
+              "startOffset": 24,
+              "endOffset": 28
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 277,
+              "endLine": 277,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 282,
+              "endLine": 282,
+              "startOffset": 24,
+              "endOffset": 27
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 285,
+              "endLine": 285,
+              "startOffset": 48,
+              "endOffset": 50
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 292,
+              "endLine": 292,
+              "startOffset": 24,
+              "endOffset": 27
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 294,
+              "endLine": 294,
+              "startOffset": 28,
+              "endOffset": 30
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 303,
+              "endLine": 303,
+              "startOffset": 28,
+              "endOffset": 30
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 317,
+              "endLine": 317,
+              "startOffset": 16,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 322,
+              "endLine": 322,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/src/streamlit_app.py",
+            "textRange": {
+              "startLine": 325,
+              "endLine": 325,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 61 to the 15 allowed.",
+    "effort": "51min",
+    "debt": "51min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "06865a3a-be4a-4fd9-a477-7f40a1e58de1",
+    "rule": "python:S1244",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/tests/client/test_client.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 27,
+    "hash": "82f6352047a42508ce922f1bc13e71c1",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 11,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not perform equality checks with floating point values.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pytorch",
+      "data-science",
+      "numpy",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "992573d2-34f1-4310-b5bd-100f5bb4c9f2",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/tests/client/test_client.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 71,
+    "hash": "d072128e6658473c77b85ff8036d99f3",
+    "textRange": {
+      "startLine": 71,
+      "endLine": 71,
+      "startOffset": 8,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused local variable \"args\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4be903cd-cd2a-4309-9716-5c4060eb978d",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/tests/client/test_client.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 110,
+    "hash": "d072128e6658473c77b85ff8036d99f3",
+    "textRange": {
+      "startLine": 110,
+      "endLine": 110,
+      "startOffset": 8,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused local variable \"args\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bbcc3118-ba98-4a20-985f-ca82668f3940",
+    "rule": "python:S108",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/tests/client/test_client.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 235,
+    "hash": "1a1dc91c907325c69271ddf0c944bc72",
+    "textRange": {
+      "startLine": 235,
+      "endLine": 235,
+      "startOffset": 16,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Either remove or fill this block of code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e0257103-3954-4eee-bc1b-6758a9989207",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/tests/client/test_client.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 252,
+    "hash": "d072128e6658473c77b85ff8036d99f3",
+    "textRange": {
+      "startLine": 252,
+      "endLine": 252,
+      "startOffset": 8,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused local variable \"args\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "60d93910-95c1-42f4-a0b2-5c51100ef8f1",
+    "rule": "python:S1244",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/tests/client/test_client.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 255,
+    "hash": "098c41446e7418477bdb15bec6989bc5",
+    "textRange": {
+      "startLine": 255,
+      "endLine": 255,
+      "startOffset": 15,
+      "endOffset": 47
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not perform equality checks with floating point values.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pytorch",
+      "data-science",
+      "numpy",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1306d7ac-1bf2-4ed0-b070-85a8deed89ea",
+    "rule": "python:S1244",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/tests/core/test_llm.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 26,
+    "hash": "ce1f6e071acbdb646c300c9fa2f036d5",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 15,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not perform equality checks with floating point values.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pytorch",
+      "data-science",
+      "numpy",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a9f25b0c-bf8f-461a-b1fe-8efeefed028a",
+    "rule": "python:S1244",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/tests/core/test_llm.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 35,
+    "hash": "ce1f6e071acbdb646c300c9fa2f036d5",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 15,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not perform equality checks with floating point values.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pytorch",
+      "data-science",
+      "numpy",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b4881508-6095-44f9-8631-627682c9155b",
+    "rule": "python:S1244",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/tests/core/test_llm.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 44,
+    "hash": "ce1f6e071acbdb646c300c9fa2f036d5",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 44,
+      "startOffset": 15,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not perform equality checks with floating point values.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pytorch",
+      "data-science",
+      "numpy",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "26f1f85e-ea69-4865-b36b-e3be87ae3c2e",
+    "rule": "python:S1244",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/tests/core/test_llm.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 60,
+    "hash": "ce1f6e071acbdb646c300c9fa2f036d5",
+    "textRange": {
+      "startLine": 60,
+      "endLine": 60,
+      "startOffset": 15,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not perform equality checks with floating point values.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pytorch",
+      "data-science",
+      "numpy",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d596a0cb-8929-4762-a6c6-d20c1a1c862b",
+    "rule": "python:S1244",
+    "severity": "MAJOR",
+    "component": "kimtaekgwan__test-web-agent:temp_repos/test-web-agent/tests/service/test_service.py",
+    "project": "kimtaekgwan__test-web-agent",
+    "line": 110,
+    "hash": "ea8e2294abd653fc00e8c56404caca47",
+    "textRange": {
+      "startLine": 110,
+      "endLine": 110,
+      "startOffset": 11,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not perform equality checks with floating point values.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pytorch",
+      "data-science",
+      "numpy",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T20:31:39+0000",
+    "updateDate": "2026-07-17T20:31:39+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

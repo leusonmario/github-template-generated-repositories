@@ -1,0 +1,538 @@
+[
+  {
+    "key": "0fbf5f9c-7b6a-45b9-a289-c66c06684f1b",
+    "rule": "java:S5993",
+    "severity": "MAJOR",
+    "component": "ryan-mosenyegi__java:src/main/java/com/mycompany/app/Account.java",
+    "project": "ryan-mosenyegi__java",
+    "line": 10,
+    "hash": "d43f0780a016addfed0e38738bf978f0",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 4,
+      "endOffset": 10
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "ryan-mosenyegi__java:src/main/java/com/mycompany/app/Account.java",
+            "textRange": {
+              "startLine": 3,
+              "endLine": 3,
+              "startOffset": 7,
+              "endOffset": 15
+            },
+            "msg": "This class is \"abstract\".",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Change the visibility of this constructor to \"protected\".",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T20:03:04+0000",
+    "updateDate": "2026-07-21T20:03:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2369ccd6-e296-41af-9654-1cf4b2a09b1d",
+    "rule": "java:S1186",
+    "severity": "CRITICAL",
+    "component": "ryan-mosenyegi__java:src/main/java/com/mycompany/app/Bank.java",
+    "project": "ryan-mosenyegi__java",
+    "line": 15,
+    "hash": "a2b23e87160bdaaef2325210a42c1e9d",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 11,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-21T20:03:04+0000",
+    "updateDate": "2026-07-21T20:03:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2f28c506-549e-4290-a350-c4e8ae7f37c6",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "ryan-mosenyegi__java:src/main/java/com/mycompany/app/Bank.java",
+    "project": "ryan-mosenyegi__java",
+    "line": 71,
+    "hash": "30c57ac69fb6e192fc48357e06173fd0",
+    "textRange": {
+      "startLine": 71,
+      "endLine": 71,
+      "startOffset": 75,
+      "endOffset": 84
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "ryan-mosenyegi__java:src/main/java/com/mycompany/app/Bank.java",
+            "textRange": {
+              "startLine": 71,
+              "endLine": 71,
+              "startOffset": 75,
+              "endOffset": 84
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryan-mosenyegi__java:src/main/java/com/mycompany/app/Bank.java",
+            "textRange": {
+              "startLine": 72,
+              "endLine": 72,
+              "startOffset": 73,
+              "endOffset": 82
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "ryan-mosenyegi__java:src/main/java/com/mycompany/app/Bank.java",
+            "textRange": {
+              "startLine": 73,
+              "endLine": 73,
+              "startOffset": 81,
+              "endOffset": 90
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"pass123\" 3 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T20:03:04+0000",
+    "updateDate": "2026-07-21T20:03:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6a2f53b5-9c62-460c-9be3-51377e121e06",
+    "rule": "java:S108",
+    "severity": "MAJOR",
+    "component": "ryan-mosenyegi__java:src/main/java/com/mycompany/app/CustomerRegistrationController.java",
+    "project": "ryan-mosenyegi__java",
+    "line": 59,
+    "hash": "18fbf3876fe5051ecb805012b712c901",
+    "textRange": {
+      "startLine": 59,
+      "endLine": 59,
+      "startOffset": 40,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this block of code, fill it in, or add a comment explaining why it is empty.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-21T20:03:04+0000",
+    "updateDate": "2026-07-21T20:03:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "411078f6-9c9c-4887-9488-6c0d94f89afa",
+    "rule": "java:S1118",
+    "severity": "MAJOR",
+    "component": "ryan-mosenyegi__java:src/main/java/com/mycompany/app/FileDatabase.java",
+    "project": "ryan-mosenyegi__java",
+    "line": 5,
+    "hash": "18bbd85fd874dc62dc78e94197011d91",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 13,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a private constructor to hide the implicit public one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T20:03:04+0000",
+    "updateDate": "2026-07-21T20:03:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "570e5be0-9b9c-4048-947e-7a157ad21951",
+    "rule": "java:S108",
+    "severity": "MAJOR",
+    "component": "ryan-mosenyegi__java:src/main/java/com/mycompany/app/FileDatabase.java",
+    "project": "ryan-mosenyegi__java",
+    "line": 87,
+    "hash": "18fbf3876fe5051ecb805012b712c901",
+    "textRange": {
+      "startLine": 87,
+      "endLine": 87,
+      "startOffset": 36,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this block of code, fill it in, or add a comment explaining why it is empty.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-21T20:03:04+0000",
+    "updateDate": "2026-07-21T20:03:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d0dc6313-3861-4429-b24d-c4d06da9c76f",
+    "rule": "java:S108",
+    "severity": "MAJOR",
+    "component": "ryan-mosenyegi__java:src/main/java/com/mycompany/app/FileDatabase.java",
+    "project": "ryan-mosenyegi__java",
+    "line": 119,
+    "hash": "18fbf3876fe5051ecb805012b712c901",
+    "textRange": {
+      "startLine": 119,
+      "endLine": 119,
+      "startOffset": 36,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this block of code, fill it in, or add a comment explaining why it is empty.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-21T20:03:04+0000",
+    "updateDate": "2026-07-21T20:03:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fee6a539-278b-4916-8ebb-37f423e3e6c7",
+    "rule": "java:S108",
+    "severity": "MAJOR",
+    "component": "ryan-mosenyegi__java:src/main/java/com/mycompany/app/FileDatabase.java",
+    "project": "ryan-mosenyegi__java",
+    "line": 133,
+    "hash": "18fbf3876fe5051ecb805012b712c901",
+    "textRange": {
+      "startLine": 133,
+      "endLine": 133,
+      "startOffset": 36,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this block of code, fill it in, or add a comment explaining why it is empty.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-21T20:03:04+0000",
+    "updateDate": "2026-07-21T20:03:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c5c76286-4d63-4415-b9a0-4c1fe9dfd762",
+    "rule": "java:S1118",
+    "severity": "MAJOR",
+    "component": "ryan-mosenyegi__java:src/main/java/com/mycompany/app/SessionManager.java",
+    "project": "ryan-mosenyegi__java",
+    "line": 3,
+    "hash": "5d145c8cbbe3d8ad124dd0e109975a33",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 13,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a private constructor to hide the implicit public one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T20:03:04+0000",
+    "updateDate": "2026-07-21T20:03:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f411ad21-d23e-4d95-939c-774487bfb31d",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "ryan-mosenyegi__java:src/main/java/com/mycompany/app/WelcomeController.java",
+    "project": "ryan-mosenyegi__java",
+    "line": 40,
+    "hash": "79c51636da22512bffc46297814a9971",
+    "textRange": {
+      "startLine": 40,
+      "endLine": 40,
+      "startOffset": 12,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T20:03:04+0000",
+    "updateDate": "2026-07-21T20:03:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8bf2efc5-1f90-4f6c-b8ca-2d8e351a3b9b",
+    "rule": "java:S1186",
+    "severity": "CRITICAL",
+    "component": "ryan-mosenyegi__java:src/test/java/com/mycompany/app/AppTest.java",
+    "project": "ryan-mosenyegi__java",
+    "line": 9,
+    "hash": "b21ba11bc15bbe2447da5d0fa6617e2b",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 11,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-21T20:03:04+0000",
+    "updateDate": "2026-07-21T20:03:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

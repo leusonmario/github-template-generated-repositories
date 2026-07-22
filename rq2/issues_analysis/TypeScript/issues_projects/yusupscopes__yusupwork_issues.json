@@ -1,0 +1,1948 @@
+[
+  {
+    "key": "97f2b9c7-0035-4203-8ea4-f1e057bd5e3d",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/Dockerfile",
+    "project": "yusupscopes__yusupwork",
+    "line": 45,
+    "hash": "9c3ce62f063479a17855ae90816f354d",
+    "textRange": {
+      "startLine": 45,
+      "endLine": 45,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "yusupscopes__yusupwork:temp_repos/yusupwork/Dockerfile",
+            "textRange": {
+              "startLine": 46,
+              "endLine": 46,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e31087c8-ec46-45a2-a86e-02f9a5af71d5",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/Dockerfile",
+    "project": "yusupscopes__yusupwork",
+    "line": 51,
+    "hash": "565c154f530412c5ad54e2d48e909c4c",
+    "textRange": {
+      "startLine": 51,
+      "endLine": 51,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "yusupscopes__yusupwork:temp_repos/yusupwork/Dockerfile",
+            "textRange": {
+              "startLine": 52,
+              "endLine": 52,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a3608e1b-6379-440d-95b7-fb5b682f47bd",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/app/blog/layout.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 8,
+    "hash": "e4ab4a687a7256a9cefc9456705f3383",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 21,
+      "endOffset": 50
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c8d9b54f-719d-47a0-b387-8a701dea395d",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/app/blog/layout.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 8,
+    "hash": "e4ab4a687a7256a9cefc9456705f3383",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 53,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dc1036cc-d7b2-4f48-b60d-66f6985432a2",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/app/blog/layout.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 8,
+    "hash": "e4ab4a687a7256a9cefc9456705f3383",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 28,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis.window` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6d876ef6-451e-4425-b59c-c58a5e13c0dc",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/app/blog/layout.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 31,
+    "hash": "e628d1e123cad49018733e0bd77d539f",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 35,
+      "startOffset": 39,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c1edd057-bf3f-48e7-8f05-8a9e7439dd30",
+    "rule": "css:S4662",
+    "severity": "MAJOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/app/globals.css",
+    "project": "yusupscopes__yusupwork",
+    "line": 2,
+    "hash": "e4d262e13c540a85aebb8011a9bff4ee",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 0,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected unknown at-rule \"@plugin\"",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b5174742-562d-4225-b2bf-e5430e8be753",
+    "rule": "css:S4662",
+    "severity": "MAJOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/app/globals.css",
+    "project": "yusupscopes__yusupwork",
+    "line": 3,
+    "hash": "d01821e9c2938a121c6da9c0038b7981",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 0,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected unknown at-rule \"@custom-variant\"",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b333c8af-c430-4698-8493-00a4d9b13cfc",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/app/page.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 48,
+    "hash": "1f06ccb80e5572855c12473a2e30f4ce",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 22,
+      "endOffset": 53
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c99d6096-7c83-43ba-97ad-d01920cb7166",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/app/page.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 94,
+    "hash": "aa19ba3024bab184197a6c90fe11c657",
+    "textRange": {
+      "startLine": 94,
+      "endLine": 100,
+      "startOffset": 28,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "525c29d8-bf4e-4d3f-85b2-722a5c70fdce",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/animated-background.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 26,
+    "hash": "5264ccdde2699706883f9baa878b501f",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 11,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "de7e14e7-4386-46f7-a431-4e3b75835c4d",
+    "rule": "typescript:S6606",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/animated-background.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 26,
+    "hash": "5264ccdde2699706883f9baa878b501f",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 11,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using nullish coalescing operator (`??`) instead of a ternary expression, as it is simpler to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "nullish-coalescing",
+      "es2020"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "27b4aeb0-a07a-4e3a-a006-2ca895090639",
+    "rule": "typescript:S6606",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/animated-background.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 31,
+    "hash": "4042ec757240f37e783f6cd6b5393922",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 4,
+      "endOffset": 64
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using nullish coalescing operator (`??`) instead of a ternary expression, as it is simpler to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "nullish-coalescing",
+      "es2020"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7aaf7ed5-e497-4f98-927b-9ac455b453db",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/animated-background.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 31,
+    "hash": "4042ec757240f37e783f6cd6b5393922",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 4,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c0b49f11-151a-4c7d-9122-9af2d911e747",
+    "rule": "typescript:S6479",
+    "severity": "MAJOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/animated-background.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 55,
+    "hash": "6710ea20300807ae811d8d3d7149194b",
+    "textRange": {
+      "startLine": 55,
+      "endLine": 55,
+      "startOffset": 13,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8ac9adc8-9dc9-4f2b-ab5f-3baa530c98ea",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/magnetic.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 21,
+    "hash": "1a8f323be9ee5480be145420605f5042",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 27,
+      "startOffset": 25,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "037c30c1-e05a-4812-96b2-b18b7c31cdc5",
+    "rule": "typescript:S7769",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/magnetic.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 47,
+    "hash": "d9a2b247c7bfe6d6fd0ee41056a4f08d",
+    "textRange": {
+      "startLine": 47,
+      "endLine": 47,
+      "startOffset": 38,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Math.hypot(…)` over `Math.sqrt(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "es2015"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a1936a59-f42b-4d98-9d47-a9cd29d31890",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/morphing-dialog.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 50,
+    "hash": "34f3ef349586e606eecfb1df3183e668",
+    "textRange": {
+      "startLine": 50,
+      "endLine": 53,
+      "startOffset": 32,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cb191982-9259-40f8-9ca8-dab6110e0edc",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/morphing-dialog.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 80,
+    "hash": "badbb5fabb7e94da2f777c286cf81468",
+    "textRange": {
+      "startLine": 80,
+      "endLine": 80,
+      "startOffset": 24,
+      "endOffset": 69
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5691122a-e2e3-4d20-b661-70662b74cf91",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/morphing-dialog.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 95,
+    "hash": "ba6e01f8197ef54aa8dc852fc9bfafe0",
+    "textRange": {
+      "startLine": 95,
+      "endLine": 100,
+      "startOffset": 31,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ab7110b6-e92f-4795-b637-b965e7c428f7",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/morphing-dialog.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 118,
+    "hash": "6ad946097c8deb32a2b06302322eba37",
+    "textRange": {
+      "startLine": 118,
+      "endLine": 130,
+      "startOffset": 4,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <input type=\"button\">, <input type=\"image\">, <input type=\"reset\">, <input type=\"submit\">, or <button> instead of the \"button\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ccb010d5-0fd0-4c69-8852-def02fa5156f",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/morphing-dialog.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 142,
+    "hash": "a8087bb9b2d94338d138f81e9516fa23",
+    "textRange": {
+      "startLine": 142,
+      "endLine": 146,
+      "startOffset": 31,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b17a04d3-2281-4019-abed-e8473c01df0a",
+    "rule": "typescript:S6660",
+    "severity": "MAJOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/morphing-dialog.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 168,
+    "hash": "0ff2f5a3417c00ce7934fbf751574399",
+    "textRange": {
+      "startLine": 168,
+      "endLine": 168,
+      "startOffset": 10,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'If' statement should not be the only statement in 'else' block",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a98dbba9-154b-41f2-a84d-e9e868eb111c",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/morphing-dialog.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 209,
+    "hash": "6ad946097c8deb32a2b06302322eba37",
+    "textRange": {
+      "startLine": 209,
+      "endLine": 218,
+      "startOffset": 4,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <dialog> instead of the \"dialog\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8e42e102-3850-4b3a-94c7-e394d184eee2",
+    "rule": "typescript:S6767",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/morphing-dialog.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 226,
+    "hash": "a150435e413b4bde8f88a414298b5522",
+    "textRange": {
+      "startLine": 226,
+      "endLine": 226,
+      "startOffset": 2,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'className' PropType is defined but prop is never used",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ef7c078c-b658-4daf-827a-73b1327046b2",
+    "rule": "typescript:S6767",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/morphing-dialog.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 227,
+    "hash": "69b33333b27e98e76497ea57217cc925",
+    "textRange": {
+      "startLine": 227,
+      "endLine": 227,
+      "startOffset": 2,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'style' PropType is defined but prop is never used",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "77a711be-5357-4f96-bc8c-5bf70e39357c",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/morphing-dialog.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 263,
+    "hash": "2e8b66946da10820c81f7e9fac69d2f9",
+    "textRange": {
+      "startLine": 263,
+      "endLine": 267,
+      "startOffset": 29,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3b66d047-fa5a-482a-bd09-efa190207285",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/morphing-dialog.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 288,
+    "hash": "2f9f83def65405a87f7563646a08a11d",
+    "textRange": {
+      "startLine": 288,
+      "endLine": 292,
+      "startOffset": 32,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "889d2811-2ebe-46cc-bbc1-f3bc089d874a",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/morphing-dialog.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 317,
+    "hash": "3074f930b18db521d135b880a47df50d",
+    "textRange": {
+      "startLine": 317,
+      "endLine": 322,
+      "startOffset": 35,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5f1ecdf0-aa52-413d-9169-eeb2d0499e09",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/morphing-dialog.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 352,
+    "hash": "0f07be5200e84b3b0db9a4ff967c6709",
+    "textRange": {
+      "startLine": 352,
+      "endLine": 357,
+      "startOffset": 29,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0ed92178-aaa1-4e94-89db-b864299a1da9",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/morphing-dialog.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 381,
+    "hash": "84f20fa154458218f2b07112211c1727",
+    "textRange": {
+      "startLine": 381,
+      "endLine": 385,
+      "startOffset": 29,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c88be59b-c9a6-4588-a5c3-01ddd96407d7",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/scroll-progress.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 19,
+    "hash": "a39dfad37c43d3c70831c97f39ca8d62",
+    "textRange": {
+      "startLine": 19,
+      "endLine": 23,
+      "startOffset": 31,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0528f79a-ec94-405c-a24e-cc7b5aeee809",
+    "rule": "typescript:S7744",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/scroll-progress.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 31,
+    "hash": "4321e69e87088bf2e4c0a34bfb26fb29",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 25,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The empty object is useless.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unnecessary",
+      "spread-operator"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "63d60b97-6173-4e30-afec-20afdf17863e",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/spotlight.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 12,
+    "hash": "1655e379d172523aef828f222426261b",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 16,
+      "startOffset": 26,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "47ea6e63-9c63-4319-afc2-20b68edc65ee",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/text-effect.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 123,
+    "hash": "8a85fa708aae6edbc2287b9d626941c6",
+    "textRange": {
+      "startLine": 123,
+      "endLine": 144,
+      "startOffset": 8,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "34a8f536-76e7-4729-9131-42450fd07b0d",
+    "rule": "typescript:S6479",
+    "severity": "MAJOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/text-effect.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 135,
+    "hash": "80c4895fd93d7a9fb465db42504a0900",
+    "textRange": {
+      "startLine": 135,
+      "endLine": 135,
+      "startOffset": 17,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5e98cf8d-515f-4f13-ad80-54c9469273f5",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/text-effect.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 206,
+    "hash": "30877befad5301425c33dadc8d4b7222",
+    "textRange": {
+      "startLine": 206,
+      "endLine": 223,
+      "startOffset": 27,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "35486cd8-e7ee-413d-8bfd-081b19ee13cf",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/text-effect.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 225,
+    "hash": "99158559abd3e194af5a13102166a35a",
+    "textRange": {
+      "startLine": 225,
+      "endLine": 225,
+      "startOffset": 20,
+      "endOffset": 74
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cc27eea3-d21c-4855-b7f7-0aa1d8a3c332",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/text-effect.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 225,
+    "hash": "99158559abd3e194af5a13102166a35a",
+    "textRange": {
+      "startLine": 225,
+      "endLine": 225,
+      "startOffset": 27,
+      "endOffset": 52
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0cb59787-ad3b-40e8-a110-cc3640a6cddf",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/text-effect.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 277,
+    "hash": "06d8841a81ff8c07c7b9553247f8a4f4",
+    "textRange": {
+      "startLine": 277,
+      "endLine": 277,
+      "startOffset": 11,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e117ec1a-a0ee-4b85-bef2-5c4a0e3638f6",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/text-loop.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 23,
+    "hash": "0923b5a1901727cadb15d1dfe98ed382",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 32,
+      "startOffset": 25,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "071afc5a-fcfb-496d-b676-1fa6add0aadc",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/text-morph.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 15,
+    "hash": "377f3be8fd5f8965a0b54cdeb0f6d8d2",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 22,
+      "startOffset": 26,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f6c125d6-ab2b-46d9-bb2e-1c55a958a39a",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/components/ui/text-morph.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 37,
+    "hash": "0e1b1aca3654370eefd9738a90664fab",
+    "textRange": {
+      "startLine": 37,
+      "endLine": 39,
+      "startOffset": 14,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1137889f-3e0c-4676-a0c8-06997d657c2f",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "yusupscopes__yusupwork:temp_repos/yusupwork/hooks/useClickOutside.tsx",
+    "project": "yusupscopes__yusupwork",
+    "line": 9,
+    "hash": "eb1d77a9ac3596f5b086cd8b97cb8ad7",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 10,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T23:55:21+0000",
+    "updateDate": "2026-07-15T23:55:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "key": "4516be6e-c5d0-4e71-a52b-f21b4353d096",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "purplejrivas__soft-ui-dashboard-django-live:temp_repos/soft-ui-dashboard-django-live/Dockerfile",
+    "project": "purplejrivas__soft-ui-dashboard-django-live",
+    "line": 9,
+    "hash": "d4b97294e0e1382f388f8b8635704643",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "purplejrivas__soft-ui-dashboard-django-live:temp_repos/soft-ui-dashboard-django-live/Dockerfile",
+            "textRange": {
+              "startLine": 10,
+              "endLine": 10,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:18:34+0000",
+    "updateDate": "2026-07-17T19:18:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8e5c6f64-ffef-420b-8d6f-ce1b17844f5a",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "purplejrivas__soft-ui-dashboard-django-live:temp_repos/soft-ui-dashboard-django-live/core/settings.py",
+    "project": "purplejrivas__soft-ui-dashboard-django-live",
+    "line": 28,
+    "hash": "1d99c7795171ee7752feb7a22cdcba97",
+    "textRange": {
+      "startLine": 28,
+      "endLine": 28,
+      "startOffset": 70,
+      "endOffset": 71
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused loop index \"i\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:18:34+0000",
+    "updateDate": "2026-07-17T19:18:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "90f3b186-c457-4d07-8bde-66b8f5e7823f",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "purplejrivas__soft-ui-dashboard-django-live:temp_repos/soft-ui-dashboard-django-live/core/settings.py",
+    "project": "purplejrivas__soft-ui-dashboard-django-live",
+    "line": 153,
+    "hash": "32930e9e3212967851b2a888e04a92c1",
+    "textRange": {
+      "startLine": 153,
+      "endLine": 153,
+      "startOffset": 0,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:18:34+0000",
+    "updateDate": "2026-07-17T19:18:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

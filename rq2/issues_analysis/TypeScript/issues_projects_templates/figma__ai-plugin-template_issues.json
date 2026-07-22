@@ -1,0 +1,217 @@
+[
+  {
+    "key": "c1a40c09-5bf6-47cc-aea5-46da530dc161",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "figma__ai-plugin-template:app/layout.tsx",
+    "project": "figma__ai-plugin-template",
+    "line": 12,
+    "hash": "66f95189fab308818f2a3e556e30da91",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 16,
+      "startOffset": 35,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T21:55:20+0000",
+    "updateDate": "2026-07-16T21:55:20+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "76b023fa-5cc1-4906-ba69-1b1642c14431",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "figma__ai-plugin-template:lib/figmaAPI.ts",
+    "project": "figma__ai-plugin-template",
+    "line": 81,
+    "hash": "e74b28046bfebda3c78cc7f52751f4cd",
+    "textRange": {
+      "startLine": 81,
+      "endLine": 81,
+      "startOffset": 61,
+      "endOffset": 68
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T21:55:20+0000",
+    "updateDate": "2026-07-16T21:55:20+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b7daedb8-d01a-4419-98d4-a4a5d74c9599",
+    "rule": "typescript:S1301",
+    "severity": "MINOR",
+    "component": "figma__ai-plugin-template:plugin/code.ts",
+    "project": "figma__ai-plugin-template",
+    "line": 13,
+    "hash": "f3c06fddba80162fe3897c3acd7fea50",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 2,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this \"switch\" statement by \"if\" statements to increase readability.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-16T21:55:20+0000",
+    "updateDate": "2026-07-16T21:55:20+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "832128a1-6bee-4b06-811c-091d005a5aa8",
+    "rule": "typescript:S6676",
+    "severity": "MAJOR",
+    "component": "figma__ai-plugin-template:plugin/code.ts",
+    "project": "figma__ai-plugin-template",
+    "line": 15,
+    "hash": "7d03cac448e9359ee8119f6993a2d4bc",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 17,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unnecessary '.call()'.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T21:55:20+0000",
+    "updateDate": "2026-07-16T21:55:20+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1a9ee680-ab79-43cc-8756-0a20248d8ae1",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "figma__ai-plugin-template:plugin/code.ts",
+    "project": "figma__ai-plugin-template",
+    "line": 30,
+    "hash": "9e7ccd0cd90952cc73c466ed88ec71c8",
+    "textRange": {
+      "startLine": 30,
+      "endLine": 32,
+      "startOffset": 16,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T21:55:20+0000",
+    "updateDate": "2026-07-16T21:55:20+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

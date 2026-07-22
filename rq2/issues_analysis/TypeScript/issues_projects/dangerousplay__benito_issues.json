@@ -1,0 +1,4907 @@
+[
+  {
+    "key": "0ac2d219-df6e-4553-a6a9-d0c81d1cc8be",
+    "rule": "typescript:S1854",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-common/client/EntityClient.ts",
+    "project": "dangerousplay__benito",
+    "line": 14,
+    "hash": "fc4943ec0e4f0675192ec7da4dfc74a3",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 14,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this useless assignment to variable \"response\".",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e5ced3ef-6e2c-4e0e-997e-84d4441f02ce",
+    "rule": "typescript:S7748",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-common/geolocation.ts",
+    "project": "dangerousplay__benito",
+    "line": 3,
+    "hash": "760782bf0b8d99c16c9b9943f6aac3fe",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 27,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use a zero fraction in the number.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "consistency",
+      "formatting"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c235de19-affc-41be-b5a8-63e04ec36b54",
+    "rule": "typescript:S6440",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/app/entities/[slug]/needs/createOrEdit.tsx",
+    "project": "dangerousplay__benito",
+    "line": 25,
+    "hash": "1d13b5e1f6785b05c814db0d5f1112d9",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 44,
+      "endOffset": 65
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "React Hook \"useFindUniqueItemNeed\" is called conditionally. React Hooks must be called in the exact same order in every component render.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e216a6a3-ffc8-4a15-ae2b-836dae97c65b",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/app/entities/[slug]/needs/createOrEdit.tsx",
+    "project": "dangerousplay__benito",
+    "line": 85,
+    "hash": "eefd797081a52a719f93c12ed70657dc",
+    "textRange": {
+      "startLine": 85,
+      "endLine": 85,
+      "startOffset": 45,
+      "endOffset": 53
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "45854598-02ea-476a-b88e-e276fa9e4eca",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/app/entities/[slug]/needs/createOrEdit.tsx",
+    "project": "dangerousplay__benito",
+    "line": 86,
+    "hash": "81c0fa3cc1c54938d864bc953e6dcf41",
+    "textRange": {
+      "startLine": 86,
+      "endLine": 86,
+      "startOffset": 54,
+      "endOffset": 62
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e6c86478-db18-410e-b17e-9af2f3bf9dea",
+    "rule": "typescript:S6439",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/app/entities/[slug]/needs/list.tsx",
+    "project": "dangerousplay__benito",
+    "line": 47,
+    "hash": "397b10f3c36835420e96fcb6e514103d",
+    "textRange": {
+      "startLine": 47,
+      "endLine": 47,
+      "startOffset": 13,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Convert the conditional to a boolean to avoid leaked value",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f5a1410b-f68a-4f48-8736-1b64bdb58ec1",
+    "rule": "typescript:S6439",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/app/entities/[slug]/needs/list.tsx",
+    "project": "dangerousplay__benito",
+    "line": 47,
+    "hash": "397b10f3c36835420e96fcb6e514103d",
+    "textRange": {
+      "startLine": 47,
+      "endLine": 47,
+      "startOffset": 24,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Convert the conditional to a boolean to avoid leaked value",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1fbddaa2-66f9-4632-923a-c59d34ab320d",
+    "rule": "typescript:S6440",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/app/entities/[slug]/users/addOrRemove.tsx",
+    "project": "dangerousplay__benito",
+    "line": 24,
+    "hash": "435aa92dd9a3d91b55f8ddb931654acb",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 44,
+      "endOffset": 74
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "React Hook \"useFindUniqueOrganizationUsers\" is called conditionally. React Hooks must be called in the exact same order in every component render.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8891e657-f02c-4154-a5b6-184fc8bac804",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/app/home/_layout.tsx",
+    "project": "dangerousplay__benito",
+    "line": 25,
+    "hash": "c1ffc5c39988a713c494cb179248c64b",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 22,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "16e2ea6c-798c-4c08-a6d0-4f977f1bf303",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/app/home/_layout.tsx",
+    "project": "dangerousplay__benito",
+    "line": 32,
+    "hash": "d9a8e307b0e37b7f6d6effca2b36c650",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 32,
+      "startOffset": 34,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0b3718d6-c05c-4164-9dc4-a857a5b3f73e",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/app/home/_layout.tsx",
+    "project": "dangerousplay__benito",
+    "line": 40,
+    "hash": "ca3a17246de1ee491c553fefeaf4b95d",
+    "textRange": {
+      "startLine": 40,
+      "endLine": 40,
+      "startOffset": 34,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "38f395f4-7eb8-4291-82e3-ba0237a053c6",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/app/home/_layout.tsx",
+    "project": "dangerousplay__benito",
+    "line": 48,
+    "hash": "fea4de1d9c699f5fe25283b77cae6bb8",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 34,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0db8bdd8-3e01-49a1-8d41-b2854d13b521",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/app/home/entities.tsx",
+    "project": "dangerousplay__benito",
+    "line": 59,
+    "hash": "44d3661cd7a54ce100d94fa0a2a0f9b0",
+    "textRange": {
+      "startLine": 59,
+      "endLine": 61,
+      "startOffset": 4,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "65f52f56-5d77-4700-9f06-ee8c24d2c6cf",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/app/home/needs.tsx",
+    "project": "dangerousplay__benito",
+    "line": 1,
+    "hash": "36bb8764f6afda891e823e3f2bc3b273",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 8,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'Address'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "73100e63-7e9f-4460-a7c0-43970f562637",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/app/home/needs.tsx",
+    "project": "dangerousplay__benito",
+    "line": 74,
+    "hash": "535302f1a9a05fcc00fa6f42530dce80",
+    "textRange": {
+      "startLine": 74,
+      "endLine": 76,
+      "startOffset": 4,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7515e7ef-61f3-4711-98ea-70797b7c5a72",
+    "rule": "typescript:S1854",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/app/home/needs.tsx",
+    "project": "dangerousplay__benito",
+    "line": 78,
+    "hash": "7fb344111453eb08a27496c0ec8a2caa",
+    "textRange": {
+      "startLine": 78,
+      "endLine": 78,
+      "startOffset": 46,
+      "endOffset": 66
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this useless assignment to variable \"isFetchingCategories\".",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8a9fdee5-cc4b-493e-b80d-8d29aa8501a7",
+    "rule": "typescript:S1854",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/app/home/needs.tsx",
+    "project": "dangerousplay__benito",
+    "line": 78,
+    "hash": "7fb344111453eb08a27496c0ec8a2caa",
+    "textRange": {
+      "startLine": 78,
+      "endLine": 78,
+      "startOffset": 75,
+      "endOffset": 90
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this useless assignment to variable \"categoriesError\".",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "18973774-9fc5-4ed1-9452-416abe97e93b",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/app/home/needs.tsx",
+    "project": "dangerousplay__benito",
+    "line": 98,
+    "hash": "d72c639adfbf96ab558bc63613dea8be",
+    "textRange": {
+      "startLine": 98,
+      "endLine": 98,
+      "startOffset": 34,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b50b85bb-a23d-44fc-aba1-5a5e60d1f526",
+    "rule": "typescript:S3863",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/app/needs/[slug]/index.tsx",
+    "project": "dangerousplay__benito",
+    "line": 1,
+    "hash": "0589b2af289840faf984736db69e279b",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 35,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'expo-router' imported multiple times.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e885f052-d3a5-48c3-83b7-b53902a5e5d2",
+    "rule": "typescript:S3863",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/app/needs/[slug]/index.tsx",
+    "project": "dangerousplay__benito",
+    "line": 9,
+    "hash": "65132763a2935af3c8110e0b3185692a",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 23,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'expo-router' imported multiple times.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2bfc35bc-7315-4a59-bfb4-8d9cc8ec7a61",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/babel.config.js",
+    "project": "dangerousplay__benito",
+    "line": 1,
+    "hash": "e31dc129e2a111eff173526a7f63247e",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 23,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1bb317f9-d9e1-4c37-95c9-d51c1bca8a44",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/src/components/DropdownMenu.tsx",
+    "project": "dangerousplay__benito",
+    "line": 3,
+    "hash": "833b4b8bf4ffae73ac8214e0b95fe230",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 24,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'useState'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9d3db01f-c3c1-467e-aa55-09eb2f74db7d",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/src/components/DropdownMenu.tsx",
+    "project": "dangerousplay__benito",
+    "line": 4,
+    "hash": "88143ce6000e410d41fe1c9ef6763525",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 38,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'Text'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a8842b5f-7ac4-465e-b247-aac93705f8ce",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/src/components/OpenTime.tsx",
+    "project": "dangerousplay__benito",
+    "line": 2,
+    "hash": "a0146329b0340fb40d8c32e09337ba42",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 8,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'CompassIcon'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7345162b-af9e-4ea9-8d01-0a00eb49113c",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/src/components/OpenTime.tsx",
+    "project": "dangerousplay__benito",
+    "line": 3,
+    "hash": "f88993866ee212f3c58e541edabe1013",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 8,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'formatAddress'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "71a5e127-b238-4da1-8750-d156a76e0f12",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/src/components/OpenTime.tsx",
+    "project": "dangerousplay__benito",
+    "line": 4,
+    "hash": "ef3c66d5a956538677e5d48aaeaea606",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 8,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'formatDistance'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a350f434-41d5-40a1-8965-ce3dd2140f97",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/src/components/OpenTime.tsx",
+    "project": "dangerousplay__benito",
+    "line": 6,
+    "hash": "91ab5e2a6306d587f67876dd62ea2582",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 8,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'Address'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f9ba6842-e149-478d-b385-8e52ea6ca098",
+    "rule": "typescript:S6767",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/src/components/WorkingTime.tsx",
+    "project": "dangerousplay__benito",
+    "line": 10,
+    "hash": "661d983200c67146dd6e7f84285248e2",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 4,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'workingDays' PropType is defined but prop is never used",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dbfcc349-ca72-445a-a445-c9fcd927b1e1",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/src/components/card/CardMapList.tsx",
+    "project": "dangerousplay__benito",
+    "line": 53,
+    "hash": "4becf66a850ce05141e0a01710797dcd",
+    "textRange": {
+      "startLine": 53,
+      "endLine": 62,
+      "startOffset": 44,
+      "endOffset": 53
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0a38645a-63b9-4ef9-83f7-6cabdf264005",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/src/components/card/CardMapList.tsx",
+    "project": "dangerousplay__benito",
+    "line": 143,
+    "hash": "ebe5f27d08a9ac33c45e059ee5175691",
+    "textRange": {
+      "startLine": 143,
+      "endLine": 143,
+      "startOffset": 35,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b77136f4-a5fb-47d7-a091-af27b45958c2",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/src/components/card/CardPlacesList.tsx",
+    "project": "dangerousplay__benito",
+    "line": 37,
+    "hash": "3b65d3f6b0b0f6d78f244beff026abfd",
+    "textRange": {
+      "startLine": 37,
+      "endLine": 37,
+      "startOffset": 13,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "62d8b2d6-62c0-4425-bc6e-cd1bf45b87d3",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/src/components/inputs/Input.tsx",
+    "project": "dangerousplay__benito",
+    "line": 21,
+    "hash": "e38875bc72507aa503dd83bc24e4f5e2",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 56,
+      "endOffset": 63
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c9623f41-1355-4470-bdd4-06bb991f77a8",
+    "rule": "typescript:S6353",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-mobile/src/components/inputs/Input.tsx",
+    "project": "dangerousplay__benito",
+    "line": 21,
+    "hash": "e38875bc72507aa503dd83bc24e4f5e2",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 65,
+      "endOffset": 71
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use concise character class syntax '\\D' instead of '[^0-9]'.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "regex",
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1f137fdb-3918-453e-bee5-4ca9bb22419a",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/components/Selectable.tsx",
+    "project": "dangerousplay__benito",
+    "line": 33,
+    "hash": "4814c96e5a20e884f10e4fa3549dca17",
+    "textRange": {
+      "startLine": 33,
+      "endLine": 33,
+      "startOffset": 18,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e44bdf0b-718f-4180-9ff8-0b99105835e3",
+    "rule": "typescript:S6767",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/components/WorkingTime.tsx",
+    "project": "dangerousplay__benito",
+    "line": 9,
+    "hash": "661d983200c67146dd6e7f84285248e2",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 4,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'workingDays' PropType is defined but prop is never used",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "73b519d5-f182-4c51-ad95-b532e542aa55",
+    "rule": "typescript:S7763",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/components/atoms/button/index.ts",
+    "project": "dangerousplay__benito",
+    "line": 3,
+    "hash": "94e688de2f4eadf871c1f0224e804eda",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 0,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `export…from` to re-export `default`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "08a63614-6c30-48bb-ae2e-cb62aeb6b070",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/components/card/CardMapList.tsx",
+    "project": "dangerousplay__benito",
+    "line": 59,
+    "hash": "995f03d850afa361747cbde9952cc3e8",
+    "textRange": {
+      "startLine": 59,
+      "endLine": 59,
+      "startOffset": 23,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d9b1f955-f9cb-427d-916a-0cf3af075e9f",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/components/card/CardMapList.tsx",
+    "project": "dangerousplay__benito",
+    "line": 112,
+    "hash": "5cba7cf7780496e6f52d6dce1d67cf32",
+    "textRange": {
+      "startLine": 112,
+      "endLine": 112,
+      "startOffset": 8,
+      "endOffset": 53
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b0d4d7e0-63b6-4be0-97d0-44bc0c4f945f",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/components/card/CardMapList.tsx",
+    "project": "dangerousplay__benito",
+    "line": 155,
+    "hash": "a0b58e221ff631e9d2ee0fc2c6c23a20",
+    "textRange": {
+      "startLine": 155,
+      "endLine": 155,
+      "startOffset": 14,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2d16ab9a-9e7b-4ca1-88e0-bb5387dfc101",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/components/card/CardMapList.tsx",
+    "project": "dangerousplay__benito",
+    "line": 158,
+    "hash": "3f40df10e87523a96d041a143f237ffe",
+    "textRange": {
+      "startLine": 158,
+      "endLine": 158,
+      "startOffset": 13,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "504f18a4-a54c-4371-aa03-bb1bd242ae57",
+    "rule": "typescript:S6767",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/components/card/CardPlacesList.tsx",
+    "project": "dangerousplay__benito",
+    "line": 17,
+    "hash": "28a0fc617aed61f2a04be6e63f14afdf",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 17,
+      "startOffset": 4,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'id' PropType is defined but prop is never used",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8770f712-ee7f-4739-978a-61a86277da0c",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/components/card/CardPlacesList.tsx",
+    "project": "dangerousplay__benito",
+    "line": 63,
+    "hash": "9555017613083ed2f5da8ecac7c30414",
+    "textRange": {
+      "startLine": 63,
+      "endLine": 63,
+      "startOffset": 25,
+      "endOffset": 72
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "634c42a3-3f42-431b-9ae9-6aec16e9b1e3",
+    "rule": "typescript:S1854",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/components/input/InputMasked.tsx",
+    "project": "dangerousplay__benito",
+    "line": 27,
+    "hash": "5a215affa8efbfed52d0e4dce2b4699d",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 10,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this useless assignment to variable \"inputRef\".",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "723fb2ad-de12-47cf-8198-f36c70d5ecc1",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/components/input/PhotoUpload.tsx",
+    "project": "dangerousplay__benito",
+    "line": 24,
+    "hash": "ec61c27887cdbcaa478c03bd49a56aab",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 12,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "aa10797e-90ca-4058-9433-01133b18276e",
+    "rule": "typescript:S6851",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/components/input/PhotoUpload.tsx",
+    "project": "dangerousplay__benito",
+    "line": 38,
+    "hash": "2a7d6eb7b86ed55cf998701db23deef8",
+    "textRange": {
+      "startLine": 38,
+      "endLine": 38,
+      "startOffset": 20,
+      "endOffset": 108
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8f960a29-abed-4173-bf52-ec61d718ea64",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/components/map/index.tsx",
+    "project": "dangerousplay__benito",
+    "line": 34,
+    "hash": "31a4fe45c1abf5131f1d5ae915e95266",
+    "textRange": {
+      "startLine": 34,
+      "endLine": 34,
+      "startOffset": 24,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e000cd4f-0842-4bb3-8cae-a0112aa9968e",
+    "rule": "typescript:S1848",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/components/map/index.tsx",
+    "project": "dangerousplay__benito",
+    "line": 39,
+    "hash": "9c4230d729eba0a3460dd1b776742b29",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 39,
+      "startOffset": 8,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Either remove this useless object instantiation of \"MarkerClusterer\" or use it.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7b41a9ec-841e-4de3-b882-ef525e6a6e41",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/components/molecules/copy-button/copy-button.tsx",
+    "project": "dangerousplay__benito",
+    "line": 26,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 33,
+      "startOffset": 6,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <input type=\"button\">, <input type=\"image\">, <input type=\"reset\">, <input type=\"submit\">, or <button> instead of the \"button\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9fbe2707-b378-42ff-97c6-7a04101db201",
+    "rule": "typescript:S1082",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/components/molecules/copy-button/copy-button.tsx",
+    "project": "dangerousplay__benito",
+    "line": 26,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 33,
+      "startOffset": 6,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Visible, non-interactive elements with click handlers must have at least one keyboard listener.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fe49a68c-0e9a-4587-900f-fcf19f60bcc1",
+    "rule": "typescript:S6852",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/components/molecules/copy-button/copy-button.tsx",
+    "project": "dangerousplay__benito",
+    "line": 26,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 33,
+      "startOffset": 6,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Elements with the 'button' interactive role must be focusable.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "44981dfe-8138-4ec9-8109-b52ff4379b97",
+    "rule": "typescript:S7763",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/components/molecules/copy-button/index.ts",
+    "project": "dangerousplay__benito",
+    "line": 3,
+    "hash": "6581d8399f699a0844e1d85c04b1efb2",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 0,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `export…from` to re-export `default`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7c527bd7-f7fb-4e58-824a-2b2cafe32243",
+    "rule": "typescript:S4782",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/components/organisms/card/card.tsx",
+    "project": "dangerousplay__benito",
+    "line": 15,
+    "hash": "a57f03b9f7e42f505ede0f989acfb9c6",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 11,
+      "endOffset": 12
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/components/organisms/card/card.tsx",
+            "textRange": {
+              "startLine": 15,
+              "endLine": 15,
+              "startOffset": 23,
+              "endOffset": 32
+            },
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Consider removing 'undefined' type or '?' specifier, one of them is redundant.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7828c2b1-27b7-48df-a28f-8aecd50998a0",
+    "rule": "typescript:S4782",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/components/organisms/card/card.tsx",
+    "project": "dangerousplay__benito",
+    "line": 16,
+    "hash": "f4ddec4bc019110b5143700db5a5c8eb",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 13,
+      "endOffset": 14
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/components/organisms/card/card.tsx",
+            "textRange": {
+              "startLine": 16,
+              "endLine": 16,
+              "startOffset": 25,
+              "endOffset": 34
+            },
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Consider removing 'undefined' type or '?' specifier, one of them is redundant.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "640490cb-f4fa-4445-8d9e-c902bb07f3e4",
+    "rule": "typescript:S7763",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/components/organisms/card/index.ts",
+    "project": "dangerousplay__benito",
+    "line": 3,
+    "hash": "c8ceb4c914692b976b7bed4826ee5435",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 0,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `export…from` to re-export `default`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dc2d1488-019e-43c2-b112-4ee6193f229a",
+    "rule": "css:S125",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/index.css",
+    "project": "dangerousplay__benito",
+    "line": 7,
+    "hash": "93f40ed3d38892758f624a5e4f568c7d",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 0,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c8bcfce0-f4bb-46da-8285-db00fccae651",
+    "rule": "css:S125",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/index.css",
+    "project": "dangerousplay__benito",
+    "line": 8,
+    "hash": "58c59f4dabf156c472e22412985a6883",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 0,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6c8515e0-1c76-4824-9475-33e14ee4ca85",
+    "rule": "css:S125",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/index.css",
+    "project": "dangerousplay__benito",
+    "line": 13,
+    "hash": "0677cae9be955db6a725155aea50e68a",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 0,
+      "endOffset": 50
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9bdb926f-c29e-4310-8fba-325152621ff0",
+    "rule": "css:S125",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/index.css",
+    "project": "dangerousplay__benito",
+    "line": 18,
+    "hash": "cf04aac7538a9c5f3eb2754bbfe9e1d0",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 0,
+      "endOffset": 71
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "53e61ba7-42ea-4db3-9846-8dbe8aea37f2",
+    "rule": "css:S125",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/index.css",
+    "project": "dangerousplay__benito",
+    "line": 24,
+    "hash": "755d5d299c9402eb2a4cd377c41dd63c",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 0,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "56bd6d7c-d31a-4f04-b1ac-0e28db95898c",
+    "rule": "css:S125",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/index.css",
+    "project": "dangerousplay__benito",
+    "line": 25,
+    "hash": "fcf6f2ce9f1f6f951dcac4d4de7af825",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 0,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0803f4ed-e3c9-4bca-bbd3-1700c7e65f7c",
+    "rule": "css:S125",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/index.css",
+    "project": "dangerousplay__benito",
+    "line": 26,
+    "hash": "1979a2b67ca30be2269412a4c9ce1032",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 0,
+      "endOffset": 52
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e3901bad-547b-4484-9b72-dc0a99228902",
+    "rule": "css:S125",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/index.css",
+    "project": "dangerousplay__benito",
+    "line": 27,
+    "hash": "e8a2bcfa435881a43b515eae307703f3",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 0,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2119e5ba-7e48-4e65-b26f-17d50d068bd7",
+    "rule": "typescript:S7770",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/pages/HomePage.tsx",
+    "project": "dangerousplay__benito",
+    "line": 34,
+    "hash": "1f4d069a7b39ff7d691c9faa9a615e94",
+    "textRange": {
+      "startLine": 34,
+      "endLine": 34,
+      "startOffset": 56,
+      "endOffset": 58
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "arrow function is equivalent to `Boolean`. Use `Boolean` directly.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "unnecessary"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6c18c2dd-166b-44ba-8ba9-c93c633e51f0",
+    "rule": "typescript:S1854",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/pages/needs/ListNeeds.tsx",
+    "project": "dangerousplay__benito",
+    "line": 125,
+    "hash": "dc7481685f3e0270e600fe244e02647c",
+    "textRange": {
+      "startLine": 125,
+      "endLine": 125,
+      "startOffset": 11,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this useless assignment to variable \"addressFilter\".",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ab624bd3-5c79-486f-91cb-7697084cfc8a",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/pages/needs/ListNeeds.tsx",
+    "project": "dangerousplay__benito",
+    "line": 212,
+    "hash": "e34b560fdd6f4a4c3f82963b28ec67cc",
+    "textRange": {
+      "startLine": 212,
+      "endLine": 212,
+      "startOffset": 43,
+      "endOffset": 45
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1281344c-70ee-4cae-b9d6-2251a42f490a",
+    "rule": "typescript:S6848",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/pages/needs/NeedView.tsx",
+    "project": "dangerousplay__benito",
+    "line": 17,
+    "hash": "8631590ef73084b4bd05ae27f9c1be0f",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 18,
+      "startOffset": 8,
+      "endOffset": 82
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c04238c4-6a6f-4dff-8129-40b36f8ffd3a",
+    "rule": "typescript:S1082",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/pages/needs/NeedView.tsx",
+    "project": "dangerousplay__benito",
+    "line": 17,
+    "hash": "8631590ef73084b4bd05ae27f9c1be0f",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 18,
+      "startOffset": 8,
+      "endOffset": 82
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Visible, non-interactive elements with click handlers must have at least one keyboard listener.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "883198bc-c3a8-4abe-b964-14cd8ff1ffdb",
+    "rule": "typescript:S1082",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/pages/organizations/EntityView.tsx",
+    "project": "dangerousplay__benito",
+    "line": 24,
+    "hash": "a6cc08e8f018bac3f89578dca90c09ad",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 25,
+      "startOffset": 8,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Visible, non-interactive elements with click handlers must have at least one keyboard listener.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d61f06f0-6eca-4244-a3d4-e5c053c3b3a1",
+    "rule": "typescript:S6848",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/pages/organizations/EntityView.tsx",
+    "project": "dangerousplay__benito",
+    "line": 24,
+    "hash": "a6cc08e8f018bac3f89578dca90c09ad",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 25,
+      "startOffset": 8,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fbd03246-df0d-472f-a615-b6560cb3753f",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/pages/organizations/EntityView.tsx",
+    "project": "dangerousplay__benito",
+    "line": 39,
+    "hash": "69028d214a5b94199dd8046fbf19dfee",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 39,
+      "startOffset": 23,
+      "endOffset": 51
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b061a09f-9e2b-4044-914c-c8356f3d3289",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/pages/organizations/ListEntities.tsx",
+    "project": "dangerousplay__benito",
+    "line": 3,
+    "hash": "9810a1d56a032135691bee4d3a251f04",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 4,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'Address'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6a0343e2-4d17-405c-868b-c3acacec19d8",
+    "rule": "typescript:S6477",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/pages/organizations/RegisterOrEditEntity.tsx",
+    "project": "dangerousplay__benito",
+    "line": 39,
+    "hash": "b644b441b2fec719607de18d5f0f0ca4",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 41,
+      "startOffset": 22,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Missing \"key\" prop for element in iterator",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0309b764-a9ec-4190-909e-166d859df10f",
+    "rule": "typescript:S6477",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/src/pages/organizations/RegisterOrEditEntity.tsx",
+    "project": "dangerousplay__benito",
+    "line": 178,
+    "hash": "f0466e6429696734f6fa253bc52dafd1",
+    "textRange": {
+      "startLine": 178,
+      "endLine": 191,
+      "startOffset": 32,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Missing \"key\" prop for element in array",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c4c4ff5d-be63-4adb-80fc-3880e9bbfeaa",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/apps/benito-web/vite.config.ts",
+    "project": "dangerousplay__benito",
+    "line": 2,
+    "hash": "45fc2c05a7b30a7e10c3319522e567a5",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 24,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "28686acf-67d9-4f7f-babe-c93d94508a8b",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/prisma/seed.ts",
+    "project": "dangerousplay__benito",
+    "line": 4,
+    "hash": "f84a847d69ad6b11ef843eba9830124b",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 20,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5324e3e4-d88e-4247-8a89-ced1fab292de",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/prisma/seed.ts",
+    "project": "dangerousplay__benito",
+    "line": 5,
+    "hash": "6c88602ec87337f7ced5b0656f1d5f29",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 22,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6abffbe4-7891-427c-8e8f-ca16e8aace23",
+    "rule": "typescript:S1854",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/prisma/seed.ts",
+    "project": "dangerousplay__benito",
+    "line": 494,
+    "hash": "71ad22ec79e4e74f34a50ae0a12e6687",
+    "textRange": {
+      "startLine": 494,
+      "endLine": 494,
+      "startOffset": 10,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this useless assignment to variable \"result\".",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "da9f7854-2908-4f4e-8524-7522f194edb3",
+    "rule": "typescript:S7785",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/prisma/seed.ts",
+    "project": "dangerousplay__benito",
+    "line": 536,
+    "hash": "0b31148219cfea725b6b19ab3a6568e6",
+    "textRange": {
+      "startLine": 536,
+      "endLine": 536,
+      "startOffset": 3,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over using a promise chain.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0e2dba0a-0c90-4618-9f03-7199f531f710",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/controller/entity.ts",
+    "project": "dangerousplay__benito",
+    "line": 14,
+    "hash": "2137bfe3f17cd29bee128493715b33a5",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 25,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:stream` over `stream`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "088a6804-d8ec-45ae-9688-7829340bfeb2",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/controller/entity.ts",
+    "project": "dangerousplay__benito",
+    "line": 27,
+    "hash": "21dab6d950e9da127147b5f7a26cfb2f",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 8,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'entityService: EntityService' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "02d0a520-285d-4eca-8d88-0ab9cf5872df",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/controller/itemcategory.ts",
+    "project": "dangerousplay__benito",
+    "line": 15,
+    "hash": "2137bfe3f17cd29bee128493715b33a5",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 25,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:stream` over `stream`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c0978db8-ca7f-4b18-856f-11c494c2f4c5",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/controller/itemcategory.ts",
+    "project": "dangerousplay__benito",
+    "line": 27,
+    "hash": "65eb18911099cddd8f94e4c64cdb428e",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 8,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'itemService: ItemService' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0c2fbf88-2bb7-4c8c-bf46-f777c863d0be",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/controller/needs.ts",
+    "project": "dangerousplay__benito",
+    "line": 16,
+    "hash": "2137bfe3f17cd29bee128493715b33a5",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 25,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:stream` over `stream`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c793681f-2bf9-433e-89fe-9dd3062b78c5",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/controller/needs.ts",
+    "project": "dangerousplay__benito",
+    "line": 27,
+    "hash": "4531e3be3843ee8a7941e43fa9d07157",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 8,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'needService: NeedsService' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "79ff3d3f-5b4f-4aae-924c-e20f8b6ff15c",
+    "rule": "typescript:S7785",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/main.ts",
+    "project": "dangerousplay__benito",
+    "line": 10,
+    "hash": "b3452575bf264fca770414ff8cffce6f",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 0,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over an async function `bootstrap` call.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c23cf804-a068-4ce4-bc82-1e9ba207c41c",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/service/address.service.ts",
+    "project": "dangerousplay__benito",
+    "line": 1,
+    "hash": "1375c12de04f7e800502b33e782bbc72",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 18,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:https` over `https`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e9b64c56-e351-4309-9455-5d279be962e7",
+    "rule": "typescript:S6671",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/service/address.service.ts",
+    "project": "dangerousplay__benito",
+    "line": 43,
+    "hash": "96fc39f44cc09a0e55e17a3791078259",
+    "textRange": {
+      "startLine": 43,
+      "endLine": 43,
+      "startOffset": 16,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Expected the Promise rejection reason to be an Error.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fe2c4247-ed72-44fb-bae8-ef40cf4f4f9a",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/service/address.service.ts",
+    "project": "dangerousplay__benito",
+    "line": 57,
+    "hash": "4a7efda24043d6ec1cfb0f71851a7342",
+    "textRange": {
+      "startLine": 57,
+      "endLine": 57,
+      "startOffset": 39,
+      "endOffset": 49
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ccd7c27a-9e32-4f8f-ace7-654c9cd3a0d0",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/service/address.service.ts",
+    "project": "dangerousplay__benito",
+    "line": 58,
+    "hash": "5edb2074ea8bb07f092963b9903e6a9c",
+    "textRange": {
+      "startLine": 58,
+      "endLine": 58,
+      "startOffset": 39,
+      "endOffset": 49
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "96b895c7-527a-4827-8cad-aad275fcbbb1",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/service/address.service.ts",
+    "project": "dangerousplay__benito",
+    "line": 59,
+    "hash": "352afc144228dd099b7d259b92293efc",
+    "textRange": {
+      "startLine": 59,
+      "endLine": 59,
+      "startOffset": 39,
+      "endOffset": 49
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "20c2430e-624f-4b76-bd30-db5e982f72a8",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/service/address.service.ts",
+    "project": "dangerousplay__benito",
+    "line": 60,
+    "hash": "78401a88bbcf2dd1b55664935cc5782a",
+    "textRange": {
+      "startLine": 60,
+      "endLine": 60,
+      "startOffset": 39,
+      "endOffset": 49
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f9d0dc4d-ad65-4d92-a67b-edf9dba6d35b",
+    "rule": "typescript:S6544",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/service/address.service.ts",
+    "project": "dangerousplay__benito",
+    "line": 78,
+    "hash": "b717b7e0afeea1a7e54d19325a348165",
+    "textRange": {
+      "startLine": 78,
+      "endLine": 78,
+      "startOffset": 27,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Promise executor functions should not be async.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "type-dependent",
+      "promise"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5cce2acb-5ec4-4565-a7d2-8f35fdf7f037",
+    "rule": "typescript:S6671",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/service/address.service.ts",
+    "project": "dangerousplay__benito",
+    "line": 99,
+    "hash": "20b56a837b0b3d44dc8c8811ea8211c7",
+    "textRange": {
+      "startLine": 99,
+      "endLine": 99,
+      "startOffset": 20,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Expected the Promise rejection reason to be an Error.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7e2ae11e-4068-4010-9494-39f9c9f506d1",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/service/address.service.ts",
+    "project": "dangerousplay__benito",
+    "line": 104,
+    "hash": "65714c6a3af5f5f1ae26c2519400c265",
+    "textRange": {
+      "startLine": 104,
+      "endLine": 104,
+      "startOffset": 40,
+      "endOffset": 50
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e4b8d261-c07f-419d-958b-566d5183aea1",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/service/address.service.ts",
+    "project": "dangerousplay__benito",
+    "line": 105,
+    "hash": "c320b7620c17f2fc0f640156dc6c197a",
+    "textRange": {
+      "startLine": 105,
+      "endLine": 105,
+      "startOffset": 40,
+      "endOffset": 50
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4023bbac-65b7-428b-9c45-88e099747857",
+    "rule": "typescript:S6544",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/service/address.service.ts",
+    "project": "dangerousplay__benito",
+    "line": 118,
+    "hash": "b717b7e0afeea1a7e54d19325a348165",
+    "textRange": {
+      "startLine": 118,
+      "endLine": 118,
+      "startOffset": 27,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Promise executor functions should not be async.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "type-dependent",
+      "promise"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a3213650-670e-49b8-8cda-44c3ec7ed8e7",
+    "rule": "typescript:S6671",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/service/address.service.ts",
+    "project": "dangerousplay__benito",
+    "line": 129,
+    "hash": "e0fb48d70ad4bcc6484e7b19bbfea558",
+    "textRange": {
+      "startLine": 129,
+      "endLine": 129,
+      "startOffset": 20,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Expected the Promise rejection reason to be an Error.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "10e229d7-5652-4586-be49-e0149fc7e59f",
+    "rule": "typescript:S7741",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/service/address.service.ts",
+    "project": "dangerousplay__benito",
+    "line": 135,
+    "hash": "25828c5f699c1a46212d9034b51b93d4",
+    "textRange": {
+      "startLine": 135,
+      "endLine": 135,
+      "startOffset": 24,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Compare with `undefined` directly instead of using `typeof`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability",
+      "style"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2d44f7ce-8e0d-4217-91e6-dfca2d203b6f",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/service/address.service.ts",
+    "project": "dangerousplay__benito",
+    "line": 135,
+    "hash": "25828c5f699c1a46212d9034b51b93d4",
+    "textRange": {
+      "startLine": 135,
+      "endLine": 135,
+      "startOffset": 24,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fbda71c3-2397-4ad2-9e52-c43304fef637",
+    "rule": "typescript:S6671",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/service/address.service.ts",
+    "project": "dangerousplay__benito",
+    "line": 136,
+    "hash": "e0fb48d70ad4bcc6484e7b19bbfea558",
+    "textRange": {
+      "startLine": 136,
+      "endLine": 136,
+      "startOffset": 24,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Expected the Promise rejection reason to be an Error.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2e0bc8e5-6e62-41c6-be84-645a34502a88",
+    "rule": "typescript:S6544",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/service/address.service.ts",
+    "project": "dangerousplay__benito",
+    "line": 149,
+    "hash": "bc7f6d756fb71ec7ce121506f5588179",
+    "textRange": {
+      "startLine": 149,
+      "endLine": 149,
+      "startOffset": 32,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Promise executor functions should not be async.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "type-dependent",
+      "promise"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2934a5d3-b84e-4b7d-b1a4-92b38f7a7675",
+    "rule": "typescript:S6544",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/service/address.service.ts",
+    "project": "dangerousplay__benito",
+    "line": 210,
+    "hash": "b717b7e0afeea1a7e54d19325a348165",
+    "textRange": {
+      "startLine": 210,
+      "endLine": 210,
+      "startOffset": 27,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Promise executor functions should not be async.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "type-dependent",
+      "promise"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4aa0d95f-bf8f-4471-80ec-2de58d3f9ccb",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/service/address.service.ts",
+    "project": "dangerousplay__benito",
+    "line": 213,
+    "hash": "8d2187c7fdef6822089a5229e643b7ed",
+    "textRange": {
+      "startLine": 213,
+      "endLine": 213,
+      "startOffset": 34,
+      "endOffset": 66
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "38395889-2416-49d0-a2b6-d514db37d88f",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/service/address.service.ts",
+    "project": "dangerousplay__benito",
+    "line": 215,
+    "hash": "d69020ce9d60c6dc00f65b5d7f6f0fe4",
+    "textRange": {
+      "startLine": 215,
+      "endLine": 215,
+      "startOffset": 34,
+      "endOffset": 66
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6a50ea4d-b2fa-465f-b3a8-2c5d438c0549",
+    "rule": "typescript:S6544",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/service/address.service.ts",
+    "project": "dangerousplay__benito",
+    "line": 239,
+    "hash": "b717b7e0afeea1a7e54d19325a348165",
+    "textRange": {
+      "startLine": 239,
+      "endLine": 239,
+      "startOffset": 27,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Promise executor functions should not be async.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "type-dependent",
+      "promise"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1a11392c-4ae2-46a2-a9eb-af251b7ea8d9",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/service/entity.service.ts",
+    "project": "dangerousplay__benito",
+    "line": 15,
+    "hash": "89a68e24e657122efe9454afe762bfd4",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 8,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 's3Service: S3Service' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7f2dd38e-8402-40e6-8c88-2d23fac7caef",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/service/item.service.ts",
+    "project": "dangerousplay__benito",
+    "line": 15,
+    "hash": "89a68e24e657122efe9454afe762bfd4",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 8,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 's3Service: S3Service' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "03c2f3f1-24ca-4c01-97b1-d0f3a4b5ed1f",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/service/needs.service.ts",
+    "project": "dangerousplay__benito",
+    "line": 15,
+    "hash": "89a68e24e657122efe9454afe762bfd4",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 8,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 's3Service: S3Service' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "99909e1d-8bd4-4a61-b4d7-1514638e69fb",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/service/s3.service.ts",
+    "project": "dangerousplay__benito",
+    "line": 5,
+    "hash": "5efdc1a9a3afb59706e3344c25d63baf",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 22,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "538e1954-fcea-4b1e-9adf-a585f6e5eeb4",
+    "rule": "typescript:S1854",
+    "severity": "MAJOR",
+    "component": "dangerousplay__benito:temp_repos/benito/benito-backend/src/zen/crud.middleware.ts",
+    "project": "dangerousplay__benito",
+    "line": 14,
+    "hash": "0a4bd74c9310886cbd12510be8a3142e",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 10,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this useless assignment to variable \"baseUrl\".",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:00:22+0000",
+    "updateDate": "2026-07-16T01:00:22+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

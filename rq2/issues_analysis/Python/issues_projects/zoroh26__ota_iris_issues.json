@@ -1,0 +1,1096 @@
+[
+  {
+    "key": "0a877524-51a9-4c02-9fc0-4440e63b0c10",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/api/dependencies.py",
+    "project": "zoroh26__ota_iris",
+    "line": 65,
+    "hash": "5b5939adcb165b1b1fa29e7444098db2",
+    "textRange": {
+      "startLine": 65,
+      "endLine": 65,
+      "startOffset": 10,
+      "endOffset": 31
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/api/dependencies.py",
+            "textRange": {
+              "startLine": 65,
+              "endLine": 65,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T19:05:39+0000",
+    "updateDate": "2026-07-17T19:05:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2b088cb6-fc09-40e2-9400-cb8210490b36",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/api/v1/users.py",
+    "project": "zoroh26__ota_iris",
+    "line": 69,
+    "hash": "def5e45364e7317fdf3ce392f02ca736",
+    "textRange": {
+      "startLine": 69,
+      "endLine": 69,
+      "startOffset": 32,
+      "endOffset": 48
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/api/v1/users.py",
+            "textRange": {
+              "startLine": 84,
+              "endLine": 84,
+              "startOffset": 32,
+              "endOffset": 48
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/api/v1/users.py",
+            "textRange": {
+              "startLine": 118,
+              "endLine": 118,
+              "startOffset": 32,
+              "endOffset": 48
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/api/v1/users.py",
+            "textRange": {
+              "startLine": 137,
+              "endLine": 137,
+              "startOffset": 32,
+              "endOffset": 48
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"User not found\" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T19:05:39+0000",
+    "updateDate": "2026-07-17T19:05:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "975e8131-825e-49fb-b3f0-7e20e0f8582e",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/security.py",
+    "project": "zoroh26__ota_iris",
+    "line": 29,
+    "hash": "1c86a014f6fdd6a146106a80cf7cecab",
+    "textRange": {
+      "startLine": 29,
+      "endLine": 29,
+      "startOffset": 10,
+      "endOffset": 25
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/security.py",
+            "textRange": {
+              "startLine": 29,
+              "endLine": 29,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T19:05:39+0000",
+    "updateDate": "2026-07-17T19:05:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7c9cc7ad-47a9-46f7-a1c6-5aab01003666",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/security.py",
+    "project": "zoroh26__ota_iris",
+    "line": 55,
+    "hash": "efa7bfca795f0684d9f53363eae29b4d",
+    "textRange": {
+      "startLine": 55,
+      "endLine": 55,
+      "startOffset": 10,
+      "endOffset": 29
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/security.py",
+            "textRange": {
+              "startLine": 55,
+              "endLine": 55,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T19:05:39+0000",
+    "updateDate": "2026-07-17T19:05:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "324e21b7-e811-462e-a91d-2e71dc2c6657",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/security.py",
+    "project": "zoroh26__ota_iris",
+    "line": 66,
+    "hash": "9ffbfb7d1df2183ad7eff0b09f59a4e7",
+    "textRange": {
+      "startLine": 66,
+      "endLine": 66,
+      "startOffset": 10,
+      "endOffset": 30
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/security.py",
+            "textRange": {
+              "startLine": 66,
+              "endLine": 66,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T19:05:39+0000",
+    "updateDate": "2026-07-17T19:05:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "098ace50-e814-47dd-9615-922dad636c3e",
+    "rule": "python:S2208",
+    "severity": "CRITICAL",
+    "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/setup.py",
+    "project": "zoroh26__ota_iris",
+    "line": 16,
+    "hash": "e33fb3c45a760f6885039bacd622568a",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 0,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Import only needed names or import the module and then use its members.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:05:39+0000",
+    "updateDate": "2026-07-17T19:05:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "32a84f1d-95f9-4edb-adf8-9c10e587bc60",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/setup.py",
+    "project": "zoroh26__ota_iris",
+    "line": 39,
+    "hash": "bad2f0ced259c7e496b5005a73b10e92",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 39,
+      "startOffset": 10,
+      "endOffset": 33
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/setup.py",
+            "textRange": {
+              "startLine": 39,
+              "endLine": 39,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T19:05:39+0000",
+    "updateDate": "2026-07-17T19:05:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "72a0ad99-41f3-4cbb-986b-33deb4bcd058",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/setup.py",
+    "project": "zoroh26__ota_iris",
+    "line": 60,
+    "hash": "2773b58fdd88f1435fd63d58514e7f95",
+    "textRange": {
+      "startLine": 60,
+      "endLine": 60,
+      "startOffset": 10,
+      "endOffset": 31
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/setup.py",
+            "textRange": {
+              "startLine": 60,
+              "endLine": 60,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T19:05:39+0000",
+    "updateDate": "2026-07-17T19:05:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7f0a5995-a619-4d04-b2af-42442e4d5d7e",
+    "rule": "python:S108",
+    "severity": "MAJOR",
+    "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/utils/cache.py",
+    "project": "zoroh26__ota_iris",
+    "line": 44,
+    "hash": "1a1dc91c907325c69271ddf0c944bc72",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 44,
+      "startOffset": 16,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Either remove or fill this block of code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T19:05:39+0000",
+    "updateDate": "2026-07-17T19:05:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "93829540-33f3-4453-aef0-ef52aefd70b8",
+    "rule": "python:S5806",
+    "severity": "MAJOR",
+    "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/utils/cache.py",
+    "project": "zoroh26__ota_iris",
+    "line": 139,
+    "hash": "9191a5ac5f06dd5c8d8fa73fa20fae52",
+    "textRange": {
+      "startLine": 139,
+      "endLine": 139,
+      "startOffset": 8,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this variable; it shadows a builtin.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "confusing",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:05:39+0000",
+    "updateDate": "2026-07-17T19:05:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dbd25c8c-efe3-4eac-917d-1df73cd7f782",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/utils/cache.py",
+    "project": "zoroh26__ota_iris",
+    "line": 186,
+    "hash": "37a91f7ea80a396f0e9ed46f1ba57cb5",
+    "textRange": {
+      "startLine": 186,
+      "endLine": 186,
+      "startOffset": 4,
+      "endOffset": 9
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/utils/cache.py",
+            "textRange": {
+              "startLine": 291,
+              "endLine": 291,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/utils/cache.py",
+            "textRange": {
+              "startLine": 294,
+              "endLine": 294,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/utils/cache.py",
+            "textRange": {
+              "startLine": 296,
+              "endLine": 296,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/utils/cache.py",
+            "textRange": {
+              "startLine": 301,
+              "endLine": 301,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/utils/cache.py",
+            "textRange": {
+              "startLine": 302,
+              "endLine": 302,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/utils/cache.py",
+            "textRange": {
+              "startLine": 302,
+              "endLine": 302,
+              "startOffset": 51,
+              "endOffset": 53
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/utils/cache.py",
+            "textRange": {
+              "startLine": 306,
+              "endLine": 306,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/utils/cache.py",
+            "textRange": {
+              "startLine": 311,
+              "endLine": 311,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/utils/cache.py",
+            "textRange": {
+              "startLine": 320,
+              "endLine": 320,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/utils/cache.py",
+            "textRange": {
+              "startLine": 322,
+              "endLine": 322,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/utils/cache.py",
+            "textRange": {
+              "startLine": 324,
+              "endLine": 324,
+              "startOffset": 20,
+              "endOffset": 23
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/utils/cache.py",
+            "textRange": {
+              "startLine": 328,
+              "endLine": 328,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/utils/cache.py",
+            "textRange": {
+              "startLine": 329,
+              "endLine": 329,
+              "startOffset": 20,
+              "endOffset": 23
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 31 to the 15 allowed.",
+    "effort": "21min",
+    "debt": "21min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T19:05:39+0000",
+    "updateDate": "2026-07-17T19:05:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1738f93b-c7bb-49dc-9bec-b0c0e70350f6",
+    "rule": "python:S1172",
+    "severity": "MAJOR",
+    "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/worker/functions.py",
+    "project": "zoroh26__ota_iris",
+    "line": 13,
+    "hash": "c400c0c475e6546257b160b1b1b8f64a",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 33,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused function parameter \"ctx\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:05:39+0000",
+    "updateDate": "2026-07-17T19:05:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "072b9840-def4-4287-8caa-a9da8124a314",
+    "rule": "python:S1172",
+    "severity": "MAJOR",
+    "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/worker/functions.py",
+    "project": "zoroh26__ota_iris",
+    "line": 19,
+    "hash": "14a43e02a8ffcf5df55a82dbdc95204c",
+    "textRange": {
+      "startLine": 19,
+      "endLine": 19,
+      "startOffset": 18,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused function parameter \"ctx\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:05:39+0000",
+    "updateDate": "2026-07-17T19:05:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "54e16ff0-dc6a-4ca7-ab4a-d2fdbc76a442",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/worker/functions.py",
+    "project": "zoroh26__ota_iris",
+    "line": 19,
+    "hash": "14a43e02a8ffcf5df55a82dbdc95204c",
+    "textRange": {
+      "startLine": 19,
+      "endLine": 19,
+      "startOffset": 10,
+      "endOffset": 17
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/worker/functions.py",
+            "textRange": {
+              "startLine": 19,
+              "endLine": 19,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T19:05:39+0000",
+    "updateDate": "2026-07-17T19:05:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6138dcb7-8377-4c90-990b-7be5b6cb5db8",
+    "rule": "python:S1172",
+    "severity": "MAJOR",
+    "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/worker/functions.py",
+    "project": "zoroh26__ota_iris",
+    "line": 23,
+    "hash": "90af74a1e6bceaaf4021c62beb870754",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 19,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused function parameter \"ctx\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:05:39+0000",
+    "updateDate": "2026-07-17T19:05:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cf6307d2-3c84-4931-840e-fb8ad46307ac",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/worker/functions.py",
+    "project": "zoroh26__ota_iris",
+    "line": 23,
+    "hash": "90af74a1e6bceaaf4021c62beb870754",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 10,
+      "endOffset": 18
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "zoroh26__ota_iris:temp_repos/OTA_IRIS/src/app/core/worker/functions.py",
+            "textRange": {
+              "startLine": 23,
+              "endLine": 23,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T19:05:39+0000",
+    "updateDate": "2026-07-17T19:05:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

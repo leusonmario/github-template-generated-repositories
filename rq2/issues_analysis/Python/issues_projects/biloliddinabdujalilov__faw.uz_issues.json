@@ -1,0 +1,74 @@
+[
+  {
+    "key": "b3c407e2-7565-481d-b4ec-66d0cb819f34",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "biloliddinabdujalilov__faw.uz:temp_repos/faw.uz/Dockerfile",
+    "project": "biloliddinabdujalilov__faw.uz",
+    "line": 14,
+    "hash": "53f873a4a262b8d9387ceafb9a09a96f",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "biloliddinabdujalilov__faw.uz:temp_repos/faw.uz/Dockerfile",
+            "textRange": {
+              "startLine": 16,
+              "endLine": 16,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "biloliddinabdujalilov__faw.uz:temp_repos/faw.uz/Dockerfile",
+            "textRange": {
+              "startLine": 18,
+              "endLine": 18,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T22:23:10+0000",
+    "updateDate": "2026-07-17T22:23:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

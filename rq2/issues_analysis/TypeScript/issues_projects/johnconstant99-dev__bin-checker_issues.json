@@ -1,0 +1,1247 @@
+[
+  {
+    "key": "48922ebb-74cb-458a-8657-e4f67c9cc6c4",
+    "rule": "python:S1542",
+    "severity": "MAJOR",
+    "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/api/todo/app.py",
+    "project": "johnconstant99-dev__bin-checker",
+    "line": 24,
+    "hash": "0cae3d1a92229336c5b41a905e511c78",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 4,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename function \"originList\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "convention",
+      "pep"
+    ],
+    "creationDate": "2026-07-15T21:10:06+0000",
+    "updateDate": "2026-07-15T21:10:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d1a548e0-bb0c-474b-95f5-fd462ad12fc4",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/api/todo/routes.py",
+    "project": "johnconstant99-dev__bin-checker",
+    "line": 36,
+    "hash": "72c443be2421feb12c3d0578401044cd",
+    "textRange": {
+      "startLine": 36,
+      "endLine": 36,
+      "startOffset": 58,
+      "endOffset": 75
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-15T21:10:06+0000",
+    "updateDate": "2026-07-15T21:10:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3e0bd4a9-24a3-4737-8a35-2771d56bb028",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/api/todo/routes.py",
+    "project": "johnconstant99-dev__bin-checker",
+    "line": 48,
+    "hash": "3fc9d7b0c44ce80cbd03ff3a1fe3b551",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 52,
+      "endOffset": 73
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/api/todo/routes.py",
+            "textRange": {
+              "startLine": 61,
+              "endLine": 61,
+              "startOffset": 52,
+              "endOffset": 73
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/api/todo/routes.py",
+            "textRange": {
+              "startLine": 74,
+              "endLine": 74,
+              "startOffset": 52,
+              "endOffset": 73
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Todo list not found\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-15T21:10:06+0000",
+    "updateDate": "2026-07-15T21:10:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "298ad5b9-383d-4a5a-bb6e-277de24e7b97",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/api/todo/routes.py",
+    "project": "johnconstant99-dev__bin-checker",
+    "line": 63,
+    "hash": "d31dba9a50b5feca136ee5da79c616c2",
+    "textRange": {
+      "startLine": 63,
+      "endLine": 63,
+      "startOffset": 28,
+      "endOffset": 45
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-15T21:10:06+0000",
+    "updateDate": "2026-07-15T21:10:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e843efd7-c4ba-48e4-92f0-f265d98eb8bb",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/api/todo/routes.py",
+    "project": "johnconstant99-dev__bin-checker",
+    "line": 85,
+    "hash": "99d59500f07851fce22dfb5c174aa181",
+    "textRange": {
+      "startLine": 85,
+      "endLine": 85,
+      "startOffset": 63,
+      "endOffset": 80
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-15T21:10:06+0000",
+    "updateDate": "2026-07-15T21:10:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "38d6b29c-1db6-4157-8cb4-51eda00aa3ff",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/api/todo/routes.py",
+    "project": "johnconstant99-dev__bin-checker",
+    "line": 146,
+    "hash": "b3c31b007c8c1fff43d7dad32f626062",
+    "textRange": {
+      "startLine": 146,
+      "endLine": 146,
+      "startOffset": 56,
+      "endOffset": 77
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/api/todo/routes.py",
+            "textRange": {
+              "startLine": 162,
+              "endLine": 162,
+              "startOffset": 52,
+              "endOffset": 73
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/api/todo/routes.py",
+            "textRange": {
+              "startLine": 177,
+              "endLine": 177,
+              "startOffset": 52,
+              "endOffset": 73
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/api/todo/routes.py",
+            "textRange": {
+              "startLine": 192,
+              "endLine": 192,
+              "startOffset": 52,
+              "endOffset": 73
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Todo item not found\" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-15T21:10:06+0000",
+    "updateDate": "2026-07-15T21:10:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ad058ba7-5e2a-47ce-9b8f-f94a4975931b",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/api/todo/routes.py",
+    "project": "johnconstant99-dev__bin-checker",
+    "line": 148,
+    "hash": "c20427341a3b9385d2d1d7a49940b3ca",
+    "textRange": {
+      "startLine": 148,
+      "endLine": 148,
+      "startOffset": 27,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-15T21:10:06+0000",
+    "updateDate": "2026-07-15T21:10:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e780f4b4-0a22-46d1-9fd8-745f91bede59",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/api/todo/routes.py",
+    "project": "johnconstant99-dev__bin-checker",
+    "line": 179,
+    "hash": "c20427341a3b9385d2d1d7a49940b3ca",
+    "textRange": {
+      "startLine": 179,
+      "endLine": 179,
+      "startOffset": 23,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-15T21:10:06+0000",
+    "updateDate": "2026-07-15T21:10:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a3cbeaa9-bedd-4e84-a933-5ad02eb891ec",
+    "rule": "typescript:S6481",
+    "severity": "MAJOR",
+    "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/web/src/App.tsx",
+    "project": "johnconstant99-dev__bin-checker",
+    "line": 18,
+    "hash": "d20b4c53379c3e4ae8702e09c411a2d2",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 37,
+      "endOffset": 84
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The 'initialContext' object passed as the value prop to the Context provider changes every render. To fix this consider wrapping it in a useMemo hook.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-15T21:10:06+0000",
+    "updateDate": "2026-07-15T21:10:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0477bed8-f218-407a-aebf-6e830d27af4f",
+    "rule": "typescript:S6598",
+    "severity": "MINOR",
+    "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/web/src/actions/actionCreators.ts",
+    "project": "johnconstant99-dev__bin-checker",
+    "line": 13,
+    "hash": "4b9a1ed6896f042271045024ae67c8e7",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 4,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Interface has only a call signature, you should use a function type instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "function",
+      "type"
+    ],
+    "creationDate": "2026-07-15T21:10:06+0000",
+    "updateDate": "2026-07-15T21:10:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "74aa64e3-fd58-43d0-8f89-67738ca9fb54",
+    "rule": "typescript:S7746",
+    "severity": "MAJOR",
+    "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/web/src/actions/itemActions.ts",
+    "project": "johnconstant99-dev__bin-checker",
+    "line": 32,
+    "hash": "30dbb0ed0648b08da117d9d879c798a2",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 32,
+      "startOffset": 11,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `return value` over `return Promise.resolve(value)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "promise",
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T21:10:06+0000",
+    "updateDate": "2026-07-15T21:10:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5c7fdae5-907f-4268-895d-12e5481ba339",
+    "rule": "typescript:S6767",
+    "severity": "MINOR",
+    "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/web/src/components/todoItemListPane.tsx",
+    "project": "johnconstant99-dev__bin-checker",
+    "line": 15,
+    "hash": "5778d14fe58f15d4ab567a3ab3a919e7",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 4,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'onSelect' PropType is defined but prop is never used",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-15T21:10:06+0000",
+    "updateDate": "2026-07-15T21:10:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "440c5889-b6e7-4b2f-92d6-121864a9d279",
+    "rule": "typescript:S1301",
+    "severity": "MINOR",
+    "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/web/src/components/todoItemListPane.tsx",
+    "project": "johnconstant99-dev__bin-checker",
+    "line": 173,
+    "hash": "54e58ae02af166553c53cbba46d60db8",
+    "textRange": {
+      "startLine": 173,
+      "endLine": 173,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this \"switch\" statement by \"if\" statements to increase readability.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-15T21:10:06+0000",
+    "updateDate": "2026-07-15T21:10:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0c2b1626-b076-4fae-bf44-e140fd713dea",
+    "rule": "typescript:S7747",
+    "severity": "MINOR",
+    "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/web/src/reducers/listsReducer.ts",
+    "project": "johnconstant99-dev__bin-checker",
+    "line": 14,
+    "hash": "675631a69593152529f4c27b0d9e3b0a",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 20,
+      "endOffset": 73
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unnecessarily cloning an array.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-15T21:10:06+0000",
+    "updateDate": "2026-07-15T21:10:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c1105e66-04a6-4da0-a034-ad21bf7a5315",
+    "rule": "typescript:S3776",
+    "severity": "CRITICAL",
+    "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/web/src/reducers/selectedListReducer.ts",
+    "project": "johnconstant99-dev__bin-checker",
+    "line": 5,
+    "hash": "e6e4e9eff644e9ca06180c2a3a487330",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 130,
+      "endOffset": 132
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 6,
+              "endLine": 6,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 9,
+              "endLine": 9,
+              "startOffset": 35,
+              "endOffset": 36
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 12,
+              "endLine": 12,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 12,
+              "endLine": 12,
+              "startOffset": 22,
+              "endOffset": 24
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 17,
+              "endLine": 17,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 22,
+              "endLine": 22,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 25,
+              "endLine": 25,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 28,
+              "endLine": 28,
+              "startOffset": 18,
+              "endOffset": 22
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 34,
+              "endLine": 34,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-15T21:10:06+0000",
+    "updateDate": "2026-07-15T21:10:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3c74c49a-8937-4fb9-ad71-ec250f27cf0c",
+    "rule": "typescript:S7747",
+    "severity": "MINOR",
+    "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/web/src/reducers/selectedListReducer.ts",
+    "project": "johnconstant99-dev__bin-checker",
+    "line": 35,
+    "hash": "e97fcbfdd93ef2cc99eebb327d7db1c7",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 30,
+      "endOffset": 97
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unnecessarily cloning an array.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-15T21:10:06+0000",
+    "updateDate": "2026-07-15T21:10:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0422c60e-16f6-409b-b174-1f4e36ee07ef",
+    "rule": "typescript:S7732",
+    "severity": "MINOR",
+    "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/web/src/reportWebVitals.ts",
+    "project": "johnconstant99-dev__bin-checker",
+    "line": 4,
+    "hash": "3c9749fcb92f545a8c753e00920b1884",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 21,
+      "endOffset": 52
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid using `instanceof` for type checking as it can lead to unreliable results.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "cross-browser"
+    ],
+    "creationDate": "2026-07-15T21:10:06+0000",
+    "updateDate": "2026-07-15T21:10:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "36574c33-a51f-44b1-8c85-cdd935f80cbe",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/web/src/services/telemetryService.ts",
+    "project": "johnconstant99-dev__bin-checker",
+    "line": 12,
+    "hash": "16b58ecc3dd8dacd02ef37f9cd4d0072",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 58,
+      "endOffset": 64
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-15T21:10:06+0000",
+    "updateDate": "2026-07-15T21:10:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5e7784cf-aa0f-404b-8cd9-d8b73507d083",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/src/web/src/services/telemetryService.ts",
+    "project": "johnconstant99-dev__bin-checker",
+    "line": 41,
+    "hash": "ed2762fe404fb2bbe399cea9f346b5e6",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 41,
+      "startOffset": 11,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-15T21:10:06+0000",
+    "updateDate": "2026-07-15T21:10:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "388704fc-c5c6-4b45-b6d5-2ad009e98e73",
+    "rule": "typescript:S3863",
+    "severity": "MINOR",
+    "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/tests/playwright.config.ts",
+    "project": "johnconstant99-dev__bin-checker",
+    "line": 1,
+    "hash": "16d9e175a4758ca241fbac7aaadb0875",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 37,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'@playwright/test' imported multiple times.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015"
+    ],
+    "creationDate": "2026-07-15T21:10:06+0000",
+    "updateDate": "2026-07-15T21:10:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7b371ec1-dfaa-48c4-ac81-b9f6884b3411",
+    "rule": "typescript:S3863",
+    "severity": "MINOR",
+    "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/tests/playwright.config.ts",
+    "project": "johnconstant99-dev__bin-checker",
+    "line": 2,
+    "hash": "2936c076af5401ae3059cb093c74a62e",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 20,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'@playwright/test' imported multiple times.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015"
+    ],
+    "creationDate": "2026-07-15T21:10:06+0000",
+    "updateDate": "2026-07-15T21:10:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3456a0a9-4574-459c-8e16-c2afe8889d37",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/tests/playwright.config.ts",
+    "project": "johnconstant99-dev__bin-checker",
+    "line": 3,
+    "hash": "e6257dc4b1f21417043851734f5ab373",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-15T21:10:06+0000",
+    "updateDate": "2026-07-15T21:10:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4b70cbc0-3c36-4821-902f-74b25ffa7779",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "johnconstant99-dev__bin-checker:temp_repos/bin-checker/tests/playwright.config.ts",
+    "project": "johnconstant99-dev__bin-checker",
+    "line": 4,
+    "hash": "f40651a1f94655f3cffc68ed8db5f6b9",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 21,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-15T21:10:06+0000",
+    "updateDate": "2026-07-15T21:10:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

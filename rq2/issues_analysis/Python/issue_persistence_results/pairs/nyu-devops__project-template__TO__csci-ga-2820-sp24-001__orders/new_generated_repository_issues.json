@@ -1,0 +1,353 @@
+[
+  {
+    "pair_id": "nyu-devops__project-template__TO__csci-ga-2820-sp24-001__orders",
+    "template_repository": "nyu-devops/project-template",
+    "generated_repository": "csci-ga-2820-sp24-001/orders",
+    "project_issue": {
+      "key": "aa4352a8-6b7d-4528-bf89-657b96901c0a",
+      "rule": "kubernetes:S6865",
+      "type": "VULNERABILITY",
+      "severity": "MAJOR",
+      "software_qualities": [
+        "MAINTAINABILITY",
+        "SECURITY"
+      ],
+      "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/k8s/deployment.yaml",
+      "relative_path": "k8s/deployment.yaml",
+      "line": 23,
+      "hash": "d9e939dad9db0fbf12a7e7ed37d92d0f",
+      "message": "Bind this resource's automounted service account to RBAC or disable automounting.",
+      "effort": "1h",
+      "debt": "1h",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  },
+  {
+    "pair_id": "nyu-devops__project-template__TO__csci-ga-2820-sp24-001__orders",
+    "template_repository": "nyu-devops/project-template",
+    "generated_repository": "csci-ga-2820-sp24-001/orders",
+    "project_issue": {
+      "key": "88263831-5298-4ef1-a3d1-66a9241ccc64",
+      "rule": "kubernetes:S6897",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "software_qualities": [
+        "MAINTAINABILITY",
+        "RELIABILITY"
+      ],
+      "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/k8s/deployment.yaml",
+      "relative_path": "k8s/deployment.yaml",
+      "line": 24,
+      "hash": "ccaaded57eeabe26746a1909445fe2f9",
+      "message": "Specify a storage request for this container.",
+      "effort": "5min",
+      "debt": "5min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  },
+  {
+    "pair_id": "nyu-devops__project-template__TO__csci-ga-2820-sp24-001__orders",
+    "template_repository": "nyu-devops/project-template",
+    "generated_repository": "csci-ga-2820-sp24-001/orders",
+    "project_issue": {
+      "key": "5316f9ea-eb86-47d4-8820-b90a5a5e4730",
+      "rule": "kubernetes:S6865",
+      "type": "VULNERABILITY",
+      "severity": "MAJOR",
+      "software_qualities": [
+        "MAINTAINABILITY",
+        "SECURITY"
+      ],
+      "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/k8s/postgresql.yaml",
+      "relative_path": "k8s/postgresql.yaml",
+      "line": 21,
+      "hash": "d9e939dad9db0fbf12a7e7ed37d92d0f",
+      "message": "Bind this resource's automounted service account to RBAC or disable automounting.",
+      "effort": "1h",
+      "debt": "1h",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  },
+  {
+    "pair_id": "nyu-devops__project-template__TO__csci-ga-2820-sp24-001__orders",
+    "template_repository": "nyu-devops/project-template",
+    "generated_repository": "csci-ga-2820-sp24-001/orders",
+    "project_issue": {
+      "key": "2ae37f41-64d6-4639-ae35-01e47cbac44c",
+      "rule": "kubernetes:S6870",
+      "type": "VULNERABILITY",
+      "severity": "MAJOR",
+      "software_qualities": [
+        "MAINTAINABILITY",
+        "SECURITY"
+      ],
+      "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/k8s/postgresql.yaml",
+      "relative_path": "k8s/postgresql.yaml",
+      "line": 22,
+      "hash": "fe36e22994fdb5387d55f4b86a3b8f6d",
+      "message": "Specify a storage limit for this container.",
+      "effort": "5min",
+      "debt": "5min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  },
+  {
+    "pair_id": "nyu-devops__project-template__TO__csci-ga-2820-sp24-001__orders",
+    "template_repository": "nyu-devops/project-template",
+    "generated_repository": "csci-ga-2820-sp24-001/orders",
+    "project_issue": {
+      "key": "8a97290c-d589-4ecf-acd6-ed53ceceb043",
+      "rule": "kubernetes:S6897",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "software_qualities": [
+        "MAINTAINABILITY",
+        "RELIABILITY"
+      ],
+      "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/k8s/postgresql.yaml",
+      "relative_path": "k8s/postgresql.yaml",
+      "line": 22,
+      "hash": "fe36e22994fdb5387d55f4b86a3b8f6d",
+      "message": "Specify a storage request for this container.",
+      "effort": "5min",
+      "debt": "5min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  },
+  {
+    "pair_id": "nyu-devops__project-template__TO__csci-ga-2820-sp24-001__orders",
+    "template_repository": "nyu-devops/project-template",
+    "generated_repository": "csci-ga-2820-sp24-001/orders",
+    "project_issue": {
+      "key": "3aeb804e-7e6a-4024-9241-382330be7975",
+      "rule": "python:S6903",
+      "type": "CODE_SMELL",
+      "severity": "CRITICAL",
+      "software_qualities": [
+        "MAINTAINABILITY",
+        "RELIABILITY"
+      ],
+      "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/models.py",
+      "relative_path": "service/models.py",
+      "line": 114,
+      "hash": "e7e86c0566995f69167a1cecf5110008",
+      "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+      "effort": "5min",
+      "debt": "5min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  },
+  {
+    "pair_id": "nyu-devops__project-template__TO__csci-ga-2820-sp24-001__orders",
+    "template_repository": "nyu-devops/project-template",
+    "generated_repository": "csci-ga-2820-sp24-001/orders",
+    "project_issue": {
+      "key": "14fc844c-41fc-4870-9355-438d6fd64e70",
+      "rule": "python:S1192",
+      "type": "CODE_SMELL",
+      "severity": "CRITICAL",
+      "software_qualities": [
+        "MAINTAINABILITY"
+      ],
+      "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/routes.py",
+      "relative_path": "service/routes.py",
+      "line": 181,
+      "hash": "e3dfdb32434d301a833509b26291e1b3",
+      "message": "Define a constant instead of duplicating this literal \"Order not found\" 4 times.",
+      "effort": "8min",
+      "debt": "8min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  },
+  {
+    "pair_id": "nyu-devops__project-template__TO__csci-ga-2820-sp24-001__orders",
+    "template_repository": "nyu-devops/project-template",
+    "generated_repository": "csci-ga-2820-sp24-001/orders",
+    "project_issue": {
+      "key": "b40eab83-086b-477d-9351-c03e46270aae",
+      "rule": "Web:S5254",
+      "type": "BUG",
+      "severity": "MAJOR",
+      "software_qualities": [
+        "RELIABILITY"
+      ],
+      "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/static/index.html",
+      "relative_path": "service/static/index.html",
+      "line": 2,
+      "hash": "166248a6129a1e4370d20adc2d4c23f3",
+      "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"<html>\" element",
+      "effort": "2min",
+      "debt": "2min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  },
+  {
+    "pair_id": "nyu-devops__project-template__TO__csci-ga-2820-sp24-001__orders",
+    "template_repository": "nyu-devops/project-template",
+    "generated_repository": "csci-ga-2820-sp24-001/orders",
+    "project_issue": {
+      "key": "6d9a78c2-c2f1-434b-8fdf-22ffd2798159",
+      "rule": "Web:S5256",
+      "type": "BUG",
+      "severity": "MAJOR",
+      "software_qualities": [
+        "RELIABILITY"
+      ],
+      "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/static/index.html",
+      "relative_path": "service/static/index.html",
+      "line": 19,
+      "hash": "99686b27b2ad525df0b3aa55cb0ffd73",
+      "message": "Add \"<th>\" headers to this \"<table>\".",
+      "effort": "2min",
+      "debt": "2min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  },
+  {
+    "pair_id": "nyu-devops__project-template__TO__csci-ga-2820-sp24-001__orders",
+    "template_repository": "nyu-devops/project-template",
+    "generated_repository": "csci-ga-2820-sp24-001/orders",
+    "project_issue": {
+      "key": "0bfb54a7-cecc-486b-9415-a3308aca074d",
+      "rule": "javascript:S3776",
+      "type": "CODE_SMELL",
+      "severity": "CRITICAL",
+      "software_qualities": [
+        "MAINTAINABILITY"
+      ],
+      "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+      "relative_path": "service/static/js/rest_api.js",
+      "line": 186,
+      "hash": "f987349013b0051388d3fae91aaaead1",
+      "message": "Refactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.",
+      "effort": "7min",
+      "debt": "7min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  },
+  {
+    "pair_id": "nyu-devops__project-template__TO__csci-ga-2820-sp24-001__orders",
+    "template_repository": "nyu-devops/project-template",
+    "generated_repository": "csci-ga-2820-sp24-001/orders",
+    "project_issue": {
+      "key": "91edf59f-39a1-42b0-b6e5-fc02b638486c",
+      "rule": "python:S1854",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "software_qualities": [
+        "MAINTAINABILITY"
+      ],
+      "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/tests/test_routes.py",
+      "relative_path": "tests/test_routes.py",
+      "line": 317,
+      "hash": "2d6034c529edcaf150eada109d158e7c",
+      "message": "Remove this assignment to local variable 'resp'; the value is never used.",
+      "effort": "1min",
+      "debt": "1min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  },
+  {
+    "pair_id": "nyu-devops__project-template__TO__csci-ga-2820-sp24-001__orders",
+    "template_repository": "nyu-devops/project-template",
+    "generated_repository": "csci-ga-2820-sp24-001/orders",
+    "project_issue": {
+      "key": "b40ecc93-ba61-4d0b-9f60-b8abe7295d8b",
+      "rule": "python:S1854",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "software_qualities": [
+        "MAINTAINABILITY"
+      ],
+      "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/tests/test_routes.py",
+      "relative_path": "tests/test_routes.py",
+      "line": 321,
+      "hash": "2d6034c529edcaf150eada109d158e7c",
+      "message": "Remove this assignment to local variable 'resp'; the value is never used.",
+      "effort": "1min",
+      "debt": "1min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  },
+  {
+    "pair_id": "nyu-devops__project-template__TO__csci-ga-2820-sp24-001__orders",
+    "template_repository": "nyu-devops/project-template",
+    "generated_repository": "csci-ga-2820-sp24-001/orders",
+    "project_issue": {
+      "key": "f4f430a6-91ad-4133-a208-695cb5bd0a1b",
+      "rule": "python:S1854",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "software_qualities": [
+        "MAINTAINABILITY"
+      ],
+      "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/tests/test_routes.py",
+      "relative_path": "tests/test_routes.py",
+      "line": 344,
+      "hash": "2d6034c529edcaf150eada109d158e7c",
+      "message": "Remove this assignment to local variable 'resp'; the value is never used.",
+      "effort": "1min",
+      "debt": "1min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  },
+  {
+    "pair_id": "nyu-devops__project-template__TO__csci-ga-2820-sp24-001__orders",
+    "template_repository": "nyu-devops/project-template",
+    "generated_repository": "csci-ga-2820-sp24-001/orders",
+    "project_issue": {
+      "key": "bd1fdef0-7a1e-4f4b-9a06-4773066eb495",
+      "rule": "python:S1854",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "software_qualities": [
+        "MAINTAINABILITY"
+      ],
+      "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/tests/test_routes.py",
+      "relative_path": "tests/test_routes.py",
+      "line": 390,
+      "hash": "2d6034c529edcaf150eada109d158e7c",
+      "message": "Remove this assignment to local variable 'resp'; the value is never used.",
+      "effort": "1min",
+      "debt": "1min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  },
+  {
+    "pair_id": "nyu-devops__project-template__TO__csci-ga-2820-sp24-001__orders",
+    "template_repository": "nyu-devops/project-template",
+    "generated_repository": "csci-ga-2820-sp24-001/orders",
+    "project_issue": {
+      "key": "e360557c-2ab9-456b-bf58-d2a45b5d74b2",
+      "rule": "python:S1854",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "software_qualities": [
+        "MAINTAINABILITY"
+      ],
+      "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/tests/test_routes.py",
+      "relative_path": "tests/test_routes.py",
+      "line": 418,
+      "hash": "a7d81cfd1720ec2726129bc784db908a",
+      "message": "Remove this assignment to local variable 'resp'; the value is never used.",
+      "effort": "1min",
+      "debt": "1min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  }
+]

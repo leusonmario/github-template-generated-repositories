@@ -1,0 +1,223 @@
+[
+  {
+    "key": "6f25d75d-906b-4f57-8bb4-b1a317a31260",
+    "rule": "docker:S7029",
+    "severity": "MAJOR",
+    "component": "aisen231__my-new-python-project:temp_repos/my-new-python-project/Dockerfile",
+    "project": "aisen231__my-new-python-project",
+    "line": 10,
+    "hash": "4857dff1cdf1b38c3be7bfe416b6f89d",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 0,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this ADD instruction with a COPY instruction.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T22:34:02+0000",
+    "updateDate": "2026-07-17T22:34:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9cf5ba29-9755-4ecd-a8ae-2b3586d46692",
+    "rule": "python:S2772",
+    "severity": "MINOR",
+    "component": "aisen231__my-new-python-project:temp_repos/my-new-python-project/accounts/models.py",
+    "project": "aisen231__my-new-python-project",
+    "line": 5,
+    "hash": "1a1dc91c907325c69271ddf0c944bc72",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 4,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unneeded \"pass\".",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:34:02+0000",
+    "updateDate": "2026-07-17T22:34:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c83bcf2a-d69e-4ff4-8280-7d930b232ac2",
+    "rule": "secrets:S6687",
+    "severity": "BLOCKER",
+    "component": "aisen231__my-new-python-project:temp_repos/my-new-python-project/django_project/settings.py",
+    "project": "aisen231__my-new-python-project",
+    "line": 12,
+    "hash": "b3b29cabf124fe7207289222a1ffff49",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 14,
+      "endOffset": 80
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make sure this Django key gets revoked, changed, and removed from the code.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T22:34:02+0000",
+    "updateDate": "2026-07-17T22:34:02+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "19acd109-522d-4c24-93d4-8c505d092dad",
+    "rule": "Web:S6819",
+    "severity": "MAJOR",
+    "component": "aisen231__my-new-python-project:temp_repos/my-new-python-project/templates/_base.html",
+    "project": "aisen231__my-new-python-project",
+    "line": 44,
+    "hash": "3337fd2ff05557522ab51c869df1475d",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 45,
+      "startOffset": 14,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <button> or <input> instead of the button role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T22:34:02+0000",
+    "updateDate": "2026-07-17T22:34:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "845a8b52-47da-4263-bc08-d2af8ae311b6",
+    "rule": "Web:MouseEventWithoutKeyboardEquivalentCheck",
+    "severity": "MINOR",
+    "component": "aisen231__my-new-python-project:temp_repos/my-new-python-project/templates/_base.html",
+    "project": "aisen231__my-new-python-project",
+    "line": 44,
+    "hash": "3337fd2ff05557522ab51c869df1475d",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 45,
+      "startOffset": 14,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a 'onKeyPress|onKeyDown|onKeyUp' attribute to this <a> tag.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T22:34:02+0000",
+    "updateDate": "2026-07-17T22:34:02+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

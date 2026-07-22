@@ -1,0 +1,592 @@
+[
+  {
+    "key": "ff0e7d34-b73d-4fd4-b420-997e63afc622",
+    "rule": "typescript:S7785",
+    "severity": "MAJOR",
+    "component": "bcgov__nr-data-access:temp_repos/nr-data-access/backend/src/main.ts",
+    "project": "bcgov__nr-data-access",
+    "line": 9,
+    "hash": "ba228c3fcd4fbb77c5eca0e329988e23",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 3,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over using a promise chain.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-07-15T21:28:33+0000",
+    "updateDate": "2026-07-15T21:28:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6df2a82e-9de3-487f-a37c-40d6775009e3",
+    "rule": "typescript:S1854",
+    "severity": "MAJOR",
+    "component": "bcgov__nr-data-access:temp_repos/nr-data-access/backend/src/middleware/req.res.logger.spec.ts",
+    "project": "bcgov__nr-data-access",
+    "line": 16,
+    "hash": "df859cb4172821459b431324474530a2",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 4,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this useless assignment to variable \"logger\".",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-15T21:28:33+0000",
+    "updateDate": "2026-07-15T21:28:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8ad48dbb-f649-4ecd-abd1-19dcc3fab0f1",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "bcgov__nr-data-access:temp_repos/nr-data-access/backend/src/middleware/req.res.logger.ts",
+    "project": "bcgov__nr-data-access",
+    "line": 6,
+    "hash": "bb7df690f256f6e8556eadea37e37a5b",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 2,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'logger' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T21:28:33+0000",
+    "updateDate": "2026-07-15T21:28:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "50e7f8df-dd00-4025-a074-f7ecab4736ab",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "bcgov__nr-data-access:temp_repos/nr-data-access/backend/src/users/users.controller.ts",
+    "project": "bcgov__nr-data-access",
+    "line": 38,
+    "hash": "61c92119ed1c4115dc99263abb1fa2f0",
+    "textRange": {
+      "startLine": 38,
+      "endLine": 38,
+      "startOffset": 23,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.isNaN` over `isNaN`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-15T21:28:33+0000",
+    "updateDate": "2026-07-15T21:28:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c8bc8eeb-c3b0-41e7-860f-ab9be5321278",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "bcgov__nr-data-access:temp_repos/nr-data-access/backend/src/users/users.controller.ts",
+    "project": "bcgov__nr-data-access",
+    "line": 38,
+    "hash": "61c92119ed1c4115dc99263abb1fa2f0",
+    "textRange": {
+      "startLine": 38,
+      "endLine": 38,
+      "startOffset": 8,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.isNaN` over `isNaN`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-15T21:28:33+0000",
+    "updateDate": "2026-07-15T21:28:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b982270e-99a7-408f-b66e-63de261e8081",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "bcgov__nr-data-access:temp_repos/nr-data-access/backend/src/users/users.service.ts",
+    "project": "bcgov__nr-data-access",
+    "line": 13,
+    "hash": "98b997f60cd433fd1f90aae0e0e6efb9",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 4,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'usersRepository: Repository<Users>' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T21:28:33+0000",
+    "updateDate": "2026-07-15T21:28:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bd8ef453-e8f3-4685-9035-ca819f72a0a7",
+    "rule": "typescript:S2486",
+    "severity": "MINOR",
+    "component": "bcgov__nr-data-access:temp_repos/nr-data-access/backend/src/users/users.service.ts",
+    "project": "bcgov__nr-data-access",
+    "line": 79,
+    "hash": "550051ee6b000602ffe414172dfff76d",
+    "textRange": {
+      "startLine": 79,
+      "endLine": 81,
+      "startOffset": 6,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-15T21:28:33+0000",
+    "updateDate": "2026-07-15T21:28:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "adb4298a-a407-440b-8714-375d10dc11a2",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "bcgov__nr-data-access:temp_repos/nr-data-access/backend/src/users/users.service.ts",
+    "project": "bcgov__nr-data-access",
+    "line": 82,
+    "hash": "9e96158d45033ba57bbeec293ff01c39",
+    "textRange": {
+      "startLine": 82,
+      "endLine": 82,
+      "startOffset": 25,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-15T21:28:33+0000",
+    "updateDate": "2026-07-15T21:28:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "eaf8fa89-efd1-4fbf-8a06-df0a98d4db0b",
+    "rule": "typescript:S2486",
+    "severity": "MINOR",
+    "component": "bcgov__nr-data-access:temp_repos/nr-data-access/backend/src/users/users.service.ts",
+    "project": "bcgov__nr-data-access",
+    "line": 95,
+    "hash": "550051ee6b000602ffe414172dfff76d",
+    "textRange": {
+      "startLine": 95,
+      "endLine": 97,
+      "startOffset": 6,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-15T21:28:33+0000",
+    "updateDate": "2026-07-15T21:28:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d962e3c3-9f75-47f5-9955-56a3e96a78c6",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "bcgov__nr-data-access:temp_repos/nr-data-access/frontend/vite.config.ts",
+    "project": "bcgov__nr-data-access",
+    "line": 9,
+    "hash": "89b8f5f2d497d5986478b215df29dcb9",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 10,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-15T21:28:33+0000",
+    "updateDate": "2026-07-15T21:28:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1d6a53d2-7471-4cc2-a6c4-60a3bc27635d",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "bcgov__nr-data-access:temp_repos/nr-data-access/integration-tests/src/main.js",
+    "project": "bcgov__nr-data-access",
+    "line": 3,
+    "hash": "236006d04f1286ddfd1dd6bf864eade4",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 20,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-15T21:28:33+0000",
+    "updateDate": "2026-07-15T21:28:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a38752cf-130e-4414-b3c0-d9515cbd0482",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "bcgov__nr-data-access:temp_repos/nr-data-access/integration-tests/src/main.js",
+    "project": "bcgov__nr-data-access",
+    "line": 4,
+    "hash": "5efdc1a9a3afb59706e3344c25d63baf",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 22,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-15T21:28:33+0000",
+    "updateDate": "2026-07-15T21:28:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8bf62282-1531-4d76-afd2-38754d791120",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "bcgov__nr-data-access:temp_repos/nr-data-access/integration-tests/src/main.js",
+    "project": "bcgov__nr-data-access",
+    "line": 5,
+    "hash": "837a04de7967ff0613ba16d37ceea8c2",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 30,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:url` over `url`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-15T21:28:33+0000",
+    "updateDate": "2026-07-15T21:28:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

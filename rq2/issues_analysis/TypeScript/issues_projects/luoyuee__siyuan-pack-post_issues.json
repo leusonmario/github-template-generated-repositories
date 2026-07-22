@@ -1,0 +1,755 @@
+[
+  {
+    "key": "785f94bf-f29f-4934-bf87-179e5181840b",
+    "rule": "typescript:S4165",
+    "severity": "MAJOR",
+    "component": "luoyuee__siyuan-pack-post:temp_repos/siyuan-pack-post/src/export-service.ts",
+    "project": "luoyuee__siyuan-pack-post",
+    "line": 77,
+    "hash": "8f06e6c7c30ac4e71c50eff1ebe64c84",
+    "textRange": {
+      "startLine": 77,
+      "endLine": 77,
+      "startOffset": 19,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Review this redundant assignment: \"suffix\" already holds the assigned value along all execution paths.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T05:09:10+0000",
+    "updateDate": "2026-07-16T05:09:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "16e30414-a9a1-4355-bc5f-b9a655b71e23",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "luoyuee__siyuan-pack-post:temp_repos/siyuan-pack-post/src/index.ts",
+    "project": "luoyuee__siyuan-pack-post",
+    "line": 183,
+    "hash": "25270252984280dc145c5bca77283786",
+    "textRange": {
+      "startLine": 183,
+      "endLine": 183,
+      "startOffset": 2,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'handleDocTreeMenu' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T05:09:10+0000",
+    "updateDate": "2026-07-16T05:09:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6f23c46e-275f-4d52-83ae-ac84be08f8ef",
+    "rule": "typescript:S7770",
+    "severity": "MINOR",
+    "component": "luoyuee__siyuan-pack-post:temp_repos/siyuan-pack-post/src/index.ts",
+    "project": "luoyuee__siyuan-pack-post",
+    "line": 198,
+    "hash": "2757a839c8f7a91e09ec4a2d9f99d88c",
+    "textRange": {
+      "startLine": 198,
+      "endLine": 198,
+      "startOffset": 41,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "arrow function is equivalent to `Boolean`. Use `Boolean` directly.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "unnecessary"
+    ],
+    "creationDate": "2026-07-16T05:09:10+0000",
+    "updateDate": "2026-07-16T05:09:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "558eb1d1-dd21-47a8-855d-28028800f74d",
+    "rule": "typescript:S1848",
+    "severity": "MAJOR",
+    "component": "luoyuee__siyuan-pack-post:temp_repos/siyuan-pack-post/src/kernel.ts",
+    "project": "luoyuee__siyuan-pack-post",
+    "line": 639,
+    "hash": "6f0eb9a59d7eb0928efe915588fce1bf",
+    "textRange": {
+      "startLine": 639,
+      "endLine": 639,
+      "startOffset": 0,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Either remove this useless object instantiation of \"KernelPlugin\" or use it.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T05:09:10+0000",
+    "updateDate": "2026-07-16T05:09:10+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d7844417-084e-4276-9076-7a19d476bbd9",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "luoyuee__siyuan-pack-post:temp_repos/siyuan-pack-post/src/plugin-settings.ts",
+    "project": "luoyuee__siyuan-pack-post",
+    "line": 160,
+    "hash": "a3ca519364d3c97ed85cbb9fa8d9447c",
+    "textRange": {
+      "startLine": 160,
+      "endLine": 160,
+      "startOffset": 21,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T05:09:10+0000",
+    "updateDate": "2026-07-16T05:09:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b1128c50-6206-4513-8ab0-8c07a53a57a9",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "luoyuee__siyuan-pack-post:temp_repos/siyuan-pack-post/src/plugin-settings.ts",
+    "project": "luoyuee__siyuan-pack-post",
+    "line": 179,
+    "hash": "4389210f1575e6f266f267f843888233",
+    "textRange": {
+      "startLine": 179,
+      "endLine": 179,
+      "startOffset": 21,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T05:09:10+0000",
+    "updateDate": "2026-07-16T05:09:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "73775cd8-9d15-4cae-8ed6-35432f1ce008",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "luoyuee__siyuan-pack-post:temp_repos/siyuan-pack-post/src/plugin-settings.ts",
+    "project": "luoyuee__siyuan-pack-post",
+    "line": 567,
+    "hash": "12f1c329a9aa759bfc94fbce599664b8",
+    "textRange": {
+      "startLine": 567,
+      "endLine": 567,
+      "startOffset": 6,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T05:09:10+0000",
+    "updateDate": "2026-07-16T05:09:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cedf43ad-1059-4397-89a8-5c02a7586a2c",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "luoyuee__siyuan-pack-post:temp_repos/siyuan-pack-post/src/utils/file-utils.ts",
+    "project": "luoyuee__siyuan-pack-post",
+    "line": 9,
+    "hash": "4de607c8c74fd5e301aa90f5f9c8836e",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 16,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-16T05:09:10+0000",
+    "updateDate": "2026-07-16T05:09:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f50e82ce-2598-45d2-8734-715e7999a3d4",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "luoyuee__siyuan-pack-post:temp_repos/siyuan-pack-post/src/utils/file-utils.ts",
+    "project": "luoyuee__siyuan-pack-post",
+    "line": 49,
+    "hash": "418e92ac441bfec85b19aea6447c1676",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 49,
+      "startOffset": 20,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-16T05:09:10+0000",
+    "updateDate": "2026-07-16T05:09:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "17021476-8906-4f17-9758-7f571d30e122",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "luoyuee__siyuan-pack-post:temp_repos/siyuan-pack-post/src/utils/file-utils.ts",
+    "project": "luoyuee__siyuan-pack-post",
+    "line": 67,
+    "hash": "12f1c329a9aa759bfc94fbce599664b8",
+    "textRange": {
+      "startLine": 67,
+      "endLine": 67,
+      "startOffset": 4,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T05:09:10+0000",
+    "updateDate": "2026-07-16T05:09:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3bd6cd9d-d814-4209-8169-ea9e4ad84687",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "luoyuee__siyuan-pack-post:temp_repos/siyuan-pack-post/webpack.config.js",
+    "project": "luoyuee__siyuan-pack-post",
+    "line": 1,
+    "hash": "2414d0eaca09c782237010899a7ad01c",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 21,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T05:09:10+0000",
+    "updateDate": "2026-07-16T05:09:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "760d346a-8de2-4547-a498-a254e11cd85e",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "luoyuee__siyuan-pack-post:temp_repos/siyuan-pack-post/webpack.config.js",
+    "project": "luoyuee__siyuan-pack-post",
+    "line": 2,
+    "hash": "c1b118febb07cc43f988e9eeae4676f8",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 19,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T05:09:10+0000",
+    "updateDate": "2026-07-16T05:09:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "520df90a-23f4-43ab-adf7-b7700d6f6364",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "luoyuee__siyuan-pack-post:temp_repos/siyuan-pack-post/webpack.config.js",
+    "project": "luoyuee__siyuan-pack-post",
+    "line": 9,
+    "hash": "6e87ea47386fa22ed7a25184bbb70040",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 29,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T05:09:10+0000",
+    "updateDate": "2026-07-16T05:09:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "28fa27aa-2a3d-4740-a533-8289f333687d",
+    "rule": "javascript:S7778",
+    "severity": "MINOR",
+    "component": "luoyuee__siyuan-pack-post:temp_repos/siyuan-pack-post/webpack.config.js",
+    "project": "luoyuee__siyuan-pack-post",
+    "line": 24,
+    "hash": "bae21b7fd88f2d2e196e87862f26d14c",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 16,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not call `Array#push()` multiple times.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T05:09:10+0000",
+    "updateDate": "2026-07-16T05:09:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "74168159-1f0e-49b6-a0d0-4bf77c5e2a73",
+    "rule": "javascript:S7778",
+    "severity": "MINOR",
+    "component": "luoyuee__siyuan-pack-post:temp_repos/siyuan-pack-post/webpack.config.js",
+    "project": "luoyuee__siyuan-pack-post",
+    "line": 36,
+    "hash": "bae21b7fd88f2d2e196e87862f26d14c",
+    "textRange": {
+      "startLine": 36,
+      "endLine": 36,
+      "startOffset": 16,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not call `Array#push()` multiple times.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T05:09:10+0000",
+    "updateDate": "2026-07-16T05:09:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "792243f6-35c1-4ff8-b666-19816d898873",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "luoyuee__siyuan-pack-post:temp_repos/siyuan-pack-post/webpack.kernel.config.js",
+    "project": "luoyuee__siyuan-pack-post",
+    "line": 1,
+    "hash": "2414d0eaca09c782237010899a7ad01c",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 21,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T05:09:10+0000",
+    "updateDate": "2026-07-16T05:09:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a066598e-a3ce-44ed-83b1-ff3326c33032",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "luoyuee__siyuan-pack-post:temp_repos/siyuan-pack-post/webpack.kernel.config.js",
+    "project": "luoyuee__siyuan-pack-post",
+    "line": 4,
+    "hash": "6e87ea47386fa22ed7a25184bbb70040",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 29,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T05:09:10+0000",
+    "updateDate": "2026-07-16T05:09:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

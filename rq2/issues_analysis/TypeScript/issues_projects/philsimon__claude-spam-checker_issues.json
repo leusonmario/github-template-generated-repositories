@@ -1,0 +1,5312 @@
+[
+  {
+    "key": "09fbee92-d1a4-4278-9b69-1ec2da0593c7",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/docker/Dockerfile",
+    "project": "philsimon__claude-spam-checker",
+    "line": 11,
+    "hash": "4964f1a9e67d658be1d9f5b7a0e804e1",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/docker/Dockerfile",
+            "textRange": {
+              "startLine": 15,
+              "endLine": 15,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1ac22b8c-4576-40fe-acdc-345d65468fee",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/publish.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 2,
+    "hash": "44f9b15d3b1641faca5561b190d8261a",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 19,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "aaf55ebf-3a3c-4e32-9f92-517d0d78e1d3",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/publish.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 3,
+    "hash": "85968f5b9f570a82c65709eacc211a09",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 21,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8dbd8dbb-65bd-461e-9814-18f1264b9b0c",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/publish.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 4,
+    "hash": "0c760efc61184d4bd28505d5c71fdd3c",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 29,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:child_process` over `child_process`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a614d60c-fc96-4b72-bed9-931cab33e659",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/publish.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 5,
+    "hash": "0f5112fdfbed13e02b369eab319992fb",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 25,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:readline` over `readline`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "193a8652-1495-4e06-a87f-496a4a0cf150",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/publish.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 51,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 51,
+      "endLine": 53,
+      "startOffset": 4,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a0db0a68-0cd3-4331-88cb-5613abd0d2b3",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/publish.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 60,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 60,
+      "endLine": 62,
+      "startOffset": 4,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1a32d126-068f-4441-bdc4-1e7f98022d31",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/publish.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 93,
+    "hash": "f28d265ebd52ef09c18207d8fb59bbc8",
+    "textRange": {
+      "startLine": 93,
+      "endLine": 93,
+      "startOffset": 19,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a534a23c-a809-435e-ac0d-1ee64e099917",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/publish.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 135,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 135,
+      "endLine": 138,
+      "startOffset": 6,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5c04e9c2-f66c-4af3-9729-d806ad42d110",
+    "rule": "javascript:S7785",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/publish.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 155,
+    "hash": "73377e1e0d1751a7f97a777ee007d8ff",
+    "textRange": {
+      "startLine": 155,
+      "endLine": 155,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over an async function `main` call.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dfbfb0c8-e1aa-412f-ae45-4d37ed1fd134",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 2,
+    "hash": "b54c5f1452b26764a4661bf06a14be46",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 26,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:child_process` over `child_process`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a9dcdf5b-166f-4a15-bff6-88b63f0878c1",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 3,
+    "hash": "44f9b15d3b1641faca5561b190d8261a",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 19,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dd335b04-55ab-4408-ae3f-6362d1c5a25a",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 4,
+    "hash": "f227fe2b921eb49152d336ed73ba5db8",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 19,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:os` over `os`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "970c3191-1c7f-4787-af25-d3aded620754",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 5,
+    "hash": "85968f5b9f570a82c65709eacc211a09",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 21,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "db49e15f-3695-48dc-97d4-12c32aeba4b1",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 13,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 16,
+      "startOffset": 2,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "605bfc36-ebe1-42d5-9238-b221e3f1fd75",
+    "rule": "javascript:S3776",
+    "severity": "CRITICAL",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 61,
+    "hash": "2a2a7cd513fc51997c6da5e27c2b7532",
+    "textRange": {
+      "startLine": 61,
+      "endLine": 61,
+      "startOffset": 15,
+      "endOffset": 24
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 78,
+              "endLine": 78,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 146,
+              "endLine": 146,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 146,
+              "endLine": 146,
+              "startOffset": 22,
+              "endOffset": 24
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 148,
+              "endLine": 148,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 155,
+              "endLine": 155,
+              "startOffset": 2,
+              "endOffset": 5
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 158,
+              "endLine": 158,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 158,
+              "endLine": 158,
+              "startOffset": 29,
+              "endOffset": 31
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 160,
+              "endLine": 160,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 161,
+              "endLine": 161,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 166,
+              "endLine": 166,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 167,
+              "endLine": 167,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 167,
+              "endLine": 167,
+              "startOffset": 39,
+              "endOffset": 41
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 172,
+              "endLine": 172,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 173,
+              "endLine": 173,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 173,
+              "endLine": 173,
+              "startOffset": 39,
+              "endOffset": 41
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 178,
+              "endLine": 178,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 179,
+              "endLine": 179,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 183,
+              "endLine": 183,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 186,
+              "endLine": 186,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 190,
+              "endLine": 190,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 191,
+              "endLine": 191,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 195,
+              "endLine": 195,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 198,
+              "endLine": 198,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 202,
+              "endLine": 202,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 203,
+              "endLine": 203,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 207,
+              "endLine": 207,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 210,
+              "endLine": 210,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 214,
+              "endLine": 214,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 215,
+              "endLine": 215,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 220,
+              "endLine": 220,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 222,
+              "endLine": 222,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 224,
+              "endLine": 224,
+              "startOffset": 6,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 231,
+              "endLine": 231,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 237,
+              "endLine": 237,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 237,
+              "endLine": 237,
+              "startOffset": 35,
+              "endOffset": 37
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 241,
+              "endLine": 241,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 241,
+              "endLine": 241,
+              "startOffset": 35,
+              "endOffset": 37
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 245,
+              "endLine": 245,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 245,
+              "endLine": 245,
+              "startOffset": 38,
+              "endOffset": 40
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 61 to the 15 allowed.",
+    "effort": "51min",
+    "debt": "51min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "50d03671-501d-41d3-9efb-8d9511e77faf",
+    "rule": "javascript:S2310",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 185,
+    "hash": "abd73dc25743daca34722f6707cc98fb",
+    "textRange": {
+      "startLine": 185,
+      "endLine": 185,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 155,
+              "endLine": 155,
+              "startOffset": 35,
+              "endOffset": 36
+            },
+            "msg": "Counter variable update",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Remove this assignment of \"i\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7f96a269-92f2-4cd8-8487-0e9ea954dcc4",
+    "rule": "javascript:S2310",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 197,
+    "hash": "abd73dc25743daca34722f6707cc98fb",
+    "textRange": {
+      "startLine": 197,
+      "endLine": 197,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 155,
+              "endLine": 155,
+              "startOffset": 35,
+              "endOffset": 36
+            },
+            "msg": "Counter variable update",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Remove this assignment of \"i\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a6943a8e-a9ed-4523-b52d-9a7e4aa307e5",
+    "rule": "javascript:S2310",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 209,
+    "hash": "abd73dc25743daca34722f6707cc98fb",
+    "textRange": {
+      "startLine": 209,
+      "endLine": 209,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 155,
+              "endLine": 155,
+              "startOffset": 35,
+              "endOffset": 36
+            },
+            "msg": "Counter variable update",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Remove this assignment of \"i\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cbc67af3-8669-4110-9ed6-9f1059ebed67",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 276,
+    "hash": "0aa9f0f5a555c11f285ab8275a0738d1",
+    "textRange": {
+      "startLine": 276,
+      "endLine": 276,
+      "startOffset": 6,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "30f5cecd-6743-4db4-974d-1de731d5770c",
+    "rule": "javascript:S3358",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 281,
+    "hash": "57148714cd419318ce65bb1c1564666d",
+    "textRange": {
+      "startLine": 281,
+      "endLine": 281,
+      "startOffset": 63,
+      "endOffset": 114
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a243b8f9-ff7d-48fa-ad63-0c2239d84fdc",
+    "rule": "javascript:S3776",
+    "severity": "CRITICAL",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 322,
+    "hash": "50933e532b2538087013ab45adf64254",
+    "textRange": {
+      "startLine": 322,
+      "endLine": 322,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 325,
+              "endLine": 325,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 332,
+              "endLine": 332,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 334,
+              "endLine": 334,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 340,
+              "endLine": 340,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 343,
+              "endLine": 343,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 348,
+              "endLine": 348,
+              "startOffset": 6,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 357,
+              "endLine": 357,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 361,
+              "endLine": 361,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 372,
+              "endLine": 372,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 381,
+              "endLine": 381,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 408,
+              "endLine": 408,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 418,
+              "endLine": 418,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 429,
+              "endLine": 429,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 438,
+              "endLine": 438,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 439,
+              "endLine": 439,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 521,
+              "endLine": 521,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 444,
+              "endLine": 444,
+              "startOffset": 10,
+              "endOffset": 12
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 455,
+              "endLine": 455,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 448,
+              "endLine": 448,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+4 (incl. 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 451,
+              "endLine": 451,
+              "startOffset": 14,
+              "endOffset": 18
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 458,
+              "endLine": 458,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+4 (incl. 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 461,
+              "endLine": 461,
+              "startOffset": 14,
+              "endOffset": 18
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 467,
+              "endLine": 467,
+              "startOffset": 10,
+              "endOffset": 15
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 474,
+              "endLine": 474,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 477,
+              "endLine": 477,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 516,
+              "endLine": 516,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 524,
+              "endLine": 524,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 527,
+              "endLine": 527,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 566,
+              "endLine": 566,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 573,
+              "endLine": 573,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 577,
+              "endLine": 577,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 588,
+              "endLine": 588,
+              "startOffset": 10,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 581,
+              "endLine": 581,
+              "startOffset": 10,
+              "endOffset": 12
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 584,
+              "endLine": 584,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 591,
+              "endLine": 591,
+              "startOffset": 10,
+              "endOffset": 12
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 594,
+              "endLine": 594,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 600,
+              "endLine": 600,
+              "startOffset": 8,
+              "endOffset": 13
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 608,
+              "endLine": 608,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 611,
+              "endLine": 611,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 613,
+              "endLine": 613,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 619,
+              "endLine": 619,
+              "startOffset": 10,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 625,
+              "endLine": 625,
+              "startOffset": 10,
+              "endOffset": 12
+            },
+            "msg": "+4 (incl. 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 628,
+              "endLine": 628,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 638,
+              "endLine": 638,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 654,
+              "endLine": 654,
+              "startOffset": 8,
+              "endOffset": 13
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 672,
+              "endLine": 672,
+              "startOffset": 8,
+              "endOffset": 13
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 679,
+              "endLine": 679,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 684,
+              "endLine": 684,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 701,
+              "endLine": 701,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 91 to the 15 allowed.",
+    "effort": "1h21min",
+    "debt": "1h21min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "54e18f87-5731-4e56-9e21-a143a0c80388",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 394,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 394,
+      "endLine": 396,
+      "startOffset": 8,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cec85705-cb95-4c81-8b73-58918f41ea98",
+    "rule": "javascript:S4144",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 544,
+    "hash": "a866c12ba479011741bfbd14808e21f5",
+    "textRange": {
+      "startLine": 544,
+      "endLine": 544,
+      "startOffset": 41,
+      "endOffset": 43
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+            "textRange": {
+              "startLine": 494,
+              "endLine": 494,
+              "startOffset": 41,
+              "endOffset": 43
+            },
+            "msg": "Original implementation",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Update this function so that its implementation is not identical to the one on line 494.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [
+      "confusing",
+      "duplicate",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ee24445d-9883-4b18-acd9-b4e3bee7ebf6",
+    "rule": "javascript:S6660",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 613,
+    "hash": "e87826e79cd9f72efbe937bbee42a092",
+    "textRange": {
+      "startLine": 613,
+      "endLine": 613,
+      "startOffset": 8,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'If' statement should not be the only statement in 'else' block",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a29e1145-087e-4113-9119-c75640a2c210",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 654,
+    "hash": "cd0b43a70dc3f336db02ee5d194b6db2",
+    "textRange": {
+      "startLine": 654,
+      "endLine": 656,
+      "startOffset": 8,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ca6ba7d7-e7d6-4249-b6ac-e7916ee1669e",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 672,
+    "hash": "2ae78a657b88d60dbd24b0b0f7eddca9",
+    "textRange": {
+      "startLine": 672,
+      "endLine": 672,
+      "startOffset": 8,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8f546247-2343-47fc-a391-8744d0ff0f8b",
+    "rule": "javascript:S7785",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/npx/run-claude-artifact.js",
+    "project": "philsimon__claude-spam-checker",
+    "line": 712,
+    "hash": "73377e1e0d1751a7f97a777ee007d8ff",
+    "textRange": {
+      "startLine": 712,
+      "endLine": 712,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over an async function `main` call.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a32ed0cc-46b5-4190-a093-7885228f59f1",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/remixed-212eff5b.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 2,
+    "hash": "29005639b2ca0c0d268fc1efe49b2b7c",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 68,
+      "endOffset": 72
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'Link'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "72566806-00b1-4be0-83da-a75a7ced1c9f",
+    "rule": "typescript:S6479",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/remixed-212eff5b.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 205,
+    "hash": "d70e7b08084a8dc0b1ddca1896b51181",
+    "textRange": {
+      "startLine": 205,
+      "endLine": 205,
+      "startOffset": 25,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9e9be82b-70cb-443c-bb0a-c7a7b7f5043c",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/remixed-212eff5b.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 211,
+    "hash": "0c9b835defa63f24a9cbecb1b99ece2b",
+    "textRange": {
+      "startLine": 211,
+      "endLine": 213,
+      "startOffset": 24,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "457c13b4-59ec-47c6-8aeb-62467f3655ca",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/remixed-212eff5b.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 212,
+    "hash": "7caf1fa06f7d6572406e8fdd8d9acf8e",
+    "textRange": {
+      "startLine": 212,
+      "endLine": 213,
+      "startOffset": 24,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "21bb1d3c-4f07-47cb-a202-aa01cd526f39",
+    "rule": "typescript:S6479",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/remixed-212eff5b.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 258,
+    "hash": "1403272c013d94d95c71081db759f177",
+    "textRange": {
+      "startLine": 258,
+      "endLine": 258,
+      "startOffset": 37,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bb8498a3-efe3-44f5-bfa8-449173ad2254",
+    "rule": "typescript:S6479",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/remixed-212eff5b.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 297,
+    "hash": "08b88d8e976ad374214bd3ddb24f10c1",
+    "textRange": {
+      "startLine": 297,
+      "endLine": 297,
+      "startOffset": 37,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "29ff8570-4c43-4f10-91b7-32795dedb687",
+    "rule": "typescript:S6479",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/remixed-212eff5b.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 308,
+    "hash": "997c06a2febcd0f207bb23ef0d005938",
+    "textRange": {
+      "startLine": 308,
+      "endLine": 308,
+      "startOffset": 37,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2af18845-7822-4a0a-8774-31fbefe9da7b",
+    "rule": "typescript:S6479",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/remixed-212eff5b.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 319,
+    "hash": "7f1d9c6779108a434a44527487f785b5",
+    "textRange": {
+      "startLine": 319,
+      "endLine": 319,
+      "startOffset": 37,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "41c853b3-b35d-4e2e-9662-519f9182b05c",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/artifacts/index.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 2,
+    "hash": "29005639b2ca0c0d268fc1efe49b2b7c",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 68,
+      "endOffset": 72
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'Link'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "138d2606-4a17-40e4-8e55-086abdbb0d82",
+    "rule": "typescript:S6479",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/artifacts/index.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 205,
+    "hash": "d70e7b08084a8dc0b1ddca1896b51181",
+    "textRange": {
+      "startLine": 205,
+      "endLine": 205,
+      "startOffset": 25,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "db3a3ba8-4c9e-4fe2-b2f5-c053b71657ab",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/artifacts/index.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 211,
+    "hash": "0c9b835defa63f24a9cbecb1b99ece2b",
+    "textRange": {
+      "startLine": 211,
+      "endLine": 213,
+      "startOffset": 24,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f8749295-dde7-470f-8370-cb1c02b0c582",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/artifacts/index.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 212,
+    "hash": "7caf1fa06f7d6572406e8fdd8d9acf8e",
+    "textRange": {
+      "startLine": 212,
+      "endLine": 213,
+      "startOffset": 24,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8599c44b-e462-43e5-b04f-3867bc0c059a",
+    "rule": "typescript:S6479",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/artifacts/index.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 258,
+    "hash": "1403272c013d94d95c71081db759f177",
+    "textRange": {
+      "startLine": 258,
+      "endLine": 258,
+      "startOffset": 37,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a9af71f6-0df0-4513-9076-d7481f990964",
+    "rule": "typescript:S6479",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/artifacts/index.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 297,
+    "hash": "08b88d8e976ad374214bd3ddb24f10c1",
+    "textRange": {
+      "startLine": 297,
+      "endLine": 297,
+      "startOffset": 37,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5eae30fe-97be-469d-9cb7-452068badd4a",
+    "rule": "typescript:S6479",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/artifacts/index.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 308,
+    "hash": "997c06a2febcd0f207bb23ef0d005938",
+    "textRange": {
+      "startLine": 308,
+      "endLine": 308,
+      "startOffset": 37,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "35dcb37e-e7de-4f63-8c36-bab03f551f86",
+    "rule": "typescript:S6479",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/artifacts/index.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 319,
+    "hash": "7f1d9c6779108a434a44527487f785b5",
+    "textRange": {
+      "startLine": 319,
+      "endLine": 319,
+      "startOffset": 37,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "977d352f-da92-4e82-a064-d33a08c5894f",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/artifacts/signup.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 20,
+    "hash": "0c04e3e57e54823801a0794b8e2fa5b2",
+    "textRange": {
+      "startLine": 20,
+      "endLine": 20,
+      "startOffset": 15,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bcc70b13-1e44-44ec-a3a7-622524187881",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/components/layout.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 3,
+    "hash": "5f626cf21dbc82711e8a7538147e5969",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 31,
+      "endOffset": 74
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ee14ff13-13fa-4115-ad68-b59159f27464",
+    "rule": "typescript:S6850",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/components/ui/alert.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 39,
+    "hash": "942f8e7d3863befe2a3defa9fd02b7dc",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 43,
+      "startOffset": 2,
+      "endOffset": 4
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Headings must have content and the content must be accessible by a screen reader.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f9292642-4c8e-4768-a19a-a8b765298c24",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/components/ui/breadcrumb.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 64,
+    "hash": "8a6c065819987cf2b44de8c2f5493486",
+    "textRange": {
+      "startLine": 64,
+      "endLine": 71,
+      "startOffset": 2,
+      "endOffset": 4
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <a href=...>, or <area href=...> instead of the \"link\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8853e60d-0918-4c08-aeeb-062853891b99",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/components/ui/breadcrumb.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 80,
+    "hash": "b0651008da5abf68c9d90e615f642cd4",
+    "textRange": {
+      "startLine": 80,
+      "endLine": 85,
+      "startOffset": 2,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <img alt=...> instead of the \"presentation\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6105a5f5-6f12-4849-b58b-47d0e783ccd5",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/components/ui/breadcrumb.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 95,
+    "hash": "8a6c065819987cf2b44de8c2f5493486",
+    "textRange": {
+      "startLine": 95,
+      "endLine": 100,
+      "startOffset": 2,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <img alt=...> instead of the \"presentation\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4b80fc66-67d8-48fe-b6a2-ace743e1e4af",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/components/ui/calendar.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 55,
+    "hash": "b2d64792aab4882536cb886c4d306280",
+    "textRange": {
+      "startLine": 55,
+      "endLine": 55,
+      "startOffset": 21,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "67027e06-aacc-4719-8dbf-c101b3019c68",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/components/ui/calendar.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 56,
+    "hash": "147b9d883b3bdad29517651bd7caa398",
+    "textRange": {
+      "startLine": 56,
+      "endLine": 56,
+      "startOffset": 22,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "207701d4-80d6-45c2-903a-87bbc2412777",
+    "rule": "typescript:S6850",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/components/ui/card.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 36,
+    "hash": "7bbb0578ee9897d673a97250669d8dec",
+    "textRange": {
+      "startLine": 36,
+      "endLine": 43,
+      "startOffset": 2,
+      "endOffset": 4
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Headings must have content and the content must be accessible by a screen reader.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a4539b1f-bdd5-4076-af58-9be61504a988",
+    "rule": "typescript:S6481",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/components/ui/carousel.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 123,
+    "hash": "67a8a13e3c41d46fa1510212abb1a4af",
+    "textRange": {
+      "startLine": 123,
+      "endLine": 133,
+      "startOffset": 15,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The object passed as the value prop to the Context provider changes every render. To fix this consider wrapping it in a useMemo hook.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6790fc3c-5478-4009-87fe-4c3d852fbcf1",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/components/ui/carousel.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 135,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 135,
+      "endLine": 142,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <section aria-label=...>, or <section aria-labelledby=...> instead of the \"region\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4083bee1-c4ba-432f-a1fb-bc7c4c582dd2",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/components/ui/carousel.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 180,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 180,
+      "endLine": 190,
+      "startOffset": 4,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <details>, <fieldset>, <optgroup>, or <address> instead of the \"group\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6df0f6a1-0bae-4192-82cf-6636025f90b5",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/components/ui/chart.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 45,
+    "hash": "e322bc4db5d433dcf539ea6244128b01",
+    "textRange": {
+      "startLine": 45,
+      "endLine": 45,
+      "startOffset": 42,
+      "endOffset": 49
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "46cc4775-616e-48d6-8756-bc4e4b84d21b",
+    "rule": "typescript:S6481",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/components/ui/chart.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 48,
+    "hash": "a8f9004863a6e44d7512ef281cb21a23",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 34,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The object passed as the value prop to the Context provider changes every render. To fix this consider wrapping it in a useMemo hook.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "104fab0d-f0ed-409d-9925-ddc609795488",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/components/ui/chart.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 182,
+    "hash": "bac20a6d207f17efe3476f3d3c95adf3",
+    "textRange": {
+      "startLine": 182,
+      "endLine": 182,
+      "startOffset": 9,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a2613126-23c3-4889-95b6-2cb54f730eba",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/components/ui/chart.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 351,
+    "hash": "b2d27f7a11ec7672177e62d6a2cb638d",
+    "textRange": {
+      "startLine": 351,
+      "endLine": 351,
+      "startOffset": 13,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a6a841fd-7437-4892-951d-96a1fc2c253d",
+    "rule": "typescript:S6747",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/components/ui/command.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 42,
+    "hash": "48e69635da2a4c96c3ee289eafe98d9e",
+    "textRange": {
+      "startLine": 42,
+      "endLine": 42,
+      "startOffset": 51,
+      "endOffset": 72
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unknown property 'cmdk-input-wrapper' found",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3aab6595-61a1-489f-81cf-72e1843c5816",
+    "rule": "typescript:S6481",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/components/ui/form.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 36,
+    "hash": "67a261a453fe58f7c5782a0f2e21dcc9",
+    "textRange": {
+      "startLine": 36,
+      "endLine": 36,
+      "startOffset": 38,
+      "endOffset": 58
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The object passed as the value prop to the Context provider changes every render. To fix this consider wrapping it in a useMemo hook.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4027577e-cfb3-44c9-b49b-f02a3d979e08",
+    "rule": "typescript:S6481",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/components/ui/form.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 80,
+    "hash": "471e6011dfb5d503b04373806824705c",
+    "textRange": {
+      "startLine": 80,
+      "endLine": 80,
+      "startOffset": 37,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The object passed as the value prop to the Context provider changes every render. To fix this consider wrapping it in a useMemo hook.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "aff4de09-fa94-4824-8eee-109e4f8c0ad1",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/components/ui/form.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 115,
+    "hash": "e0d7ead16591dc999f55a68b661b7012",
+    "textRange": {
+      "startLine": 115,
+      "endLine": 115,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3a304aa5-a929-4f82-b0dd-c649c03e1987",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/components/ui/input-otp.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 63,
+    "hash": "822728075383fd3d31fc742a36eb278d",
+    "textRange": {
+      "startLine": 63,
+      "endLine": 63,
+      "startOffset": 2,
+      "endOffset": 45
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <hr> instead of the \"separator\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "829050a0-6ff8-44f8-88a4-f62b9bc958d5",
+    "rule": "typescript:S6827",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/components/ui/pagination.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 48,
+    "hash": "2518e8d779a92f826f3c8b7a1c062913",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 58,
+      "startOffset": 2,
+      "endOffset": 4
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchors must have content and the content must be accessible by a screen reader.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a93535a7-190a-4865-b535-99aacf4ac58b",
+    "rule": "typescript:S5256",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/components/ui/table.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 10,
+    "hash": "e2874e8e0fdc613d154ecc1ffa50bef1",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 14,
+      "startOffset": 4,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a valid header row or column to this \"<table>\".",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "92547bb7-f4f1-46c2-a7ee-2a7b26aebaf6",
+    "rule": "typescript:S6481",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/components/ui/toggle-group.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 25,
+    "hash": "6b5bad61b25ebb777d4826a5de633a90",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 40,
+      "endOffset": 57
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The object passed as the value prop to the Context provider changes every render. To fix this consider wrapping it in a useMemo hook.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b80c4e5d-7ead-430c-9e19-2054e532d7e6",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/components/ui/use-toast.ts",
+    "project": "philsimon__claude-spam-checker",
+    "line": 99,
+    "hash": "e5c54efb35efeeeef87e6374e07248da",
+    "textRange": {
+      "startLine": 99,
+      "endLine": 99,
+      "startOffset": 21,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "088f6036-ca2f-4e54-b523-17e8d6c7a56b",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/components/ui/use-toast.ts",
+    "project": "philsimon__claude-spam-checker",
+    "line": 136,
+    "hash": "ebfeee73357295d127ffd7a9c2d502f9",
+    "textRange": {
+      "startLine": 136,
+      "endLine": 136,
+      "startOffset": 12,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "beb58961-65ff-48ac-8fe1-2ef7aea8621d",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 8,
+    "hash": "e1e36e6ada5b84e00bcee8235b7ed814",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 23,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis.window` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "edbd8d6b-13e9-4f00-91e9-2d3c5b069bbe",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 8,
+    "hash": "e1e36e6ada5b84e00bcee8235b7ed814",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 49,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "68a423a4-7060-44c2-b88a-cc340d576fb0",
+    "rule": "typescript:S3776",
+    "severity": "CRITICAL",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 11,
+    "hash": "633558f230c4a445a5c9e347a926571d",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 9,
+      "endOffset": 20
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+            "textRange": {
+              "startLine": 16,
+              "endLine": 16,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+            "textRange": {
+              "startLine": 16,
+              "endLine": 16,
+              "startOffset": 15,
+              "endOffset": 17
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+            "textRange": {
+              "startLine": 18,
+              "endLine": 18,
+              "startOffset": 46,
+              "endOffset": 47
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+            "textRange": {
+              "startLine": 19,
+              "endLine": 19,
+              "startOffset": 42,
+              "endOffset": 43
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+            "textRange": {
+              "startLine": 21,
+              "endLine": 21,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+            "textRange": {
+              "startLine": 21,
+              "endLine": 21,
+              "startOffset": 19,
+              "endOffset": 21
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+            "textRange": {
+              "startLine": 28,
+              "endLine": 28,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+            "textRange": {
+              "startLine": 31,
+              "endLine": 31,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+            "textRange": {
+              "startLine": 34,
+              "endLine": 34,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+            "textRange": {
+              "startLine": 34,
+              "endLine": 34,
+              "startOffset": 29,
+              "endOffset": 31
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+            "textRange": {
+              "startLine": 36,
+              "endLine": 36,
+              "startOffset": 12,
+              "endOffset": 13
+            },
+            "msg": "+4 (incl. 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+            "textRange": {
+              "startLine": 38,
+              "endLine": 38,
+              "startOffset": 10,
+              "endOffset": 12
+            },
+            "msg": "+4 (incl. 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+            "textRange": {
+              "startLine": 38,
+              "endLine": 38,
+              "startOffset": 19,
+              "endOffset": 21
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+            "textRange": {
+              "startLine": 42,
+              "endLine": 42,
+              "startOffset": 8,
+              "endOffset": 13
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+            "textRange": {
+              "startLine": 52,
+              "endLine": 52,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+            "textRange": {
+              "startLine": 52,
+              "endLine": 52,
+              "startOffset": 18,
+              "endOffset": 20
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+            "textRange": {
+              "startLine": 55,
+              "endLine": 55,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+            "textRange": {
+              "startLine": 55,
+              "endLine": 55,
+              "startOffset": 19,
+              "endOffset": 21
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+            "textRange": {
+              "startLine": 63,
+              "endLine": 63,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+            "textRange": {
+              "startLine": 66,
+              "endLine": 66,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+            "textRange": {
+              "startLine": 66,
+              "endLine": 66,
+              "startOffset": 23,
+              "endOffset": 25
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 41 to the 15 allowed.",
+    "effort": "31min",
+    "debt": "31min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9e4539b7-9a94-42b5-9105-3e51bd511a1f",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 28,
+    "hash": "7b104c68ea27764eedffa38bf01a5bee",
+    "textRange": {
+      "startLine": 28,
+      "endLine": 28,
+      "startOffset": 13,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis.window` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4752d692-89e3-423c-9da6-cf26bcafcfd9",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 33,
+    "hash": "c3a4d9fe8a70db988ab03841c073c728",
+    "textRange": {
+      "startLine": 33,
+      "endLine": 33,
+      "startOffset": 46,
+      "endOffset": 52
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9aa3185c-bd0d-4f7b-9cb0-2c76099eeca7",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 48,
+    "hash": "d61bf3047a2baee17d85a914f2578165",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 21,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ee11ebe2-405d-4997-8a46-ec22a1b82163",
+    "rule": "typescript:S6594",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 51,
+    "hash": "6df2cb58c1fb9a7dafdb40986bb90e69",
+    "textRange": {
+      "startLine": 51,
+      "endLine": 51,
+      "startOffset": 31,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the \"RegExp.exec()\" method instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "regex",
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4ff35221-86c2-449e-b159-862d5852aec5",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 52,
+    "hash": "14812460d52d7c8f546389ec5439ae02",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 52,
+      "startOffset": 8,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f829bac0-1638-4e8a-9d6c-2780cbcd8609",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 81,
+    "hash": "e9de6f895839be6f47105240f1467958",
+    "textRange": {
+      "startLine": 81,
+      "endLine": 81,
+      "startOffset": 43,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0ee8317d-96f8-47fb-ad6a-c64959af4456",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/src/main.tsx",
+    "project": "philsimon__claude-spam-checker",
+    "line": 82,
+    "hash": "89f5ba035033a21d10ed54160775bb0a",
+    "textRange": {
+      "startLine": 82,
+      "endLine": 82,
+      "startOffset": 46,
+      "endOffset": 62
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9698b244-bbf5-4ec1-ae07-565b6637ac6a",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "philsimon__claude-spam-checker:temp_repos/claude-spam-checker/vite.config.ts",
+    "project": "philsimon__claude-spam-checker",
+    "line": 3,
+    "hash": "86d5e1b4b9e37b9f521e62e76cad3435",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 17,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-15T22:05:26+0000",
+    "updateDate": "2026-07-15T22:05:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

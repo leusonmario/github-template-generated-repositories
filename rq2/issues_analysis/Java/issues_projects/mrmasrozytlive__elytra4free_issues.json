@@ -1,0 +1,6448 @@
+[
+  {
+    "key": "91b0f994-b788-40ce-93af-3386c9e6a5f3",
+    "rule": "java:S1118",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytra.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 6,
+    "hash": "d62735fc7324d3989a170c66371c3ec9",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 13,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a private constructor to hide the implicit public one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "425d19d6-e9e4-49b8-ab60-cfdef997be08",
+    "rule": "java:S1450",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 30,
+    "hash": "d5126329e0fb1d2baa105af0d1c08ede",
+    "textRange": {
+      "startLine": 30,
+      "endLine": 30,
+      "startOffset": 30,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the \"keyBinding\" field and declare it as a local variable in the relevant methods.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "062f8081-7c3c-41fc-a3b7-8c68f9a7c1c5",
+    "rule": "java:S1444",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 31,
+    "hash": "017b1e348e170131fc1cad3672672255",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 48,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make this \"public static instance\" field final",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1c14d547-7b8d-4d5c-a154-6bfa6301decd",
+    "rule": "java:S1104",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 31,
+    "hash": "017b1e348e170131fc1cad3672672255",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 48,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make instance a static final constant or non-public and provide accessors if needed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "95cf99fc-fcd6-45b9-8867-f981943f6170",
+    "rule": "java:S1104",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 43,
+    "hash": "eb510cb94d8a056b918bf8ad2f572c8b",
+    "textRange": {
+      "startLine": 43,
+      "endLine": 43,
+      "startOffset": 25,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make pullUpAngle a static final constant or non-public and provide accessors if needed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d2fda803-6075-4cfb-8a1d-00c29047c51f",
+    "rule": "java:S1444",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 43,
+    "hash": "eb510cb94d8a056b918bf8ad2f572c8b",
+    "textRange": {
+      "startLine": 43,
+      "endLine": 43,
+      "startOffset": 25,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make this \"public static pullUpAngle\" field final",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "33a84fd5-a3a7-4bc4-afb0-3a4c97590e38",
+    "rule": "java:S1104",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 44,
+    "hash": "341eee68754743024cd5f4646367059e",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 44,
+      "startOffset": 25,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make pullDownAngle a static final constant or non-public and provide accessors if needed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "88a42382-ead7-47bf-a12e-5291c13ef74e",
+    "rule": "java:S1444",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 44,
+    "hash": "341eee68754743024cd5f4646367059e",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 44,
+      "startOffset": 25,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make this \"public static pullDownAngle\" field final",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3fa5d38f-f906-4be7-92f2-be75ad0992f2",
+    "rule": "java:S1444",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 45,
+    "hash": "d32ecf685f3d904ded9c568fa2b70d52",
+    "textRange": {
+      "startLine": 45,
+      "endLine": 45,
+      "startOffset": 25,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make this \"public static pullUpMinVelocity\" field final",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8d86290a-cd1c-495b-aa3b-969edc2ee556",
+    "rule": "java:S1104",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 45,
+    "hash": "d32ecf685f3d904ded9c568fa2b70d52",
+    "textRange": {
+      "startLine": 45,
+      "endLine": 45,
+      "startOffset": 25,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make pullUpMinVelocity a static final constant or non-public and provide accessors if needed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4dbf6c71-12dd-4f46-bdec-98a775f0a525",
+    "rule": "java:S1444",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 46,
+    "hash": "872400591085504de9562b62d6aafbf3",
+    "textRange": {
+      "startLine": 46,
+      "endLine": 46,
+      "startOffset": 25,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make this \"public static pullDownMaxVelocity\" field final",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "59e77f80-c3c2-4121-aa58-6eabfdbd10c1",
+    "rule": "java:S1104",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 46,
+    "hash": "872400591085504de9562b62d6aafbf3",
+    "textRange": {
+      "startLine": 46,
+      "endLine": 46,
+      "startOffset": 25,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make pullDownMaxVelocity a static final constant or non-public and provide accessors if needed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9eef1ab9-a2b2-4768-8295-f5bd837fb4ff",
+    "rule": "java:S1104",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 47,
+    "hash": "deb14ba28755ba5b65808d692a1bb4fa",
+    "textRange": {
+      "startLine": 47,
+      "endLine": 47,
+      "startOffset": 25,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make pullUpSpeed a static final constant or non-public and provide accessors if needed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f23dc5f0-ce67-47aa-8492-238580e95bd3",
+    "rule": "java:S1444",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 47,
+    "hash": "deb14ba28755ba5b65808d692a1bb4fa",
+    "textRange": {
+      "startLine": 47,
+      "endLine": 47,
+      "startOffset": 25,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make this \"public static pullUpSpeed\" field final",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8203b87a-4d50-4816-b07b-d7c15d6a928a",
+    "rule": "java:S1444",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 48,
+    "hash": "b2fdd6015e74512269a513d82c91e39d",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 25,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make this \"public static pullDownSpeed\" field final",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8a0066ba-4436-4f43-83dd-980e4ca4d7b4",
+    "rule": "java:S1104",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 48,
+    "hash": "b2fdd6015e74512269a513d82c91e39d",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 25,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make pullDownSpeed a static final constant or non-public and provide accessors if needed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "78dfb787-f90c-4400-bce9-628fbef2e8e4",
+    "rule": "java:S115",
+    "severity": "CRITICAL",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 49,
+    "hash": "d13d2efe7315ddd774b937df6f077263",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 49,
+      "startOffset": 28,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6133c93d-48aa-4bd5-88c0-50e0c756ec34",
+    "rule": "java:S1444",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 50,
+    "hash": "8438beca7121c07112f0876ca64e3df1",
+    "textRange": {
+      "startLine": 50,
+      "endLine": 50,
+      "startOffset": 22,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make this \"public static rotationStage\" field final",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "695c8e08-fdaa-4d81-a247-2dbbb1238f0b",
+    "rule": "java:S1104",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 50,
+    "hash": "8438beca7121c07112f0876ca64e3df1",
+    "textRange": {
+      "startLine": 50,
+      "endLine": 50,
+      "startOffset": 22,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make rotationStage a static final constant or non-public and provide accessors if needed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "821c7892-6b84-42fb-899a-5a0d970d6b54",
+    "rule": "java:S1444",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 54,
+    "hash": "fb488cc41bdeb6055e98a4271ea1cd79",
+    "textRange": {
+      "startLine": 54,
+      "endLine": 54,
+      "startOffset": 26,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make this \"public static showHud\" field final",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "90f0c3f6-13a8-4ea0-ae1c-8bc845b248ab",
+    "rule": "java:S1104",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 54,
+    "hash": "fb488cc41bdeb6055e98a4271ea1cd79",
+    "textRange": {
+      "startLine": 54,
+      "endLine": 54,
+      "startOffset": 26,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make showHud a static final constant or non-public and provide accessors if needed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bddb881d-7ae8-474f-be78-c4415e595be0",
+    "rule": "java:S1104",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 55,
+    "hash": "e01c9fe980db116354bc9f90326b666f",
+    "textRange": {
+      "startLine": 55,
+      "endLine": 55,
+      "startOffset": 26,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make autoFlight a static final constant or non-public and provide accessors if needed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f4e4ab50-cd56-436e-9fc3-61475b8da590",
+    "rule": "java:S1444",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 55,
+    "hash": "e01c9fe980db116354bc9f90326b666f",
+    "textRange": {
+      "startLine": 55,
+      "endLine": 55,
+      "startOffset": 26,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make this \"public static autoFlight\" field final",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5226f99c-2d14-4bce-b1ca-8d042efe4247",
+    "rule": "java:S1444",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 60,
+    "hash": "8d584d66505b6083f789386c26b27627",
+    "textRange": {
+      "startLine": 60,
+      "endLine": 60,
+      "startOffset": 26,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make this \"public static isDescending\" field final",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6e21e830-afca-4958-bee5-0dfd59ded050",
+    "rule": "java:S1104",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 60,
+    "hash": "8d584d66505b6083f789386c26b27627",
+    "textRange": {
+      "startLine": 60,
+      "endLine": 60,
+      "startOffset": 26,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make isDescending a static final constant or non-public and provide accessors if needed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "35f42cd7-10bb-4f7a-98dd-e6685f3480cb",
+    "rule": "java:S1104",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 61,
+    "hash": "7c3f93716869281fc87732eb68bbf9f2",
+    "textRange": {
+      "startLine": 61,
+      "endLine": 61,
+      "startOffset": 26,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make pullUp a static final constant or non-public and provide accessors if needed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9fcadd41-1672-4bc5-9b83-3d192e14ae19",
+    "rule": "java:S1444",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 61,
+    "hash": "7c3f93716869281fc87732eb68bbf9f2",
+    "textRange": {
+      "startLine": 61,
+      "endLine": 61,
+      "startOffset": 26,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make this \"public static pullUp\" field final",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "41d50b42-4fe5-46b8-9311-02f7fa76aa09",
+    "rule": "java:S1444",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 62,
+    "hash": "9eb1eef82dc8432c632bb02a3890934b",
+    "textRange": {
+      "startLine": 62,
+      "endLine": 62,
+      "startOffset": 26,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make this \"public static pullDown\" field final",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fe154d4c-77ab-45ed-9729-cc702fbb2c0f",
+    "rule": "java:S1104",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 62,
+    "hash": "9eb1eef82dc8432c632bb02a3890934b",
+    "textRange": {
+      "startLine": 62,
+      "endLine": 62,
+      "startOffset": 26,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make pullDown a static final constant or non-public and provide accessors if needed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1420f32e-ea87-4fab-b2f6-bb1712512257",
+    "rule": "java:S1444",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 63,
+    "hash": "73cb6f633425e0915f06f796b4fba643",
+    "textRange": {
+      "startLine": 63,
+      "endLine": 63,
+      "startOffset": 26,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make this \"public static rotating\" field final",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7bdb324f-cc65-49cb-96f8-cb9587c3b309",
+    "rule": "java:S1104",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 63,
+    "hash": "73cb6f633425e0915f06f796b4fba643",
+    "textRange": {
+      "startLine": 63,
+      "endLine": 63,
+      "startOffset": 26,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make rotating a static final constant or non-public and provide accessors if needed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a8d99156-0dc9-4038-8e4b-40c1d2059a85",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 69,
+    "hash": "26fabee376399c81b5413cb725408068",
+    "textRange": {
+      "startLine": 69,
+      "endLine": 69,
+      "startOffset": 10,
+      "endOffset": 47
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "37853ffc-7d2c-44da-9b13-8ded6964475c",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 72,
+    "hash": "66571197875f8ccc74525d4858706dbf",
+    "textRange": {
+      "startLine": 72,
+      "endLine": 72,
+      "startOffset": 10,
+      "endOffset": 89
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 73,
+              "endLine": 73,
+              "startOffset": 10,
+              "endOffset": 94
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 74,
+              "endLine": 74,
+              "startOffset": 10,
+              "endOffset": 108
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 75,
+              "endLine": 75,
+              "startOffset": 10,
+              "endOffset": 97
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 76,
+              "endLine": 76,
+              "startOffset": 10,
+              "endOffset": 76
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2dfefbb3-5ccb-4c09-971e-ac28a9eca91e",
+    "rule": "java:S2696",
+    "severity": "CRITICAL",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 83,
+    "hash": "6b672701efb8f7894e6da62dd4c372b6",
+    "textRange": {
+      "startLine": 83,
+      "endLine": 83,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make the enclosing method \"static\" or remove this set.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "multi-threading"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6f64dc80-d8e1-4174-aa4b-ae42cd6156c1",
+    "rule": "java:S2696",
+    "severity": "CRITICAL",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 92,
+    "hash": "f04e5fc0880f80aa76ec0a22fb2e7c28",
+    "textRange": {
+      "startLine": 92,
+      "endLine": 92,
+      "startOffset": 8,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make the enclosing method \"static\" or remove this set.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "multi-threading"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7716533e-c67f-44db-8305-f12647491aa2",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 97,
+    "hash": "4867ade79baa97451ef2075900f350d1",
+    "textRange": {
+      "startLine": 97,
+      "endLine": 97,
+      "startOffset": 10,
+      "endOffset": 57
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2edaddbc-a9f1-40ce-bd78-a12a0f7857dd",
+    "rule": "java:S2696",
+    "severity": "CRITICAL",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 99,
+    "hash": "cb657ae94b91901aa94c4b3de21a7983",
+    "textRange": {
+      "startLine": 99,
+      "endLine": 99,
+      "startOffset": 38,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make the enclosing method \"static\" or remove this set.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "multi-threading"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "10f78a2b-1fc3-48de-b9fb-da173943ccaf",
+    "rule": "java:S4274",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 104,
+    "hash": "b43f6f9025a8c86fa0cda5353497cbf9",
+    "textRange": {
+      "startLine": 104,
+      "endLine": 104,
+      "startOffset": 8,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this assert with a proper check.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "59dbbb51-6a13-4a58-938b-780abf40a502",
+    "rule": "java:S2119",
+    "severity": "CRITICAL",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 105,
+    "hash": "7a9e6ba0d8f1aa375d2562e991e4ba99",
+    "textRange": {
+      "startLine": 105,
+      "endLine": 105,
+      "startOffset": 28,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Save and re-use this \"Random\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1a78502c-420e-4a89-89ba-894c105c8c5c",
+    "rule": "java:S3776",
+    "severity": "CRITICAL",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 122,
+    "hash": "aab9ad652934693c5355a2ad62c72aaf",
+    "textRange": {
+      "startLine": 122,
+      "endLine": 122,
+      "startOffset": 24,
+      "endOffset": 30
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 123,
+              "endLine": 123,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 124,
+              "endLine": 124,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 126,
+              "endLine": 126,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 127,
+              "endLine": 127,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 128,
+              "endLine": 128,
+              "startOffset": 16,
+              "endOffset": 20
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 135,
+              "endLine": 135,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 136,
+              "endLine": 136,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 139,
+              "endLine": 139,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 140,
+              "endLine": 140,
+              "startOffset": 20,
+              "endOffset": 24
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 141,
+              "endLine": 141,
+              "startOffset": 18,
+              "endOffset": 22
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 148,
+              "endLine": 148,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 154,
+              "endLine": 154,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 162,
+              "endLine": 162,
+              "startOffset": 18,
+              "endOffset": 22
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 165,
+              "endLine": 165,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 172,
+              "endLine": 172,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 174,
+              "endLine": 174,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 177,
+              "endLine": 177,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 179,
+              "endLine": 179,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 182,
+              "endLine": 182,
+              "startOffset": 14,
+              "endOffset": 18
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 192,
+              "endLine": 192,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this method to reduce its Cognitive Complexity from 44 to the 15 allowed.",
+    "effort": "34min",
+    "debt": "34min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2289cf1b-6e10-42c3-8af2-74cfc01b1760",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 132,
+    "hash": "3446c083eca73be63b4c068d80be7058",
+    "textRange": {
+      "startLine": 132,
+      "endLine": 132,
+      "startOffset": 18,
+      "endOffset": 77
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 133,
+              "endLine": 133,
+              "startOffset": 22,
+              "endOffset": 38
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9f1c2ed2-59d2-4a8a-a99f-3fdc6b4ccc04",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 145,
+    "hash": "01862a60e5f65870f4372e04c43f652b",
+    "textRange": {
+      "startLine": 145,
+      "endLine": 145,
+      "startOffset": 14,
+      "endOffset": 51
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e01b6c87-9036-43d7-91d2-ec19e71a1015",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 150,
+    "hash": "9c272b0e4477d1c46e638d3a60b5b2ee",
+    "textRange": {
+      "startLine": 150,
+      "endLine": 150,
+      "startOffset": 18,
+      "endOffset": 78
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "872f0df9-5477-4f54-8ee5-9255b09667f4",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 152,
+    "hash": "ebba3b78a21f9db57ca1f85b3dc30951",
+    "textRange": {
+      "startLine": 152,
+      "endLine": 152,
+      "startOffset": 18,
+      "endOffset": 103
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+            "textRange": {
+              "startLine": 153,
+              "endLine": 153,
+              "startOffset": 22,
+              "endOffset": 42
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "52e0d102-7cc1-4ab3-b2d8-a3519929d1a7",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 157,
+    "hash": "fa1e456989a31e07841a152a3228fe3e",
+    "textRange": {
+      "startLine": 157,
+      "endLine": 157,
+      "startOffset": 22,
+      "endOffset": 151
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9f9765dd-35e7-4909-a54f-2f52ee4a3521",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 161,
+    "hash": "52e4a5875be95d725763a8bb942144d3",
+    "textRange": {
+      "startLine": 161,
+      "endLine": 161,
+      "startOffset": 22,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2e555295-c785-41a4-b4ab-61cfef06ab03",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 185,
+    "hash": "acbe84cec755980ddb0d2b8df1fffb39",
+    "textRange": {
+      "startLine": 185,
+      "endLine": 185,
+      "startOffset": 18,
+      "endOffset": 53
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c7c3f07b-0222-4be1-b2a5-38f3d20ba23d",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/AutomaticInfiniteElytraClient.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 189,
+    "hash": "71eb8e10c10e320c959bfd22c3877e55",
+    "textRange": {
+      "startLine": 189,
+      "endLine": 189,
+      "startOffset": 14,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "27fa95bf-fbc1-4dab-8030-5fcdc41cfdab",
+    "rule": "java:S1118",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 21,
+    "hash": "8d7c5c580cecf9da4840934305b1ed07",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 13,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a private constructor to hide the implicit public one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0d39d644-2620-4bec-83f8-261f6fdc6d78",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 24,
+    "hash": "295996d99ff6e7258e4d6fbd04cf80ea",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 10,
+      "endOffset": 92
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "47809c6b-8077-4bc5-a8da-2b3c32e2f7a9",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 27,
+    "hash": "4a779bcabd09086201dc2aff356f7253",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 10,
+      "endOffset": 90
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1aa8821a-06da-4c57-b305-1d672023d5d7",
+    "rule": "java:S100",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 31,
+    "hash": "2d82613617b5fa2a4dfc8b593afee08e",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 24,
+      "endOffset": 49
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5269d46a-2d0a-4f41-bf05-918a4232ee08",
+    "rule": "java:S117",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 31,
+    "hash": "2d82613617b5fa2a4dfc8b593afee08e",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 159,
+      "endOffset": 178
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "89f4654b-46ef-4300-b3e9-bea23d70a551",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 49,
+    "hash": "8aff52986af727957b173e487b5a749b",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 49,
+      "startOffset": 6,
+      "endOffset": 179
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 52,
+              "endLine": 52,
+              "startOffset": 16,
+              "endOffset": 38
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 53,
+              "endLine": 53,
+              "startOffset": 20,
+              "endOffset": 67
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 54,
+              "endLine": 54,
+              "startOffset": 20,
+              "endOffset": 81
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 55,
+              "endLine": 55,
+              "startOffset": 20,
+              "endOffset": 98
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 56,
+              "endLine": 56,
+              "startOffset": 20,
+              "endOffset": 79
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 57,
+              "endLine": 57,
+              "startOffset": 20,
+              "endOffset": 29
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 58,
+              "endLine": 58,
+              "startOffset": 24,
+              "endOffset": 70
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 59,
+              "endLine": 59,
+              "startOffset": 28,
+              "endOffset": 64
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 60,
+              "endLine": 60,
+              "startOffset": 28,
+              "endOffset": 48
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 61,
+              "endLine": 61,
+              "startOffset": 28,
+              "endOffset": 207
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 62,
+              "endLine": 62,
+              "startOffset": 24,
+              "endOffset": 25
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 63,
+              "endLine": 63,
+              "startOffset": 24,
+              "endOffset": 203
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 64,
+              "endLine": 64,
+              "startOffset": 20,
+              "endOffset": 21
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 65,
+              "endLine": 65,
+              "startOffset": 20,
+              "endOffset": 192
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 66,
+              "endLine": 66,
+              "startOffset": 19,
+              "endOffset": 28
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 67,
+              "endLine": 67,
+              "startOffset": 8,
+              "endOffset": 13
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 68,
+              "endLine": 68,
+              "startOffset": 4,
+              "endOffset": 5
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "62385797-1fed-427f-946d-7cea122d1c56",
+    "rule": "java:S117",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 70,
+    "hash": "a2e6171655761f71405ac748ff77cb72",
+    "textRange": {
+      "startLine": 70,
+      "endLine": 70,
+      "startOffset": 144,
+      "endOffset": 163
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4c0609b7-465d-4ff5-bd8e-1e99887718b8",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 79,
+    "hash": "5b42fbfd8ba5254f217a70305384b201",
+    "textRange": {
+      "startLine": 79,
+      "endLine": 79,
+      "startOffset": 6,
+      "endOffset": 177
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 83,
+              "endLine": 83,
+              "startOffset": 28,
+              "endOffset": 50
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 84,
+              "endLine": 84,
+              "startOffset": 32,
+              "endOffset": 79
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 85,
+              "endLine": 85,
+              "startOffset": 32,
+              "endOffset": 93
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 86,
+              "endLine": 86,
+              "startOffset": 32,
+              "endOffset": 106
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 87,
+              "endLine": 87,
+              "startOffset": 32,
+              "endOffset": 102
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 88,
+              "endLine": 88,
+              "startOffset": 36,
+              "endOffset": 82
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 89,
+              "endLine": 89,
+              "startOffset": 40,
+              "endOffset": 76
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 90,
+              "endLine": 90,
+              "startOffset": 40,
+              "endOffset": 181
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 91,
+              "endLine": 91,
+              "startOffset": 36,
+              "endOffset": 37
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 92,
+              "endLine": 92,
+              "startOffset": 36,
+              "endOffset": 215
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 93,
+              "endLine": 93,
+              "startOffset": 32,
+              "endOffset": 41
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 94,
+              "endLine": 94,
+              "startOffset": 28,
+              "endOffset": 34
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+            "textRange": {
+              "startLine": 95,
+              "endLine": 95,
+              "startOffset": 4,
+              "endOffset": 5
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f6dc2602-b49f-408e-a503-34843a8dd0ef",
+    "rule": "java:S117",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/Commands.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 98,
+    "hash": "294e5bfd4e211594608c4dc0f0cd8fd4",
+    "textRange": {
+      "startLine": 98,
+      "endLine": 98,
+      "startOffset": 137,
+      "endOffset": 156
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7ed678b4-220a-4c48-b74a-1dc0bec9cdd9",
+    "rule": "java:S116",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 32,
+    "hash": "4ee51d99b303057ad0efe6c86d269e9b",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 32,
+      "startOffset": 41,
+      "endOffset": 53
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this field \"max_altitude\" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1436da52-192c-42c8-a428-1f13b614dee1",
+    "rule": "java:S116",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 35,
+    "hash": "cc9d6a18c49573ff3685ba17447b5c3a",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 33,
+      "endOffset": 47
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this field \"anti_collision\" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a88f9d08-0198-4385-a848-7d5ef4919638",
+    "rule": "java:S116",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 40,
+    "hash": "ce6d4155154d5382640e95ded5bf1f63",
+    "textRange": {
+      "startLine": 40,
+      "endLine": 40,
+      "startOffset": 33,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this field \"render_hud\" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9524fb3c-b486-43ef-9d58-967529357650",
+    "rule": "java:S116",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 45,
+    "hash": "81a0c4b8885ffb2b0b2b6bcf8542970e",
+    "textRange": {
+      "startLine": 45,
+      "endLine": 45,
+      "startOffset": 33,
+      "endOffset": 51
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this field \"render_flight_mode\" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8d48bfff-b7fc-4411-a81c-8ceccb9afd0e",
+    "rule": "java:S116",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 48,
+    "hash": "bf6c37d0f485ad2747df1de1c29cd79c",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 33,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this field \"render_altitude\" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0a08a3b7-bfb7-4211-a04d-35413a006700",
+    "rule": "java:S116",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 51,
+    "hash": "6bd9b4ad2579fd89b4fa71fee3abaf5f",
+    "textRange": {
+      "startLine": 51,
+      "endLine": 51,
+      "startOffset": 33,
+      "endOffset": 45
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this field \"render_speed\" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b5f09ade-006c-4d0e-b4f1-2d42c8650291",
+    "rule": "java:S116",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 54,
+    "hash": "9d5f09829726c74c990a6c8007be1908",
+    "textRange": {
+      "startLine": 54,
+      "endLine": 54,
+      "startOffset": 33,
+      "endOffset": 57
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this field \"render_elytra_durability\" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "229885e9-49fe-4851-9c10-fefb729490fe",
+    "rule": "java:S116",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 59,
+    "hash": "82581757130a5dd15df5ca94b77f6831",
+    "textRange": {
+      "startLine": 59,
+      "endLine": 59,
+      "startOffset": 33,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this field \"do_landing\" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bd720d21-6463-4b55-8be8-e367f173f889",
+    "rule": "java:S1116",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 59,
+    "hash": "82581757130a5dd15df5ca94b77f6831",
+    "textRange": {
+      "startLine": 59,
+      "endLine": 59,
+      "startOffset": 89,
+      "endOffset": 90
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this empty statement.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "cert",
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dd673183-b7b1-4455-96de-4d80b99deb94",
+    "rule": "java:S1116",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 62,
+    "hash": "b134490e643ebde8480f1c2f0905d15d",
+    "textRange": {
+      "startLine": 62,
+      "endLine": 62,
+      "startOffset": 115,
+      "endOffset": 116
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this empty statement.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "cert",
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f0a9c920-d795-4b53-8952-986af094ebcc",
+    "rule": "java:S116",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 62,
+    "hash": "b134490e643ebde8480f1c2f0905d15d",
+    "textRange": {
+      "startLine": 62,
+      "endLine": 62,
+      "startOffset": 33,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this field \"render_autopilot_coords\" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dcfb4078-ba08-4681-9fb1-b7bc80ac8424",
+    "rule": "java:S116",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 65,
+    "hash": "207542e34f538cc8f5e3d53c21282e74",
+    "textRange": {
+      "startLine": 65,
+      "endLine": 65,
+      "startOffset": 33,
+      "endOffset": 49
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this field \"record_analytics\" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "034fc3ec-2f8e-429d-8e61-edbda6c99ad0",
+    "rule": "java:S116",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 68,
+    "hash": "ca109a42b75b1fd32738bac54b64153d",
+    "textRange": {
+      "startLine": 68,
+      "endLine": 68,
+      "startOffset": 33,
+      "endOffset": 52
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this field \"auto_send_analytics\" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4da91e8e-7e68-4eb6-bf25-07728a1645e6",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 95,
+    "hash": "0dcbf67448b78a83df1d45dab044e5ba",
+    "textRange": {
+      "startLine": 95,
+      "endLine": 95,
+      "startOffset": 10,
+      "endOffset": 69
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+            "textRange": {
+              "startLine": 96,
+              "endLine": 96,
+              "startOffset": 10,
+              "endOffset": 85
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+            "textRange": {
+              "startLine": 99,
+              "endLine": 99,
+              "startOffset": 10,
+              "endOffset": 63
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+            "textRange": {
+              "startLine": 102,
+              "endLine": 102,
+              "startOffset": 10,
+              "endOffset": 118
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+            "textRange": {
+              "startLine": 103,
+              "endLine": 103,
+              "startOffset": 10,
+              "endOffset": 97
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+            "textRange": {
+              "startLine": 106,
+              "endLine": 106,
+              "startOffset": 10,
+              "endOffset": 25
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "73ed6e16-b09a-453e-b3b9-4f43d199f562",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 115,
+    "hash": "a3af8a2fd65a3448239401d4e7b43f9e",
+    "textRange": {
+      "startLine": 115,
+      "endLine": 115,
+      "startOffset": 10,
+      "endOffset": 50
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+            "textRange": {
+              "startLine": 118,
+              "endLine": 118,
+              "startOffset": 14,
+              "endOffset": 35
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+            "textRange": {
+              "startLine": 119,
+              "endLine": 119,
+              "startOffset": 14,
+              "endOffset": 33
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+            "textRange": {
+              "startLine": 120,
+              "endLine": 120,
+              "startOffset": 14,
+              "endOffset": 67
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+            "textRange": {
+              "startLine": 121,
+              "endLine": 121,
+              "startOffset": 18,
+              "endOffset": 93
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+            "textRange": {
+              "startLine": 122,
+              "endLine": 122,
+              "startOffset": 22,
+              "endOffset": 38
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+            "textRange": {
+              "startLine": 123,
+              "endLine": 123,
+              "startOffset": 22,
+              "endOffset": 58
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+            "textRange": {
+              "startLine": 124,
+              "endLine": 124,
+              "startOffset": 18,
+              "endOffset": 19
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+            "textRange": {
+              "startLine": 125,
+              "endLine": 125,
+              "startOffset": 14,
+              "endOffset": 15
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+            "textRange": {
+              "startLine": 128,
+              "endLine": 128,
+              "startOffset": 14,
+              "endOffset": 34
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+            "textRange": {
+              "startLine": 129,
+              "endLine": 129,
+              "startOffset": 18,
+              "endOffset": 76
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+            "textRange": {
+              "startLine": 130,
+              "endLine": 130,
+              "startOffset": 14,
+              "endOffset": 52
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+            "textRange": {
+              "startLine": 131,
+              "endLine": 131,
+              "startOffset": 18,
+              "endOffset": 124
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+            "textRange": {
+              "startLine": 132,
+              "endLine": 132,
+              "startOffset": 14,
+              "endOffset": 15
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/ElytraFreeModule.java",
+            "textRange": {
+              "startLine": 133,
+              "endLine": 133,
+              "startOffset": 10,
+              "endOffset": 11
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "178b6d63-c07f-4937-bb05-0bf265e1c4c5",
+    "rule": "java:S1118",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/autopilot/Autopilot.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 22,
+    "hash": "b66905eaa125a4f9f01d9fe477fde779",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 13,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a private constructor to hide the implicit public one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "94588dd4-df38-4d8e-8909-c3eb04187b50",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/autopilot/Autopilot.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 27,
+    "hash": "397e2ac9a2edc2c116ff6f74388829bd",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 6,
+      "endOffset": 93
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "93fdb86e-4c2f-4241-a7e4-43302a1dcc7e",
+    "rule": "java:S115",
+    "severity": "CRITICAL",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/autopilot/Autopilot.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 31,
+    "hash": "8ef87147cfc706a77a83356064ae6503",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 29,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6f492c3f-92a8-4300-94b9-b9cdf1f44393",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/autopilot/Autopilot.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 53,
+    "hash": "c7af34a13151f510b6ac70091bbe0466",
+    "textRange": {
+      "startLine": 53,
+      "endLine": 53,
+      "startOffset": 10,
+      "endOffset": 73
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "94967d62-36d8-4df8-978a-550770873de8",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/autopilot/Autopilot.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 61,
+    "hash": "52e4a5875be95d725763a8bb942144d3",
+    "textRange": {
+      "startLine": 61,
+      "endLine": 61,
+      "startOffset": 10,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2964d75d-8ca7-4c57-b701-92d020d79237",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/autopilot/Autopilot.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 63,
+    "hash": "1e8ac235e9490118644ee198f7adc893",
+    "textRange": {
+      "startLine": 63,
+      "endLine": 63,
+      "startOffset": 10,
+      "endOffset": 74
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "51938c78-140e-4a8c-904f-34c1f8a484e3",
+    "rule": "java:S1066",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/autopilot/Autopilot.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 109,
+    "hash": "bc2bf1a228fb33e47afca915b0815220",
+    "textRange": {
+      "startLine": 109,
+      "endLine": 109,
+      "startOffset": 12,
+      "endOffset": 14
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/autopilot/Autopilot.java",
+            "textRange": {
+              "startLine": 108,
+              "endLine": 108,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this if statement with the enclosing one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "clumsy"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cc5ca956-fe53-492b-8650-4810d223d731",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/autopilot/Autopilot.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 116,
+    "hash": "c7af34a13151f510b6ac70091bbe0466",
+    "textRange": {
+      "startLine": 116,
+      "endLine": 116,
+      "startOffset": 18,
+      "endOffset": 81
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d96cc14d-cde5-405c-b79e-470eaf5a68d2",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/autopilot/Autopilot.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 120,
+    "hash": "69e15b610a03ba9de621bcf583c9cfdd",
+    "textRange": {
+      "startLine": 120,
+      "endLine": 120,
+      "startOffset": 22,
+      "endOffset": 87
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "481fa33e-6d0b-4740-bf45-7ba8902be1d3",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/autopilot/Autopilot.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 122,
+    "hash": "52e4a5875be95d725763a8bb942144d3",
+    "textRange": {
+      "startLine": 122,
+      "endLine": 122,
+      "startOffset": 18,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "78b87556-990a-4090-a85f-ce8ab9258dfd",
+    "rule": "java:S1118",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/autopilot/CollisionDetectionUtil.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 15,
+    "hash": "752bc04ae617762ca99927d13e11d6eb",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 13,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a private constructor to hide the implicit public one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1d44e5df-dc51-4736-a5b7-daf509d6176a",
+    "rule": "java:S115",
+    "severity": "CRITICAL",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/autopilot/CollisionDetectionUtil.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 16,
+    "hash": "ac194a3ccdd623fae55dd48d2b601385",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 28,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dd548106-67dc-44f0-ac9a-c16ab379d916",
+    "rule": "java:S1118",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/autopilot/FlightAnalytics.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 8,
+    "hash": "3df6f2da18d93501dbfa001b0880ed5b",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 13,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a private constructor to hide the implicit public one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "921cd080-2278-4454-8704-e6a031e9a5ce",
+    "rule": "java:S3008",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/autopilot/FlightAnalytics.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 14,
+    "hash": "141069b218056e6601f9b62e7c14e69c",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 23,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this field \"durability_lost\" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7bd74bd8-e0db-4060-b032-28f471055d3a",
+    "rule": "java:S117",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/autopilot/FlightAnalytics.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 34,
+    "hash": "b4a85266b736f1d57dc554eba563be61",
+    "textRange": {
+      "startLine": 34,
+      "endLine": 34,
+      "startOffset": 46,
+      "endOffset": 62
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "93207168-df98-42c3-999a-568bc70499e8",
+    "rule": "java:S100",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/autopilot/FlightAnalytics.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 34,
+    "hash": "b4a85266b736f1d57dc554eba563be61",
+    "textRange": {
+      "startLine": 34,
+      "endLine": 34,
+      "startOffset": 23,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4837b299-3ffa-4b4f-834e-46ed6623b471",
+    "rule": "java:S1118",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/autopilot/TraverseArea.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 11,
+    "hash": "de008e99453f5a34be759010560a23db",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 13,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a private constructor to hide the implicit public one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9069432c-98dd-4389-81d6-b85acb9b4877",
+    "rule": "java:S1144",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/autopilot/TraverseArea.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 73,
+    "hash": "f56eaa0d4194840cd0b8d567d8a48cb9",
+    "textRange": {
+      "startLine": 73,
+      "endLine": 73,
+      "startOffset": 29,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused private \"carryOver\" method.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "33eb9935-3a57-4315-8899-e663e8fd095b",
+    "rule": "java:S2094",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/config/AutomaticElytraConfig.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 3,
+    "hash": "cef1554894546a384d5bf877f700b0b8",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 13,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this empty class, write its code or make it an \"interface\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "clumsy"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f8da627e-b2bb-43df-88e2-33785c1a1e3c",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/config/AutomaticElytraConfig.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 7,
+    "hash": "ee7cf7eecf956807e6c65a0f55568cf3",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 6,
+      "endOffset": 40
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/config/AutomaticElytraConfig.java",
+            "textRange": {
+              "startLine": 12,
+              "endLine": 12,
+              "startOffset": 6,
+              "endOffset": 43
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/config/AutomaticElytraConfig.java",
+            "textRange": {
+              "startLine": 18,
+              "endLine": 18,
+              "startOffset": 6,
+              "endOffset": 30
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/config/AutomaticElytraConfig.java",
+            "textRange": {
+              "startLine": 28,
+              "endLine": 28,
+              "startOffset": 6,
+              "endOffset": 39
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/config/AutomaticElytraConfig.java",
+            "textRange": {
+              "startLine": 35,
+              "endLine": 35,
+              "startOffset": 6,
+              "endOffset": 47
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/config/AutomaticElytraConfig.java",
+            "textRange": {
+              "startLine": 40,
+              "endLine": 40,
+              "startOffset": 6,
+              "endOffset": 44
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/config/AutomaticElytraConfig.java",
+            "textRange": {
+              "startLine": 45,
+              "endLine": 45,
+              "startOffset": 6,
+              "endOffset": 41
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/config/AutomaticElytraConfig.java",
+            "textRange": {
+              "startLine": 50,
+              "endLine": 50,
+              "startOffset": 6,
+              "endOffset": 53
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/config/AutomaticElytraConfig.java",
+            "textRange": {
+              "startLine": 57,
+              "endLine": 57,
+              "startOffset": 6,
+              "endOffset": 47
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/config/AutomaticElytraConfig.java",
+            "textRange": {
+              "startLine": 62,
+              "endLine": 62,
+              "startOffset": 6,
+              "endOffset": 48
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/config/AutomaticElytraConfig.java",
+            "textRange": {
+              "startLine": 67,
+              "endLine": 67,
+              "startOffset": 6,
+              "endOffset": 53
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/config/AutomaticElytraConfig.java",
+            "textRange": {
+              "startLine": 75,
+              "endLine": 75,
+              "startOffset": 6,
+              "endOffset": 39
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/config/AutomaticElytraConfig.java",
+            "textRange": {
+              "startLine": 80,
+              "endLine": 80,
+              "startOffset": 6,
+              "endOffset": 52
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/config/AutomaticElytraConfig.java",
+            "textRange": {
+              "startLine": 85,
+              "endLine": 85,
+              "startOffset": 6,
+              "endOffset": 45
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/config/AutomaticElytraConfig.java",
+            "textRange": {
+              "startLine": 90,
+              "endLine": 90,
+              "startOffset": 6,
+              "endOffset": 49
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "57714366-085c-49c8-b738-297727335887",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 13,
+    "hash": "8bccf09979c39b03561e1def31b9e0dc",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 6,
+      "endOffset": 120
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 14,
+              "endLine": 14,
+              "startOffset": 6,
+              "endOffset": 126
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 15,
+              "endLine": 15,
+              "startOffset": 6,
+              "endOffset": 124
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 17,
+              "endLine": 17,
+              "startOffset": 6,
+              "endOffset": 47
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 18,
+              "endLine": 18,
+              "startOffset": 6,
+              "endOffset": 49
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 19,
+              "endLine": 19,
+              "startOffset": 6,
+              "endOffset": 47
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 21,
+              "endLine": 21,
+              "startOffset": 6,
+              "endOffset": 32
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 22,
+              "endLine": 22,
+              "startOffset": 10,
+              "endOffset": 109
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 23,
+              "endLine": 23,
+              "startOffset": 14,
+              "endOffset": 71
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 24,
+              "endLine": 24,
+              "startOffset": 14,
+              "endOffset": 87
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 25,
+              "endLine": 25,
+              "startOffset": 14,
+              "endOffset": 47
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 26,
+              "endLine": 26,
+              "startOffset": 10,
+              "endOffset": 33
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 27,
+              "endLine": 27,
+              "startOffset": 6,
+              "endOffset": 7
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 28,
+              "endLine": 28,
+              "startOffset": 6,
+              "endOffset": 96
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 29,
+              "endLine": 29,
+              "startOffset": 10,
+              "endOffset": 29
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 31,
+              "endLine": 31,
+              "startOffset": 10,
+              "endOffset": 142
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 32,
+              "endLine": 32,
+              "startOffset": 10,
+              "endOffset": 145
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 34,
+              "endLine": 34,
+              "startOffset": 10,
+              "endOffset": 154
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 37,
+              "endLine": 37,
+              "startOffset": 10,
+              "endOffset": 76
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 43,
+              "endLine": 43,
+              "startOffset": 18,
+              "endOffset": 24
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 46,
+              "endLine": 46,
+              "startOffset": 10,
+              "endOffset": 76
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 52,
+              "endLine": 52,
+              "startOffset": 18,
+              "endOffset": 24
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 55,
+              "endLine": 55,
+              "startOffset": 10,
+              "endOffset": 76
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 61,
+              "endLine": 61,
+              "startOffset": 18,
+              "endOffset": 24
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 64,
+              "endLine": 64,
+              "startOffset": 10,
+              "endOffset": 76
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 70,
+              "endLine": 70,
+              "startOffset": 18,
+              "endOffset": 24
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 73,
+              "endLine": 73,
+              "startOffset": 10,
+              "endOffset": 76
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 79,
+              "endLine": 79,
+              "startOffset": 18,
+              "endOffset": 24
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUD.java",
+            "textRange": {
+              "startLine": 80,
+              "endLine": 80,
+              "startOffset": 6,
+              "endOffset": 7
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "928a7e1a-4f32-48e5-b0ee-80c61909e193",
+    "rule": "java:S1118",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUDHelper.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 25,
+    "hash": "94dbc00f8412c0ef80116a0e5e4b8ecd",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 13,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a private constructor to hide the implicit public one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4758db2e-3b0a-4adb-b06a-add66617e3d8",
+    "rule": "java:S117",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUDHelper.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 45,
+    "hash": "33ed2ab63e14244c4114e55895fcc540",
+    "textRange": {
+      "startLine": 45,
+      "endLine": 45,
+      "startOffset": 80,
+      "endOffset": 92
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4c007bde-1eb9-47d9-85cd-385c2373409e",
+    "rule": "java:S1319",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUDHelper.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 45,
+    "hash": "33ed2ab63e14244c4114e55895fcc540",
+    "textRange": {
+      "startLine": 45,
+      "endLine": 45,
+      "startOffset": 48,
+      "endOffset": 57
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The type of \"hudArray\" should be an interface such as \"List\" rather than the implementation \"ArrayList\".",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "89ffb599-f063-4f9a-ae04-cb7686388645",
+    "rule": "java:S1319",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUDHelper.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 45,
+    "hash": "33ed2ab63e14244c4114e55895fcc540",
+    "textRange": {
+      "startLine": 45,
+      "endLine": 45,
+      "startOffset": 18,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The return type of this method should be an interface such as \"List\" rather than the implementation \"ArrayList\".",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7faf4c1d-99b3-47da-b742-52b560ad28fe",
+    "rule": "java:S1854",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUDHelper.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 47,
+    "hash": "3ba345ea762e18266c194f3ba3313e38",
+    "textRange": {
+      "startLine": 47,
+      "endLine": 47,
+      "startOffset": 40,
+      "endOffset": 77
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this useless assignment to local variable \"executorService\".",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "cert",
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d3dc4635-0c4d-435c-a1b2-edc67692cf90",
+    "rule": "java:S1481",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUDHelper.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 47,
+    "hash": "3ba345ea762e18266c194f3ba3313e38",
+    "textRange": {
+      "startLine": 47,
+      "endLine": 47,
+      "startOffset": 24,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused \"executorService\" local variable.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused",
+      "java22"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d8a46ede-d9c7-4f68-b736-a381138fa722",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUDHelper.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 48,
+    "hash": "9244b77ac72f82dde855cf9b6f15f708",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 10,
+      "endOffset": 55
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUDHelper.java",
+            "textRange": {
+              "startLine": 49,
+              "endLine": 49,
+              "startOffset": 12,
+              "endOffset": 56
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUDHelper.java",
+            "textRange": {
+              "startLine": 50,
+              "endLine": 50,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUDHelper.java",
+            "textRange": {
+              "startLine": 51,
+              "endLine": 51,
+              "startOffset": 8,
+              "endOffset": 35
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9fb8c20c-3165-4fbb-a21a-2dfce5382cf2",
+    "rule": "java:S2293",
+    "severity": "MINOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUDHelper.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 55,
+    "hash": "c0bfd4ac4422848cedb9d9649779a54f",
+    "textRange": {
+      "startLine": 55,
+      "endLine": 55,
+      "startOffset": 54,
+      "endOffset": 62
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the type specification in this constructor call with the diamond operator (\"<>\"). (sonar.java.source not set. Assuming 7 or greater.)",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "clumsy"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cbae1ee1-d04c-4cc4-9b83-4ee6ac5708a2",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUDHelper.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 58,
+    "hash": "f759382afd50cef82f4c63b5cf4b57db",
+    "textRange": {
+      "startLine": 58,
+      "endLine": 58,
+      "startOffset": 10,
+      "endOffset": 73
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cc8d5712-22e3-4ac1-88cb-48d9a378e6e6",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUDHelper.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 63,
+    "hash": "fbf9e8dc30cdeaa90a23d205c795eb3f",
+    "textRange": {
+      "startLine": 63,
+      "endLine": 63,
+      "startOffset": 10,
+      "endOffset": 70
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bd969d12-9924-4d6f-b9ea-d043587b1f77",
+    "rule": "java:S2681",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUDHelper.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 64,
+    "hash": "381444782edbeb89d39ef8b56af670cf",
+    "textRange": {
+      "startLine": 64,
+      "endLine": 64,
+      "startOffset": 12,
+      "endOffset": 51
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This line will not be executed conditionally; only the first line of this 4-line block will be. The rest will execute unconditionally.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FORMATTED",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "35e52bdd-3142-42eb-8718-56f327522510",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUDHelper.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 65,
+    "hash": "702184e373703c2569e211ed357a73d4",
+    "textRange": {
+      "startLine": 65,
+      "endLine": 65,
+      "startOffset": 10,
+      "endOffset": 67
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0871433e-8846-4db7-897c-0bbd6f58f73c",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUDHelper.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 67,
+    "hash": "48018e668005aa68772a0bdc73fbf828",
+    "textRange": {
+      "startLine": 67,
+      "endLine": 67,
+      "startOffset": 10,
+      "endOffset": 79
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "664174d6-0445-4efe-83a5-fbf83c9a9851",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "mrmasrozytlive__elytra4free:src/main/java/dev/mitask/hud/HUDHelper.java",
+    "project": "mrmasrozytlive__elytra4free",
+    "line": 69,
+    "hash": "5c0814527fc251eb9079f2c2fa13ba6c",
+    "textRange": {
+      "startLine": 69,
+      "endLine": 69,
+      "startOffset": 10,
+      "endOffset": 112
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:24:28+0000",
+    "updateDate": "2026-07-21T22:24:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

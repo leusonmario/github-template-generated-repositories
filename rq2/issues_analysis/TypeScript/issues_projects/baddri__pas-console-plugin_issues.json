@@ -1,0 +1,1293 @@
+[
+  {
+    "key": "9630c940-53f7-4b02-8c0d-51ff11f05395",
+    "rule": "docker:S6596",
+    "severity": "MAJOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/Dockerfile",
+    "project": "baddri__pas-console-plugin",
+    "line": 1,
+    "hash": "a6156589cb6b486a19ae780b2837d717",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 5,
+      "endOffset": 53
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use a specific version tag for the image.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5eb1e4aa-45ce-4ac2-a13d-62912b99d63b",
+    "rule": "docker:S7029",
+    "severity": "MAJOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/Dockerfile",
+    "project": "baddri__pas-console-plugin",
+    "line": 6,
+    "hash": "99303e1c8bbc5586a2f5b4e73da732aa",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 0,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this ADD instruction with a COPY instruction.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9c3d9a12-9772-4f6e-be38-64c75002e838",
+    "rule": "docker:S6596",
+    "severity": "MAJOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/Dockerfile",
+    "project": "baddri__pas-console-plugin",
+    "line": 10,
+    "hash": "6469a62b18f7d67c957fa739a3c809b8",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 5,
+      "endOffset": 53
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use a specific version tag for the image.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6dc5c6df-2338-41d1-82fc-cd19d1a98c0f",
+    "rule": "kubernetes:S6865",
+    "severity": "MAJOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/charts/openshift-console-plugin/templates/deployment.yaml",
+    "project": "baddri__pas-console-plugin",
+    "line": 23,
+    "hash": "d9e939dad9db0fbf12a7e7ed37d92d0f",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 6,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Bind this resource's automounted service account to RBAC or disable automounting.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0ae3234d-0b39-4adc-b430-662b7427ef44",
+    "rule": "kubernetes:S6864",
+    "severity": "MAJOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/charts/openshift-console-plugin/templates/deployment.yaml",
+    "project": "baddri__pas-console-plugin",
+    "line": 24,
+    "hash": "0aa9cf452944ef2f52970aee14283f12",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify a memory limit for this container.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c37f901f-7025-4bb7-8d5e-83c912bfa203",
+    "rule": "kubernetes:S6897",
+    "severity": "MAJOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/charts/openshift-console-plugin/templates/deployment.yaml",
+    "project": "baddri__pas-console-plugin",
+    "line": 24,
+    "hash": "0aa9cf452944ef2f52970aee14283f12",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify a storage request for this container.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3bfe99f6-760e-41ec-9fe8-fa74f9de8288",
+    "rule": "kubernetes:S6897",
+    "severity": "MAJOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/charts/openshift-console-plugin/templates/patch-consoles-job.yaml",
+    "project": "baddri__pas-console-plugin",
+    "line": 27,
+    "hash": "40e458a3836bc68bf093966ef151a31e",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify a storage request for this container.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a135c424-1768-4376-a37b-892ef6a84047",
+    "rule": "kubernetes:S6864",
+    "severity": "MAJOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/charts/openshift-console-plugin/templates/patch-consoles-job.yaml",
+    "project": "baddri__pas-console-plugin",
+    "line": 27,
+    "hash": "40e458a3836bc68bf093966ef151a31e",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify a memory limit for this container.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a98646af-2e91-482f-8560-f8bbd8ba0524",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/i18n-scripts/common.js",
+    "project": "baddri__pas-console-plugin",
+    "line": 1,
+    "hash": "44f9b15d3b1641faca5561b190d8261a",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 19,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "86452b52-0ad0-4442-bbc7-9ed900b1ebe8",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/i18n-scripts/common.js",
+    "project": "baddri__pas-console-plugin",
+    "line": 2,
+    "hash": "85968f5b9f570a82c65709eacc211a09",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 21,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "35e91743-d9dd-4e47-b8cd-6b91e3eed80c",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/i18n-scripts/common.js",
+    "project": "baddri__pas-console-plugin",
+    "line": 9,
+    "hash": "550051ee6b000602ffe414172dfff76d",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 12,
+      "startOffset": 6,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8c0fd0f3-5a6a-41d1-9169-52c0ae8fd671",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/i18n-scripts/lexers.js",
+    "project": "baddri__pas-console-plugin",
+    "line": 1,
+    "hash": "96026fbbab9a544f3ada3acaff3a0a2a",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 29,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:events` over `events`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b9b016aa-5fe9-45aa-b261-94e3a2fae87f",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/i18n-scripts/set-english-defaults.js",
+    "project": "baddri__pas-console-plugin",
+    "line": 1,
+    "hash": "44f9b15d3b1641faca5561b190d8261a",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 19,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a24e421c-32ce-42dc-bf94-d3292efac4b2",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/i18n-scripts/set-english-defaults.js",
+    "project": "baddri__pas-console-plugin",
+    "line": 2,
+    "hash": "85968f5b9f570a82c65709eacc211a09",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 21,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "62b39652-db1b-4498-a222-fcf66c768d6d",
+    "rule": "javascript:S4138",
+    "severity": "MINOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/i18n-scripts/set-english-defaults.js",
+    "project": "baddri__pas-console-plugin",
+    "line": 29,
+    "hash": "869e1783869f34f952156de008c85896",
+    "textRange": {
+      "startLine": 29,
+      "endLine": 55,
+      "startOffset": 2,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Expected a `for-of` loop instead of a `for` loop with this simple iteration.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "clumsy"
+    ],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cfbe637e-f75e-4c5a-b414-68cdc3c394af",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/integration-tests/tests/example-page.cy.ts",
+    "project": "baddri__pas-console-plugin",
+    "line": 51,
+    "hash": "94332f2413ac9791552ad3275938ebe6",
+    "textRange": {
+      "startLine": 51,
+      "endLine": 51,
+      "startOffset": 8,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dc95f955-75ce-4d29-82bc-3250a3b576e2",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/integration-tests/tests/example-page.cy.ts",
+    "project": "baddri__pas-console-plugin",
+    "line": 74,
+    "hash": "94332f2413ac9791552ad3275938ebe6",
+    "textRange": {
+      "startLine": 74,
+      "endLine": 74,
+      "startOffset": 8,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d1b055da-cbba-46de-86e6-f2ee9be3e500",
+    "rule": "typescript:S3863",
+    "severity": "MINOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/src/modules/compliance/ComplianceCheckResultKind.tsx",
+    "project": "baddri__pas-console-plugin",
+    "line": 20,
+    "hash": "4f7ee06bc51155a51c2e27b73b3a7b22",
+    "textRange": {
+      "startLine": 20,
+      "endLine": 20,
+      "startOffset": 29,
+      "endOffset": 90
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'@patternfly/react-icons/dist/esm/icons/arrow-circle-up-icon' imported multiple times.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "860e5beb-470d-4abc-af4e-e7547a08361d",
+    "rule": "typescript:S3863",
+    "severity": "MINOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/src/modules/compliance/ComplianceCheckResultKind.tsx",
+    "project": "baddri__pas-console-plugin",
+    "line": 22,
+    "hash": "88f265da617b777b29e7deb03a8caf5c",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 27,
+      "endOffset": 88
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'@patternfly/react-icons/dist/esm/icons/arrow-circle-up-icon' imported multiple times.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dd30116f-e2b1-47a0-8d11-7d802e050232",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/src/modules/compliance/ComplianceCheckResultKind.tsx",
+    "project": "baddri__pas-console-plugin",
+    "line": 225,
+    "hash": "8bb60e21c6be2524feb5bb2ea09e1bd9",
+    "textRange": {
+      "startLine": 225,
+      "endLine": 225,
+      "startOffset": 60,
+      "endOffset": 62
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5313d7f3-a132-4d55-a71c-98e5a94bc642",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/src/modules/compliance/ComplianceCheckResultKind.tsx",
+    "project": "baddri__pas-console-plugin",
+    "line": 252,
+    "hash": "8bb60e21c6be2524feb5bb2ea09e1bd9",
+    "textRange": {
+      "startLine": 252,
+      "endLine": 252,
+      "startOffset": 60,
+      "endOffset": 62
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "48d151de-601d-4d19-9a5a-63d95e4a9945",
+    "rule": "typescript:S6848",
+    "severity": "MAJOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/src/modules/compliance/ComplianceCheckResultKind.tsx",
+    "project": "baddri__pas-console-plugin",
+    "line": 305,
+    "hash": "f3ca202e3e8b2c1d46fcac9e77a3cdc8",
+    "textRange": {
+      "startLine": 305,
+      "endLine": 305,
+      "startOffset": 18,
+      "endOffset": 76
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7b230cd4-ca1a-46c5-a203-157584c12fba",
+    "rule": "typescript:S1082",
+    "severity": "MINOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/src/modules/compliance/ComplianceCheckResultKind.tsx",
+    "project": "baddri__pas-console-plugin",
+    "line": 305,
+    "hash": "f3ca202e3e8b2c1d46fcac9e77a3cdc8",
+    "textRange": {
+      "startLine": 305,
+      "endLine": 305,
+      "startOffset": 18,
+      "endOffset": 76
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Visible, non-interactive elements with click handlers must have at least one keyboard listener.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e8186d79-9053-4c7f-b724-ec7491be1e40",
+    "rule": "typescript:S6844",
+    "severity": "MAJOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/src/modules/compliance/ComplianceCheckResultKind.tsx",
+    "project": "baddri__pas-console-plugin",
+    "line": 305,
+    "hash": "f3ca202e3e8b2c1d46fcac9e77a3cdc8",
+    "textRange": {
+      "startLine": 305,
+      "endLine": 305,
+      "startOffset": 18,
+      "endOffset": 76
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchor used as a button. Anchors are primarily expected to navigate. Use the button element instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5c7ab176-9f5b-4250-8342-c8a828193402",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/src/pages/CompliancePage.tsx",
+    "project": "baddri__pas-console-plugin",
+    "line": 53,
+    "hash": "c2477331e8d87d41f32823d0483455c3",
+    "textRange": {
+      "startLine": 53,
+      "endLine": 53,
+      "startOffset": 9,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5e8a371b-6e87-4737-837e-132753d2969b",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/src/pages/CompliancePage.tsx",
+    "project": "baddri__pas-console-plugin",
+    "line": 60,
+    "hash": "c2477331e8d87d41f32823d0483455c3",
+    "textRange": {
+      "startLine": 60,
+      "endLine": 60,
+      "startOffset": 9,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f7fdafca-c666-4b88-b01a-82a6a770af66",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/src/pages/CompliancePage.tsx",
+    "project": "baddri__pas-console-plugin",
+    "line": 87,
+    "hash": "f3937c2e399802350cf3c46118d1cec7",
+    "textRange": {
+      "startLine": 87,
+      "endLine": 87,
+      "startOffset": 7,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "09443ab1-6b67-4cac-8f43-a3969354fdb9",
+    "rule": "typescript:S6749",
+    "severity": "MINOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/src/pages/CompliancePage.tsx",
+    "project": "baddri__pas-console-plugin",
+    "line": 107,
+    "hash": "38559c871fba28d992ead51549367f83",
+    "textRange": {
+      "startLine": 107,
+      "endLine": 141,
+      "startOffset": 4,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A fragment with only one child is redundant.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ff4c028e-10fd-49fc-9118-7a251eb5215c",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "baddri__pas-console-plugin:temp_repos/pas-console-plugin/webpack.config.ts",
+    "project": "baddri__pas-console-plugin",
+    "line": 3,
+    "hash": "6c88602ec87337f7ced5b0656f1d5f29",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 22,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T03:37:25+0000",
+    "updateDate": "2026-07-16T03:37:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

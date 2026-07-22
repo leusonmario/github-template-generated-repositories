@@ -1,0 +1,3971 @@
+[
+  {
+    "key": "787efe47-a7fd-491d-92b9-334f725eefd6",
+    "rule": "docker:S6587",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/Dockerfile",
+    "project": "proyecto-arima__backend",
+    "line": 6,
+    "hash": "7f3299b21a28810c0bc8b04d9bc4b387",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 22,
+      "endOffset": 45
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove cache after installing packages or store it in a cache mount.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "93407c5e-aa54-47b8-b760-79fca0cc40c7",
+    "rule": "docker:S7019",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/Dockerfile",
+    "project": "proyecto-arima__backend",
+    "line": 24,
+    "hash": "322ba1d92abedc84a08de0691cd68114",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 4,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this shell form with exec form.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fadebe11-eb98-47a2-b156-1b0348f81456",
+    "rule": "Web:ImgWithoutAltCheck",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/html_templates/director_welcome.html",
+    "project": "proyecto-arima__backend",
+    "line": 21,
+    "hash": "0103d961252091e48c5f05d6396f6d1d",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 30,
+      "startOffset": 8,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add an \"alt\" attribute to this image.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "469d7037-3591-4077-8fd1-75c666901d67",
+    "rule": "css:S7924",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/html_templates/director_welcome.html",
+    "project": "proyecto-arima__backend",
+    "line": 81,
+    "hash": "4e717017eaa5cee18245960a04a97124",
+    "textRange": {
+      "startLine": 81,
+      "endLine": 81,
+      "startOffset": 0,
+      "endOffset": 106
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Text does not meet the minimal contrast requirement with its background.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "css",
+      "accessibility",
+      "wcag",
+      "contrast"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "36229923-34cd-4e07-8dfd-4f5d1a63099e",
+    "rule": "Web:S5254",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/html_templates/password_recovery.html",
+    "project": "proyecto-arima__backend",
+    "line": 2,
+    "hash": "166248a6129a1e4370d20adc2d4c23f3",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"<html>\" element",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5de6178f-ac3c-4be1-bf43-66dd6f02c9ff",
+    "rule": "css:S7924",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/html_templates/password_recovery.html",
+    "project": "proyecto-arima__backend",
+    "line": 48,
+    "hash": "4e717017eaa5cee18245960a04a97124",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 0,
+      "endOffset": 104
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Text does not meet the minimal contrast requirement with its background.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "css",
+      "accessibility",
+      "wcag",
+      "contrast"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1146cd05-a44a-463c-95e9-3de3e8b43ae9",
+    "rule": "Web:ImgWithoutAltCheck",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/html_templates/student_welcome.html",
+    "project": "proyecto-arima__backend",
+    "line": 21,
+    "hash": "0103d961252091e48c5f05d6396f6d1d",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 30,
+      "startOffset": 8,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add an \"alt\" attribute to this image.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f45fa8cb-a732-4833-9150-7426b00076fb",
+    "rule": "css:S7924",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/html_templates/student_welcome.html",
+    "project": "proyecto-arima__backend",
+    "line": 82,
+    "hash": "4e717017eaa5cee18245960a04a97124",
+    "textRange": {
+      "startLine": 82,
+      "endLine": 82,
+      "startOffset": 0,
+      "endOffset": 106
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Text does not meet the minimal contrast requirement with its background.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "css",
+      "accessibility",
+      "wcag",
+      "contrast"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ec50408a-9966-4f36-b918-5b93bf132721",
+    "rule": "Web:ImgWithoutAltCheck",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/html_templates/teacher_welcome.html",
+    "project": "proyecto-arima__backend",
+    "line": 21,
+    "hash": "0103d961252091e48c5f05d6396f6d1d",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 30,
+      "startOffset": 8,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add an \"alt\" attribute to this image.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e440d5dd-7491-4d23-9d42-f38ebe5578a0",
+    "rule": "css:S7924",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/html_templates/teacher_welcome.html",
+    "project": "proyecto-arima__backend",
+    "line": 82,
+    "hash": "4e717017eaa5cee18245960a04a97124",
+    "textRange": {
+      "startLine": 82,
+      "endLine": 82,
+      "startOffset": 0,
+      "endOffset": 106
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Text does not meet the minimal contrast requirement with its background.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "css",
+      "accessibility",
+      "wcag",
+      "contrast"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "354a59f3-a4d2-4a8f-84f0-328236b82bbe",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api-docs/openAPIResponseBuilders.ts",
+    "project": "proyecto-arima__backend",
+    "line": 21,
+    "hash": "5758896be79760e6e83f2f3c250e3bc3",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 41,
+      "startOffset": 0,
+      "endOffset": 4
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "65ed252a-a7b8-476e-812d-2d2e223dab33",
+    "rule": "typescript:S7746",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/auth/authService.ts",
+    "project": "proyecto-arima__backend",
+    "line": 120,
+    "hash": "e805bef80bc81c710d9192f10b903b17",
+    "textRange": {
+      "startLine": 120,
+      "endLine": 120,
+      "startOffset": 13,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `return value` over `return Promise.resolve(value)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "promise",
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8ec3d7da-1fd2-47fa-bca0-1cb062ff9862",
+    "rule": "typescript:S7746",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/auth/authService.ts",
+    "project": "proyecto-arima__backend",
+    "line": 134,
+    "hash": "e805bef80bc81c710d9192f10b903b17",
+    "textRange": {
+      "startLine": 134,
+      "endLine": 134,
+      "startOffset": 15,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `return value` over `return Promise.resolve(value)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "promise",
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6ed39c06-379b-462c-ade7-fd2b3ec875a5",
+    "rule": "typescript:S7746",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/auth/authService.ts",
+    "project": "proyecto-arima__backend",
+    "line": 147,
+    "hash": "e805bef80bc81c710d9192f10b903b17",
+    "textRange": {
+      "startLine": 147,
+      "endLine": 147,
+      "startOffset": 13,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `return value` over `return Promise.resolve(value)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "promise",
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "51c1b5cf-5620-4435-a382-5111cd1e6572",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/auth/authService.ts",
+    "project": "proyecto-arima__backend",
+    "line": 173,
+    "hash": "b5a55c53511b955adda54655ab881814",
+    "textRange": {
+      "startLine": 173,
+      "endLine": 173,
+      "startOffset": 62,
+      "endOffset": 88
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c4bfd88d-3972-40eb-93c7-51128423d48b",
+    "rule": "typescript:S4144",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/course/content/__test__/content.test.ts",
+    "project": "proyecto-arima__backend",
+    "line": 19,
+    "hash": "4e7f4df6200142fa2e7f2f22c0a92ed7",
+    "textRange": {
+      "startLine": 19,
+      "endLine": 19,
+      "startOffset": 88,
+      "endOffset": 90
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/course/content/__test__/content.test.ts",
+            "textRange": {
+              "startLine": 10,
+              "endLine": 10,
+              "startOffset": 88,
+              "endOffset": 90
+            },
+            "msg": "Original implementation",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Update this function so that its implementation is not identical to the one on line 10.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [
+      "confusing",
+      "duplicate",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3ce8de17-5345-4d7d-a91c-fdd9e398c883",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/course/content/__test__/content.test.ts",
+    "project": "proyecto-arima__backend",
+    "line": 75,
+    "hash": "61ddc752e189c38d2da07c9c0a0b32e6",
+    "textRange": {
+      "startLine": 75,
+      "endLine": 75,
+      "startOffset": 26,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "428346c9-cac4-45fe-b2d2-f5c80a93d5aa",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/course/content/contentModel.ts",
+    "project": "proyecto-arima__backend",
+    "line": 234,
+    "hash": "861baab21a2fba6721bcc3312de33cdd",
+    "textRange": {
+      "startLine": 234,
+      "endLine": 234,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"ContentCreationDTO\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "acb6f1f3-9054-4d35-b8ba-a31d23d333f5",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/course/content/contentRepository.ts",
+    "project": "proyecto-arima__backend",
+    "line": 27,
+    "hash": "b432f4bf3d9d6b5bd034a67387f5d2f7",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 8,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "692e467d-1c68-4aa7-b4b2-bbe5b20c9d77",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/course/content/contentRepository.ts",
+    "project": "proyecto-arima__backend",
+    "line": 49,
+    "hash": "a5ce3e476e42a4170cf5572bbb8ada7a",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 49,
+      "startOffset": 8,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "42f4da75-172a-4d9b-ad8e-9425047154a2",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/course/content/contentRepository.ts",
+    "project": "proyecto-arima__backend",
+    "line": 54,
+    "hash": "4177a12f8df639b1aaa24bef209e07f4",
+    "textRange": {
+      "startLine": 54,
+      "endLine": 54,
+      "startOffset": 25,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "50a480a7-6b07-4b18-99d8-110f781a7bee",
+    "rule": "typescript:S6644",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/course/content/contentService.ts",
+    "project": "proyecto-arima__backend",
+    "line": 9,
+    "hash": "5d0db373a7c5c0f4df0a089ffe32c465",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 11,
+      "endOffset": 49
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unnecessary use of conditional expression for default assignment.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4da616ea-2cdd-4f3d-9b7f-a48a44cb0bba",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/course/content/contentService.ts",
+    "project": "proyecto-arima__backend",
+    "line": 125,
+    "hash": "e5bdb81af3a437a891a8e56a3b699220",
+    "textRange": {
+      "startLine": 125,
+      "endLine": 125,
+      "startOffset": 4,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b27a4114-fd1c-4877-9ad8-a891cb32b2ab",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/course/courseModel.ts",
+    "project": "proyecto-arima__backend",
+    "line": 63,
+    "hash": "523048e7f5ca9550505f2d8ea6d587e7",
+    "textRange": {
+      "startLine": 63,
+      "endLine": 71,
+      "startOffset": 0,
+      "endOffset": 2
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3f33710b-44c7-482a-850b-6668e950b2bc",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/course/courseModel.ts",
+    "project": "proyecto-arima__backend",
+    "line": 210,
+    "hash": "41f23228f90ae3a4504deb11d42ea80f",
+    "textRange": {
+      "startLine": 210,
+      "endLine": 210,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"CourseCreationDTO\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b2b51f64-b667-4e14-b8c6-66ddd12a97ca",
+    "rule": "typescript:S3863",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/course/courseRepository.ts",
+    "project": "proyecto-arima__backend",
+    "line": 1,
+    "hash": "9c26f55caadbb553ba8d5647f49c1752",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 22,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'mongoose' imported multiple times.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "781752e3-b1a4-4eb2-984b-255549c32075",
+    "rule": "typescript:S3863",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/course/courseRepository.ts",
+    "project": "proyecto-arima__backend",
+    "line": 2,
+    "hash": "086f36566bec5583b06600b566509b3c",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 21,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'mongoose' imported multiple times.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "33ef4e05-10ba-4908-9ead-da29637bd816",
+    "rule": "typescript:S7746",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/course/courseRepository.ts",
+    "project": "proyecto-arima__backend",
+    "line": 27,
+    "hash": "6f5b7c1eca1467c3d20b45ccdfa6e54d",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 13,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `throw error` over `return Promise.reject(error)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "promise",
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "573fb1d3-acca-4619-9fab-37aff72a3e29",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/course/courseRouter.ts",
+    "project": "proyecto-arima__backend",
+    "line": 367,
+    "hash": "332f1bd14650f328121c89dcf808a388",
+    "textRange": {
+      "startLine": 367,
+      "endLine": 367,
+      "startOffset": 10,
+      "endOffset": 57
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d19b21ee-a030-4b64-ac85-be632dfff00b",
+    "rule": "typescript:S6650",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/course/courseRouter.ts",
+    "project": "proyecto-arima__backend",
+    "line": 458,
+    "hash": "f080f6dfa3ae7ad30607c310254cd88e",
+    "textRange": {
+      "startLine": 458,
+      "endLine": 458,
+      "startOffset": 14,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Destructuring assignment studentEmail unnecessarily renamed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ece91305-9e03-4bf8-b56b-8ae4535672ba",
+    "rule": "typescript:S6650",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/course/courseRouter.ts",
+    "project": "proyecto-arima__backend",
+    "line": 459,
+    "hash": "de3b3c7555460aed5694eb16b28f30e2",
+    "textRange": {
+      "startLine": 459,
+      "endLine": 459,
+      "startOffset": 14,
+      "endOffset": 50
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Destructuring assignment matriculationCode unnecessarily renamed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a2660bc6-293e-4a6b-99ba-6f19ddb8cd09",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/course/courseService.ts",
+    "project": "proyecto-arima__backend",
+    "line": 1,
+    "hash": "5767f15a742ddebc61ca04352360f070",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 27,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:crypto` over `crypto`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5128fa16-508c-4ccc-9430-434cfeecf0d5",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/course/section/sectionModel.ts",
+    "project": "proyecto-arima__backend",
+    "line": 125,
+    "hash": "cb0d3456996031f4357677a79494f263",
+    "textRange": {
+      "startLine": 125,
+      "endLine": 125,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"SectionCreationDTO\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e9a8b2f3-757b-48a5-8269-689694f100e3",
+    "rule": "typescript:S7746",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/director/directorRepository.ts",
+    "project": "proyecto-arima__backend",
+    "line": 7,
+    "hash": "53e84f230bd25cf80217eadf7f310471",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 13,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `throw error` over `return Promise.reject(error)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "promise",
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "52877cf0-86b8-409a-a959-e9ad9d36da6d",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/images/imagesService.ts",
+    "project": "proyecto-arima__backend",
+    "line": 8,
+    "hash": "3ae52c54a769799a2bc6ab9b4a30c7a2",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 3,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "61f14ed7-7355-4dc5-9df3-0993c0297b12",
+    "rule": "typescript:S7746",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/institute/instituteRepository.ts",
+    "project": "proyecto-arima__backend",
+    "line": 18,
+    "hash": "6db95da7b72daa8339bc942110539e57",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 13,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `throw error` over `return Promise.reject(error)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "promise",
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "315c1801-3637-42b9-bd32-48a70931c8b6",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/learningTest/testModel.ts",
+    "project": "proyecto-arima__backend",
+    "line": 74,
+    "hash": "6c66b629876370c1c8f8b2eebd44baa3",
+    "textRange": {
+      "startLine": 74,
+      "endLine": 74,
+      "startOffset": 12,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"TestCreationDTO\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4bf9bdcb-5a97-49a8-bad0-c5c3272380d3",
+    "rule": "typescript:S4144",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/student/__tests__/student.test.ts",
+    "project": "proyecto-arima__backend",
+    "line": 19,
+    "hash": "8a5b352512a0d8640824eed0f5946263",
+    "textRange": {
+      "startLine": 19,
+      "endLine": 19,
+      "startOffset": 90,
+      "endOffset": 92
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/student/__tests__/student.test.ts",
+            "textRange": {
+              "startLine": 10,
+              "endLine": 10,
+              "startOffset": 88,
+              "endOffset": 90
+            },
+            "msg": "Original implementation",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Update this function so that its implementation is not identical to the one on line 10.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [
+      "confusing",
+      "duplicate",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d2bf7e57-601c-46e7-8ec0-340e1bd0c8f8",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/student/__tests__/student.test.ts",
+    "project": "proyecto-arima__backend",
+    "line": 54,
+    "hash": "4d8aad4d2de64827fe5d62b6034c1a70",
+    "textRange": {
+      "startLine": 54,
+      "endLine": 54,
+      "startOffset": 4,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "04e2993c-4aaa-4392-b8bc-17cb8c76c6fb",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/student/__tests__/student.test.ts",
+    "project": "proyecto-arima__backend",
+    "line": 55,
+    "hash": "523048e7f5ca9550505f2d8ea6d587e7",
+    "textRange": {
+      "startLine": 55,
+      "endLine": 73,
+      "startOffset": 2,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "256bae02-04d6-4385-b2c7-4dc63e4b3aa0",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/student/studentModel.ts",
+    "project": "proyecto-arima__backend",
+    "line": 152,
+    "hash": "ba56d8ecc1cda6086768468929295646",
+    "textRange": {
+      "startLine": 152,
+      "endLine": 152,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"StudentCreationDTO\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "690dfd56-29e0-4bdf-a1f6-d906c1cebac0",
+    "rule": "typescript:S7746",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/student/studentRepository.ts",
+    "project": "proyecto-arima__backend",
+    "line": 10,
+    "hash": "6579b10a774681ae478217f3dafbf7b8",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 13,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `throw error` over `return Promise.reject(error)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "promise",
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c4f794d4-c25e-49e9-8752-a91bc2cbf837",
+    "rule": "typescript:S7776",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/student/studentRouter.ts",
+    "project": "proyecto-arima__backend",
+    "line": 310,
+    "hash": "03b277039102c2bc76b09376a2aef3fe",
+    "textRange": {
+      "startLine": 310,
+      "endLine": 310,
+      "startOffset": 14,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "`studentCoursesIds` should be a `Set`, and use `studentCoursesIds.has()` to check existence or non-existence.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "optimization"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8bedbcd3-2e46-422c-8b36-a71707516389",
+    "rule": "typescript:S7746",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/student/studentService.ts",
+    "project": "proyecto-arima__backend",
+    "line": 86,
+    "hash": "7c93a0a134e702dae92e203bac861085",
+    "textRange": {
+      "startLine": 86,
+      "endLine": 86,
+      "startOffset": 13,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `throw error` over `return Promise.reject(error)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "promise",
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "02ab17b8-2b5d-477f-90c5-ee708058de6e",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/student/studentService.ts",
+    "project": "proyecto-arima__backend",
+    "line": 100,
+    "hash": "995a80d189f4e4c583b8a37968f8b2ee",
+    "textRange": {
+      "startLine": 100,
+      "endLine": 100,
+      "startOffset": 8,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bd55f7b0-4209-4ee9-9fcf-6bd079276455",
+    "rule": "typescript:S6660",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/survey/surveyRouter.ts",
+    "project": "proyecto-arima__backend",
+    "line": 75,
+    "hash": "787406015b07897cc2ac949a8610a7e4",
+    "textRange": {
+      "startLine": 75,
+      "endLine": 75,
+      "startOffset": 10,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'If' statement should not be the only statement in 'else' block",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3e45f164-e725-44f8-8e36-b5583ea104a9",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/survey/surveyService.ts",
+    "project": "proyecto-arima__backend",
+    "line": 107,
+    "hash": "7ecf30378ae92a0bab7468f9459dbeb7",
+    "textRange": {
+      "startLine": 107,
+      "endLine": 107,
+      "startOffset": 21,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a0167776-0f7b-49fb-8b03-d5483858e89c",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/survey/surveyService.ts",
+    "project": "proyecto-arima__backend",
+    "line": 172,
+    "hash": "7ecf30378ae92a0bab7468f9459dbeb7",
+    "textRange": {
+      "startLine": 172,
+      "endLine": 172,
+      "startOffset": 21,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8f567013-f3bc-4ec4-a84a-b0c05de164b4",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/teacher/teacherService.ts",
+    "project": "proyecto-arima__backend",
+    "line": 2,
+    "hash": "125fd4456f01cf94b0b08cc4a69374ef",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 19,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:crypto` over `crypto`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "61eb1d3e-193d-4f25-819a-fd3eedad8bcb",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/teacher/teacherService.ts",
+    "project": "proyecto-arima__backend",
+    "line": 17,
+    "hash": "5cf7e1be98419932328c44af88e01c60",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 17,
+      "startOffset": 3,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dae528a4-c9ca-4f69-aab4-f98cca312ec8",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/teacher/teacherService.ts",
+    "project": "proyecto-arima__backend",
+    "line": 84,
+    "hash": "42b5008d41d3d22e5dbdb1ccf4221aae",
+    "textRange": {
+      "startLine": 84,
+      "endLine": 84,
+      "startOffset": 38,
+      "endOffset": 52
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dce96fb9-8c69-4d5e-98bd-c410acbb7e5c",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/__tests__/user.test.ts",
+    "project": "proyecto-arima__backend",
+    "line": 50,
+    "hash": "3c2a48baf195783ccc16464a179da1d5",
+    "textRange": {
+      "startLine": 50,
+      "endLine": 50,
+      "startOffset": 7,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4f2e6b1b-2507-47ea-8aee-926bad383347",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/__tests__/user.test.ts",
+    "project": "proyecto-arima__backend",
+    "line": 52,
+    "hash": "59a36725c5d8a1c0dc576894f80d2a79",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 55,
+      "startOffset": 4,
+      "endOffset": 67
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9b2eddd2-eb85-4e2f-b05c-02978126d2bb",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userModel.ts",
+    "project": "proyecto-arima__backend",
+    "line": 113,
+    "hash": "e7402af17dc6fcf250e530c329def9db",
+    "textRange": {
+      "startLine": 113,
+      "endLine": 113,
+      "startOffset": 0,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "10b21413-f250-4d4c-916a-9ec99a318329",
+    "rule": "typescript:S6671",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userRepository.ts",
+    "project": "proyecto-arima__backend",
+    "line": 29,
+    "hash": "cca32b774d1412b52aca531414584275",
+    "textRange": {
+      "startLine": 29,
+      "endLine": 29,
+      "startOffset": 13,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Expected the Promise rejection reason to be an Error.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "222d4212-ead4-4bbf-82b0-15f6f03a18e0",
+    "rule": "typescript:S7746",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userRepository.ts",
+    "project": "proyecto-arima__backend",
+    "line": 29,
+    "hash": "cca32b774d1412b52aca531414584275",
+    "textRange": {
+      "startLine": 29,
+      "endLine": 29,
+      "startOffset": 13,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `throw error` over `return Promise.reject(error)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "promise",
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8f61a24f-3d35-49ca-ba20-58c2b36fa7d0",
+    "rule": "typescript:S3776",
+    "severity": "CRITICAL",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+    "project": "proyecto-arima__backend",
+    "line": 22,
+    "hash": "4fe40148d68d07dc0f4b85e9bc196a09",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 45,
+      "endOffset": 47
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 24,
+              "endLine": 24,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 32,
+              "endLine": 32,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 34,
+              "endLine": 34,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 37,
+              "endLine": 37,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 39,
+              "endLine": 39,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 42,
+              "endLine": 42,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 44,
+              "endLine": 44,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 52,
+              "endLine": 52,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 54,
+              "endLine": 54,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 60,
+              "endLine": 60,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 62,
+              "endLine": 62,
+              "startOffset": 49,
+              "endOffset": 50
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 63,
+              "endLine": 63,
+              "startOffset": 38,
+              "endOffset": 39
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 69,
+              "endLine": 69,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 70,
+              "endLine": 70,
+              "startOffset": 26,
+              "endOffset": 28
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "192b7067-c0af-46d4-990c-155cd35a2986",
+    "rule": "typescript:S7747",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+    "project": "proyecto-arima__backend",
+    "line": 71,
+    "hash": "b27124d6fb6d35f5b572b9598b71563d",
+    "textRange": {
+      "startLine": 71,
+      "endLine": 71,
+      "startOffset": 6,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Spread an object literal in object literal is unnecessary.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5a4b6d9c-be87-44a0-9617-34e3a0641725",
+    "rule": "typescript:S3776",
+    "severity": "CRITICAL",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+    "project": "proyecto-arima__backend",
+    "line": 116,
+    "hash": "4527084955536472c9f7fb4b07463386",
+    "textRange": {
+      "startLine": 116,
+      "endLine": 116,
+      "startOffset": 8,
+      "endOffset": 22
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 120,
+              "endLine": 120,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 128,
+              "endLine": 128,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 128,
+              "endLine": 128,
+              "startOffset": 37,
+              "endOffset": 39
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 133,
+              "endLine": 133,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 133,
+              "endLine": 133,
+              "startOffset": 37,
+              "endOffset": 39
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 141,
+              "endLine": 141,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 141,
+              "endLine": 141,
+              "startOffset": 37,
+              "endOffset": 39
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 145,
+              "endLine": 145,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 150,
+              "endLine": 150,
+              "startOffset": 6,
+              "endOffset": 9
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 167,
+              "endLine": 167,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 171,
+              "endLine": 171,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 176,
+              "endLine": 176,
+              "startOffset": 6,
+              "endOffset": 9
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 182,
+              "endLine": 182,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "proyecto-arima__backend:temp_repos/backend/src/api/user/userService.ts",
+            "textRange": {
+              "startLine": 190,
+              "endLine": 190,
+              "startOffset": 13,
+              "endOffset": 15
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.",
+    "effort": "9min",
+    "debt": "9min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "908f6b1b-0b34-421b-aee0-64a2a051540a",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/common/mailSender/mailSenderService.ts",
+    "project": "proyecto-arima__backend",
+    "line": 1,
+    "hash": "b561a6854011601a6d403f2bb81dcae8",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fc963111-575b-415e-a0c9-91863c9f3e9e",
+    "rule": "typescript:S7723",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/common/mailSender/mailSenderService.ts",
+    "project": "proyecto-arima__backend",
+    "line": 31,
+    "hash": "45dfc32bde260491303243e8a7363cda",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 12,
+      "endOffset": 51
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `new Error()` instead of `Error()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9f4b1b2a-c3ad-4560-b72d-e562d5cef1a1",
+    "rule": "typescript:S7723",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/common/mailSender/mailSenderService.ts",
+    "project": "proyecto-arima__backend",
+    "line": 44,
+    "hash": "b892c59207c056fad352b7331babc8e1",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 44,
+      "startOffset": 14,
+      "endOffset": 45
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `new Error()` instead of `Error()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bbcb5143-5bab-4a0c-9021-6d608c3d08f7",
+    "rule": "typescript:S7723",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/common/mailSender/mailSenderService.ts",
+    "project": "proyecto-arima__backend",
+    "line": 71,
+    "hash": "19823e7ea30030cdcd66203a7f1bcb09",
+    "textRange": {
+      "startLine": 71,
+      "endLine": 71,
+      "startOffset": 12,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `new Error()` instead of `Error()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2437ba31-d3d2-405a-9bf7-3c4377cda82e",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/common/middleware/errorHandler.ts",
+    "project": "proyecto-arima__backend",
+    "line": 23,
+    "hash": "993f0a73b769ea02fbaf5353644e6e59",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 18,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a9443bb4-228f-4538-9bf1-dc7fcb475009",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/common/middleware/roleMiddleware.ts",
+    "project": "proyecto-arima__backend",
+    "line": 11,
+    "hash": "332f1bd14650f328121c89dcf808a388",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 8,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b80bfb28-665b-4475-969a-0d72d5eafd4c",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/common/middleware/session.ts",
+    "project": "proyecto-arima__backend",
+    "line": 34,
+    "hash": "74f89be21c0e67d7f529787f31a80aac",
+    "textRange": {
+      "startLine": 34,
+      "endLine": 34,
+      "startOffset": 7,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4556b3f8-bc4e-4048-a961-017fe0d44891",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/common/models/apiError.ts",
+    "project": "proyecto-arima__backend",
+    "line": 9,
+    "hash": "5a7c6d4ea028cafe03ab9bce2ba3f9c8",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 0,
+      "endOffset": 87
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5d4ddf41-10e9-4e17-b223-02a1c955dbab",
+    "rule": "typescript:S6644",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/common/utils/config.ts",
+    "project": "proyecto-arima__backend",
+    "line": 66,
+    "hash": "3c7d7044bb9d878ae15b7d9ccf07c8e0",
+    "textRange": {
+      "startLine": 66,
+      "endLine": 66,
+      "startOffset": 9,
+      "endOffset": 52
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unnecessary use of boolean literals in conditional expression.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6cde1b42-7bbd-41af-ab89-9ff78f0507db",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/common/utils/config.ts",
+    "project": "proyecto-arima__backend",
+    "line": 72,
+    "hash": "0250916881eac958b26f317d0488d3f7",
+    "textRange": {
+      "startLine": 72,
+      "endLine": 72,
+      "startOffset": 10,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "756f9e9d-f14d-49f6-a777-27f6ddfa56ba",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/common/utils/config.ts",
+    "project": "proyecto-arima__backend",
+    "line": 101,
+    "hash": "56e659649607c2aac3e1bb76d9653716",
+    "textRange": {
+      "startLine": 101,
+      "endLine": 101,
+      "startOffset": 10,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "22ba178d-c731-45c3-8a49-c2dcb279fff4",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/common/utils/config.ts",
+    "project": "proyecto-arima__backend",
+    "line": 103,
+    "hash": "8d5fe948196052ea566119ac3e24190f",
+    "textRange": {
+      "startLine": 103,
+      "endLine": 103,
+      "startOffset": 29,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c9f34dd3-9b19-40c3-91c2-dbd0c3228ca4",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/common/utils/config.ts",
+    "project": "proyecto-arima__backend",
+    "line": 104,
+    "hash": "426062669063470001d87c0ea6b9b554",
+    "textRange": {
+      "startLine": 104,
+      "endLine": 104,
+      "startOffset": 26,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "45c8fe0f-28ae-4232-8453-4101e8377d04",
+    "rule": "typescript:S7746",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/common/utils/mongodb.ts",
+    "project": "proyecto-arima__backend",
+    "line": 6,
+    "hash": "e805bef80bc81c710d9192f10b903b17",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 11,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `return value` over `return Promise.resolve(value)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "promise",
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cc354a50-343c-45fe-bb1d-a15c86cda4c5",
+    "rule": "typescript:S7746",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/common/utils/mongodb.ts",
+    "project": "proyecto-arima__backend",
+    "line": 8,
+    "hash": "15d5c08a197550d5f9797088dffa050a",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 11,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `throw error` over `return Promise.reject(error)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "promise",
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "acfc51c0-c3b0-4089-b07d-a3ee05d2cca8",
+    "rule": "typescript:S7746",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/common/utils/mongodb.ts",
+    "project": "proyecto-arima__backend",
+    "line": 15,
+    "hash": "e805bef80bc81c710d9192f10b903b17",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 11,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `return value` over `return Promise.resolve(value)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "promise",
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "102ccb62-16c1-489f-a48e-408af0488990",
+    "rule": "typescript:S7746",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/common/utils/mongodb.ts",
+    "project": "proyecto-arima__backend",
+    "line": 17,
+    "hash": "15d5c08a197550d5f9797088dffa050a",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 17,
+      "startOffset": 11,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `throw error` over `return Promise.reject(error)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "promise",
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a3cf5147-7ac4-4968-9dc5-f9efd0527094",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/common/utils/requestLogger.ts",
+    "project": "proyecto-arima__backend",
+    "line": 1,
+    "hash": "5767f15a742ddebc61ca04352360f070",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 27,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:crypto` over `crypto`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7e1aaad3-c4d1-4ef3-b467-eeb685c55ddf",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/common/utils/requestLogger.ts",
+    "project": "proyecto-arima__backend",
+    "line": 3,
+    "hash": "78843ceb60beecdb75c88b5974b63ef2",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 48,
+      "endOffset": 54
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:http` over `http`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f7193799-99bb-4d11-b803-2096c959953c",
+    "rule": "javascript:S7785",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/common/utils/seed_db.js",
+    "project": "proyecto-arima__backend",
+    "line": 23,
+    "hash": "d395506bafbdc01a549da16b7d102617",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 3,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over using a promise chain.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3b247d76-958f-41c4-b2cd-10ba42eb19ed",
+    "rule": "typescript:S7785",
+    "severity": "MAJOR",
+    "component": "proyecto-arima__backend:temp_repos/backend/src/index.ts",
+    "project": "proyecto-arima__backend",
+    "line": 17,
+    "hash": "30d000f470b81c0320408b568b3a7b8e",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 17,
+      "startOffset": 3,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over using a promise chain.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-07-15T22:28:48+0000",
+    "updateDate": "2026-07-15T22:28:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

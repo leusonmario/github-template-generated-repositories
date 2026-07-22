@@ -1,0 +1,800 @@
+[
+  {
+    "key": "20155fea-18bf-4ade-8c57-12b87ad9583d",
+    "rule": "typescript:S6481",
+    "severity": "MAJOR",
+    "component": "azure-samples__todo-csharp-sql:src/web/src/App.tsx",
+    "project": "azure-samples__todo-csharp-sql",
+    "line": 18,
+    "hash": "d20b4c53379c3e4ae8702e09c411a2d2",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 37,
+      "endOffset": 84
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The 'initialContext' object passed as the value prop to the Context provider changes every render. To fix this consider wrapping it in a useMemo hook.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T21:23:00+0000",
+    "updateDate": "2026-07-16T21:23:00+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "614757b7-46f9-4fcb-ba47-d65314f48937",
+    "rule": "typescript:S6598",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-csharp-sql:src/web/src/actions/actionCreators.ts",
+    "project": "azure-samples__todo-csharp-sql",
+    "line": 13,
+    "hash": "4b9a1ed6896f042271045024ae67c8e7",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 4,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Interface has only a call signature, you should use a function type instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "function",
+      "type"
+    ],
+    "creationDate": "2026-07-16T21:23:00+0000",
+    "updateDate": "2026-07-16T21:23:00+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5b41eb61-6011-440f-9074-aa683702eb9e",
+    "rule": "typescript:S7746",
+    "severity": "MAJOR",
+    "component": "azure-samples__todo-csharp-sql:src/web/src/actions/itemActions.ts",
+    "project": "azure-samples__todo-csharp-sql",
+    "line": 32,
+    "hash": "30dbb0ed0648b08da117d9d879c798a2",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 32,
+      "startOffset": 11,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `return value` over `return Promise.resolve(value)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "promise",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T21:23:00+0000",
+    "updateDate": "2026-07-16T21:23:00+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7876ede8-7d1f-4981-88d8-1ebf9f2608da",
+    "rule": "typescript:S6767",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-csharp-sql:src/web/src/components/todoItemListPane.tsx",
+    "project": "azure-samples__todo-csharp-sql",
+    "line": 15,
+    "hash": "5778d14fe58f15d4ab567a3ab3a919e7",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 4,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'onSelect' PropType is defined but prop is never used",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T21:23:00+0000",
+    "updateDate": "2026-07-16T21:23:00+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a0994767-2a05-4e5a-b1e1-0a5aebb6e130",
+    "rule": "typescript:S1301",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-csharp-sql:src/web/src/components/todoItemListPane.tsx",
+    "project": "azure-samples__todo-csharp-sql",
+    "line": 173,
+    "hash": "54e58ae02af166553c53cbba46d60db8",
+    "textRange": {
+      "startLine": 173,
+      "endLine": 173,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this \"switch\" statement by \"if\" statements to increase readability.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-16T21:23:00+0000",
+    "updateDate": "2026-07-16T21:23:00+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5fa25f70-991a-4769-8dd5-d38c0507230e",
+    "rule": "typescript:S7747",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-csharp-sql:src/web/src/reducers/listsReducer.ts",
+    "project": "azure-samples__todo-csharp-sql",
+    "line": 14,
+    "hash": "675631a69593152529f4c27b0d9e3b0a",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 20,
+      "endOffset": 73
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unnecessarily cloning an array.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T21:23:00+0000",
+    "updateDate": "2026-07-16T21:23:00+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "511ee678-846c-436d-8d78-2cf5a9a3f514",
+    "rule": "typescript:S3776",
+    "severity": "CRITICAL",
+    "component": "azure-samples__todo-csharp-sql:src/web/src/reducers/selectedListReducer.ts",
+    "project": "azure-samples__todo-csharp-sql",
+    "line": 5,
+    "hash": "e6e4e9eff644e9ca06180c2a3a487330",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 130,
+      "endOffset": 132
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "azure-samples__todo-csharp-sql:src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 6,
+              "endLine": 6,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "azure-samples__todo-csharp-sql:src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 9,
+              "endLine": 9,
+              "startOffset": 35,
+              "endOffset": 36
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "azure-samples__todo-csharp-sql:src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 12,
+              "endLine": 12,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "azure-samples__todo-csharp-sql:src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 12,
+              "endLine": 12,
+              "startOffset": 22,
+              "endOffset": 24
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "azure-samples__todo-csharp-sql:src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 17,
+              "endLine": 17,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "azure-samples__todo-csharp-sql:src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 22,
+              "endLine": 22,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "azure-samples__todo-csharp-sql:src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 25,
+              "endLine": 25,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "azure-samples__todo-csharp-sql:src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 28,
+              "endLine": 28,
+              "startOffset": 18,
+              "endOffset": 22
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "azure-samples__todo-csharp-sql:src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 34,
+              "endLine": 34,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-16T21:23:00+0000",
+    "updateDate": "2026-07-16T21:23:00+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "53dc53cb-9551-47e8-b8ae-9d664d6fe0f8",
+    "rule": "typescript:S7747",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-csharp-sql:src/web/src/reducers/selectedListReducer.ts",
+    "project": "azure-samples__todo-csharp-sql",
+    "line": 35,
+    "hash": "e97fcbfdd93ef2cc99eebb327d7db1c7",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 30,
+      "endOffset": 97
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unnecessarily cloning an array.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T21:23:00+0000",
+    "updateDate": "2026-07-16T21:23:00+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e5702c95-f466-4b2a-8566-e2ea4b45fc5f",
+    "rule": "typescript:S7732",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-csharp-sql:src/web/src/reportWebVitals.ts",
+    "project": "azure-samples__todo-csharp-sql",
+    "line": 4,
+    "hash": "3c9749fcb92f545a8c753e00920b1884",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 21,
+      "endOffset": 52
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid using `instanceof` for type checking as it can lead to unreliable results.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "cross-browser"
+    ],
+    "creationDate": "2026-07-16T21:23:00+0000",
+    "updateDate": "2026-07-16T21:23:00+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f7acf3de-04d7-4ca1-a460-0c1196777f68",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-csharp-sql:src/web/src/services/telemetryService.ts",
+    "project": "azure-samples__todo-csharp-sql",
+    "line": 12,
+    "hash": "16b58ecc3dd8dacd02ef37f9cd4d0072",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 58,
+      "endOffset": 64
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T21:23:00+0000",
+    "updateDate": "2026-07-16T21:23:00+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5b443c11-07f2-427d-bdbd-fb29ab3b2c59",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "azure-samples__todo-csharp-sql:src/web/src/services/telemetryService.ts",
+    "project": "azure-samples__todo-csharp-sql",
+    "line": 41,
+    "hash": "ed2762fe404fb2bbe399cea9f346b5e6",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 41,
+      "startOffset": 11,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T21:23:00+0000",
+    "updateDate": "2026-07-16T21:23:00+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5167ec46-4650-40ac-a09f-fd9f2009f7c7",
+    "rule": "typescript:S3863",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-csharp-sql:tests/playwright.config.ts",
+    "project": "azure-samples__todo-csharp-sql",
+    "line": 1,
+    "hash": "16d9e175a4758ca241fbac7aaadb0875",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 37,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'@playwright/test' imported multiple times.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T21:23:00+0000",
+    "updateDate": "2026-07-16T21:23:00+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "231d82ea-caf6-41c3-b0da-0e5aeca567cd",
+    "rule": "typescript:S3863",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-csharp-sql:tests/playwright.config.ts",
+    "project": "azure-samples__todo-csharp-sql",
+    "line": 2,
+    "hash": "2936c076af5401ae3059cb093c74a62e",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 20,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'@playwright/test' imported multiple times.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T21:23:00+0000",
+    "updateDate": "2026-07-16T21:23:00+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "716856e8-ec73-4092-a930-3d0912f2dc70",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-csharp-sql:tests/playwright.config.ts",
+    "project": "azure-samples__todo-csharp-sql",
+    "line": 3,
+    "hash": "e6257dc4b1f21417043851734f5ab373",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T21:23:00+0000",
+    "updateDate": "2026-07-16T21:23:00+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "92f29b28-4cb2-420f-a05a-3e25becf658c",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-csharp-sql:tests/playwright.config.ts",
+    "project": "azure-samples__todo-csharp-sql",
+    "line": 4,
+    "hash": "f40651a1f94655f3cffc68ed8db5f6b9",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 21,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T21:23:00+0000",
+    "updateDate": "2026-07-16T21:23:00+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

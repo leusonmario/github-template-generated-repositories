@@ -1,0 +1,1516 @@
+[
+  {
+    "key": "5bf4d266-2558-4e97-901e-0f75b3c28e53",
+    "rule": "javascript:S1135",
+    "severity": "INFO",
+    "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/commitlint.config.js",
+    "project": "patrickasafe__abs-fac-calc",
+    "line": 4,
+    "hash": "28554abc30792717dfa297904464fe36",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 9,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T06:06:07+0000",
+    "updateDate": "2026-07-16T06:06:07+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ebf63613-8504-478b-8275-69e6c163166c",
+    "rule": "typescript:S4138",
+    "severity": "MINOR",
+    "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/app/components/Calculator/Calculator.tsx",
+    "project": "patrickasafe__abs-fac-calc",
+    "line": 44,
+    "hash": "b53086ed211802262de67ab951e8a32d",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 55,
+      "startOffset": 4,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Expected a `for-of` loop instead of a `for` loop with this simple iteration.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "clumsy"
+    ],
+    "creationDate": "2026-07-16T06:06:07+0000",
+    "updateDate": "2026-07-16T06:06:07+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7f724ac0-b564-4a8c-8743-1f990b81dc87",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/app/components/Calculator/Calculator.tsx",
+    "project": "patrickasafe__abs-fac-calc",
+    "line": 54,
+    "hash": "d7d1f9f288cd56fea66b20b22cd0688b",
+    "textRange": {
+      "startLine": 54,
+      "endLine": 54,
+      "startOffset": 24,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T06:06:07+0000",
+    "updateDate": "2026-07-16T06:06:07+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "99c99198-0e87-4407-a8cf-6bd624913433",
+    "rule": "typescript:S2234",
+    "severity": "MAJOR",
+    "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/app/components/Calculator/converter.ts",
+    "project": "patrickasafe__abs-fac-calc",
+    "line": 36,
+    "hash": "c8f0d034a43348b86cda9b3147ecbc4b",
+    "textRange": {
+      "startLine": 36,
+      "endLine": 36,
+      "startOffset": 26,
+      "endOffset": 33
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/app/components/Calculator/converter.ts",
+            "textRange": {
+              "startLine": 12,
+              "endLine": 12,
+              "startOffset": 27,
+              "endOffset": 58
+            },
+            "msg": "Formal parameters",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Arguments 'C' and 'B' have the same names but not the same order as the function parameters.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-16T06:06:07+0000",
+    "updateDate": "2026-07-16T06:06:07+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0224c8b1-6bde-4b3b-bdad-60e6d05d3313",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/app/components/Calculator/stringToNumber.ts",
+    "project": "patrickasafe__abs-fac-calc",
+    "line": 13,
+    "hash": "90be3662564baaf91ee006a59d1dc413",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 17,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T06:06:07+0000",
+    "updateDate": "2026-07-16T06:06:07+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a1baccbe-e556-4778-ab4b-97ed42994ac6",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/app/components/Calculator/validateNumber.test.ts",
+    "project": "patrickasafe__abs-fac-calc",
+    "line": 52,
+    "hash": "69a0ef8aa995b67ca3e7fe1ec22b29bb",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 52,
+      "startOffset": 4,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `global`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T06:06:07+0000",
+    "updateDate": "2026-07-16T06:06:07+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "98d9b54d-ab79-4626-b4ba-bae024601374",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/app/components/Calculator/validateNumber.test.ts",
+    "project": "patrickasafe__abs-fac-calc",
+    "line": 55,
+    "hash": "914104935b27e789b07475e7b67b1c7a",
+    "textRange": {
+      "startLine": 55,
+      "endLine": 55,
+      "startOffset": 11,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `global`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T06:06:07+0000",
+    "updateDate": "2026-07-16T06:06:07+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "28726382-0fed-46e4-b1de-99d0081d0982",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/app/components/Calculator/validateNumber.tsx",
+    "project": "patrickasafe__abs-fac-calc",
+    "line": 22,
+    "hash": "9de7713c6eca11ccbecc0746d37c1c03",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 6,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.isNaN` over `isNaN`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T06:06:07+0000",
+    "updateDate": "2026-07-16T06:06:07+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8de3520b-4922-42e1-b09d-700da0fe790a",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/app/components/layout.tsx",
+    "project": "patrickasafe__abs-fac-calc",
+    "line": 11,
+    "hash": "bd20ee13f2b4dba1aeb143cab0b08628",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 15,
+      "startOffset": 41,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:06:07+0000",
+    "updateDate": "2026-07-16T06:06:07+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "731198d6-65bb-4ac3-8de2-63eca29b7d09",
+    "rule": "typescript:S2137",
+    "severity": "MAJOR",
+    "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/app/error.tsx",
+    "project": "patrickasafe__abs-fac-calc",
+    "line": 8,
+    "hash": "d0c938b11a6c67860ed0711da6abe545",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 24,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use \"Error\" to declare a function - use another name.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-16T06:06:07+0000",
+    "updateDate": "2026-07-16T06:06:07+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b03957e3-e378-473b-ad34-2f081a05a410",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/app/error.tsx",
+    "project": "patrickasafe__abs-fac-calc",
+    "line": 8,
+    "hash": "d0c938b11a6c67860ed0711da6abe545",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 14,
+      "startOffset": 30,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:06:07+0000",
+    "updateDate": "2026-07-16T06:06:07+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "94219edd-e276-4157-9719-45b661ca94f3",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/app/layout.tsx",
+    "project": "patrickasafe__abs-fac-calc",
+    "line": 52,
+    "hash": "66f95189fab308818f2a3e556e30da91",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 56,
+      "startOffset": 35,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:06:07+0000",
+    "updateDate": "2026-07-16T06:06:07+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b9eb8a98-0ddb-47ff-affd-3d211736748e",
+    "rule": "typescript:S5254",
+    "severity": "MAJOR",
+    "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/app/layout.tsx",
+    "project": "patrickasafe__abs-fac-calc",
+    "line": 58,
+    "hash": "166248a6129a1e4370d20adc2d4c23f3",
+    "textRange": {
+      "startLine": 58,
+      "endLine": 58,
+      "startOffset": 5,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "<html> elements must have the lang prop.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:06:07+0000",
+    "updateDate": "2026-07-16T06:06:07+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "949376c5-e3cd-4be5-88b7-f870a5c313de",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/NextImage.tsx",
+    "project": "patrickasafe__abs-fac-calc",
+    "line": 41,
+    "hash": "770609f16fc87e204c8aad5b6b1983d3",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 41,
+      "startOffset": 13,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T06:06:07+0000",
+    "updateDate": "2026-07-16T06:06:07+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "21a352ba-7cb5-4e9c-9c30-e34bce55d395",
+    "rule": "typescript:S3776",
+    "severity": "CRITICAL",
+    "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/buttons/Button.tsx",
+    "project": "patrickasafe__abs-fac-calc",
+    "line": 40,
+    "hash": "789ea8313f3de43009be6e2a32f31e72",
+    "textRange": {
+      "startLine": 40,
+      "endLine": 40,
+      "startOffset": 4,
+      "endOffset": 6
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/buttons/Button.tsx",
+            "textRange": {
+              "startLine": 55,
+              "endLine": 55,
+              "startOffset": 28,
+              "endOffset": 30
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/buttons/Button.tsx",
+            "textRange": {
+              "startLine": 56,
+              "endLine": 56,
+              "startOffset": 26,
+              "endOffset": 28
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/buttons/Button.tsx",
+            "textRange": {
+              "startLine": 61,
+              "endLine": 61,
+              "startOffset": 34,
+              "endOffset": 36
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/buttons/Button.tsx",
+            "textRange": {
+              "startLine": 68,
+              "endLine": 68,
+              "startOffset": 34,
+              "endOffset": 36
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/buttons/Button.tsx",
+            "textRange": {
+              "startLine": 72,
+              "endLine": 72,
+              "startOffset": 23,
+              "endOffset": 25
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/buttons/Button.tsx",
+            "textRange": {
+              "startLine": 75,
+              "endLine": 75,
+              "startOffset": 32,
+              "endOffset": 34
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/buttons/Button.tsx",
+            "textRange": {
+              "startLine": 79,
+              "endLine": 79,
+              "startOffset": 23,
+              "endOffset": 25
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/buttons/Button.tsx",
+            "textRange": {
+              "startLine": 82,
+              "endLine": 82,
+              "startOffset": 32,
+              "endOffset": 34
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/buttons/Button.tsx",
+            "textRange": {
+              "startLine": 88,
+              "endLine": 88,
+              "startOffset": 31,
+              "endOffset": 33
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/buttons/Button.tsx",
+            "textRange": {
+              "startLine": 96,
+              "endLine": 96,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/buttons/Button.tsx",
+            "textRange": {
+              "startLine": 119,
+              "endLine": 119,
+              "startOffset": 30,
+              "endOffset": 32
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/buttons/Button.tsx",
+            "textRange": {
+              "startLine": 120,
+              "endLine": 120,
+              "startOffset": 28,
+              "endOffset": 30
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/buttons/Button.tsx",
+            "textRange": {
+              "startLine": 127,
+              "endLine": 127,
+              "startOffset": 34,
+              "endOffset": 36
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/buttons/Button.tsx",
+            "textRange": {
+              "startLine": 128,
+              "endLine": 128,
+              "startOffset": 32,
+              "endOffset": 34
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/buttons/Button.tsx",
+            "textRange": {
+              "startLine": 139,
+              "endLine": 139,
+              "startOffset": 30,
+              "endOffset": 32
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/buttons/Button.tsx",
+            "textRange": {
+              "startLine": 140,
+              "endLine": 140,
+              "startOffset": 28,
+              "endOffset": 30
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/buttons/Button.tsx",
+            "textRange": {
+              "startLine": 147,
+              "endLine": 147,
+              "startOffset": 34,
+              "endOffset": 36
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/buttons/Button.tsx",
+            "textRange": {
+              "startLine": 148,
+              "endLine": 148,
+              "startOffset": 32,
+              "endOffset": 34
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-16T06:06:07+0000",
+    "updateDate": "2026-07-16T06:06:07+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f465d3c6-b8c9-430b-adb9-c34f2383b0ad",
+    "rule": "typescript:S3776",
+    "severity": "CRITICAL",
+    "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/links/ButtonLink.tsx",
+    "project": "patrickasafe__abs-fac-calc",
+    "line": 46,
+    "hash": "789ea8313f3de43009be6e2a32f31e72",
+    "textRange": {
+      "startLine": 46,
+      "endLine": 46,
+      "startOffset": 4,
+      "endOffset": 6
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/links/ButtonLink.tsx",
+            "textRange": {
+              "startLine": 58,
+              "endLine": 58,
+              "startOffset": 28,
+              "endOffset": 30
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/links/ButtonLink.tsx",
+            "textRange": {
+              "startLine": 59,
+              "endLine": 59,
+              "startOffset": 26,
+              "endOffset": 28
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/links/ButtonLink.tsx",
+            "textRange": {
+              "startLine": 64,
+              "endLine": 64,
+              "startOffset": 34,
+              "endOffset": 36
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/links/ButtonLink.tsx",
+            "textRange": {
+              "startLine": 71,
+              "endLine": 71,
+              "startOffset": 34,
+              "endOffset": 36
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/links/ButtonLink.tsx",
+            "textRange": {
+              "startLine": 75,
+              "endLine": 75,
+              "startOffset": 23,
+              "endOffset": 25
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/links/ButtonLink.tsx",
+            "textRange": {
+              "startLine": 78,
+              "endLine": 78,
+              "startOffset": 32,
+              "endOffset": 34
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/links/ButtonLink.tsx",
+            "textRange": {
+              "startLine": 82,
+              "endLine": 82,
+              "startOffset": 23,
+              "endOffset": 25
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/links/ButtonLink.tsx",
+            "textRange": {
+              "startLine": 85,
+              "endLine": 85,
+              "startOffset": 32,
+              "endOffset": 34
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/links/ButtonLink.tsx",
+            "textRange": {
+              "startLine": 91,
+              "endLine": 91,
+              "startOffset": 31,
+              "endOffset": 33
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/links/ButtonLink.tsx",
+            "textRange": {
+              "startLine": 105,
+              "endLine": 105,
+              "startOffset": 30,
+              "endOffset": 32
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/links/ButtonLink.tsx",
+            "textRange": {
+              "startLine": 106,
+              "endLine": 106,
+              "startOffset": 28,
+              "endOffset": 30
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/links/ButtonLink.tsx",
+            "textRange": {
+              "startLine": 113,
+              "endLine": 113,
+              "startOffset": 34,
+              "endOffset": 36
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/links/ButtonLink.tsx",
+            "textRange": {
+              "startLine": 114,
+              "endLine": 114,
+              "startOffset": 32,
+              "endOffset": 34
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/links/ButtonLink.tsx",
+            "textRange": {
+              "startLine": 125,
+              "endLine": 125,
+              "startOffset": 30,
+              "endOffset": 32
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/links/ButtonLink.tsx",
+            "textRange": {
+              "startLine": 126,
+              "endLine": 126,
+              "startOffset": 28,
+              "endOffset": 30
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/links/ButtonLink.tsx",
+            "textRange": {
+              "startLine": 133,
+              "endLine": 133,
+              "startOffset": 34,
+              "endOffset": 36
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/links/ButtonLink.tsx",
+            "textRange": {
+              "startLine": 134,
+              "endLine": 134,
+              "startOffset": 32,
+              "endOffset": 34
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.",
+    "effort": "7min",
+    "debt": "7min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-16T06:06:07+0000",
+    "updateDate": "2026-07-16T06:06:07+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e00489a5-a773-4c33-9f0e-cce31b9ec4f8",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/components/links/UnstyledLink.tsx",
+    "project": "patrickasafe__abs-fac-calc",
+    "line": 17,
+    "hash": "a719f3dac1bbe2c60cd12ab2f6928a9e",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 17,
+      "startOffset": 6,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T06:06:07+0000",
+    "updateDate": "2026-07-16T06:06:07+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3bd27b22-7caf-4db3-a0af-e6b6e3a18247",
+    "rule": "typescript:S6638",
+    "severity": "MAJOR",
+    "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/constant/env.ts",
+    "project": "patrickasafe__abs-fac-calc",
+    "line": 6,
+    "hash": "f6b6d434ab8ae3c3cf141fe7fabf845e",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 4,
+      "endOffset": 50
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected constant nullishness on the left-hand side of a `??` expression.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:06:07+0000",
+    "updateDate": "2026-07-16T06:06:07+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e9c2c763-4213-4e6c-83d0-430d34ba7f82",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/lib/helper.ts",
+    "project": "patrickasafe__abs-fac-calc",
+    "line": 2,
+    "hash": "7b104c68ea27764eedffa38bf01a5bee",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 13,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis.window` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T06:06:07+0000",
+    "updateDate": "2026-07-16T06:06:07+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a5423697-2475-4e57-9484-074d99b0404c",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/lib/helper.ts",
+    "project": "patrickasafe__abs-fac-calc",
+    "line": 3,
+    "hash": "905d94dec80f53e496cd640f487dab6b",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 11,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T06:06:07+0000",
+    "updateDate": "2026-07-16T06:06:07+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7416326c-51a2-48da-b7ae-37f03dd99f18",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/lib/logger.ts",
+    "project": "patrickasafe__abs-fac-calc",
+    "line": 15,
+    "hash": "6e3053d3ce91b5402c6b221960a595f7",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 40,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T06:06:07+0000",
+    "updateDate": "2026-07-16T06:06:07+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f245bd97-db67-44d5-92a1-e3757708a220",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "patrickasafe__abs-fac-calc:temp_repos/abs-fac-calc/src/lib/logger.ts",
+    "project": "patrickasafe__abs-fac-calc",
+    "line": 15,
+    "hash": "6e3053d3ce91b5402c6b221960a595f7",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 14,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis.window` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T06:06:07+0000",
+    "updateDate": "2026-07-16T06:06:07+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

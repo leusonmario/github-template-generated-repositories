@@ -1,0 +1,60 @@
+{
+  "input_file": "/home/leuson/PycharmProjects/template_based_analysis/rq1/reports/generated_GHRep_from_templates_JavaScript_with_commits.csv",
+  "input_row_count": 71684,
+  "observation_window": {
+    "start_inclusive": "2023-10-18T00:00:00+00:00",
+    "end_inclusive": "2025-10-18T23:59:59.999999+00:00"
+  },
+  "eligibility_rules": {
+    "exclude_template_rows": true,
+    "minimum_commits": 2,
+    "require_valid_repository_and_template": true,
+    "exclude_repository_equal_to_template": true,
+    "require_creation_inside_window": true,
+    "require_commit_info_status_success": true,
+    "require_update_inside_window": false,
+    "remove_duplicate_repository_urls": true
+  },
+  "sampling_rules": {
+    "all_template_families_represented": true,
+    "maximum_per_template": 20,
+    "allocation": "proportional",
+    "evolution_bands": {
+      "low_2_to_5": "2-5 commits",
+      "medium_6_to_20": "6-20 commits",
+      "high_21_plus": "21 or more commits"
+    },
+    "random_seed": 20251018
+  },
+  "eligible_repository_count": 55146,
+  "eligible_template_family_count": 185,
+  "selected_repository_count": 1000,
+  "selected_template_family_count": 185,
+  "fully_enumerated_family_count": 163,
+  "capped_family_count": 22,
+  "overall_sampling_fraction": 0.018133681500018133,
+  "eligible_by_evolution_band": {
+    "high_21_plus": 782,
+    "low_2_to_5": 44151,
+    "medium_6_to_20": 10213
+  },
+  "selected_by_evolution_band": {
+    "high_21_plus": 132,
+    "low_2_to_5": 576,
+    "medium_6_to_20": 292
+  },
+  "exclusion_reason_counts": {
+    "commit_info_not_success": 242,
+    "created_before_window": 10577,
+    "duplicate_repository_url": 15,
+    "fewer_than_2_commits": 12530,
+    "missing_commit_count": 242,
+    "row_is_template": 126
+  },
+  "outputs": {
+    "selected_sample": "/home/leuson/PycharmProjects/template_based_analysis/rq2/sample/persistence_sample_balanced/JavaScript/selected_sample.csv",
+    "eligible_candidates": "/home/leuson/PycharmProjects/template_based_analysis/rq2/sample/persistence_sample_balanced/JavaScript/eligible_candidates.csv",
+    "template_sampling_report": "/home/leuson/PycharmProjects/template_based_analysis/rq2/sample/persistence_sample_balanced/JavaScript/template_sampling_report.csv",
+    "exclusion_reason_counts": "/home/leuson/PycharmProjects/template_based_analysis/rq2/sample/persistence_sample_balanced/JavaScript/exclusion_reason_counts.csv"
+  }
+}

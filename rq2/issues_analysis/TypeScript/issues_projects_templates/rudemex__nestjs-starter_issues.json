@@ -1,0 +1,727 @@
+[
+  {
+    "key": "e3073b80-7b2d-4aec-9cf6-116336655048",
+    "rule": "docker:S6579",
+    "severity": "MAJOR",
+    "component": "rudemex__nestjs-starter:Dockerfile",
+    "project": "rudemex__nestjs-starter",
+    "line": 51,
+    "hash": "3994da2ff491ba2fed366b5037365521",
+    "textRange": {
+      "startLine": 51,
+      "endLine": 51,
+      "startOffset": 11,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Include the ARG instruction in the build stage where it is used.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T23:00:47+0000",
+    "updateDate": "2026-07-16T23:00:47+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e2df5a71-87c9-4789-ab57-cd2d307ffd74",
+    "rule": "docker:S6579",
+    "severity": "MAJOR",
+    "component": "rudemex__nestjs-starter:Dockerfile",
+    "project": "rudemex__nestjs-starter",
+    "line": 64,
+    "hash": "78a4d7c79d48f4c6d2b35ca15efe6194",
+    "textRange": {
+      "startLine": 64,
+      "endLine": 64,
+      "startOffset": 7,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Include the ARG instruction in the build stage where it is used.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T23:00:47+0000",
+    "updateDate": "2026-07-16T23:00:47+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f6fbb129-4887-4dcf-a01c-45188b04d51d",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "rudemex__nestjs-starter:jest.globalSetup.ts",
+    "project": "rudemex__nestjs-starter",
+    "line": 2,
+    "hash": "6c88602ec87337f7ced5b0656f1d5f29",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 22,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T23:00:47+0000",
+    "updateDate": "2026-07-16T23:00:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "065af80b-5b78-4f74-ac89-5c87369829cf",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "rudemex__nestjs-starter:src/app.service.ts",
+    "project": "rudemex__nestjs-starter",
+    "line": 11,
+    "hash": "9015f70877edd8df9f0fac5df51e7737",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 24,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'appConfig: ConfigType<typeof config>' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T23:00:47+0000",
+    "updateDate": "2026-07-16T23:00:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "256f2aab-0e55-4022-a284-c165a580585c",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "rudemex__nestjs-starter:src/app.service.ts",
+    "project": "rudemex__nestjs-starter",
+    "line": 12,
+    "hash": "30d71cbb27dd0d6ce2689499f050af52",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 4,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'utilsService: UtilsService' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T23:00:47+0000",
+    "updateDate": "2026-07-16T23:00:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "13137e8b-a05b-46f1-b84c-df9e8ad22e83",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "rudemex__nestjs-starter:src/characters/__test__/characters.controller.spec.ts",
+    "project": "rudemex__nestjs-starter",
+    "line": 6,
+    "hash": "8fcc083438583900cab2e8dc30cdd92a",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 17,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T23:00:47+0000",
+    "updateDate": "2026-07-16T23:00:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8aa2f4d0-5c96-4ff9-af9a-3d8c7cb10760",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "rudemex__nestjs-starter:src/characters/__test__/characters.controller.spec.ts",
+    "project": "rudemex__nestjs-starter",
+    "line": 7,
+    "hash": "b561a6854011601a6d403f2bb81dcae8",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T23:00:47+0000",
+    "updateDate": "2026-07-16T23:00:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "be2faa3f-6fbf-472d-a553-f9077d2385c5",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "rudemex__nestjs-starter:src/characters/__test__/characters.service.spec.ts",
+    "project": "rudemex__nestjs-starter",
+    "line": 6,
+    "hash": "8fcc083438583900cab2e8dc30cdd92a",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 17,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T23:00:47+0000",
+    "updateDate": "2026-07-16T23:00:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0548178c-c85a-4635-8afb-750874eb9ad5",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "rudemex__nestjs-starter:src/characters/__test__/characters.service.spec.ts",
+    "project": "rudemex__nestjs-starter",
+    "line": 7,
+    "hash": "b561a6854011601a6d403f2bb81dcae8",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T23:00:47+0000",
+    "updateDate": "2026-07-16T23:00:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "84eb92fc-0a78-45ae-a8c8-3c3d341698cf",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "rudemex__nestjs-starter:src/config/__test__/configuration.spec.ts",
+    "project": "rudemex__nestjs-starter",
+    "line": 4,
+    "hash": "e1a9fdb72ce8194a5fea9fb6755168b2",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 25,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:process` over `process`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T23:00:47+0000",
+    "updateDate": "2026-07-16T23:00:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2c94cb48-855b-4922-beda-41368128e633",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "rudemex__nestjs-starter:src/config/__test__/configuration.spec.ts",
+    "project": "rudemex__nestjs-starter",
+    "line": 121,
+    "hash": "db5e8fcc753812d0cdc836e07a3cf119",
+    "textRange": {
+      "startLine": 121,
+      "endLine": 121,
+      "startOffset": 27,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T23:00:47+0000",
+    "updateDate": "2026-07-16T23:00:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a2bd8240-976c-4a72-8679-5db6f3191f23",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "rudemex__nestjs-starter:src/config/__test__/configuration.spec.ts",
+    "project": "rudemex__nestjs-starter",
+    "line": 131,
+    "hash": "c73663d43d01896596818a1376867621",
+    "textRange": {
+      "startLine": 131,
+      "endLine": 131,
+      "startOffset": 27,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T23:00:47+0000",
+    "updateDate": "2026-07-16T23:00:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fa207109-2738-4f79-a006-fb7f0143ed27",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "rudemex__nestjs-starter:src/config/configuration.ts",
+    "project": "rudemex__nestjs-starter",
+    "line": 22,
+    "hash": "b59cc086fefccab1993dccd7c3025c79",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 12,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T23:00:47+0000",
+    "updateDate": "2026-07-16T23:00:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b011a36c-2863-4770-957a-25b1a5649a90",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "rudemex__nestjs-starter:src/main.ts",
+    "project": "rudemex__nestjs-starter",
+    "line": 21,
+    "hash": "0b2d4477b637a91d15ce1056145a5353",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 23,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T23:00:47+0000",
+    "updateDate": "2026-07-16T23:00:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bfd032aa-df4c-4969-8a3a-f71866eb5649",
+    "rule": "typescript:S7785",
+    "severity": "MAJOR",
+    "component": "rudemex__nestjs-starter:src/main.ts",
+    "project": "rudemex__nestjs-starter",
+    "line": 75,
+    "hash": "21a750c9ec661f5ea5acbc9b264d4726",
+    "textRange": {
+      "startLine": 75,
+      "endLine": 75,
+      "startOffset": 25,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over an async IIFE.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-07-16T23:00:47+0000",
+    "updateDate": "2026-07-16T23:00:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "45011c8f-ce20-4bc5-9e9e-788a4478463d",
+    "rule": "typescript:S7737",
+    "severity": "MINOR",
+    "component": "rudemex__nestjs-starter:src/users/services/users.service.ts",
+    "project": "rudemex__nestjs-starter",
+    "line": 289,
+    "hash": "d4a2f34a8dd80c381b73ee76fc3dd3fc",
+    "textRange": {
+      "startLine": 289,
+      "endLine": 289,
+      "startOffset": 42,
+      "endOffset": 63
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use an object literal as default.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-16T23:00:47+0000",
+    "updateDate": "2026-07-16T23:00:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

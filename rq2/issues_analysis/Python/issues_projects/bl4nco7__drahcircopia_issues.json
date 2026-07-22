@@ -1,0 +1,120 @@
+[
+  {
+    "key": "2419f2d7-204d-456f-8991-8b898eab675c",
+    "rule": "python:S2208",
+    "severity": "CRITICAL",
+    "component": "bl4nco7__drahcircopia:temp_repos/DrahcirCopia/slides.py",
+    "project": "bl4nco7__drahcircopia",
+    "line": 1,
+    "hash": "851e9c881f185288d0e5b6807300e471",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 0,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Import only needed names or import the module and then use its members.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T20:21:04+0000",
+    "updateDate": "2026-07-17T20:21:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1ee7b1e4-1bb7-400e-b401-87a2b601ee7c",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "bl4nco7__drahcircopia:temp_repos/DrahcirCopia/slides.py",
+    "project": "bl4nco7__drahcircopia",
+    "line": 255,
+    "hash": "8260096ef194e49020a687325b641433",
+    "textRange": {
+      "startLine": 255,
+      "endLine": 255,
+      "startOffset": 42,
+      "endOffset": 59
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "bl4nco7__drahcircopia:temp_repos/DrahcirCopia/slides.py",
+            "textRange": {
+              "startLine": 279,
+              "endLine": 279,
+              "startOffset": 47,
+              "endOffset": 64
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bl4nco7__drahcircopia:temp_repos/DrahcirCopia/slides.py",
+            "textRange": {
+              "startLine": 317,
+              "endLine": 317,
+              "startOffset": 61,
+              "endOffset": 78
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal r\"\\:\\text{é um }\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:21:04+0000",
+    "updateDate": "2026-07-17T20:21:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

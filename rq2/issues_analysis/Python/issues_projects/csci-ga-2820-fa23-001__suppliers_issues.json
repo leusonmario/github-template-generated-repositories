@@ -1,0 +1,192 @@
+[
+  {
+    "key": "8afc4436-f23c-431a-96a6-67a16cd05e68",
+    "rule": "secrets:S6698",
+    "severity": "BLOCKER",
+    "component": "csci-ga-2820-fa23-001__suppliers:temp_repos/suppliers/service/config.py",
+    "project": "csci-ga-2820-fa23-001__suppliers",
+    "line": 8,
+    "hash": "fe8974f4a63ec5503dcc4a79fd7bcc9d",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 51,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make sure this PostgreSQL database password gets changed and removed from the code.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T21:27:10+0000",
+    "updateDate": "2026-07-17T21:27:10+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "03933c67-e354-42f3-9002-40d8ae775b13",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa23-001__suppliers:temp_repos/suppliers/service/routes.py",
+    "project": "csci-ga-2820-fa23-001__suppliers",
+    "line": 25,
+    "hash": "b1b6ecbc8fd679379b7d2eff0411c19a",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 12,
+      "endOffset": 62
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:27:10+0000",
+    "updateDate": "2026-07-17T21:27:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3ca3122e-3060-4840-b6cd-40dc2bb3883a",
+    "rule": "python:S5906",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa23-001__suppliers:temp_repos/suppliers/tests/test_models.py",
+    "project": "csci-ga-2820-fa23-001__suppliers",
+    "line": 61,
+    "hash": "92b07234a577226eba1e5c48d5d091f7",
+    "textRange": {
+      "startLine": 61,
+      "endLine": 61,
+      "startOffset": 8,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Consider using \"assertIsNone\" instead.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "tests",
+      "unittest"
+    ],
+    "creationDate": "2026-07-17T21:27:10+0000",
+    "updateDate": "2026-07-17T21:27:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b521b3bb-05d5-4d79-a1fc-6a8600811a5b",
+    "rule": "python:S1854",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa23-001__suppliers:temp_repos/suppliers/tests/test_models.py",
+    "project": "csci-ga-2820-fa23-001__suppliers",
+    "line": 258,
+    "hash": "cf3a5f2029bc136ad0389d18997860d7",
+    "textRange": {
+      "startLine": 258,
+      "endLine": 258,
+      "startOffset": 8,
+      "endOffset": 45
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-fa23-001__suppliers:temp_repos/suppliers/tests/test_models.py",
+            "textRange": {
+              "startLine": 267,
+              "endLine": 267,
+              "startOffset": 8,
+              "endOffset": 32
+            },
+            "msg": "'item' is reassigned here.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Remove this assignment to local variable 'item'; the value is never used.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:27:10+0000",
+    "updateDate": "2026-07-17T21:27:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

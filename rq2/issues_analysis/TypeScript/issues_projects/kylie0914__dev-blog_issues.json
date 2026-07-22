@@ -1,0 +1,4631 @@
+[
+  {
+    "key": "84b2d80b-cf64-4715-8957-d22c4b860727",
+    "rule": "docker:S6587",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/Dockerfile",
+    "project": "kylie0914__dev-blog",
+    "line": 4,
+    "hash": "020bc2195621819283baeeece6e226c7",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 2,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove cache after installing packages or store it in a cache mount.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cec368c8-2548-4df8-95cf-730885712bc5",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/apis/notion-client/getPosts.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 13,
+    "hash": "5c63b3fe528d76e6366e3aee1b32f835",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 3,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9897d25b-dcfe-4ccb-90b0-7ad56f5de6ee",
+    "rule": "typescript:S4138",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/apis/notion-client/getPosts.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 36,
+    "hash": "f59831403b7b54c2598dcb2745051fe4",
+    "textRange": {
+      "startLine": 36,
+      "endLine": 47,
+      "startOffset": 4,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Expected a `for-of` loop instead of a `for` loop with this simple iteration.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "clumsy"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "579950ec-fbf6-47e3-9011-80cc214ce6fa",
+    "rule": "typescript:S7758",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/components/Category/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 10,
+    "hash": "56fbbc02c15eaf3e7a37332840e05a15",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 63,
+      "endOffset": 73
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#codePointAt()` over `String#charCodeAt()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "internationalization",
+      "unicode"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d4c8abe3-fb62-4f77-b1a6-77f33390535b",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/components/Category/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 10,
+    "hash": "56fbbc02c15eaf3e7a37332840e05a15",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 19,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2f15b97d-603f-42c1-9830-75e2c27635e2",
+    "rule": "typescript:S6571",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/components/MetaConfig/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 7,
+    "hash": "bc8754503f8065a76b1ff934eb6f1d6a",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 8,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "\"Website\" is overridden by string in this union type.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3e710cc1-f85f-44b5-a2a6-a741f248418a",
+    "rule": "typescript:S6571",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/components/MetaConfig/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 7,
+    "hash": "bc8754503f8065a76b1ff934eb6f1d6a",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 20,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "\"Post\" is overridden by string in this union type.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5277da6a-b4ac-4a34-9d2f-8ace4b1ad86a",
+    "rule": "typescript:S6571",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/components/MetaConfig/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 7,
+    "hash": "bc8754503f8065a76b1ff934eb6f1d6a",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 29,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "\"Page\" is overridden by string in this union type.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "db14aabc-7924-496f-9ba0-276e83cb198e",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/hooks/useDropdown.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 29,
+    "hash": "d3bf0ddf9b03a599c64d25aaaf2b5fae",
+    "textRange": {
+      "startLine": 29,
+      "endLine": 29,
+      "startOffset": 4,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0427d4ce-8695-43ee-aaba-142f05f31443",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/hooks/useScheme.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 29,
+    "hash": "0cdf3d1bf66968e62c3b0f63ab6ff912",
+    "textRange": {
+      "startLine": 29,
+      "endLine": 29,
+      "startOffset": 9,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "13125e33-3da2-4106-a1e9-95c97a33726c",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/hooks/useScheme.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 33,
+    "hash": "1c3e479c353ff51dba13cdcc80531162",
+    "textRange": {
+      "startLine": 33,
+      "endLine": 35,
+      "startOffset": 8,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "975211c1-98d6-422a-8d72-a38a1900d6ec",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/hooks/useScheme.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 33,
+    "hash": "1c3e479c353ff51dba13cdcc80531162",
+    "textRange": {
+      "startLine": 33,
+      "endLine": 33,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ef55981a-437c-4820-9cce-83fd51837e4b",
+    "rule": "typescript:S3863",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/layouts/RootLayout/ThemeProvider/Global/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 1,
+    "hash": "303fd8146134b248cd87eae47ee5d1f3",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 49,
+      "endOffset": 65
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'@emotion/react' imported multiple times.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3fcac24b-87fa-4a04-b862-580cb925c1bf",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/layouts/RootLayout/ThemeProvider/Global/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 3,
+    "hash": "2f10155d55c93ed40bd707790889186a",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 26,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of '_ThemeProvider'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bbd19509-f8c6-47fa-b99c-fd7c3632f375",
+    "rule": "typescript:S3863",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/layouts/RootLayout/ThemeProvider/Global/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 3,
+    "hash": "2f10155d55c93ed40bd707790889186a",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 48,
+      "endOffset": 64
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'@emotion/react' imported multiple times.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fbec8c5f-86f6-4840-9d5d-2218d9ef6ab2",
+    "rule": "typescript:S6770",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/layouts/RootLayout/ThemeProvider/Global/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 10,
+    "hash": "18c9f89feca76312fb45af76e8868efb",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 77,
+      "startOffset": 4,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Imported JSX component _Global must be in PascalCase",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a200c2da-dc1b-4d3a-9ac9-f90552cdf482",
+    "rule": "typescript:S6770",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/layouts/RootLayout/ThemeProvider/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 15,
+    "hash": "bbff9a9be35e994010107ddc8f47e08a",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 4,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Imported JSX component _ThemeProvider must be in PascalCase",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7a4cfb5c-bc5d-4be6-b1ed-cde2e3e320cf",
+    "rule": "typescript:S3863",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/layouts/RootLayout/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 21,
+    "hash": "869cf58001111d564c8ea1a6e66b3639",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 7,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'prismjs/components/prism-go.js' imported multiple times.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "19e25db4-054e-4e96-bbfb-0e4d6ddcf489",
+    "rule": "typescript:S3863",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/layouts/RootLayout/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 41,
+    "hash": "6f37ce1a509062dc69c0678249c4907d",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 41,
+      "startOffset": 7,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'prismjs/components/prism-go.js' imported multiple times.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "30e3b901-8eb7-4222-8369-c45d213920f7",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/layouts/RootLayout/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 57,
+    "hash": "61897a01ba3a16a7bb3879439de0b3e1",
+    "textRange": {
+      "startLine": 57,
+      "endLine": 57,
+      "startOffset": 13,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "099b84ad-5d4b-41f6-9285-0a0a78f7b63e",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/layouts/RootLayout/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 58,
+    "hash": "f4d815c832e456983c070199519900da",
+    "textRange": {
+      "startLine": 58,
+      "endLine": 58,
+      "startOffset": 7,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "765d5ba6-3b4d-472d-b837-034565e38dee",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/gtag.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 6,
+    "hash": "3d721bf7268915b12bd0fea5fb7cfff9",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 13,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis.window` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7eff7ce7-0de7-43ff-b930-16908fd5e183",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/gtag.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 7,
+    "hash": "32b5a0e781453168590e58db06666afb",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 2,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "813b7111-6d1c-4f01-aed7-d051642c50a0",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/gtag.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 24,
+    "hash": "3d721bf7268915b12bd0fea5fb7cfff9",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 13,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis.window` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "623579e0-4a6a-4556-b6db-ff8f33b0631d",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/gtag.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 25,
+    "hash": "e4bda8b43d3cd1b99e4e5a5e7c6927db",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 2,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "face49bf-e25c-4456-94f1-a00cd3cf2fa5",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/utils/notion/getAllPageIds.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 18,
+    "hash": "5feb73f36a89575f6bb68b0c95d2cac7",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 25,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f5d839e1-7f06-4765-ad01-979e7ee1c2be",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/utils/notion/getAllPageIds.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 19,
+    "hash": "4a447b7e4aa407cb51fb6a14ee71d60d",
+    "textRange": {
+      "startLine": 19,
+      "endLine": 19,
+      "startOffset": 48,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "40cb9672-79c6-4d32-8aea-6c2ab7094ed2",
+    "rule": "typescript:S7747",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/utils/notion/getAllSelectItemsFromPosts.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 8,
+    "hash": "fdaecf9a159ba91c77a382f77bfa62f7",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 16,
+      "endOffset": 60
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unnecessarily cloning an array.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "60082398-3eed-45c9-86de-d180bcb53979",
+    "rule": "typescript:S7752",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/utils/notion/getAllSelectItemsFromPosts.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 8,
+    "hash": "fdaecf9a159ba91c77a382f77bfa62f7",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 34,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `.flatMap(…)` over `.map(…).flat()`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "es2019",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "05443f71-19ef-46cf-9897-bece4df7df53",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/utils/notion/getAllSelectItemsFromPosts.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 10,
+    "hash": "7e8aec6678ab922c224fd47efe5520d1",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 8,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d9bacadc-36f3-4b3b-b811-23da274c9384",
+    "rule": "typescript:S3776",
+    "severity": "CRITICAL",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/utils/notion/getPageProperties.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 6,
+    "hash": "3a692b0fbdc62bd1923b12d227e7ef5c",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 15,
+      "endOffset": 32
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/utils/notion/getPageProperties.ts",
+            "textRange": {
+              "startLine": 15,
+              "endLine": 15,
+              "startOffset": 2,
+              "endOffset": 5
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/utils/notion/getPageProperties.ts",
+            "textRange": {
+              "startLine": 18,
+              "endLine": 18,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/utils/notion/getPageProperties.ts",
+            "textRange": {
+              "startLine": 20,
+              "endLine": 20,
+              "startOffset": 6,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/utils/notion/getPageProperties.ts",
+            "textRange": {
+              "startLine": 18,
+              "endLine": 18,
+              "startOffset": 26,
+              "endOffset": 28
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/utils/notion/getPageProperties.ts",
+            "textRange": {
+              "startLine": 21,
+              "endLine": 21,
+              "startOffset": 6,
+              "endOffset": 12
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/utils/notion/getPageProperties.ts",
+            "textRange": {
+              "startLine": 28,
+              "endLine": 28,
+              "startOffset": 12,
+              "endOffset": 17
+            },
+            "msg": "+4 (incl. 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/utils/notion/getPageProperties.ts",
+            "textRange": {
+              "startLine": 41,
+              "endLine": 41,
+              "startOffset": 10,
+              "endOffset": 12
+            },
+            "msg": "+4 (incl. 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/utils/notion/getPageProperties.ts",
+            "textRange": {
+              "startLine": 48,
+              "endLine": 48,
+              "startOffset": 10,
+              "endOffset": 12
+            },
+            "msg": "+4 (incl. 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/utils/notion/getPageProperties.ts",
+            "textRange": {
+              "startLine": 57,
+              "endLine": 57,
+              "startOffset": 10,
+              "endOffset": 13
+            },
+            "msg": "+4 (incl. 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/utils/notion/getPageProperties.ts",
+            "textRange": {
+              "startLine": 58,
+              "endLine": 58,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+5 (incl. 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 29 to the 15 allowed.",
+    "effort": "19min",
+    "debt": "19min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b0cd71bf-4aa0-4427-9a95-fad03777fab9",
+    "rule": "typescript:S7776",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/utils/notion/getPageProperties.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 13,
+    "hash": "2f12c0997b6fedf8141836703ffbaf95",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 8,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "`excludeProperties` should be a `Set`, and use `excludeProperties.has()` to check existence or non-existence.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "optimization"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a0abbcd5-785f-4b56-9962-ff013f32d78a",
+    "rule": "typescript:S4138",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/utils/notion/getPageProperties.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 15,
+    "hash": "faca16282676e51f9a07b9f58dc36aab",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 81,
+      "startOffset": 2,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Expected a `for-of` loop instead of a `for` loop with this simple iteration.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "clumsy"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3ed8dceb-679a-47a2-ac87-6fe4ec3ce2da",
+    "rule": "typescript:S2486",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/utils/notion/getPageProperties.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 28,
+    "hash": "161b8313784081f5965c2da97df48970",
+    "textRange": {
+      "startLine": 28,
+      "endLine": 30,
+      "startOffset": 12,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c0588478-1ea1-456d-8a59-1887a17abc8a",
+    "rule": "typescript:S1871",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/utils/notion/getPageProperties.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 46,
+    "hash": "23765d471a318054d488b145ae95f1e3",
+    "textRange": {
+      "startLine": 46,
+      "endLine": 52,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/utils/notion/getPageProperties.ts",
+            "textRange": {
+              "startLine": 39,
+              "endLine": 45,
+              "startOffset": 8,
+              "endOffset": 9
+            },
+            "msg": "Original",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This case's code block is the same as the block for the case on line 39.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "design",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9b06363d-2eee-4400-8e32-c7e71855b506",
+    "rule": "typescript:S4138",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/utils/notion/getPageProperties.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 57,
+    "hash": "80bec6561c401810bcefc8732def0232",
+    "textRange": {
+      "startLine": 57,
+      "endLine": 73,
+      "startOffset": 10,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Expected a `for-of` loop instead of a `for` loop with this simple iteration.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "clumsy"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dea2fd59-2d98-4574-8071-30a187761d0d",
+    "rule": "typescript:S7734",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/libs/utils/notion/getPageProperties.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 85,
+    "hash": "e10d3690d199f6f39b8405d2d305ff62",
+    "textRange": {
+      "startLine": 85,
+      "endLine": 85,
+      "startOffset": 9,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using the default export over named export.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es6"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "982231ed-7fa5-4c93-9351-27a80eb6043f",
+    "rule": "typescript:S6749",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/pages/_document.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 23,
+    "hash": "38559c871fba28d992ead51549367f83",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 28,
+      "startOffset": 12,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A fragment with only one child is redundant.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a499a998-da08-4459-ad91-5993c0637fb7",
+    "rule": "typescript:S6749",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/pages/_document.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 32,
+    "hash": "38559c871fba28d992ead51549367f83",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 37,
+      "startOffset": 12,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A fragment with only one child is redundant.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2072a797-f939-429a-9a8f-c69d1cdf5771",
+    "rule": "typescript:S2486",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/pages/api/revalidate.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 28,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 28,
+      "endLine": 30,
+      "startOffset": 4,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1571a3d1-325a-4de8-84f4-82754ff53bc7",
+    "rule": "typescript:S7748",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/pages/sitemap.xml.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 22,
+    "hash": "a06289f0ab5cb1de596d8fc94581e2b1",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 15,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use a zero fraction in the number.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "consistency",
+      "formatting"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3c2bf411-066b-4cb3-9664-5479ac92830f",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/pages/sitemap.xml.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 30,
+    "hash": "85bb9ccb62b169a64dc2c655baa1a7b7",
+    "textRange": {
+      "startLine": 30,
+      "endLine": 30,
+      "startOffset": 18,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "de35f271-a205-4d56-970f-aecf6e5624ed",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/PostDetail/CommentBox/Cusdis.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 6,
+    "hash": "7935c14dfb89f4cf8b1359dba5dca7df",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 9,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'useRouter'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "04bb268b-4438-46f7-9382-e2f92247304d",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/PostDetail/CommentBox/Cusdis.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 25,
+    "hash": "062200b2af3bbebb8175d6f5c13efd9e",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 18,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ec543f31-0bc4-426c-a491-6b535fdf2724",
+    "rule": "typescript:S6749",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/PostDetail/CommentBox/Cusdis.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 41,
+    "hash": "38559c871fba28d992ead51549367f83",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 55,
+      "startOffset": 4,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A fragment with only one child is redundant.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "edce06f8-68cb-499a-821d-b964e162b8a1",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/PostDetail/CommentBox/Utterances.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 7,
+    "hash": "27be505bf06de2ecfeedb99f334f42fc",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 2,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "adb40510-78f5-45c4-a018-0af8d24f15a9",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/PostDetail/CommentBox/Utterances.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 29,
+    "hash": "4d9ac63d05a308c237038e14a2d14f5f",
+    "textRange": {
+      "startLine": 29,
+      "endLine": 29,
+      "startOffset": 24,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0b0ced90-aa94-43f0-8f22-0129cc7ca8e9",
+    "rule": "typescript:S6749",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/PostDetail/CommentBox/Utterances.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 38,
+    "hash": "38559c871fba28d992ead51549367f83",
+    "textRange": {
+      "startLine": 38,
+      "endLine": 42,
+      "startOffset": 4,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A fragment with only one child is redundant.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "19ab879b-6ce4-43a3-ae3f-cbfc267e7e93",
+    "rule": "typescript:S1082",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/PostDetail/PostFooter.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 11,
+    "hash": "9a9e167aef6dc0fe81c9049ef28b40aa",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 6,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Visible, non-interactive elements with click handlers must have at least one keyboard listener.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a6eb622f-cf11-49f9-b985-2225097e1f1a",
+    "rule": "typescript:S6844",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/PostDetail/PostFooter.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 11,
+    "hash": "9a9e167aef6dc0fe81c9049ef28b40aa",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 6,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchor used as a button. Anchors are primarily expected to navigate. Use the button element instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f4c3c78e-02f9-416c-baaf-6accfb322251",
+    "rule": "typescript:S6848",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/PostDetail/PostFooter.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 11,
+    "hash": "9a9e167aef6dc0fe81c9049ef28b40aa",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 6,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6e94b439-90d5-4d16-92aa-e895a9ccf11d",
+    "rule": "typescript:S1082",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/PostDetail/PostFooter.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 12,
+    "hash": "41dd361253a7c866c072a82dea364fe8",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 6,
+      "endOffset": 73
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Visible, non-interactive elements with click handlers must have at least one keyboard listener.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f52e952c-e7ab-4208-9bb8-12131613482a",
+    "rule": "typescript:S6844",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/PostDetail/PostFooter.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 12,
+    "hash": "41dd361253a7c866c072a82dea364fe8",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 6,
+      "endOffset": 73
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchor used as a button. Anchors are primarily expected to navigate. Use the button element instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "faf304cc-a319-4f3b-af62-21a44a54d997",
+    "rule": "typescript:S6848",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/PostDetail/PostFooter.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 12,
+    "hash": "41dd361253a7c866c072a82dea364fe8",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 6,
+      "endOffset": 73
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "985f869d-2354-4dc4-addd-9b08d00071ad",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/PostDetail/PostHeader.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 20,
+    "hash": "0e58e138cb117ed4bc13a8618cfc5c93",
+    "textRange": {
+      "startLine": 20,
+      "endLine": 20,
+      "startOffset": 13,
+      "endOffset": 65
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "59f54892-3e2b-4ef5-bc40-e2e6330ffddd",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/PostDetail/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 17,
+    "hash": "44ca27c71835cdf11862f0a4d22b44b6",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 17,
+      "startOffset": 20,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "aef4711d-ff5c-4dbe-ac2e-ca0200972ba1",
+    "rule": "typescript:S6747",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/PostDetail/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 23,
+    "hash": "0d257450b639738e19b3830aa4208b4e",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 15,
+      "endOffset": 47
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unknown property 'css' found",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "910e084b-530e-4026-b862-68906fd5ef5f",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/components/NotionRenderer/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 50,
+    "hash": "f93848626eee355dbec59c6a48ae71db",
+    "textRange": {
+      "startLine": 50,
+      "endLine": 50,
+      "startOffset": 39,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d7bbc79b-a836-447c-a360-df7341cffd04",
+    "rule": "typescript:S6770",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/components/NotionRenderer/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 61,
+    "hash": "aa787479fdfcbf07c3819e9dbad06fa9",
+    "textRange": {
+      "startLine": 61,
+      "endLine": 74,
+      "startOffset": 6,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Imported JSX component _NotionRenderer must be in PascalCase",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6840c813-e5ba-48d2-9f63-5316ff5607cc",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/hooks/useMermaidEffect.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 1,
+    "hash": "90b9c1c5a291f3e085184fa0e3cbd2d1",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 19,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'useQueryClient'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cebb302b-872c-4228-956f-104994fd064a",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/hooks/useMermaidEffect.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 5,
+    "hash": "68e2c87d7ff0b81fcdc84690a7ca1a51",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 7,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'useScheme'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "80bd6612-563a-44f3-acb6-59c8af4645fa",
+    "rule": "typescript:S2004",
+    "severity": "CRITICAL",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/hooks/useMermaidEffect.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 54,
+    "hash": "87ec0c8168d09c0e5ba105d1fdab19d0",
+    "textRange": {
+      "startLine": 54,
+      "endLine": 54,
+      "startOffset": 28,
+      "endOffset": 30
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/hooks/useMermaidEffect.ts",
+            "textRange": {
+              "startLine": 29,
+              "endLine": 29,
+              "startOffset": 28,
+              "endOffset": 30
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/hooks/useMermaidEffect.ts",
+            "textRange": {
+              "startLine": 37,
+              "endLine": 37,
+              "startOffset": 15,
+              "endOffset": 17
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/hooks/useMermaidEffect.ts",
+            "textRange": {
+              "startLine": 47,
+              "endLine": 47,
+              "startOffset": 29,
+              "endOffset": 31
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/hooks/useMermaidEffect.ts",
+            "textRange": {
+              "startLine": 50,
+              "endLine": 50,
+              "startOffset": 34,
+              "endOffset": 36
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this code to not nest functions more than 4 levels deep.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c9f5400d-096b-4046-a2dd-77b7e6cb3617",
+    "rule": "typescript:S2004",
+    "severity": "CRITICAL",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/hooks/useMermaidEffect.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 67,
+    "hash": "87ec0c8168d09c0e5ba105d1fdab19d0",
+    "textRange": {
+      "startLine": 67,
+      "endLine": 67,
+      "startOffset": 26,
+      "endOffset": 28
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/hooks/useMermaidEffect.ts",
+            "textRange": {
+              "startLine": 29,
+              "endLine": 29,
+              "startOffset": 28,
+              "endOffset": 30
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/hooks/useMermaidEffect.ts",
+            "textRange": {
+              "startLine": 37,
+              "endLine": 37,
+              "startOffset": 15,
+              "endOffset": 17
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/hooks/useMermaidEffect.ts",
+            "textRange": {
+              "startLine": 47,
+              "endLine": 47,
+              "startOffset": 29,
+              "endOffset": 31
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/hooks/useMermaidEffect.ts",
+            "textRange": {
+              "startLine": 50,
+              "endLine": 50,
+              "startOffset": 34,
+              "endOffset": 36
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this code to not nest functions more than 4 levels deep.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "659bab79-ce4c-442b-8848-be1f77db5674",
+    "rule": "typescript:S3626",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Detail/hooks/useMermaidEffect.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 78,
+    "hash": "e70c4df10ef0983b9c8c31bd06b2a2c3",
+    "textRange": {
+      "startLine": 78,
+      "endLine": 78,
+      "startOffset": 2,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant jump.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "redundant",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b00ddb2f-4139-4ed2-bc0f-f1d4239b4bb0",
+    "rule": "typescript:S6747",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/ContactCard.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 44,
+    "hash": "49ea2aa9224bcca66304376ab15b7d31",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 44,
+      "startOffset": 12,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unknown property 'css' found",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bd8d0645-37b9-4bd1-9390-555f33cc6959",
+    "rule": "typescript:S4624",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/FeedHeader/CategorySelect.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 16,
+    "hash": "0e370de3585276cf88186241a19f3f6b",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 54,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Refactor this code to not use nested template literals.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6867e76b-a8ab-4e1e-9211-2ad10884bbc1",
+    "rule": "typescript:S6848",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/FeedHeader/CategorySelect.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 28,
+    "hash": "7caccc64b4c4d95bad92e977f26c1a6e",
+    "textRange": {
+      "startLine": 28,
+      "endLine": 28,
+      "startOffset": 6,
+      "endOffset": 70
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bcab3f57-918e-403e-920b-ffa9397c553b",
+    "rule": "typescript:S1082",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/FeedHeader/CategorySelect.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 28,
+    "hash": "7caccc64b4c4d95bad92e977f26c1a6e",
+    "textRange": {
+      "startLine": 28,
+      "endLine": 28,
+      "startOffset": 6,
+      "endOffset": 70
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Visible, non-interactive elements with click handlers must have at least one keyboard listener.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "047c8e16-436a-4b84-8202-59c30f65fe9c",
+    "rule": "typescript:S1082",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/FeedHeader/CategorySelect.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 34,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 34,
+      "endLine": 38,
+      "startOffset": 12,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Visible, non-interactive elements with click handlers must have at least one keyboard listener.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c90af4fb-ca0a-4d97-8692-fa3bdd14308f",
+    "rule": "typescript:S6848",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/FeedHeader/CategorySelect.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 34,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 34,
+      "endLine": 38,
+      "startOffset": 12,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9fc84fb2-9d25-447e-bc7a-c97c6e00cfdd",
+    "rule": "typescript:S6479",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/FeedHeader/CategorySelect.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 36,
+    "hash": "d70e7b08084a8dc0b1ddca1896b51181",
+    "textRange": {
+      "startLine": 36,
+      "endLine": 36,
+      "startOffset": 19,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3b54b86d-5853-4000-a21e-dec6854404e4",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/FeedHeader/FeedHeader.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 1,
+    "hash": "0451a5da9c75a71962537322eaf10be5",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 9,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'TCategories'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9f397e12-826a-4572-87aa-343bef5491ab",
+    "rule": "typescript:S4624",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/FeedHeader/OrderButtons.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 12,
+    "hash": "9dcb081f98fb592448d5dfd248241dad",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 48,
+      "endOffset": 50
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Refactor this code to not use nested template literals.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "087978ba-f88a-4c9c-adb8-b949fcd1d20a",
+    "rule": "typescript:S1082",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/FeedHeader/OrderButtons.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 24,
+    "hash": "2518e8d779a92f826f3c8b7a1c062913",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 27,
+      "startOffset": 6,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Visible, non-interactive elements with click handlers must have at least one keyboard listener.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c9870bdf-a376-45c8-ac90-573d56834218",
+    "rule": "typescript:S6844",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/FeedHeader/OrderButtons.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 24,
+    "hash": "2518e8d779a92f826f3c8b7a1c062913",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 27,
+      "startOffset": 6,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchor used as a button. Anchors are primarily expected to navigate. Use the button element instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f00ea7da-7572-446b-ab47-e2bca6839ede",
+    "rule": "typescript:S6848",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/FeedHeader/OrderButtons.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 24,
+    "hash": "2518e8d779a92f826f3c8b7a1c062913",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 27,
+      "startOffset": 6,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a8454635-2bb4-4244-b529-dfdc9d4b81de",
+    "rule": "typescript:S6848",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/FeedHeader/OrderButtons.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 30,
+    "hash": "2518e8d779a92f826f3c8b7a1c062913",
+    "textRange": {
+      "startLine": 30,
+      "endLine": 33,
+      "startOffset": 6,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ac87eada-ce21-4011-8dc6-14db697b9f96",
+    "rule": "typescript:S1082",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/FeedHeader/OrderButtons.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 30,
+    "hash": "2518e8d779a92f826f3c8b7a1c062913",
+    "textRange": {
+      "startLine": 30,
+      "endLine": 33,
+      "startOffset": 6,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Visible, non-interactive elements with click handlers must have at least one keyboard listener.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c3ddc567-d239-404f-8e7e-c4f343fc6082",
+    "rule": "typescript:S6844",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/FeedHeader/OrderButtons.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 30,
+    "hash": "2518e8d779a92f826f3c8b7a1c062913",
+    "textRange": {
+      "startLine": 30,
+      "endLine": 33,
+      "startOffset": 6,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchor used as a button. Anchors are primarily expected to navigate. Use the button element instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "13a633dd-84c0-441c-95a2-c0d98f7abaf5",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/PostList/PostCard.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 15,
+    "hash": "44ca27c71835cdf11862f0a4d22b44b6",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 20,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4b2b23d6-fc7d-4322-a395-2596cff2c36d",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/PostList/PostCard.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 51,
+    "hash": "8f53bea7d5f4c3cfbd9955d965ea1f4f",
+    "textRange": {
+      "startLine": 51,
+      "endLine": 54,
+      "startOffset": 13,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e91ed93d-d862-492d-a65f-e6647adcaa15",
+    "rule": "typescript:S6479",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/PostList/PostCard.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 53,
+    "hash": "b6b5dc3be567b90a0feece0ebe47bd4e",
+    "textRange": {
+      "startLine": 53,
+      "endLine": 53,
+      "startOffset": 26,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bee2c048-4379-4624-83a3-1b7671239afd",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/PostList/filterPosts.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 25,
+    "hash": "93701bbbfbf7b54ee28d23ac17ca6b54",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 18,
+      "endOffset": 54
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "88dc0cf2-44a2-4c81-88c0-151a324c362d",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/PostList/filterPosts.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 27,
+    "hash": "1d0d528d9d35739984f2cf662c8e7816",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 11,
+      "endOffset": 60
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d572f2da-99e2-4cb7-8ef7-c642c0fcc1ea",
+    "rule": "typescript:S4624",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/PostList/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 16,
+    "hash": "61c6839befb5916753e0648b209c0e14",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 44,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Refactor this code to not use nested template literals.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8af3d62f-f6cb-4c6f-b89f-b975ecee2974",
+    "rule": "typescript:S4624",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/PostList/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 17,
+    "hash": "0e370de3585276cf88186241a19f3f6b",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 17,
+      "startOffset": 54,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Refactor this code to not use nested template literals.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "92bc1d2a-b5a6-4442-a178-92449fd767cb",
+    "rule": "typescript:S4624",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/PostList/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 18,
+    "hash": "0460b1dc4def640662b09e405c06da7d",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 48,
+      "endOffset": 50
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Refactor this code to not use nested template literals.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cc3a376f-ffe1-4125-b60c-3b98f0b7e0c1",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/PostList/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 33,
+    "hash": "28f6ad5fb40a223eef6aa02b3efcd06e",
+    "textRange": {
+      "startLine": 33,
+      "endLine": 33,
+      "startOffset": 20,
+      "endOffset": 71
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c4f0499b-323c-47a5-957e-4c17a3e6b877",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/PostList/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 41,
+    "hash": "aad549e268cdbddf00139d29fe9db051",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 41,
+      "startOffset": 12,
+      "endOffset": 76
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8a22fe2d-df0c-49fc-a224-db082d85bbac",
+    "rule": "typescript:S6749",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/PostList/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 54,
+    "hash": "38559c871fba28d992ead51549367f83",
+    "textRange": {
+      "startLine": 54,
+      "endLine": 63,
+      "startOffset": 4,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A fragment with only one child is redundant.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8d5bf0e0-b650-455a-be7f-3e1cdaab03ff",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/SearchInput.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 2,
+    "hash": "1150d21f86bbbe51d206b10bfe314c89",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 37,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'ReactNode'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8f6de607-c665-48f2-b8d1-9c6efad5b901",
+    "rule": "typescript:S6479",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/ServiceCard.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 17,
+    "hash": "d70e7b08084a8dc0b1ddca1896b51181",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 17,
+      "startOffset": 17,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0dd7cfce-19fe-4aab-905a-56fc35c54969",
+    "rule": "typescript:S6844",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/TagList.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 42,
+    "hash": "2518e8d779a92f826f3c8b7a1c062913",
+    "textRange": {
+      "startLine": 42,
+      "endLine": 46,
+      "startOffset": 10,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchor used as a button. Anchors are primarily expected to navigate. Use the button element instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a470b231-20bd-4097-947f-cb82ced94728",
+    "rule": "typescript:S6848",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/TagList.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 42,
+    "hash": "2518e8d779a92f826f3c8b7a1c062913",
+    "textRange": {
+      "startLine": 42,
+      "endLine": 46,
+      "startOffset": 10,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f9515dd6-fc99-4c95-ac72-af5c3f32b44e",
+    "rule": "typescript:S1082",
+    "severity": "MINOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/TagList.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 42,
+    "hash": "2518e8d779a92f826f3c8b7a1c062913",
+    "textRange": {
+      "startLine": 42,
+      "endLine": 46,
+      "startOffset": 10,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Visible, non-interactive elements with click handlers must have at least one keyboard listener.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1904a847-63a8-45dc-bfaf-9cb5e6c1d0a0",
+    "rule": "typescript:S6747",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 26,
+    "hash": "b6a6f0f8ece6b18e4c3e1b1a605079a6",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 28,
+      "startOffset": 8,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unknown property 'css' found",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bca6ae49-aada-4ae1-bbd2-74f6a8fb4eb3",
+    "rule": "typescript:S6747",
+    "severity": "MAJOR",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/routes/Feed/index.tsx",
+    "project": "kylie0914__dev-blog",
+    "line": 47,
+    "hash": "b6a6f0f8ece6b18e4c3e1b1a605079a6",
+    "textRange": {
+      "startLine": 47,
+      "endLine": 49,
+      "startOffset": 8,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unknown property 'css' found",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8c21197c-10a2-439c-88e6-29a3df4eb93d",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "kylie0914__dev-blog:temp_repos/dev-blog/src/types/index.ts",
+    "project": "kylie0914__dev-blog",
+    "line": 6,
+    "hash": "9936dfcedf92b187f59073f8ab06ea54",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 3,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T02:33:38+0000",
+    "updateDate": "2026-07-16T02:33:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

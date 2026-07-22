@@ -1,0 +1,5193 @@
+[
+  {
+    "key": "d01138d0-5818-4f77-83af-75ad9486e745",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/Dockerfile",
+    "project": "modship__openrpc-validator-docker",
+    "line": 13,
+    "hash": "67e3d12ef1313bc2af677065f4d602e1",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/Dockerfile",
+            "textRange": {
+              "startLine": 14,
+              "endLine": 14,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/Dockerfile",
+            "textRange": {
+              "startLine": 15,
+              "endLine": 15,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1c9be1cc-52d7-4e35-9a69-d3c20f76aa35",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/__tests__/main.test.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 17,
+    "hash": "bec28b8a018b8ac77025f758cc901869",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 17,
+      "startOffset": 28,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `global`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f0461245-888f-4266-a459-64b2c77b5eb4",
+    "rule": "javascript:S7780",
+    "severity": "MINOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/jest.config.js",
+    "project": "modship__openrpc-validator-docker",
+    "line": 10,
+    "hash": "5b769e0f2c09b161588ad38152950e36",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 13,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "`String.raw` should be used to avoid escaping `\\`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8895b1d2-a6df-43bb-9636-b0f3945f4f03",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 5,
+    "hash": "c31f7e57dca096382780d98c561a23be",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 51,
+      "endOffset": 74
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'ContentDescriptorObject'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0d0d6547-e809-47fe-a89d-0387afcf8706",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 13,
+    "hash": "1ee83255ac3f52bdeffe9a5e33042aa9",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4e09eb01-da80-4dcc-bde4-d17ca48902af",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 14,
+    "hash": "97a14dd8635e7d5a4856479e88808b98",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c537b1cc-11a9-42d2-8925-c0b8c980b971",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 26,
+    "hash": "5e55dfb6276dbe95c40a00225c057c05",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 12,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8830ae05-b370-4b4c-9f77-e584b4e3c971",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 38,
+    "hash": "0e57351713ea624eaffd686908a2ccfb",
+    "textRange": {
+      "startLine": 38,
+      "endLine": 38,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"boolean\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "534f7258-1308-4057-b573-67ff2413d1ad",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 44,
+    "hash": "c320d95628dc56d599120ffcbdaff62d",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 44,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8f33e94e-299e-4981-815b-d4ed4795d5fb",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 50,
+    "hash": "b78d88fc78168696e09cd47e6f10f4da",
+    "textRange": {
+      "startLine": 50,
+      "endLine": 50,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d96b0ce6-ce63-42de-b0ea-b7417728e104",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 70,
+    "hash": "5ebd6731bbbaabd38d2bb99b3fabdfbd",
+    "textRange": {
+      "startLine": 70,
+      "endLine": 70,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3e73b23b-481e-40e1-b01b-5309b9697762",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 76,
+    "hash": "151c9eb75726ff42a0f64308f6c95257",
+    "textRange": {
+      "startLine": 76,
+      "endLine": 76,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3d980b91-621d-4a28-9e90-c6ceb47b6d77",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 83,
+    "hash": "3be839638872a63d1ec36f2f3e807287",
+    "textRange": {
+      "startLine": 83,
+      "endLine": 83,
+      "startOffset": 12,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"null\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bad62e52-df1f-4d24-9a1a-9596079dc92c",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 84,
+    "hash": "9c144e40d307f79af7f647cde80eb2dd",
+    "textRange": {
+      "startLine": 84,
+      "endLine": 84,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "84c1d986-aa4e-44a2-8f6c-cf53b311b980",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 91,
+    "hash": "1bc70eb77207d5eacdc70b9267d8584a",
+    "textRange": {
+      "startLine": 91,
+      "endLine": 91,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "370145aa-8845-4701-8d39-f222d64e081a",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 123,
+    "hash": "b3c7649cb0efccb7f7c4749d6d023946",
+    "textRange": {
+      "startLine": 123,
+      "endLine": 123,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"boolean\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c9aa67e4-a673-4328-9ff9-4573e85b7c3c",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 138,
+    "hash": "21a84638ff49fe9be43f56a9cb77c541",
+    "textRange": {
+      "startLine": 138,
+      "endLine": 138,
+      "startOffset": 12,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0824a1ff-5abb-4990-bad8-e4660950b24a",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 158,
+    "hash": "ff124e052b82e35b0fcda788a042dc11",
+    "textRange": {
+      "startLine": 158,
+      "endLine": 158,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d3f0918e-563b-4a08-8227-6eeffaa334e6",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 164,
+    "hash": "76e987cde8d00eedce867d6f0182fa02",
+    "textRange": {
+      "startLine": 164,
+      "endLine": 164,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c5f944e1-8a92-4d7e-8c9f-2ebe6968fa38",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 170,
+    "hash": "dc9f1080c9d254e392ab639d914dc25d",
+    "textRange": {
+      "startLine": 170,
+      "endLine": 170,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f00bb170-b2b1-40a9-9248-2639b33dc098",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 176,
+    "hash": "8075ef4bbd64d7c816b3f2ee4358ff50",
+    "textRange": {
+      "startLine": 176,
+      "endLine": 176,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"boolean\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d6d5ebb3-5305-4443-95c6-dc2da7bb858b",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 182,
+    "hash": "d2a2a36ae8da6c2c18e281c4d032ff2c",
+    "textRange": {
+      "startLine": 182,
+      "endLine": 182,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"boolean\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b8ac3ffb-b912-4026-915b-04b7995fdbd7",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 188,
+    "hash": "9d8a656493a522be5db0f90cafc3a4ee",
+    "textRange": {
+      "startLine": 188,
+      "endLine": 188,
+      "startOffset": 12,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "11db054f-b9c5-43bf-b2eb-263b612d6997",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 194,
+    "hash": "e77ad25aa6347b2c7e74855c0736214f",
+    "textRange": {
+      "startLine": 194,
+      "endLine": 194,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7f7aeb11-adc8-43dc-a736-a48dd4e56326",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 200,
+    "hash": "7a5d7f99aa3aeaef16233a5a6821aa0e",
+    "textRange": {
+      "startLine": 200,
+      "endLine": 200,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "41d89f47-cfed-4b10-bb4e-aed40d9adc6a",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 206,
+    "hash": "511c64a0665e96d64f60c421fedecabb",
+    "textRange": {
+      "startLine": 206,
+      "endLine": 206,
+      "startOffset": 12,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d989999b-9eda-47b8-9f0c-aabb7864108d",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 212,
+    "hash": "a7ca660779164ff413b6287df1d74dac",
+    "textRange": {
+      "startLine": 212,
+      "endLine": 212,
+      "startOffset": 12,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "24030661-580c-41b9-b5a5-12f9f968860e",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 237,
+    "hash": "b0906cd6bdc54c25145feed33742585e",
+    "textRange": {
+      "startLine": 237,
+      "endLine": 237,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e92e52ec-3ceb-4ec6-a57f-d2625aa4ca54",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 249,
+    "hash": "c7fc034e9cb2fab6009ded3e2b96c4d7",
+    "textRange": {
+      "startLine": 249,
+      "endLine": 249,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "189b913b-b9ce-473c-9110-7cdf7be3106c",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 264,
+    "hash": "504ea0bf1272662712ff0bc76801daa4",
+    "textRange": {
+      "startLine": 264,
+      "endLine": 264,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9ef6217e-9916-4734-b1ff-520da95bc04d",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 270,
+    "hash": "f958704a369a861f890c67d7a363d112",
+    "textRange": {
+      "startLine": 270,
+      "endLine": 270,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"boolean\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d5305138-a2aa-4b55-83c1-ad7545b56b9f",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 282,
+    "hash": "ae2a504fbea67d884b5dc34bdea036c2",
+    "textRange": {
+      "startLine": 282,
+      "endLine": 282,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b32ce4fc-c7c5-42b1-9979-78bf3d29c470",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 288,
+    "hash": "32925db5ce1d9f0959224ad730065c07",
+    "textRange": {
+      "startLine": 288,
+      "endLine": 288,
+      "startOffset": 12,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e69a1e28-f713-404b-b0cb-0a9bb99f9a08",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 294,
+    "hash": "caf249e5c9bc4890c7166fcef75f5963",
+    "textRange": {
+      "startLine": 294,
+      "endLine": 294,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"boolean\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b6ee3c32-7883-4ca2-875b-1c2b402d6759",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 300,
+    "hash": "16debead38849714b6d13c6636b44b87",
+    "textRange": {
+      "startLine": 300,
+      "endLine": 300,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"boolean\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "866bc9a3-a3a6-48a8-8959-23e28158a8d3",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 326,
+    "hash": "d6481c96fe3396bff0114edacf72fec6",
+    "textRange": {
+      "startLine": 326,
+      "endLine": 326,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b5ff0991-243e-4cca-adf9-c68c3d94f1d7",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 363,
+    "hash": "f3cd46e4bae040e0e92d31b25c1a86c0",
+    "textRange": {
+      "startLine": 363,
+      "endLine": 363,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6bdd1d97-5fbc-4d7d-8084-7ceca5c6ff7b",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 384,
+    "hash": "bf7b8e836bbcdc10575b3320432170bc",
+    "textRange": {
+      "startLine": 384,
+      "endLine": 384,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9588995e-f55e-4a34-be58-f85a02f1afb4",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 390,
+    "hash": "a0cad88b7bf6a90a9aed1499464a749f",
+    "textRange": {
+      "startLine": 390,
+      "endLine": 390,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fcaaca91-bd37-421f-a8e5-ccc5b7b555b9",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 396,
+    "hash": "2e20656657c6e29e3097bce3fb148e05",
+    "textRange": {
+      "startLine": 396,
+      "endLine": 396,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7eadda1b-8c8a-4581-a8b0-eece5d4da2f4",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 409,
+    "hash": "a29e46004867e2a9fab07427fc534cc1",
+    "textRange": {
+      "startLine": 409,
+      "endLine": 409,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "be6685af-b6a3-484e-90df-7949783a7fc1",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 415,
+    "hash": "c685657db6229a9eaed6b1897b4ef5db",
+    "textRange": {
+      "startLine": 415,
+      "endLine": 415,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b7e2b81e-e9ad-4438-9e52-a147eb3126ab",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 467,
+    "hash": "11469c441e216999e2da7ec3351d9d12",
+    "textRange": {
+      "startLine": 467,
+      "endLine": 467,
+      "startOffset": 12,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4fab9e3e-3e71-4bf3-aa2e-57024f9a3b7b",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 474,
+    "hash": "951c8a9a2d7d65ead6500f88ee283b48",
+    "textRange": {
+      "startLine": 474,
+      "endLine": 474,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"boolean\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "46449a70-7c51-4bbd-9e0d-d804efa6ada2",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 511,
+    "hash": "ffce2128cb7c814b4543ffdedee648f0",
+    "textRange": {
+      "startLine": 511,
+      "endLine": 511,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"boolean\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5d1c00e6-6cce-4900-b859-36e40993f974",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 517,
+    "hash": "016d8ac637d82e99ffd814f6e90fcf9b",
+    "textRange": {
+      "startLine": 517,
+      "endLine": 517,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"boolean\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2a350f19-aef8-4ab2-9eda-76f10bd79148",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 523,
+    "hash": "7f51b2e2609efcded74c0a9395e95df4",
+    "textRange": {
+      "startLine": 523,
+      "endLine": 523,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"boolean\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "936773f4-0b47-411c-a71c-8293f6442a80",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 529,
+    "hash": "6908e122bc27170d43407a8757e6bea7",
+    "textRange": {
+      "startLine": 529,
+      "endLine": 529,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"boolean\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "318c11a2-0d39-46e5-a9b7-706142aefbd4",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 535,
+    "hash": "833a3e30fb11aa1711429db9df533f5d",
+    "textRange": {
+      "startLine": 535,
+      "endLine": 535,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f388b74e-af50-4cf7-b6ab-25b6282c23ac",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 651,
+    "hash": "f4c546c2c92edf7d97109b876bb6a3f7",
+    "textRange": {
+      "startLine": 651,
+      "endLine": 651,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "18ea3788-4ed1-4d1e-9591-ef0d119630b0",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 657,
+    "hash": "d80bc0da4f68d9381ecdc598e847a1b5",
+    "textRange": {
+      "startLine": 657,
+      "endLine": 657,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"boolean\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "aa43d73a-b9f2-418f-b31b-6f4c11447de3",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 683,
+    "hash": "6639732aa7d4058c426b884c1308817d",
+    "textRange": {
+      "startLine": 683,
+      "endLine": 683,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d7f61465-5ca0-4b2c-8f32-a5f1ba1b482e",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 689,
+    "hash": "d3e1e61ea6ba7b6204c6ef06e25612fb",
+    "textRange": {
+      "startLine": 689,
+      "endLine": 689,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "159359b2-87eb-4205-b439-c1c192879238",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 695,
+    "hash": "0b46cdb6d228ec509f939512becd637c",
+    "textRange": {
+      "startLine": 695,
+      "endLine": 695,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d5df58de-42f4-491f-b6e9-eef72859d2da",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 701,
+    "hash": "892bb9fb9b92c6c19ecb63cab0e5c476",
+    "textRange": {
+      "startLine": 701,
+      "endLine": 701,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "edb5ea20-8387-4286-abd4-1854272b1a5c",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 713,
+    "hash": "6c874ad07c7486553f89e7364aeceb34",
+    "textRange": {
+      "startLine": 713,
+      "endLine": 713,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"boolean\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ae567855-bcce-4b33-bd79-cca08a70a5b2",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 719,
+    "hash": "ef54ec450e0e0f6f79a8934bad33299a",
+    "textRange": {
+      "startLine": 719,
+      "endLine": 719,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "05c76270-5e9c-41c5-b92f-806cf3e5c54a",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 725,
+    "hash": "283117acfee6c9cc48986030473b3abc",
+    "textRange": {
+      "startLine": 725,
+      "endLine": 725,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "df1a4b91-31c4-43c5-bf26-98e00345ef1a",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 777,
+    "hash": "d74c813a3a3b9f60287154471430470a",
+    "textRange": {
+      "startLine": 777,
+      "endLine": 777,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2952966c-f8e9-40e4-8473-6fb23e26dfa1",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 783,
+    "hash": "86c5b55546c9e78e936ffddbbd75f616",
+    "textRange": {
+      "startLine": 783,
+      "endLine": 783,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f12a6fc0-261c-4943-9deb-813fce7f6919",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 804,
+    "hash": "d981171f032a31a20e43757652d2698e",
+    "textRange": {
+      "startLine": 804,
+      "endLine": 804,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d9b4c942-37fa-4585-9891-cbf00478f09d",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 818,
+    "hash": "f68024f01ae7dee0307a2232774366c2",
+    "textRange": {
+      "startLine": 818,
+      "endLine": 818,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"boolean\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4e150427-cda5-4455-9a9c-5e3d1a255cc1",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 830,
+    "hash": "6f2fbd928edc2f5cb8a9c5c5ba130034",
+    "textRange": {
+      "startLine": 830,
+      "endLine": 830,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "430da2f0-8206-42aa-96d7-feb70d706afe",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 836,
+    "hash": "843f50a2c61b329584ffa8c565130127",
+    "textRange": {
+      "startLine": 836,
+      "endLine": 836,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0d360b11-75d6-4229-ac0e-5ca83eb4c0d4",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 842,
+    "hash": "d84af0b0bc16d590c751b6be9f92b0d4",
+    "textRange": {
+      "startLine": 842,
+      "endLine": 842,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "76b2f8c4-9708-4eaa-a75b-78ef05839a89",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 848,
+    "hash": "e51a2aeff46835ff5edbb8d14c9ddf03",
+    "textRange": {
+      "startLine": 848,
+      "endLine": 848,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4290d821-b574-4656-a1c7-1ad5e13b8817",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 869,
+    "hash": "eedc7ad1349672677331d89f16dd230b",
+    "textRange": {
+      "startLine": 869,
+      "endLine": 869,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a2f974f4-dcb7-4dc9-a12d-b06c04c4a6dd",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 896,
+    "hash": "21ff380b86e30cf97b81f1f9d20d73bc",
+    "textRange": {
+      "startLine": 896,
+      "endLine": 896,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "89647dc8-bb98-4257-9a56-3a173cfefecc",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 902,
+    "hash": "b26289812a932048ea72645bfc4ca6bb",
+    "textRange": {
+      "startLine": 902,
+      "endLine": 902,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4e63ba21-5d52-4609-9fa0-b45f78507e1b",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 908,
+    "hash": "e66edf24b4d30dab1765a9f49d39ed9d",
+    "textRange": {
+      "startLine": 908,
+      "endLine": 908,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2f285beb-d1b5-429b-a8f4-60bce3958f20",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 926,
+    "hash": "062b6f36640402dcf5799452f7830104",
+    "textRange": {
+      "startLine": 926,
+      "endLine": 926,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4a12a75f-d404-41c2-851c-45ad862fd301",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1013,
+    "hash": "c6072e6013df42c33d8483ce9828cc9c",
+    "textRange": {
+      "startLine": 1013,
+      "endLine": 1013,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "60397c36-a6f1-45bc-8f5f-7b68d615410a",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1026,
+    "hash": "0ab0564473ba438f906172ab6f829f6b",
+    "textRange": {
+      "startLine": 1026,
+      "endLine": 1026,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "42241661-0f59-4b2f-8897-c53c0e06e71d",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1032,
+    "hash": "23cfcc2d880ff1d03c4a53fa6293e758",
+    "textRange": {
+      "startLine": 1032,
+      "endLine": 1032,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f139d8b2-cb5a-4766-99db-1e87cded0aa0",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1038,
+    "hash": "20892a61929b749c529682af7bdaba53",
+    "textRange": {
+      "startLine": 1038,
+      "endLine": 1038,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4dc3114c-9ebf-4579-8913-2022ce6482d0",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1044,
+    "hash": "7e608c54041b3f2f4d7ac8e294e9a8a7",
+    "textRange": {
+      "startLine": 1044,
+      "endLine": 1044,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "00bc5691-8646-4d70-80a5-5e7892b2bc4e",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1050,
+    "hash": "9638affb18ef120287d009ca0de728d6",
+    "textRange": {
+      "startLine": 1050,
+      "endLine": 1050,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "34a82aca-54cd-40c8-99d8-0518c5cd83dc",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1056,
+    "hash": "219c3207134107061bfbf43c2663aa9f",
+    "textRange": {
+      "startLine": 1056,
+      "endLine": 1056,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "50b52c2d-c7d4-4fc8-bfcf-2bd39a84d75c",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1090,
+    "hash": "a7d699a8c5fa242338f4fd4b8be04f2c",
+    "textRange": {
+      "startLine": 1090,
+      "endLine": 1090,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ffb7a40b-16c0-4ecd-a28b-e7ef082be285",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1108,
+    "hash": "5f6a899f1daaf60705f91fd15750165e",
+    "textRange": {
+      "startLine": 1108,
+      "endLine": 1108,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "918fc45d-d5d5-42d7-abd1-d6d55c8c40bf",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1114,
+    "hash": "4eb52bb3f32517aaa186aceb101e5688",
+    "textRange": {
+      "startLine": 1114,
+      "endLine": 1114,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "16b30a23-5e7b-44cb-a75e-735bda41e59f",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1120,
+    "hash": "c16203f0584bd95e327bcce47bc30b7d",
+    "textRange": {
+      "startLine": 1120,
+      "endLine": 1120,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "333eebb5-941c-4b64-9ca7-467384bdf33a",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1126,
+    "hash": "84ee5f85c32645a34ff23982c65bf2dc",
+    "textRange": {
+      "startLine": 1126,
+      "endLine": 1126,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "669e58c6-300e-4b5b-8977-bf7236512b2f",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1132,
+    "hash": "d6a3d82f113a50fae100529cdf8d72fe",
+    "textRange": {
+      "startLine": 1132,
+      "endLine": 1132,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9a81c051-3aca-4f86-ba47-c2d61cf355c0",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1138,
+    "hash": "9d54622006266cde8d2661360de27f72",
+    "textRange": {
+      "startLine": 1138,
+      "endLine": 1138,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4db817d2-cca4-4529-ac2d-6ea0c1ce2318",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1144,
+    "hash": "b1f03232245888621e1a7efa98be5854",
+    "textRange": {
+      "startLine": 1144,
+      "endLine": 1144,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "37eaf270-c525-4d15-9c4b-6dea26c6c447",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1150,
+    "hash": "7f16c3f1308583f7892546d74feafe46",
+    "textRange": {
+      "startLine": 1150,
+      "endLine": 1150,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "643ac1ee-5a41-4e4f-8e4b-8d1d24fdf8ba",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1156,
+    "hash": "2a1c0dfe916e9f432433157558667779",
+    "textRange": {
+      "startLine": 1156,
+      "endLine": 1156,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e77c9d38-9fd5-42dd-b01d-ba2b98d139cf",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1174,
+    "hash": "a55e631b0348e5dc7a36b6914740dccc",
+    "textRange": {
+      "startLine": 1174,
+      "endLine": 1174,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7eac29f6-574b-4a23-8b31-0922683e2644",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1192,
+    "hash": "5dc2db230014121fe41124211abb311b",
+    "textRange": {
+      "startLine": 1192,
+      "endLine": 1192,
+      "startOffset": 12,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9ad2f486-993d-4bf1-a24f-f9b57bdcc85d",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1198,
+    "hash": "698c13bce68adcf818166c739aa223c5",
+    "textRange": {
+      "startLine": 1198,
+      "endLine": 1198,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "40816009-3f8c-4039-b841-bfeecc42cc47",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1204,
+    "hash": "0f5288c4a8b847d7fcfe8bd8800a7963",
+    "textRange": {
+      "startLine": 1204,
+      "endLine": 1204,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bc8c4cbb-f0b6-42ef-89f2-8707e897d718",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1210,
+    "hash": "f2f21730c5eb91a7293a8a95741f017e",
+    "textRange": {
+      "startLine": 1210,
+      "endLine": 1210,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "72e22f4c-2570-417d-9253-6b45dcb4038c",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1216,
+    "hash": "e2fe42b0d4c6cc9ab32b5094f69ecf43",
+    "textRange": {
+      "startLine": 1216,
+      "endLine": 1216,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8c724857-312a-47c9-8a1f-225500346d7b",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1235,
+    "hash": "e18f2944b1315e4c5c09c903dc0af907",
+    "textRange": {
+      "startLine": 1235,
+      "endLine": 1235,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"number\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "af80d904-8fe1-4b8c-82b6-8441d26d8a12",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1236,
+    "hash": "7a128bd444f58c6ffe131a34fa544a8e",
+    "textRange": {
+      "startLine": 1236,
+      "endLine": 1236,
+      "startOffset": 5,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"any\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9e96997c-bc48-44ce-950f-fc859895c358",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1242,
+    "hash": "cde5c56a7ccb75d20dbeefbd42925de6",
+    "textRange": {
+      "startLine": 1242,
+      "endLine": 1242,
+      "startOffset": 12,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "38d5caea-1bee-49fc-b7fe-941eae4232bb",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1248,
+    "hash": "6698bd3dda9f5324755d9f65d761f10d",
+    "textRange": {
+      "startLine": 1248,
+      "endLine": 1248,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "22c2a925-db92-4082-a263-d5fb9071dd13",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1254,
+    "hash": "3ba3f3a9386542378bd7a0569b628d9b",
+    "textRange": {
+      "startLine": 1254,
+      "endLine": 1254,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9f001fc0-42ca-4bc9-b6dd-dd0ff85051a1",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1272,
+    "hash": "ebf7fa3cd54d92b2824bf2faaacbbac5",
+    "textRange": {
+      "startLine": 1272,
+      "endLine": 1272,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"boolean\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "03407cc1-b5b7-4dc0-abec-19e7279fdf8c",
+    "rule": "typescript:S1444",
+    "severity": "MINOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1456,
+    "hash": "bf24559725b77e1ec2c32accef4bce36",
+    "textRange": {
+      "startLine": 1456,
+      "endLine": 1456,
+      "startOffset": 16,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make this public static property readonly.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "89f06d9b-b474-469d-8ffc-1196c2ba720b",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1458,
+    "hash": "3418b7ced423e72cd36b8bc99d351348",
+    "textRange": {
+      "startLine": 1458,
+      "endLine": 1458,
+      "startOffset": 2,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'validator' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9104b913-c567-4533-8e70-80dd07bc0c5e",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1463,
+    "hash": "6cf2f000a93133e8002b40cf170f4828",
+    "textRange": {
+      "startLine": 1463,
+      "endLine": 1463,
+      "startOffset": 8,
+      "endOffset": 79
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ffd57caa-588f-4db0-8c73-79277d30880d",
+    "rule": "typescript:S6557",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1468,
+    "hash": "8c8f32685d91d803a96cced6b9f3f582",
+    "textRange": {
+      "startLine": 1468,
+      "endLine": 1468,
+      "startOffset": 15,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use 'String#startsWith' method instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "453a58f9-0b31-4ddd-b42c-3ae2777420b9",
+    "rule": "typescript:S1763",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1487,
+    "hash": "c2bef11d43d42a908d638b8e21336173",
+    "textRange": {
+      "startLine": 1487,
+      "endLine": 1487,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unreachable code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f19941ce-eeca-4dd2-8af9-69c7de219c16",
+    "rule": "typescript:S6644",
+    "severity": "MINOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/generated/client.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 1557,
+    "hash": "5e8281d41f0c485a6e3aa99db5792da1",
+    "textRange": {
+      "startLine": 1557,
+      "endLine": 1557,
+      "startOffset": 25,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unnecessary use of boolean literals in conditional expression.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3dd36a21-6238-4921-b1c2-4db8be58c590",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/publicAPI.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 110,
+    "hash": "d13af89f23335c1bf2f57462a312663d",
+    "textRange": {
+      "startLine": 110,
+      "endLine": 110,
+      "startOffset": 7,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "31d625c5-ddbc-4d82-a6d9-bad518c27d30",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/publicAPI.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 123,
+    "hash": "b73a34d4f3c0927c4b8905c479ab80a7",
+    "textRange": {
+      "startLine": 123,
+      "endLine": 123,
+      "startOffset": 7,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "719d235b-9cd8-4177-ae49-d2ac329a0e7a",
+    "rule": "typescript:S7758",
+    "severity": "MINOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/publicAPI.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 142,
+    "hash": "d64157d392b6d5d66af27d5898b63cac",
+    "textRange": {
+      "startLine": 142,
+      "endLine": 142,
+      "startOffset": 52,
+      "endOffset": 62
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#codePointAt()` over `String#charCodeAt()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "internationalization",
+      "unicode"
+    ],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4fc7cb06-a8c9-4e70-ac2b-e19615bc6903",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/src/publicAPI.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 187,
+    "hash": "184d9f6b9b79b3dbed2f2d8854fdff26",
+    "textRange": {
+      "startLine": 187,
+      "endLine": 187,
+      "startOffset": 7,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ee09a545-0817-4414-9e90-57741fe79828",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/test/publicAPI.spec.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 29,
+    "hash": "089781b7fa7c5a9c044b90566c98d04c",
+    "textRange": {
+      "startLine": 29,
+      "endLine": 29,
+      "startOffset": 0,
+      "endOffset": 76
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b194b1ad-cd84-4c93-96de-310ecdad87ad",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/test/publicAPI.spec.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 39,
+    "hash": "b0d9317afe1c2e6e4db09859ba7cd120",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 39,
+      "startOffset": 26,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d7136b4f-cae4-459f-95f2-a801ad90d3e4",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/test/publicAPI.spec.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 40,
+    "hash": "aada292e80ef5d1c8b1cbd466ff6fed9",
+    "textRange": {
+      "startLine": 40,
+      "endLine": 40,
+      "startOffset": 26,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "043c3577-1168-46bc-a8d7-7596539ae380",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/test/publicAPI.spec.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 54,
+    "hash": "a94517a1315faf710087b21c31b41859",
+    "textRange": {
+      "startLine": 54,
+      "endLine": 54,
+      "startOffset": 16,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2d2cf91b-4b92-4f0c-ac22-bcf21ca9a25f",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/test/publicAPI.spec.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 60,
+    "hash": "94edda6a780eeddc506127ab1bfa882c",
+    "textRange": {
+      "startLine": 60,
+      "endLine": 60,
+      "startOffset": 17,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cc968348-26d9-4085-92ca-a684db9fb253",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/test/publicAPI.spec.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 66,
+    "hash": "86f85d26e6cb759bfed954e1cbe51f87",
+    "textRange": {
+      "startLine": 66,
+      "endLine": 66,
+      "startOffset": 16,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4fb18408-3bfb-4057-b21e-9bf00694d14a",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/test/publicAPI.spec.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 73,
+    "hash": "b3128a6f268e31771132cab8d87fedfc",
+    "textRange": {
+      "startLine": 73,
+      "endLine": 73,
+      "startOffset": 75,
+      "endOffset": 80
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e6beaec8-2eb1-4664-9d0a-ce6976dc01c7",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/test/publicAPI.spec.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 90,
+    "hash": "ed66ed9f771bd3ad7fc95ba13ba134d1",
+    "textRange": {
+      "startLine": 90,
+      "endLine": 90,
+      "startOffset": 53,
+      "endOffset": 72
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "05e481b4-1144-4934-987c-ac28d0aa68ad",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/test/publicAPI.spec.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 96,
+    "hash": "b95880dcd11133f577e9166400666dc5",
+    "textRange": {
+      "startLine": 96,
+      "endLine": 96,
+      "startOffset": 12,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "75208b16-6145-4709-b1d8-5dc10d477ae3",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/test/publicAPI.spec.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 97,
+    "hash": "0a400245190c04792eb9441cf7820dc8",
+    "textRange": {
+      "startLine": 97,
+      "endLine": 97,
+      "startOffset": 12,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5582664c-911b-48bd-b987-fd5d735b2a4a",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/test/publicAPI.spec.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 99,
+    "hash": "3af3d17d1671c33263ad499b7bcbd111",
+    "textRange": {
+      "startLine": 99,
+      "endLine": 99,
+      "startOffset": 21,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "52afc12d-b454-4973-b9fe-6bb639ea8d8f",
+    "rule": "typescript:S7758",
+    "severity": "MINOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/test/publicAPI.spec.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 112,
+    "hash": "6918b7054d2fa5f51038fd5514b2c6a7",
+    "textRange": {
+      "startLine": 112,
+      "endLine": 112,
+      "startOffset": 53,
+      "endOffset": 63
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#codePointAt()` over `String#charCodeAt()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "internationalization",
+      "unicode"
+    ],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "acc07a3e-fa3b-48f7-a73b-b1b92cf123a4",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/test/publicAPI.spec.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 120,
+    "hash": "59241bf0944d3f8a2089e8ea7c67df89",
+    "textRange": {
+      "startLine": 120,
+      "endLine": 120,
+      "startOffset": 16,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "084ff89c-67d6-4725-bd8a-ebc13baf91d4",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "modship__openrpc-validator-docker:temp_repos/openrpc-validator-docker/test/publicAPI.spec.ts",
+    "project": "modship__openrpc-validator-docker",
+    "line": 233,
+    "hash": "2d26b302d01420c42786ae87655fce30",
+    "textRange": {
+      "startLine": 233,
+      "endLine": 249,
+      "startOffset": 4,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T00:54:38+0000",
+    "updateDate": "2026-07-16T00:54:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

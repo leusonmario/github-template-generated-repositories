@@ -1,0 +1,1331 @@
+[
+  {
+    "key": "50855219-9739-4b56-982a-fa8307ab34a7",
+    "rule": "typescript:S7776",
+    "severity": "MINOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/middleware/uploader.middleware.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 21,
+    "hash": "fd3d46acc2aa9bebb0372148f3d23d3e",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 10,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "`allowedTypes` should be a `Set`, and use `allowedTypes.has()` to check existence or non-existence.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "optimization"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "af7ec3f2-c1c7-4964-b14a-01a869373878",
+    "rule": "typescript:S7722",
+    "severity": "MINOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/modules/auth/auth.controller.spec.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 54,
+    "hash": "1d03a0b244d1b98714c84d6258777855",
+    "textRange": {
+      "startLine": 54,
+      "endLine": 54,
+      "startOffset": 24,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Pass a message to the `Error` constructor.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "33afc381-eb42-48ea-9937-6f5540a92f25",
+    "rule": "typescript:S7722",
+    "severity": "MINOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/modules/auth/auth.controller.spec.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 99,
+    "hash": "1d03a0b244d1b98714c84d6258777855",
+    "textRange": {
+      "startLine": 99,
+      "endLine": 99,
+      "startOffset": 24,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Pass a message to the `Error` constructor.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fc103df5-91a8-4348-bc71-42af073feb17",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/modules/auth/auth.router.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 16,
+    "hash": "d48049897342ae49071f20c620aedd75",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 2,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'initializeRoutes' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7d8552a4-6e51-4d9f-aee9-f9a257aef85a",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/modules/cloudinary/cloudinary.service.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 2,
+    "hash": "2137bfe3f17cd29bee128493715b33a5",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 25,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:stream` over `stream`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "75253e56-113a-45b3-87f6-845ebed29540",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/modules/cloudinary/cloudinary.service.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 16,
+    "hash": "1480e3533dd34d739377f878c23bdf52",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 2,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'bufferToStream' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "91253379-9d89-4b64-b73d-05f6f2ac031c",
+    "rule": "typescript:S7778",
+    "severity": "MINOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/modules/cloudinary/cloudinary.service.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 20,
+    "hash": "cb303cbd45d93d2791d8b5b6d43b7db9",
+    "textRange": {
+      "startLine": 20,
+      "endLine": 20,
+      "startOffset": 13,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not call `Array#push()` multiple times.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e306ecf7-13f6-4d00-ab85-4e7d4540876b",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/modules/cloudinary/cloudinary.service.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 24,
+    "hash": "b09e904231598567dbf4c43388345e4e",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 2,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'extractPublicIdFromUrl' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "383593d9-b9ec-42a5-8d4d-3ff0579bf6e1",
+    "rule": "typescript:S2737",
+    "severity": "MINOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/modules/cloudinary/cloudinary.service.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 50,
+    "hash": "161b8313784081f5965c2da97df48970",
+    "textRange": {
+      "startLine": 50,
+      "endLine": 50,
+      "startOffset": 6,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "unused",
+      "finding",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d6a5c3f7-1612-4638-8eed-bf93819b207d",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/modules/mail/mail.service.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 1,
+    "hash": "7013ddcba34cdecc97f88da78a150aaf",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 15,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs/promises` over `fs/promises`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b59c150b-0381-4556-bdde-53bafdab02d1",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/modules/mail/mail.service.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 4,
+    "hash": "4b6e4e765587d1ad118e965d7d21a315",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 17,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1215288f-4c2f-4e2c-8487-e0ca45b5d8c6",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/modules/mail/mail.service.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 8,
+    "hash": "b2ef230a0db9f37d0000af8023368ada",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 2,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'transporter' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e9595130-8f68-46a7-86d4-73f96d399bcd",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/modules/mail/mail.service.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 9,
+    "hash": "59db1e1856be17c4c67241babe8d961c",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 2,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'templatesDir' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3eaef413-075e-47de-b260-ffb0e5c0b0e7",
+    "rule": "typescript:S2486",
+    "severity": "MINOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/modules/mail/mail.service.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 66,
+    "hash": "161b8313784081f5965c2da97df48970",
+    "textRange": {
+      "startLine": 66,
+      "endLine": 68,
+      "startOffset": 6,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "350820c7-8e02-4eca-8c1e-f1ebe0104fd8",
+    "rule": "typescript:S3696",
+    "severity": "MAJOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/modules/mail/mail.service.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 67,
+    "hash": "37e39290247d7a2af69d02e08439b488",
+    "textRange": {
+      "startLine": 67,
+      "endLine": 67,
+      "startOffset": 6,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Expected an error object to be thrown.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "api-design",
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9b4d78e8-762b-4fe1-b455-23f53100613f",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/modules/pagination/dto/pagination.dto.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 8,
+    "hash": "2df3ca0cc13c394b8db418b901fd9e88",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 28,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d62ae71a-1dfb-4399-8381-4ee01c6894e2",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/modules/pagination/dto/pagination.dto.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 13,
+    "hash": "2df3ca0cc13c394b8db418b901fd9e88",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 28,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4b03b6ec-3c8f-4f18-b80a-0fa0f4c1cc24",
+    "rule": "typescript:S7722",
+    "severity": "MINOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/modules/sample/sample.controller.spec.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 68,
+    "hash": "1d03a0b244d1b98714c84d6258777855",
+    "textRange": {
+      "startLine": 68,
+      "endLine": 68,
+      "startOffset": 24,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Pass a message to the `Error` constructor.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f8da6b22-7ed9-4a42-89ff-811b1f76d5b7",
+    "rule": "typescript:S7722",
+    "severity": "MINOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/modules/sample/sample.controller.spec.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 109,
+    "hash": "1d03a0b244d1b98714c84d6258777855",
+    "textRange": {
+      "startLine": 109,
+      "endLine": 109,
+      "startOffset": 24,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Pass a message to the `Error` constructor.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "22348703-8fc5-4f54-b576-d35acef49b23",
+    "rule": "typescript:S7722",
+    "severity": "MINOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/modules/sample/sample.controller.spec.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 179,
+    "hash": "1d03a0b244d1b98714c84d6258777855",
+    "textRange": {
+      "startLine": 179,
+      "endLine": 179,
+      "startOffset": 24,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Pass a message to the `Error` constructor.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5fd27ef6-d677-455c-b98a-a1bdbd0aa291",
+    "rule": "typescript:S7722",
+    "severity": "MINOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/modules/sample/sample.controller.spec.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 230,
+    "hash": "1d03a0b244d1b98714c84d6258777855",
+    "textRange": {
+      "startLine": 230,
+      "endLine": 230,
+      "startOffset": 24,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Pass a message to the `Error` constructor.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "69e8a40a-a0f6-4a04-a7eb-7e33facb8e8f",
+    "rule": "typescript:S7722",
+    "severity": "MINOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/modules/sample/sample.controller.spec.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 275,
+    "hash": "1d03a0b244d1b98714c84d6258777855",
+    "textRange": {
+      "startLine": 275,
+      "endLine": 275,
+      "startOffset": 24,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Pass a message to the `Error` constructor.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fbb18362-fe2e-45c8-b336-4766f621112e",
+    "rule": "typescript:S905",
+    "severity": "MAJOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/modules/sample/sample.controller.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 26,
+    "hash": "50f6fc10d42367557f3aaee5106cc338",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 6,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Expected an assignment or function call and instead saw an expression.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3b070a60-896b-43a9-b9a9-c4efad4875be",
+    "rule": "typescript:S6509",
+    "severity": "MINOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/modules/sample/sample.controller.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 40,
+    "hash": "8b02210993e39de124f50522bf83b23e",
+    "textRange": {
+      "startLine": 40,
+      "endLine": 40,
+      "startOffset": 11,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Redundant Boolean call.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "573cc913-7fdb-4e53-a1b1-b76c765c4dec",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/modules/sample/sample.router.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 23,
+    "hash": "d48049897342ae49071f20c620aedd75",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 2,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'initializeRoutes' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0d0419a0-5362-46df-978b-f6f3d927a182",
+    "rule": "typescript:S1854",
+    "severity": "MAJOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:src/modules/sample/sample.service.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 65,
+    "hash": "0f3285efc9284c913812ff5419ad7fdb",
+    "textRange": {
+      "startLine": 65,
+      "endLine": 65,
+      "startOffset": 12,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this useless assignment to variable \"secure_url\".",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a33f70f8-3295-49b9-9dbf-adf09b9a711d",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:test/integration/sample/create-sample.spec.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 1,
+    "hash": "9eb43a10291d5a7db566077510f20ac3",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 29,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e0832c5f-2872-4450-a7d9-91b2abdd639c",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:test/integration/sample/create-sample.spec.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 3,
+    "hash": "f40651a1f94655f3cffc68ed8db5f6b9",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 21,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d619b0d4-259d-44c8-8ed7-12bd164233c3",
+    "rule": "typescript:S7784",
+    "severity": "MINOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:test/integration/sample/get-sample.spec.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 30,
+    "hash": "71f6c0542dbb12623fc1b8dec2bc716d",
+    "textRange": {
+      "startLine": 30,
+      "endLine": 30,
+      "startOffset": 40,
+      "endOffset": 65
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `structuredClone(…)` over `JSON.parse(JSON.stringify(…))` to create a deep clone.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "modernize",
+      "es2021"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6dfbba06-4c6f-4ee8-89c5-2f1407cabd0a",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "danielreinhard1129__express-prisma-boilerplate:test/setup.ts",
+    "project": "danielreinhard1129__express-prisma-boilerplate",
+    "line": 1,
+    "hash": "4f635625acfdb28dfe0fb298e19ad59c",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 25,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:child_process` over `child_process`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T21:41:33+0000",
+    "updateDate": "2026-07-16T21:41:33+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

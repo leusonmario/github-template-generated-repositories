@@ -1,0 +1,3143 @@
+[
+  {
+    "key": "09152fe4-809d-4fe5-a0f0-9ceff51e229e",
+    "rule": "docker:S7018",
+    "severity": "MINOR",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:Dockerfile",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 14,
+    "hash": "816a2469545f023e78cf7785e8fad434",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 26,
+      "startOffset": 4,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Sort these package names alphanumerically.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "77a22c95-4f0f-49b4-b5cc-110985faa62a",
+    "rule": "docker:S6587",
+    "severity": "MAJOR",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:Dockerfile",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 34,
+    "hash": "a939e3ef153b78cb9311871a4cde43d9",
+    "textRange": {
+      "startLine": 34,
+      "endLine": 34,
+      "startOffset": 4,
+      "endOffset": 52
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove cache after installing packages or store it in a cache mount.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "65f8d3ec-bdc9-42cf-b6d8-8932fcdd57d3",
+    "rule": "docker:S6587",
+    "severity": "MAJOR",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:Dockerfile",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 36,
+    "hash": "816a2469545f023e78cf7785e8fad434",
+    "textRange": {
+      "startLine": 36,
+      "endLine": 37,
+      "startOffset": 4,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove cache after installing packages or store it in a cache mount.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b8a960b4-9e68-4eac-b11b-721852727c03",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:Dockerfile",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 52,
+    "hash": "f842f12127b9131d6bb170fada8dc131",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 52,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:Dockerfile",
+            "textRange": {
+              "startLine": 53,
+              "endLine": 53,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a6c13437-27fc-42f9-862d-d5126ccabdef",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:Dockerfile",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 60,
+    "hash": "c4d7fa104210ce8dfafe63e95d08d8c6",
+    "textRange": {
+      "startLine": 60,
+      "endLine": 60,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:Dockerfile",
+            "textRange": {
+              "startLine": 61,
+              "endLine": 61,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3c452a97-2f3c-4f24-a070-64754e8fa1bc",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 66,
+    "hash": "a3e481dc6013e35e89e01e21ddf8dcee",
+    "textRange": {
+      "startLine": 66,
+      "endLine": 66,
+      "startOffset": 4,
+      "endOffset": 15
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 73,
+              "endLine": 73,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 76,
+              "endLine": 76,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 82,
+              "endLine": 82,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 84,
+              "endLine": 84,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 87,
+              "endLine": 87,
+              "startOffset": 12,
+              "endOffset": 15
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 100,
+              "endLine": 100,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 110,
+              "endLine": 110,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 115,
+              "endLine": 115,
+              "startOffset": 8,
+              "endOffset": 13
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 117,
+              "endLine": 117,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 120,
+              "endLine": 120,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 122,
+              "endLine": 122,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 124,
+              "endLine": 124,
+              "startOffset": 12,
+              "endOffset": 17
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 126,
+              "endLine": 126,
+              "startOffset": 16,
+              "endOffset": 19
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 133,
+              "endLine": 133,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 140,
+              "endLine": 140,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 151,
+              "endLine": 151,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.",
+    "effort": "18min",
+    "debt": "18min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2c220f7c-58e1-47c5-9297-9db062c6874c",
+    "rule": "python:S7504",
+    "severity": "MINOR",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 167,
+    "hash": "66fa5018445eb7086648553c886e5a27",
+    "textRange": {
+      "startLine": 167,
+      "endLine": 167,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unnecessary `list()` call on an already iterable object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "70b08cea-1f5c-4ca4-8d38-5510a7de2013",
+    "rule": "python:S2772",
+    "severity": "MINOR",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 187,
+    "hash": "1a1dc91c907325c69271ddf0c944bc72",
+    "textRange": {
+      "startLine": 187,
+      "endLine": 187,
+      "startOffset": 8,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unneeded \"pass\".",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ca3bc625-30c6-441c-bf0d-d17ed015c32d",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 301,
+    "hash": "81132df562d9b89edbde2765bb51daf0",
+    "textRange": {
+      "startLine": 301,
+      "endLine": 301,
+      "startOffset": 16,
+      "endOffset": 28
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 313,
+              "endLine": 313,
+              "startOffset": 16,
+              "endOffset": 28
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 328,
+              "endLine": 328,
+              "startOffset": 16,
+              "endOffset": 28
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 349,
+              "endLine": 349,
+              "startOffset": 16,
+              "endOffset": 28
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 361,
+              "endLine": 361,
+              "startOffset": 16,
+              "endOffset": 28
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Info/epoch\" 5 times.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "093c7691-8351-427b-b8a9-c50bee795d66",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 303,
+    "hash": "adc5df5586047cf22a66fccdcf06ac4e",
+    "textRange": {
+      "startLine": 303,
+      "endLine": 303,
+      "startOffset": 12,
+      "endOffset": 23
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 315,
+              "endLine": 315,
+              "startOffset": 12,
+              "endOffset": 23
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 330,
+              "endLine": 330,
+              "startOffset": 12,
+              "endOffset": 23
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 351,
+              "endLine": 351,
+              "startOffset": 12,
+              "endOffset": 23
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 363,
+              "endLine": 363,
+              "startOffset": 12,
+              "endOffset": 23
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Info/Mode\" 5 times.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "17be660e-8bcb-4706-ad36-e472a3bf1fe4",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 304,
+    "hash": "0d631fca3e5a7122bee70487342d82ee",
+    "textRange": {
+      "startLine": 304,
+      "endLine": 304,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 316,
+              "endLine": 316,
+              "startOffset": 12,
+              "endOffset": 27
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 331,
+              "endLine": 331,
+              "startOffset": 12,
+              "endOffset": 27
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 352,
+              "endLine": 352,
+              "startOffset": 12,
+              "endOffset": 27
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 364,
+              "endLine": 364,
+              "startOffset": 12,
+              "endOffset": 27
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Info/Progress\" 5 times.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "28108dbe-7a74-4116-8a8d-59917bda2cfd",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 305,
+    "hash": "4697b9faa22b19453b57bc6b7be8972d",
+    "textRange": {
+      "startLine": 305,
+      "endLine": 305,
+      "startOffset": 12,
+      "endOffset": 23
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 317,
+              "endLine": 317,
+              "startOffset": 12,
+              "endOffset": 23
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 335,
+              "endLine": 335,
+              "startOffset": 12,
+              "endOffset": 23
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 353,
+              "endLine": 353,
+              "startOffset": 12,
+              "endOffset": 23
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/light_progress_bar.py",
+            "textRange": {
+              "startLine": 365,
+              "endLine": 365,
+              "startOffset": 12,
+              "endOffset": 23
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Info/Time\" 5 times.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0ba04938-4a07-47df-b8b6-7c11d854650f",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/wandb_callbacks.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 14,
+    "hash": "581477db8ca000655dc35f4766473b4d",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 17,
+      "startOffset": 14,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d73d5c88-c576-41fa-96fd-d5eb3933fc4e",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/callbacks/wandb_callbacks.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 27,
+    "hash": "581477db8ca000655dc35f4766473b4d",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 30,
+      "startOffset": 10,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3c7e839d-4589-4d79-9988-e7df168f7f54",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/components/parse.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 5,
+    "hash": "c1d0cf3eb04e7a9578109e21b4250f98",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 4,
+      "endOffset": 21
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/components/parse.py",
+            "textRange": {
+              "startLine": 25,
+              "endLine": 25,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/components/parse.py",
+            "textRange": {
+              "startLine": 26,
+              "endLine": 26,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/components/parse.py",
+            "textRange": {
+              "startLine": 28,
+              "endLine": 28,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/components/parse.py",
+            "textRange": {
+              "startLine": 31,
+              "endLine": 31,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/components/parse.py",
+            "textRange": {
+              "startLine": 32,
+              "endLine": 32,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/components/parse.py",
+            "textRange": {
+              "startLine": 33,
+              "endLine": 33,
+              "startOffset": 12,
+              "endOffset": 15
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/components/parse.py",
+            "textRange": {
+              "startLine": 34,
+              "endLine": 34,
+              "startOffset": 16,
+              "endOffset": 19
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/components/parse.py",
+            "textRange": {
+              "startLine": 36,
+              "endLine": 36,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/components/parse.py",
+            "textRange": {
+              "startLine": 39,
+              "endLine": 39,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/components/parse.py",
+            "textRange": {
+              "startLine": 40,
+              "endLine": 40,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/components/parse.py",
+            "textRange": {
+              "startLine": 42,
+              "endLine": 42,
+              "startOffset": 16,
+              "endOffset": 19
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/components/parse.py",
+            "textRange": {
+              "startLine": 46,
+              "endLine": 46,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.",
+    "effort": "18min",
+    "debt": "18min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "55d80f32-915e-44fa-badd-5129a14336c4",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/datamodules.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 170,
+    "hash": "cdf9c208776f8568334249e6f2ed0a64",
+    "textRange": {
+      "startLine": 170,
+      "endLine": 170,
+      "startOffset": 18,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "845647ee-edd0-4f58-8e7f-3b104bd881f6",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/datasets.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 15,
+    "hash": "e7170f542023ca916be51d96d3a0ec6f",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 8,
+      "endOffset": 16
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/datasets.py",
+            "textRange": {
+              "startLine": 47,
+              "endLine": 47,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/datasets.py",
+            "textRange": {
+              "startLine": 47,
+              "endLine": 47,
+              "startOffset": 36,
+              "endOffset": 38
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/datasets.py",
+            "textRange": {
+              "startLine": 47,
+              "endLine": 47,
+              "startOffset": 22,
+              "endOffset": 25
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/datasets.py",
+            "textRange": {
+              "startLine": 47,
+              "endLine": 47,
+              "startOffset": 54,
+              "endOffset": 57
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/datasets.py",
+            "textRange": {
+              "startLine": 49,
+              "endLine": 49,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/datasets.py",
+            "textRange": {
+              "startLine": 51,
+              "endLine": 51,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/datasets.py",
+            "textRange": {
+              "startLine": 55,
+              "endLine": 55,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/datasets.py",
+            "textRange": {
+              "startLine": 57,
+              "endLine": 57,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/datasets.py",
+            "textRange": {
+              "startLine": 61,
+              "endLine": 61,
+              "startOffset": 16,
+              "endOffset": 19
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/datasets.py",
+            "textRange": {
+              "startLine": 66,
+              "endLine": 66,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/datasets.py",
+            "textRange": {
+              "startLine": 72,
+              "endLine": 72,
+              "startOffset": 23,
+              "endOffset": 25
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/datasets.py",
+            "textRange": {
+              "startLine": 75,
+              "endLine": 75,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/datamodules/datasets.py",
+            "textRange": {
+              "startLine": 76,
+              "endLine": 76,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.",
+    "effort": "7min",
+    "debt": "7min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3be061d6-de85-493d-8d63-a90933d07da6",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/losses/components/margin_loss.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 10,
+    "hash": "e7170f542023ca916be51d96d3a0ec6f",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 8,
+      "endOffset": 16
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/losses/components/margin_loss.py",
+            "textRange": {
+              "startLine": 31,
+              "endLine": 31,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/losses/components/margin_loss.py",
+            "textRange": {
+              "startLine": 32,
+              "endLine": 32,
+              "startOffset": 30,
+              "endOffset": 32
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/losses/components/margin_loss.py",
+            "textRange": {
+              "startLine": 33,
+              "endLine": 33,
+              "startOffset": 30,
+              "endOffset": 32
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/losses/components/margin_loss.py",
+            "textRange": {
+              "startLine": 34,
+              "endLine": 34,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/losses/components/margin_loss.py",
+            "textRange": {
+              "startLine": 35,
+              "endLine": 35,
+              "startOffset": 30,
+              "endOffset": 32
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/losses/components/margin_loss.py",
+            "textRange": {
+              "startLine": 36,
+              "endLine": 36,
+              "startOffset": 31,
+              "endOffset": 33
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/losses/components/margin_loss.py",
+            "textRange": {
+              "startLine": 37,
+              "endLine": 37,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/losses/components/margin_loss.py",
+            "textRange": {
+              "startLine": 38,
+              "endLine": 38,
+              "startOffset": 30,
+              "endOffset": 32
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/losses/components/margin_loss.py",
+            "textRange": {
+              "startLine": 39,
+              "endLine": 39,
+              "startOffset": 30,
+              "endOffset": 32
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/losses/components/margin_loss.py",
+            "textRange": {
+              "startLine": 40,
+              "endLine": 40,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "efb32bf3-542a-47e5-a157-bfef4ee83771",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/models/module.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 10,
+    "hash": "56682012eb9806c6572fe59051cac725",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 4,
+      "endOffset": 31
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/models/module.py",
+            "textRange": {
+              "startLine": 20,
+              "endLine": 20,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/models/module.py",
+            "textRange": {
+              "startLine": 21,
+              "endLine": 21,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/models/module.py",
+            "textRange": {
+              "startLine": 22,
+              "endLine": 22,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/models/module.py",
+            "textRange": {
+              "startLine": 24,
+              "endLine": 24,
+              "startOffset": 16,
+              "endOffset": 19
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/models/module.py",
+            "textRange": {
+              "startLine": 26,
+              "endLine": 26,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/models/module.py",
+            "textRange": {
+              "startLine": 27,
+              "endLine": 27,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/models/module.py",
+            "textRange": {
+              "startLine": 28,
+              "endLine": 28,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/models/module.py",
+            "textRange": {
+              "startLine": 30,
+              "endLine": 30,
+              "startOffset": 16,
+              "endOffset": 19
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/models/module.py",
+            "textRange": {
+              "startLine": 32,
+              "endLine": 32,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.",
+    "effort": "11min",
+    "debt": "11min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "308c9520-1751-416d-aec5-7c6fcf617f65",
+    "rule": "python:S1066",
+    "severity": "MAJOR",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/models/module.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 80,
+    "hash": "1a09d2d3f7030f795a2b30fda96d308c",
+    "textRange": {
+      "startLine": 80,
+      "endLine": 80,
+      "startOffset": 12,
+      "endOffset": 14
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/models/module.py",
+            "textRange": {
+              "startLine": 79,
+              "endLine": 79,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "enclosing",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this if statement with the enclosing one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "clumsy"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2eaf88d5-6d06-45da-bc42-fd3d6382824f",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/models/simple_dense_net.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 28,
+    "hash": "f1bdd09576dc42a3ca3a27615b08f43d",
+    "textRange": {
+      "startLine": 28,
+      "endLine": 28,
+      "startOffset": 20,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused local variable \"width\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f12de1db-7e53-4d2e-b8e3-664b035cb9c8",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/models/simple_dense_net.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 28,
+    "hash": "f1bdd09576dc42a3ca3a27615b08f43d",
+    "textRange": {
+      "startLine": 28,
+      "endLine": 28,
+      "startOffset": 27,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused local variable \"height\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0b8dd61a-c340-4b62-9c3a-93a9efaa1ed8",
+    "rule": "python:S1186",
+    "severity": "CRITICAL",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/multiple_module.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 103,
+    "hash": "a9792015747b6549d810f4e467813f80",
+    "textRange": {
+      "startLine": 103,
+      "endLine": 103,
+      "startOffset": 8,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a nested comment explaining why this method is empty, or complete the implementation.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "39928d4b-0138-43a4-ad4e-2070acfcec5b",
+    "rule": "python:S1186",
+    "severity": "CRITICAL",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/multiple_module.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 152,
+    "hash": "99a051a52957ed7af911333bfd363f59",
+    "textRange": {
+      "startLine": 152,
+      "endLine": 152,
+      "startOffset": 8,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a nested comment explaining why this method is empty, or complete the implementation.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1c4524b8-ad1e-407f-ac3e-b8eefcb1a33e",
+    "rule": "python:S1186",
+    "severity": "CRITICAL",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/single_module.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 164,
+    "hash": "99a051a52957ed7af911333bfd363f59",
+    "textRange": {
+      "startLine": 164,
+      "endLine": 164,
+      "startOffset": 8,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a nested comment explaining why this method is empty, or complete the implementation.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "73a3753c-259b-4e2c-ad23-dff0c9fafb48",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/single_module.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 235,
+    "hash": "24552762b3672dc90181ee8fa08cf2bd",
+    "textRange": {
+      "startLine": 235,
+      "endLine": 235,
+      "startOffset": 12,
+      "endOffset": 58
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "595d38f0-13e9-413e-baf5-7706ceaca815",
+    "rule": "python:S1186",
+    "severity": "CRITICAL",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/single_module.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 261,
+    "hash": "a9792015747b6549d810f4e467813f80",
+    "textRange": {
+      "startLine": 261,
+      "endLine": 261,
+      "startOffset": 8,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a nested comment explaining why this method is empty, or complete the implementation.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7c32c174-c279-4f0a-9c72-b4e6c28d2f7c",
+    "rule": "python:S1186",
+    "severity": "CRITICAL",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/single_module.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 273,
+    "hash": "047b394fa12a9c2566f9a7980467cf54",
+    "textRange": {
+      "startLine": 273,
+      "endLine": 273,
+      "startOffset": 8,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a nested comment explaining why this method is empty, or complete the implementation.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cd8bea1e-72d6-4bcd-9c95-945f75798520",
+    "rule": "python:S1186",
+    "severity": "CRITICAL",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/modules/single_module.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 283,
+    "hash": "99a051a52957ed7af911333bfd363f59",
+    "textRange": {
+      "startLine": 283,
+      "endLine": 283,
+      "startOffset": 8,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a nested comment explaining why this method is empty, or complete the implementation.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "039c501b-524f-43d0-9f27-606e22c6f78f",
+    "rule": "python:S1066",
+    "severity": "MAJOR",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/utils/saving_utils.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 35,
+    "hash": "be4860ccebfb74d5aaed57756cc36c3c",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 8,
+      "endOffset": 10
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/utils/saving_utils.py",
+            "textRange": {
+              "startLine": 34,
+              "endLine": 34,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "enclosing",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this if statement with the enclosing one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "clumsy"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0aaf7b46-9882-4ea7-b19e-33c8db6021b6",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/utils/saving_utils.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 99,
+    "hash": "c225320390c89f112fe26878359e8bac",
+    "textRange": {
+      "startLine": 99,
+      "endLine": 99,
+      "startOffset": 4,
+      "endOffset": 36
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/utils/saving_utils.py",
+            "textRange": {
+              "startLine": 110,
+              "endLine": 110,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/utils/saving_utils.py",
+            "textRange": {
+              "startLine": 113,
+              "endLine": 113,
+              "startOffset": 12,
+              "endOffset": 15
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/utils/saving_utils.py",
+            "textRange": {
+              "startLine": 116,
+              "endLine": 116,
+              "startOffset": 16,
+              "endOffset": 19
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/utils/saving_utils.py",
+            "textRange": {
+              "startLine": 120,
+              "endLine": 120,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/utils/saving_utils.py",
+            "textRange": {
+              "startLine": 122,
+              "endLine": 122,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/utils/saving_utils.py",
+            "textRange": {
+              "startLine": 125,
+              "endLine": 125,
+              "startOffset": 12,
+              "endOffset": 15
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/utils/saving_utils.py",
+            "textRange": {
+              "startLine": 127,
+              "endLine": 127,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/utils/saving_utils.py",
+            "textRange": {
+              "startLine": 129,
+              "endLine": 129,
+              "startOffset": 16,
+              "endOffset": 20
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/utils/saving_utils.py",
+            "textRange": {
+              "startLine": 134,
+              "endLine": 134,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bce609a6-4dcc-4856-a143-1319103698bf",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/utils/saving_utils.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 190,
+    "hash": "581477db8ca000655dc35f4766473b4d",
+    "textRange": {
+      "startLine": 190,
+      "endLine": 196,
+      "startOffset": 10,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c788a0a5-cdb5-4565-97f2-45edb1c45d08",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:src/utils/utils.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 229,
+    "hash": "581477db8ca000655dc35f4766473b4d",
+    "textRange": {
+      "startLine": 229,
+      "endLine": 233,
+      "startOffset": 14,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "301efa67-ad3b-472c-86f3-cb3cb5b1fb83",
+    "rule": "python:S2710",
+    "severity": "CRITICAL",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:tests/helpers/run_if.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 41,
+    "hash": "52b8af6604f68ccfcc8d8ff425e1e389",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 41,
+      "startOffset": 8,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename \"self\" to a valid class parameter name or add the missing class parameter.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "confusing",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "61f65072-b4c6-49be-bfbe-fe5e301a1885",
+    "rule": "python:S107",
+    "severity": "MAJOR",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:tests/helpers/run_if.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 41,
+    "hash": "52b8af6604f68ccfcc8d8ff425e1e389",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 55,
+      "startOffset": 8,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Method \"__new__\" has 14 parameters, which is greater than the 13 authorized.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6ae7556d-171d-4186-b7ec-c5b402318e59",
+    "rule": "python:S7492",
+    "severity": "MINOR",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:tests/test_models.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 95,
+    "hash": "842915bcc3fe089a2b5b69fd7400316a",
+    "textRange": {
+      "startLine": 95,
+      "endLine": 95,
+      "startOffset": 11,
+      "endOffset": 63
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unpack this comprehension expression",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4bdf19b9-da42-4b1d-a51f-e859a24f1821",
+    "rule": "python:S7492",
+    "severity": "MINOR",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:tests/test_train.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 75,
+    "hash": "8a3f3943fbe013dca123d627c6579e70",
+    "textRange": {
+      "startLine": 75,
+      "endLine": 75,
+      "startOffset": 11,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unpack this comprehension expression",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5a3a36ac-efd0-40fd-a83a-1d982214a679",
+    "rule": "python:S7492",
+    "severity": "MINOR",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:tests/test_train.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 84,
+    "hash": "b92feb7764e25408cc9ef0b20e2f8e97",
+    "textRange": {
+      "startLine": 84,
+      "endLine": 84,
+      "startOffset": 11,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unpack this comprehension expression",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e012e680-50cb-48c9-a4ea-b287a0c2ad1a",
+    "rule": "python:S7492",
+    "severity": "MINOR",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:tests/test_train.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 85,
+    "hash": "45a511ace34904b344e417581187e414",
+    "textRange": {
+      "startLine": 85,
+      "endLine": 85,
+      "startOffset": 15,
+      "endOffset": 63
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unpack this comprehension expression",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8bfc1533-0540-4748-82a8-662c3d690e01",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:tests/test_train.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 100,
+    "hash": "aa7cbc7e508865ea4665ff1688f99cf0",
+    "textRange": {
+      "startLine": 100,
+      "endLine": 100,
+      "startOffset": 4,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused local variable \"metric_dict_1\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b1d4af6a-a33f-4b82-b3a7-eb577b1443ec",
+    "rule": "python:S7492",
+    "severity": "MINOR",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:tests/test_train.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 104,
+    "hash": "8a3f3943fbe013dca123d627c6579e70",
+    "textRange": {
+      "startLine": 104,
+      "endLine": 104,
+      "startOffset": 11,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unpack this comprehension expression",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "04b9b037-02cb-4a56-b15e-eed18757f7fd",
+    "rule": "python:S7492",
+    "severity": "MINOR",
+    "component": "gorodnitskiy__yet-another-lightning-hydra-template:tests/test_train.py",
+    "project": "gorodnitskiy__yet-another-lightning-hydra-template",
+    "line": 108,
+    "hash": "eb8a78bb42b4a6eb522060d4d347da09",
+    "textRange": {
+      "startLine": 108,
+      "endLine": 108,
+      "startOffset": 11,
+      "endOffset": 60
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unpack this comprehension expression",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T14:20:28+0000",
+    "updateDate": "2026-07-20T14:20:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

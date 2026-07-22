@@ -1,0 +1,2309 @@
+[
+  {
+    "key": "31fdcf35-77e8-405e-bbc8-e0d89c6735cf",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Dockerfile",
+    "project": "jattsbots__f2l",
+    "line": 6,
+    "hash": "d4b97294e0e1382f388f8b8635704643",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Dockerfile",
+            "textRange": {
+              "startLine": 7,
+              "endLine": 7,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "aa761ba2-c9a1-4ece-86c9-bb0747ed3d5f",
+    "rule": "python:S7493",
+    "severity": "MAJOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/__main__.py",
+    "project": "jattsbots__f2l",
+    "line": 56,
+    "hash": "eb1daa7afa24e4c02c8e711016964a64",
+    "textRange": {
+      "startLine": 56,
+      "endLine": 56,
+      "startOffset": 17,
+      "endOffset": 27
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/__main__.py",
+            "textRange": {
+              "startLine": 31,
+              "endLine": 31,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an asynchronous file API instead of synchronous open() in this async function.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ab684ca7-4aff-4d18-93bc-86acd9bc6bf0",
+    "rule": "python:S7502",
+    "severity": "MAJOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/__main__.py",
+    "project": "jattsbots__f2l",
+    "line": 72,
+    "hash": "151d32f06cbffb67409daccb8edd7340",
+    "textRange": {
+      "startLine": 72,
+      "endLine": 72,
+      "startOffset": 8,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Save this task in a variable to prevent premature garbage collection.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "asyncio",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "19720606-f8f8-4aeb-9e75-0393c9cf2842",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/bot/plugins/admin.py",
+    "project": "jattsbots__f2l",
+    "line": 72,
+    "hash": "4320afe4b430a804a979efa110c12848",
+    "textRange": {
+      "startLine": 72,
+      "endLine": 72,
+      "startOffset": 10,
+      "endOffset": 27
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 74,
+              "endLine": 74,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 88,
+              "endLine": 88,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 97,
+              "endLine": 97,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 101,
+              "endLine": 101,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 104,
+              "endLine": 104,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 107,
+              "endLine": 107,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 107,
+              "endLine": 107,
+              "startOffset": 49,
+              "endOffset": 51
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 110,
+              "endLine": 110,
+              "startOffset": 59,
+              "endOffset": 61
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 114,
+              "endLine": 114,
+              "startOffset": 16,
+              "endOffset": 20
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 120,
+              "endLine": 120,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 122,
+              "endLine": 122,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 122,
+              "endLine": 122,
+              "startOffset": 43,
+              "endOffset": 45
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 125,
+              "endLine": 125,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 125,
+              "endLine": 125,
+              "startOffset": 36,
+              "endOffset": 39
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.",
+    "effort": "16min",
+    "debt": "16min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "18362389-15ab-42e7-b4f1-269c483ee121",
+    "rule": "python:S7494",
+    "severity": "MINOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/bot/plugins/admin.py",
+    "project": "jattsbots__f2l",
+    "line": 143,
+    "hash": "e884b808967509b9be9aa1e5bed48bfd",
+    "textRange": {
+      "startLine": 143,
+      "endLine": 143,
+      "startOffset": 20,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace dict constructor call with a dictionary comprehension.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5f779125-f875-4b13-9c32-dd5cfc176326",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/bot/plugins/stream.py",
+    "project": "jattsbots__f2l",
+    "line": 25,
+    "hash": "4bb3c4aec4dfbd957b70bc5656ce0faf",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 10,
+      "endOffset": 24
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 25,
+              "endLine": 25,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7711eb04-7a17-4d9d-b09b-17371ce1b7fa",
+    "rule": "python:S1172",
+    "severity": "MAJOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/bot/plugins/stream.py",
+    "project": "jattsbots__f2l",
+    "line": 76,
+    "hash": "05d9496383cc260af65a421777426ecf",
+    "textRange": {
+      "startLine": 76,
+      "endLine": 76,
+      "startOffset": 32,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused function parameter \"client\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a3fc58a4-bf4d-470a-898f-9d1e8a81e29b",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/__init__.py",
+    "project": "jattsbots__f2l",
+    "line": 5,
+    "hash": "3376127d2bdb500c62c69e83a70f9516",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 10,
+      "endOffset": 20
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/__init__.py",
+            "textRange": {
+              "startLine": 5,
+              "endLine": 5,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "568134f0-afc7-4565-8a38-905ed0dce2e0",
+    "rule": "python:S7494",
+    "severity": "MINOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/stream_routes.py",
+    "project": "jattsbots__f2l",
+    "line": 29,
+    "hash": "9edb97628006f99659a66a47c8fd5b16",
+    "textRange": {
+      "startLine": 29,
+      "endLine": 29,
+      "startOffset": 21,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace dict constructor call with a dictionary comprehension.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2f707ad7-3526-4bde-bdfe-38c81d5181f1",
+    "rule": "python:S5806",
+    "severity": "MAJOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/stream_routes.py",
+    "project": "jattsbots__f2l",
+    "line": 48,
+    "hash": "4005ac77708d092c7e52849a36134ad9",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 12,
+      "endOffset": 14
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 50,
+              "endLine": 50,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "Variable also assigned here.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Rename this variable; it shadows a builtin.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "confusing",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a03eeea8-866c-4e26-89e3-da6e7161168c",
+    "rule": "python:S5806",
+    "severity": "MAJOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/stream_routes.py",
+    "project": "jattsbots__f2l",
+    "line": 70,
+    "hash": "4005ac77708d092c7e52849a36134ad9",
+    "textRange": {
+      "startLine": 70,
+      "endLine": 70,
+      "startOffset": 12,
+      "endOffset": 14
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 72,
+              "endLine": 72,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "Variable also assigned here.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Rename this variable; it shadows a builtin.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "confusing",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5f3e6e74-76f6-4ddd-9a98-e1ff92ce092b",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/stream_routes.py",
+    "project": "jattsbots__f2l",
+    "line": 87,
+    "hash": "c5209e311845e7e403b8e9f6f2d36161",
+    "textRange": {
+      "startLine": 87,
+      "endLine": 87,
+      "startOffset": 10,
+      "endOffset": 24
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 93,
+              "endLine": 93,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 96,
+              "endLine": 96,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 99,
+              "endLine": 99,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 107,
+              "endLine": 107,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 113,
+              "endLine": 113,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 116,
+              "endLine": 116,
+              "startOffset": 39,
+              "endOffset": 41
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 117,
+              "endLine": 117,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 118,
+              "endLine": 118,
+              "startOffset": 46,
+              "endOffset": 48
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 119,
+              "endLine": 119,
+              "startOffset": 47,
+              "endOffset": 49
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 121,
+              "endLine": 121,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 121,
+              "endLine": 121,
+              "startOffset": 53,
+              "endOffset": 55
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 145,
+              "endLine": 145,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 146,
+              "endLine": 146,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 149,
+              "endLine": 149,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 151,
+              "endLine": 151,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 152,
+              "endLine": 152,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 154,
+              "endLine": 154,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/server/stream_routes.py",
+            "textRange": {
+              "startLine": 159,
+              "endLine": 159,
+              "startOffset": 19,
+              "endOffset": 21
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.",
+    "effort": "13min",
+    "debt": "13min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0bf874d0-3769-46f5-b264-c438e233892c",
+    "rule": "Web:S7926",
+    "severity": "MAJOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/template/req.html",
+    "project": "jattsbots__f2l",
+    "line": 7,
+    "hash": "d35107db1bdb00804c5ecbe6238b4c9b",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 4,
+      "endOffset": 111
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Meta viewport disables zoom via user-scalable=no.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag",
+      "html"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "RESPECTFUL",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "313ebcfa-f7c7-4387-9cef-f01e98b32880",
+    "rule": "Web:S4084",
+    "severity": "MAJOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/template/req.html",
+    "project": "jattsbots__f2l",
+    "line": 21,
+    "hash": "9e9c54b057186d0ca57547dbf47ef9b2",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 16,
+      "endOffset": 165
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add subtitles and description files for this video.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "html5"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3681b188-c34c-4b23-aeec-03313c2ba3a6",
+    "rule": "Web:S6844",
+    "severity": "MAJOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/template/req.html",
+    "project": "jattsbots__f2l",
+    "line": 34,
+    "hash": "c9d25fc30c7a7b7ac317de00745901a1",
+    "textRange": {
+      "startLine": 34,
+      "endLine": 34,
+      "startOffset": 20,
+      "endOffset": 60
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchor tags should not be used as buttons.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b9fbd6ac-8604-4167-8010-d1f789224ce9",
+    "rule": "Web:S6844",
+    "severity": "MAJOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/template/req.html",
+    "project": "jattsbots__f2l",
+    "line": 37,
+    "hash": "fdfb73d23938af880e5245001738225c",
+    "textRange": {
+      "startLine": 37,
+      "endLine": 37,
+      "startOffset": 20,
+      "endOffset": 60
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchor tags should not be used as buttons.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1c87c7f1-91c2-4c3f-b2ba-ac0ab9b43790",
+    "rule": "Web:S6844",
+    "severity": "MAJOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/template/req.html",
+    "project": "jattsbots__f2l",
+    "line": 40,
+    "hash": "7aae405ff8287f25f0e8aade8d661b6a",
+    "textRange": {
+      "startLine": 40,
+      "endLine": 40,
+      "startOffset": 20,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchor tags should not be used as buttons.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "51d298b2-4e4f-4d9b-a44d-65cdb593ad5c",
+    "rule": "Web:S6844",
+    "severity": "MAJOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/template/req.html",
+    "project": "jattsbots__f2l",
+    "line": 43,
+    "hash": "43cc606ca0488849a3e1c5f7c6e5ae11",
+    "textRange": {
+      "startLine": 43,
+      "endLine": 43,
+      "startOffset": 20,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchor tags should not be used as buttons.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "aaed11db-6570-427a-9bde-0f87d1944569",
+    "rule": "Web:S6844",
+    "severity": "MAJOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/template/req.html",
+    "project": "jattsbots__f2l",
+    "line": 46,
+    "hash": "8583fcfa65af199c4713de9384df0f58",
+    "textRange": {
+      "startLine": 46,
+      "endLine": 46,
+      "startOffset": 20,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchor tags should not be used as buttons.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "95c8a817-7693-4f13-9733-eb4619e8a880",
+    "rule": "Web:S6844",
+    "severity": "MAJOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/template/req.html",
+    "project": "jattsbots__f2l",
+    "line": 49,
+    "hash": "7bc630a19edb1566cb381e86ac924a2e",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 49,
+      "startOffset": 20,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchor tags should not be used as buttons.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e59b38ea-8a3d-4364-8ea5-cf259fec5eaa",
+    "rule": "javascript:S1848",
+    "severity": "MAJOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/template/req.html",
+    "project": "jattsbots__f2l",
+    "line": 73,
+    "hash": "a564c1da312c634d3e679bd08a070a68",
+    "textRange": {
+      "startLine": 73,
+      "endLine": 73,
+      "startOffset": 12,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Either remove this useless object instantiation of \"Plyr\" or use it.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "72ff2c31-6877-4cca-a44b-cd1ebcabfcd5",
+    "rule": "javascript:S7764",
+    "severity": "MINOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/template/req.html",
+    "project": "jattsbots__f2l",
+    "line": 76,
+    "hash": "c85ccebb79925f7148293bd77ee3244e",
+    "textRange": {
+      "startLine": 76,
+      "endLine": 76,
+      "startOffset": 27,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e88f49e9-7f65-4178-a4af-bbd7e0d2a313",
+    "rule": "javascript:S7764",
+    "severity": "MINOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/template/req.html",
+    "project": "jattsbots__f2l",
+    "line": 88,
+    "hash": "4a77ccdeaaf2375c9aa9d33d532aa25f",
+    "textRange": {
+      "startLine": 88,
+      "endLine": 88,
+      "startOffset": 12,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4d807a2e-8a32-4d93-8e73-31f605b1f297",
+    "rule": "javascript:S7764",
+    "severity": "MINOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/template/req.html",
+    "project": "jattsbots__f2l",
+    "line": 92,
+    "hash": "5447e25ca83f7d708368221f8583f200",
+    "textRange": {
+      "startLine": 92,
+      "endLine": 92,
+      "startOffset": 12,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4375d1dc-47c1-4816-8922-236b7e236d8d",
+    "rule": "python:S7494",
+    "severity": "MINOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/utils/config_parser.py",
+    "project": "jattsbots__f2l",
+    "line": 11,
+    "hash": "d0feb8b0265ed042345631f2203f2518",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 22,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace dict constructor call with a dictionary comprehension.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ceb674d9-891d-44b4-bc78-3f90498f352c",
+    "rule": "python:S7502",
+    "severity": "MAJOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/utils/custom_dl.py",
+    "project": "jattsbots__f2l",
+    "line": 24,
+    "hash": "0b07994826821e2f996d354a1330ad98",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 8,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Save this task in a variable to prevent premature garbage collection.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "asyncio",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "44928a0c-5943-426e-8a92-3522a2f02edf",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/utils/custom_dl.py",
+    "project": "jattsbots__f2l",
+    "line": 149,
+    "hash": "a63f3c961257001032475b1fe1da36f4",
+    "textRange": {
+      "startLine": 149,
+      "endLine": 149,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused local variable \"client\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "624fd3f0-3803-4354-b840-3c2b95de9e96",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/utils/database.py",
+    "project": "jattsbots__f2l",
+    "line": 12,
+    "hash": "237e3b6da3ce41e05da68d73543052c3",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "844ae56b-ba0f-481d-b670-080dbb966dc4",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/utils/database.py",
+    "project": "jattsbots__f2l",
+    "line": 37,
+    "hash": "76d10cf9354eed12ed6228ed159764e9",
+    "textRange": {
+      "startLine": 37,
+      "endLine": 37,
+      "startOffset": 14,
+      "endOffset": 27
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/utils/database.py",
+            "textRange": {
+              "startLine": 37,
+              "endLine": 37,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "770bbf8d-0218-4114-a983-e0afc3a2ea7c",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/utils/file_properties.py",
+    "project": "jattsbots__f2l",
+    "line": 15,
+    "hash": "06b876e6cdf27073f88d1ffaa179a168",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 10,
+      "endOffset": 23
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/utils/file_properties.py",
+            "textRange": {
+              "startLine": 15,
+              "endLine": 15,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5399cabc-abc3-4247-a903-d4c3db47d645",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/utils/file_properties.py",
+    "project": "jattsbots__f2l",
+    "line": 23,
+    "hash": "a5446936c1172446df2ecdd8665e5b6d",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 10,
+      "endOffset": 30
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "jattsbots__f2l:temp_repos/F2l/Thunder/utils/file_properties.py",
+            "textRange": {
+              "startLine": 23,
+              "endLine": 23,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "488bf98c-b356-4c34-a148-15d96c783093",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/utils/file_properties.py",
+    "project": "jattsbots__f2l",
+    "line": 28,
+    "hash": "b9c6e44c5a34cc7c3c57008bc2aedbde",
+    "textRange": {
+      "startLine": 28,
+      "endLine": 28,
+      "startOffset": 20,
+      "endOffset": 74
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8171b668-fd93-4d9b-a75b-cf4da51e8a71",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/utils/human_readable.py",
+    "project": "jattsbots__f2l",
+    "line": 2,
+    "hash": "a646e659928a0ab77a3011be9d883e70",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 4,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7364d9ad-a6f3-430c-be9b-f347db71c7af",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/utils/human_readable.py",
+    "project": "jattsbots__f2l",
+    "line": 7,
+    "hash": "2a6054e60a2aa7c529c2d7828cc91271",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 4,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"Dic_powerN\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f891aa3b-6522-4f06-abb8-4264e894d797",
+    "rule": "python:S7494",
+    "severity": "MINOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/vars.py",
+    "project": "jattsbots__f2l",
+    "line": 21,
+    "hash": "4f6f80a134e5659109072189b16d23cc",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 15,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace set constructor call with a set comprehension.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7322e278-841d-49b4-a6c2-a7047920d09a",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/vars.py",
+    "project": "jattsbots__f2l",
+    "line": 34,
+    "hash": "732a46043865d8ba32bebcfc234a469e",
+    "textRange": {
+      "startLine": 34,
+      "endLine": 34,
+      "startOffset": 66,
+      "endOffset": 70
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused argument.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7460dca3-562d-49cc-823d-83e42c97dccd",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/vars.py",
+    "project": "jattsbots__f2l",
+    "line": 36,
+    "hash": "cb35dccc2eff934864d2e1e1872c8d81",
+    "textRange": {
+      "startLine": 36,
+      "endLine": 36,
+      "startOffset": 65,
+      "endOffset": 69
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused argument.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3b861169-f455-45a9-9619-7caae01c51d2",
+    "rule": "python:S7494",
+    "severity": "MINOR",
+    "component": "jattsbots__f2l:temp_repos/F2l/Thunder/vars.py",
+    "project": "jattsbots__f2l",
+    "line": 39,
+    "hash": "4da1d4affabddfef6c1f464d9697d403",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 39,
+      "startOffset": 27,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace set constructor call with a set comprehension.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:59:21+0000",
+    "updateDate": "2026-07-17T19:59:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

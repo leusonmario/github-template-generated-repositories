@@ -1,0 +1,134 @@
+[
+  {
+    "key": "c37057d3-822a-46ae-a01e-f3b34fdd8060",
+    "rule": "typescript:S1854",
+    "severity": "MAJOR",
+    "component": "depsimon__tanstack-sanity:temp_repos/tanstack-sanity/alchemy.run.ts",
+    "project": "depsimon__tanstack-sanity",
+    "line": 87,
+    "hash": "51678782f92c74248f4d5cfc6641a2ef",
+    "textRange": {
+      "startLine": 87,
+      "endLine": 87,
+      "startOffset": 7,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this useless assignment to variable \"sanity\".",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-14T19:21:32+0000",
+    "updateDate": "2026-07-14T19:21:32+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2d5a133b-f245-45ab-a80c-dd24987a1ce6",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "depsimon__tanstack-sanity:temp_repos/tanstack-sanity/apps/web/src/router.tsx",
+    "project": "depsimon__tanstack-sanity",
+    "line": 18,
+    "hash": "5f12f50a5f620d830aa15893eda01f2a",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 29,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-14T19:21:32+0000",
+    "updateDate": "2026-07-14T19:21:32+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9a0f18bc-d355-4fd9-959a-8497f556b888",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "depsimon__tanstack-sanity:temp_repos/tanstack-sanity/apps/web/src/routes/__root.tsx",
+    "project": "depsimon__tanstack-sanity",
+    "line": 49,
+    "hash": "685dde8d58c6369699c9e38cb1281e19",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 49,
+      "startOffset": 22,
+      "endOffset": 65
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-14T19:21:32+0000",
+    "updateDate": "2026-07-14T19:21:32+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

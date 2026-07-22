@@ -1,0 +1,959 @@
+[
+  {
+    "key": "9d9e949e-b3c4-459f-984b-168db45a5f20",
+    "rule": "docker:S7021",
+    "severity": "MAJOR",
+    "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/Dockerfile",
+    "project": "vivek5912f__admin-protector-bot",
+    "line": 3,
+    "hash": "6e14b81e59862217e83e0a23bce2ef4d",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use an absolute path instead of this relative path when defining the WORKDIR.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T20:41:06+0000",
+    "updateDate": "2026-07-17T20:41:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e640bdb6-2ffd-466d-898c-a748b923cb0e",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/database/database.py",
+    "project": "vivek5912f__admin-protector-bot",
+    "line": 18,
+    "hash": "b05180bddb1e5d133629a58cf11d0698",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 10,
+      "endOffset": 20
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/database/database.py",
+            "textRange": {
+              "startLine": 18,
+              "endLine": 18,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T20:41:06+0000",
+    "updateDate": "2026-07-17T20:41:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cfdd5ffa-3857-45d1-9350-41728d87b85f",
+    "rule": "python:S5754",
+    "severity": "CRITICAL",
+    "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/database/database.py",
+    "project": "vivek5912f__admin-protector-bot",
+    "line": 24,
+    "hash": "3e264f5fbab10735799511f21ca70842",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 4,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify an exception class to catch or reraise the exception",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "bad-practice",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T20:41:06+0000",
+    "updateDate": "2026-07-17T20:41:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dc5e6993-290f-4752-8aa9-acace8769425",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/database/database.py",
+    "project": "vivek5912f__admin-protector-bot",
+    "line": 27,
+    "hash": "80ce97345ac6db22e33e3dd3e25e2b86",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 10,
+      "endOffset": 23
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/database/database.py",
+            "textRange": {
+              "startLine": 27,
+              "endLine": 27,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T20:41:06+0000",
+    "updateDate": "2026-07-17T20:41:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cd07b502-5238-4b7b-9201-f299f06d1394",
+    "rule": "python:S5806",
+    "severity": "MAJOR",
+    "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/database/database.py",
+    "project": "vivek5912f__admin-protector-bot",
+    "line": 29,
+    "hash": "a777c6758b74ab92a91019e45df48307",
+    "textRange": {
+      "startLine": 29,
+      "endLine": 29,
+      "startOffset": 4,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this variable; it shadows a builtin.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "confusing",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T20:41:06+0000",
+    "updateDate": "2026-07-17T20:41:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d4f6f632-7397-468c-bcc9-252de60fcee4",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/database/database.py",
+    "project": "vivek5912f__admin-protector-bot",
+    "line": 33,
+    "hash": "6f4127e1da2f7b07cd59a923e8439b43",
+    "textRange": {
+      "startLine": 33,
+      "endLine": 33,
+      "startOffset": 10,
+      "endOffset": 21
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/database/database.py",
+            "textRange": {
+              "startLine": 33,
+              "endLine": 33,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T20:41:06+0000",
+    "updateDate": "2026-07-17T20:41:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1d20d710-e160-4a19-9016-48d8d5b1628b",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/main.py",
+    "project": "vivek5912f__admin-protector-bot",
+    "line": 11,
+    "hash": "5a9a30cf8ceb48dfcc15ad2c1b526678",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 12,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T20:41:06+0000",
+    "updateDate": "2026-07-17T20:41:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0bcb98b3-8b8b-4ad8-8433-b87cf1c3691c",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/plugins/callbacks.py",
+    "project": "vivek5912f__admin-protector-bot",
+    "line": 25,
+    "hash": "870b8b55237094af5e32fb1d86bbaaeb",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 57,
+      "endOffset": 77
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/plugins/callbacks.py",
+            "textRange": {
+              "startLine": 46,
+              "endLine": 46,
+              "startOffset": 57,
+              "endOffset": 77
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/plugins/callbacks.py",
+            "textRange": {
+              "startLine": 67,
+              "endLine": 67,
+              "startOffset": 57,
+              "endOffset": 77
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal 'https://t.me/kinu6' 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:41:06+0000",
+    "updateDate": "2026-07-17T20:41:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "49582fb8-e7a8-4485-a592-271b78e9b9ce",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/plugins/callbacks.py",
+    "project": "vivek5912f__admin-protector-bot",
+    "line": 25,
+    "hash": "870b8b55237094af5e32fb1d86bbaaeb",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 33,
+      "endOffset": 51
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/plugins/callbacks.py",
+            "textRange": {
+              "startLine": 46,
+              "endLine": 46,
+              "startOffset": 33,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/plugins/callbacks.py",
+            "textRange": {
+              "startLine": 67,
+              "endLine": 67,
+              "startOffset": 33,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"👨🏼‍💻Developer\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:41:06+0000",
+    "updateDate": "2026-07-17T20:41:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5987b6a1-b07c-4aee-88f1-bc5f825b916f",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/plugins/callbacks.py",
+    "project": "vivek5912f__admin-protector-bot",
+    "line": 26,
+    "hash": "735a7425bee0da2e46986645c4ab8c8b",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 57,
+      "endOffset": 77
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/plugins/callbacks.py",
+            "textRange": {
+              "startLine": 47,
+              "endLine": 47,
+              "startOffset": 57,
+              "endOffset": 77
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/plugins/callbacks.py",
+            "textRange": {
+              "startLine": 68,
+              "endLine": 68,
+              "startOffset": 57,
+              "endOffset": 77
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"https://t.me/TMWAD\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:41:06+0000",
+    "updateDate": "2026-07-17T20:41:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "661149fd-48ee-4c73-958a-d08ef8228a25",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/plugins/callbacks.py",
+    "project": "vivek5912f__admin-protector-bot",
+    "line": 26,
+    "hash": "735a7425bee0da2e46986645c4ab8c8b",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 33,
+      "endOffset": 51
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/plugins/callbacks.py",
+            "textRange": {
+              "startLine": 47,
+              "endLine": 47,
+              "startOffset": 33,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/plugins/callbacks.py",
+            "textRange": {
+              "startLine": 68,
+              "endLine": 68,
+              "startOffset": 33,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"⚙️Update Channel\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:41:06+0000",
+    "updateDate": "2026-07-17T20:41:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "088f1ee0-4b17-43ca-8259-1f9676838f75",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/plugins/commands.py",
+    "project": "vivek5912f__admin-protector-bot",
+    "line": 24,
+    "hash": "870b8b55237094af5e32fb1d86bbaaeb",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 50,
+      "endOffset": 70
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/plugins/commands.py",
+            "textRange": {
+              "startLine": 44,
+              "endLine": 44,
+              "startOffset": 50,
+              "endOffset": 70
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/plugins/commands.py",
+            "textRange": {
+              "startLine": 63,
+              "endLine": 63,
+              "startOffset": 50,
+              "endOffset": 70
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal 'https://t.me/kinu6' 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:41:06+0000",
+    "updateDate": "2026-07-17T20:41:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a2be973c-a1eb-4f66-943f-faf2e512f654",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/plugins/commands.py",
+    "project": "vivek5912f__admin-protector-bot",
+    "line": 24,
+    "hash": "870b8b55237094af5e32fb1d86bbaaeb",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 26,
+      "endOffset": 44
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/plugins/commands.py",
+            "textRange": {
+              "startLine": 44,
+              "endLine": 44,
+              "startOffset": 26,
+              "endOffset": 44
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/plugins/commands.py",
+            "textRange": {
+              "startLine": 63,
+              "endLine": 63,
+              "startOffset": 26,
+              "endOffset": 44
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"👨🏼‍💻Developer\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:41:06+0000",
+    "updateDate": "2026-07-17T20:41:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0c80dff9-dc43-47ca-b3c9-4c733023fcb1",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/plugins/commands.py",
+    "project": "vivek5912f__admin-protector-bot",
+    "line": 25,
+    "hash": "735a7425bee0da2e46986645c4ab8c8b",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 50,
+      "endOffset": 70
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/plugins/commands.py",
+            "textRange": {
+              "startLine": 45,
+              "endLine": 45,
+              "startOffset": 50,
+              "endOffset": 70
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/plugins/commands.py",
+            "textRange": {
+              "startLine": 64,
+              "endLine": 64,
+              "startOffset": 50,
+              "endOffset": 70
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"https://t.me/TMWAD\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:41:06+0000",
+    "updateDate": "2026-07-17T20:41:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5c501ea5-d0fe-4026-8560-e1294c2d0c15",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/plugins/commands.py",
+    "project": "vivek5912f__admin-protector-bot",
+    "line": 25,
+    "hash": "735a7425bee0da2e46986645c4ab8c8b",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 26,
+      "endOffset": 44
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/plugins/commands.py",
+            "textRange": {
+              "startLine": 45,
+              "endLine": 45,
+              "startOffset": 26,
+              "endOffset": 44
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "vivek5912f__admin-protector-bot:temp_repos/Admin-Protector-Bot/plugins/commands.py",
+            "textRange": {
+              "startLine": 64,
+              "endLine": 64,
+              "startOffset": 26,
+              "endOffset": 44
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"⚙️Update Channel\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:41:06+0000",
+    "updateDate": "2026-07-17T20:41:06+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

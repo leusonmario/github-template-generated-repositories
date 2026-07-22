@@ -1,0 +1,2333 @@
+[
+  {
+    "key": "03c91b95-ea8a-46d7-9ad0-90707b3fd255",
+    "rule": "typescript:S6571",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/functions/jwt.ts",
+    "project": "artlu99__farchiver-ssg",
+    "line": 82,
+    "hash": "bdedad23b3339255fa8d7ed19e74f07c",
+    "textRange": {
+      "startLine": 82,
+      "endLine": 82,
+      "startOffset": 13,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "\"ES256\" | \"ES384\" | \"ES512\" | \"HS256\" | \"HS384\" | \"HS512\" | \"RS256\" | \"RS384\" | \"RS512\" is overridden by string in this union type.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d3432db3-8883-4b7a-82bc-e2ba93e19a71",
+    "rule": "typescript:S7758",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/functions/jwt.ts",
+    "project": "artlu99__farchiver-ssg",
+    "line": 133,
+    "hash": "829a4e439b76f1560a49a02dab76e5d1",
+    "textRange": {
+      "startLine": 133,
+      "endLine": 133,
+      "startOffset": 20,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String.fromCodePoint()` over `String.fromCharCode()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "internationalization",
+      "unicode"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "19a8ebf8-05d4-4b42-8e9a-acd6123954b3",
+    "rule": "typescript:S7758",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/functions/jwt.ts",
+    "project": "artlu99__farchiver-ssg",
+    "line": 141,
+    "hash": "93d049a2118e2d33d74f92f4a5f8aac5",
+    "textRange": {
+      "startLine": 141,
+      "endLine": 141,
+      "startOffset": 21,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#codePointAt()` over `String#charCodeAt()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "internationalization",
+      "unicode"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "69c1ce39-1ec4-4ba4-9b2e-42a47cf66f83",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/functions/jwt.ts",
+    "project": "artlu99__farchiver-ssg",
+    "line": 164,
+    "hash": "141e7cefe526b20676fb20c287d2ab45",
+    "textRange": {
+      "startLine": 164,
+      "endLine": 164,
+      "startOffset": 3,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f775a476-7966-45a6-829a-6882142389a9",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/functions/jwt.ts",
+    "project": "artlu99__farchiver-ssg",
+    "line": 165,
+    "hash": "7e828be783716945bc32cba0f8793bf0",
+    "textRange": {
+      "startLine": 165,
+      "endLine": 165,
+      "startOffset": 3,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f1822015-43a9-41d3-97c3-f376be494c99",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/functions/jwt.ts",
+    "project": "artlu99__farchiver-ssg",
+    "line": 166,
+    "hash": "a03e263f287e50711d094ea5c2af1e79",
+    "textRange": {
+      "startLine": 166,
+      "endLine": 166,
+      "startOffset": 3,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "567eed5d-a4ba-466f-b41d-5f1e04666efb",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/functions/jwt.ts",
+    "project": "artlu99__farchiver-ssg",
+    "line": 171,
+    "hash": "0685fac777a38077576a3667e7b77583",
+    "textRange": {
+      "startLine": 171,
+      "endLine": 171,
+      "startOffset": 47,
+      "endOffset": 54
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5bdc2b88-d6a1-42b7-888d-5c557f9f0e11",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/functions/jwt.ts",
+    "project": "artlu99__farchiver-ssg",
+    "line": 171,
+    "hash": "0685fac777a38077576a3667e7b77583",
+    "textRange": {
+      "startLine": 171,
+      "endLine": 171,
+      "startOffset": 28,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bec2b2db-f987-4e32-bf2c-2b8d61151f31",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/functions/jwt.ts",
+    "project": "artlu99__farchiver-ssg",
+    "line": 171,
+    "hash": "0685fac777a38077576a3667e7b77583",
+    "textRange": {
+      "startLine": 171,
+      "endLine": 171,
+      "startOffset": 9,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1e91fe5f-e338-449f-8de7-e92b357511be",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/functions/jwt.ts",
+    "project": "artlu99__farchiver-ssg",
+    "line": 176,
+    "hash": "b63610fc22ba13b0fdc865b6c27a85b3",
+    "textRange": {
+      "startLine": 176,
+      "endLine": 176,
+      "startOffset": 18,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3757c616-b583-453e-bc06-3e696ff19aea",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/functions/jwt.ts",
+    "project": "artlu99__farchiver-ssg",
+    "line": 176,
+    "hash": "b63610fc22ba13b0fdc865b6c27a85b3",
+    "textRange": {
+      "startLine": 176,
+      "endLine": 176,
+      "startOffset": 56,
+      "endOffset": 63
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fad341f6-0a9c-4faf-84c3-bee88269b7c8",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/functions/jwt.ts",
+    "project": "artlu99__farchiver-ssg",
+    "line": 176,
+    "hash": "b63610fc22ba13b0fdc865b6c27a85b3",
+    "textRange": {
+      "startLine": 176,
+      "endLine": 176,
+      "startOffset": 36,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4fb25024-40ad-4c75-aad0-75937a8e3578",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/functions/jwt.ts",
+    "project": "artlu99__farchiver-ssg",
+    "line": 181,
+    "hash": "5b5e65b06e43738c66b32847ba45cbfa",
+    "textRange": {
+      "startLine": 181,
+      "endLine": 181,
+      "startOffset": 6,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "670f359d-0aa2-457d-a705-950277f8bb7c",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/functions/jwt.ts",
+    "project": "artlu99__farchiver-ssg",
+    "line": 181,
+    "hash": "5b5e65b06e43738c66b32847ba45cbfa",
+    "textRange": {
+      "startLine": 181,
+      "endLine": 181,
+      "startOffset": 38,
+      "endOffset": 45
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8c92647e-780d-4782-bc04-f75908c93c96",
+    "rule": "typescript:S7737",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/functions/jwt.ts",
+    "project": "artlu99__farchiver-ssg",
+    "line": 269,
+    "hash": "aa61a0347713309f2878c2074a304f42",
+    "textRange": {
+      "startLine": 269,
+      "endLine": 269,
+      "startOffset": 1,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use an object literal as default for parameter `options`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "031f1f37-d490-4484-8cfc-b9fd8d72f4e8",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/functions/jwt.ts",
+    "project": "artlu99__farchiver-ssg",
+    "line": 333,
+    "hash": "5d6453b2b1f31f9fabda6b458524c5de",
+    "textRange": {
+      "startLine": 333,
+      "endLine": 333,
+      "startOffset": 23,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "934d9575-a089-4cd6-b2e3-4725686cd559",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/functions/jwt.ts",
+    "project": "artlu99__farchiver-ssg",
+    "line": 333,
+    "hash": "5d6453b2b1f31f9fabda6b458524c5de",
+    "textRange": {
+      "startLine": 333,
+      "endLine": 333,
+      "startOffset": 42,
+      "endOffset": 49
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "741eef46-26fe-4e56-bcd5-98c05a413b9b",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/functions/jwt.ts",
+    "project": "artlu99__farchiver-ssg",
+    "line": 336,
+    "hash": "2564323a4689c3530d04ee24e62d507d",
+    "textRange": {
+      "startLine": 336,
+      "endLine": 336,
+      "startOffset": 42,
+      "endOffset": 49
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fad014d0-3720-4cb9-8b40-00d45c0689fb",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/functions/jwt.ts",
+    "project": "artlu99__farchiver-ssg",
+    "line": 336,
+    "hash": "2564323a4689c3530d04ee24e62d507d",
+    "textRange": {
+      "startLine": 336,
+      "endLine": 336,
+      "startOffset": 23,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cfc3f1a1-9be2-4acc-bd0d-6044f562029c",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Castimonials.tsx",
+    "project": "artlu99__farchiver-ssg",
+    "line": 7,
+    "hash": "ea9b442af46f429cc84344b1588d0d83",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 15,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "44ddc3eb-9fd8-4d01-ac4e-a99d306a9e41",
+    "rule": "typescript:S6772",
+    "severity": "MAJOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/DownloadLinks.tsx",
+    "project": "artlu99__farchiver-ssg",
+    "line": 19,
+    "hash": "2518e8d779a92f826f3c8b7a1c062913",
+    "textRange": {
+      "startLine": 19,
+      "endLine": 19,
+      "startOffset": 0,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Ambiguous spacing before next element a",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FORMATTED",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "194cfed2-764b-49fe-ae9f-2c5a86337309",
+    "rule": "typescript:S6772",
+    "severity": "MAJOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/DownloadLinks.tsx",
+    "project": "artlu99__farchiver-ssg",
+    "line": 23,
+    "hash": "cfb0b5f8ccae71824d6eaeed9d5efb2c",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 0,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Ambiguous spacing after previous element a",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FORMATTED",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "25392f46-be18-4b3a-ad12-85d451bd0442",
+    "rule": "typescript:S4624",
+    "severity": "MAJOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/ExternalLink.tsx",
+    "project": "artlu99__farchiver-ssg",
+    "line": 15,
+    "hash": "9b771a2d39ad3108bb9a10cafd041939",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 35,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Refactor this code to not use nested template literals.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8d6be282-4b44-4b9f-80b4-cc0cb7c2ff0f",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Fiofe.tsx",
+    "project": "artlu99__farchiver-ssg",
+    "line": 4,
+    "hash": "ea9b442af46f429cc84344b1588d0d83",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 15,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ef2e93e0-a290-43fc-b06c-b399f8e187be",
+    "rule": "typescript:S7761",
+    "severity": "MAJOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/LayoutMainPage.tsx",
+    "project": "artlu99__farchiver-ssg",
+    "line": 19,
+    "hash": "1ba50103d608471275247c7a8fb14a38",
+    "textRange": {
+      "startLine": 19,
+      "endLine": 19,
+      "startOffset": 2,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `.dataset` over `setAttribute(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "dom",
+      "html",
+      "api"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "585fe665-89d3-4056-a086-b0b63182de38",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/LayoutMainPage.tsx",
+    "project": "artlu99__farchiver-ssg",
+    "line": 35,
+    "hash": "8759a0caa1dc6c9bb5046936cf9a54b6",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 48,
+      "startOffset": 9,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "35c8d0db-79a5-4f85-b6b8-52a703a7e187",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/LayoutMainPage.tsx",
+    "project": "artlu99__farchiver-ssg",
+    "line": 37,
+    "hash": "c405533e2c5214961f20e8be740ac88a",
+    "textRange": {
+      "startLine": 37,
+      "endLine": 48,
+      "startOffset": 9,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "72c01346-c54e-4406-aa64-711be557ca61",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Order.tsx",
+    "project": "artlu99__farchiver-ssg",
+    "line": 4,
+    "hash": "ea9b442af46f429cc84344b1588d0d83",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 15,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f1e55e0d-64c2-4b79-8210-7c15d04f248a",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Pricing.tsx",
+    "project": "artlu99__farchiver-ssg",
+    "line": 3,
+    "hash": "ea9b442af46f429cc84344b1588d0d83",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 15,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "262684cc-3877-4099-979e-23fbe3f4f748",
+    "rule": "typescript:S3776",
+    "severity": "CRITICAL",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Private.tsx",
+    "project": "artlu99__farchiver-ssg",
+    "line": 47,
+    "hash": "f115e2518b9d61be62811f1dbb7e90a9",
+    "textRange": {
+      "startLine": 47,
+      "endLine": 47,
+      "startOffset": 24,
+      "endOffset": 31
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Private.tsx",
+            "textRange": {
+              "startLine": 69,
+              "endLine": 69,
+              "startOffset": 35,
+              "endOffset": 36
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Private.tsx",
+            "textRange": {
+              "startLine": 70,
+              "endLine": 70,
+              "startOffset": 36,
+              "endOffset": 37
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Private.tsx",
+            "textRange": {
+              "startLine": 76,
+              "endLine": 76,
+              "startOffset": 10,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Private.tsx",
+            "textRange": {
+              "startLine": 77,
+              "endLine": 77,
+              "startOffset": 10,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Private.tsx",
+            "textRange": {
+              "startLine": 78,
+              "endLine": 78,
+              "startOffset": 15,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Private.tsx",
+            "textRange": {
+              "startLine": 79,
+              "endLine": 79,
+              "startOffset": 22,
+              "endOffset": 23
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Private.tsx",
+            "textRange": {
+              "startLine": 79,
+              "endLine": 79,
+              "startOffset": 10,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Private.tsx",
+            "textRange": {
+              "startLine": 80,
+              "endLine": 80,
+              "startOffset": 22,
+              "endOffset": 23
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Private.tsx",
+            "textRange": {
+              "startLine": 80,
+              "endLine": 80,
+              "startOffset": 10,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Private.tsx",
+            "textRange": {
+              "startLine": 81,
+              "endLine": 81,
+              "startOffset": 21,
+              "endOffset": 22
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Private.tsx",
+            "textRange": {
+              "startLine": 81,
+              "endLine": 81,
+              "startOffset": 10,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Private.tsx",
+            "textRange": {
+              "startLine": 82,
+              "endLine": 82,
+              "startOffset": 21,
+              "endOffset": 22
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Private.tsx",
+            "textRange": {
+              "startLine": 82,
+              "endLine": 82,
+              "startOffset": 10,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Private.tsx",
+            "textRange": {
+              "startLine": 83,
+              "endLine": 83,
+              "startOffset": 35,
+              "endOffset": 36
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Private.tsx",
+            "textRange": {
+              "startLine": 83,
+              "endLine": 83,
+              "startOffset": 15,
+              "endOffset": 17
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Private.tsx",
+            "textRange": {
+              "startLine": 84,
+              "endLine": 84,
+              "startOffset": 36,
+              "endOffset": 37
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Private.tsx",
+            "textRange": {
+              "startLine": 84,
+              "endLine": 84,
+              "startOffset": 15,
+              "endOffset": 17
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Private.tsx",
+            "textRange": {
+              "startLine": 85,
+              "endLine": 85,
+              "startOffset": 13,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "83cd25e8-4960-4b88-913c-b4722c2afbb9",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Public.tsx",
+    "project": "artlu99__farchiver-ssg",
+    "line": 5,
+    "hash": "ea9b442af46f429cc84344b1588d0d83",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 15,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9f16c5a4-5c54-46f9-b372-8b9547a4b9d9",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Signup.tsx",
+    "project": "artlu99__farchiver-ssg",
+    "line": 4,
+    "hash": "ea9b442af46f429cc84344b1588d0d83",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 15,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2703c85d-9930-4781-a81b-db12b2b66672",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/TwoFooter.tsx",
+    "project": "artlu99__farchiver-ssg",
+    "line": 6,
+    "hash": "ea9b442af46f429cc84344b1588d0d83",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 15,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "86a7d301-e61f-4d8a-aa8a-09603f70ab2b",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/TwoFooter.tsx",
+    "project": "artlu99__farchiver-ssg",
+    "line": 48,
+    "hash": "9d8416a804ac1543a10ee2f5e3a9c8ec",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 6,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <img alt=...>, or <img alt=...> instead of the \"img\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9e69b64d-98b8-4846-b997-48328c163629",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/UserCount.tsx",
+    "project": "artlu99__farchiver-ssg",
+    "line": 5,
+    "hash": "ea9b442af46f429cc84344b1588d0d83",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 15,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0d1af8a0-e7b5-4e69-9327-b93c88854882",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Uses.tsx",
+    "project": "artlu99__farchiver-ssg",
+    "line": 5,
+    "hash": "ea9b442af46f429cc84344b1588d0d83",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 15,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8ad48801-a2a0-4497-af7c-a9343a4343b9",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/components/Viz.tsx",
+    "project": "artlu99__farchiver-ssg",
+    "line": 5,
+    "hash": "ea9b442af46f429cc84344b1588d0d83",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 15,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "98a9b185-fb09-42d0-9ccf-7bd3951a59a7",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/helpers/formatUtils.ts",
+    "project": "artlu99__farchiver-ssg",
+    "line": 2,
+    "hash": "e30c72c487628d2ddcddf563184984a0",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 14,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4bf99ee6-0c01-4f12-a682-52e09296fe91",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/helpers/getUserCounts.ts",
+    "project": "artlu99__farchiver-ssg",
+    "line": 11,
+    "hash": "e257fda3bc7f7f961eec373e52ccd68a",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 23,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "09224d28-86c6-408a-8c95-e185409efa00",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/helpers/getUserCounts.ts",
+    "project": "artlu99__farchiver-ssg",
+    "line": 16,
+    "hash": "71619abc96730e829ea0f60cf07a559b",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 15,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2ccc180c-e92d-4eba-a646-39639dde016c",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/helpers/getUserCounts.ts",
+    "project": "artlu99__farchiver-ssg",
+    "line": 21,
+    "hash": "102e30a36c809aa06d5c462dd1f629aa",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 15,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a384ca3e-0e5a-4b3e-b999-4f400a04d01c",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/helpers/getUserCounts.ts",
+    "project": "artlu99__farchiver-ssg",
+    "line": 26,
+    "hash": "26dc0a496a6c5658e5325ee1bd774925",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 15,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6949a5cf-7e6a-49ed-9c9b-6a07bca4c70a",
+    "rule": "css:S4662",
+    "severity": "MAJOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/index.css",
+    "project": "artlu99__farchiver-ssg",
+    "line": 2,
+    "hash": "e4d262e13c540a85aebb8011a9bff4ee",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 0,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected unknown at-rule \"@plugin\"",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4d9ddd93-10d7-4584-84fb-9dde02124c4d",
+    "rule": "css:S4662",
+    "severity": "MAJOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/index.css",
+    "project": "artlu99__farchiver-ssg",
+    "line": 3,
+    "hash": "ce5b55f089c77c5736bb00c6b78214b6",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 0,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected unknown at-rule \"@plugin\"",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3be19451-6274-4779-8860-12e78efadb72",
+    "rule": "css:S1116",
+    "severity": "MINOR",
+    "component": "artlu99__farchiver-ssg:temp_repos/farchiver-ssg/src/index.css",
+    "project": "artlu99__farchiver-ssg",
+    "line": 5,
+    "hash": "2145c1b6992c0d519ad223f91671329b",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected extra semicolon (@stylistic/no-extra-semicolons)",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-15T21:31:38+0000",
+    "updateDate": "2026-07-15T21:31:38+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

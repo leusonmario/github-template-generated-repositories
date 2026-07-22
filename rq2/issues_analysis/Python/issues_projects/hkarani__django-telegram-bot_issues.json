@@ -1,0 +1,172 @@
+[
+  {
+    "key": "997e98ea-0cfc-482d-8033-f3e3ccf95256",
+    "rule": "secrets:S6687",
+    "severity": "BLOCKER",
+    "component": "hkarani__django-telegram-bot:temp_repos/django-telegram-bot/dtb/settings.py",
+    "project": "hkarani__django-telegram-bot",
+    "line": 23,
+    "hash": "ed4a262f99cd188fa09b0ec5b45db14b",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 5,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make sure this Django key gets revoked, changed, and removed from the code.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T21:28:11+0000",
+    "updateDate": "2026-07-17T21:28:11+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4a014aaa-e5d7-425e-b090-f3e22538ac35",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "hkarani__django-telegram-bot:temp_repos/django-telegram-bot/tgbot/handlers/broadcast_message/utils.py",
+    "project": "hkarani__django-telegram-bot",
+    "line": 57,
+    "hash": "9c96f02f4b43b839add74d8703b03374",
+    "textRange": {
+      "startLine": 57,
+      "endLine": 57,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused local variable \"m\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:28:11+0000",
+    "updateDate": "2026-07-17T21:28:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9ff15e87-2a5e-4c9b-a57e-414547ed5100",
+    "rule": "python:S108",
+    "severity": "MAJOR",
+    "component": "hkarani__django-telegram-bot:temp_repos/django-telegram-bot/tgbot/main.py",
+    "project": "hkarani__django-telegram-bot",
+    "line": 14,
+    "hash": "1a1dc91c907325c69271ddf0c944bc72",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 4,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Either remove or fill this block of code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T21:28:11+0000",
+    "updateDate": "2026-07-17T21:28:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7eb2af65-cd69-4f41-8030-2c62eec59660",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "hkarani__django-telegram-bot:temp_repos/django-telegram-bot/utils/models.py",
+    "project": "hkarani__django-telegram-bot",
+    "line": 5,
+    "hash": "921b919000dd37038f8be4af866c64e8",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 5,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:28:11+0000",
+    "updateDate": "2026-07-17T21:28:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

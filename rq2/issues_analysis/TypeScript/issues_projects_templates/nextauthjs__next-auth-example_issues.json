@@ -1,0 +1,341 @@
+[
+  {
+    "key": "bf6d2f45-cef8-4117-9136-0584ed55204e",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "nextauthjs__next-auth-example:Dockerfile",
+    "project": "nextauthjs__next-auth-example",
+    "line": 35,
+    "hash": "9c3ce62f063479a17855ae90816f354d",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "nextauthjs__next-auth-example:Dockerfile",
+            "textRange": {
+              "startLine": 36,
+              "endLine": 36,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T22:42:26+0000",
+    "updateDate": "2026-07-16T22:42:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bac87032-978b-4752-8f46-e5e7f511b55a",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "nextauthjs__next-auth-example:Dockerfile",
+    "project": "nextauthjs__next-auth-example",
+    "line": 41,
+    "hash": "565c154f530412c5ad54e2d48e909c4c",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 41,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "nextauthjs__next-auth-example:Dockerfile",
+            "textRange": {
+              "startLine": 42,
+              "endLine": 42,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T22:42:26+0000",
+    "updateDate": "2026-07-16T22:42:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d997bce4-5fc5-4b87-a2fe-fe176ee8fe2b",
+    "rule": "typescript:S7733",
+    "severity": "MINOR",
+    "component": "nextauthjs__next-auth-example:app/[...proxy]/route.tsx",
+    "project": "nextauthjs__next-auth-example",
+    "line": 27,
+    "hash": "8531873c9895dacf407ac15c819ddc4e",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 43,
+      "endOffset": 47
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "\"body\" is not allowed when method is \"GET\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "fetch",
+      "runtime-error",
+      "http"
+    ],
+    "creationDate": "2026-07-16T22:42:26+0000",
+    "updateDate": "2026-07-16T22:42:26+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2662d7ba-7e5a-4182-b58d-03699b4303be",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "nextauthjs__next-auth-example:app/client-example/page.tsx",
+    "project": "nextauthjs__next-auth-example",
+    "line": 8,
+    "hash": "e6783235cbc505a5e5e7bb779e5b0f95",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 7,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T22:42:26+0000",
+    "updateDate": "2026-07-16T22:42:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "79709d46-7f49-4bef-afcc-fb0a005f003c",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "nextauthjs__next-auth-example:components/layout.tsx",
+    "project": "nextauthjs__next-auth-example",
+    "line": 5,
+    "hash": "999e14d0fc62b07346e173248db95964",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 31,
+      "endOffset": 68
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:42:26+0000",
+    "updateDate": "2026-07-16T22:42:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "11059398-b6c2-414c-afc3-bfb8ee75a0bb",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "nextauthjs__next-auth-example:components/session-data.tsx",
+    "project": "nextauthjs__next-auth-example",
+    "line": 3,
+    "hash": "71541aa4b75074abbe0134914daff43a",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 36,
+      "endOffset": 76
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:42:26+0000",
+    "updateDate": "2026-07-16T22:42:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "adb1141d-e967-420d-8eef-6572d9c6622f",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "nextauthjs__next-auth-example:components/user-button.tsx",
+    "project": "nextauthjs__next-auth-example",
+    "line": 1,
+    "hash": "ef5804e4598eec12efb6d63be5dbd48e",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 17,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'AvatarFallback'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T22:42:26+0000",
+    "updateDate": "2026-07-16T22:42:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

@@ -1,0 +1,5172 @@
+[
+  {
+    "key": "02d442a5-83cd-45e7-bec7-9873b677f942",
+    "rule": "css:S4656",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/docs/src/css/custom.css",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 397,
+    "hash": "f404f6f97d60bd457925b88376fa2c9b",
+    "textRange": {
+      "startLine": 397,
+      "endLine": 397,
+      "startOffset": 0,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected duplicate \"margin-right\"",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "366303bc-2b7e-4257-9c03-30079e4676d3",
+    "rule": "docker:S7018",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/strapi/Dockerfile",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 14,
+    "hash": "9e70eaef63af612889cb44a95d50a2e0",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 18,
+      "endOffset": 102
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Sort these package names alphanumerically.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c16dd860-a2e4-49d0-b264-41dff31d3993",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/strapi/Dockerfile",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 85,
+    "hash": "1a2d32a46ebf7b02fd39f7e50722301f",
+    "textRange": {
+      "startLine": 85,
+      "endLine": 85,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "notum-cz__strapi-next-monorepo-starter:apps/strapi/Dockerfile",
+            "textRange": {
+              "startLine": 86,
+              "endLine": 86,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8f2a7e1c-cada-463c-b5cb-2fda3bdb6d21",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/strapi/config/admin.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 6,
+    "hash": "6a6674c88e502305526754f1a655536b",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 25,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "141d76da-52b8-4242-88ee-837bb541d512",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/strapi/config/database.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 3,
+    "hash": "6a6674c88e502305526754f1a655536b",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 25,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "90b203f0-b619-41d5-89c5-6706409ff2e2",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/strapi/config/env/production/database.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 1,
+    "hash": "6a6674c88e502305526754f1a655536b",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 25,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "72edf66c-0a3b-4ff6-a76e-31deeb0586c2",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/strapi/config/env/production/server.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 3,
+    "hash": "b26064efc78b070bfc7ec18af72ddc5c",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 25,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "eab17e04-3ced-47cd-87ab-f22d5f8964b0",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/strapi/config/logger.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 7,
+    "hash": "8a32ac7e8229861a1d113ab450a3654a",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 73,
+      "endOffset": 75
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "31fe7138-c3a6-4505-b0b1-9dc376bd4287",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/strapi/config/plugins.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 6,
+    "hash": "6a6674c88e502305526754f1a655536b",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 25,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bb520114-8502-4afb-b204-fcfaa52e5ad4",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/strapi/config/server.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 3,
+    "hash": "b26064efc78b070bfc7ec18af72ddc5c",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 25,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "036f1a54-e2a6-437e-be53-18d2e61f3c83",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/strapi/config/typescript.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 1,
+    "hash": "b26064efc78b070bfc7ec18af72ddc5c",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 25,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c04b9ad2-c027-4e3e-83c4-7440fb11a7f1",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/strapi/src/admin/extensions/Hierarchy/HierarchyPanel.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 14,
+    "hash": "e118a3c33fad86ef550eaeabc357b7bf",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 22,
+      "endOffset": 65
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "eb878740-05df-42d0-902b-e348cffe9643",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/strapi/src/admin/extensions/Hierarchy/HierarchyPanel.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 35,
+    "hash": "1795092cccc0bf5055a1192e4248ac6e",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 19,
+      "endOffset": 57
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e7606a48-9fa5-4592-af7e-f5ce9a8c31c1",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/strapi/src/admin/extensions/Hierarchy/HierarchyPanel.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 197,
+    "hash": "d8cae9b084981092938c8b7a59ab0cc9",
+    "textRange": {
+      "startLine": 197,
+      "endLine": 197,
+      "startOffset": 14,
+      "endOffset": 57
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4424e857-ad0e-49cb-8e37-6d5d6ec6357c",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/strapi/src/admin/vite.config.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 5,
+    "hash": "fd3465e5d131d44ce912ca70f529e7f2",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 36,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "392ea2ad-61f5-430b-bca6-764de614ed29",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/strapi/src/admin/widgets/CdnCacheWidget/index.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 72,
+    "hash": "e4f430963b8fc6c9e93e3e899fe8e858",
+    "textRange": {
+      "startLine": 72,
+      "endLine": 72,
+      "startOffset": 24,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "40bea662-76dd-4c1b-bda9-f40b1edfd9c4",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/strapi/src/api/admin-panel-config/services/admin-panel-config.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 5,
+    "hash": "70fe73ca056045f4bba4083fd94aa13d",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 28,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6d7c8bf7-7bbe-4cdf-b65b-e3e1de622d36",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/strapi/src/api/health/services/health.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 5,
+    "hash": "b667cc69ef78e36a4178d20c06a77d92",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 28,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "386be4c5-81f9-40de-bc91-bf94f9155228",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/strapi/src/api/page/controllers/page.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 20,
+    "hash": "392bd9b39d4a8f28f5aa2c281db3eea1",
+    "textRange": {
+      "startLine": 20,
+      "endLine": 20,
+      "startOffset": 22,
+      "endOffset": 47
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cdeca0e6-ac69-4652-8f58-71f10385c897",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/strapi/src/api/revalidate/services/revalidate.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 7,
+    "hash": "445b76f4553e602f05658a830c3b2476",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 18,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "46343f62-9303-4cae-a1ce-7069fe5dc797",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/Dockerfile",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 87,
+    "hash": "aace1fb019a226c8fad695054ee27314",
+    "textRange": {
+      "startLine": 87,
+      "endLine": 87,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/Dockerfile",
+            "textRange": {
+              "startLine": 88,
+              "endLine": 88,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "268a1fb3-f760-407a-af32-adca5db999f7",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/app/[locale]/auth/activate/_components/SetPasswordForm.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 30,
+    "hash": "59f474becb29817cdf5269fdf5fe2f60",
+    "textRange": {
+      "startLine": 30,
+      "endLine": 30,
+      "startOffset": 32,
+      "endOffset": 74
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "722726ae-8405-4d6d-8949-3a88cfb008c3",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/app/[locale]/auth/activate/_components/SetPasswordForm.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 40,
+    "hash": "c581fd62d148a0ace21b7d26863b6808",
+    "textRange": {
+      "startLine": 40,
+      "endLine": 40,
+      "startOffset": 34,
+      "endOffset": 68
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d0578a97-29e8-4340-8372-1edcd463b3e3",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/app/[locale]/auth/signin/_components/SignInForm.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 26,
+    "hash": "62a95e85ee7d6df2386ded9fa36f2623",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 27,
+      "endOffset": 64
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bf877702-4ec0-4d6b-899c-7a4d204e4379",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/app/[locale]/auth/signin/_components/SignInForm.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 38,
+    "hash": "e1f6b6876ed431224271e1cc4c5cd84e",
+    "textRange": {
+      "startLine": 38,
+      "endLine": 38,
+      "startOffset": 34,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "faab10e2-add9-4840-9217-67ecbbafbacb",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/app/[locale]/auth/signin/_components/SignInForm.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 39,
+    "hash": "dc8e3a9c97fbdb936f24fbce7fcabbdf",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 39,
+      "startOffset": 28,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8e9b58a1-6057-4d51-8647-c0e54868d746",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/app/[locale]/auth/signin/_components/SignInForm.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 49,
+    "hash": "a655fa74767fad7984337a17cc74a6ad",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 49,
+      "startOffset": 29,
+      "endOffset": 66
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "69de7ffe-0fcd-4a24-9c3f-7ab39d750a68",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/app/[locale]/auth/signin/_components/SocialButtons.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 5,
+    "hash": "6a9e57ebcaad35f19ae7439c66ba9810",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 30,
+      "endOffset": 66
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6b3a2455-85de-43c5-b471-0c69212c3dea",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/app/[locale]/auth/strapi-oauth/[provider]/_components/OAuthProvider.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 10,
+    "hash": "3d4a3c5f62450b0f4ea7be91db153941",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 14,
+      "startOffset": 30,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2293b605-5ee7-423f-a816-1694ee9a1636",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/app/[locale]/dev/components-overview/components/ComponentsList.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 9,
+    "hash": "07acf931ecf6e392ac76cf138153edfb",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 16,
+      "startOffset": 39,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b26be385-fd46-4cc4-b97f-afbed5d73d0c",
+    "rule": "typescript:S6551",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/app/[locale]/dev/components-overview/page.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 21,
+    "hash": "8df68e0ae10783c7d020247c8e212e40",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 55,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'e' will use Object's default stringification format ('[object Object]') when stringified.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "string",
+      "type-dependent",
+      "object"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2907717e-5964-49f6-995c-03ca5f02a6bb",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/app/[locale]/dev/pages-overview/components/PageList.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 9,
+    "hash": "aa9bf79abd1fa6c616acdb75409ee73f",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 14,
+      "startOffset": 33,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8e515414-6393-4262-bc69-5b90d80036d3",
+    "rule": "typescript:S6551",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/app/[locale]/dev/pages-overview/page.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 20,
+    "hash": "8df68e0ae10783c7d020247c8e212e40",
+    "textRange": {
+      "startLine": 20,
+      "endLine": 20,
+      "startOffset": 55,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'e' will use Object's default stringification format ('[object Object]') when stringified.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "string",
+      "type-dependent",
+      "object"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "742b96d6-d7e8-45f6-9c40-f4117aa3bc8b",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/app/[locale]/dev/showcase/components/AnchorButton.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 1,
+    "hash": "b5d53280a50436f4750f9480a6125644",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 29,
+      "endOffset": 73
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "be14eea0-de50-4735-a5fd-c44399268e70",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/app/[locale]/dev/showcase/components/ColorBox.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 10,
+    "hash": "8bd960175b1ede094bf73bb67a1a69e9",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 13,
+      "startOffset": 18,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b30dd542-f263-4caf-b140-32da21ccb9eb",
+    "rule": "typescript:S6767",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/app/[locale]/dev/showcase/components/ManualItem.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 7,
+    "hash": "45bd12f7ff84d9dc8b8bf0d27937bc0b",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 2,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'label' PropType is defined but prop is never used",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "02263204-3a44-455e-b48c-3aa5b025b390",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/app/[locale]/dev/showcase/components/ManualSection.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 11,
+    "hash": "6ba75ed2e5a3517304816b9cd25ab135",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 16,
+      "startOffset": 23,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a33010e0-35e4-4f58-8675-bba8c95d5e64",
+    "rule": "typescript:S6551",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/elementary/ErrorBoundary.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 42,
+    "hash": "932c2204687206e199b1d713bd64d75a",
+    "textRange": {
+      "startLine": 42,
+      "endLine": 42,
+      "startOffset": 71,
+      "endOffset": 76
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'error' will use Object's default stringification format ('[object Object]') when stringified.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "string",
+      "type-dependent",
+      "object"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c9c32929-37a2-4fbe-a47a-173e709df528",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/elementary/ErrorBoundary.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 126,
+    "hash": "1236d26bee68a7a0e4f36c0a4830fb21",
+    "textRange": {
+      "startLine": 126,
+      "endLine": 126,
+      "startOffset": 30,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4172fc46-5341-4499-a9c0-ac5294024632",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/elementary/LocaleSwitcher.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 23,
+    "hash": "5e4b8a876f4690f79382d995c29d7c5d",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 24,
+      "endOffset": 54
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d82c9cee-20a3-482b-82d4-5ac30d1272dc",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/elementary/LocaleSwitcher.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 30,
+    "hash": "5e417fe6a2b8ac606b9e6d126176c2c3",
+    "textRange": {
+      "startLine": 30,
+      "endLine": 30,
+      "startOffset": 33,
+      "endOffset": 63
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "454608bf-4e1b-4658-9f1f-2b6add06fe2d",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/elementary/ThemeToggle.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 10,
+    "hash": "cb541859b8b7d8d9902770a13bd85063",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 28,
+      "endOffset": 65
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5b78d11e-dfef-4c01-81f8-edff684181bb",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/elementary/ck-editor/utils.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 31,
+    "hash": "14efd0aa3951dc866c9cfc596f4cdb42",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 19,
+      "endOffset": 50
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d979d4ee-3ed2-4e4f-895c-fe19fa6fffdd",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/elementary/data-table/DataTable.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 109,
+    "hash": "46868bb7f49f7d485d25bbf7d34cf4cf",
+    "textRange": {
+      "startLine": 109,
+      "endLine": 109,
+      "startOffset": 44,
+      "endOffset": 71
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since the receiver accepts the original type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "991acbbe-392d-4bc6-bfed-1500f5b1d43f",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/elementary/data-table/DataTable.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 152,
+    "hash": "35c919cf6817040ecc325f70aaf2f824",
+    "textRange": {
+      "startLine": 152,
+      "endLine": 156,
+      "startOffset": 34,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8731c6f2-a841-423d-977f-d28cb5500680",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/elementary/data-table/DataTable.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 166,
+    "hash": "64c88a740ff8b27ab46a743a5345d3b8",
+    "textRange": {
+      "startLine": 166,
+      "endLine": 170,
+      "startOffset": 29,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4005145d-535a-47f6-bec6-923e546f3ac4",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/elementary/data-table/DataTableColumnHeader.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 65,
+    "hash": "8ef90737bc551e632eab378b54a42c2a",
+    "textRange": {
+      "startLine": 65,
+      "endLine": 69,
+      "startOffset": 18,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0895b6bf-17fa-4026-a622-ec228d88f0c9",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/elementary/tiptap-editor/index.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 122,
+    "hash": "059bdf6689aa5c9a7af802f2f01a5b73",
+    "textRange": {
+      "startLine": 122,
+      "endLine": 122,
+      "startOffset": 8,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e5962fa5-ef52-4101-94cb-26df10efd1e6",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/elementary/tiptap-editor/index.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 129,
+    "hash": "f1b644afdd77b793d2cdd3e45a429e17",
+    "textRange": {
+      "startLine": 129,
+      "endLine": 129,
+      "startOffset": 8,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b6c0d699-e632-44c3-a966-1eac06c29b8f",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/elementary/tiptap-editor/index.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 143,
+    "hash": "3e2bdef959fd95506608311e6d82a57b",
+    "textRange": {
+      "startLine": 143,
+      "endLine": 143,
+      "startOffset": 8,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7e4d563f-efc3-4d95-96e5-429f7f7ea2cc",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/elementary/tiptap-editor/index.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 146,
+    "hash": "58db5a0cc7b6aa7d165969f5b6b2bfab",
+    "textRange": {
+      "startLine": 146,
+      "endLine": 146,
+      "startOffset": 8,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "14c195e3-1575-429e-88bb-9945cef17ad5",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/elementary/tiptap-editor/index.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 155,
+    "hash": "9df47c8322119ee7f56675c02d874e8c",
+    "textRange": {
+      "startLine": 155,
+      "endLine": 155,
+      "startOffset": 8,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d94a5896-6986-427f-b532-9e0d72eea431",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/elementary/tiptap-editor/index.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 167,
+    "hash": "57fa87e6900be250b3c3888602a86f91",
+    "textRange": {
+      "startLine": 167,
+      "endLine": 167,
+      "startOffset": 8,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d780dbae-579c-4f30-9ac1-00282c4dc1bc",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/elementary/tiptap-editor/index.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 195,
+    "hash": "5270c8de2521768edb1f0797249fb4ea",
+    "textRange": {
+      "startLine": 195,
+      "endLine": 195,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2b6a0015-1883-46f2-b176-1ab950287886",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/elementary/tiptap-editor/index.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 207,
+    "hash": "a2e260bfe9231436629bd31cf9fbbfcd",
+    "textRange": {
+      "startLine": 207,
+      "endLine": 207,
+      "startOffset": 8,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ace0190d-f7d9-4779-90b4-1dbd587224f1",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/elementary/tiptap-editor/index.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 225,
+    "hash": "22ed06a50fd314db90efd8173b713276",
+    "textRange": {
+      "startLine": 225,
+      "endLine": 225,
+      "startOffset": 8,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0dff6853-ae01-4e1c-9768-cb1a4b9f29a1",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/elementary/tiptap-editor/index.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 239,
+    "hash": "cd41c4dad6d854f00085d64b579c207b",
+    "textRange": {
+      "startLine": 239,
+      "endLine": 239,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5d6ca0e6-16fb-40be-ba3c-ac2365076a20",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/elementary/tiptap-editor/index.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 253,
+    "hash": "e820eb57063ee71a05951ade34b6c4b3",
+    "textRange": {
+      "startLine": 253,
+      "endLine": 253,
+      "startOffset": 8,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cbfe2692-0b18-4789-bacc-c1d1fc17dece",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/elementary/tiptap-editor/index.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 268,
+    "hash": "27003575ad0ec94752f55730e8dd3d9a",
+    "textRange": {
+      "startLine": 268,
+      "endLine": 268,
+      "startOffset": 8,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1fa66f95-9ce3-4cb5-8c72-fc25bc29d288",
+    "rule": "typescript:S6848",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/forms/AppFilePicker.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 104,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 104,
+      "endLine": 112,
+      "startOffset": 6,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b71b48d8-ffc9-4617-83fb-080596bd436c",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/helpers/UseSearchParamsWrapper.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 30,
+    "hash": "df0b1e41303f40aff701d73613243905",
+    "textRange": {
+      "startLine": 30,
+      "endLine": 33,
+      "startOffset": 39,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "382cbf2f-41f9-4360-b28e-11be38645f3d",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/layouts/StrapiPageView.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 24,
+    "hash": "31e0d54ba6986c23e3264abe5a4b2594",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 39,
+      "endOffset": 70
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "771384e0-29af-4fcc-a938-906ac47ee11b",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/page-builder/components/sections/StrapiFeaturesList.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 25,
+    "hash": "ed24913faae24c8904a31c38f128286d",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 9,
+      "endOffset": 51
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "73585adb-c5be-4f3d-afa8-253d9687e5d1",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/page-builder/components/sections/StrapiFeaturesList.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 54,
+    "hash": "2652ca6029d056462dcf8493b8227f6c",
+    "textRange": {
+      "startLine": 54,
+      "endLine": 54,
+      "startOffset": 9,
+      "endOffset": 52
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "24f4bb28-17cd-4226-a55d-57b40ee137b1",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/page-builder/components/sections/StrapiFeaturesList.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 82,
+    "hash": "1eaeab997c7f784d90b12b476177435d",
+    "textRange": {
+      "startLine": 82,
+      "endLine": 88,
+      "startOffset": 21,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2497d514-04f8-45dd-8c83-ba1548a7c33f",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/page-builder/components/seo-utilities/StrapiStructuredData.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 3,
+    "hash": "b2628c2f1ef2255cfa914d2c9fcee4ab",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 7,
+      "startOffset": 37,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7d2e4070-d414-4655-a351-d1fed6c977c0",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/page-builder/single-types/navbar/DesktopNavigation.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 18,
+    "hash": "0e3123e6d8a42ee78707afeb39ade7fa",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 34,
+      "endOffset": 73
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6a9909ab-92bf-4417-954b-8788d2e264f6",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/page-builder/single-types/navbar/DesktopNavigation.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 36,
+    "hash": "061f9e8fc4fe75f3c36eadb244a9add0",
+    "textRange": {
+      "startLine": 36,
+      "endLine": 44,
+      "startOffset": 18,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "acced40e-0499-457f-a396-b416d2075a6e",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/page-builder/single-types/navbar/MobileNavigation.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 25,
+    "hash": "95a0c63ecce9afff5174f5381409117b",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 32,
+      "startOffset": 33,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ad05aeb3-71c7-4309-80fb-b9606d74b943",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/page-builder/single-types/navbar/MobileNavigation.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 93,
+    "hash": "cbf442dbd29b1999c3b74f54a3770f85",
+    "textRange": {
+      "startLine": 93,
+      "endLine": 106,
+      "startOffset": 20,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a4b2d684-601a-43d1-9cec-c980cf99f81e",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/page-builder/single-types/navbar/MobileNavigation.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 112,
+    "hash": "dd169e45dc4ae14799c8d4bd745c958b",
+    "textRange": {
+      "startLine": 112,
+      "endLine": 120,
+      "startOffset": 9,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "35c9d712-3bbd-4d6e-aa52-5746fea9b18c",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/page-builder/single-types/navbar/NavbarAuthSection.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 10,
+    "hash": "dcee7211c4c5970fd61bc991ed66f220",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 14,
+      "startOffset": 34,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e2112bbc-7460-4f11-b4d2-db9690b9982c",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/providers/TrackingScripts.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 5,
+    "hash": "16bf11ce918e57c5f8e84e0f7414fefd",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 18,
+      "startOffset": 38,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7ef62a74-e02d-4b4e-a746-70dc820c5bdd",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/ui/calendar.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 135,
+    "hash": "05680523829e8eb1db20faa3e3df603d",
+    "textRange": {
+      "startLine": 135,
+      "endLine": 135,
+      "startOffset": 49,
+      "endOffset": 51
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c9ed1c35-0158-4c33-8bc8-95a8111a597e",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/ui/calendar.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 145,
+    "hash": "edfa435f8ef847a6bddd641dda09bd20",
+    "textRange": {
+      "startLine": 145,
+      "endLine": 145,
+      "startOffset": 56,
+      "endOffset": 58
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0c86c517-a707-48ed-84b4-f58af5d94331",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/ui/calendar.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 166,
+    "hash": "635bf01f43c44943d9eb7ee98e6f9a9f",
+    "textRange": {
+      "startLine": 166,
+      "endLine": 166,
+      "startOffset": 45,
+      "endOffset": 47
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "da818473-251a-43b2-9fdd-3179a393970d",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/ui/carousel.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 123,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 123,
+      "endLine": 130,
+      "startOffset": 6,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <section aria-label=...>, or <section aria-labelledby=...> instead of the \"region\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "74d7142b-b0ff-403d-885b-6cef838afc23",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/ui/carousel.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 162,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 162,
+      "endLine": 172,
+      "startOffset": 4,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <details>, <fieldset>, <optgroup>, or <address> instead of the \"group\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2fb9c698-7e46-4e04-b3e3-81d4a8da6fad",
+    "rule": "typescript:S5256",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/components/ui/table.tsx",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 13,
+    "hash": "e2874e8e0fdc613d154ecc1ffa50bef1",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 17,
+      "startOffset": 6,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a valid header row or column to this \"<table>\".",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b5755f5a-67ab-46c7-96fe-1d06f58f8bcc",
+    "rule": "typescript:S6571",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/hooks/useUserMutations.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 100,
+    "hash": "19905917b240f06430ed3f7120f0e3f0",
+    "textRange": {
+      "startLine": 100,
+      "endLine": 100,
+      "startOffset": 9,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'unknown' overrides all other types in this union type.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3b644a64-9230-46f3-a31c-8ef526d838f3",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/hooks/useUserMutations.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 106,
+    "hash": "70e78bf4d40bb4edcf0f05b0bf284074",
+    "textRange": {
+      "startLine": 106,
+      "endLine": 106,
+      "startOffset": 9,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a3da7b56-399a-454d-8cd2-dbef858f987b",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/lib/auth-client.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 28,
+    "hash": "5f21ababdda7ca9023a92a0f8466dacc",
+    "textRange": {
+      "startLine": 28,
+      "endLine": 28,
+      "startOffset": 10,
+      "endOffset": 60
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3172465d-0355-4c4d-a062-aa88fa516418",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/lib/env-vars.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 27,
+    "hash": "740f64424906558ac8da07c746d7c9fa",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 6,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b5538072-cd9d-4a36-ba15-52f1dfa5d456",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/lib/env-vars.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 27,
+    "hash": "740f64424906558ac8da07c746d7c9fa",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 13,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis.window` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "126d2237-e3d5-4663-b6fc-d26afb7cc101",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/lib/metadata/defaults.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 40,
+    "hash": "6fc2f2db1ac8ebf936685d5431e73343",
+    "textRange": {
+      "startLine": 40,
+      "endLine": 40,
+      "startOffset": 10,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8fff5cf1-325c-4ccd-a13a-116a0baef8d0",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/lib/redirects.test.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 174,
+    "hash": "4f746b0318e55e3f7f46d43dfa3a6199",
+    "textRange": {
+      "startLine": 174,
+      "endLine": 174,
+      "startOffset": 4,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bfebd34a-0c3d-4e9c-8cd8-dab890f6086d",
+    "rule": "typescript:S4624",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/lib/strapi-api/base.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 122,
+    "hash": "1cbd0006eba97594386470352ba0aaf2",
+    "textRange": {
+      "startLine": 122,
+      "endLine": 122,
+      "startOffset": 39,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Refactor this code to not use nested template literals.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d5a9b633-13f2-4183-86a2-01720f402481",
+    "rule": "typescript:S6551",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/lib/strapi-api/content/server.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 43,
+    "hash": "8df68e0ae10783c7d020247c8e212e40",
+    "textRange": {
+      "startLine": 43,
+      "endLine": 43,
+      "startOffset": 55,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'e' will use Object's default stringification format ('[object Object]') when stringified.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "string",
+      "type-dependent",
+      "object"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "646bcbd3-eddf-436a-91b1-da1135d7a42a",
+    "rule": "typescript:S6551",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/lib/strapi-api/content/server.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 72,
+    "hash": "8df68e0ae10783c7d020247c8e212e40",
+    "textRange": {
+      "startLine": 72,
+      "endLine": 72,
+      "startOffset": 55,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'e' will use Object's default stringification format ('[object Object]') when stringified.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "string",
+      "type-dependent",
+      "object"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3e7ea182-533b-49ec-ac5f-7ef597042b43",
+    "rule": "typescript:S6551",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/lib/strapi-api/content/server.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 101,
+    "hash": "8df68e0ae10783c7d020247c8e212e40",
+    "textRange": {
+      "startLine": 101,
+      "endLine": 101,
+      "startOffset": 55,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'e' will use Object's default stringification format ('[object Object]') when stringified.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "string",
+      "type-dependent",
+      "object"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4959d9ca-9309-4e49-9367-1cdb1f971490",
+    "rule": "typescript:S6551",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/lib/strapi-api/content/server.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 134,
+    "hash": "8df68e0ae10783c7d020247c8e212e40",
+    "textRange": {
+      "startLine": 134,
+      "endLine": 134,
+      "startOffset": 55,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'e' will use Object's default stringification format ('[object Object]') when stringified.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "string",
+      "type-dependent",
+      "object"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2553aae5-b364-415f-be67-f7881eb6adb7",
+    "rule": "typescript:S6551",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/lib/strapi-api/content/server.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 167,
+    "hash": "8df68e0ae10783c7d020247c8e212e40",
+    "textRange": {
+      "startLine": 167,
+      "endLine": 167,
+      "startOffset": 55,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'e' will use Object's default stringification format ('[object Object]') when stringified.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "string",
+      "type-dependent",
+      "object"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "82d157bc-e8c0-40c4-a2f9-4ad63ffc4ea0",
+    "rule": "typescript:S6551",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/lib/strapi-api/content/server.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 199,
+    "hash": "8df68e0ae10783c7d020247c8e212e40",
+    "textRange": {
+      "startLine": 199,
+      "endLine": 199,
+      "startOffset": 55,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'e' will use Object's default stringification format ('[object Object]') when stringified.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "string",
+      "type-dependent",
+      "object"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "97851b2a-ffd3-4dfb-a1fa-81ebfed34d2f",
+    "rule": "typescript:S6551",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/lib/strapi-api/content/server.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 207,
+    "hash": "a5175e80870e1472993616e0d505c71d",
+    "textRange": {
+      "startLine": 207,
+      "endLine": 207,
+      "startOffset": 52,
+      "endOffset": 53
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'e' will use Object's default stringification format ('[object Object]') when stringified.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "string",
+      "type-dependent",
+      "object"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9e642d42-4c86-4b8f-812f-a12662ef5f43",
+    "rule": "typescript:S4624",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/lib/strapi-api/private.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 18,
+    "hash": "183a8e9d026936daf44bc2473ea842de",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 51,
+      "endOffset": 61
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Refactor this code to not use nested template literals.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ac690b97-f14a-48ee-84a5-088d8b082daf",
+    "rule": "typescript:S4624",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/lib/strapi-api/public.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 15,
+    "hash": "183a8e9d026936daf44bc2473ea842de",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 51,
+      "endOffset": 61
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Refactor this code to not use nested template literals.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d1dbf903-6ea1-4c0c-9948-b5bd534e0c89",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/lib/strapi-api/request-auth.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 78,
+    "hash": "3ea159771dcc5c4ebbb852689fd1beff",
+    "textRange": {
+      "startLine": 78,
+      "endLine": 78,
+      "startOffset": 23,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis.window` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7f8dbd29-0144-423a-9fe5-707414dca5ce",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/lib/strapi-helpers.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 25,
+    "hash": "524745e5ce44c94c058a55f3ce494682",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 15,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis.window` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cd022f7f-2fc2-43a3-9efb-5b0572e6b23f",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/lib/strapi-helpers.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 33,
+    "hash": "51c7ff4fabc72ae98b4608fe81b16aef",
+    "textRange": {
+      "startLine": 33,
+      "endLine": 33,
+      "startOffset": 6,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "409e66fe-e176-480b-a597-43a72a3a6e38",
+    "rule": "css:S4666",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/styles/CkEditorDefaultStyles.css",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 75,
+    "hash": "6f813fc138532305b71b24651d85259d",
+    "textRange": {
+      "startLine": 75,
+      "endLine": 75,
+      "startOffset": 0,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected duplicate selector \":root\", first used at line 9",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8d738e46-72f0-4c96-9590-d48eb046b136",
+    "rule": "css:S4666",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/styles/CkEditorDefaultStyles.css",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 116,
+    "hash": "6f813fc138532305b71b24651d85259d",
+    "textRange": {
+      "startLine": 116,
+      "endLine": 116,
+      "startOffset": 0,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected duplicate selector \":root\", first used at line 9",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ce712679-5673-4282-bfed-b9e051dd2f49",
+    "rule": "css:S4666",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/styles/CkEditorDefaultStyles.css",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 155,
+    "hash": "6f813fc138532305b71b24651d85259d",
+    "textRange": {
+      "startLine": 155,
+      "endLine": 155,
+      "startOffset": 0,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected duplicate selector \":root\", first used at line 9",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c9459fe7-d6e8-48cd-94ec-890bb042f17d",
+    "rule": "css:S4666",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/styles/CkEditorDefaultStyles.css",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 296,
+    "hash": "6f813fc138532305b71b24651d85259d",
+    "textRange": {
+      "startLine": 296,
+      "endLine": 296,
+      "startOffset": 0,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected duplicate selector \":root\", first used at line 9",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "19623d61-b621-4660-ba95-343dc081d3cc",
+    "rule": "css:S4666",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/styles/CkEditorDefaultStyles.css",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 508,
+    "hash": "6f813fc138532305b71b24651d85259d",
+    "textRange": {
+      "startLine": 508,
+      "endLine": 508,
+      "startOffset": 0,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected duplicate selector \":root\", first used at line 9",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a5afaecc-3d16-4f79-be40-766766c4089a",
+    "rule": "css:S4662",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/styles/globals.css",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 5,
+    "hash": "aa03ece884236d473b7f4e2f42d77795",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 0,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected unknown at-rule \"@plugin\"",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "92b8ad4c-fc96-42d5-a760-f4f094b5e286",
+    "rule": "css:S4662",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/styles/globals.css",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 51,
+    "hash": "fa0f8a24c6aa46c4023355802570812a",
+    "textRange": {
+      "startLine": 51,
+      "endLine": 51,
+      "startOffset": 0,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected unknown at-rule \"@utility\"",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cdb7fb0b-2138-484f-81c8-8be0bd89d144",
+    "rule": "css:S4662",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/styles/globals.css",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 61,
+    "hash": "69794db5d768d2986f27d9fa4ea6a7f5",
+    "textRange": {
+      "startLine": 61,
+      "endLine": 61,
+      "startOffset": 0,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected unknown at-rule \"@utility\"",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4c17141d-ba84-48cf-8b58-495c68bbb1d6",
+    "rule": "css:S4662",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:apps/ui/src/styles/globals.css",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 67,
+    "hash": "c39d41c6b3392e2f5d37d3a3c6bb0232",
+    "textRange": {
+      "startLine": 67,
+      "endLine": 67,
+      "startOffset": 0,
+      "endOffset": 47
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected unknown at-rule \"@custom-variant\"",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9baf2627-f596-425e-8a99-13ae31938cdf",
+    "rule": "javascript:S4624",
+    "severity": "MAJOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:packages/design-system/src/build-ck-config.js",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 75,
+    "hash": "e630a7d383331794cc99b5b9730d61a0",
+    "textRange": {
+      "startLine": 75,
+      "endLine": 75,
+      "startOffset": 32,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Refactor this code to not use nested template literals.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fcb55cb0-8397-4f95-9b67-9f7bba2e1d05",
+    "rule": "typescript:S6551",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:packages/logging/index.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 220,
+    "hash": "506c0001854b4a170da263d5f487d2d5",
+    "textRange": {
+      "startLine": 220,
+      "endLine": 220,
+      "startOffset": 26,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'error' will use Object's default stringification format ('[object Object]') when stringified.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "string",
+      "type-dependent",
+      "object"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "31412185-ac34-4a6b-8543-7a55db1010a3",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:packages/shared-data/index.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 35,
+    "hash": "10f1ca774ed793c4535cebc2e9396f19",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 24,
+      "endOffset": 57
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2a430ac9-4566-4466-8030-9889ad9d27ed",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:packages/shared-data/index.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 40,
+    "hash": "fc7ac772a0ed89017c75bec27ef9c666",
+    "textRange": {
+      "startLine": 40,
+      "endLine": 40,
+      "startOffset": 19,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "031a5499-5582-4016-8de0-9ab268a0def4",
+    "rule": "javascript:S7763",
+    "severity": "MINOR",
+    "component": "notum-cz__strapi-next-monorepo-starter:prettier.config.mjs",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 7,
+    "hash": "04f4e07777109657c5d67239d8a2bd0f",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 0,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `export…from` to re-export `default`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7075f719-d672-4646-95a6-0303c26bebe0",
+    "rule": "typescript:S2004",
+    "severity": "CRITICAL",
+    "component": "notum-cz__strapi-next-monorepo-starter:qa/tests/playwright/seo/seo.spec.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 173,
+    "hash": "ff053df7dd45ad0ac900fb95874d71e8",
+    "textRange": {
+      "startLine": 173,
+      "endLine": 173,
+      "startOffset": 24,
+      "endOffset": 26
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "notum-cz__strapi-next-monorepo-starter:qa/tests/playwright/seo/seo.spec.ts",
+            "textRange": {
+              "startLine": 58,
+              "endLine": 58,
+              "startOffset": 44,
+              "endOffset": 46
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "notum-cz__strapi-next-monorepo-starter:qa/tests/playwright/seo/seo.spec.ts",
+            "textRange": {
+              "startLine": 166,
+              "endLine": 166,
+              "startOffset": 38,
+              "endOffset": 40
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "notum-cz__strapi-next-monorepo-starter:qa/tests/playwright/seo/seo.spec.ts",
+            "textRange": {
+              "startLine": 167,
+              "endLine": 167,
+              "startOffset": 73,
+              "endOffset": 75
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "notum-cz__strapi-next-monorepo-starter:qa/tests/playwright/seo/seo.spec.ts",
+            "textRange": {
+              "startLine": 172,
+              "endLine": 172,
+              "startOffset": 58,
+              "endOffset": 60
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this code to not nest functions more than 4 levels deep.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4dfd25b8-a34f-4cc8-8526-a69a483d1eaf",
+    "rule": "typescript:S2004",
+    "severity": "CRITICAL",
+    "component": "notum-cz__strapi-next-monorepo-starter:qa/tests/playwright/seo/seo.spec.ts",
+    "project": "notum-cz__strapi-next-monorepo-starter",
+    "line": 453,
+    "hash": "bd591844efe5def0dd95e7302bed7d44",
+    "textRange": {
+      "startLine": 453,
+      "endLine": 453,
+      "startOffset": 24,
+      "endOffset": 26
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "notum-cz__strapi-next-monorepo-starter:qa/tests/playwright/seo/seo.spec.ts",
+            "textRange": {
+              "startLine": 58,
+              "endLine": 58,
+              "startOffset": 44,
+              "endOffset": 46
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "notum-cz__strapi-next-monorepo-starter:qa/tests/playwright/seo/seo.spec.ts",
+            "textRange": {
+              "startLine": 437,
+              "endLine": 437,
+              "startOffset": 33,
+              "endOffset": 35
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "notum-cz__strapi-next-monorepo-starter:qa/tests/playwright/seo/seo.spec.ts",
+            "textRange": {
+              "startLine": 438,
+              "endLine": 438,
+              "startOffset": 72,
+              "endOffset": 74
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "notum-cz__strapi-next-monorepo-starter:qa/tests/playwright/seo/seo.spec.ts",
+            "textRange": {
+              "startLine": 452,
+              "endLine": 452,
+              "startOffset": 61,
+              "endOffset": 63
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this code to not nest functions more than 4 levels deep.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-16T22:45:09+0000",
+    "updateDate": "2026-07-16T22:45:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

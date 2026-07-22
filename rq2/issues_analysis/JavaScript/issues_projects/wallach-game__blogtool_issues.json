@@ -1,0 +1,178 @@
+[
+  {
+    "key": "862d0633-5e0d-44d8-b8e2-2eb7705d116e",
+    "rule": "Web:S5254",
+    "severity": "MAJOR",
+    "component": "wallach-game__blogtool:temp_repos/blogTool/public/index.html",
+    "project": "wallach-game__blogtool",
+    "line": 2,
+    "hash": "166248a6129a1e4370d20adc2d4c23f3",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"<html>\" element",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-20T20:50:26+0000",
+    "updateDate": "2026-07-20T20:50:26+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "279dcfbb-1214-4ff4-9a8b-3a6f15f70ace",
+    "rule": "typescript:S1186",
+    "severity": "CRITICAL",
+    "component": "wallach-game__blogtool:temp_repos/blogTool/src/Router.ts",
+    "project": "wallach-game__blogtool",
+    "line": 3,
+    "hash": "978b9295d97945a12c71f8e71c3a6ca2",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 4,
+      "startOffset": 20,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected empty method 'LoadRoute'.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T20:50:26+0000",
+    "updateDate": "2026-07-20T20:50:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a77fff30-6801-4e4e-a744-4ae2b13dc16d",
+    "rule": "typescript:S3504",
+    "severity": "CRITICAL",
+    "component": "wallach-game__blogtool:temp_repos/blogTool/src/index.ts",
+    "project": "wallach-game__blogtool",
+    "line": 3,
+    "hash": "2cb10e9fa97c9e8c5c687d5a3ba1df55",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 0,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected var, use let or const instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-20T20:50:26+0000",
+    "updateDate": "2026-07-20T20:50:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cfaeb654-c37d-43c4-ad0c-572eca0f3d50",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "wallach-game__blogtool:temp_repos/blogTool/webpack.config.js",
+    "project": "wallach-game__blogtool",
+    "line": 1,
+    "hash": "85968f5b9f570a82c65709eacc211a09",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 34,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-20T20:50:26+0000",
+    "updateDate": "2026-07-20T20:50:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

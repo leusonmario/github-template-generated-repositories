@@ -1,0 +1,529 @@
+[
+  {
+    "key": "160618d1-a9d1-4d81-b68c-b63eb1465a21",
+    "rule": "python:S1186",
+    "severity": "CRITICAL",
+    "component": "detective-stories__detective-stories:temp_repos/detective-stories/django_persistence/persistence.py",
+    "project": "detective-stories__detective-stories",
+    "line": 148,
+    "hash": "eaffe05c0aed6dac36388e82f344eb16",
+    "textRange": {
+      "startLine": 148,
+      "endLine": 148,
+      "startOffset": 14,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a nested comment explaining why this method is empty, or complete the implementation.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T21:27:47+0000",
+    "updateDate": "2026-07-17T21:27:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0148467c-b2e4-4367-b7f6-d2e5512d63f7",
+    "rule": "secrets:S6687",
+    "severity": "BLOCKER",
+    "component": "detective-stories__detective-stories:temp_repos/detective-stories/dtb/settings.py",
+    "project": "detective-stories__detective-stories",
+    "line": 21,
+    "hash": "70ed7e6d62dfd67bb741a554533faa62",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 5,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make sure this Django key gets revoked, changed, and removed from the code.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T21:27:47+0000",
+    "updateDate": "2026-07-17T21:27:47+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "da92d97f-e63e-40cd-a42f-6ff74144ad5d",
+    "rule": "python:S1066",
+    "severity": "MAJOR",
+    "component": "detective-stories__detective-stories:temp_repos/detective-stories/llm_helper/chat.py",
+    "project": "detective-stories__detective-stories",
+    "line": 51,
+    "hash": "5375024d15b0394e661ae36bacec697b",
+    "textRange": {
+      "startLine": 51,
+      "endLine": 51,
+      "startOffset": 16,
+      "endOffset": 18
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "detective-stories__detective-stories:temp_repos/detective-stories/llm_helper/chat.py",
+            "textRange": {
+              "startLine": 50,
+              "endLine": 50,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "enclosing",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this if statement with the enclosing one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "clumsy"
+    ],
+    "creationDate": "2026-07-17T21:27:47+0000",
+    "updateDate": "2026-07-17T21:27:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4905f533-6b4c-403e-8cb0-1de91ce4d153",
+    "rule": "python:S7493",
+    "severity": "MAJOR",
+    "component": "detective-stories__detective-stories:temp_repos/detective-stories/llm_helper/chat.py",
+    "project": "detective-stories__detective-stories",
+    "line": 186,
+    "hash": "02d8d9e93694e5939d4d9c45586f7e84",
+    "textRange": {
+      "startLine": 186,
+      "endLine": 186,
+      "startOffset": 13,
+      "endOffset": 29
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "detective-stories__detective-stories:temp_repos/detective-stories/llm_helper/chat.py",
+            "textRange": {
+              "startLine": 184,
+              "endLine": 184,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an asynchronous file API instead of synchronous open() in this async function.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-17T21:27:47+0000",
+    "updateDate": "2026-07-17T21:27:47+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "14180031-84f8-44e4-8546-dd7a7cf77ce9",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "detective-stories__detective-stories:temp_repos/detective-stories/run_polling.py",
+    "project": "detective-stories__detective-stories",
+    "line": 26,
+    "hash": "5c4c93a68cd58079ee986a9eebdaf18f",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 10,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T21:27:47+0000",
+    "updateDate": "2026-07-17T21:27:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a97b1adf-499a-4aad-8aac-6f6372a99239",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "detective-stories__detective-stories:temp_repos/detective-stories/stories/models.py",
+    "project": "detective-stories__detective-stories",
+    "line": 348,
+    "hash": "aca12b2cb4499f583407b3efdf8cdb2c",
+    "textRange": {
+      "startLine": 348,
+      "endLine": 348,
+      "startOffset": 18,
+      "endOffset": 69
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-17T21:27:47+0000",
+    "updateDate": "2026-07-17T21:27:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fd7159d1-887b-4064-87c7-083c99e4c071",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "detective-stories__detective-stories:temp_repos/detective-stories/tgbot/handlers/utils/python_update_timer.py",
+    "project": "detective-stories__detective-stories",
+    "line": 31,
+    "hash": "60fa60bb9e301f7f6132d8fae20cd4b5",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 14,
+      "endOffset": 18
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "detective-stories__detective-stories:temp_repos/detective-stories/tgbot/handlers/utils/python_update_timer.py",
+            "textRange": {
+              "startLine": 31,
+              "endLine": 31,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T21:27:47+0000",
+    "updateDate": "2026-07-17T21:27:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3a77c262-b93d-49cc-91fa-41d0fa2786db",
+    "rule": "python:S1186",
+    "severity": "CRITICAL",
+    "component": "detective-stories__detective-stories:temp_repos/detective-stories/tgbot/user_update_processor.py",
+    "project": "detective-stories__detective-stories",
+    "line": 27,
+    "hash": "8c9efb80f2b4a23add493ea7ca3e9b80",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 14,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a nested comment explaining why this method is empty, or complete the implementation.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T21:27:47+0000",
+    "updateDate": "2026-07-17T21:27:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e0155954-ddaf-4ec7-8120-4d991542f0c2",
+    "rule": "python:S1186",
+    "severity": "CRITICAL",
+    "component": "detective-stories__detective-stories:temp_repos/detective-stories/tgbot/user_update_processor.py",
+    "project": "detective-stories__detective-stories",
+    "line": 30,
+    "hash": "b24ccf4377998aaf3df27024ad6d3d13",
+    "textRange": {
+      "startLine": 30,
+      "endLine": 30,
+      "startOffset": 14,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a nested comment explaining why this method is empty, or complete the implementation.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T21:27:47+0000",
+    "updateDate": "2026-07-17T21:27:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a1ab3c95-34d8-4350-b589-9f6c4308d014",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "detective-stories__detective-stories:temp_repos/detective-stories/users/models.py",
+    "project": "detective-stories__detective-stories",
+    "line": 10,
+    "hash": "4aba6308f72c088bc9e3cd0b264cc362",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 0,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:27:47+0000",
+    "updateDate": "2026-07-17T21:27:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "32009129-a187-40d6-b2ac-ed2a8e358cf3",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "detective-stories__detective-stories:temp_repos/detective-stories/utils/models.py",
+    "project": "detective-stories__detective-stories",
+    "line": 5,
+    "hash": "921b919000dd37038f8be4af866c64e8",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 5,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:27:47+0000",
+    "updateDate": "2026-07-17T21:27:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]
