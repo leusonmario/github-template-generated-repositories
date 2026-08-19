@@ -43,7 +43,7 @@ EVOLUTION_LEVEL_ORDER = [
     "Not evolved",
     "Slightly evolved",
     "Moderately evolved",
-    "Highly evolved"
+    "Substantially evolved"
 ]
 
 
@@ -110,12 +110,12 @@ def classify_evolution_level(commit_count):
 
     if commit_count <= 1:
         return "Not evolved"
-    elif commit_count <= 5:
+    elif commit_count <= 6:
         return "Slightly evolved"
     elif commit_count <= 20:
         return "Moderately evolved"
     else:
-        return "Highly evolved"
+        return "Substantially evolved"
 
 
 def validate_columns(df, required_columns, csv_name):
@@ -405,12 +405,12 @@ def analyze_language(
             "not_evolved_count": level_count_map.get("Not evolved", 0),
             "slightly_evolved_count": level_count_map.get("Slightly evolved", 0),
             "moderately_evolved_count": level_count_map.get("Moderately evolved", 0),
-            "highly_evolved_count": level_count_map.get("Highly evolved", 0),
+            "highly_evolved_count": level_count_map.get("Substantially evolved", 0),
 
             "not_evolved_level_percentage": level_percentage_map.get("Not evolved", 0.0),
             "slightly_evolved_percentage": level_percentage_map.get("Slightly evolved", 0.0),
             "moderately_evolved_percentage": level_percentage_map.get("Moderately evolved", 0.0),
-            "highly_evolved_percentage": level_percentage_map.get("Highly evolved", 0.0),
+            "highly_evolved_percentage": level_percentage_map.get("Substantially evolved", 0.0),
 
             "median_commits": median_commits,
             "mean_commits": mean_commits,

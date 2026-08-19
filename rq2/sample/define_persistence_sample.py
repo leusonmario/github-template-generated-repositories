@@ -145,10 +145,10 @@ def stable_random_state(seed: int, *parts: str) -> int:
 
 def evolution_band(commit_count: float) -> str:
     """Classify a generated repository by degree of evolution."""
-    if commit_count <= 5:
-        return "low_2_to_5"
+    if commit_count <= 6:
+        return "low_2_to_6"
     if commit_count <= 20:
-        return "medium_6_to_20"
+        return "medium_7_to_20"
     return "high_21_plus"
 
 
@@ -524,8 +524,8 @@ def create_template_report(
 ) -> pd.DataFrame:
     """Produce one summary row per template family."""
     bands = [
-        "low_2_to_5",
-        "medium_6_to_20",
+        "low_2_to_6",
+        "medium_7_to_20",
         "high_21_plus",
     ]
 
@@ -854,8 +854,8 @@ def main() -> None:
             "maximum_per_template": args.max_per_template,
             "allocation": args.allocation,
             "evolution_bands": {
-                "low_2_to_5": "2-5 commits",
-                "medium_6_to_20": "6-20 commits",
+                "low_2_to_6": "2-6 commits",
+                "medium_7_to_20": "7-20 commits",
                 "high_21_plus": "21 or more commits",
             },
             "random_seed": args.seed,

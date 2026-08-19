@@ -1,0 +1,37 @@
+Formula: category_persistence_proportion ~ log2_commit_count + repository_age_years_fixed + C(owner_type, Treatment(reference="Organization")) + C(language, Treatment(reference="TypeScript")) + C(category, Treatment(reference="MAJOR"))
+Rows: 8340
+Source templates: 644
+Generated repositories: 3181
+Languages: 4
+Categories: 5
+References: {'owner_type': 'Organization', 'language': 'TypeScript', 'category': 'MAJOR'}
+Converged: True
+
+                                    GEE Regression Results                                    
+==============================================================================================
+Dep. Variable:        category_persistence_proportion   No. Observations:                 8340
+Model:                                            GEE   No. clusters:                      644
+Method:                                   Generalized   Min. cluster size:                   1
+                                 Estimating Equations   Max. cluster size:                 194
+Family:                                      Binomial   Mean cluster size:                13.0
+Dependence structure:                    Independence   Num. iterations:                     2
+Date:                                Wed, 19 Aug 2026   Scale:                           1.000
+Covariance type:                               robust   Time:                         12:41:19
+================================================================================================================================
+                                                                   coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                       -0.6475      0.553     -1.171      0.242      -1.731       0.436
+C(owner_type, Treatment(reference="Organization"))[T.User]      -0.6205      0.264     -2.347      0.019      -1.139      -0.102
+C(language, Treatment(reference="TypeScript"))[T.Java]          -1.3712      1.048     -1.308      0.191      -3.426       0.683
+C(language, Treatment(reference="TypeScript"))[T.JavaScript]     3.6411      0.442      8.232      0.000       2.774       4.508
+C(language, Treatment(reference="TypeScript"))[T.Python]         1.5552      0.318      4.888      0.000       0.932       2.179
+C(category, Treatment(reference="MAJOR"))[T.BLOCKER]             0.2895      0.309      0.937      0.349      -0.316       0.895
+C(category, Treatment(reference="MAJOR"))[T.CRITICAL]            0.9427      0.368      2.561      0.010       0.221       1.664
+C(category, Treatment(reference="MAJOR"))[T.INFO]                0.0581      0.325      0.179      0.858      -0.578       0.695
+C(category, Treatment(reference="MAJOR"))[T.MINOR]              -0.0267      0.189     -0.141      0.888      -0.397       0.344
+log2_commit_count                                                0.0101      0.069      0.146      0.884      -0.126       0.146
+repository_age_years_fixed                                      -0.0275      0.259     -0.106      0.915      -0.535       0.480
+==============================================================================
+Skew:                          0.1268   Kurtosis:                      -0.3919
+Centered skew:                 0.0541   Centered kurtosis:              0.4599
+==============================================================================
