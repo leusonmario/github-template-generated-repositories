@@ -1,0 +1,402 @@
+[
+  {
+    "key": "e59421f6-22e7-4ac7-8c02-3bb6c57a82e2",
+    "rule": "typescript:S4335",
+    "severity": "CRITICAL",
+    "component": "kurovskyiii__tg-bot-kurovskyi-events:temp_repos/tg-bot-kurovskyi-events/src/bot/common/context.ts",
+    "project": "kurovskyiii__tg-bot-kurovskyi-events",
+    "line": 14,
+    "hash": "7c32227c757e667d7ddfd9fea6c9b69e",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 15,
+      "startOffset": 46,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this type without members or change this type intersection.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-15T21:32:23+0000",
+    "updateDate": "2026-07-15T21:32:23+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a1c26749-3e9f-49c7-875c-27c2e37a5b46",
+    "rule": "typescript:S6627",
+    "severity": "MAJOR",
+    "component": "kurovskyiii__tg-bot-kurovskyi-events:temp_repos/tg-bot-kurovskyi-events/src/bot/db/db.ts",
+    "project": "kurovskyiii__tg-bot-kurovskyi-events",
+    "line": 9,
+    "hash": "c854a9e810381fd8e8fc738aab3e1fef",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 0,
+      "endOffset": 65
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use internal APIs of your dependencies",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "gradle",
+      "architecture"
+    ],
+    "creationDate": "2026-07-15T21:32:23+0000",
+    "updateDate": "2026-07-15T21:32:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b361b8e0-5683-4915-8906-5ac5ec54726c",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "kurovskyiii__tg-bot-kurovskyi-events:temp_repos/tg-bot-kurovskyi-events/src/bot/db/db.ts",
+    "project": "kurovskyiii__tg-bot-kurovskyi-events",
+    "line": 14,
+    "hash": "b8964b24609b451e79dc048c70030eca",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 2,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'db' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T21:32:23+0000",
+    "updateDate": "2026-07-15T21:32:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7a5db8d2-77e7-474a-8e55-4e66aed27491",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "kurovskyiii__tg-bot-kurovskyi-events:temp_repos/tg-bot-kurovskyi-events/src/bot/features/main.ts",
+    "project": "kurovskyiii__tg-bot-kurovskyi-events",
+    "line": 38,
+    "hash": "dda3c4f4d93fee976822b92dfcc09ac9",
+    "textRange": {
+      "startLine": 38,
+      "endLine": 38,
+      "startOffset": 16,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-15T21:32:23+0000",
+    "updateDate": "2026-07-15T21:32:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0c899eda-be21-4102-ab2f-eaf2dde4cedd",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "kurovskyiii__tg-bot-kurovskyi-events:temp_repos/tg-bot-kurovskyi-events/src/bot/features/main.ts",
+    "project": "kurovskyiii__tg-bot-kurovskyi-events",
+    "line": 79,
+    "hash": "dda3c4f4d93fee976822b92dfcc09ac9",
+    "textRange": {
+      "startLine": 79,
+      "endLine": 79,
+      "startOffset": 16,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-15T21:32:23+0000",
+    "updateDate": "2026-07-15T21:32:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "18f7894d-3d41-4389-ac43-2797e9839787",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "kurovskyiii__tg-bot-kurovskyi-events:temp_repos/tg-bot-kurovskyi-events/src/bot/scenes/events.ts",
+    "project": "kurovskyiii__tg-bot-kurovskyi-events",
+    "line": 84,
+    "hash": "dda3c4f4d93fee976822b92dfcc09ac9",
+    "textRange": {
+      "startLine": 84,
+      "endLine": 84,
+      "startOffset": 16,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-15T21:32:23+0000",
+    "updateDate": "2026-07-15T21:32:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5bf20923-035a-4a70-8293-0f1b8b643ab7",
+    "rule": "typescript:S7721",
+    "severity": "MAJOR",
+    "component": "kurovskyiii__tg-bot-kurovskyi-events:temp_repos/tg-bot-kurovskyi-events/src/config.ts",
+    "project": "kurovskyiii__tg-bot-kurovskyi-events",
+    "line": 67,
+    "hash": "e7cf9d41e34e5c9073529b2638bc3594",
+    "textRange": {
+      "startLine": 67,
+      "endLine": 67,
+      "startOffset": 2,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move function 'toCamelCase' to the outer scope.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "optimization",
+      "javascript"
+    ],
+    "creationDate": "2026-07-15T21:32:23+0000",
+    "updateDate": "2026-07-15T21:32:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e1ade3d7-5ad3-48d3-a72e-bb47d6d34392",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "kurovskyiii__tg-bot-kurovskyi-events:temp_repos/tg-bot-kurovskyi-events/src/config.ts",
+    "project": "kurovskyiii__tg-bot-kurovskyi-events",
+    "line": 68,
+    "hash": "ce07d6089d8f447a60f021a83009eb09",
+    "textRange": {
+      "startLine": 68,
+      "endLine": 68,
+      "startOffset": 29,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-15T21:32:23+0000",
+    "updateDate": "2026-07-15T21:32:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e20ec6b5-cdb5-4b4a-8f34-3aac6b492eaf",
+    "rule": "typescript:S6653",
+    "severity": "MINOR",
+    "component": "kurovskyiii__tg-bot-kurovskyi-events:temp_repos/tg-bot-kurovskyi-events/src/config.ts",
+    "project": "kurovskyiii__tg-bot-kurovskyi-events",
+    "line": 74,
+    "hash": "f0c8a36a8070436c37f28200fd64463d",
+    "textRange": {
+      "startLine": 74,
+      "endLine": 74,
+      "startOffset": 10,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use 'Object.hasOwn()' instead of 'Object.prototype.hasOwnProperty.call()'.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "es2022"
+    ],
+    "creationDate": "2026-07-15T21:32:23+0000",
+    "updateDate": "2026-07-15T21:32:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

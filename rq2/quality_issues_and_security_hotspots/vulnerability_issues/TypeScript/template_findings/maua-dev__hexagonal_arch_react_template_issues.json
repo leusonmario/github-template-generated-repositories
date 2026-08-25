@@ -1,0 +1,581 @@
+[
+  {
+    "key": "5855947f-dd2c-4f79-adf3-e1134e2c587f",
+    "rule": "typescript:S6749",
+    "severity": "MINOR",
+    "component": "maua-dev__hexagonal_arch_react_template:src/app/app.tsx",
+    "project": "maua-dev__hexagonal_arch_react_template",
+    "line": 6,
+    "hash": "38559c871fba28d992ead51549367f83",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 13,
+      "startOffset": 4,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A fragment with only one child is redundant.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:30:41+0000",
+    "updateDate": "2026-07-16T22:30:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "38abe4bc-44f3-4053-a619-599f0da7a051",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "maua-dev__hexagonal_arch_react_template:src/app/components/user-card.tsx",
+    "project": "maua-dev__hexagonal_arch_react_template",
+    "line": 8,
+    "hash": "e7d245b68a43ae4f5da1eb085d9843c2",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 25,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:30:41+0000",
+    "updateDate": "2026-07-16T22:30:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "47b42d36-4c39-4b67-b042-e332c9a9b922",
+    "rule": "typescript:S6848",
+    "severity": "MAJOR",
+    "component": "maua-dev__hexagonal_arch_react_template:src/app/components/user-card.tsx",
+    "project": "maua-dev__hexagonal_arch_react_template",
+    "line": 17,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 20,
+      "startOffset": 4,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:30:41+0000",
+    "updateDate": "2026-07-16T22:30:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "efbbec87-a736-45a8-95c1-d1a526bc60d1",
+    "rule": "typescript:S1082",
+    "severity": "MINOR",
+    "component": "maua-dev__hexagonal_arch_react_template:src/app/components/user-card.tsx",
+    "project": "maua-dev__hexagonal_arch_react_template",
+    "line": 17,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 20,
+      "startOffset": 4,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Visible, non-interactive elements with click handlers must have at least one keyboard listener.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:30:41+0000",
+    "updateDate": "2026-07-16T22:30:41+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9d9dbd6e-f9d0-45aa-91be-826a59d4b8de",
+    "rule": "typescript:S6481",
+    "severity": "MAJOR",
+    "component": "maua-dev__hexagonal_arch_react_template:src/app/contexts/user-context.tsx",
+    "project": "maua-dev__hexagonal_arch_react_template",
+    "line": 18,
+    "hash": "8ea7d709ed65386090797874cd88e5be",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 33,
+      "endOffset": 67
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The object passed as the value prop to the Context provider changes every render. To fix this consider wrapping it in a useMemo hook.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T22:30:41+0000",
+    "updateDate": "2026-07-16T22:30:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "685414c6-8696-4e8e-8f1a-7ba4f52ff6b7",
+    "rule": "typescript:S7746",
+    "severity": "MAJOR",
+    "component": "maua-dev__hexagonal_arch_react_template:src/infrastructure/http/api.ts",
+    "project": "maua-dev__hexagonal_arch_react_template",
+    "line": 17,
+    "hash": "3045bcba53db5b87e8557026743f967e",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 17,
+      "startOffset": 11,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `throw error` over `return Promise.reject(error)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "promise",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T22:30:41+0000",
+    "updateDate": "2026-07-16T22:30:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "08aba46c-9350-4dee-b90b-83b672fcbcfa",
+    "rule": "typescript:S6551",
+    "severity": "MINOR",
+    "component": "maua-dev__hexagonal_arch_react_template:src/infrastructure/repositories/http/user-repository-http.ts",
+    "project": "maua-dev__hexagonal_arch_react_template",
+    "line": 31,
+    "hash": "5c5ab7aa7816bd5bf529737dfccac943",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 49,
+      "endOffset": 53
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'user' will use Object's default stringification format ('[object Object]') when stringified.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "string",
+      "type-dependent",
+      "object"
+    ],
+    "creationDate": "2026-07-16T22:30:41+0000",
+    "updateDate": "2026-07-16T22:30:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "81ad2503-74b8-4968-8ef5-e1327e45cb34",
+    "rule": "typescript:S7754",
+    "severity": "MINOR",
+    "component": "maua-dev__hexagonal_arch_react_template:src/infrastructure/repositories/mock/user-repository-mock.ts",
+    "project": "maua-dev__hexagonal_arch_react_template",
+    "line": 63,
+    "hash": "67eec9b90123555a7367a86eef9621e3",
+    "textRange": {
+      "startLine": 63,
+      "endLine": 63,
+      "startOffset": 19,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `.some(…)` over `.find(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T22:30:41+0000",
+    "updateDate": "2026-07-16T22:30:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7db433d0-e9b9-485f-b399-b8c2d16e5c45",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "maua-dev__hexagonal_arch_react_template:src/services/user-service.ts",
+    "project": "maua-dev__hexagonal_arch_react_template",
+    "line": 9,
+    "hash": "3ed46adaae353be3ce34a5c99b44a106",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 2,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'getUserListUseCase' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T22:30:41+0000",
+    "updateDate": "2026-07-16T22:30:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bb93d887-9a14-4b26-ba5b-ab2d3dff3ae0",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "maua-dev__hexagonal_arch_react_template:src/services/user-service.ts",
+    "project": "maua-dev__hexagonal_arch_react_template",
+    "line": 10,
+    "hash": "b89336d3312ceaaf9bf3e86f4ff9eefe",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 2,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'getUserUseCase' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T22:30:41+0000",
+    "updateDate": "2026-07-16T22:30:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "57c7d6e2-77c6-43ef-a803-ecdc4fb71a57",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "maua-dev__hexagonal_arch_react_template:src/services/user-service.ts",
+    "project": "maua-dev__hexagonal_arch_react_template",
+    "line": 11,
+    "hash": "2c859c0a6d1d45ee510bb75cfeca256c",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 2,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'createUserUseCase' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T22:30:41+0000",
+    "updateDate": "2026-07-16T22:30:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "35860852-e870-431d-94e9-5fda99d78419",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "maua-dev__hexagonal_arch_react_template:src/services/user-service.ts",
+    "project": "maua-dev__hexagonal_arch_react_template",
+    "line": 12,
+    "hash": "1880c5dc12d49ba71c2664d2a0c83807",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 2,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'deleteUserUseCase' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T22:30:41+0000",
+    "updateDate": "2026-07-16T22:30:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "25aeed7a-313c-47fe-9f46-630d175deac2",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "maua-dev__hexagonal_arch_react_template:vite.config.ts",
+    "project": "maua-dev__hexagonal_arch_react_template",
+    "line": 3,
+    "hash": "86d5e1b4b9e37b9f521e62e76cad3435",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 17,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T22:30:41+0000",
+    "updateDate": "2026-07-16T22:30:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

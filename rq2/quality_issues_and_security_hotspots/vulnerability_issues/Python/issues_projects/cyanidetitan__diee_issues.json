@@ -1,0 +1,1435 @@
+[
+  {
+    "key": "c364b8ac-d252-4468-9c26-2316c74baebd",
+    "rule": "python:S7494",
+    "severity": "MINOR",
+    "component": "cyanidetitan__diee:temp_repos/diee/config.py",
+    "project": "cyanidetitan__diee",
+    "line": 7,
+    "hash": "fe186f597f887aaf272637ae2939c33a",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 13,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace set constructor call with a set comprehension.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "230e92a1-2e85-45aa-a1c6-58841b2a5cb2",
+    "rule": "secrets:S6694",
+    "severity": "BLOCKER",
+    "component": "cyanidetitan__diee:temp_repos/diee/config.py",
+    "project": "cyanidetitan__diee",
+    "line": 8,
+    "hash": "fc3990ed9767bbc7981e4acc1989e629",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 54,
+      "endOffset": 60
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make sure this MongoDB database password gets changed and removed from the code.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c04115ad-8cca-495f-a9e1-0d2cbc40edd6",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "cyanidetitan__diee:temp_repos/diee/handlers/broadcast.py",
+    "project": "cyanidetitan__diee",
+    "line": 46,
+    "hash": "cc09dafc251fbfbcefb260c84a774735",
+    "textRange": {
+      "startLine": 46,
+      "endLine": 46,
+      "startOffset": 10,
+      "endOffset": 19
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "cyanidetitan__diee:temp_repos/diee/handlers/broadcast.py",
+            "textRange": {
+              "startLine": 49,
+              "endLine": 49,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cyanidetitan__diee:temp_repos/diee/handlers/broadcast.py",
+            "textRange": {
+              "startLine": 51,
+              "endLine": 51,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cyanidetitan__diee:temp_repos/diee/handlers/broadcast.py",
+            "textRange": {
+              "startLine": 65,
+              "endLine": 65,
+              "startOffset": 14,
+              "endOffset": 17
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cyanidetitan__diee:temp_repos/diee/handlers/broadcast.py",
+            "textRange": {
+              "startLine": 67,
+              "endLine": 67,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cyanidetitan__diee:temp_repos/diee/handlers/broadcast.py",
+            "textRange": {
+              "startLine": 69,
+              "endLine": 69,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cyanidetitan__diee:temp_repos/diee/handlers/broadcast.py",
+            "textRange": {
+              "startLine": 71,
+              "endLine": 71,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cyanidetitan__diee:temp_repos/diee/handlers/broadcast.py",
+            "textRange": {
+              "startLine": 73,
+              "endLine": 73,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cyanidetitan__diee:temp_repos/diee/handlers/broadcast.py",
+            "textRange": {
+              "startLine": 76,
+              "endLine": 76,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cyanidetitan__diee:temp_repos/diee/handlers/broadcast.py",
+            "textRange": {
+              "startLine": 78,
+              "endLine": 78,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cyanidetitan__diee:temp_repos/diee/handlers/broadcast.py",
+            "textRange": {
+              "startLine": 82,
+              "endLine": 82,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cyanidetitan__diee:temp_repos/diee/handlers/broadcast.py",
+            "textRange": {
+              "startLine": 87,
+              "endLine": 87,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cyanidetitan__diee:temp_repos/diee/handlers/broadcast.py",
+            "textRange": {
+              "startLine": 92,
+              "endLine": 92,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.",
+    "effort": "7min",
+    "debt": "7min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f8dbf3b7-d92b-4a46-8eec-cec56f238f00",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "cyanidetitan__diee:temp_repos/diee/handlers/broadcast.py",
+    "project": "cyanidetitan__diee",
+    "line": 50,
+    "hash": "870f94cb81eebf5c9579085a5a1e467f",
+    "textRange": {
+      "startLine": 50,
+      "endLine": 50,
+      "startOffset": 72,
+      "endOffset": 73
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused loop index \"i\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "57cce08d-ba13-43c6-9916-51a2b9591479",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "cyanidetitan__diee:temp_repos/diee/handlers/broadcast.py",
+    "project": "cyanidetitan__diee",
+    "line": 54,
+    "hash": "892488fc5a62c0040a8d9396952e0bc0",
+    "textRange": {
+      "startLine": 54,
+      "endLine": 54,
+      "startOffset": 13,
+      "endOffset": 102
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a5aa521a-32e5-4564-a48f-bc1ba6d476f6",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "cyanidetitan__diee:temp_repos/diee/handlers/broadcast.py",
+    "project": "cyanidetitan__diee",
+    "line": 61,
+    "hash": "4bed34d7ef749cc55f394fafeea5d010",
+    "textRange": {
+      "startLine": 61,
+      "endLine": 61,
+      "startOffset": 34,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8f3cbf2b-4e2a-4422-b269-f71ddd72cab1",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "cyanidetitan__diee:temp_repos/diee/handlers/broadcast.py",
+    "project": "cyanidetitan__diee",
+    "line": 64,
+    "hash": "c8e701dcf59f4c536fe46ebe85d3cfd1",
+    "textRange": {
+      "startLine": 64,
+      "endLine": 64,
+      "startOffset": 29,
+      "endOffset": 44
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "cyanidetitan__diee:temp_repos/diee/handlers/broadcast.py",
+            "textRange": {
+              "startLine": 94,
+              "endLine": 94,
+              "startOffset": 21,
+              "endOffset": 36
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cyanidetitan__diee:temp_repos/diee/handlers/broadcast.py",
+            "textRange": {
+              "startLine": 98,
+              "endLine": 98,
+              "startOffset": 14,
+              "endOffset": 29
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"broadcast.txt\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "066492da-9db9-4015-9e05-4b2461500041",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "cyanidetitan__diee:temp_repos/diee/handlers/broadcast.py",
+    "project": "cyanidetitan__diee",
+    "line": 80,
+    "hash": "3ab2005b0e23b330171693efe99d60a5",
+    "textRange": {
+      "startLine": 80,
+      "endLine": 80,
+      "startOffset": 20,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2d547109-8e56-4e36-a63c-399e7b296431",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "cyanidetitan__diee:temp_repos/diee/handlers/database.py",
+    "project": "cyanidetitan__diee",
+    "line": 15,
+    "hash": "237e3b6da3ce41e05da68d73543052c3",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1c5b1119-d533-4a9f-b8c3-0a967e3c2a47",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "cyanidetitan__diee:temp_repos/diee/handlers/database.py",
+    "project": "cyanidetitan__diee",
+    "line": 19,
+    "hash": "9fdd76bfecf964c08fd053c8ca5cec7d",
+    "textRange": {
+      "startLine": 19,
+      "endLine": 19,
+      "startOffset": 23,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "82217cdb-2805-4b49-bd27-7acfc34d4c76",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "cyanidetitan__diee:temp_repos/diee/handlers/database.py",
+    "project": "cyanidetitan__diee",
+    "line": 39,
+    "hash": "76d10cf9354eed12ed6228ed159764e9",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 39,
+      "startOffset": 14,
+      "endOffset": 27
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "cyanidetitan__diee:temp_repos/diee/handlers/database.py",
+            "textRange": {
+              "startLine": 39,
+              "endLine": 39,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c32d7240-750e-463c-9e28-341a05d54ade",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "cyanidetitan__diee:temp_repos/diee/handlers/database.py",
+    "project": "cyanidetitan__diee",
+    "line": 47,
+    "hash": "9fdd76bfecf964c08fd053c8ca5cec7d",
+    "textRange": {
+      "startLine": 47,
+      "endLine": 47,
+      "startOffset": 21,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "abdd2375-9827-4eae-8614-0ef2ca422085",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "cyanidetitan__diee:temp_repos/diee/handlers/database.py",
+    "project": "cyanidetitan__diee",
+    "line": 56,
+    "hash": "9fdd76bfecf964c08fd053c8ca5cec7d",
+    "textRange": {
+      "startLine": 56,
+      "endLine": 56,
+      "startOffset": 21,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7dbc0483-44f5-49d5-83a7-e121bc1cd70c",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "cyanidetitan__diee:temp_repos/diee/handlers/database.py",
+    "project": "cyanidetitan__diee",
+    "line": 65,
+    "hash": "5ea2cb212cdc50bf3077d138d6f3a771",
+    "textRange": {
+      "startLine": 65,
+      "endLine": 65,
+      "startOffset": 18,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d8252e88-ed65-4c3c-8634-fdc9c90b6631",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "cyanidetitan__diee:temp_repos/diee/handlers/database.py",
+    "project": "cyanidetitan__diee",
+    "line": 74,
+    "hash": "ec2c1ba4aabb8df98ba0711294ef26e1",
+    "textRange": {
+      "startLine": 74,
+      "endLine": 74,
+      "startOffset": 14,
+      "endOffset": 34
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "cyanidetitan__diee:temp_repos/diee/handlers/database.py",
+            "textRange": {
+              "startLine": 74,
+              "endLine": 74,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2bc7bd5c-29d2-4f11-ad38-2b6259e52a61",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "cyanidetitan__diee:temp_repos/diee/handlers/database.py",
+    "project": "cyanidetitan__diee",
+    "line": 85,
+    "hash": "387fcf6345f203232c962d5b2bc17e63",
+    "textRange": {
+      "startLine": 85,
+      "endLine": 85,
+      "startOffset": 14,
+      "endOffset": 32
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "cyanidetitan__diee:temp_repos/diee/handlers/database.py",
+            "textRange": {
+              "startLine": 85,
+              "endLine": 85,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2680ed3f-324c-400e-9bf6-a7844f316593",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "cyanidetitan__diee:temp_repos/diee/main.py",
+    "project": "cyanidetitan__diee",
+    "line": 48,
+    "hash": "0cf320051c33d266bfb4d3b395b5029f",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 4,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"joinButton\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0c017943-ad51-46bb-a639-fa3962645449",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "cyanidetitan__diee:temp_repos/diee/main.py",
+    "project": "cyanidetitan__diee",
+    "line": 111,
+    "hash": "5f2c2c09cdc3960a5aa4fac5fa5cc168",
+    "textRange": {
+      "startLine": 111,
+      "endLine": 111,
+      "startOffset": 12,
+      "endOffset": 256
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b4687a5e-c064-4b79-a0de-ce06547d6c6f",
+    "rule": "python:S5754",
+    "severity": "CRITICAL",
+    "component": "cyanidetitan__diee:temp_repos/diee/main.py",
+    "project": "cyanidetitan__diee",
+    "line": 128,
+    "hash": "aa81c390da816a9a2839639ea7a36af4",
+    "textRange": {
+      "startLine": 128,
+      "endLine": 128,
+      "startOffset": 15,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Catch a more specific exception or reraise the exception",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "bad-practice",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "01df59bb-fab8-4d81-b565-ad3cef279eae",
+    "rule": "python:S5754",
+    "severity": "CRITICAL",
+    "component": "cyanidetitan__diee:temp_repos/diee/main.py",
+    "project": "cyanidetitan__diee",
+    "line": 136,
+    "hash": "aa81c390da816a9a2839639ea7a36af4",
+    "textRange": {
+      "startLine": 136,
+      "endLine": 136,
+      "startOffset": 11,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Catch a more specific exception or reraise the exception",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "bad-practice",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "16f4db8a-9389-4025-9753-8f49e0c27418",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "cyanidetitan__diee:temp_repos/diee/main.py",
+    "project": "cyanidetitan__diee",
+    "line": 151,
+    "hash": "18064c0b62b137f4c3b82ee8beaafa6a",
+    "textRange": {
+      "startLine": 151,
+      "endLine": 151,
+      "startOffset": 12,
+      "endOffset": 159
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "72e13489-908e-449b-ae9e-0495c514d184",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "cyanidetitan__diee:temp_repos/diee/main.py",
+    "project": "cyanidetitan__diee",
+    "line": 161,
+    "hash": "8bf553db5c529fe215348ccc4dc7b3e1",
+    "textRange": {
+      "startLine": 161,
+      "endLine": 161,
+      "startOffset": 42,
+      "endOffset": 65
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ad7ccc25-f518-4492-a5d6-4519705d7f45",
+    "rule": "python:S5754",
+    "severity": "CRITICAL",
+    "component": "cyanidetitan__diee:temp_repos/diee/main.py",
+    "project": "cyanidetitan__diee",
+    "line": 163,
+    "hash": "aa81c390da816a9a2839639ea7a36af4",
+    "textRange": {
+      "startLine": 163,
+      "endLine": 163,
+      "startOffset": 15,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Catch a more specific exception or reraise the exception",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "bad-practice",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fbaaca1f-04f2-4fe3-897e-0cafca934502",
+    "rule": "python:S5754",
+    "severity": "CRITICAL",
+    "component": "cyanidetitan__diee:temp_repos/diee/main.py",
+    "project": "cyanidetitan__diee",
+    "line": 171,
+    "hash": "aa81c390da816a9a2839639ea7a36af4",
+    "textRange": {
+      "startLine": 171,
+      "endLine": 171,
+      "startOffset": 11,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Catch a more specific exception or reraise the exception",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "bad-practice",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8e3c4f4e-1acf-445d-847d-65643b488955",
+    "rule": "python:S7493",
+    "severity": "MAJOR",
+    "component": "cyanidetitan__diee:temp_repos/diee/main.py",
+    "project": "cyanidetitan__diee",
+    "line": 196,
+    "hash": "412947d23cd93d2d5e615df4f025b822",
+    "textRange": {
+      "startLine": 196,
+      "endLine": 196,
+      "startOffset": 13,
+      "endOffset": 42
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "cyanidetitan__diee:temp_repos/diee/main.py",
+            "textRange": {
+              "startLine": 180,
+              "endLine": 180,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an asynchronous file API instead of synchronous open() in this async function.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9b14e5b6-7bd7-4aff-a801-d620b9fc521d",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "cyanidetitan__diee:temp_repos/diee/main.py",
+    "project": "cyanidetitan__diee",
+    "line": 196,
+    "hash": "412947d23cd93d2d5e615df4f025b822",
+    "textRange": {
+      "startLine": 196,
+      "endLine": 196,
+      "startOffset": 18,
+      "endOffset": 36
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "cyanidetitan__diee:temp_repos/diee/main.py",
+            "textRange": {
+              "startLine": 198,
+              "endLine": 198,
+              "startOffset": 31,
+              "endOffset": 49
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cyanidetitan__diee:temp_repos/diee/main.py",
+            "textRange": {
+              "startLine": 199,
+              "endLine": 199,
+              "startOffset": 18,
+              "endOffset": 36
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"banned-users.txt\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T21:18:11+0000",
+    "updateDate": "2026-07-17T21:18:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

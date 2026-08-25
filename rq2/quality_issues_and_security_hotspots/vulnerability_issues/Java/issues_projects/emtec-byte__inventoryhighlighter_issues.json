@@ -1,0 +1,132 @@
+[
+  {
+    "key": "8e97de31-379f-47fc-ae22-b762f7c2c374",
+    "rule": "java:S115",
+    "severity": "CRITICAL",
+    "component": "emtec-byte__inventoryhighlighter:src/main/java/com/inventoryhighlighter/InventoryHighlighterConfig.java",
+    "project": "emtec-byte__inventoryhighlighter",
+    "line": 26,
+    "hash": "4f695730f02abb6ac7a5b27c21a12abe",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 11,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:01:26+0000",
+    "updateDate": "2026-07-21T22:01:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "69c490f0-af95-4819-b0d4-77de08c4dfb0",
+    "rule": "java:S3358",
+    "severity": "MAJOR",
+    "component": "emtec-byte__inventoryhighlighter:src/main/java/com/inventoryhighlighter/InventoryHighlighterPlugin.java",
+    "project": "emtec-byte__inventoryhighlighter",
+    "line": 241,
+    "hash": "4c21e85ec4a853ad9c761997dd5d4df8",
+    "textRange": {
+      "startLine": 241,
+      "endLine": 242,
+      "startOffset": 14,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-21T22:01:26+0000",
+    "updateDate": "2026-07-21T22:01:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3a6e35b4-ec88-4fb2-875a-7f229c1cecd0",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "emtec-byte__inventoryhighlighter:src/test/java/com/inventoryhighlighter/InventoryHighlighterTest.java",
+    "project": "emtec-byte__inventoryhighlighter",
+    "line": 18,
+    "hash": "fc000cf6b66b1f806bc6d6ab89966933",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 12,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.err by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:01:26+0000",
+    "updateDate": "2026-07-21T22:01:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

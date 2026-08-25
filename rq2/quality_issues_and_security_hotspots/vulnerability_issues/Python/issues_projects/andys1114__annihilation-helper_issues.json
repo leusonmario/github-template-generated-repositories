@@ -1,0 +1,76 @@
+[
+  {
+    "key": "d52ae59a-2e78-4f0e-bc02-3d9a09aa4a18",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "andys1114__annihilation-helper:temp_repos/Annihilation-helper/install.py",
+    "project": "andys1114__annihilation-helper",
+    "line": 49,
+    "hash": "0ecbf22bec65fef3af0bd24ecb416d32",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 49,
+      "startOffset": 33,
+      "endOffset": 49
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "andys1114__annihilation-helper:temp_repos/Annihilation-helper/install.py",
+            "textRange": {
+              "startLine": 53,
+              "endLine": 53,
+              "startOffset": 29,
+              "endOffset": 45
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "andys1114__annihilation-helper:temp_repos/Annihilation-helper/install.py",
+            "textRange": {
+              "startLine": 58,
+              "endLine": 58,
+              "startOffset": 29,
+              "endOffset": 45
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"interface.json\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:49:28+0000",
+    "updateDate": "2026-07-17T20:49:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

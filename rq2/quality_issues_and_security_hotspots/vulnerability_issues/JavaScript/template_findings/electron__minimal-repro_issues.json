@@ -1,0 +1,135 @@
+[
+  {
+    "key": "ff1034ef-4b74-41b0-82f4-3a64e14ab88e",
+    "rule": "Web:S5254",
+    "severity": "MAJOR",
+    "component": "electron__minimal-repro:index.html",
+    "project": "electron__minimal-repro",
+    "line": 2,
+    "hash": "166248a6129a1e4370d20adc2d4c23f3",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"<html>\" element",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-21T13:44:10+0000",
+    "updateDate": "2026-07-21T13:44:10+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "19d31fdc-268b-4016-b750-8a1bb4669501",
+    "rule": "javascript:S7785",
+    "severity": "MAJOR",
+    "component": "electron__minimal-repro:main.js",
+    "project": "electron__minimal-repro",
+    "line": 25,
+    "hash": "13d5370ee1cd782883004e0a9a4cad81",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 16,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over using a promise chain.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-07-21T13:44:10+0000",
+    "updateDate": "2026-07-21T13:44:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e818c5fb-4a25-48c2-8b63-5d93d94ff000",
+    "rule": "javascript:S7764",
+    "severity": "MINOR",
+    "component": "electron__minimal-repro:preload.js",
+    "project": "electron__minimal-repro",
+    "line": 9,
+    "hash": "2bd79fa7d7221abfe775563f68ab71fe",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-21T13:44:10+0000",
+    "updateDate": "2026-07-21T13:44:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

@@ -1,0 +1,2473 @@
+[
+  {
+    "key": "0639d3f3-e78a-4aa2-bc6b-a728339cdef2",
+    "rule": "docker:S6596",
+    "severity": "MAJOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/Dockerfile",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 1,
+    "hash": "a6156589cb6b486a19ae780b2837d717",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 5,
+      "endOffset": 53
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use a specific version tag for the image.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a4ce043e-6887-463a-9c11-d4ab171cb1e8",
+    "rule": "docker:S7029",
+    "severity": "MAJOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/Dockerfile",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 6,
+    "hash": "99303e1c8bbc5586a2f5b4e73da732aa",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 0,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this ADD instruction with a COPY instruction.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4baa68aa-4d3d-4edd-a5b2-766269024fad",
+    "rule": "docker:S6596",
+    "severity": "MAJOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/Dockerfile",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 10,
+    "hash": "6469a62b18f7d67c957fa739a3c809b8",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 5,
+      "endOffset": 53
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use a specific version tag for the image.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9e8c38a4-bfaa-4e95-9254-1f7bec3a60f4",
+    "rule": "kubernetes:S6864",
+    "severity": "MAJOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/charts/openshift-console-plugin/templates/patch-consoles-job.yaml",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 27,
+    "hash": "40e458a3836bc68bf093966ef151a31e",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify a memory limit for this container.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d9333417-e64c-40f1-935d-1a1414a70ebb",
+    "rule": "kubernetes:S6897",
+    "severity": "MAJOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/charts/openshift-console-plugin/templates/patch-consoles-job.yaml",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 27,
+    "hash": "40e458a3836bc68bf093966ef151a31e",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify a storage request for this container.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "06cd9b37-b560-4e47-9da2-e7a9fdf610b8",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/i18n-scripts/common.js",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 1,
+    "hash": "44f9b15d3b1641faca5561b190d8261a",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 19,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7c0f1656-4334-47be-b048-6f31b359f6ca",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/i18n-scripts/common.js",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 2,
+    "hash": "85968f5b9f570a82c65709eacc211a09",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 21,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cbf70464-f524-4801-91b2-bde747c464d6",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/i18n-scripts/common.js",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 9,
+    "hash": "550051ee6b000602ffe414172dfff76d",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 12,
+      "startOffset": 6,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a3bb5ada-4831-4781-b581-7680dcfac313",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/i18n-scripts/lexers.js",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 1,
+    "hash": "96026fbbab9a544f3ada3acaff3a0a2a",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 29,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:events` over `events`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2f0e8f49-5c9e-4bd2-96dd-cbfc617fd95c",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/i18n-scripts/set-english-defaults.js",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 1,
+    "hash": "44f9b15d3b1641faca5561b190d8261a",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 19,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f5770fb3-3233-4629-ba3c-1503dd9de050",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/i18n-scripts/set-english-defaults.js",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 2,
+    "hash": "85968f5b9f570a82c65709eacc211a09",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 21,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5df42f6c-32dc-434c-a1da-50d6573440a3",
+    "rule": "javascript:S4138",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/i18n-scripts/set-english-defaults.js",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 29,
+    "hash": "869e1783869f34f952156de008c85896",
+    "textRange": {
+      "startLine": 29,
+      "endLine": 55,
+      "startOffset": 2,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Expected a `for-of` loop instead of a `for` loop with this simple iteration.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "clumsy"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1512797b-a61e-4df4-9c20-497c74375d98",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/integration-tests/tests/example-page.cy.ts",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 51,
+    "hash": "94332f2413ac9791552ad3275938ebe6",
+    "textRange": {
+      "startLine": 51,
+      "endLine": 51,
+      "startOffset": 8,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d4c81fba-e7a4-428c-bcd9-a46d295d46f7",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/integration-tests/tests/example-page.cy.ts",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 74,
+    "hash": "94332f2413ac9791552ad3275938ebe6",
+    "textRange": {
+      "startLine": 74,
+      "endLine": 74,
+      "startOffset": 8,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "25bdd514-dd46-42db-b27d-3b2d061c49fb",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/components/CreateResourcePage.tsx",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 91,
+    "hash": "23f135ecca3db93bd08a4b25de6d830a",
+    "textRange": {
+      "startLine": 91,
+      "endLine": 91,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b47d6a8e-9e69-4e23-9278-0b20770f85c5",
+    "rule": "typescript:S6749",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/components/GatewayTopologyPage.tsx",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 230,
+    "hash": "38559c871fba28d992ead51549367f83",
+    "textRange": {
+      "startLine": 230,
+      "endLine": 351,
+      "startOffset": 4,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A fragment with only one child is redundant.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8d570604-cf0f-48aa-9d15-2e5ac269e4d3",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/components/GatewayTopologyPage.tsx",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 277,
+    "hash": "29b0b59443938f58c7b5ffd7058151a4",
+    "textRange": {
+      "startLine": 277,
+      "endLine": 277,
+      "startOffset": 24,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f97d574c-ce22-43e5-8aee-f013496fba6b",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/components/GatewayTopologyPage.tsx",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 288,
+    "hash": "a4c92bab858e24c0eff38b32860af331",
+    "textRange": {
+      "startLine": 288,
+      "endLine": 288,
+      "startOffset": 13,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1f9fdf62-d644-48b7-a5c9-7512d3f370f4",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/components/GatewayTopologyPage.tsx",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 295,
+    "hash": "c9d9ce8cc679e3fec2c18d6cd6440575",
+    "textRange": {
+      "startLine": 295,
+      "endLine": 347,
+      "startOffset": 16,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "41e38bc0-b519-4b79-88b2-8e1f5b37d33d",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/components/GatewayTopologyPage.tsx",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 300,
+    "hash": "b19b69223499bd7af2ca4142ff07950f",
+    "textRange": {
+      "startLine": 300,
+      "endLine": 347,
+      "startOffset": 16,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c760aaf5-0681-4a26-ba29-96c1379cd528",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/components/GatewayTopologyPage.tsx",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 307,
+    "hash": "7e5522f9f3ec8428674bf7d2e5a7e240",
+    "textRange": {
+      "startLine": 307,
+      "endLine": 311,
+      "startOffset": 22,
+      "endOffset": 92
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "38aef8d9-50c4-4043-a746-29c10ed83e10",
+    "rule": "typescript:S3863",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/components/NamespaceSelector.tsx",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 18,
+    "hash": "d9a0ca13863d0064872e9a122f14438a",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 36,
+      "endOffset": 75
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'@openshift-console/dynamic-plugin-sdk' imported multiple times.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ee72ad22-511c-4192-8b28-f5576d70ba20",
+    "rule": "typescript:S3863",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/components/NamespaceSelector.tsx",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 19,
+    "hash": "f5c389dc74abe8b2d6834128c5aa00c7",
+    "textRange": {
+      "startLine": 19,
+      "endLine": 19,
+      "startOffset": 34,
+      "endOffset": 73
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'@openshift-console/dynamic-plugin-sdk' imported multiple times.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6bc53383-792b-4b1b-a4df-b4659503f391",
+    "rule": "typescript:S1301",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/components/topology/componentFactory.ts",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 79,
+    "hash": "4b92c1ea7a4c09ec38d924267f31c938",
+    "textRange": {
+      "startLine": 79,
+      "endLine": 79,
+      "startOffset": 6,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this \"switch\" statement by \"if\" statements to increase readability.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ce698e4d-64ea-4020-b3e8-eb2c81e0e6f5",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/components/topology/components/nodes/GatewayNode.tsx",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 44,
+    "hash": "3f22916fb3b4a576f63f98dc7c23666f",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 44,
+      "startOffset": 66,
+      "endOffset": 112
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b9d03ad4-a681-4a20-b14e-80da330b7768",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/components/topology/components/nodes/ServiceNode.tsx",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 43,
+    "hash": "9c358dfefac2379182c97faa2bd11e95",
+    "textRange": {
+      "startLine": 43,
+      "endLine": 43,
+      "startOffset": 58,
+      "endOffset": 92
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ba7cf3fb-645a-4b14-847e-52a497e1dc34",
+    "rule": "typescript:S1871",
+    "severity": "MAJOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/components/topology/layoutFactory.ts",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 29,
+    "hash": "de735fadc4b1b96d6039f920cc08b891",
+    "textRange": {
+      "startLine": 29,
+      "endLine": 37,
+      "startOffset": 4,
+      "endOffset": 9
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/components/topology/layoutFactory.ts",
+            "textRange": {
+              "startLine": 15,
+              "endLine": 23,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "Original",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This case's code block is the same as the block for the case on line 15.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "design",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "654af053-4580-436d-a134-e0600dd051f6",
+    "rule": "typescript:S6479",
+    "severity": "MAJOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/components/topology/sidebar/DNSRecordDetails.tsx",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 53,
+    "hash": "c7948af2293f26f4b9e9733085062ade",
+    "textRange": {
+      "startLine": 53,
+      "endLine": 53,
+      "startOffset": 50,
+      "endOffset": 53
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1d4ac0d2-d097-4aec-9ace-9bacf953a06d",
+    "rule": "typescript:S6479",
+    "severity": "MAJOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/components/topology/sidebar/DNSRecordDetails.tsx",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 94,
+    "hash": "b3bdb1d443b3c13ee911050e1c3a5598",
+    "textRange": {
+      "startLine": 94,
+      "endLine": 94,
+      "startOffset": 30,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c71930b8-2b82-4536-812f-09fe3a99399f",
+    "rule": "typescript:S6479",
+    "severity": "MAJOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/components/topology/sidebar/GatewayDetails.tsx",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 94,
+    "hash": "c1e7f2569892e0de7b52b6ebdade0168",
+    "textRange": {
+      "startLine": 94,
+      "endLine": 94,
+      "startOffset": 26,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f7b638b2-7703-4e1c-8273-feaece70dbd8",
+    "rule": "typescript:S6479",
+    "severity": "MAJOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/components/topology/sidebar/HTTPRouteDetails.tsx",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 70,
+    "hash": "d2a8dd4409a8f4cf453f179e87ad2557",
+    "textRange": {
+      "startLine": 70,
+      "endLine": 70,
+      "startOffset": 26,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "60143368-be5e-4538-96a3-324c24030f8d",
+    "rule": "typescript:S6479",
+    "severity": "MAJOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/components/topology/sidebar/HTTPRouteDetails.tsx",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 83,
+    "hash": "19de9cdfd171272ece9de1007cd01576",
+    "textRange": {
+      "startLine": 83,
+      "endLine": 83,
+      "startOffset": 26,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ea888ada-3c4b-4e04-94e9-e312a70bf7db",
+    "rule": "typescript:S6479",
+    "severity": "MAJOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/components/topology/sidebar/HTTPRouteDetails.tsx",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 102,
+    "hash": "985c03098134806d0b980324d0d188cd",
+    "textRange": {
+      "startLine": 102,
+      "endLine": 102,
+      "startOffset": 28,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "724171c8-a0b4-46c5-a138-aad7dacad48d",
+    "rule": "typescript:S6479",
+    "severity": "MAJOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/components/topology/sidebar/ServiceDetails.tsx",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 52,
+    "hash": "19de9cdfd171272ece9de1007cd01576",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 52,
+      "startOffset": 26,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1f4be40e-63d2-4eb9-a3b3-42a5593711ee",
+    "rule": "typescript:S6479",
+    "severity": "MAJOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/components/topology/sidebar/ServiceDetails.tsx",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 86,
+    "hash": "397472ff4c8548fb6565e3acf061cbf1",
+    "textRange": {
+      "startLine": 86,
+      "endLine": 86,
+      "startOffset": 26,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6b336cfb-f8e5-461b-b5bf-b856023465fc",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/utils/gateway-model-builder.ts",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 73,
+    "hash": "608fa1cc8058e247cc22bda8920acae4",
+    "textRange": {
+      "startLine": 73,
+      "endLine": 73,
+      "startOffset": 34,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "79c2ba8b-2b96-45e9-a143-39905918ca8a",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/utils/gateway-model-builder.ts",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 95,
+    "hash": "67e8cbbb1b887b79eefd0d7faad18556",
+    "textRange": {
+      "startLine": 95,
+      "endLine": 95,
+      "startOffset": 28,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e38fe15c-438c-49a1-a45a-38d577beea06",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/utils/gateway-model-builder.ts",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 135,
+    "hash": "0468c7c13669dd8ac7ce8309c301d9a3",
+    "textRange": {
+      "startLine": 135,
+      "endLine": 135,
+      "startOffset": 26,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9b0b31c2-ec98-449a-9a4e-e65746214f78",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/utils/gateway-model-builder.ts",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 172,
+    "hash": "9da98c05c2c1319e7442d060abeaf85d",
+    "textRange": {
+      "startLine": 172,
+      "endLine": 172,
+      "startOffset": 30,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3522be8b-1407-4e26-8c92-b589fb806ea5",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/utils/gateway-model-builder.ts",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 193,
+    "hash": "476f468c02eccd351647dd622175a7c3",
+    "textRange": {
+      "startLine": 193,
+      "endLine": 193,
+      "startOffset": 29,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6adf7dc2-7300-4f29-8e8e-508a75c6bd50",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/utils/gateway-model-builder.ts",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 239,
+    "hash": "ff1ce9f653551b803ef5a18031936dcd",
+    "textRange": {
+      "startLine": 239,
+      "endLine": 239,
+      "startOffset": 37,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "82f01572-f8bf-4bc9-8ebd-5140f8179f3e",
+    "rule": "typescript:S2004",
+    "severity": "CRITICAL",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/utils/gateway-model-builder.ts",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 254,
+    "hash": "ded540503a5147268c1b86b3618df5f9",
+    "textRange": {
+      "startLine": 254,
+      "endLine": 254,
+      "startOffset": 54,
+      "endOffset": 56
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/utils/gateway-model-builder.ts",
+            "textRange": {
+              "startLine": 67,
+              "endLine": 67,
+              "startOffset": 88,
+              "endOffset": 90
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/utils/gateway-model-builder.ts",
+            "textRange": {
+              "startLine": 172,
+              "endLine": 172,
+              "startOffset": 57,
+              "endOffset": 59
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/utils/gateway-model-builder.ts",
+            "textRange": {
+              "startLine": 193,
+              "endLine": 193,
+              "startOffset": 49,
+              "endOffset": 51
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/utils/gateway-model-builder.ts",
+            "textRange": {
+              "startLine": 239,
+              "endLine": 239,
+              "startOffset": 56,
+              "endOffset": 58
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this code to not nest functions more than 4 levels deep.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "77891e1d-5780-447a-b3cf-b9086556e3ab",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/utils/gateway-model-builder.ts",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 294,
+    "hash": "021400b4789b740bea2d2a65f0e94f35",
+    "textRange": {
+      "startLine": 294,
+      "endLine": 294,
+      "startOffset": 24,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "89bf0428-c98a-4b7b-b1f3-d570166f5dfe",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/utils/gateway-model-builder.ts",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 295,
+    "hash": "f32a46b526efe05f8371294072c98db0",
+    "textRange": {
+      "startLine": 295,
+      "endLine": 295,
+      "startOffset": 26,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "be1ac995-d5c6-4391-8233-7d8e87f9e5e4",
+    "rule": "typescript:S2004",
+    "severity": "CRITICAL",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/utils/gateway-model-builder.ts",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 306,
+    "hash": "220c19e0f415fca82f22681d3dc9d636",
+    "textRange": {
+      "startLine": 306,
+      "endLine": 306,
+      "startOffset": 49,
+      "endOffset": 51
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/utils/gateway-model-builder.ts",
+            "textRange": {
+              "startLine": 67,
+              "endLine": 67,
+              "startOffset": 88,
+              "endOffset": 90
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/utils/gateway-model-builder.ts",
+            "textRange": {
+              "startLine": 172,
+              "endLine": 172,
+              "startOffset": 57,
+              "endOffset": 59
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/utils/gateway-model-builder.ts",
+            "textRange": {
+              "startLine": 294,
+              "endLine": 294,
+              "startOffset": 48,
+              "endOffset": 50
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/utils/gateway-model-builder.ts",
+            "textRange": {
+              "startLine": 295,
+              "endLine": 295,
+              "startOffset": 59,
+              "endOffset": 61
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this code to not nest functions more than 4 levels deep.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1dbfc37d-66f7-438a-92bd-6071435a7a3e",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/utils/gateway-model-builder.ts",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 332,
+    "hash": "f2bd746eff72bad4f8449aff1a995cd6",
+    "textRange": {
+      "startLine": 332,
+      "endLine": 332,
+      "startOffset": 28,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1148d394-e1f1-481b-bbb7-42a9fc5f600a",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/utils/gateway-model-builder.ts",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 355,
+    "hash": "ec6655ffa02fd13b5454c746d3280b34",
+    "textRange": {
+      "startLine": 355,
+      "endLine": 355,
+      "startOffset": 30,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "658b5012-714f-4d64-a1db-89c9a275760f",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/utils/gateway-model-builder.ts",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 414,
+    "hash": "ff1ce9f653551b803ef5a18031936dcd",
+    "textRange": {
+      "startLine": 414,
+      "endLine": 414,
+      "startOffset": 35,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "73b6da10-0c3f-4482-9ec1-e7e8c76e8d9c",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/utils/gateway-utils.ts",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 48,
+    "hash": "f2573f86ff58ae6fd66a31b8e5e198ce",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 13,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "51b14b40-d287-4d7e-aca7-d32cd188d6b2",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/utils/gateway-utils.ts",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 49,
+    "hash": "d92a7702527e3714415dc6eef98eaf67",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 49,
+      "startOffset": 22,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c79610e4-36bb-4c50-bb97-53d8a1b1a488",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/utils/gateway-utils.ts",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 50,
+    "hash": "a18a1d40fdbbe6d57d7ee1d261850520",
+    "textRange": {
+      "startLine": 50,
+      "endLine": 50,
+      "startOffset": 24,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2e5c221d-1b2d-4665-a7f9-8f3f9578d34f",
+    "rule": "typescript:S7765",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/src/utils/gateway-utils.ts",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 174,
+    "hash": "2f1e9ab08e08c51cb0be1d67570e5cec",
+    "textRange": {
+      "startLine": 174,
+      "endLine": 174,
+      "startOffset": 41,
+      "endOffset": 45
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `.includes()` instead of `.some()` when checking value existence.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es6"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "acdfbc35-d3c7-4255-9911-b866bc95d532",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "grzpiotrowski__gatewayapi-console-plugin:temp_repos/gatewayapi-console-plugin/webpack.config.ts",
+    "project": "grzpiotrowski__gatewayapi-console-plugin",
+    "line": 3,
+    "hash": "6c88602ec87337f7ced5b0656f1d5f29",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 22,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T03:42:49+0000",
+    "updateDate": "2026-07-16T03:42:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

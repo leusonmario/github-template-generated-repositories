@@ -1,0 +1,1424 @@
+[
+  {
+    "key": "e3c88d69-0eb2-4e6f-aad5-6f0cb5d64ee0",
+    "rule": "typescript:S6850",
+    "severity": "MAJOR",
+    "component": "databricks-solutions__custom-mcp-databricks-app:client/src/components/ui/alert.tsx",
+    "project": "databricks-solutions__custom-mcp-databricks-app",
+    "line": 39,
+    "hash": "942f8e7d3863befe2a3defa9fd02b7dc",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 43,
+      "startOffset": 2,
+      "endOffset": 4
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Headings must have content and the content must be accessible by a screen reader.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T21:41:56+0000",
+    "updateDate": "2026-07-16T21:41:56+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "358cf1d2-267e-4918-8a98-66431f1d6f70",
+    "rule": "typescript:S1854",
+    "severity": "MAJOR",
+    "component": "databricks-solutions__custom-mcp-databricks-app:client/src/pages/PromptsPage.tsx",
+    "project": "databricks-solutions__custom-mcp-databricks-app",
+    "line": 44,
+    "hash": "3cc698cedd4aa67f7401ca7270075af6",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 44,
+      "startOffset": 9,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this useless assignment to variable \"prompts\".",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T21:41:56+0000",
+    "updateDate": "2026-07-16T21:41:56+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "784a0190-97b4-4fd8-8d5d-1bdd9145114c",
+    "rule": "typescript:S1854",
+    "severity": "MAJOR",
+    "component": "databricks-solutions__custom-mcp-databricks-app:client/src/pages/PromptsPage.tsx",
+    "project": "databricks-solutions__custom-mcp-databricks-app",
+    "line": 90,
+    "hash": "901c17bab512a8b08b42223614c40161",
+    "textRange": {
+      "startLine": 90,
+      "endLine": 90,
+      "startOffset": 8,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this useless assignment to variable \"fetchPromptDetail\".",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T21:41:56+0000",
+    "updateDate": "2026-07-16T21:41:56+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3092eed8-e90b-41ee-85b4-55142e3df44d",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "databricks-solutions__custom-mcp-databricks-app:client/src/pages/PromptsPage.tsx",
+    "project": "databricks-solutions__custom-mcp-databricks-app",
+    "line": 155,
+    "hash": "cf89ae24ab0388ce2abc906b2d23b2e1",
+    "textRange": {
+      "startLine": 155,
+      "endLine": 155,
+      "startOffset": 17,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-16T21:41:56+0000",
+    "updateDate": "2026-07-16T21:41:56+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "49b581a7-95bd-490f-8942-1f55837919cb",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "databricks-solutions__custom-mcp-databricks-app:client/src/pages/PromptsPage.tsx",
+    "project": "databricks-solutions__custom-mcp-databricks-app",
+    "line": 156,
+    "hash": "3111c179a1fc7c77db08b884f32cf031",
+    "textRange": {
+      "startLine": 156,
+      "endLine": 156,
+      "startOffset": 17,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-16T21:41:56+0000",
+    "updateDate": "2026-07-16T21:41:56+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d0778f2c-9b6f-4ac0-8a55-c915429f9e6f",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "databricks-solutions__custom-mcp-databricks-app:client/src/pages/PromptsPage.tsx",
+    "project": "databricks-solutions__custom-mcp-databricks-app",
+    "line": 173,
+    "hash": "5475ce91112cdf745c528bfcc44f2cea",
+    "textRange": {
+      "startLine": 173,
+      "endLine": 173,
+      "startOffset": 29,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T21:41:56+0000",
+    "updateDate": "2026-07-16T21:41:56+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "88f53b22-7a5e-446a-b66c-8698f79458ac",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "databricks-solutions__custom-mcp-databricks-app:client/vite.config.ts",
+    "project": "databricks-solutions__custom-mcp-databricks-app",
+    "line": 3,
+    "hash": "86d5e1b4b9e37b9f521e62e76cad3435",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 17,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T21:41:56+0000",
+    "updateDate": "2026-07-16T21:41:56+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "54004704-a31d-46eb-a823-2e604a86fd95",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "databricks-solutions__custom-mcp-databricks-app:client/vite.config.ts",
+    "project": "databricks-solutions__custom-mcp-databricks-app",
+    "line": 4,
+    "hash": "9e469f479db3d21fb3a95403c323eed1",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 30,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:url` over `url`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T21:41:56+0000",
+    "updateDate": "2026-07-16T21:41:56+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3ddf67e7-85f2-47a3-8432-d0bbece25e41",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "databricks-solutions__custom-mcp-databricks-app:dba_client.py",
+    "project": "databricks-solutions__custom-mcp-databricks-app",
+    "line": 45,
+    "hash": "581477db8ca000655dc35f4766473b4d",
+    "textRange": {
+      "startLine": 45,
+      "endLine": 47,
+      "startOffset": 14,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-16T21:41:56+0000",
+    "updateDate": "2026-07-16T21:41:56+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "03eaccc7-a742-4574-ae4c-4746220b4820",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "databricks-solutions__custom-mcp-databricks-app:dba_client.py",
+    "project": "databricks-solutions__custom-mcp-databricks-app",
+    "line": 76,
+    "hash": "e57ff345cc889d72f594a0d4c27c34c4",
+    "textRange": {
+      "startLine": 76,
+      "endLine": 76,
+      "startOffset": 14,
+      "endOffset": 66
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-16T21:41:56+0000",
+    "updateDate": "2026-07-16T21:41:56+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0816c574-2feb-4afb-b353-b41b695a2dfb",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "databricks-solutions__custom-mcp-databricks-app:dba_client.py",
+    "project": "databricks-solutions__custom-mcp-databricks-app",
+    "line": 90,
+    "hash": "804d269c8ad92c0317bb3d4f6b073a9f",
+    "textRange": {
+      "startLine": 90,
+      "endLine": 90,
+      "startOffset": 12,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-16T21:41:56+0000",
+    "updateDate": "2026-07-16T21:41:56+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5fd2e289-4fd9-4f28-af35-603212b25120",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "databricks-solutions__custom-mcp-databricks-app:dba_client.py",
+    "project": "databricks-solutions__custom-mcp-databricks-app",
+    "line": 92,
+    "hash": "3a885e6e4758039e69b88b7d1575bff0",
+    "textRange": {
+      "startLine": 92,
+      "endLine": 92,
+      "startOffset": 12,
+      "endOffset": 81
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-16T21:41:56+0000",
+    "updateDate": "2026-07-16T21:41:56+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0d0bf11a-7db8-4c1f-bc60-24dadb698a91",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "databricks-solutions__custom-mcp-databricks-app:dba_logz.py",
+    "project": "databricks-solutions__custom-mcp-databricks-app",
+    "line": 39,
+    "hash": "581477db8ca000655dc35f4766473b4d",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 41,
+      "startOffset": 14,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-16T21:41:56+0000",
+    "updateDate": "2026-07-16T21:41:56+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e6cdb7f4-b07b-4846-924e-26492a5c4309",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "databricks-solutions__custom-mcp-databricks-app:dba_logz.py",
+    "project": "databricks-solutions__custom-mcp-databricks-app",
+    "line": 53,
+    "hash": "804d269c8ad92c0317bb3d4f6b073a9f",
+    "textRange": {
+      "startLine": 53,
+      "endLine": 53,
+      "startOffset": 12,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-16T21:41:56+0000",
+    "updateDate": "2026-07-16T21:41:56+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4d408268-98f3-4561-865b-6a4e4c90cff1",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "databricks-solutions__custom-mcp-databricks-app:dba_logz.py",
+    "project": "databricks-solutions__custom-mcp-databricks-app",
+    "line": 55,
+    "hash": "0170b4bae389dce7fb739cd9ba57ca0f",
+    "textRange": {
+      "startLine": 55,
+      "endLine": 55,
+      "startOffset": 12,
+      "endOffset": 81
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-16T21:41:56+0000",
+    "updateDate": "2026-07-16T21:41:56+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ff7fa5a9-9762-42f6-b434-b64caeda044b",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "databricks-solutions__custom-mcp-databricks-app:dba_mcp_proxy/mcp_client.py",
+    "project": "databricks-solutions__custom-mcp-databricks-app",
+    "line": 52,
+    "hash": "c7615790b071ba5c9cae3a6f7adbf96d",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 52,
+      "startOffset": 12,
+      "endOffset": 52
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-16T21:41:56+0000",
+    "updateDate": "2026-07-16T21:41:56+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a5746891-e6f0-4ade-b984-f1c8c9ec25c3",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "databricks-solutions__custom-mcp-databricks-app:dba_mcp_proxy/mcp_client.py",
+    "project": "databricks-solutions__custom-mcp-databricks-app",
+    "line": 77,
+    "hash": "0420bba8d91f9576262033d77ba079c3",
+    "textRange": {
+      "startLine": 77,
+      "endLine": 77,
+      "startOffset": 14,
+      "endOffset": 54
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-16T21:41:56+0000",
+    "updateDate": "2026-07-16T21:41:56+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c7d04602-2667-4ade-abfa-45c89c8c8c8c",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "databricks-solutions__custom-mcp-databricks-app:dba_mcp_proxy/mcp_client.py",
+    "project": "databricks-solutions__custom-mcp-databricks-app",
+    "line": 79,
+    "hash": "a467eb442cd9233d979e792721408cc9",
+    "textRange": {
+      "startLine": 79,
+      "endLine": 79,
+      "startOffset": 12,
+      "endOffset": 63
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-16T21:41:56+0000",
+    "updateDate": "2026-07-16T21:41:56+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "587155be-6930-4f7e-9643-97d8db12ac84",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "databricks-solutions__custom-mcp-databricks-app:dba_mcp_proxy/mcp_client.py",
+    "project": "databricks-solutions__custom-mcp-databricks-app",
+    "line": 153,
+    "hash": "0ee5a11b02a6f001a4e441fda69a09c9",
+    "textRange": {
+      "startLine": 153,
+      "endLine": 153,
+      "startOffset": 6,
+      "endOffset": 19
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:dba_mcp_proxy/mcp_client.py",
+            "textRange": {
+              "startLine": 168,
+              "endLine": 168,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:dba_mcp_proxy/mcp_client.py",
+            "textRange": {
+              "startLine": 173,
+              "endLine": 173,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:dba_mcp_proxy/mcp_client.py",
+            "textRange": {
+              "startLine": 175,
+              "endLine": 175,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:dba_mcp_proxy/mcp_client.py",
+            "textRange": {
+              "startLine": 176,
+              "endLine": 176,
+              "startOffset": 10,
+              "endOffset": 13
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:dba_mcp_proxy/mcp_client.py",
+            "textRange": {
+              "startLine": 177,
+              "endLine": 177,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:dba_mcp_proxy/mcp_client.py",
+            "textRange": {
+              "startLine": 180,
+              "endLine": 180,
+              "startOffset": 14,
+              "endOffset": 20
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:dba_mcp_proxy/mcp_client.py",
+            "textRange": {
+              "startLine": 182,
+              "endLine": 182,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:dba_mcp_proxy/mcp_client.py",
+            "textRange": {
+              "startLine": 194,
+              "endLine": 194,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-16T21:41:56+0000",
+    "updateDate": "2026-07-16T21:41:56+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "861ad1ff-ade7-4c46-b176-a0b8f6aab966",
+    "rule": "python:S3626",
+    "severity": "MINOR",
+    "component": "databricks-solutions__custom-mcp-databricks-app:scripts/generate_semver_requirements.py",
+    "project": "databricks-solutions__custom-mcp-databricks-app",
+    "line": 29,
+    "hash": "7aa28ed115707345d0274032757e8991",
+    "textRange": {
+      "startLine": 29,
+      "endLine": 29,
+      "startOffset": 6,
+      "endOffset": 14
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:scripts/generate_semver_requirements.py",
+            "textRange": {
+              "startLine": 25,
+              "endLine": 25,
+              "startOffset": 2,
+              "endOffset": 5
+            },
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Remove this redundant continue.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "redundant",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-16T21:41:56+0000",
+    "updateDate": "2026-07-16T21:41:56+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "de492a80-ba73-4d40-ad73-5783d2927ae6",
+    "rule": "python:S7493",
+    "severity": "MAJOR",
+    "component": "databricks-solutions__custom-mcp-databricks-app:server/routers/mcp_info.py",
+    "project": "databricks-solutions__custom-mcp-databricks-app",
+    "line": 123,
+    "hash": "5a145403d08c55cef09b67355fb942c4",
+    "textRange": {
+      "startLine": 123,
+      "endLine": 123,
+      "startOffset": 7,
+      "endOffset": 29
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:server/routers/mcp_info.py",
+            "textRange": {
+              "startLine": 107,
+              "endLine": 107,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an asynchronous file API instead of synchronous open() in this async function.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-16T21:41:56+0000",
+    "updateDate": "2026-07-16T21:41:56+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bd9692f0-30d9-437b-bc39-cb01c5585a34",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "databricks-solutions__custom-mcp-databricks-app:server/tools.py",
+    "project": "databricks-solutions__custom-mcp-databricks-app",
+    "line": 8,
+    "hash": "8b4accd2e4a80942bb7b327cd6c06835",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 4,
+      "endOffset": 14
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:server/tools.py",
+            "textRange": {
+              "startLine": 51,
+              "endLine": 51,
+              "startOffset": 34,
+              "endOffset": 36
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:server/tools.py",
+            "textRange": {
+              "startLine": 52,
+              "endLine": 52,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:server/tools.py",
+            "textRange": {
+              "startLine": 62,
+              "endLine": 62,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:server/tools.py",
+            "textRange": {
+              "startLine": 62,
+              "endLine": 62,
+              "startOffset": 17,
+              "endOffset": 20
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:server/tools.py",
+            "textRange": {
+              "startLine": 73,
+              "endLine": 73,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:server/tools.py",
+            "textRange": {
+              "startLine": 73,
+              "endLine": 73,
+              "startOffset": 23,
+              "endOffset": 26
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:server/tools.py",
+            "textRange": {
+              "startLine": 77,
+              "endLine": 77,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:server/tools.py",
+            "textRange": {
+              "startLine": 79,
+              "endLine": 79,
+              "startOffset": 10,
+              "endOffset": 13
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:server/tools.py",
+            "textRange": {
+              "startLine": 84,
+              "endLine": 84,
+              "startOffset": 6,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:server/tools.py",
+            "textRange": {
+              "startLine": 91,
+              "endLine": 91,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:server/tools.py",
+            "textRange": {
+              "startLine": 110,
+              "endLine": 110,
+              "startOffset": 6,
+              "endOffset": 9
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:server/tools.py",
+            "textRange": {
+              "startLine": 115,
+              "endLine": 115,
+              "startOffset": 43,
+              "endOffset": 45
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:server/tools.py",
+            "textRange": {
+              "startLine": 117,
+              "endLine": 117,
+              "startOffset": 51,
+              "endOffset": 53
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:server/tools.py",
+            "textRange": {
+              "startLine": 118,
+              "endLine": 118,
+              "startOffset": 46,
+              "endOffset": 48
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:server/tools.py",
+            "textRange": {
+              "startLine": 120,
+              "endLine": 120,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:server/tools.py",
+            "textRange": {
+              "startLine": 132,
+              "endLine": 132,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:server/tools.py",
+            "textRange": {
+              "startLine": 154,
+              "endLine": 154,
+              "startOffset": 6,
+              "endOffset": 9
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:server/tools.py",
+            "textRange": {
+              "startLine": 159,
+              "endLine": 159,
+              "startOffset": 40,
+              "endOffset": 42
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "databricks-solutions__custom-mcp-databricks-app:server/tools.py",
+            "textRange": {
+              "startLine": 172,
+              "endLine": 172,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 42 to the 15 allowed.",
+    "effort": "32min",
+    "debt": "32min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-16T21:41:56+0000",
+    "updateDate": "2026-07-16T21:41:56+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

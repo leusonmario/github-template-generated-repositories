@@ -1,0 +1,4128 @@
+[
+  {
+    "key": "1a387fab-3002-4466-ad9d-ba641dd563de",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DanmuServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 112,
+    "hash": "65ad6f00840a1ef204c5e2a1e2549bab",
+    "textRange": {
+      "startLine": 112,
+      "endLine": 112,
+      "startOffset": 5,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2feac20e-4987-40d2-9e0c-e72ee39e35e8",
+    "rule": "java:S2479",
+    "severity": "CRITICAL",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DanmuServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 135,
+    "hash": "88f64a1567b434a6ef60a587ebdf0420",
+    "textRange": {
+      "startLine": 135,
+      "endLine": 148,
+      "startOffset": 25,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the non-escaped \\u0009 character from this literal.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "956ddf96-e197-45bb-874f-be20f6e6efa3",
+    "rule": "java:S1481",
+    "severity": "MINOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DanmuServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 135,
+    "hash": "88f64a1567b434a6ef60a587ebdf0420",
+    "textRange": {
+      "startLine": 135,
+      "endLine": 135,
+      "startOffset": 10,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused \"dropIndexSQL\" local variable.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused",
+      "java22"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4333528e-7e45-4b20-917a-18981be5d6e9",
+    "rule": "java:S2696",
+    "severity": "CRITICAL",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DanmuServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 149,
+    "hash": "336a20621608ece49f060af58f05d6a9",
+    "textRange": {
+      "startLine": 149,
+      "endLine": 149,
+      "startOffset": 23,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make the enclosing method \"static\" or remove this set.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "multi-threading"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "96e04aeb-ed4e-4437-8bec-a51eb538245e",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 59,
+    "hash": "7da0a6d56bf59f9cf50db2e09ee692fa",
+    "textRange": {
+      "startLine": 59,
+      "endLine": 59,
+      "startOffset": 32,
+      "endOffset": 72
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 59,
+              "endLine": 59,
+              "startOffset": 32,
+              "endOffset": 72
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 90,
+              "endLine": 90,
+              "startOffset": 32,
+              "endOffset": 72
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 122,
+              "endLine": 122,
+              "startOffset": 32,
+              "endOffset": 72
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 154,
+              "endLine": 154,
+              "startOffset": 32,
+              "endOffset": 72
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 185,
+              "endLine": 185,
+              "startOffset": 32,
+              "endOffset": 72
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"insert into user_follow values (?, ?);\" 5 times.",
+    "effort": "12min",
+    "debt": "12min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4cd8d805-6b84-467f-ae6b-75c0cdfa0bfd",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 75,
+    "hash": "855be50eb164dd899005c6302094a5cb",
+    "textRange": {
+      "startLine": 75,
+      "endLine": 75,
+      "startOffset": 4,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "86370f1c-311f-4f71-9e1f-310d670adbc2",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 75,
+    "hash": "855be50eb164dd899005c6302094a5cb",
+    "textRange": {
+      "startLine": 75,
+      "endLine": 75,
+      "startOffset": 23,
+      "endOffset": 69
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 75,
+              "endLine": 75,
+              "startOffset": 23,
+              "endOffset": 69
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 106,
+              "endLine": 106,
+              "startOffset": 23,
+              "endOffset": 69
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 138,
+              "endLine": 138,
+              "startOffset": 23,
+              "endOffset": 69
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 170,
+              "endLine": 170,
+              "startOffset": 23,
+              "endOffset": 69
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 201,
+              "endLine": 201,
+              "startOffset": 23,
+              "endOffset": 69
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"[ERROR] Fail to insert user_follow records, \" 5 times.",
+    "effort": "12min",
+    "debt": "12min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cc39cf9e-46a0-4c4b-8b27-d834ec10b9df",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 106,
+    "hash": "855be50eb164dd899005c6302094a5cb",
+    "textRange": {
+      "startLine": 106,
+      "endLine": 106,
+      "startOffset": 4,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7d386ce1-28dd-4d46-b646-aca50baf672e",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 138,
+    "hash": "855be50eb164dd899005c6302094a5cb",
+    "textRange": {
+      "startLine": 138,
+      "endLine": 138,
+      "startOffset": 4,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9e8c386c-20f0-49f1-bba4-788743898b95",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 170,
+    "hash": "855be50eb164dd899005c6302094a5cb",
+    "textRange": {
+      "startLine": 170,
+      "endLine": 170,
+      "startOffset": 4,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "76365b10-c09e-49f3-85b4-630e1204e626",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 201,
+    "hash": "855be50eb164dd899005c6302094a5cb",
+    "textRange": {
+      "startLine": 201,
+      "endLine": 201,
+      "startOffset": 4,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "99ee3243-6e76-4a03-98c7-7b57ed7c4549",
+    "rule": "java:S1161",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 213,
+    "hash": "c0a4636e14eb4f6b03cb2dde77b07d70",
+    "textRange": {
+      "startLine": 213,
+      "endLine": 213,
+      "startOffset": 14,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add the \"@Override\" annotation above this method signature",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e078e793-c660-4265-b054-b4cf4ce51f90",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 230,
+    "hash": "878a6a38746e6ced429ab3e89aa7785c",
+    "textRange": {
+      "startLine": 230,
+      "endLine": 230,
+      "startOffset": 4,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2a989317-343a-42b9-8ed6-3bf3ee75c856",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 249,
+    "hash": "40c9b3a1c1c1033247a4bf0d231ed388",
+    "textRange": {
+      "startLine": 249,
+      "endLine": 249,
+      "startOffset": 4,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3e543271-4873-4965-8f66-7dc1637d2553",
+    "rule": "java:S1161",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 265,
+    "hash": "c0a4636e14eb4f6b03cb2dde77b07d70",
+    "textRange": {
+      "startLine": 265,
+      "endLine": 265,
+      "startOffset": 14,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add the \"@Override\" annotation above this method signature",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "89bf77ca-93f5-4b7d-b64b-465dbcc7e921",
+    "rule": "java:S3776",
+    "severity": "CRITICAL",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 265,
+    "hash": "c0a4636e14eb4f6b03cb2dde77b07d70",
+    "textRange": {
+      "startLine": 265,
+      "endLine": 265,
+      "startOffset": 14,
+      "endOffset": 17
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 272,
+              "endLine": 272,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 279,
+              "endLine": 279,
+              "startOffset": 70,
+              "endOffset": 71
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 289,
+              "endLine": 289,
+              "startOffset": 5,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 301,
+              "endLine": 301,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 316,
+              "endLine": 316,
+              "startOffset": 5,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 326,
+              "endLine": 326,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 339,
+              "endLine": 339,
+              "startOffset": 5,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 348,
+              "endLine": 348,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 350,
+              "endLine": 350,
+              "startOffset": 5,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 358,
+              "endLine": 358,
+              "startOffset": 5,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 367,
+              "endLine": 367,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 369,
+              "endLine": 369,
+              "startOffset": 5,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 377,
+              "endLine": 377,
+              "startOffset": 5,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "29f9b763-67bd-4568-bc52-d8bc474cdbc4",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 290,
+    "hash": "4d6daf4858d952d6798c5a50bf72b6d2",
+    "textRange": {
+      "startLine": 290,
+      "endLine": 290,
+      "startOffset": 4,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "aa889f09-cc3d-4602-a3df-a0e442a08b4c",
+    "rule": "java:S2479",
+    "severity": "CRITICAL",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 294,
+    "hash": "ba18b1562e7a6224b09133a62ad02a19",
+    "textRange": {
+      "startLine": 294,
+      "endLine": 297,
+      "startOffset": 31,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the non-escaped \\u0009 character from this literal.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "646874dd-8165-4258-898e-74a8dc8c68ed",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 317,
+    "hash": "601328cae3466b038189ae7ce9f6b178",
+    "textRange": {
+      "startLine": 317,
+      "endLine": 317,
+      "startOffset": 4,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bb7089a7-bcf7-4117-95ad-70c93271b98c",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 340,
+    "hash": "6026787a7aee8ae10169aaa708f15a6f",
+    "textRange": {
+      "startLine": 340,
+      "endLine": 340,
+      "startOffset": 4,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5e0aaae4-a9b8-4a62-8f53-74e2e6a43902",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 359,
+    "hash": "5ea23a03cfbe7bf70eacb7fc09ea6d48",
+    "textRange": {
+      "startLine": 359,
+      "endLine": 359,
+      "startOffset": 4,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ac68aee1-b816-48c2-a5da-b2e3f860f6ff",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 378,
+    "hash": "6786f7793a3063909f645f11c396ffdc",
+    "textRange": {
+      "startLine": 378,
+      "endLine": 378,
+      "startOffset": 4,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "859947c0-ea44-400a-8daf-a11603221523",
+    "rule": "java:S1161",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 390,
+    "hash": "c0a4636e14eb4f6b03cb2dde77b07d70",
+    "textRange": {
+      "startLine": 390,
+      "endLine": 390,
+      "startOffset": 14,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add the \"@Override\" annotation above this method signature",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6ff78643-0d65-4f6f-8cb3-d78aef5a8780",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 409,
+    "hash": "d78b0004e9c50c06b27f57f7c587052d",
+    "textRange": {
+      "startLine": 409,
+      "endLine": 409,
+      "startOffset": 4,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ad21e122-ce76-43a0-a199-edac81f4b488",
+    "rule": "java:S2696",
+    "severity": "CRITICAL",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 429,
+    "hash": "909c20a2ddc44d90d342ccd4d0ffcf13",
+    "textRange": {
+      "startLine": 429,
+      "endLine": 429,
+      "startOffset": 2,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make the enclosing method \"static\" or remove this set.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "multi-threading"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f47a6d9f-2b4c-43a1-b827-5fd8e4674d68",
+    "rule": "java:S2142",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 455,
+    "hash": "eb375774c265dedeefeb29283ceea9bc",
+    "textRange": {
+      "startLine": 455,
+      "endLine": 455,
+      "startOffset": 11,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Either re-interrupt this method or rethrow the \"InterruptedException\" that can be caught here.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "multi-threading"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "88a917dc-3d5c-40d0-8f0e-788ac333dd77",
+    "rule": "java:S6905",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 460,
+    "hash": "78c7c674596ea0002ed6c33ac675436d",
+    "textRange": {
+      "startLine": 460,
+      "endLine": 1470,
+      "startOffset": 27,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use the query \"SELECT *\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "sustainability",
+      "sql"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "964e700f-41e7-4b44-b5d2-244c46ee95d7",
+    "rule": "java:S2479",
+    "severity": "CRITICAL",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 460,
+    "hash": "78c7c674596ea0002ed6c33ac675436d",
+    "textRange": {
+      "startLine": 460,
+      "endLine": 1470,
+      "startOffset": 27,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the non-escaped \\u0009 character from this literal.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2a473725-e0ac-4eab-a96a-ba08b7cac4d8",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 1475,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 1475,
+      "endLine": 1475,
+      "startOffset": 13,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2a37c32a-7cb9-44d1-869e-cc5374b80857",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 1478,
+    "hash": "ba5d642655c7b2325cae61a4158e4e68",
+    "textRange": {
+      "startLine": 1478,
+      "endLine": 1478,
+      "startOffset": 4,
+      "endOffset": 71
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 1479,
+              "endLine": 1479,
+              "startOffset": 4,
+              "endOffset": 54
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 1480,
+              "endLine": 1480,
+              "startOffset": 9,
+              "endOffset": 74
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 1481,
+              "endLine": 1481,
+              "startOffset": 5,
+              "endOffset": 20
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 1482,
+              "endLine": 1482,
+              "startOffset": 4,
+              "endOffset": 30
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 1483,
+              "endLine": 1483,
+              "startOffset": 5,
+              "endOffset": 35
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 1484,
+              "endLine": 1484,
+              "startOffset": 4,
+              "endOffset": 5
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "01051a01-7417-44f2-9e75-764c237b16dc",
+    "rule": "java:S2479",
+    "severity": "CRITICAL",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 1498,
+    "hash": "ab618738d5b110b702b0893d2cdb4fdc",
+    "textRange": {
+      "startLine": 1498,
+      "endLine": 1511,
+      "startOffset": 15,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the non-escaped \\u0009 character from this literal.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f85e3fd3-a30f-41e8-9791-3251191136eb",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 1517,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 1517,
+      "endLine": 1517,
+      "startOffset": 13,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "394d45bb-610b-424d-842b-1cfd1a38506b",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 1543,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 1543,
+      "endLine": 1543,
+      "startOffset": 13,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "81eeeec0-0e63-434d-a9e3-a7fb6fb4faf8",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/RecommenderServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 56,
+    "hash": "65ad6f00840a1ef204c5e2a1e2549bab",
+    "textRange": {
+      "startLine": 56,
+      "endLine": 56,
+      "startOffset": 5,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "95abd482-7159-4ad3-b9e3-e662fc28afad",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/RecommenderServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 111,
+    "hash": "65ad6f00840a1ef204c5e2a1e2549bab",
+    "textRange": {
+      "startLine": 111,
+      "endLine": 111,
+      "startOffset": 5,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f3dc8218-e72a-47d9-b3e5-f537255a920a",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/RecommenderServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 168,
+    "hash": "65ad6f00840a1ef204c5e2a1e2549bab",
+    "textRange": {
+      "startLine": 168,
+      "endLine": 168,
+      "startOffset": 5,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ee9ae279-cb08-4e30-a6be-01d759bf5027",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/RecommenderServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 217,
+    "hash": "65ad6f00840a1ef204c5e2a1e2549bab",
+    "textRange": {
+      "startLine": 217,
+      "endLine": 217,
+      "startOffset": 5,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2218848c-bf7c-461d-a1d1-f900f1555972",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/UserServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 21,
+    "hash": "9d7849819ff29907151eca3c94278623",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 3,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5eb0d88a-cc40-4fc4-884c-423485ef2cb0",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/UserServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 46,
+    "hash": "311bb6ce03886773ef7eb6620af9e3cc",
+    "textRange": {
+      "startLine": 46,
+      "endLine": 46,
+      "startOffset": 5,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f7c95b25-24a4-43a4-989d-ec5d0891421d",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/UserServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 63,
+    "hash": "65ad6f00840a1ef204c5e2a1e2549bab",
+    "textRange": {
+      "startLine": 63,
+      "endLine": 63,
+      "startOffset": 5,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "27329533-857a-4ac9-8e07-df4fe27b49a4",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/UserServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 123,
+    "hash": "2a7ab8994306ea2aec85a458b9641b38",
+    "textRange": {
+      "startLine": 123,
+      "endLine": 123,
+      "startOffset": 4,
+      "endOffset": 16
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/UserServiceImpl.java",
+            "textRange": {
+              "startLine": 124,
+              "endLine": 124,
+              "startOffset": 4,
+              "endOffset": 26
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/UserServiceImpl.java",
+            "textRange": {
+              "startLine": 125,
+              "endLine": 125,
+              "startOffset": 5,
+              "endOffset": 65
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/UserServiceImpl.java",
+            "textRange": {
+              "startLine": 126,
+              "endLine": 126,
+              "startOffset": 5,
+              "endOffset": 55
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/UserServiceImpl.java",
+            "textRange": {
+              "startLine": 127,
+              "endLine": 127,
+              "startOffset": 10,
+              "endOffset": 69
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/UserServiceImpl.java",
+            "textRange": {
+              "startLine": 128,
+              "endLine": 128,
+              "startOffset": 6,
+              "endOffset": 21
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/UserServiceImpl.java",
+            "textRange": {
+              "startLine": 129,
+              "endLine": 129,
+              "startOffset": 5,
+              "endOffset": 31
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/UserServiceImpl.java",
+            "textRange": {
+              "startLine": 130,
+              "endLine": 130,
+              "startOffset": 6,
+              "endOffset": 49
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/UserServiceImpl.java",
+            "textRange": {
+              "startLine": 131,
+              "endLine": 131,
+              "startOffset": 6,
+              "endOffset": 19
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/UserServiceImpl.java",
+            "textRange": {
+              "startLine": 132,
+              "endLine": 132,
+              "startOffset": 5,
+              "endOffset": 6
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/UserServiceImpl.java",
+            "textRange": {
+              "startLine": 133,
+              "endLine": 133,
+              "startOffset": 4,
+              "endOffset": 5
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2fb9e84c-0275-4b74-b7a7-00ab8dedba22",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/UserServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 166,
+    "hash": "0212e6a9f2763386b44e6f7bedf08e70",
+    "textRange": {
+      "startLine": 166,
+      "endLine": 166,
+      "startOffset": 5,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "910f5a81-f75f-4b01-9053-bc73e9023cc7",
+    "rule": "java:S6905",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/UserServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 169,
+    "hash": "cd5960649e16ed6a9267bcac4d94a52a",
+    "textRange": {
+      "startLine": 169,
+      "endLine": 169,
+      "startOffset": 26,
+      "endOffset": 58
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use the query \"SELECT *\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "sustainability",
+      "sql"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bf9b8675-46cb-449c-afe3-79d2e35ba212",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/UserServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 182,
+    "hash": "cb464ed4176a31e4c96836001d5c863a",
+    "textRange": {
+      "startLine": 182,
+      "endLine": 182,
+      "startOffset": 6,
+      "endOffset": 54
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e650fcdf-b8dc-47ed-a8ad-ef2e410bc9ef",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/UserServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 199,
+    "hash": "65ad6f00840a1ef204c5e2a1e2549bab",
+    "textRange": {
+      "startLine": 199,
+      "endLine": 199,
+      "startOffset": 5,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "408b797a-72e2-4609-b376-ff33bf3a758d",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 43,
+    "hash": "0ffa2d24cfcf561ba0801470e6cf492a",
+    "textRange": {
+      "startLine": 43,
+      "endLine": 43,
+      "startOffset": 4,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fc4b9548-9d25-4922-932f-467038b0002b",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 60,
+    "hash": "ae5e3cf8c57471c5be2e92ee3a17015b",
+    "textRange": {
+      "startLine": 60,
+      "endLine": 60,
+      "startOffset": 13,
+      "endOffset": 28
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 60,
+              "endLine": 60,
+              "startOffset": 13,
+              "endOffset": 28
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 97,
+              "endLine": 97,
+              "startOffset": 13,
+              "endOffset": 28
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 143,
+              "endLine": 143,
+              "startOffset": 13,
+              "endOffset": 28
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 279,
+              "endLine": 279,
+              "startOffset": 13,
+              "endOffset": 28
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 315,
+              "endLine": 315,
+              "startOffset": 13,
+              "endOffset": 28
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 351,
+              "endLine": 351,
+              "startOffset": 13,
+              "endOffset": 28
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 391,
+              "endLine": 391,
+              "startOffset": 13,
+              "endOffset": 28
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 428,
+              "endLine": 428,
+              "startOffset": 13,
+              "endOffset": 28
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 465,
+              "endLine": 465,
+              "startOffset": 13,
+              "endOffset": 28
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"SQL error: {}\" 9 times.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "469a1eb3-64b4-4e6b-85ff-e00b162ab140",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 83,
+    "hash": "7783900838f7ba7dd93e355d97f153d7",
+    "textRange": {
+      "startLine": 83,
+      "endLine": 83,
+      "startOffset": 4,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "96cafead-5dde-4872-b760-1e9d847a2712",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 125,
+    "hash": "1be18ed701d3d84b6e292e8d755342ef",
+    "textRange": {
+      "startLine": 125,
+      "endLine": 125,
+      "startOffset": 4,
+      "endOffset": 47
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c578efd4-7662-4715-ab8e-ac27c059ef88",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+    "project": "fz-zsl__nilikili",
+    "line": 250,
+    "hash": "65ad6f00840a1ef204c5e2a1e2549bab",
+    "textRange": {
+      "startLine": 250,
+      "endLine": 250,
+      "startOffset": 5,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ee06ba51-b3cc-46ff-87e8-c677f1be9137",
+    "rule": "kotlin:S6629",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-runner/build.gradle.kts",
+    "project": "fz-zsl__nilikili",
+    "line": 11,
+    "hash": "b490d615c1ef875ddafe48b74fbd0974",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 0,
+      "endOffset": 12
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/build.gradle.kts",
+            "textRange": {
+              "startLine": 18,
+              "endLine": 18,
+              "startOffset": 4,
+              "endOffset": 18
+            },
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/build.gradle.kts",
+            "textRange": {
+              "startLine": 19,
+              "endLine": 19,
+              "startOffset": 4,
+              "endOffset": 18
+            },
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/build.gradle.kts",
+            "textRange": {
+              "startLine": 20,
+              "endLine": 20,
+              "startOffset": 4,
+              "endOffset": 18
+            },
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/build.gradle.kts",
+            "textRange": {
+              "startLine": 22,
+              "endLine": 22,
+              "startOffset": 4,
+              "endOffset": 18
+            },
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/build.gradle.kts",
+            "textRange": {
+              "startLine": 23,
+              "endLine": 23,
+              "startOffset": 4,
+              "endOffset": 18
+            },
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/build.gradle.kts",
+            "textRange": {
+              "startLine": 24,
+              "endLine": 24,
+              "startOffset": 4,
+              "endOffset": 18
+            },
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Group dependencies by their destination.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "gradle"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1657116a-a694-4167-86e8-752869ed7de3",
+    "rule": "kotlin:S6624",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-runner/build.gradle.kts",
+    "project": "fz-zsl__nilikili",
+    "line": 20,
+    "hash": "245213abe1d185f1263b91f6d1e12c18",
+    "textRange": {
+      "startLine": 20,
+      "endLine": 20,
+      "startOffset": 41,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not hardcode version numbers.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "gradle"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "01380aae-2284-4ec8-9484-6b4479f0dc03",
+    "rule": "java:S3864",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkRunner.java",
+    "project": "fz-zsl__nilikili",
+    "line": 64,
+    "hash": "3cde6535309760d40c977be9a912bd1b",
+    "textRange": {
+      "startLine": 64,
+      "endLine": 64,
+      "startOffset": 17,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this use of \"Stream.peek\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "java8",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4c168355-59b8-4b08-b778-b0da4c7d642a",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkRunner.java",
+    "project": "fz-zsl__nilikili",
+    "line": 89,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 89,
+      "endLine": 89,
+      "startOffset": 34,
+      "endOffset": 50
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "63857da1-8607-4cdb-a07b-2ccc917869c7",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+    "project": "fz-zsl__nilikili",
+    "line": 89,
+    "hash": "2c636bc76282e8abd6b7bce4e4b7b842",
+    "textRange": {
+      "startLine": 89,
+      "endLine": 89,
+      "startOffset": 30,
+      "endOffset": 72
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 89,
+              "endLine": 89,
+              "startOffset": 30,
+              "endOffset": 72
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 112,
+              "endLine": 112,
+              "startOffset": 30,
+              "endOffset": 72
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 135,
+              "endLine": 135,
+              "startOffset": 30,
+              "endOffset": 72
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 158,
+              "endLine": 158,
+              "startOffset": 30,
+              "endOffset": 72
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 182,
+              "endLine": 182,
+              "startOffset": 30,
+              "endOffset": 72
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 206,
+              "endLine": 206,
+              "startOffset": 30,
+              "endOffset": 72
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 230,
+              "endLine": 230,
+              "startOffset": 30,
+              "endOffset": 72
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 311,
+              "endLine": 311,
+              "startOffset": 30,
+              "endOffset": 72
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 339,
+              "endLine": 339,
+              "startOffset": 30,
+              "endOffset": 72
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 362,
+              "endLine": 362,
+              "startOffset": 30,
+              "endOffset": 72
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 386,
+              "endLine": 386,
+              "startOffset": 30,
+              "endOffset": 72
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 410,
+              "endLine": 410,
+              "startOffset": 30,
+              "endOffset": 72
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 500,
+              "endLine": 500,
+              "startOffset": 30,
+              "endOffset": 72
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 525,
+              "endLine": 525,
+              "startOffset": 30,
+              "endOffset": 72
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 561,
+              "endLine": 561,
+              "startOffset": 30,
+              "endOffset": 72
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 599,
+              "endLine": 599,
+              "startOffset": 30,
+              "endOffset": 72
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 637,
+              "endLine": 637,
+              "startOffset": 30,
+              "endOffset": 72
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 661,
+              "endLine": 661,
+              "startOffset": 30,
+              "endOffset": 72
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Wrong answer for {}: expected {}, got {}\" 18 times.",
+    "effort": "38min",
+    "debt": "38min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f7d4cd42-3dbf-4feb-ab17-cd4e954d956d",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+    "project": "fz-zsl__nilikili",
+    "line": 92,
+    "hash": "774905dcdd38cce2cd81a510322f920d",
+    "textRange": {
+      "startLine": 92,
+      "endLine": 92,
+      "startOffset": 26,
+      "endOffset": 51
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 92,
+              "endLine": 92,
+              "startOffset": 26,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 115,
+              "endLine": 115,
+              "startOffset": 26,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 138,
+              "endLine": 138,
+              "startOffset": 26,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 161,
+              "endLine": 161,
+              "startOffset": 26,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 185,
+              "endLine": 185,
+              "startOffset": 26,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 209,
+              "endLine": 209,
+              "startOffset": 26,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 233,
+              "endLine": 233,
+              "startOffset": 26,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 258,
+              "endLine": 258,
+              "startOffset": 26,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 291,
+              "endLine": 291,
+              "startOffset": 26,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 314,
+              "endLine": 314,
+              "startOffset": 26,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 342,
+              "endLine": 342,
+              "startOffset": 26,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 365,
+              "endLine": 365,
+              "startOffset": 26,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 389,
+              "endLine": 389,
+              "startOffset": 26,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 413,
+              "endLine": 413,
+              "startOffset": 26,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 446,
+              "endLine": 446,
+              "startOffset": 26,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 479,
+              "endLine": 479,
+              "startOffset": 26,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 503,
+              "endLine": 503,
+              "startOffset": 26,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 528,
+              "endLine": 528,
+              "startOffset": 26,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 540,
+              "endLine": 540,
+              "startOffset": 26,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 564,
+              "endLine": 564,
+              "startOffset": 26,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 589,
+              "endLine": 589,
+              "startOffset": 26,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 602,
+              "endLine": 602,
+              "startOffset": 26,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 627,
+              "endLine": 627,
+              "startOffset": 26,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 640,
+              "endLine": 640,
+              "startOffset": 26,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 664,
+              "endLine": 664,
+              "startOffset": 26,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Exception thrown for {}\" 25 times.",
+    "effort": "52min",
+    "debt": "52min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6b00510a-c3b6-4bc8-b2fe-fb6937ffd1ee",
+    "rule": "java:S2119",
+    "severity": "CRITICAL",
+    "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+    "project": "fz-zsl__nilikili",
+    "line": 328,
+    "hash": "134ba9af9817c567488e125439afcf2c",
+    "textRange": {
+      "startLine": 328,
+      "endLine": 328,
+      "startOffset": 25,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Save and re-use this \"Random\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "67fc3c34-c1f2-46e7-ae21-a1de1215026f",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+    "project": "fz-zsl__nilikili",
+    "line": 537,
+    "hash": "3b4f1b2ffaf8e0f5d3071412732c581e",
+    "textRange": {
+      "startLine": 537,
+      "endLine": 537,
+      "startOffset": 30,
+      "endOffset": 77
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 537,
+              "endLine": 537,
+              "startOffset": 30,
+              "endOffset": 77
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 586,
+              "endLine": 586,
+              "startOffset": 30,
+              "endOffset": 77
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkService.java",
+            "textRange": {
+              "startLine": 624,
+              "endLine": 624,
+              "startOffset": 30,
+              "endOffset": 77
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Wrong answer for {}: expected true, got false\" 3 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c50cd952-cf29-4951-9bff-2030938fbe3d",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/command/DatabaseCommand.java",
+    "project": "fz-zsl__nilikili",
+    "line": 29,
+    "hash": "62092d09beb86a6d4bb79e47c79950c7",
+    "textRange": {
+      "startLine": 29,
+      "endLine": 29,
+      "startOffset": 10,
+      "endOffset": 37
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "fz-zsl__nilikili:sustc-runner/src/main/java/io/sustc/command/DatabaseCommand.java",
+            "textRange": {
+              "startLine": 30,
+              "endLine": 30,
+              "startOffset": 10,
+              "endOffset": 40
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "20149b56-4b9b-4037-a285-391da240f587",
+    "rule": "java:S6437",
+    "severity": "BLOCKER",
+    "component": "fz-zsl__nilikili:sustc-runner/src/main/resources/application.yml",
+    "project": "fz-zsl__nilikili",
+    "line": 5,
+    "hash": "2e658169a71bfd7c558aeb7bb5830558",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 14,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Revoke and change this password, as it is compromised.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-21T18:51:42+0000",
+    "updateDate": "2026-07-21T18:51:42+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

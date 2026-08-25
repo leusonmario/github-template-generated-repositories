@@ -1,0 +1,649 @@
+[
+  {
+    "key": "89b8a609-2dce-446f-8eba-7c0712ee4941",
+    "rule": "java:S114",
+    "severity": "MINOR",
+    "component": "lorkrakt__lfg-helper:src/main/java/com/lfghelper/lfghelperconfig.java",
+    "project": "lorkrakt__lfg-helper",
+    "line": 8,
+    "hash": "dcdce4c4305c22d3dfb3c33cca39705b",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 17,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this interface name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:15:10+0000",
+    "updateDate": "2026-07-21T22:15:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b9abaa6f-cbde-4dda-b260-13e375ee998a",
+    "rule": "java:S101",
+    "severity": "MINOR",
+    "component": "lorkrakt__lfg-helper:src/main/java/com/lfghelper/lfghelperpanel.java",
+    "project": "lorkrakt__lfg-helper",
+    "line": 17,
+    "hash": "d6055a003bfd5df5fde111d6586fa29e",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 17,
+      "startOffset": 13,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:15:10+0000",
+    "updateDate": "2026-07-21T22:15:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "27a5ebcd-53be-486b-8775-4dae0a476a20",
+    "rule": "java:S2184",
+    "severity": "MINOR",
+    "component": "lorkrakt__lfg-helper:src/main/java/com/lfghelper/lfghelperpanel.java",
+    "project": "lorkrakt__lfg-helper",
+    "line": 35,
+    "hash": "97e5a141018f65fd45f30b566fdf86e5",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 52,
+      "endOffset": 53
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Cast one of the operands of this multiplication operation to a \"long\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "overflow",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:15:10+0000",
+    "updateDate": "2026-07-21T22:15:10+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4844ec67-18ff-4e3b-b323-653f4c74b101",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lorkrakt__lfg-helper:src/main/java/com/lfghelper/lfghelperpanel.java",
+    "project": "lorkrakt__lfg-helper",
+    "line": 49,
+    "hash": "00b4daf34fdbf294f99cf651c12f08df",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 49,
+      "startOffset": 28,
+      "endOffset": 35
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lorkrakt__lfg-helper:src/main/java/com/lfghelper/lfghelperpanel.java",
+            "textRange": {
+              "startLine": 49,
+              "endLine": 49,
+              "startOffset": 28,
+              "endOffset": 35
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lorkrakt__lfg-helper:src/main/java/com/lfghelper/lfghelperpanel.java",
+            "textRange": {
+              "startLine": 50,
+              "endLine": 50,
+              "startOffset": 32,
+              "endOffset": 39
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lorkrakt__lfg-helper:src/main/java/com/lfghelper/lfghelperpanel.java",
+            "textRange": {
+              "startLine": 74,
+              "endLine": 74,
+              "startOffset": 32,
+              "endOffset": 39
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Arial\" 3 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:15:10+0000",
+    "updateDate": "2026-07-21T22:15:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3983e93a-7d54-4f0e-90f5-05fe57b21336",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lorkrakt__lfg-helper:src/main/java/com/lfghelper/lfghelperpanel.java",
+    "project": "lorkrakt__lfg-helper",
+    "line": 187,
+    "hash": "e93bafdc56662a6d705867100573cdde",
+    "textRange": {
+      "startLine": 187,
+      "endLine": 187,
+      "startOffset": 26,
+      "endOffset": 33
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lorkrakt__lfg-helper:src/main/java/com/lfghelper/lfghelperpanel.java",
+            "textRange": {
+              "startLine": 187,
+              "endLine": 187,
+              "startOffset": 26,
+              "endOffset": 33
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lorkrakt__lfg-helper:src/main/java/com/lfghelper/lfghelperpanel.java",
+            "textRange": {
+              "startLine": 192,
+              "endLine": 192,
+              "startOffset": 26,
+              "endOffset": 33
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lorkrakt__lfg-helper:src/main/java/com/lfghelper/lfghelperpanel.java",
+            "textRange": {
+              "startLine": 197,
+              "endLine": 197,
+              "startOffset": 26,
+              "endOffset": 33
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lorkrakt__lfg-helper:src/main/java/com/lfghelper/lfghelperpanel.java",
+            "textRange": {
+              "startLine": 202,
+              "endLine": 202,
+              "startOffset": 26,
+              "endOffset": 33
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lorkrakt__lfg-helper:src/main/java/com/lfghelper/lfghelperpanel.java",
+            "textRange": {
+              "startLine": 207,
+              "endLine": 207,
+              "startOffset": 26,
+              "endOffset": 33
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lorkrakt__lfg-helper:src/main/java/com/lfghelper/lfghelperpanel.java",
+            "textRange": {
+              "startLine": 212,
+              "endLine": 212,
+              "startOffset": 26,
+              "endOffset": 33
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lorkrakt__lfg-helper:src/main/java/com/lfghelper/lfghelperpanel.java",
+            "textRange": {
+              "startLine": 217,
+              "endLine": 217,
+              "startOffset": 26,
+              "endOffset": 33
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"value\" 7 times.",
+    "effort": "16min",
+    "debt": "16min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:15:10+0000",
+    "updateDate": "2026-07-21T22:15:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fad98c26-94a6-4cb6-8fe6-caf4e32bcce0",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lorkrakt__lfg-helper:src/main/java/com/lfghelper/lfghelperpanel.java",
+    "project": "lorkrakt__lfg-helper",
+    "line": 188,
+    "hash": "176d5f86afe4e1b8207d9c759c503a70",
+    "textRange": {
+      "startLine": 188,
+      "endLine": 188,
+      "startOffset": 26,
+      "endOffset": 34
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lorkrakt__lfg-helper:src/main/java/com/lfghelper/lfghelperpanel.java",
+            "textRange": {
+              "startLine": 188,
+              "endLine": 188,
+              "startOffset": 26,
+              "endOffset": 34
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lorkrakt__lfg-helper:src/main/java/com/lfghelper/lfghelperpanel.java",
+            "textRange": {
+              "startLine": 193,
+              "endLine": 193,
+              "startOffset": 26,
+              "endOffset": 34
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lorkrakt__lfg-helper:src/main/java/com/lfghelper/lfghelperpanel.java",
+            "textRange": {
+              "startLine": 198,
+              "endLine": 198,
+              "startOffset": 26,
+              "endOffset": 34
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lorkrakt__lfg-helper:src/main/java/com/lfghelper/lfghelperpanel.java",
+            "textRange": {
+              "startLine": 203,
+              "endLine": 203,
+              "startOffset": 26,
+              "endOffset": 34
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lorkrakt__lfg-helper:src/main/java/com/lfghelper/lfghelperpanel.java",
+            "textRange": {
+              "startLine": 208,
+              "endLine": 208,
+              "startOffset": 26,
+              "endOffset": 34
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lorkrakt__lfg-helper:src/main/java/com/lfghelper/lfghelperpanel.java",
+            "textRange": {
+              "startLine": 213,
+              "endLine": 213,
+              "startOffset": 26,
+              "endOffset": 34
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lorkrakt__lfg-helper:src/main/java/com/lfghelper/lfghelperpanel.java",
+            "textRange": {
+              "startLine": 218,
+              "endLine": 218,
+              "startOffset": 26,
+              "endOffset": 34
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"inline\" 7 times.",
+    "effort": "16min",
+    "debt": "16min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:15:10+0000",
+    "updateDate": "2026-07-21T22:15:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "883b7d2e-2392-4268-9d11-197bb39c1e9c",
+    "rule": "java:S101",
+    "severity": "MINOR",
+    "component": "lorkrakt__lfg-helper:src/main/java/com/lfghelper/lfghelperplugin.java",
+    "project": "lorkrakt__lfg-helper",
+    "line": 21,
+    "hash": "9b058cdeb298855b71526c2dcb76f128",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 13,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:15:10+0000",
+    "updateDate": "2026-07-21T22:15:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8352da1a-f3f2-4e06-9f6e-0971f3130df8",
+    "rule": "java:S1450",
+    "severity": "MINOR",
+    "component": "lorkrakt__lfg-helper:src/main/java/com/lfghelper/lfghelperplugin.java",
+    "project": "lorkrakt__lfg-helper",
+    "line": 32,
+    "hash": "9b028e5d5713d33211614b7310934b51",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 32,
+      "startOffset": 24,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the \"panel\" field and declare it as a local variable in the relevant methods.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-21T22:15:10+0000",
+    "updateDate": "2026-07-21T22:15:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "23df292f-1f36-4e5b-afc8-1f78603f09bc",
+    "rule": "java:S101",
+    "severity": "MINOR",
+    "component": "lorkrakt__lfg-helper:src/test/java/com/lfghelper/lfghelperplugintest.java",
+    "project": "lorkrakt__lfg-helper",
+    "line": 6,
+    "hash": "baa1c8eef0c2939efed5948d8318726f",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 13,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:15:10+0000",
+    "updateDate": "2026-07-21T22:15:10+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

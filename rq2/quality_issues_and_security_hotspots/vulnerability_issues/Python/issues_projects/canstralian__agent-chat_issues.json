@@ -1,0 +1,4093 @@
+[
+  {
+    "key": "da00a94f-094a-4fcf-8bee-15d2ebb66282",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/agent_apis/src/functions/llm.py",
+    "project": "canstralian__agent-chat",
+    "line": 20,
+    "hash": "4ed1b8d3c35c85f0aba75cf00499e031",
+    "textRange": {
+      "startLine": 20,
+      "endLine": 20,
+      "startOffset": 10,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "794f9c53-dd0c-4bdf-a3df-557bda354cf1",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/agent_apis/src/functions/weather.py",
+    "project": "canstralian__agent-chat",
+    "line": 9,
+    "hash": "4ed1b8d3c35c85f0aba75cf00499e031",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 10,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ed923082-9e53-4133-bc7c-c293e9583f95",
+    "rule": "python:S1854",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/agent_telephony/twilio/livekit-trunk-setup/twilio_trunk.py",
+    "project": "canstralian__agent-chat",
+    "line": 105,
+    "hash": "2f096dfe3de017342ac7e4e68b0ffa6a",
+    "textRange": {
+      "startLine": 105,
+      "endLine": 105,
+      "startOffset": 8,
+      "endOffset": 61
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this assignment to local variable 'livekit_trunk'; the value is never used.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fa41f50b-0da1-4487-9671-c24b497b7556",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/agent_telephony/twilio/livekit_pipeline/Dockerfile",
+    "project": "canstralian__agent-chat",
+    "line": 7,
+    "hash": "51ba3a75b3e3eb72ef93811e505d7fa5",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/agent_telephony/twilio/livekit_pipeline/Dockerfile",
+            "textRange": {
+              "startLine": 12,
+              "endLine": 12,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3a0440f0-77a2-495c-855c-d4ffb15c92ef",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/agent_telephony/twilio/livekit_pipeline/src/pipeline.py",
+    "project": "canstralian__agent-chat",
+    "line": 101,
+    "hash": "273ba40a853d122b1d92a1f77946c7e1",
+    "textRange": {
+      "startLine": 101,
+      "endLine": 101,
+      "startOffset": 12,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7cad1c66-55fa-4b98-be9e-7269822a0500",
+    "rule": "python:S108",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/agent_tool/src/agents/chat_tool_functions.py",
+    "project": "canstralian__agent-chat",
+    "line": 109,
+    "hash": "1a1dc91c907325c69271ddf0c944bc72",
+    "textRange": {
+      "startLine": 109,
+      "endLine": 109,
+      "startOffset": 12,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Either remove or fill this block of code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "85dc8e6b-71ec-4fa3-ac6a-8962efaf2b65",
+    "rule": "python:S7502",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/agent_video/src/functions/pipeline.py",
+    "project": "canstralian__agent-chat",
+    "line": 159,
+    "hash": "52be66914c198d1b11f48a2900ef75e3",
+    "textRange": {
+      "startLine": 159,
+      "endLine": 159,
+      "startOffset": 12,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Save this task in a variable to prevent premature garbage collection.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "asyncio",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "437e94bf-8f2c-4c20-84c8-599d46ee571f",
+    "rule": "python:S5886",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/agent_voice/livekit/agent_stream/src/functions/livekit_token.py",
+    "project": "canstralian__agent-chat",
+    "line": 43,
+    "hash": "2d10da1f2a691fe3f3c5828b42f23585",
+    "textRange": {
+      "startLine": 43,
+      "endLine": 49,
+      "startOffset": 15,
+      "endOffset": 9
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/agent_voice/livekit/agent_stream/src/functions/livekit_token.py",
+            "textRange": {
+              "startLine": 26,
+              "endLine": 26,
+              "startOffset": 10,
+              "endOffset": 23
+            },
+            "msg": "Function definition.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/agent_voice/livekit/agent_stream/src/functions/livekit_token.py",
+            "textRange": {
+              "startLine": 26,
+              "endLine": 26,
+              "startOffset": 62,
+              "endOffset": 80
+            },
+            "msg": "Type hint.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Return a value of type \"LivekitTokenOutput\" instead of \"dict\" or update function \"livekit_token\" type hint.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "typing"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "71acf3bf-64ee-48ad-9ece-ebe0e58681f9",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/agent_voice/livekit/livekit_pipeline/Dockerfile",
+    "project": "canstralian__agent-chat",
+    "line": 7,
+    "hash": "51ba3a75b3e3eb72ef93811e505d7fa5",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/agent_voice/livekit/livekit_pipeline/Dockerfile",
+            "textRange": {
+              "startLine": 12,
+              "endLine": 12,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ddebef98-d2c5-44ad-a731-66ff22e1c3b7",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/agent_voice/livekit/livekit_pipeline/src/pipeline.py",
+    "project": "canstralian__agent-chat",
+    "line": 101,
+    "hash": "273ba40a853d122b1d92a1f77946c7e1",
+    "textRange": {
+      "startLine": 101,
+      "endLine": 101,
+      "startOffset": 12,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d4f454f2-d5d5-4df9-b430-593ba0e9145c",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/agent_voice/pipecat/pipecat_pipeline/src/pipeline.py",
+    "project": "canstralian__agent-chat",
+    "line": 41,
+    "hash": "0368e4f1d454bda6f511c8e0f3641ac8",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 41,
+      "startOffset": 12,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b2c0f787-81c1-48e0-8333-e5620a18cfb8",
+    "rule": "python:S7493",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/audio_transcript/src/functions/transcribe_audio.py",
+    "project": "canstralian__agent-chat",
+    "line": 23,
+    "hash": "54933ed3a86c2aa4034510a7646ee18e",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 15,
+      "endOffset": 42
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/audio_transcript/src/functions/transcribe_audio.py",
+            "textRange": {
+              "startLine": 14,
+              "endLine": 14,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an asynchronous file API instead of synchronous open() in this async function.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "68850a14-195f-4472-b81a-8f4dc68aa49f",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/child_workflows/schedule_workflow.py",
+    "project": "canstralian__agent-chat",
+    "line": 10,
+    "hash": "6d18847aebb7e175befcc7a5235afe92",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 4,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"runId\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3629a3af-fc37-4baa-b756-948cee97bcc1",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/child_workflows/src/workflows/parent.py",
+    "project": "canstralian__agent-chat",
+    "line": 22,
+    "hash": "3f854e34651365b5548fc8fe80a546cf",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 12,
+      "endOffset": 145
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9acb37a9-b8c0-4854-81fb-217e53098880",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/bostondynamics_spot/src/functions/bostondynamics/commands.py",
+    "project": "canstralian__agent-chat",
+    "line": 12,
+    "hash": "8ccd37e3f582cfc6f74be93396a31d67",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 4,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused local variable \"rv\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e751a8d3-4e05-41b2-a4da-8ffbe0c1dee5",
+    "rule": "python:S7487",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/bostondynamics_spot/src/functions/bostondynamics/commands.py",
+    "project": "canstralian__agent-chat",
+    "line": 23,
+    "hash": "7d1f41806e9133d4fb85f3ee945e4521",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 4,
+      "endOffset": 13
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/bostondynamics_spot/src/functions/bostondynamics/commands.py",
+            "textRange": {
+              "startLine": 17,
+              "endLine": 17,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an async subprocess call in this async function instead of a synchronous one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6500ac64-6c39-4dea-a532-5fd729a563e6",
+    "rule": "python:S7487",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/bostondynamics_spot/src/functions/bostondynamics/commands.py",
+    "project": "canstralian__agent-chat",
+    "line": 25,
+    "hash": "a5fad17b51338a53f182ffd85d942086",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 4,
+      "endOffset": 13
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/bostondynamics_spot/src/functions/bostondynamics/commands.py",
+            "textRange": {
+              "startLine": 17,
+              "endLine": 17,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an async subprocess call in this async function instead of a synchronous one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1f4c32d1-396a-4866-8a04-cbdb2c4cd00a",
+    "rule": "python:S7488",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/bostondynamics_spot/src/functions/bostondynamics/commands.py",
+    "project": "canstralian__agent-chat",
+    "line": 38,
+    "hash": "e31cc24855bb08c1551a3b2d7cc7cd65",
+    "textRange": {
+      "startLine": 38,
+      "endLine": 38,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/bostondynamics_spot/src/functions/bostondynamics/commands.py",
+            "textRange": {
+              "startLine": 17,
+              "endLine": 17,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Replace this call to time.sleep() with an asynchronous sleep function.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9d21a751-8087-4f52-8150-6b2dcf7d2f34",
+    "rule": "python:S7488",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/bostondynamics_spot/src/functions/bostondynamics/commands.py",
+    "project": "canstralian__agent-chat",
+    "line": 46,
+    "hash": "f09f74ba6aa784a2bb29ec9b126c3f64",
+    "textRange": {
+      "startLine": 46,
+      "endLine": 46,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/bostondynamics_spot/src/functions/bostondynamics/commands.py",
+            "textRange": {
+              "startLine": 17,
+              "endLine": 17,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Replace this call to time.sleep() with an asynchronous sleep function.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5a6644d4-ef68-466d-a390-7116895de69d",
+    "rule": "python:S7488",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/bostondynamics_spot/src/functions/bostondynamics/commands.py",
+    "project": "canstralian__agent-chat",
+    "line": 50,
+    "hash": "f09f74ba6aa784a2bb29ec9b126c3f64",
+    "textRange": {
+      "startLine": 50,
+      "endLine": 50,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/bostondynamics_spot/src/functions/bostondynamics/commands.py",
+            "textRange": {
+              "startLine": 17,
+              "endLine": 17,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Replace this call to time.sleep() with an asynchronous sleep function.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5245512c-417b-4c57-8235-31220a4ed231",
+    "rule": "python:S7488",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/bostondynamics_spot/src/functions/bostondynamics/commands.py",
+    "project": "canstralian__agent-chat",
+    "line": 56,
+    "hash": "f09f74ba6aa784a2bb29ec9b126c3f64",
+    "textRange": {
+      "startLine": 56,
+      "endLine": 56,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/bostondynamics_spot/src/functions/bostondynamics/commands.py",
+            "textRange": {
+              "startLine": 17,
+              "endLine": 17,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Replace this call to time.sleep() with an asynchronous sleep function.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a1a45db7-8f04-4231-bbd3-453a21728fab",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/bostondynamics_spot/src/functions/bostondynamics/spot_controller.py",
+    "project": "canstralian__agent-chat",
+    "line": 28,
+    "hash": "861b46f948efd4367c712fdaee0db704",
+    "textRange": {
+      "startLine": 28,
+      "endLine": 28,
+      "startOffset": 8,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused local variable \"id_client\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d2b927a7-4849-4533-8f3c-17ea367f6079",
+    "rule": "python:S5754",
+    "severity": "CRITICAL",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/bostondynamics_spot/src/functions/bostondynamics/spot_controller.py",
+    "project": "canstralian__agent-chat",
+    "line": 52,
+    "hash": "3e264f5fbab10735799511f21ca70842",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 52,
+      "startOffset": 12,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify an exception class to catch or reraise the exception",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "bad-practice",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "058286ce-4843-46cb-8e48-a46562b49660",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/bostondynamics_spot/src/functions/bostondynamics/spot_controller.py",
+    "project": "canstralian__agent-chat",
+    "line": 115,
+    "hash": "bad735b62cbeb51157252cb8e11a58c1",
+    "textRange": {
+      "startLine": 115,
+      "endLine": 115,
+      "startOffset": 8,
+      "endOffset": 118
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "df8d8df2-5fc4-44ea-9a2c-a8168cf04501",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/bostondynamics_spot/src/functions/bostondynamics/spot_controller.py",
+    "project": "canstralian__agent-chat",
+    "line": 135,
+    "hash": "fbb24c83a92e2e769368ed42e00225cd",
+    "textRange": {
+      "startLine": 135,
+      "endLine": 135,
+      "startOffset": 8,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"vo_T_body\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1f480620-249c-4d6c-8444-c96d10cd0aea",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/defense_quickstart_audio_transcription_translation/frontend.py",
+    "project": "canstralian__agent-chat",
+    "line": 45,
+    "hash": "d9a40c8c94af1acd309ca87b7cb34ad0",
+    "textRange": {
+      "startLine": 45,
+      "endLine": 45,
+      "startOffset": 21,
+      "endOffset": 97
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6107a84e-3c57-4c1f-8d1e-93c022bc9d53",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/defense_quickstart_audio_transcription_translation/src/app.py",
+    "project": "canstralian__agent-chat",
+    "line": 33,
+    "hash": "6d18847aebb7e175befcc7a5235afe92",
+    "textRange": {
+      "startLine": 33,
+      "endLine": 33,
+      "startOffset": 8,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"runId\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "48e73351-839f-452e-bcb5-8651926d9c41",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/defense_quickstart_audio_transcription_translation/src/functions/transcribe.py",
+    "project": "canstralian__agent-chat",
+    "line": 15,
+    "hash": "70a40516d77e84df0affa4515089f444",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 18,
+      "endOffset": 54
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "97b9ce54-6019-48c0-a336-25699f89e776",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/defense_quickstart_audio_transcription_translation/src/functions/transcribe.py",
+    "project": "canstralian__agent-chat",
+    "line": 26,
+    "hash": "9238bd3d48a2a7e68a94509e7809107c",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 19,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8af0ecf2-d6e0-4614-82a0-1f83391834a0",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/defense_quickstart_audio_transcription_translation/src/functions/translate.py",
+    "project": "canstralian__agent-chat",
+    "line": 15,
+    "hash": "142e593ef13cb04db9f4931a54740b30",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 18,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "61349b58-f0f4-4c63-b0a9-ef76f0d415fd",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/defense_quickstart_denoise/src/app.py",
+    "project": "canstralian__agent-chat",
+    "line": 33,
+    "hash": "6d18847aebb7e175befcc7a5235afe92",
+    "textRange": {
+      "startLine": 33,
+      "endLine": 33,
+      "startOffset": 8,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"runId\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2890c093-7742-4f27-a3ab-0c368aee5e0b",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/defense_quickstart_news_scraper_summarizer/src/app.py",
+    "project": "canstralian__agent-chat",
+    "line": 36,
+    "hash": "6d18847aebb7e175befcc7a5235afe92",
+    "textRange": {
+      "startLine": 36,
+      "endLine": 36,
+      "startOffset": 8,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"runId\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6a27dbb3-52c5-419e-b19d-e690efb84cad",
+    "rule": "python:S7499",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/defense_quickstart_news_scraper_summarizer/src/functions/crawl/website.py",
+    "project": "canstralian__agent-chat",
+    "line": 9,
+    "hash": "669d294f3bfec531e89ed34c5df89f53",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 19,
+      "endOffset": 31
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/defense_quickstart_news_scraper_summarizer/src/functions/crawl/website.py",
+            "textRange": {
+              "startLine": 6,
+              "endLine": 6,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an async HTTP client in this async function instead of a synchronous one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio",
+      "http"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4473c891-ef99-4571-bd44-caa272347a1b",
+    "rule": "python:S7499",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/defense_quickstart_news_scraper_summarizer/src/functions/rss/pull.py",
+    "project": "canstralian__agent-chat",
+    "line": 11,
+    "hash": "3586fb51f46a00ba4b051ba38ce566e6",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 19,
+      "endOffset": 31
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/defense_quickstart_news_scraper_summarizer/src/functions/rss/pull.py",
+            "textRange": {
+              "startLine": 8,
+              "endLine": 8,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an async HTTP client in this async function instead of a synchronous one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio",
+      "http"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0ab56736-baa7-476c-b88d-10c8d39c191a",
+    "rule": "python:S7499",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/elevenlabs/src/functions/function.py",
+    "project": "canstralian__agent-chat",
+    "line": 59,
+    "hash": "a0b47b7a598867c418a95ec199b14b04",
+    "textRange": {
+      "startLine": 59,
+      "endLine": 59,
+      "startOffset": 19,
+      "endOffset": 32
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/elevenlabs/src/functions/function.py",
+            "textRange": {
+              "startLine": 9,
+              "endLine": 9,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an async HTTP client in this async function instead of a synchronous one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio",
+      "http"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fdf45a66-68b6-482b-bd37-5ee9695e8836",
+    "rule": "python:S7493",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/elevenlabs/src/functions/function.py",
+    "project": "canstralian__agent-chat",
+    "line": 108,
+    "hash": "74c24cecf3947d711174f4880b7f4520",
+    "textRange": {
+      "startLine": 108,
+      "endLine": 108,
+      "startOffset": 13,
+      "endOffset": 40
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/elevenlabs/src/functions/function.py",
+            "textRange": {
+              "startLine": 80,
+              "endLine": 80,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an asynchronous file API instead of synchronous open() in this async function.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a7f9aa5a-310b-4a44-b611-f6bc421d407a",
+    "rule": "python:S7499",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/elevenlabs/src/functions/function.py",
+    "project": "canstralian__agent-chat",
+    "line": 117,
+    "hash": "959a495091647db8cccf7251327540c6",
+    "textRange": {
+      "startLine": 117,
+      "endLine": 117,
+      "startOffset": 23,
+      "endOffset": 36
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/elevenlabs/src/functions/function.py",
+            "textRange": {
+              "startLine": 80,
+              "endLine": 80,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an async HTTP client in this async function instead of a synchronous one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio",
+      "http"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e21c9c25-e317-4315-81e7-a27e38a8e50b",
+    "rule": "python:S3626",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/fastapi_gemini_feedback/src/app.py",
+    "project": "canstralian__agent-chat",
+    "line": 61,
+    "hash": "e70c4df10ef0983b9c8c31bd06b2a2c3",
+    "textRange": {
+      "startLine": 61,
+      "endLine": 61,
+      "startOffset": 4,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant return.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "redundant",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "64181dec-80b0-497e-8e7f-b3ba4d2fce21",
+    "rule": "python:S3626",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/fastapi_gemini_feedback/src/app.py",
+    "project": "canstralian__agent-chat",
+    "line": 76,
+    "hash": "e70c4df10ef0983b9c8c31bd06b2a2c3",
+    "textRange": {
+      "startLine": 76,
+      "endLine": 76,
+      "startOffset": 4,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant return.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "redundant",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "441d6478-411a-4773-b0d8-21acd80ee73b",
+    "rule": "python:S1700",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/fastapi_gemini_feedback/src/workflows/gemini_generate_content.py",
+    "project": "canstralian__agent-chat",
+    "line": 11,
+    "hash": "93b9521ae0d0a60bf8c41f3987fb98a0",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 4,
+      "endOffset": 12
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/fastapi_gemini_feedback/src/workflows/gemini_generate_content.py",
+            "textRange": {
+              "startLine": 10,
+              "endLine": 10,
+              "startOffset": 6,
+              "endOffset": 14
+            },
+            "msg": "Class declaration",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Rename field \"feedback\"",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e37fdfa8-6aea-497b-bfb8-a939dc46895a",
+    "rule": "python:S1700",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/fastapi_gemini_feedback/src/workflows/gemini_generate_content.py",
+    "project": "canstralian__agent-chat",
+    "line": 15,
+    "hash": "87431afbbcd34ce1607f0c41a0fa3052",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 4,
+      "endOffset": 7
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/fastapi_gemini_feedback/src/workflows/gemini_generate_content.py",
+            "textRange": {
+              "startLine": 14,
+              "endLine": 14,
+              "startOffset": 6,
+              "endOffset": 9
+            },
+            "msg": "Class declaration",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Rename field \"end\"",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e55fddfa-82f7-4e57-8601-9bddcdae62c2",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/fastapi_gemini_feedback/src/workflows/gemini_generate_content.py",
+    "project": "canstralian__agent-chat",
+    "line": 34,
+    "hash": "f72c0e3ba6702155e0b097a2a213252f",
+    "textRange": {
+      "startLine": 34,
+      "endLine": 34,
+      "startOffset": 17,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dc3c0a88-2155-4376-9766-bb22bc756d95",
+    "rule": "python:S3626",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/fastapi_gemini_feedback/src/workflows/gemini_generate_content.py",
+    "project": "canstralian__agent-chat",
+    "line": 44,
+    "hash": "e70c4df10ef0983b9c8c31bd06b2a2c3",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 44,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant return.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "redundant",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "65473890-6184-45a9-9f09-409e6f3dd4ae",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/fastapi_togetherai_llama/src/app.py",
+    "project": "canstralian__agent-chat",
+    "line": 33,
+    "hash": "6d18847aebb7e175befcc7a5235afe92",
+    "textRange": {
+      "startLine": 33,
+      "endLine": 33,
+      "startOffset": 8,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"runId\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "84579170-791c-4b32-b69e-d5b1f5fd1a3c",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/flask_gemini/src/app.py",
+    "project": "canstralian__agent-chat",
+    "line": 34,
+    "hash": "6d18847aebb7e175befcc7a5235afe92",
+    "textRange": {
+      "startLine": 34,
+      "endLine": 34,
+      "startOffset": 8,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"runId\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e6db61a4-6d7e-4a43-8607-c7807826307e",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/flask_togetherai_llamaindex/schedule_workflow.py",
+    "project": "canstralian__agent-chat",
+    "line": 12,
+    "hash": "6d18847aebb7e175befcc7a5235afe92",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 4,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"runId\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "adfefb7a-b5ab-4ee1-a4f7-7e49f13900f1",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/flask_togetherai_llamaindex/src/app.py",
+    "project": "canstralian__agent-chat",
+    "line": 22,
+    "hash": "6d18847aebb7e175befcc7a5235afe92",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 8,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"runId\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "328463ab-9eb8-4ca7-8cf4-0318cf6417ba",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/gemini/schedule_workflow.py",
+    "project": "canstralian__agent-chat",
+    "line": 13,
+    "hash": "6d18847aebb7e175befcc7a5235afe92",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 4,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"runId\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3a7354da-8a3e-460e-b3de-1da4fb99b9ac",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/gemini/src/functions/tools.py",
+    "project": "canstralian__agent-chat",
+    "line": 124,
+    "hash": "8c37ebe7ab33cd38c12e457a7906f51f",
+    "textRange": {
+      "startLine": 124,
+      "endLine": 124,
+      "startOffset": 4,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused local variable \"description\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "834b7929-7e7f-4a43-9b03-a5a0b9e4517b",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/gemini/src/functions/tools.py",
+    "project": "canstralian__agent-chat",
+    "line": 131,
+    "hash": "45ffb0fd3e5a43de237723aa92377a30",
+    "textRange": {
+      "startLine": 131,
+      "endLine": 131,
+      "startOffset": 4,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused local variable \"description\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "719911ea-d786-4113-9401-389111291038",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/gemini/src/functions/tools.py",
+    "project": "canstralian__agent-chat",
+    "line": 138,
+    "hash": "62cfb21df0e23f9758ac4933748ad2cd",
+    "textRange": {
+      "startLine": 138,
+      "endLine": 138,
+      "startOffset": 4,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused local variable \"description\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a05821c2-935e-45b8-91c9-073275190228",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/gemini/src/workflows/multi_function_call_advanced.py",
+    "project": "canstralian__agent-chat",
+    "line": 25,
+    "hash": "c5df3370121ec4703c851e4bcff2c975",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 14,
+      "endOffset": 17
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/gemini/src/workflows/multi_function_call_advanced.py",
+            "textRange": {
+              "startLine": 32,
+              "endLine": 32,
+              "startOffset": 8,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/gemini/src/workflows/multi_function_call_advanced.py",
+            "textRange": {
+              "startLine": 45,
+              "endLine": 45,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/gemini/src/workflows/multi_function_call_advanced.py",
+            "textRange": {
+              "startLine": 45,
+              "endLine": 45,
+              "startOffset": 26,
+              "endOffset": 28
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/gemini/src/workflows/multi_function_call_advanced.py",
+            "textRange": {
+              "startLine": 50,
+              "endLine": 50,
+              "startOffset": 12,
+              "endOffset": 15
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/gemini/src/workflows/multi_function_call_advanced.py",
+            "textRange": {
+              "startLine": 51,
+              "endLine": 51,
+              "startOffset": 16,
+              "endOffset": 19
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/gemini/src/workflows/multi_function_call_advanced.py",
+            "textRange": {
+              "startLine": 52,
+              "endLine": 52,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/gemini/src/workflows/multi_function_call_advanced.py",
+            "textRange": {
+              "startLine": 54,
+              "endLine": 54,
+              "startOffset": 20,
+              "endOffset": 24
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/gemini/src/workflows/multi_function_call_advanced.py",
+            "textRange": {
+              "startLine": 59,
+              "endLine": 59,
+              "startOffset": 24,
+              "endOffset": 26
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/gemini/src/workflows/multi_function_call_advanced.py",
+            "textRange": {
+              "startLine": 69,
+              "endLine": 69,
+              "startOffset": 28,
+              "endOffset": 34
+            },
+            "msg": "+6 (incl 5 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/gemini/src/workflows/multi_function_call_advanced.py",
+            "textRange": {
+              "startLine": 73,
+              "endLine": 73,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/gemini/src/workflows/multi_function_call_advanced.py",
+            "textRange": {
+              "startLine": 76,
+              "endLine": 76,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/gemini/src/workflows/multi_function_call_advanced.py",
+            "textRange": {
+              "startLine": 80,
+              "endLine": 80,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 30 to the 15 allowed.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "39f2dfa3-d6c1-4102-a0c0-3a4c12e504b5",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/llama_quickstart/src/app.py",
+    "project": "canstralian__agent-chat",
+    "line": 35,
+    "hash": "6d18847aebb7e175befcc7a5235afe92",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 8,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"runId\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9c1b2c34-8f29-4e73-9b09-9721c2a753f4",
+    "rule": "python:S7499",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/llama_quickstart/src/functions/crawl/website.py",
+    "project": "canstralian__agent-chat",
+    "line": 9,
+    "hash": "669d294f3bfec531e89ed34c5df89f53",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 19,
+      "endOffset": 31
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/llama_quickstart/src/functions/crawl/website.py",
+            "textRange": {
+              "startLine": 6,
+              "endLine": 6,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an async HTTP client in this async function instead of a synchronous one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio",
+      "http"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "76ac2f35-ac91-4814-b39f-e4e17d3436db",
+    "rule": "python:S7499",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/llama_quickstart/src/functions/hn/search.py",
+    "project": "canstralian__agent-chat",
+    "line": 9,
+    "hash": "bdeee1eed1e78fd1300052c59eeeb79e",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 19,
+      "endOffset": 31
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/llama_quickstart/src/functions/hn/search.py",
+            "textRange": {
+              "startLine": 6,
+              "endLine": 6,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an async HTTP client in this async function instead of a synchronous one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio",
+      "http"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0ee8fb39-7a00-4b66-8e6d-50aafc18c471",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/llama_quickstart/src/workflows/workflow.py",
+    "project": "canstralian__agent-chat",
+    "line": 29,
+    "hash": "1d03a98c61dd18917334f4112dd48c3a",
+    "textRange": {
+      "startLine": 29,
+      "endLine": 29,
+      "startOffset": 28,
+      "endOffset": 96
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c4ffdae5-ec4d-4a50-bfe3-ae3840338f75",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/llama_quickstart/src/workflows/workflow.py",
+    "project": "canstralian__agent-chat",
+    "line": 34,
+    "hash": "cec047d99c99ec28f6cdf96f9debe3dc",
+    "textRange": {
+      "startLine": 34,
+      "endLine": 34,
+      "startOffset": 24,
+      "endOffset": 255
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d34de8e3-bba2-4932-98ff-e447380fdf44",
+    "rule": "python:S7493",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/lmnt/src/functions/synthesize.py",
+    "project": "canstralian__agent-chat",
+    "line": 23,
+    "hash": "718b6a5f49e331ddaf124c2528999599",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 13,
+      "endOffset": 34
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/lmnt/src/functions/synthesize.py",
+            "textRange": {
+              "startLine": 15,
+              "endLine": 15,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an asynchronous file API instead of synchronous open() in this async function.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1e687369-72a7-44bc-9143-34c386dbb11b",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/lmnt/src/functions/utils/client.py",
+    "project": "canstralian__agent-chat",
+    "line": 8,
+    "hash": "598cf99e5af10f3b6fe9299961ab0149",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 10,
+      "endOffset": 21
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/lmnt/src/functions/utils/client.py",
+            "textRange": {
+              "startLine": 8,
+              "endLine": 8,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b2438b12-dcba-4a26-99d9-13883c914498",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/streamlit_fastapi_togetherai_llama/src/app.py",
+    "project": "canstralian__agent-chat",
+    "line": 34,
+    "hash": "6d18847aebb7e175befcc7a5235afe92",
+    "textRange": {
+      "startLine": 34,
+      "endLine": 34,
+      "startOffset": 8,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"runId\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b7fb9eb8-0b6d-4708-8a7c-9e18a78ec9ae",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/weaviate_search/schedule_workflow.py",
+    "project": "canstralian__agent-chat",
+    "line": 10,
+    "hash": "6d18847aebb7e175befcc7a5235afe92",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 4,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"runId\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4141e3b6-3633-4f6f-831a-2df32bae2857",
+    "rule": "python:S7499",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/weaviate_search/src/functions/seed_database.py",
+    "project": "canstralian__agent-chat",
+    "line": 24,
+    "hash": "f8b516d2702e92c0d1c3a1fa85ca5e23",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 15,
+      "endOffset": 27
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/community/weaviate_search/src/functions/seed_database.py",
+            "textRange": {
+              "startLine": 9,
+              "endLine": 9,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an async HTTP client in this async function instead of a synchronous one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio",
+      "http"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "080fcc35-0750-41f6-96d7-fe23dd65a449",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/community/weaviate_search/src/functions/seed_database.py",
+    "project": "canstralian__agent-chat",
+    "line": 27,
+    "hash": "554a02653529d4b6d62692b39b01178b",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 24,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e7a329bb-6866-4213-bcc4-74eb2ea08a51",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/email_sender/schedule_workflow.py",
+    "project": "canstralian__agent-chat",
+    "line": 22,
+    "hash": "c8b9ffe93c85069914fd26ff8e57e73e",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 14,
+      "endOffset": 67
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2154c923-cb90-4014-943e-cfb7397a77ae",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/email_sender/schedule_workflow_failure.py",
+    "project": "canstralian__agent-chat",
+    "line": 22,
+    "hash": "c8b9ffe93c85069914fd26ff8e57e73e",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 14,
+      "endOffset": 67
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "678fb09f-41b9-40e3-b1e8-8bdc69759f71",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/encryption/src/codec_server.py",
+    "project": "canstralian__agent-chat",
+    "line": 13,
+    "hash": "7b1053c0b4aea9c51c6cda7ba229171b",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 14,
+      "endOffset": 26
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/encryption/src/codec_server.py",
+            "textRange": {
+              "startLine": 13,
+              "endLine": 13,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2fe3b1cb-b0ee-482b-817b-fd92c2d65955",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/human_loop/schedule_workflow.py",
+    "project": "canstralian__agent-chat",
+    "line": 10,
+    "hash": "6d18847aebb7e175befcc7a5235afe92",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 4,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"runId\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "231a944b-35a6-49c9-acdc-0ed7ada43dc0",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/human_loop/schedule_workflow.py",
+    "project": "canstralian__agent-chat",
+    "line": 24,
+    "hash": "bcbafe48bc1f37b5d56f6cdcd5365711",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 4,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused local variable \"end\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "46dfd1d6-3b3a-4eda-bb66-508bc59e27e0",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/human_loop/src/functions/function.py",
+    "project": "canstralian__agent-chat",
+    "line": 10,
+    "hash": "088e23dcf56b424938bcb624e95d55c4",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 11,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "24897181-e817-4478-bbb7-6c763aab244c",
+    "rule": "python:S1700",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/human_loop/src/workflows/workflow.py",
+    "project": "canstralian__agent-chat",
+    "line": 10,
+    "hash": "93b9521ae0d0a60bf8c41f3987fb98a0",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 4,
+      "endOffset": 12
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/human_loop/src/workflows/workflow.py",
+            "textRange": {
+              "startLine": 9,
+              "endLine": 9,
+              "startOffset": 6,
+              "endOffset": 14
+            },
+            "msg": "Class declaration",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Rename field \"feedback\"",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ddaa872d-0077-4dba-8f9c-6472c87682e7",
+    "rule": "python:S1700",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/human_loop/src/workflows/workflow.py",
+    "project": "canstralian__agent-chat",
+    "line": 14,
+    "hash": "87431afbbcd34ce1607f0c41a0fa3052",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 4,
+      "endOffset": 7
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/human_loop/src/workflows/workflow.py",
+            "textRange": {
+              "startLine": 13,
+              "endLine": 13,
+              "startOffset": 6,
+              "endOffset": 9
+            },
+            "msg": "Class declaration",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Rename field \"end\"",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "00103d8e-6021-4d63-badb-2843b9be51ba",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/openai_greet/schedule_workflow.py",
+    "project": "canstralian__agent-chat",
+    "line": 14,
+    "hash": "6d18847aebb7e175befcc7a5235afe92",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 4,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"runId\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3a366b7a-6737-411b-b86e-4d7f36ecf69f",
+    "rule": "python:S7499",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/pdf_ocr/src/functions/torch_ocr.py",
+    "project": "canstralian__agent-chat",
+    "line": 31,
+    "hash": "c1a2dda397289fc0c24979a2d35e997d",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 19,
+      "endOffset": 31
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/pdf_ocr/src/functions/torch_ocr.py",
+            "textRange": {
+              "startLine": 26,
+              "endLine": 26,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an async HTTP client in this async function instead of a synchronous one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio",
+      "http"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f9077e73-ad31-4634-9125-522318fdd4ad",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/pdf_ocr/src/functions/torch_ocr.py",
+    "project": "canstralian__agent-chat",
+    "line": 71,
+    "hash": "ee04982dc4a89b168ff55442aecad974",
+    "textRange": {
+      "startLine": 71,
+      "endLine": 71,
+      "startOffset": 8,
+      "endOffset": 28
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/pdf_ocr/src/functions/torch_ocr.py",
+            "textRange": {
+              "startLine": 76,
+              "endLine": 76,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/pdf_ocr/src/functions/torch_ocr.py",
+            "textRange": {
+              "startLine": 78,
+              "endLine": 78,
+              "startOffset": 12,
+              "endOffset": 15
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/pdf_ocr/src/functions/torch_ocr.py",
+            "textRange": {
+              "startLine": 79,
+              "endLine": 79,
+              "startOffset": 16,
+              "endOffset": 19
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/pdf_ocr/src/functions/torch_ocr.py",
+            "textRange": {
+              "startLine": 81,
+              "endLine": 81,
+              "startOffset": 20,
+              "endOffset": 23
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/pdf_ocr/src/functions/torch_ocr.py",
+            "textRange": {
+              "startLine": 82,
+              "endLine": 82,
+              "startOffset": 24,
+              "endOffset": 26
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "canstralian__agent-chat:temp_repos/agent-chat/pdf_ocr/src/functions/torch_ocr.py",
+            "textRange": {
+              "startLine": 84,
+              "endLine": 84,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.",
+    "effort": "9min",
+    "debt": "9min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1773d6f6-15de-40ec-b670-0812b5ad941e",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/re_act/schedule_workflow.py",
+    "project": "canstralian__agent-chat",
+    "line": 10,
+    "hash": "6d18847aebb7e175befcc7a5235afe92",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 4,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"runId\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6e9458d1-60d9-488d-9034-92975a08b63a",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/re_act/src/functions/decide.py",
+    "project": "canstralian__agent-chat",
+    "line": 46,
+    "hash": "961f82928d379672466df24e274860ff",
+    "textRange": {
+      "startLine": 46,
+      "endLine": 48,
+      "startOffset": 31,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "15c7ad5e-7e77-46ed-97b6-7f522ae29131",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "canstralian__agent-chat:temp_repos/agent-chat/re_act/src/functions/generate_email_content.py",
+    "project": "canstralian__agent-chat",
+    "line": 24,
+    "hash": "961f82928d379672466df24e274860ff",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 26,
+      "startOffset": 31,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T21:45:25+0000",
+    "updateDate": "2026-07-17T21:45:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

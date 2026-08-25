@@ -1,0 +1,5884 @@
+[
+  {
+    "key": "4c9ed84e-a30f-406d-bfcb-0b2ae0fc7410",
+    "rule": "java:S1118",
+    "severity": "MAJOR",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdCardinalHelper.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 35,
+    "hash": "181b5d83832f68b9cfeb7d473a5febbe",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 13,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a private constructor to hide the implicit public one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "72691df7-270b-4c2e-ba15-6ad5cd09cdc9",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdCardinalHelper.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 67,
+    "hash": "c4b19e409a1e12bafc9f15a39ae6c7cc",
+    "textRange": {
+      "startLine": 67,
+      "endLine": 67,
+      "startOffset": 25,
+      "endOffset": 33
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdCardinalHelper.java",
+            "textRange": {
+              "startLine": 67,
+              "endLine": 67,
+              "startOffset": 25,
+              "endOffset": 33
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdCardinalHelper.java",
+            "textRange": {
+              "startLine": 76,
+              "endLine": 76,
+              "startOffset": 33,
+              "endOffset": 41
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdCardinalHelper.java",
+            "textRange": {
+              "startLine": 76,
+              "endLine": 76,
+              "startOffset": 60,
+              "endOffset": 68
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"warmer\" 3 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "25bf6b52-4c31-4af0-bd81-3360b326b625",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdCardinalHelper.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 68,
+    "hash": "bc170e9bd0fe9d23da3e8502b0191582",
+    "textRange": {
+      "startLine": 68,
+      "endLine": 68,
+      "startOffset": 25,
+      "endOffset": 33
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdCardinalHelper.java",
+            "textRange": {
+              "startLine": 68,
+              "endLine": 68,
+              "startOffset": 25,
+              "endOffset": 33
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdCardinalHelper.java",
+            "textRange": {
+              "startLine": 78,
+              "endLine": 78,
+              "startOffset": 33,
+              "endOffset": 41
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdCardinalHelper.java",
+            "textRange": {
+              "startLine": 78,
+              "endLine": 78,
+              "startOffset": 60,
+              "endOffset": 68
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"colder\" 3 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "624b8374-3cb1-4256-be67-bd8a2aa8a6e7",
+    "rule": "java:S115",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperConfig.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 42,
+    "hash": "90dd917655caaec2e41a7896148f9c10",
+    "textRange": {
+      "startLine": 42,
+      "endLine": 42,
+      "startOffset": 8,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8fb132ed-4a68-4745-80b5-d19366a328ed",
+    "rule": "java:S115",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperConfig.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 77,
+    "hash": "827c53f25595b0ea1499c5c4e6e2283b",
+    "textRange": {
+      "startLine": 77,
+      "endLine": 77,
+      "startOffset": 8,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cc4b1021-5c51-4b33-be92-b1d751be2acb",
+    "rule": "java:S115",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperConfig.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 132,
+    "hash": "e0d2cc082b014ab5a9336b093100c9d1",
+    "textRange": {
+      "startLine": 132,
+      "endLine": 132,
+      "startOffset": 8,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0fb8c9c6-bf74-4a08-8b1e-b0d813e45c86",
+    "rule": "java:S115",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperConfig.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 247,
+    "hash": "8c7832207b5a70974058377dcb8d9986",
+    "textRange": {
+      "startLine": 247,
+      "endLine": 247,
+      "startOffset": 8,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "15495a5c-a539-4f17-83a1-e6229e431ab7",
+    "rule": "java:S3776",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperOverlay.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 56,
+    "hash": "afaf74755c285230677f538072823f8d",
+    "textRange": {
+      "startLine": 56,
+      "endLine": 56,
+      "startOffset": 21,
+      "endOffset": 27
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperOverlay.java",
+            "textRange": {
+              "startLine": 57,
+              "endLine": 57,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperOverlay.java",
+            "textRange": {
+              "startLine": 63,
+              "endLine": 63,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperOverlay.java",
+            "textRange": {
+              "startLine": 67,
+              "endLine": 67,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperOverlay.java",
+            "textRange": {
+              "startLine": 73,
+              "endLine": 73,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperOverlay.java",
+            "textRange": {
+              "startLine": 75,
+              "endLine": 75,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperOverlay.java",
+            "textRange": {
+              "startLine": 75,
+              "endLine": 75,
+              "startOffset": 41,
+              "endOffset": 43
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperOverlay.java",
+            "textRange": {
+              "startLine": 79,
+              "endLine": 79,
+              "startOffset": 20,
+              "endOffset": 23
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperOverlay.java",
+            "textRange": {
+              "startLine": 80,
+              "endLine": 80,
+              "startOffset": 24,
+              "endOffset": 26
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperOverlay.java",
+            "textRange": {
+              "startLine": 86,
+              "endLine": 86,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperOverlay.java",
+            "textRange": {
+              "startLine": 86,
+              "endLine": 86,
+              "startOffset": 54,
+              "endOffset": 56
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperOverlay.java",
+            "textRange": {
+              "startLine": 88,
+              "endLine": 88,
+              "startOffset": 24,
+              "endOffset": 26
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperOverlay.java",
+            "textRange": {
+              "startLine": 90,
+              "endLine": 90,
+              "startOffset": 31,
+              "endOffset": 33
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperOverlay.java",
+            "textRange": {
+              "startLine": 92,
+              "endLine": 92,
+              "startOffset": 26,
+              "endOffset": 30
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperOverlay.java",
+            "textRange": {
+              "startLine": 110,
+              "endLine": 110,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperOverlay.java",
+            "textRange": {
+              "startLine": 114,
+              "endLine": 114,
+              "startOffset": 46,
+              "endOffset": 47
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperOverlay.java",
+            "textRange": {
+              "startLine": 116,
+              "endLine": 116,
+              "startOffset": 55,
+              "endOffset": 56
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperOverlay.java",
+            "textRange": {
+              "startLine": 117,
+              "endLine": 117,
+              "startOffset": 55,
+              "endOffset": 56
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this method to reduce its Cognitive Complexity from 45 to the 15 allowed.",
+    "effort": "35min",
+    "debt": "35min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "402336d9-79b0-4ba7-aa05-e5708e65fbc2",
+    "rule": "java:S1640",
+    "severity": "MINOR",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 116,
+    "hash": "63c99b2abf9eb138d90fd1ce1363f112",
+    "textRange": {
+      "startLine": 116,
+      "endLine": 116,
+      "startOffset": 61,
+      "endOffset": 76
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Convert this Map to an EnumMap.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "29bebcef-e614-44a1-b13c-b9f6a33cb5ac",
+    "rule": "java:S1872",
+    "severity": "MAJOR",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 228,
+    "hash": "b38164c7bf9640e186f7b1ff972252d3",
+    "textRange": {
+      "startLine": 228,
+      "endLine": 228,
+      "startOffset": 8,
+      "endOffset": 61
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use an \"instanceof\" comparison instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "73704104-1cb6-4bca-b238-8406aa7a372d",
+    "rule": "java:S3776",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 260,
+    "hash": "715c2565c684ab5273c2cc46fa6c2e06",
+    "textRange": {
+      "startLine": 260,
+      "endLine": 260,
+      "startOffset": 14,
+      "endOffset": 37
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 261,
+              "endLine": 261,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 264,
+              "endLine": 264,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 268,
+              "endLine": 268,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 270,
+              "endLine": 270,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 273,
+              "endLine": 273,
+              "startOffset": 5,
+              "endOffset": 8
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 275,
+              "endLine": 275,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 280,
+              "endLine": 280,
+              "startOffset": 5,
+              "endOffset": 7
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 287,
+              "endLine": 287,
+              "startOffset": 5,
+              "endOffset": 9
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 292,
+              "endLine": 292,
+              "startOffset": 5,
+              "endOffset": 7
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bad3c2d8-cad1-4e23-83f6-69b4e4529198",
+    "rule": "java:S3776",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 301,
+    "hash": "7fdd0980d7b831ac8f3700924d11ba96",
+    "textRange": {
+      "startLine": 301,
+      "endLine": 301,
+      "startOffset": 14,
+      "endOffset": 33
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 307,
+              "endLine": 307,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 312,
+              "endLine": 312,
+              "startOffset": 2,
+              "endOffset": 5
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 315,
+              "endLine": 315,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 319,
+              "endLine": 319,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 319,
+              "endLine": 319,
+              "startOffset": 55,
+              "endOffset": 57
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 323,
+              "endLine": 323,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 323,
+              "endLine": 323,
+              "startOffset": 53,
+              "endOffset": 55
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 327,
+              "endLine": 327,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 327,
+              "endLine": 327,
+              "startOffset": 53,
+              "endOffset": 55
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 331,
+              "endLine": 331,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 331,
+              "endLine": 331,
+              "startOffset": 51,
+              "endOffset": 53
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 335,
+              "endLine": 335,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 335,
+              "endLine": 335,
+              "startOffset": 52,
+              "endOffset": 54
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 339,
+              "endLine": 339,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 339,
+              "endLine": 339,
+              "startOffset": 39,
+              "endOffset": 41
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 343,
+              "endLine": 343,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 343,
+              "endLine": 343,
+              "startOffset": 61,
+              "endOffset": 63
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 349,
+              "endLine": 349,
+              "startOffset": 58,
+              "endOffset": 60
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 354,
+              "endLine": 354,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 354,
+              "endLine": 354,
+              "startOffset": 55,
+              "endOffset": 57
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 358,
+              "endLine": 358,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 358,
+              "endLine": 358,
+              "startOffset": 52,
+              "endOffset": 54
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 362,
+              "endLine": 362,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 362,
+              "endLine": 362,
+              "startOffset": 58,
+              "endOffset": 60
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 366,
+              "endLine": 366,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 366,
+              "endLine": 366,
+              "startOffset": 56,
+              "endOffset": 58
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 370,
+              "endLine": 370,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 370,
+              "endLine": 370,
+              "startOffset": 57,
+              "endOffset": 59
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 374,
+              "endLine": 374,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 374,
+              "endLine": 374,
+              "startOffset": 57,
+              "endOffset": 59
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 378,
+              "endLine": 378,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 378,
+              "endLine": 378,
+              "startOffset": 58,
+              "endOffset": 60
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 382,
+              "endLine": 382,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 382,
+              "endLine": 382,
+              "startOffset": 62,
+              "endOffset": 64
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 386,
+              "endLine": 386,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 386,
+              "endLine": 386,
+              "startOffset": 64,
+              "endOffset": 66
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 390,
+              "endLine": 390,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 390,
+              "endLine": 390,
+              "startOffset": 52,
+              "endOffset": 54
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 394,
+              "endLine": 394,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 394,
+              "endLine": 394,
+              "startOffset": 60,
+              "endOffset": 62
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 398,
+              "endLine": 398,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 398,
+              "endLine": 398,
+              "startOffset": 62,
+              "endOffset": 64
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 402,
+              "endLine": 402,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 402,
+              "endLine": 402,
+              "startOffset": 65,
+              "endOffset": 67
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 406,
+              "endLine": 406,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 406,
+              "endLine": 406,
+              "startOffset": 59,
+              "endOffset": 61
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 410,
+              "endLine": 410,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 410,
+              "endLine": 410,
+              "startOffset": 56,
+              "endOffset": 58
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 414,
+              "endLine": 414,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 414,
+              "endLine": 414,
+              "startOffset": 63,
+              "endOffset": 65
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 418,
+              "endLine": 418,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 426,
+              "endLine": 426,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this method to reduce its Cognitive Complexity from 78 to the 15 allowed.",
+    "effort": "1h8min",
+    "debt": "1h8min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e21c6ede-8c2c-4208-9294-d8134c16fc70",
+    "rule": "java:S135",
+    "severity": "MINOR",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 312,
+    "hash": "ebe490f5e96aff739dcdf0003adee40b",
+    "textRange": {
+      "startLine": 312,
+      "endLine": 312,
+      "startOffset": 2,
+      "endOffset": 5
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 317,
+              "endLine": 317,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 321,
+              "endLine": 321,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 325,
+              "endLine": 325,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 329,
+              "endLine": 329,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 333,
+              "endLine": 333,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 337,
+              "endLine": 337,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 341,
+              "endLine": 341,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 352,
+              "endLine": 352,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 356,
+              "endLine": 356,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 360,
+              "endLine": 360,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 364,
+              "endLine": 364,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 368,
+              "endLine": 368,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 372,
+              "endLine": 372,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 376,
+              "endLine": 376,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 380,
+              "endLine": 380,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 384,
+              "endLine": 384,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 388,
+              "endLine": 388,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 392,
+              "endLine": 392,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 396,
+              "endLine": 396,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 400,
+              "endLine": 400,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 404,
+              "endLine": 404,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 408,
+              "endLine": 408,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 412,
+              "endLine": 412,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 416,
+              "endLine": 416,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdHelperPlugin.java",
+            "textRange": {
+              "startLine": 420,
+              "endLine": 420,
+              "startOffset": 4,
+              "endOffset": 13
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Reduce the total number of break and continue statements in this loop to use at most one.",
+    "effort": "1d",
+    "debt": "1d",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6c08b6f2-623e-41b8-a51a-f2dfa75c3540",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 35,
+    "hash": "cdf2c3be0c7cf9fb5e44c5aefd1a7caf",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 67,
+      "endOffset": 79
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 35,
+              "endLine": 35,
+              "startOffset": 67,
+              "endOffset": 79
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 36,
+              "endLine": 36,
+              "startOffset": 63,
+              "endOffset": 75
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 37,
+              "endLine": 37,
+              "startOffset": 65,
+              "endOffset": 77
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 38,
+              "endLine": 38,
+              "startOffset": 69,
+              "endOffset": 81
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 39,
+              "endLine": 39,
+              "startOffset": 67,
+              "endOffset": 79
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 40,
+              "endLine": 40,
+              "startOffset": 81,
+              "endOffset": 93
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 41,
+              "endLine": 41,
+              "startOffset": 85,
+              "endOffset": 97
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 42,
+              "endLine": 42,
+              "startOffset": 65,
+              "endOffset": 77
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 43,
+              "endLine": 43,
+              "startOffset": 69,
+              "endOffset": 81
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 44,
+              "endLine": 44,
+              "startOffset": 69,
+              "endOffset": 81
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 45,
+              "endLine": 45,
+              "startOffset": 65,
+              "endOffset": 77
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 46,
+              "endLine": 46,
+              "startOffset": 71,
+              "endOffset": 83
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 47,
+              "endLine": 47,
+              "startOffset": 85,
+              "endOffset": 97
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 48,
+              "endLine": 48,
+              "startOffset": 63,
+              "endOffset": 75
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Diary Cape\" 14 times.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "26113d36-f202-4ec7-ae9b-42d1eb576166",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 49,
+    "hash": "67a0e69e27fba4da29ec299476e95001",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 49,
+      "startOffset": 78,
+      "endOffset": 88
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 49,
+              "endLine": 49,
+              "startOffset": 78,
+              "endOffset": 88
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 50,
+              "endLine": 50,
+              "startOffset": 74,
+              "endOffset": 84
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 51,
+              "endLine": 51,
+              "startOffset": 74,
+              "endOffset": 84
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 52,
+              "endLine": 52,
+              "startOffset": 74,
+              "endOffset": 84
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 53,
+              "endLine": 53,
+              "startOffset": 87,
+              "endOffset": 97
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 54,
+              "endLine": 54,
+              "startOffset": 74,
+              "endOffset": 84
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 55,
+              "endLine": 55,
+              "startOffset": 76,
+              "endOffset": 86
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 56,
+              "endLine": 56,
+              "startOffset": 98,
+              "endOffset": 108
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 57,
+              "endLine": 57,
+              "startOffset": 74,
+              "endOffset": 84
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 58,
+              "endLine": 58,
+              "startOffset": 78,
+              "endOffset": 88
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"STANDARD\" 10 times.",
+    "effort": "22min",
+    "debt": "22min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9a1b291b-fa86-444c-b633-332ae1342ed9",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 49,
+    "hash": "67a0e69e27fba4da29ec299476e95001",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 49,
+      "startOffset": 67,
+      "endOffset": 77
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 49,
+              "endLine": 49,
+              "startOffset": 67,
+              "endOffset": 77
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 50,
+              "endLine": 50,
+              "startOffset": 63,
+              "endOffset": 73
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 51,
+              "endLine": 51,
+              "startOffset": 63,
+              "endOffset": 73
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 52,
+              "endLine": 52,
+              "startOffset": 63,
+              "endOffset": 73
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 53,
+              "endLine": 53,
+              "startOffset": 76,
+              "endOffset": 86
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 54,
+              "endLine": 54,
+              "startOffset": 63,
+              "endOffset": 73
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 55,
+              "endLine": 55,
+              "startOffset": 65,
+              "endOffset": 75
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 56,
+              "endLine": 56,
+              "startOffset": 87,
+              "endOffset": 97
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 57,
+              "endLine": 57,
+              "startOffset": 63,
+              "endOffset": 73
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 58,
+              "endLine": 58,
+              "startOffset": 67,
+              "endOffset": 77
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Standard\" 10 times.",
+    "effort": "22min",
+    "debt": "22min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "55092ad2-d36d-42d7-9cd5-92db125303cb",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 59,
+    "hash": "5ac39eb1f9df4dc9fd22cebec2c1bb29",
+    "textRange": {
+      "startLine": 59,
+      "endLine": 59,
+      "startOffset": 80,
+      "endOffset": 89
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 59,
+              "endLine": 59,
+              "startOffset": 80,
+              "endOffset": 89
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 60,
+              "endLine": 60,
+              "startOffset": 74,
+              "endOffset": 83
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 61,
+              "endLine": 61,
+              "startOffset": 72,
+              "endOffset": 81
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 62,
+              "endLine": 62,
+              "startOffset": 76,
+              "endOffset": 85
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 63,
+              "endLine": 63,
+              "startOffset": 84,
+              "endOffset": 93
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 64,
+              "endLine": 64,
+              "startOffset": 76,
+              "endOffset": 85
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 65,
+              "endLine": 65,
+              "startOffset": 76,
+              "endOffset": 85
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"ANCIENT\" 7 times.",
+    "effort": "16min",
+    "debt": "16min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d296ef5e-2762-4c90-ac2e-4c9353cbf512",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 59,
+    "hash": "5ac39eb1f9df4dc9fd22cebec2c1bb29",
+    "textRange": {
+      "startLine": 59,
+      "endLine": 59,
+      "startOffset": 69,
+      "endOffset": 79
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 59,
+              "endLine": 59,
+              "startOffset": 69,
+              "endOffset": 79
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 60,
+              "endLine": 60,
+              "startOffset": 63,
+              "endOffset": 73
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 61,
+              "endLine": 61,
+              "startOffset": 61,
+              "endOffset": 71
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 62,
+              "endLine": 62,
+              "startOffset": 65,
+              "endOffset": 75
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 63,
+              "endLine": 63,
+              "startOffset": 73,
+              "endOffset": 83
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 64,
+              "endLine": 64,
+              "startOffset": 65,
+              "endOffset": 75
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 65,
+              "endLine": 65,
+              "startOffset": 65,
+              "endOffset": 75
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Ancients\" 7 times.",
+    "effort": "16min",
+    "debt": "16min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "087a6ce3-0850-4da3-a349-1fb40cfbc4bd",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 66,
+    "hash": "1d0db7042f194272d87b80a3f78a9d99",
+    "textRange": {
+      "startLine": 66,
+      "endLine": 66,
+      "startOffset": 72,
+      "endOffset": 79
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 66,
+              "endLine": 66,
+              "startOffset": 72,
+              "endOffset": 79
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 67,
+              "endLine": 67,
+              "startOffset": 70,
+              "endOffset": 77
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 68,
+              "endLine": 68,
+              "startOffset": 76,
+              "endOffset": 83
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 69,
+              "endLine": 69,
+              "startOffset": 74,
+              "endOffset": 81
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 70,
+              "endLine": 70,
+              "startOffset": 70,
+              "endOffset": 77
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 71,
+              "endLine": 71,
+              "startOffset": 82,
+              "endOffset": 89
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 72,
+              "endLine": 72,
+              "startOffset": 72,
+              "endOffset": 79
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 73,
+              "endLine": 73,
+              "startOffset": 78,
+              "endOffset": 85
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"LUNAR\" 8 times.",
+    "effort": "18min",
+    "debt": "18min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d7ad69c2-d182-4611-8b2a-6b91df69ca20",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 66,
+    "hash": "1d0db7042f194272d87b80a3f78a9d99",
+    "textRange": {
+      "startLine": 66,
+      "endLine": 66,
+      "startOffset": 63,
+      "endOffset": 71
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 66,
+              "endLine": 66,
+              "startOffset": 63,
+              "endOffset": 71
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 67,
+              "endLine": 67,
+              "startOffset": 61,
+              "endOffset": 69
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 68,
+              "endLine": 68,
+              "startOffset": 67,
+              "endOffset": 75
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 69,
+              "endLine": 69,
+              "startOffset": 65,
+              "endOffset": 73
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 70,
+              "endLine": 70,
+              "startOffset": 61,
+              "endOffset": 69
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 71,
+              "endLine": 71,
+              "startOffset": 73,
+              "endOffset": 81
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 72,
+              "endLine": 72,
+              "startOffset": 63,
+              "endOffset": 71
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 73,
+              "endLine": 73,
+              "startOffset": 69,
+              "endOffset": 77
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Lunars\" 8 times.",
+    "effort": "18min",
+    "debt": "18min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e7e1fe69-bd2f-4e77-be58-2157e5c9d662",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 71,
+    "hash": "4ba78b123d37f3da928747fb19d42d5a",
+    "textRange": {
+      "startLine": 71,
+      "endLine": 71,
+      "startOffset": 56,
+      "endOffset": 71
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 71,
+              "endLine": 71,
+              "startOffset": 56,
+              "endOffset": 71
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 100,
+              "endLine": 100,
+              "startOffset": 62,
+              "endOffset": 77
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 121,
+              "endLine": 121,
+              "startOffset": 65,
+              "endOffset": 80
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Fishing Guild\" 3 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "56a36301-f664-4c0f-97ec-0aa6c8ef50d8",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 74,
+    "hash": "90081441173033a34a79eaf08eebfdc5",
+    "textRange": {
+      "startLine": 74,
+      "endLine": 74,
+      "startOffset": 78,
+      "endOffset": 87
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 74,
+              "endLine": 74,
+              "startOffset": 78,
+              "endOffset": 87
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 75,
+              "endLine": 75,
+              "startOffset": 74,
+              "endOffset": 83
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 76,
+              "endLine": 76,
+              "startOffset": 70,
+              "endOffset": 79
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 77,
+              "endLine": 77,
+              "startOffset": 68,
+              "endOffset": 77
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 78,
+              "endLine": 78,
+              "startOffset": 78,
+              "endOffset": 87
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 79,
+              "endLine": 79,
+              "startOffset": 88,
+              "endOffset": 97
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 80,
+              "endLine": 80,
+              "startOffset": 74,
+              "endOffset": 83
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 81,
+              "endLine": 81,
+              "startOffset": 76,
+              "endOffset": 85
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 82,
+              "endLine": 82,
+              "startOffset": 64,
+              "endOffset": 73
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 83,
+              "endLine": 83,
+              "startOffset": 62,
+              "endOffset": 71
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 84,
+              "endLine": 84,
+              "startOffset": 66,
+              "endOffset": 75
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 149,
+              "endLine": 149,
+              "startOffset": 60,
+              "endOffset": 69
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Arceuus\" 12 times.",
+    "effort": "26min",
+    "debt": "26min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5d922556-b521-460a-99e7-02a105061d5e",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 85,
+    "hash": "e9c2f19fbe9563dc1d819415f6579fa1",
+    "textRange": {
+      "startLine": 85,
+      "endLine": 85,
+      "startOffset": 70,
+      "endOffset": 90
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 85,
+              "endLine": 85,
+              "startOffset": 70,
+              "endOffset": 90
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 86,
+              "endLine": 86,
+              "startOffset": 72,
+              "endOffset": 92
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 87,
+              "endLine": 87,
+              "startOffset": 82,
+              "endOffset": 102
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 88,
+              "endLine": 88,
+              "startOffset": 78,
+              "endOffset": 98
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 89,
+              "endLine": 89,
+              "startOffset": 73,
+              "endOffset": 93
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 90,
+              "endLine": 90,
+              "startOffset": 82,
+              "endOffset": 102
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 91,
+              "endLine": 91,
+              "startOffset": 78,
+              "endOffset": 98
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 92,
+              "endLine": 92,
+              "startOffset": 86,
+              "endOffset": 106
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 93,
+              "endLine": 93,
+              "startOffset": 84,
+              "endOffset": 104
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 94,
+              "endLine": 94,
+              "startOffset": 88,
+              "endOffset": 108
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 95,
+              "endLine": 95,
+              "startOffset": 78,
+              "endOffset": 98
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 96,
+              "endLine": 96,
+              "startOffset": 76,
+              "endOffset": 96
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 97,
+              "endLine": 97,
+              "startOffset": 84,
+              "endOffset": 104
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 98,
+              "endLine": 98,
+              "startOffset": 70,
+              "endOffset": 90
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Master Scroll Book\" 14 times.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "20819989-2047-47c4-bd1b-79a132912ad7",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 103,
+    "hash": "83a13d8c9a19db8526e1979646e30839",
+    "textRange": {
+      "startLine": 103,
+      "endLine": 103,
+      "startOffset": 82,
+      "endOffset": 95
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 103,
+              "endLine": 103,
+              "startOffset": 82,
+              "endOffset": 95
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 104,
+              "endLine": 104,
+              "startOffset": 86,
+              "endOffset": 99
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 105,
+              "endLine": 105,
+              "startOffset": 76,
+              "endOffset": 89
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Hunter Cape\" 3 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cdbfea8d-d3bb-4d0a-b504-f7da0ff9cf42",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 110,
+    "hash": "1a25cbfaf5b4fa99ba412d2ef477fbd6",
+    "textRange": {
+      "startLine": 110,
+      "endLine": 110,
+      "startOffset": 89,
+      "endOffset": 105
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 110,
+              "endLine": 110,
+              "startOffset": 89,
+              "endOffset": 105
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 111,
+              "endLine": 111,
+              "startOffset": 73,
+              "endOffset": 89
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 112,
+              "endLine": 112,
+              "startOffset": 85,
+              "endOffset": 101
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Games Necklace\" 3 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cf2495f6-529d-40ea-8610-2afd0b0f3597",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 113,
+    "hash": "7326358c4e9aa918d8c357bfdabfd3a0",
+    "textRange": {
+      "startLine": 113,
+      "endLine": 113,
+      "startOffset": 78,
+      "endOffset": 95
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 113,
+              "endLine": 113,
+              "startOffset": 78,
+              "endOffset": 95
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 114,
+              "endLine": 114,
+              "startOffset": 82,
+              "endOffset": 99
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 115,
+              "endLine": 115,
+              "startOffset": 78,
+              "endOffset": 95
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 116,
+              "endLine": 116,
+              "startOffset": 88,
+              "endOffset": 105
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Ring of Dueling\" 4 times.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bbf2cc02-4c79-4ccd-b55e-601b4c2f3f12",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 117,
+    "hash": "a1aca5b849b2bd4d37529bd37c903218",
+    "textRange": {
+      "startLine": 117,
+      "endLine": 117,
+      "startOffset": 85,
+      "endOffset": 102
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 117,
+              "endLine": 117,
+              "startOffset": 85,
+              "endOffset": 102
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 118,
+              "endLine": 118,
+              "startOffset": 87,
+              "endOffset": 104
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 119,
+              "endLine": 119,
+              "startOffset": 94,
+              "endOffset": 111
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 120,
+              "endLine": 120,
+              "startOffset": 82,
+              "endOffset": 99
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Combat Bracelet\" 4 times.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "010e7c3c-a701-499a-a880-64b718e225d1",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 121,
+    "hash": "b37b8990c063f4ca3e80437a3d4586d2",
+    "textRange": {
+      "startLine": 121,
+      "endLine": 121,
+      "startOffset": 82,
+      "endOffset": 99
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 121,
+              "endLine": 121,
+              "startOffset": 82,
+              "endOffset": 99
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 122,
+              "endLine": 122,
+              "startOffset": 84,
+              "endOffset": 101
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 123,
+              "endLine": 123,
+              "startOffset": 79,
+              "endOffset": 96
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 124,
+              "endLine": 124,
+              "startOffset": 90,
+              "endOffset": 107
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 125,
+              "endLine": 125,
+              "startOffset": 82,
+              "endOffset": 99
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Skills Necklace\" 5 times.",
+    "effort": "12min",
+    "debt": "12min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dc2fb34b-9c97-4674-91e5-a4742df6856e",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 126,
+    "hash": "caa093c2b618cb49f148e59ab1d06d71",
+    "textRange": {
+      "startLine": 126,
+      "endLine": 126,
+      "startOffset": 74,
+      "endOffset": 91
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 126,
+              "endLine": 126,
+              "startOffset": 74,
+              "endOffset": 91
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 127,
+              "endLine": 127,
+              "startOffset": 70,
+              "endOffset": 87
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 128,
+              "endLine": 128,
+              "startOffset": 86,
+              "endOffset": 103
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 129,
+              "endLine": 129,
+              "startOffset": 74,
+              "endOffset": 91
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Amulet of Glory\" 4 times.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f760bbfc-d6b7-4362-9787-277246c0c3dc",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 130,
+    "hash": "f91fa6679d4144d0790f41bc33c30416",
+    "textRange": {
+      "startLine": 130,
+      "endLine": 130,
+      "startOffset": 77,
+      "endOffset": 93
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 130,
+              "endLine": 130,
+              "startOffset": 77,
+              "endOffset": 93
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 131,
+              "endLine": 131,
+              "startOffset": 83,
+              "endOffset": 99
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 132,
+              "endLine": 132,
+              "startOffset": 79,
+              "endOffset": 95
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Ring of Wealth\" 3 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "41e13635-9268-4a49-a9ac-9d8be22fbbd9",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 136,
+    "hash": "8d156dd34b60c916775d030e7e1fc152",
+    "textRange": {
+      "startLine": 136,
+      "endLine": 136,
+      "startOffset": 79,
+      "endOffset": 95
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 136,
+              "endLine": 136,
+              "startOffset": 79,
+              "endOffset": 95
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 137,
+              "endLine": 137,
+              "startOffset": 77,
+              "endOffset": 93
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 138,
+              "endLine": 138,
+              "startOffset": 73,
+              "endOffset": 89
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Burning Amulet\" 3 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9ae1b776-f8c8-4667-b603-15c1a0111e27",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 139,
+    "hash": "c9399afb3822c9255206a7990c613bd8",
+    "textRange": {
+      "startLine": 139,
+      "endLine": 139,
+      "startOffset": 86,
+      "endOffset": 107
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 139,
+              "endLine": 139,
+              "startOffset": 86,
+              "endOffset": 107
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 140,
+              "endLine": 140,
+              "startOffset": 74,
+              "endOffset": 95
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 141,
+              "endLine": 141,
+              "startOffset": 100,
+              "endOffset": 121
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Necklace of Passage\" 3 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e55d147d-e1ca-4b61-a9a4-9587dd0137f5",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 144,
+    "hash": "708dec02d5e95cd83c73763a1626800b",
+    "textRange": {
+      "startLine": 144,
+      "endLine": 144,
+      "startOffset": 71,
+      "endOffset": 87
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 144,
+              "endLine": 144,
+              "startOffset": 71,
+              "endOffset": 87
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 145,
+              "endLine": 145,
+              "startOffset": 89,
+              "endOffset": 105
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 146,
+              "endLine": 146,
+              "startOffset": 73,
+              "endOffset": 89
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 147,
+              "endLine": 147,
+              "startOffset": 69,
+              "endOffset": 85
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Enchanted Lyre\" 4 times.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "016e1a9e-199c-4728-a357-77f95654e5ef",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 149,
+    "hash": "9234848640c18ffcd3d9bc169761842f",
+    "textRange": {
+      "startLine": 149,
+      "endLine": 149,
+      "startOffset": 71,
+      "endOffset": 89
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 149,
+              "endLine": 149,
+              "startOffset": 71,
+              "endOffset": 89
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 150,
+              "endLine": 150,
+              "startOffset": 73,
+              "endOffset": 91
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 151,
+              "endLine": 151,
+              "startOffset": 91,
+              "endOffset": 109
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 152,
+              "endLine": 152,
+              "startOffset": 75,
+              "endOffset": 93
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 153,
+              "endLine": 153,
+              "startOffset": 73,
+              "endOffset": 91
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Book of the Dead\" 5 times.",
+    "effort": "12min",
+    "debt": "12min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9e25f8ef-b96f-4950-b5f0-833d2ea0623d",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 157,
+    "hash": "b66cbec6475620967b048e8a329962b8",
+    "textRange": {
+      "startLine": 157,
+      "endLine": 157,
+      "startOffset": 87,
+      "endOffset": 106
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 157,
+              "endLine": 157,
+              "startOffset": 87,
+              "endOffset": 106
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 158,
+              "endLine": 158,
+              "startOffset": 87,
+              "endOffset": 106
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 159,
+              "endLine": 159,
+              "startOffset": 77,
+              "endOffset": 96
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Pharaoh's Sceptre\" 3 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c657084c-e93a-454a-a052-2d844a1c665f",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 160,
+    "hash": "c7a51384c25b27b4d7ba7cabe255c3cd",
+    "textRange": {
+      "startLine": 160,
+      "endLine": 160,
+      "startOffset": 85,
+      "endOffset": 103
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 160,
+              "endLine": 160,
+              "startOffset": 85,
+              "endOffset": 103
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 161,
+              "endLine": 161,
+              "startOffset": 81,
+              "endOffset": 99
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 162,
+              "endLine": 162,
+              "startOffset": 85,
+              "endOffset": 103
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 163,
+              "endLine": 163,
+              "startOffset": 81,
+              "endOffset": 99
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 164,
+              "endLine": 164,
+              "startOffset": 83,
+              "endOffset": 101
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Xeric's Talisman\" 5 times.",
+    "effort": "12min",
+    "debt": "12min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ee88b5ce-b65e-4c83-bcef-534cc1d18a22",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 165,
+    "hash": "9dffa0d0f48b50c809d038dc3912c43c",
+    "textRange": {
+      "startLine": 165,
+      "endLine": 165,
+      "startOffset": 81,
+      "endOffset": 103
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 165,
+              "endLine": 165,
+              "startOffset": 81,
+              "endOffset": 103
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 166,
+              "endLine": 166,
+              "startOffset": 83,
+              "endOffset": 105
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 167,
+              "endLine": 167,
+              "startOffset": 79,
+              "endOffset": 101
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 168,
+              "endLine": 168,
+              "startOffset": 83,
+              "endOffset": 105
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Ring of the Elements\" 4 times.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "79ce7ba8-2e51-4f12-acbc-ea22c0b6232d",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 169,
+    "hash": "5f3de019ef03499fa2ae1c2b30c25bdb",
+    "textRange": {
+      "startLine": 169,
+      "endLine": 169,
+      "startOffset": 74,
+      "endOffset": 91
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 169,
+              "endLine": 169,
+              "startOffset": 74,
+              "endOffset": 91
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 170,
+              "endLine": 170,
+              "startOffset": 86,
+              "endOffset": 103
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 171,
+              "endLine": 171,
+              "startOffset": 77,
+              "endOffset": 94
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 172,
+              "endLine": 172,
+              "startOffset": 82,
+              "endOffset": 99
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 173,
+              "endLine": 173,
+              "startOffset": 67,
+              "endOffset": 84
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 174,
+              "endLine": 174,
+              "startOffset": 71,
+              "endOffset": 88
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Pendant of Ates\" 6 times.",
+    "effort": "14min",
+    "debt": "14min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d070bc1d-9288-4a48-a7d0-40e84fa09fb1",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 175,
+    "hash": "40083badc38f777a030529f2d5f519a1",
+    "textRange": {
+      "startLine": 175,
+      "endLine": 175,
+      "startOffset": 76,
+      "endOffset": 96
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 175,
+              "endLine": 175,
+              "startOffset": 76,
+              "endOffset": 96
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 176,
+              "endLine": 176,
+              "startOffset": 79,
+              "endOffset": 99
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 177,
+              "endLine": 177,
+              "startOffset": 79,
+              "endOffset": 99
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 178,
+              "endLine": 178,
+              "startOffset": 79,
+              "endOffset": 99
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 179,
+              "endLine": 179,
+              "startOffset": 79,
+              "endOffset": 99
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 180,
+              "endLine": 180,
+              "startOffset": 79,
+              "endOffset": 99
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Wilderness Obelisk\" 6 times.",
+    "effort": "14min",
+    "debt": "14min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e89f53c2-7b51-4c72-baff-88cb50a78aba",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+    "project": "lalochazia__hot-cold-helper",
+    "line": 181,
+    "hash": "268f1f7034fc1ec26463d1924d1de673",
+    "textRange": {
+      "startLine": 181,
+      "endLine": 181,
+      "startOffset": 78,
+      "endOffset": 97
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 181,
+              "endLine": 181,
+              "startOffset": 78,
+              "endOffset": 97
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 182,
+              "endLine": 182,
+              "startOffset": 74,
+              "endOffset": 93
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 183,
+              "endLine": 183,
+              "startOffset": 82,
+              "endOffset": 101
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 184,
+              "endLine": 184,
+              "startOffset": 74,
+              "endOffset": 93
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 185,
+              "endLine": 185,
+              "startOffset": 74,
+              "endOffset": 93
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 186,
+              "endLine": 186,
+              "startOffset": 72,
+              "endOffset": 91
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 187,
+              "endLine": 187,
+              "startOffset": 76,
+              "endOffset": 95
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "lalochazia__hot-cold-helper:src/main/java/com/hotcoldhelper/HotColdTeleports.java",
+            "textRange": {
+              "startLine": 188,
+              "endLine": 188,
+              "startOffset": 72,
+              "endOffset": 91
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Construction Cape\" 8 times.",
+    "effort": "18min",
+    "debt": "18min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:13:37+0000",
+    "updateDate": "2026-07-21T22:13:37+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

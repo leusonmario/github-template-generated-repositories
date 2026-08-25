@@ -1,0 +1,1155 @@
+[
+  {
+    "key": "37b46a9b-8c1c-4ff3-a7b4-388a3af245ef",
+    "rule": "python:S1135",
+    "severity": "INFO",
+    "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+    "project": "happymimimix__readme-chess",
+    "line": 16,
+    "hash": "b542c758a5e98f0ecf7e8cffd7b3febb",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 0,
+      "endOffset": 61
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T20:55:24+0000",
+    "updateDate": "2026-07-17T20:55:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "35c4feeb-b5a1-4f34-9df0-0e0ea5ef9ded",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+    "project": "happymimimix__readme-chess",
+    "line": 41,
+    "hash": "b3c4886309dba85fac80232615bb4194",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 41,
+      "startOffset": 14,
+      "endOffset": 35
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+            "textRange": {
+              "startLine": 92,
+              "endLine": 92,
+              "startOffset": 18,
+              "endOffset": 39
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+            "textRange": {
+              "startLine": 111,
+              "endLine": 111,
+              "startOffset": 18,
+              "endOffset": 39
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+            "textRange": {
+              "startLine": 182,
+              "endLine": 182,
+              "startOffset": 18,
+              "endOffset": 39
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+            "textRange": {
+              "startLine": 199,
+              "endLine": 199,
+              "startOffset": 18,
+              "endOffset": 39
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal 'data/last_moves.txt' 5 times.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:55:24+0000",
+    "updateDate": "2026-07-17T20:55:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6d6a25f0-5eaa-4658-b5cc-7b9b0dbc493a",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+    "project": "happymimimix__readme-chess",
+    "line": 76,
+    "hash": "80f772aa5ae68b300b084fe9bf11e17b",
+    "textRange": {
+      "startLine": 76,
+      "endLine": 76,
+      "startOffset": 4,
+      "endOffset": 8
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+            "textRange": {
+              "startLine": 83,
+              "endLine": 83,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+            "textRange": {
+              "startLine": 84,
+              "endLine": 84,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+            "textRange": {
+              "startLine": 84,
+              "endLine": 84,
+              "startOffset": 47,
+              "endOffset": 50
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+            "textRange": {
+              "startLine": 102,
+              "endLine": 102,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+            "textRange": {
+              "startLine": 103,
+              "endLine": 103,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+            "textRange": {
+              "startLine": 116,
+              "endLine": 116,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+            "textRange": {
+              "startLine": 119,
+              "endLine": 119,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+            "textRange": {
+              "startLine": 125,
+              "endLine": 125,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+            "textRange": {
+              "startLine": 139,
+              "endLine": 139,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+            "textRange": {
+              "startLine": 145,
+              "endLine": 145,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+            "textRange": {
+              "startLine": 150,
+              "endLine": 150,
+              "startOffset": 39,
+              "endOffset": 41
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+            "textRange": {
+              "startLine": 151,
+              "endLine": 151,
+              "startOffset": 33,
+              "endOffset": 35
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+            "textRange": {
+              "startLine": 164,
+              "endLine": 164,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+            "textRange": {
+              "startLine": 175,
+              "endLine": 175,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+            "textRange": {
+              "startLine": 187,
+              "endLine": 187,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+            "textRange": {
+              "startLine": 189,
+              "endLine": 189,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+            "textRange": {
+              "startLine": 214,
+              "endLine": 214,
+              "startOffset": 26,
+              "endOffset": 28
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 27 to the 15 allowed.",
+    "effort": "17min",
+    "debt": "17min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T20:55:24+0000",
+    "updateDate": "2026-07-17T20:55:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6f09b87a-5b2b-46b1-8f44-ca1a783ab7b0",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+    "project": "happymimimix__readme-chess",
+    "line": 84,
+    "hash": "1bddc3952805a314f337c115e3b8247f",
+    "textRange": {
+      "startLine": 84,
+      "endLine": 84,
+      "startOffset": 26,
+      "endOffset": 45
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+            "textRange": {
+              "startLine": 103,
+              "endLine": 103,
+              "startOffset": 30,
+              "endOffset": 49
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+            "textRange": {
+              "startLine": 107,
+              "endLine": 107,
+              "startOffset": 18,
+              "endOffset": 37
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+            "textRange": {
+              "startLine": 170,
+              "endLine": 170,
+              "startOffset": 26,
+              "endOffset": 45
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+            "textRange": {
+              "startLine": 198,
+              "endLine": 198,
+              "startOffset": 18,
+              "endOffset": 37
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal 'games/current.pgn' 5 times.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:55:24+0000",
+    "updateDate": "2026-07-17T20:55:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8f557c70-2ec1-4f59-a942-c1b4139e199a",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+    "project": "happymimimix__readme-chess",
+    "line": 113,
+    "hash": "23ed1624ffe7941ce8169891f6f46e08",
+    "textRange": {
+      "startLine": 113,
+      "endLine": 113,
+      "startOffset": 12,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused local variable \"last_player\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:55:24+0000",
+    "updateDate": "2026-07-17T20:55:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ff9369ca-c616-412e-82b2-09e1cfc71e5e",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+    "project": "happymimimix__readme-chess",
+    "line": 114,
+    "hash": "edb607caa6e3becf69d79fb700617f78",
+    "textRange": {
+      "startLine": 114,
+      "endLine": 114,
+      "startOffset": 12,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused local variable \"last_move\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:55:24+0000",
+    "updateDate": "2026-07-17T20:55:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8b484625-68c4-400a-b28f-9aa7b7d63b15",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/main.py",
+    "project": "happymimimix__readme-chess",
+    "line": 131,
+    "hash": "757b3fc0f965530c5ba9f67d25eb64a8",
+    "textRange": {
+      "startLine": 131,
+      "endLine": 136,
+      "startOffset": 8,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:55:24+0000",
+    "updateDate": "2026-07-17T20:55:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d5b3df08-0bb9-4b9e-b493-522aa210d98d",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/src/markdown.py",
+    "project": "happymimimix__readme-chess",
+    "line": 35,
+    "hash": "16a47c59ed3526185cbef6cc2cf45860",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 65,
+      "endOffset": 86
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/src/markdown.py",
+            "textRange": {
+              "startLine": 63,
+              "endLine": 63,
+              "startOffset": 94,
+              "endOffset": 115
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/src/markdown.py",
+            "textRange": {
+              "startLine": 65,
+              "endLine": 65,
+              "startOffset": 78,
+              "endOffset": 99
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"https://github.com/\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:55:24+0000",
+    "updateDate": "2026-07-17T20:55:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5169be95-23b1-4a0e-bf57-be26fe447672",
+    "rule": "python:S1940",
+    "severity": "MINOR",
+    "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/src/markdown.py",
+    "project": "happymimimix__readme-chess",
+    "line": 50,
+    "hash": "301ec3b07f6280ad253c93d2429c9df9",
+    "textRange": {
+      "startLine": 50,
+      "endLine": 50,
+      "startOffset": 15,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the opposite operator (\"not in\") instead.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T20:55:24+0000",
+    "updateDate": "2026-07-17T20:55:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d49fd07a-3b04-47c6-aa5a-d3f78d29bbcd",
+    "rule": "python:S7500",
+    "severity": "MINOR",
+    "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/src/markdown.py",
+    "project": "happymimimix__readme-chess",
+    "line": 101,
+    "hash": "18808c6a55b237a593670fb5748fa4fc",
+    "textRange": {
+      "startLine": 101,
+      "endLine": 101,
+      "startOffset": 18,
+      "endOffset": 52
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this comprehension with passing the iterable to the collection constructor call",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T20:55:24+0000",
+    "updateDate": "2026-07-17T20:55:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9115999f-75eb-4042-a6fb-6933eb5cd206",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/src/selftest.py",
+    "project": "happymimimix__readme-chess",
+    "line": 7,
+    "hash": "43ca5426ecff370a838c8eeb5271a0de",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 4,
+      "endOffset": 17
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/src/selftest.py",
+            "textRange": {
+              "startLine": 11,
+              "endLine": 11,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/src/selftest.py",
+            "textRange": {
+              "startLine": 12,
+              "endLine": 12,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/src/selftest.py",
+            "textRange": {
+              "startLine": 14,
+              "endLine": 14,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/src/selftest.py",
+            "textRange": {
+              "startLine": 16,
+              "endLine": 16,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/src/selftest.py",
+            "textRange": {
+              "startLine": 16,
+              "endLine": 16,
+              "startOffset": 85,
+              "endOffset": 88
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/src/selftest.py",
+            "textRange": {
+              "startLine": 16,
+              "endLine": 16,
+              "startOffset": 44,
+              "endOffset": 46
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/src/selftest.py",
+            "textRange": {
+              "startLine": 16,
+              "endLine": 16,
+              "startOffset": 120,
+              "endOffset": 122
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/src/selftest.py",
+            "textRange": {
+              "startLine": 17,
+              "endLine": 17,
+              "startOffset": 27,
+              "endOffset": 29
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/src/selftest.py",
+            "textRange": {
+              "startLine": 20,
+              "endLine": 20,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/src/selftest.py",
+            "textRange": {
+              "startLine": 20,
+              "endLine": 20,
+              "startOffset": 32,
+              "endOffset": 35
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/src/selftest.py",
+            "textRange": {
+              "startLine": 24,
+              "endLine": 24,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/src/selftest.py",
+            "textRange": {
+              "startLine": 24,
+              "endLine": 24,
+              "startOffset": 30,
+              "endOffset": 33
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/src/selftest.py",
+            "textRange": {
+              "startLine": 28,
+              "endLine": 28,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/src/selftest.py",
+            "textRange": {
+              "startLine": 28,
+              "endLine": 28,
+              "startOffset": 33,
+              "endOffset": 36
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/src/selftest.py",
+            "textRange": {
+              "startLine": 31,
+              "endLine": 31,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/src/selftest.py",
+            "textRange": {
+              "startLine": 31,
+              "endLine": 31,
+              "startOffset": 37,
+              "endOffset": 40
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/src/selftest.py",
+            "textRange": {
+              "startLine": 35,
+              "endLine": 35,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "happymimimix__readme-chess:temp_repos/Readme-Chess/src/selftest.py",
+            "textRange": {
+              "startLine": 35,
+              "endLine": 35,
+              "startOffset": 33,
+              "endOffset": 36
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T20:55:24+0000",
+    "updateDate": "2026-07-17T20:55:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

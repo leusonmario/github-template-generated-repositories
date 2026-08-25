@@ -1,0 +1,1849 @@
+[
+  {
+    "key": "9275c1e2-2142-45c2-956e-70068fb10e63",
+    "rule": "docker:S7018",
+    "severity": "MINOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/Dockerfile",
+    "project": "kingunok__hydro",
+    "line": 5,
+    "hash": "af23c9e223884c765775f1457e4514ed",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 8,
+      "startOffset": 22,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Sort these package names alphanumerically.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ac537312-3ec2-4db4-9799-1a0dc926a7db",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/__main__.py",
+    "project": "kingunok__hydro",
+    "line": 49,
+    "hash": "f0bb7f1c7c815e6f12b11b2714e04281",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 49,
+      "startOffset": 10,
+      "endOffset": 78
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/__main__.py",
+            "textRange": {
+              "startLine": 53,
+              "endLine": 53,
+              "startOffset": 10,
+              "endOffset": 78
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/__main__.py",
+            "textRange": {
+              "startLine": 62,
+              "endLine": 62,
+              "startOffset": 10,
+              "endOffset": 78
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"------------------------------ DONE ------------------------------\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "27cdb132-6864-41b5-8f30-1c1cc2522f78",
+    "rule": "python:S7502",
+    "severity": "MAJOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/__main__.py",
+    "project": "kingunok__hydro",
+    "line": 57,
+    "hash": "151d32f06cbffb67409daccb8edd7340",
+    "textRange": {
+      "startLine": 57,
+      "endLine": 57,
+      "startOffset": 8,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Save this task in a variable to prevent premature garbage collection.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "asyncio",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "57c8e84c-1bb3-4497-b7b9-37c640575ec3",
+    "rule": "python:S7494",
+    "severity": "MINOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/bot/clients.py",
+    "project": "kingunok__hydro",
+    "line": 12,
+    "hash": "e32eb8d32b7b73046bd5cbf3aa08d67d",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 17,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace dict constructor call with a dictionary comprehension.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "937364eb-bb65-4e96-8f74-f7d6d1523844",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/bot/plugins/admin.py",
+    "project": "kingunok__hydro",
+    "line": 87,
+    "hash": "490841ef91b518f581e421a228fb85ac",
+    "textRange": {
+      "startLine": 87,
+      "endLine": 87,
+      "startOffset": 10,
+      "endOffset": 20
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 90,
+              "endLine": 90,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 92,
+              "endLine": 92,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 101,
+              "endLine": 101,
+              "startOffset": 14,
+              "endOffset": 17
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 103,
+              "endLine": 103,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 105,
+              "endLine": 105,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 107,
+              "endLine": 107,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 109,
+              "endLine": 109,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 112,
+              "endLine": 112,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 114,
+              "endLine": 114,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 118,
+              "endLine": 118,
+              "startOffset": 16,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 121,
+              "endLine": 121,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 126,
+              "endLine": 126,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 131,
+              "endLine": 131,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "258440c9-5c3b-4d25-8397-44fc8091a18d",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/bot/plugins/admin.py",
+    "project": "kingunok__hydro",
+    "line": 98,
+    "hash": "57c79a6dc6fa72f8a9e685907b942a0b",
+    "textRange": {
+      "startLine": 98,
+      "endLine": 98,
+      "startOffset": 34,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4e7e5156-9af8-4d1e-9b59-014119fba9e5",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/bot/plugins/admin.py",
+    "project": "kingunok__hydro",
+    "line": 100,
+    "hash": "5bc949be9f42ed1848a4d131a0e6ff4c",
+    "textRange": {
+      "startLine": 100,
+      "endLine": 100,
+      "startOffset": 29,
+      "endOffset": 44
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 133,
+              "endLine": 133,
+              "startOffset": 21,
+              "endOffset": 36
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 137,
+              "endLine": 137,
+              "startOffset": 14,
+              "endOffset": 29
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal 'broadcast.txt' 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ecd474d9-ee77-42f6-ad1b-ddc13aacc92f",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/bot/plugins/admin.py",
+    "project": "kingunok__hydro",
+    "line": 115,
+    "hash": "8a99285188fc215c0cb147e2c8e3abd4",
+    "textRange": {
+      "startLine": 115,
+      "endLine": 115,
+      "startOffset": 51,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d5dd127f-f807-45d6-a5aa-5aaff933f250",
+    "rule": "python:S5754",
+    "severity": "CRITICAL",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/bot/plugins/admin.py",
+    "project": "kingunok__hydro",
+    "line": 118,
+    "hash": "3e264f5fbab10735799511f21ca70842",
+    "textRange": {
+      "startLine": 118,
+      "endLine": 118,
+      "startOffset": 16,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify an exception class to catch or reraise the exception",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "bad-practice",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cc48ad02-3dad-40ce-b39e-d46970d2a9d0",
+    "rule": "python:S3626",
+    "severity": "MINOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/bot/plugins/callback.py",
+    "project": "kingunok__hydro",
+    "line": 65,
+    "hash": "e70c4df10ef0983b9c8c31bd06b2a2c3",
+    "textRange": {
+      "startLine": 65,
+      "endLine": 65,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant return.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "redundant",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e00616e6-57be-4d7c-b443-045e2cd29887",
+    "rule": "python:S3626",
+    "severity": "MINOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/bot/plugins/callback.py",
+    "project": "kingunok__hydro",
+    "line": 83,
+    "hash": "e70c4df10ef0983b9c8c31bd06b2a2c3",
+    "textRange": {
+      "startLine": 83,
+      "endLine": 83,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant return.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "redundant",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3c3ff473-d9b9-42ae-bec2-f8ef59109e73",
+    "rule": "Web:S7926",
+    "severity": "MAJOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/template/req.html",
+    "project": "kingunok__hydro",
+    "line": 9,
+    "hash": "d35107db1bdb00804c5ecbe6238b4c9b",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 4,
+      "endOffset": 111
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Meta viewport disables zoom via user-scalable=no.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag",
+      "html"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "RESPECTFUL",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6b2bd1bc-1e38-4728-8757-7e63cdd4960e",
+    "rule": "Web:S4084",
+    "severity": "MAJOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/template/req.html",
+    "project": "kingunok__hydro",
+    "line": 23,
+    "hash": "9e9c54b057186d0ca57547dbf47ef9b2",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 16,
+      "endOffset": 165
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add subtitles and description files for this video.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "html5"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9aa35e54-b89c-4f24-ab07-2011938101fd",
+    "rule": "Web:S6844",
+    "severity": "MAJOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/template/req.html",
+    "project": "kingunok__hydro",
+    "line": 36,
+    "hash": "c9d25fc30c7a7b7ac317de00745901a1",
+    "textRange": {
+      "startLine": 36,
+      "endLine": 36,
+      "startOffset": 20,
+      "endOffset": 60
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchor tags should not be used as buttons.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d756cf98-4bf8-480a-95fa-6b37450dee15",
+    "rule": "Web:S6844",
+    "severity": "MAJOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/template/req.html",
+    "project": "kingunok__hydro",
+    "line": 39,
+    "hash": "fdfb73d23938af880e5245001738225c",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 39,
+      "startOffset": 20,
+      "endOffset": 60
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchor tags should not be used as buttons.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "19664a18-9612-44fb-a752-43bff13e5d63",
+    "rule": "Web:S6844",
+    "severity": "MAJOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/template/req.html",
+    "project": "kingunok__hydro",
+    "line": 42,
+    "hash": "7aae405ff8287f25f0e8aade8d661b6a",
+    "textRange": {
+      "startLine": 42,
+      "endLine": 42,
+      "startOffset": 20,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchor tags should not be used as buttons.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1b7057e9-c9e6-48a8-b0ee-640d034383f1",
+    "rule": "Web:S6844",
+    "severity": "MAJOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/template/req.html",
+    "project": "kingunok__hydro",
+    "line": 45,
+    "hash": "43cc606ca0488849a3e1c5f7c6e5ae11",
+    "textRange": {
+      "startLine": 45,
+      "endLine": 45,
+      "startOffset": 20,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchor tags should not be used as buttons.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8490be04-715e-4d30-849c-27a9b9623834",
+    "rule": "Web:S6844",
+    "severity": "MAJOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/template/req.html",
+    "project": "kingunok__hydro",
+    "line": 48,
+    "hash": "8583fcfa65af199c4713de9384df0f58",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 20,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchor tags should not be used as buttons.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "14048e5f-7b8c-4e02-9405-b805b0c2ebe6",
+    "rule": "Web:S6844",
+    "severity": "MAJOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/template/req.html",
+    "project": "kingunok__hydro",
+    "line": 51,
+    "hash": "7bc630a19edb1566cb381e86ac924a2e",
+    "textRange": {
+      "startLine": 51,
+      "endLine": 51,
+      "startOffset": 20,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchor tags should not be used as buttons.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "872140a8-3cef-4f7d-b686-f9636a043624",
+    "rule": "javascript:S1848",
+    "severity": "MAJOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/template/req.html",
+    "project": "kingunok__hydro",
+    "line": 75,
+    "hash": "a564c1da312c634d3e679bd08a070a68",
+    "textRange": {
+      "startLine": 75,
+      "endLine": 75,
+      "startOffset": 12,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Either remove this useless object instantiation of \"Plyr\" or use it.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6a967b33-9650-4cc7-99ff-9407aa62937a",
+    "rule": "javascript:S7764",
+    "severity": "MINOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/template/req.html",
+    "project": "kingunok__hydro",
+    "line": 78,
+    "hash": "c85ccebb79925f7148293bd77ee3244e",
+    "textRange": {
+      "startLine": 78,
+      "endLine": 78,
+      "startOffset": 27,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a4e3889b-24f7-4ebf-a955-0e3c8e9ea629",
+    "rule": "javascript:S7764",
+    "severity": "MINOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/template/req.html",
+    "project": "kingunok__hydro",
+    "line": 90,
+    "hash": "4a77ccdeaaf2375c9aa9d33d532aa25f",
+    "textRange": {
+      "startLine": 90,
+      "endLine": 90,
+      "startOffset": 12,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "090a5252-9085-4264-a571-59cb0e4dda7e",
+    "rule": "javascript:S7764",
+    "severity": "MINOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/template/req.html",
+    "project": "kingunok__hydro",
+    "line": 94,
+    "hash": "5447e25ca83f7d708368221f8583f200",
+    "textRange": {
+      "startLine": 94,
+      "endLine": 94,
+      "startOffset": 12,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4b1b6caf-36da-4274-b8ac-33df84fa0913",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/utils/Translation.py",
+    "project": "kingunok__hydro",
+    "line": 102,
+    "hash": "e0795934f9246fe6f4d65bed3498cba2",
+    "textRange": {
+      "startLine": 102,
+      "endLine": 102,
+      "startOffset": 33,
+      "endOffset": 42
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/utils/Translation.py",
+            "textRange": {
+              "startLine": 111,
+              "endLine": 111,
+              "startOffset": 33,
+              "endOffset": 42
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/utils/Translation.py",
+            "textRange": {
+              "startLine": 120,
+              "endLine": 120,
+              "startOffset": 33,
+              "endOffset": 42
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal '❌ Close' 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b029099d-13db-469e-a8ac-ed9d6f368f94",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/utils/Translation.py",
+    "project": "kingunok__hydro",
+    "line": 104,
+    "hash": "3c7b819f3970b3b9d7c67202ee1ffc8d",
+    "textRange": {
+      "startLine": 104,
+      "endLine": 104,
+      "startOffset": 30,
+      "endOffset": 46
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/utils/Translation.py",
+            "textRange": {
+              "startLine": 113,
+              "endLine": 113,
+              "startOffset": 30,
+              "endOffset": 46
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/utils/Translation.py",
+            "textRange": {
+              "startLine": 122,
+              "endLine": 122,
+              "startOffset": 30,
+              "endOffset": 46
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"📢 Bot Channel\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c3a62e5f-6f49-4f2d-91b4-6b6fc1fa26c4",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/utils/bot_utils.py",
+    "project": "kingunok__hydro",
+    "line": 45,
+    "hash": "a81a377819412d27a85ad8efe8056149",
+    "textRange": {
+      "startLine": 45,
+      "endLine": 45,
+      "startOffset": 10,
+      "endOffset": 18
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/utils/bot_utils.py",
+            "textRange": {
+              "startLine": 45,
+              "endLine": 45,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f3a502f5-30c5-48f6-a075-78455d7af096",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/utils/bot_utils.py",
+    "project": "kingunok__hydro",
+    "line": 52,
+    "hash": "3eb886e35997b21b5c3aa3e47a6065d0",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 52,
+      "startOffset": 4,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"Stream_Text\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "349a7279-cc3a-446b-89b4-107de21d1990",
+    "rule": "python:S7502",
+    "severity": "MAJOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/utils/custom_dl.py",
+    "project": "kingunok__hydro",
+    "line": 33,
+    "hash": "0b07994826821e2f996d354a1330ad98",
+    "textRange": {
+      "startLine": 33,
+      "endLine": 33,
+      "startOffset": 8,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Save this task in a variable to prevent premature garbage collection.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "asyncio",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "08234e80-f7bc-450a-9038-adc378b54ce3",
+    "rule": "python:S1940",
+    "severity": "MINOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/utils/custom_dl.py",
+    "project": "kingunok__hydro",
+    "line": 41,
+    "hash": "095505e63cb304639fbe50f83929f919",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 41,
+      "startOffset": 11,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the opposite operator (\"not in\") instead.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a071ad1b-cc17-4c96-9ca6-f498c682e7e0",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/utils/database.py",
+    "project": "kingunok__hydro",
+    "line": 21,
+    "hash": "237e3b6da3ce41e05da68d73543052c3",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cc8d6f5c-1d75-4e14-b7d3-9eb8244f6ec5",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/utils/database.py",
+    "project": "kingunok__hydro",
+    "line": 38,
+    "hash": "76d10cf9354eed12ed6228ed159764e9",
+    "textRange": {
+      "startLine": 38,
+      "endLine": 38,
+      "startOffset": 14,
+      "endOffset": 27
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/utils/database.py",
+            "textRange": {
+              "startLine": 38,
+              "endLine": 38,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "412d3d86-7886-4444-880b-134d983b25d3",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/utils/database.py",
+    "project": "kingunok__hydro",
+    "line": 52,
+    "hash": "237e3b6da3ce41e05da68d73543052c3",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 52,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ead514c5-74c5-40e0-9547-8f9707d016fc",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "kingunok__hydro:temp_repos/Hydro/WebStreamer/utils/human_readable.py",
+    "project": "kingunok__hydro",
+    "line": 10,
+    "hash": "2a6054e60a2aa7c529c2d7828cc91271",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 4,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"Dic_powerN\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "061aa2ce-a964-4278-b2d7-cd86695d2809",
+    "rule": "secrets:S6694",
+    "severity": "BLOCKER",
+    "component": "kingunok__hydro:temp_repos/Hydro/app.json",
+    "project": "kingunok__hydro",
+    "line": 35,
+    "hash": "908e122a826403016d4fe60e0395555a",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 60,
+      "endOffset": 67
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make sure this MongoDB database password gets changed and removed from the code.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T19:04:48+0000",
+    "updateDate": "2026-07-17T19:04:48+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

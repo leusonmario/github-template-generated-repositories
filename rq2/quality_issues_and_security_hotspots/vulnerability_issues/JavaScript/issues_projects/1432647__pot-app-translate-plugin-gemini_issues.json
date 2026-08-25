@@ -1,0 +1,182 @@
+[
+  {
+    "key": "0f6d637e-aeaf-4259-bd9a-5911c7af7ae1",
+    "rule": "javascript:S125",
+    "severity": "MAJOR",
+    "component": "1432647__pot-app-translate-plugin-gemini:temp_repos/pot-app-translate-plugin-gemini/main.js",
+    "project": "1432647__pot-app-translate-plugin-gemini",
+    "line": 14,
+    "hash": "a7fd3e2be57230fab08a2bbd9849e88d",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 15,
+      "startOffset": 4,
+      "endOffset": 71
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-20T21:07:28+0000",
+    "updateDate": "2026-07-20T21:07:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "41a9d5a7-e181-4e11-8ff1-895c431e8b29",
+    "rule": "javascript:S5850",
+    "severity": "MAJOR",
+    "component": "1432647__pot-app-translate-plugin-gemini:temp_repos/pot-app-translate-plugin-gemini/main.js",
+    "project": "1432647__pot-app-translate-plugin-gemini",
+    "line": 53,
+    "hash": "0b54c45b75559615b68e01d044f1ae0d",
+    "textRange": {
+      "startLine": 53,
+      "endLine": 53,
+      "startOffset": 65,
+      "endOffset": 70
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Group parts of the regex together to make the intended operator precedence explicit.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "regex",
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-20T21:07:28+0000",
+    "updateDate": "2026-07-20T21:07:28+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a71d80da-01b4-456c-85b1-5f5de92eb3fa",
+    "rule": "javascript:S7781",
+    "severity": "MINOR",
+    "component": "1432647__pot-app-translate-plugin-gemini:temp_repos/pot-app-translate-plugin-gemini/main.js",
+    "project": "1432647__pot-app-translate-plugin-gemini",
+    "line": 53,
+    "hash": "0b54c45b75559615b68e01d044f1ae0d",
+    "textRange": {
+      "startLine": 53,
+      "endLine": 53,
+      "startOffset": 56,
+      "endOffset": 63
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-20T21:07:28+0000",
+    "updateDate": "2026-07-20T21:07:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4df4eaf9-ba04-4cff-9ea3-a800ef0fde51",
+    "rule": "javascript:S3696",
+    "severity": "MAJOR",
+    "component": "1432647__pot-app-translate-plugin-gemini:temp_repos/pot-app-translate-plugin-gemini/main.js",
+    "project": "1432647__pot-app-translate-plugin-gemini",
+    "line": 55,
+    "hash": "dc1210b3dcb1f748a7ee1f7ec612a80e",
+    "textRange": {
+      "startLine": 55,
+      "endLine": 55,
+      "startOffset": 8,
+      "endOffset": 92
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Expected an error object to be thrown.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "api-design",
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-20T21:07:28+0000",
+    "updateDate": "2026-07-20T21:07:28+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

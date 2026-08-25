@@ -1,0 +1,894 @@
+[
+  {
+    "key": "f8bb3d7d-4bf7-4ac2-bd32-a30c4ebc51ec",
+    "rule": "Web:FrameWithoutTitleCheck",
+    "severity": "MINOR",
+    "component": "bwckspierrbot__bruno--tanure:temp_repos/Bruno--Tanure/dist/index.html",
+    "project": "bwckspierrbot__bruno--tanure",
+    "line": 168,
+    "hash": "e7bd7f6130bef709c3cfdfa684ca733c",
+    "textRange": {
+      "startLine": 168,
+      "endLine": 168,
+      "startOffset": 12,
+      "endOffset": 344
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a \"title\" attribute to this <iframe> tag.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-20T23:01:17+0000",
+    "updateDate": "2026-07-20T23:01:17+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c840cb14-7240-47aa-81d0-90ad1c36af0a",
+    "rule": "Web:S6827",
+    "severity": "MINOR",
+    "component": "bwckspierrbot__bruno--tanure:temp_repos/Bruno--Tanure/dist/index.html",
+    "project": "bwckspierrbot__bruno--tanure",
+    "line": 170,
+    "hash": "41ae6bacae5bd4d97f5fb05a66742dd8",
+    "textRange": {
+      "startLine": 170,
+      "endLine": 170,
+      "startOffset": 0,
+      "endOffset": 344
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchors must have content and the content must be accessible by a screen reader.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-20T23:01:17+0000",
+    "updateDate": "2026-07-20T23:01:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "533d83ce-1e4a-4f8b-a72c-099b309e0c57",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "bwckspierrbot__bruno--tanure:temp_repos/Bruno--Tanure/scripts/build-pug.js",
+    "project": "bwckspierrbot__bruno--tanure",
+    "line": 8,
+    "hash": "d5d50b0b9defa40f6f94322e93b23744",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 17,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T23:01:17+0000",
+    "updateDate": "2026-07-20T23:01:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1e5a286e-e51c-41c6-a285-ec4e6d5e5f0f",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "bwckspierrbot__bruno--tanure:temp_repos/Bruno--Tanure/scripts/render-assets.js",
+    "project": "bwckspierrbot__bruno--tanure",
+    "line": 2,
+    "hash": "44f9b15d3b1641faca5561b190d8261a",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 19,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-20T23:01:17+0000",
+    "updateDate": "2026-07-20T23:01:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0cf74272-f74f-4b5d-9624-a5d79a8edceb",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "bwckspierrbot__bruno--tanure:temp_repos/Bruno--Tanure/scripts/render-pug.js",
+    "project": "bwckspierrbot__bruno--tanure",
+    "line": 2,
+    "hash": "44f9b15d3b1641faca5561b190d8261a",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 19,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-20T23:01:17+0000",
+    "updateDate": "2026-07-20T23:01:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "acb172bd-9d7c-4a04-b2dd-d5ca44d4cf55",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "bwckspierrbot__bruno--tanure:temp_repos/Bruno--Tanure/scripts/render-scripts.js",
+    "project": "bwckspierrbot__bruno--tanure",
+    "line": 2,
+    "hash": "44f9b15d3b1641faca5561b190d8261a",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 19,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-20T23:01:17+0000",
+    "updateDate": "2026-07-20T23:01:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ecbdc830-3076-4a55-8a38-569cf6657c55",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "bwckspierrbot__bruno--tanure:temp_repos/Bruno--Tanure/scripts/render-scss.js",
+    "project": "bwckspierrbot__bruno--tanure",
+    "line": 3,
+    "hash": "44f9b15d3b1641faca5561b190d8261a",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 19,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-20T23:01:17+0000",
+    "updateDate": "2026-07-20T23:01:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8a312ec4-8ea9-48a8-b9c4-a61b368ec6d1",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "bwckspierrbot__bruno--tanure:temp_repos/Bruno--Tanure/scripts/render-scss.js",
+    "project": "bwckspierrbot__bruno--tanure",
+    "line": 28,
+    "hash": "8baf120e2a1973853115476208026304",
+    "textRange": {
+      "startLine": 28,
+      "endLine": 28,
+      "startOffset": 26,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T23:01:17+0000",
+    "updateDate": "2026-07-20T23:01:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b97f3e6f-0980-43b8-80bc-3877f96fc033",
+    "rule": "javascript:S930",
+    "severity": "CRITICAL",
+    "component": "bwckspierrbot__bruno--tanure:temp_repos/Bruno--Tanure/scripts/sb-watch.js",
+    "project": "bwckspierrbot__bruno--tanure",
+    "line": 50,
+    "hash": "4dd628312f5e1363fb0ce5708f1f3782",
+    "textRange": {
+      "startLine": 50,
+      "endLine": 50,
+      "startOffset": 19,
+      "endOffset": 30
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "bwckspierrbot__bruno--tanure:temp_repos/Bruno--Tanure/scripts/sb-watch.js",
+            "textRange": {
+              "startLine": 84,
+              "endLine": 84,
+              "startOffset": 9,
+              "endOffset": 20
+            },
+            "msg": "Formal parameters",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bwckspierrbot__bruno--tanure:temp_repos/Bruno--Tanure/scripts/sb-watch.js",
+            "textRange": {
+              "startLine": 50,
+              "endLine": 50,
+              "startOffset": 31,
+              "endOffset": 39
+            },
+            "msg": "Extra argument",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "bwckspierrbot__bruno--tanure:temp_repos/Bruno--Tanure/scripts/sb-watch.js",
+            "textRange": {
+              "startLine": 50,
+              "endLine": 50,
+              "startOffset": 41,
+              "endOffset": 51
+            },
+            "msg": "Extra argument",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This function expects no arguments, but 2 were provided.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-20T23:01:17+0000",
+    "updateDate": "2026-07-20T23:01:17+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3e117c00-082c-45bd-9ffd-491557587e16",
+    "rule": "javascript:S7785",
+    "severity": "MAJOR",
+    "component": "bwckspierrbot__bruno--tanure:temp_repos/Bruno--Tanure/scripts/start-debug.js",
+    "project": "bwckspierrbot__bruno--tanure",
+    "line": 16,
+    "hash": "267cc36f3b868b160afaaf096832e099",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 3,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over using a promise chain.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-07-20T23:01:17+0000",
+    "updateDate": "2026-07-20T23:01:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "08b36058-645a-42fc-a0eb-bf6a964ad5d1",
+    "rule": "javascript:S7785",
+    "severity": "MAJOR",
+    "component": "bwckspierrbot__bruno--tanure:temp_repos/Bruno--Tanure/scripts/start.js",
+    "project": "bwckspierrbot__bruno--tanure",
+    "line": 16,
+    "hash": "267cc36f3b868b160afaaf096832e099",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 3,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over using a promise chain.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-07-20T23:01:17+0000",
+    "updateDate": "2026-07-20T23:01:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f035bada-07f2-4f75-89eb-3a4883f8f28d",
+    "rule": "javascript:S7764",
+    "severity": "MINOR",
+    "component": "bwckspierrbot__bruno--tanure:temp_repos/Bruno--Tanure/src/js/scripts.js",
+    "project": "bwckspierrbot__bruno--tanure",
+    "line": 1,
+    "hash": "d7165f9d2f93dfae7a21011b2dd9636f",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-20T23:01:17+0000",
+    "updateDate": "2026-07-20T23:01:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a5ee6964-f007-43f7-baf0-1fc15d65430d",
+    "rule": "javascript:S7774",
+    "severity": "MAJOR",
+    "component": "bwckspierrbot__bruno--tanure:temp_repos/Bruno--Tanure/src/js/scripts.js",
+    "project": "bwckspierrbot__bruno--tanure",
+    "line": 15,
+    "hash": "db9218897703361b8c789d0ec53a5cd9",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 28,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using `Array.prototype.slice`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance",
+      "best-practice"
+    ],
+    "creationDate": "2026-07-20T23:01:17+0000",
+    "updateDate": "2026-07-20T23:01:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d62e5d90-6982-4cad-bd0b-630a056be518",
+    "rule": "javascript:S3504",
+    "severity": "CRITICAL",
+    "component": "bwckspierrbot__bruno--tanure:temp_repos/Bruno--Tanure/src/js/scripts.js",
+    "project": "bwckspierrbot__bruno--tanure",
+    "line": 15,
+    "hash": "db9218897703361b8c789d0ec53a5cd9",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 4,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected var, use let or const instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-20T23:01:17+0000",
+    "updateDate": "2026-07-20T23:01:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4c78465d-6771-4f1f-9f11-5c9815f91075",
+    "rule": "javascript:S6660",
+    "severity": "MAJOR",
+    "component": "bwckspierrbot__bruno--tanure:temp_repos/Bruno--Tanure/src/js/scripts.js",
+    "project": "bwckspierrbot__bruno--tanure",
+    "line": 46,
+    "hash": "225ef5e03b022244486c3285a2ca80ce",
+    "textRange": {
+      "startLine": 46,
+      "endLine": 46,
+      "startOffset": 12,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'If' statement should not be the only statement in 'else' block",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T23:01:17+0000",
+    "updateDate": "2026-07-20T23:01:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4b810730-1551-41ad-939a-459aef38e045",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "bwckspierrbot__bruno--tanure:temp_repos/Bruno--Tanure/src/js/scripts.js",
+    "project": "bwckspierrbot__bruno--tanure",
+    "line": 69,
+    "hash": "5fa9d3caba03cbe31cba1143d2e41a8b",
+    "textRange": {
+      "startLine": 69,
+      "endLine": 69,
+      "startOffset": 18,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-20T23:01:17+0000",
+    "updateDate": "2026-07-20T23:01:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d04d3f0e-ea41-4d95-a073-79e074967d00",
+    "rule": "javascript:S3504",
+    "severity": "CRITICAL",
+    "component": "bwckspierrbot__bruno--tanure:temp_repos/Bruno--Tanure/src/js/scripts.js",
+    "project": "bwckspierrbot__bruno--tanure",
+    "line": 69,
+    "hash": "5fa9d3caba03cbe31cba1143d2e41a8b",
+    "textRange": {
+      "startLine": 69,
+      "endLine": 69,
+      "startOffset": 8,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected var, use let or const instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-20T23:01:17+0000",
+    "updateDate": "2026-07-20T23:01:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ac400a99-e6e0-4552-ae1b-8af6753f0f30",
+    "rule": "javascript:S1940",
+    "severity": "MINOR",
+    "component": "bwckspierrbot__bruno--tanure:temp_repos/Bruno--Tanure/src/js/scripts.js",
+    "project": "bwckspierrbot__bruno--tanure",
+    "line": 70,
+    "hash": "fc5bab161f016b59e8e65ba096aebf25",
+    "textRange": {
+      "startLine": 70,
+      "endLine": 70,
+      "startOffset": 12,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the opposite operator (<=) instead.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-20T23:01:17+0000",
+    "updateDate": "2026-07-20T23:01:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b995f776-4eea-4d36-9420-3446b14ea875",
+    "rule": "css:S7924",
+    "severity": "MAJOR",
+    "component": "bwckspierrbot__bruno--tanure:temp_repos/Bruno--Tanure/src/scss/components/_sidebar.scss",
+    "project": "bwckspierrbot__bruno--tanure",
+    "line": 40,
+    "hash": "8b54cbcf3eab503c5780421c0d55836f",
+    "textRange": {
+      "startLine": 40,
+      "endLine": 40,
+      "startOffset": 0,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Text does not meet the minimal contrast requirement with its background.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "css",
+      "accessibility",
+      "wcag",
+      "contrast"
+    ],
+    "creationDate": "2026-07-20T23:01:17+0000",
+    "updateDate": "2026-07-20T23:01:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

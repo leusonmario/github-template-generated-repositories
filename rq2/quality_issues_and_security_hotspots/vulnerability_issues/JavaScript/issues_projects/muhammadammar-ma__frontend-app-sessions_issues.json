@@ -1,0 +1,4675 @@
+[
+  {
+    "key": "f2af2579-8b23-4b5c-b2e8-57a87001db4f",
+    "rule": "typescript:S7787",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/jest.config.ts",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 15,
+    "hash": "99ba9a1b47bfa8e89f5f59423e160557",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 7,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "export statement without specifiers is not allowed.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "es6",
+      "unused",
+      "confusing"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fbe1e5ab-bd17-4638-a314-2e6b25324fac",
+    "rule": "javascript:S7764",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/app/AuthGate.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 16,
+    "hash": "9f31ef4cf38b91217f4ef9bab1efe2f8",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 22,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e134a61a-2cee-4428-824f-c380a31d2ee4",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/attendance/AttendanceRosterPage.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 145,
+    "hash": "7bba3bc87406acf6347860882f8c5d96",
+    "textRange": {
+      "startLine": 145,
+      "endLine": 145,
+      "startOffset": 17,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "695f0701-3edf-4e76-bc37-d0ed2fc77b12",
+    "rule": "javascript:S2004",
+    "severity": "CRITICAL",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/attendance/AttendanceRosterPage.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 147,
+    "hash": "b811496f3b9e1f7b3c6da5d2d937f054",
+    "textRange": {
+      "startLine": 147,
+      "endLine": 147,
+      "startOffset": 58,
+      "endOffset": 60
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/attendance/AttendanceRosterPage.jsx",
+            "textRange": {
+              "startLine": 99,
+              "endLine": 99,
+              "startOffset": 32,
+              "endOffset": 34
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/attendance/AttendanceRosterPage.jsx",
+            "textRange": {
+              "startLine": 126,
+              "endLine": 126,
+              "startOffset": 15,
+              "endOffset": 17
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/attendance/AttendanceRosterPage.jsx",
+            "textRange": {
+              "startLine": 128,
+              "endLine": 128,
+              "startOffset": 14,
+              "endOffset": 16
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/attendance/AttendanceRosterPage.jsx",
+            "textRange": {
+              "startLine": 145,
+              "endLine": 145,
+              "startOffset": 31,
+              "endOffset": 33
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this code to not nest functions more than 4 levels deep.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f3f0a4f9-33ec-4a49-83d7-9e953bbf3c9a",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/attendance/AttendanceRosterPage.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 154,
+    "hash": "3c89c33bc8c1029c22789a87d300150f",
+    "textRange": {
+      "startLine": 154,
+      "endLine": 154,
+      "startOffset": 17,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5f1d4006-d888-486c-b4cd-b407ba54b7de",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/attendance/AttendanceRosterPage.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 206,
+    "hash": "f4512f938ba8e587963470a166133991",
+    "textRange": {
+      "startLine": 206,
+      "endLine": 206,
+      "startOffset": 19,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fbe34913-578a-4bb3-a0a0-b845337c5782",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/attendance/AttendanceRosterPage.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 310,
+    "hash": "52e51793237f9eefb145525929ec384c",
+    "textRange": {
+      "startLine": 310,
+      "endLine": 310,
+      "startOffset": 32,
+      "endOffset": 51
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a7c77ba7-23eb-4c02-8051-71ffcb24a281",
+    "rule": "javascript:S4624",
+    "severity": "MAJOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/attendance/api.js",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 54,
+    "hash": "7836e92bbd29e7f2e7423802ad4f74e2",
+    "textRange": {
+      "startLine": 54,
+      "endLine": 54,
+      "startOffset": 39,
+      "endOffset": 47
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Refactor this code to not use nested template literals.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "confusing"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9ff73549-045e-4369-9b42-b08cb73e2bb7",
+    "rule": "javascript:S4624",
+    "severity": "MAJOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/attendance/api.js",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 124,
+    "hash": "2126438e9b86823592a93e1ef136a1d1",
+    "textRange": {
+      "startLine": 124,
+      "endLine": 124,
+      "startOffset": 36,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Refactor this code to not use nested template literals.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "confusing"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6acd3046-960c-4deb-994c-3b8f86f6f7e6",
+    "rule": "javascript:S4624",
+    "severity": "MAJOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/attendance/api.js",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 161,
+    "hash": "4912319189925b3efde0d27dd4605866",
+    "textRange": {
+      "startLine": 161,
+      "endLine": 161,
+      "startOffset": 47,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Refactor this code to not use nested template literals.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "confusing"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6e1f3cf1-9776-4c90-a497-666f45c0a6f0",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/attendance/reports/CourseSummaryReport.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 231,
+    "hash": "e984d4d62342ab39229c99ce0e0922f5",
+    "textRange": {
+      "startLine": 231,
+      "endLine": 231,
+      "startOffset": 54,
+      "endOffset": 72
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "244cf1ad-b9e2-42fc-ab69-d00bebd48a2a",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarPage.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 81,
+    "hash": "40fc9129bd9dc672d185da735fa635d9",
+    "textRange": {
+      "startLine": 81,
+      "endLine": 81,
+      "startOffset": 10,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cfee102b-caaa-495a-8599-20cf6c6b6657",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarPage.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 143,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 143,
+      "endLine": 147,
+      "startOffset": 8,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1ca63eed-76d5-4171-8165-e24e2565cfd2",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarPage.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 161,
+    "hash": "b3f264b24ad8997ca1be716044b1eeb1",
+    "textRange": {
+      "startLine": 161,
+      "endLine": 161,
+      "startOffset": 19,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7024d1ff-e82d-4979-88b4-6fdcea8b99a1",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarPage.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 164,
+    "hash": "6464c624756be84731dddd6697a697cc",
+    "textRange": {
+      "startLine": 164,
+      "endLine": 164,
+      "startOffset": 23,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d8d45e31-abc1-4d7a-927c-d24d4bbe5166",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarPage.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 168,
+    "hash": "a2d94c4f256850fe1c178dddf9e8ee60",
+    "textRange": {
+      "startLine": 168,
+      "endLine": 168,
+      "startOffset": 17,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "55bacef1-1432-4187-af18-a35a11ada5fd",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarPage.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 181,
+    "hash": "a2d94c4f256850fe1c178dddf9e8ee60",
+    "textRange": {
+      "startLine": 181,
+      "endLine": 181,
+      "startOffset": 13,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a743ff61-4861-46c1-bbc2-ffb4a791e358",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarPage.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 197,
+    "hash": "b3f264b24ad8997ca1be716044b1eeb1",
+    "textRange": {
+      "startLine": 197,
+      "endLine": 197,
+      "startOffset": 19,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1af63a34-2af3-4ca6-89c9-4d08fe529785",
+    "rule": "javascript:S2189",
+    "severity": "BLOCKER",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarPage.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 202,
+    "hash": "af2c8cb8a964467ed9f284762ad21daa",
+    "textRange": {
+      "startLine": 202,
+      "endLine": 202,
+      "startOffset": 20,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'last' is not modified in this loop.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fd3b220f-93b1-42d2-b755-ac5c94ae5adf",
+    "rule": "javascript:S4144",
+    "severity": "MAJOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 407,
+    "hash": "397f27351571dec5eef2c6bdaf8d68be",
+    "textRange": {
+      "startLine": 407,
+      "endLine": 407,
+      "startOffset": 34,
+      "endOffset": 36
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+            "textRange": {
+              "startLine": 220,
+              "endLine": 220,
+              "startOffset": 25,
+              "endOffset": 27
+            },
+            "msg": "Original implementation",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Update this function so that its implementation is not identical to the one on line 220.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [
+      "confusing",
+      "duplicate",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0b3f9551-cee9-4768-8130-e2279465c0f5",
+    "rule": "javascript:S4144",
+    "severity": "MAJOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 413,
+    "hash": "f8c736d62f19ed54fc03844620abb990",
+    "textRange": {
+      "startLine": 413,
+      "endLine": 413,
+      "startOffset": 36,
+      "endOffset": 38
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+            "textRange": {
+              "startLine": 226,
+              "endLine": 226,
+              "startOffset": 27,
+              "endOffset": 29
+            },
+            "msg": "Original implementation",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Update this function so that its implementation is not identical to the one on line 226.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [
+      "confusing",
+      "duplicate",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "22d5fefa-a8bf-4c6e-ba96-f48b45ddb04f",
+    "rule": "javascript:S4144",
+    "severity": "MAJOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 419,
+    "hash": "7857037a249ad50009c297834a58c434",
+    "textRange": {
+      "startLine": 419,
+      "endLine": 419,
+      "startOffset": 36,
+      "endOffset": 38
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+            "textRange": {
+              "startLine": 232,
+              "endLine": 232,
+              "startOffset": 27,
+              "endOffset": 29
+            },
+            "msg": "Original implementation",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Update this function so that its implementation is not identical to the one on line 232.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [
+      "confusing",
+      "duplicate",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c32ebd12-80c0-4ef2-aa6a-8559352c07c2",
+    "rule": "javascript:S4144",
+    "severity": "MAJOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 425,
+    "hash": "7056b2f9a2fb4f6a8883cf2ede0a7da4",
+    "textRange": {
+      "startLine": 425,
+      "endLine": 425,
+      "startOffset": 40,
+      "endOffset": 42
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+            "textRange": {
+              "startLine": 238,
+              "endLine": 238,
+              "startOffset": 31,
+              "endOffset": 33
+            },
+            "msg": "Original implementation",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Update this function so that its implementation is not identical to the one on line 238.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [
+      "confusing",
+      "duplicate",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3d777ffd-5f3f-41ba-86c5-f2918ce5dee0",
+    "rule": "javascript:S4144",
+    "severity": "MAJOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 431,
+    "hash": "1a55c81ebb2bf3f94555ca505e72eb5e",
+    "textRange": {
+      "startLine": 431,
+      "endLine": 431,
+      "startOffset": 30,
+      "endOffset": 32
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+            "textRange": {
+              "startLine": 244,
+              "endLine": 244,
+              "startOffset": 30,
+              "endOffset": 32
+            },
+            "msg": "Original implementation",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Update this function so that its implementation is not identical to the one on line 244.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [
+      "confusing",
+      "duplicate",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8e579d67-5844-4d42-a7b5-0aa6a7e56278",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 460,
+    "hash": "717dc89fd35f81fa514573d5db694ed8",
+    "textRange": {
+      "startLine": 460,
+      "endLine": 460,
+      "startOffset": 37,
+      "endOffset": 58
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0ee953fd-e45c-4267-9e3d-3eed3b0ef9c0",
+    "rule": "javascript:S3776",
+    "severity": "CRITICAL",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 753,
+    "hash": "b64a4703e9db030a1b1493ab9bf202f9",
+    "textRange": {
+      "startLine": 753,
+      "endLine": 753,
+      "startOffset": 3,
+      "endOffset": 5
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+            "textRange": {
+              "startLine": 778,
+              "endLine": 778,
+              "startOffset": 24,
+              "endOffset": 25
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+            "textRange": {
+              "startLine": 779,
+              "endLine": 779,
+              "startOffset": 28,
+              "endOffset": 29
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+            "textRange": {
+              "startLine": 780,
+              "endLine": 780,
+              "startOffset": 29,
+              "endOffset": 30
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+            "textRange": {
+              "startLine": 795,
+              "endLine": 795,
+              "startOffset": 28,
+              "endOffset": 29
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+            "textRange": {
+              "startLine": 797,
+              "endLine": 797,
+              "startOffset": 32,
+              "endOffset": 33
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+            "textRange": {
+              "startLine": 800,
+              "endLine": 800,
+              "startOffset": 158,
+              "endOffset": 159
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+            "textRange": {
+              "startLine": 812,
+              "endLine": 812,
+              "startOffset": 30,
+              "endOffset": 31
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+            "textRange": {
+              "startLine": 813,
+              "endLine": 813,
+              "startOffset": 30,
+              "endOffset": 31
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+            "textRange": {
+              "startLine": 814,
+              "endLine": 814,
+              "startOffset": 25,
+              "endOffset": 26
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+            "textRange": {
+              "startLine": 903,
+              "endLine": 903,
+              "startOffset": 88,
+              "endOffset": 89
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+            "textRange": {
+              "startLine": 1025,
+              "endLine": 1025,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.",
+    "effort": "9min",
+    "debt": "9min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "06aa337f-c45e-4f11-adf1-c01ea04814bd",
+    "rule": "javascript:S6819",
+    "severity": "MAJOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 777,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 777,
+      "endLine": 801,
+      "startOffset": 4,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <input type=\"button\">, <input type=\"image\">, <input type=\"reset\">, <input type=\"submit\">, or <button> instead of the \"button\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dc1cdca7-bbfe-435c-bb01-de7c4d9df45e",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 800,
+    "hash": "1972a13f62892cc5caef43489afcab23",
+    "textRange": {
+      "startLine": 800,
+      "endLine": 800,
+      "startOffset": 136,
+      "endOffset": 157
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "42d1ccac-7e5a-4b53-9e68-15382b5952ec",
+    "rule": "javascript:S2004",
+    "severity": "CRITICAL",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 1351,
+    "hash": "c4f0fcefd2ba2dc8339d1af63fe908b6",
+    "textRange": {
+      "startLine": 1351,
+      "endLine": 1351,
+      "startOffset": 70,
+      "endOffset": 72
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+            "textRange": {
+              "startLine": 1208,
+              "endLine": 1208,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+            "textRange": {
+              "startLine": 1309,
+              "endLine": 1309,
+              "startOffset": 26,
+              "endOffset": 28
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+            "textRange": {
+              "startLine": 1341,
+              "endLine": 1341,
+              "startOffset": 62,
+              "endOffset": 64
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+            "textRange": {
+              "startLine": 1351,
+              "endLine": 1351,
+              "startOffset": 43,
+              "endOffset": 45
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this code to not nest functions more than 4 levels deep.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "003947d4-b892-4be9-95e5-89b1af5020c1",
+    "rule": "javascript:S2004",
+    "severity": "CRITICAL",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 1459,
+    "hash": "c4f0fcefd2ba2dc8339d1af63fe908b6",
+    "textRange": {
+      "startLine": 1459,
+      "endLine": 1459,
+      "startOffset": 70,
+      "endOffset": 72
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+            "textRange": {
+              "startLine": 1208,
+              "endLine": 1208,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+            "textRange": {
+              "startLine": 1309,
+              "endLine": 1309,
+              "startOffset": 26,
+              "endOffset": 28
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+            "textRange": {
+              "startLine": 1388,
+              "endLine": 1388,
+              "startOffset": 43,
+              "endOffset": 45
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+            "textRange": {
+              "startLine": 1459,
+              "endLine": 1459,
+              "startOffset": 43,
+              "endOffset": 45
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this code to not nest functions more than 4 levels deep.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "88b50b83-6903-460c-b880-9972381f1bc9",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 1625,
+    "hash": "a38af909fad050068c96676771624686",
+    "textRange": {
+      "startLine": 1625,
+      "endLine": 1625,
+      "startOffset": 17,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b9bfafbd-49c5-44d0-9065-1adc139380db",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 1635,
+    "hash": "222ab3d7df79e93e0dc5f66474a3e45d",
+    "textRange": {
+      "startLine": 1635,
+      "endLine": 1635,
+      "startOffset": 13,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cee5c4ab-df6f-4a48-88b7-af2a3af21fb3",
+    "rule": "javascript:S2189",
+    "severity": "BLOCKER",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/CalendarView.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 1638,
+    "hash": "af2c8cb8a964467ed9f284762ad21daa",
+    "textRange": {
+      "startLine": 1638,
+      "endLine": 1638,
+      "startOffset": 20,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'last' is not modified in this loop.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5fd3f9d1-00f6-422e-bd77-abdaba49e599",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 112,
+    "hash": "ec8191373878a522f27ac1f3b1a6c268",
+    "textRange": {
+      "startLine": 112,
+      "endLine": 112,
+      "startOffset": 71,
+      "endOffset": 85
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0e0173e4-6023-4c44-8195-9a208d20e50c",
+    "rule": "javascript:S3776",
+    "severity": "CRITICAL",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 122,
+    "hash": "b64a4703e9db030a1b1493ab9bf202f9",
+    "textRange": {
+      "startLine": 122,
+      "endLine": 122,
+      "startOffset": 3,
+      "endOffset": 5
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 128,
+              "endLine": 128,
+              "startOffset": 34,
+              "endOffset": 36
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 734,
+              "endLine": 734,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 734,
+              "endLine": 734,
+              "startOffset": 65,
+              "endOffset": 67
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 734,
+              "endLine": 734,
+              "startOffset": 133,
+              "endOffset": 135
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 737,
+              "endLine": 737,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 737,
+              "endLine": 737,
+              "startOffset": 57,
+              "endOffset": 59
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 740,
+              "endLine": 740,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 740,
+              "endLine": 740,
+              "startOffset": 62,
+              "endOffset": 64
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 753,
+              "endLine": 753,
+              "startOffset": 21,
+              "endOffset": 22
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 911,
+              "endLine": 911,
+              "startOffset": 78,
+              "endOffset": 79
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 913,
+              "endLine": 913,
+              "startOffset": 57,
+              "endOffset": 59
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 924,
+              "endLine": 924,
+              "startOffset": 42,
+              "endOffset": 43
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 955,
+              "endLine": 955,
+              "startOffset": 72,
+              "endOffset": 73
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 967,
+              "endLine": 967,
+              "startOffset": 47,
+              "endOffset": 48
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 990,
+              "endLine": 990,
+              "startOffset": 45,
+              "endOffset": 46
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 1002,
+              "endLine": 1002,
+              "startOffset": 45,
+              "endOffset": 46
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 1022,
+              "endLine": 1022,
+              "startOffset": 68,
+              "endOffset": 69
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 1022,
+              "endLine": 1022,
+              "startOffset": 35,
+              "endOffset": 37
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1f23e11a-1556-44ea-b9c6-fc94c30543b5",
+    "rule": "javascript:S3776",
+    "severity": "CRITICAL",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 331,
+    "hash": "657b4eba89ee0519b2f1fc552e1435de",
+    "textRange": {
+      "startLine": 331,
+      "endLine": 331,
+      "startOffset": 15,
+      "endOffset": 17
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 332,
+              "endLine": 332,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 392,
+              "endLine": 392,
+              "startOffset": 6,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 338,
+              "endLine": 338,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 340,
+              "endLine": 340,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 357,
+              "endLine": 357,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 360,
+              "endLine": 360,
+              "startOffset": 37,
+              "endOffset": 38
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 360,
+              "endLine": 360,
+              "startOffset": 60,
+              "endOffset": 61
+            },
+            "msg": "+4 (incl. 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 362,
+              "endLine": 362,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 367,
+              "endLine": 367,
+              "startOffset": 36,
+              "endOffset": 37
+            },
+            "msg": "+4 (incl. 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 369,
+              "endLine": 369,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 370,
+              "endLine": 370,
+              "startOffset": 10,
+              "endOffset": 12
+            },
+            "msg": "+4 (incl. 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 373,
+              "endLine": 373,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 379,
+              "endLine": 379,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 383,
+              "endLine": 383,
+              "startOffset": 15,
+              "endOffset": 17
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 386,
+              "endLine": 386,
+              "startOffset": 10,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 34 to the 15 allowed.",
+    "effort": "24min",
+    "debt": "24min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4146730f-cffa-4f66-b421-00fb92af8166",
+    "rule": "javascript:S3358",
+    "severity": "MAJOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 360,
+    "hash": "899a38e7d30d3b736dda991167d517b0",
+    "textRange": {
+      "startLine": 360,
+      "endLine": 360,
+      "startOffset": 49,
+      "endOffset": 82
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8352d526-f811-48ef-a6de-116fedebdb7e",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 365,
+    "hash": "33b8b8b960d17599c1d7e6b6a799bb44",
+    "textRange": {
+      "startLine": 365,
+      "endLine": 365,
+      "startOffset": 24,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "331e4442-1068-420a-82e9-33ec86c37833",
+    "rule": "javascript:S3776",
+    "severity": "CRITICAL",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 482,
+    "hash": "d5ce8fb6d11c8027f582740d6941bcc7",
+    "textRange": {
+      "startLine": 482,
+      "endLine": 482,
+      "startOffset": 26,
+      "endOffset": 28
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 483,
+              "endLine": 483,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 483,
+              "endLine": 483,
+              "startOffset": 23,
+              "endOffset": 25
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 488,
+              "endLine": 488,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 488,
+              "endLine": 488,
+              "startOffset": 22,
+              "endOffset": 24
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 493,
+              "endLine": 493,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 493,
+              "endLine": 493,
+              "startOffset": 22,
+              "endOffset": 24
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 498,
+              "endLine": 498,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 498,
+              "endLine": 498,
+              "startOffset": 23,
+              "endOffset": 25
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 503,
+              "endLine": 503,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 503,
+              "endLine": 503,
+              "startOffset": 23,
+              "endOffset": 25
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 508,
+              "endLine": 508,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 508,
+              "endLine": 508,
+              "startOffset": 23,
+              "endOffset": 25
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 513,
+              "endLine": 513,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 513,
+              "endLine": 513,
+              "startOffset": 23,
+              "endOffset": 25
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 518,
+              "endLine": 518,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 518,
+              "endLine": 518,
+              "startOffset": 23,
+              "endOffset": 25
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 523,
+              "endLine": 523,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 523,
+              "endLine": 523,
+              "startOffset": 23,
+              "endOffset": 25
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 524,
+              "endLine": 524,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 524,
+              "endLine": 524,
+              "startOffset": 38,
+              "endOffset": 40
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 529,
+              "endLine": 529,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 529,
+              "endLine": 529,
+              "startOffset": 39,
+              "endOffset": 41
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 534,
+              "endLine": 534,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 534,
+              "endLine": 534,
+              "startOffset": 30,
+              "endOffset": 32
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 539,
+              "endLine": 539,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 539,
+              "endLine": 539,
+              "startOffset": 30,
+              "endOffset": 32
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 544,
+              "endLine": 544,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 544,
+              "endLine": 544,
+              "startOffset": 29,
+              "endOffset": 31
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 549,
+              "endLine": 549,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 549,
+              "endLine": 549,
+              "startOffset": 29,
+              "endOffset": 31
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 550,
+              "endLine": 550,
+              "startOffset": 83,
+              "endOffset": 84
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 552,
+              "endLine": 552,
+              "startOffset": 10,
+              "endOffset": 11
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 554,
+              "endLine": 554,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 554,
+              "endLine": 554,
+              "startOffset": 26,
+              "endOffset": 28
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 560,
+              "endLine": 560,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 560,
+              "endLine": 560,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 50 to the 15 allowed.",
+    "effort": "40min",
+    "debt": "40min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8b02ea5e-436d-481a-bf65-9e3d4f74af8c",
+    "rule": "javascript:S3776",
+    "severity": "CRITICAL",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 609,
+    "hash": "effdce106bd74e5f03705c3a6db121b3",
+    "textRange": {
+      "startLine": 609,
+      "endLine": 609,
+      "startOffset": 33,
+      "endOffset": 35
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 615,
+              "endLine": 615,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 621,
+              "endLine": 621,
+              "startOffset": 8,
+              "endOffset": 13
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 629,
+              "endLine": 629,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 638,
+              "endLine": 638,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 663,
+              "endLine": 663,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 644,
+              "endLine": 644,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 649,
+              "endLine": 649,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 654,
+              "endLine": 654,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 657,
+              "endLine": 657,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 680,
+              "endLine": 680,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 684,
+              "endLine": 684,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 686,
+              "endLine": 686,
+              "startOffset": 10,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 693,
+              "endLine": 693,
+              "startOffset": 6,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 694,
+              "endLine": 694,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+            "textRange": {
+              "startLine": 696,
+              "endLine": 696,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.",
+    "effort": "13min",
+    "debt": "13min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3c5ecaaf-70b8-4e51-9da2-34523afed77f",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 1173,
+    "hash": "c45336845a442272bcc2faae00209841",
+    "textRange": {
+      "startLine": 1173,
+      "endLine": 1173,
+      "startOffset": 36,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cba64a40-80ca-426f-81b8-b69a90de0708",
+    "rule": "javascript:S7781",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/ScheduleMeetingModal.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 1173,
+    "hash": "c45336845a442272bcc2faae00209841",
+    "textRange": {
+      "startLine": 1173,
+      "endLine": 1173,
+      "startOffset": 60,
+      "endOffset": 67
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e46d475e-1118-47f8-a062-127a3029bf10",
+    "rule": "javascript:S4144",
+    "severity": "MAJOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/api.js",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 70,
+    "hash": "21190e16b84c0c816e1517f90e03915d",
+    "textRange": {
+      "startLine": 70,
+      "endLine": 70,
+      "startOffset": 44,
+      "endOffset": 46
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/api.js",
+            "textRange": {
+              "startLine": 56,
+              "endLine": 56,
+              "startOffset": 41,
+              "endOffset": 43
+            },
+            "msg": "Original implementation",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Update this function so that its implementation is not identical to the one on line 56.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [
+      "confusing",
+      "duplicate",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1670bc46-0ffc-4fcc-9b79-263a77a288cf",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/api.js",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 111,
+    "hash": "7dc794a56cecdbc2111ca00c128203c6",
+    "textRange": {
+      "startLine": 111,
+      "endLine": 111,
+      "startOffset": 23,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bfec9a57-2919-4fd4-be9a-df872dec6c1b",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/calendar/api.js",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 112,
+    "hash": "d1868335ae837088f142d3959cdf56aa",
+    "textRange": {
+      "startLine": 112,
+      "endLine": 112,
+      "startOffset": 31,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "42a47795-ae15-40aa-92fa-b27e9b59dbfa",
+    "rule": "typescript:S7787",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/example/ExamplePage.test.tsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 7,
+    "hash": "99ba9a1b47bfa8e89f5f59423e160557",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 7,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "export statement without specifiers is not allowed.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "es6",
+      "unused",
+      "confusing"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "23eabdb0-f779-40c1-90d3-1a38e8eae53c",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/index.tsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 23,
+    "hash": "bd34da852aa5363ae890a0c227396c88",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 24,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d2ac27a1-d4c4-4cf7-be1f-2a93c5f93243",
+    "rule": "javascript:S3776",
+    "severity": "CRITICAL",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/requests/RequestDetailCell.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 70,
+    "hash": "7cf2c8baf8cace2dd7fb9316a9d99239",
+    "textRange": {
+      "startLine": 70,
+      "endLine": 70,
+      "startOffset": 36,
+      "endOffset": 38
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/requests/RequestDetailCell.jsx",
+            "textRange": {
+              "startLine": 77,
+              "endLine": 77,
+              "startOffset": 28,
+              "endOffset": 30
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/requests/RequestDetailCell.jsx",
+            "textRange": {
+              "startLine": 79,
+              "endLine": 79,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/requests/RequestDetailCell.jsx",
+            "textRange": {
+              "startLine": 82,
+              "endLine": 82,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/requests/RequestDetailCell.jsx",
+            "textRange": {
+              "startLine": 84,
+              "endLine": 84,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/requests/RequestDetailCell.jsx",
+            "textRange": {
+              "startLine": 86,
+              "endLine": 86,
+              "startOffset": 6,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/requests/RequestDetailCell.jsx",
+            "textRange": {
+              "startLine": 84,
+              "endLine": 84,
+              "startOffset": 17,
+              "endOffset": 19
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/requests/RequestDetailCell.jsx",
+            "textRange": {
+              "startLine": 89,
+              "endLine": 89,
+              "startOffset": 9,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/requests/RequestDetailCell.jsx",
+            "textRange": {
+              "startLine": 95,
+              "endLine": 95,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/requests/RequestDetailCell.jsx",
+            "textRange": {
+              "startLine": 96,
+              "endLine": 96,
+              "startOffset": 26,
+              "endOffset": 27
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/requests/RequestDetailCell.jsx",
+            "textRange": {
+              "startLine": 101,
+              "endLine": 101,
+              "startOffset": 25,
+              "endOffset": 26
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/requests/RequestDetailCell.jsx",
+            "textRange": {
+              "startLine": 111,
+              "endLine": 111,
+              "startOffset": 12,
+              "endOffset": 13
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/requests/RequestDetailCell.jsx",
+            "textRange": {
+              "startLine": 111,
+              "endLine": 111,
+              "startOffset": 65,
+              "endOffset": 66
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/requests/RequestDetailCell.jsx",
+            "textRange": {
+              "startLine": 134,
+              "endLine": 134,
+              "startOffset": 26,
+              "endOffset": 27
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "195aa68e-2774-4bf0-86a4-405ea9015ffa",
+    "rule": "javascript:S3358",
+    "severity": "MAJOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/requests/RequestDetailCell.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 111,
+    "hash": "341b8db9f5161ce7da45f55e8971b98d",
+    "textRange": {
+      "startLine": 111,
+      "endLine": 111,
+      "startOffset": 43,
+      "endOffset": 75
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fe0a3e51-5439-4e25-a674-c27782ff040d",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/requests/api.js",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 32,
+    "hash": "d8c1a1c505e8965948902beb218c8cd3",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 32,
+      "startOffset": 16,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "27324491-1a3f-4f37-b374-f96120fea6a7",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/requests/api.js",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 68,
+    "hash": "b2fdcd6d708685c144e2a28cd544536c",
+    "textRange": {
+      "startLine": 68,
+      "endLine": 68,
+      "startOffset": 26,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ad09a86d-f255-46a4-a690-9580c24b0434",
+    "rule": "javascript:S3776",
+    "severity": "CRITICAL",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/shared/SearchableSelect.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 48,
+    "hash": "b64a4703e9db030a1b1493ab9bf202f9",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 3,
+      "endOffset": 5
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/shared/SearchableSelect.jsx",
+            "textRange": {
+              "startLine": 56,
+              "endLine": 56,
+              "startOffset": 43,
+              "endOffset": 44
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/shared/SearchableSelect.jsx",
+            "textRange": {
+              "startLine": 58,
+              "endLine": 58,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/shared/SearchableSelect.jsx",
+            "textRange": {
+              "startLine": 60,
+              "endLine": 60,
+              "startOffset": 9,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/shared/SearchableSelect.jsx",
+            "textRange": {
+              "startLine": 62,
+              "endLine": 62,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/shared/SearchableSelect.jsx",
+            "textRange": {
+              "startLine": 157,
+              "endLine": 157,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/shared/SearchableSelect.jsx",
+            "textRange": {
+              "startLine": 159,
+              "endLine": 159,
+              "startOffset": 9,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/shared/SearchableSelect.jsx",
+            "textRange": {
+              "startLine": 161,
+              "endLine": 161,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/shared/SearchableSelect.jsx",
+            "textRange": {
+              "startLine": 171,
+              "endLine": 171,
+              "startOffset": 52,
+              "endOffset": 53
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/shared/SearchableSelect.jsx",
+            "textRange": {
+              "startLine": 171,
+              "endLine": 171,
+              "startOffset": 41,
+              "endOffset": 43
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/shared/SearchableSelect.jsx",
+            "textRange": {
+              "startLine": 187,
+              "endLine": 187,
+              "startOffset": 17,
+              "endOffset": 18
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/shared/SearchableSelect.jsx",
+            "textRange": {
+              "startLine": 203,
+              "endLine": 203,
+              "startOffset": 42,
+              "endOffset": 43
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/shared/SearchableSelect.jsx",
+            "textRange": {
+              "startLine": 204,
+              "endLine": 204,
+              "startOffset": 33,
+              "endOffset": 34
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/shared/SearchableSelect.jsx",
+            "textRange": {
+              "startLine": 205,
+              "endLine": 205,
+              "startOffset": 34,
+              "endOffset": 35
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/shared/SearchableSelect.jsx",
+            "textRange": {
+              "startLine": 206,
+              "endLine": 206,
+              "startOffset": 40,
+              "endOffset": 41
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ec70c966-439d-4528-a6fb-cab2e45d5a42",
+    "rule": "javascript:S6819",
+    "severity": "MAJOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/shared/SearchableSelect.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 192,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 192,
+      "endLine": 208,
+      "startOffset": 12,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <img alt=...> instead of the \"presentation\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "eaac72e0-04b4-4680-b287-7d2ad01b0c73",
+    "rule": "javascript:S6819",
+    "severity": "MAJOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/shared/SearchableSelect.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 251,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 251,
+      "endLine": 268,
+      "startOffset": 10,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <select size=...>, <select multiple=...>, or <datalist> instead of the \"listbox\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "679c4f10-72e2-4738-a66b-fec2ce0bfdae",
+    "rule": "javascript:S6819",
+    "severity": "MAJOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/shared/SearchableSelect.jsx",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 282,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 282,
+      "endLine": 300,
+      "startOffset": 16,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <option> instead of the \"option\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "003faeee-8e65-466e-a4d1-22f707a5ef7f",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/shared/constants.test.js",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 10,
+    "hash": "a91b1df35b10f72eb9b1de6f356e3137",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 32,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "783e95ee-f4e8-4207-a563-08a0081bb395",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/shared/constants.test.js",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 26,
+    "hash": "41b189d0aadbe065987b39e0fe040de9",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 34,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c4c7f776-f171-4a99-abb0-f63d5ca03769",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "muhammadammar-ma__frontend-app-sessions:temp_repos/frontend-app-sessions/src/shared/utils.js",
+    "project": "muhammadammar-ma__frontend-app-sessions",
+    "line": 69,
+    "hash": "2e247a4687069b6194eba67471325211",
+    "textRange": {
+      "startLine": 69,
+      "endLine": 69,
+      "startOffset": 11,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T20:54:47+0000",
+    "updateDate": "2026-07-20T20:54:47+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

@@ -1,0 +1,764 @@
+[
+  {
+    "key": "23716a07-b612-4e22-b60c-119ceb4164a2",
+    "rule": "Web:S5254",
+    "severity": "MAJOR",
+    "component": "luanroger__electron-shadcn:index.html",
+    "project": "luanroger__electron-shadcn",
+    "line": 3,
+    "hash": "166248a6129a1e4370d20adc2d4c23f3",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"<html>\" element",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-16T22:26:32+0000",
+    "updateDate": "2026-07-16T22:26:32+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9ad262d7-8e21-41b4-9cef-838c12e50805",
+    "rule": "typescript:S7785",
+    "severity": "MAJOR",
+    "component": "luanroger__electron-shadcn:scripts/bump-ui.ts",
+    "project": "luanroger__electron-shadcn",
+    "line": 71,
+    "hash": "d8fdc2ef89fb926eebf4cbf4e2df0b87",
+    "textRange": {
+      "startLine": 71,
+      "endLine": 71,
+      "startOffset": 7,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over using a promise chain.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-07-16T22:26:32+0000",
+    "updateDate": "2026-07-16T22:26:32+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "85e4277e-66c8-4014-abe1-68df8f00efd1",
+    "rule": "typescript:S2301",
+    "severity": "MAJOR",
+    "component": "luanroger__electron-shadcn:src/actions/theme.ts",
+    "project": "luanroger__electron-shadcn",
+    "line": 48,
+    "hash": "5e293c012f00395b6374e8fb4591bc58",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 6,
+      "endOffset": 16
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "luanroger__electron-shadcn:src/actions/theme.ts",
+            "textRange": {
+              "startLine": 47,
+              "endLine": 47,
+              "startOffset": 29,
+              "endOffset": 48
+            },
+            "msg": "Parameter \"isDarkMode\" was declared here",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Provide multiple methods instead of using \"isDarkMode\" to determine which action to take.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [
+      "design",
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-16T22:26:32+0000",
+    "updateDate": "2026-07-16T22:26:32+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "538bf8bf-9e0c-460d-835b-6e6049f9854c",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "luanroger__electron-shadcn:src/components/drag-window-region.tsx",
+    "project": "luanroger__electron-shadcn",
+    "line": 9,
+    "hash": "346e2cc41c9baa00b0895223267aec11",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 41,
+      "endOffset": 73
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:26:32+0000",
+    "updateDate": "2026-07-16T22:26:32+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "01eb2e16-0234-4531-abec-be52414ae771",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "luanroger__electron-shadcn:src/components/drag-window-region.tsx",
+    "project": "luanroger__electron-shadcn",
+    "line": 62,
+    "hash": "eccbf9df726dd355bf1cfcfdd8d29434",
+    "textRange": {
+      "startLine": 62,
+      "endLine": 68,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <img alt=...>, or <img alt=...> instead of the \"img\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:26:32+0000",
+    "updateDate": "2026-07-16T22:26:32+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "057b9c25-4edb-49ca-b426-5d1164895198",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "luanroger__electron-shadcn:src/components/drag-window-region.tsx",
+    "project": "luanroger__electron-shadcn",
+    "line": 78,
+    "hash": "eccbf9df726dd355bf1cfcfdd8d29434",
+    "textRange": {
+      "startLine": 78,
+      "endLine": 84,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <img alt=...>, or <img alt=...> instead of the \"img\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:26:32+0000",
+    "updateDate": "2026-07-16T22:26:32+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0b493b10-8ecd-493b-9a26-436ce8f8f5fc",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "luanroger__electron-shadcn:src/components/drag-window-region.tsx",
+    "project": "luanroger__electron-shadcn",
+    "line": 101,
+    "hash": "eccbf9df726dd355bf1cfcfdd8d29434",
+    "textRange": {
+      "startLine": 101,
+      "endLine": 107,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <img alt=...>, or <img alt=...> instead of the \"img\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:26:32+0000",
+    "updateDate": "2026-07-16T22:26:32+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7d746870-1ae6-4415-bea0-7e6fba1f515b",
+    "rule": "typescript:S6481",
+    "severity": "MAJOR",
+    "component": "luanroger__electron-shadcn:src/components/ui/toggle-group.tsx",
+    "project": "luanroger__electron-shadcn",
+    "line": 49,
+    "hash": "df1e478733d0cffcb124ff227d4060fe",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 49,
+      "startOffset": 15,
+      "endOffset": 54
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The object passed as the value prop to the Context provider changes every render. To fix this consider wrapping it in a useMemo hook.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T22:26:32+0000",
+    "updateDate": "2026-07-16T22:26:32+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "09a89ce1-8ff2-46f5-bdd7-33b8c0ea9821",
+    "rule": "typescript:S2819",
+    "severity": "CRITICAL",
+    "component": "luanroger__electron-shadcn:src/ipc/manager.ts",
+    "project": "luanroger__electron-shadcn",
+    "line": 32,
+    "hash": "6cd42d03d746795931b37df9361d9f8e",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 32,
+      "startOffset": 4,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify a target origin for this message.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "html5",
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-16T22:26:32+0000",
+    "updateDate": "2026-07-16T22:26:32+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6d6a993c-e1b5-4117-9324-260bd2b8fc0d",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "luanroger__electron-shadcn:src/layouts/base-layout.tsx",
+    "project": "luanroger__electron-shadcn",
+    "line": 4,
+    "hash": "f31d3947fc7ff422237b2d0fa31c2238",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 8,
+      "startOffset": 35,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T22:26:32+0000",
+    "updateDate": "2026-07-16T22:26:32+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "311f61d3-d0c9-4834-8d62-b1cc5175ac71",
+    "rule": "typescript:S7785",
+    "severity": "MAJOR",
+    "component": "luanroger__electron-shadcn:src/main.ts",
+    "project": "luanroger__electron-shadcn",
+    "line": 71,
+    "hash": "bde1a6505e2ebd46ad3ecffa6c7fc931",
+    "textRange": {
+      "startLine": 71,
+      "endLine": 71,
+      "startOffset": 16,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over using a promise chain.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-07-16T22:26:32+0000",
+    "updateDate": "2026-07-16T22:26:32+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e1cf1391-b152-45fa-a799-8a6324e07447",
+    "rule": "typescript:S2819",
+    "severity": "CRITICAL",
+    "component": "luanroger__electron-shadcn:src/preload.ts",
+    "project": "luanroger__electron-shadcn",
+    "line": 4,
+    "hash": "49b685c97acceea515b40fbec24e6c49",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 0,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Verify the origin of the received message.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "html5",
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-16T22:26:32+0000",
+    "updateDate": "2026-07-16T22:26:32+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "05e45ae9-b672-4ed1-9749-593869542338",
+    "rule": "typescript:S7724",
+    "severity": "MAJOR",
+    "component": "luanroger__electron-shadcn:src/routeTree.gen.ts",
+    "project": "luanroger__electron-shadcn",
+    "line": 1,
+    "hash": "0c27889cae463d2974c68f5420ec20fd",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 0,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify the rules you want to disable.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "eslint",
+      "linting"
+    ],
+    "creationDate": "2026-07-16T22:26:32+0000",
+    "updateDate": "2026-07-16T22:26:32+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "be43409e-16bc-4d36-adf6-17e2b1c134b2",
+    "rule": "css:S4662",
+    "severity": "MAJOR",
+    "component": "luanroger__electron-shadcn:src/styles/global.css",
+    "project": "luanroger__electron-shadcn",
+    "line": 7,
+    "hash": "d01821e9c2938a121c6da9c0038b7981",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 0,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected unknown at-rule \"@custom-variant\"",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T22:26:32+0000",
+    "updateDate": "2026-07-16T22:26:32+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6624039c-273a-4e9c-a22a-904e4587fb15",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "luanroger__electron-shadcn:src/utils/path.ts",
+    "project": "luanroger__electron-shadcn",
+    "line": 7,
+    "hash": "37e5d30d22a5b4d797df6c2b5770dbf9",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 9,
+      "endOffset": 62
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T22:26:32+0000",
+    "updateDate": "2026-07-16T22:26:32+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ecc0f86f-cb8e-4a72-851e-cc5f2dd2f64c",
+    "rule": "typescript:S7741",
+    "severity": "MINOR",
+    "component": "luanroger__electron-shadcn:src/utils/path.ts",
+    "project": "luanroger__electron-shadcn",
+    "line": 7,
+    "hash": "37e5d30d22a5b4d797df6c2b5770dbf9",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 9,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Compare with `undefined` directly instead of using `typeof`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability",
+      "style"
+    ],
+    "creationDate": "2026-07-16T22:26:32+0000",
+    "updateDate": "2026-07-16T22:26:32+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "35dab9a6-596c-4b99-9122-5b9a77e6e128",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "luanroger__electron-shadcn:src/utils/path.ts",
+    "project": "luanroger__electron-shadcn",
+    "line": 9,
+    "hash": "5a191aa1c9715ad844dd1c468422ecc9",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 11,
+      "startOffset": 6,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T22:26:32+0000",
+    "updateDate": "2026-07-16T22:26:32+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

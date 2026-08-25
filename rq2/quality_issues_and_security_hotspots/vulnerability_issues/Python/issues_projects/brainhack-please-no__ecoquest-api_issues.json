@@ -1,0 +1,762 @@
+[
+  {
+    "key": "20467e85-95d3-4b8c-936a-24ccdef54bb5",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "brainhack-please-no__ecoquest-api:temp_repos/ecoQuest-api/Dockerfile",
+    "project": "brainhack-please-no__ecoquest-api",
+    "line": 10,
+    "hash": "d4b97294e0e1382f388f8b8635704643",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "brainhack-please-no__ecoquest-api:temp_repos/ecoQuest-api/Dockerfile",
+            "textRange": {
+              "startLine": 11,
+              "endLine": 11,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T18:49:41+0000",
+    "updateDate": "2026-07-17T18:49:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "74cbbe2b-846d-42a3-b3b1-850a4a015e49",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "brainhack-please-no__ecoquest-api:temp_repos/ecoQuest-api/api/__init__.py",
+    "project": "brainhack-please-no__ecoquest-api",
+    "line": 33,
+    "hash": "c48d24d650a2f953f6c78172d6a7a2f7",
+    "textRange": {
+      "startLine": 33,
+      "endLine": 33,
+      "startOffset": 48,
+      "endOffset": 71
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused local variable \"SQLALCHEMY_DATABASE_URI\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T18:49:41+0000",
+    "updateDate": "2026-07-17T18:49:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0452e36d-617b-422c-8026-a57d4208dfc6",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "brainhack-please-no__ecoquest-api:temp_repos/ecoQuest-api/api/config.py",
+    "project": "brainhack-please-no__ecoquest-api",
+    "line": 15,
+    "hash": "1d99c7795171ee7752feb7a22cdcba97",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 74,
+      "endOffset": 75
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused loop index \"i\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T18:49:41+0000",
+    "updateDate": "2026-07-17T18:49:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f2168520-3b18-47ba-97bd-d68a49ef5cd2",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "brainhack-please-no__ecoquest-api:temp_repos/ecoQuest-api/api/config.py",
+    "project": "brainhack-please-no__ecoquest-api",
+    "line": 19,
+    "hash": "7fea7f5b1f50579c12a571389debe82f",
+    "textRange": {
+      "startLine": 19,
+      "endLine": 19,
+      "startOffset": 78,
+      "endOffset": 79
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused loop index \"i\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T18:49:41+0000",
+    "updateDate": "2026-07-17T18:49:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "73df30ff-f534-45cb-9809-4afeac47ca7b",
+    "rule": "python:S5754",
+    "severity": "CRITICAL",
+    "component": "brainhack-please-no__ecoquest-api:temp_repos/ecoQuest-api/api/routes.py",
+    "project": "brainhack-please-no__ecoquest-api",
+    "line": 84,
+    "hash": "3e264f5fbab10735799511f21ca70842",
+    "textRange": {
+      "startLine": 84,
+      "endLine": 84,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify an exception class to catch or reraise the exception",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "bad-practice",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T18:49:41+0000",
+    "updateDate": "2026-07-17T18:49:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "eaf67fc3-a0ca-4734-b96a-dd7b9b250c3d",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "brainhack-please-no__ecoquest-api:temp_repos/ecoQuest-api/api/routes.py",
+    "project": "brainhack-please-no__ecoquest-api",
+    "line": 151,
+    "hash": "a1326f04570bd5b90fb5608232958962",
+    "textRange": {
+      "startLine": 151,
+      "endLine": 152,
+      "startOffset": 58,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T18:49:41+0000",
+    "updateDate": "2026-07-17T18:49:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3caf799d-690d-4752-a1b2-9d90e00d7be1",
+    "rule": "python:S5754",
+    "severity": "CRITICAL",
+    "component": "brainhack-please-no__ecoquest-api:temp_repos/ecoQuest-api/api/routes.py",
+    "project": "brainhack-please-no__ecoquest-api",
+    "line": 235,
+    "hash": "3e264f5fbab10735799511f21ca70842",
+    "textRange": {
+      "startLine": 235,
+      "endLine": 235,
+      "startOffset": 12,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify an exception class to catch or reraise the exception",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "bad-practice",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T18:49:41+0000",
+    "updateDate": "2026-07-17T18:49:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "996e60d5-1d25-436f-a846-a097c5609257",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "brainhack-please-no__ecoquest-api:temp_repos/ecoQuest-api/api/routes.py",
+    "project": "brainhack-please-no__ecoquest-api",
+    "line": 241,
+    "hash": "7a0553caaef2f9b48273ec5c09afd164",
+    "textRange": {
+      "startLine": 241,
+      "endLine": 242,
+      "startOffset": 70,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T18:49:41+0000",
+    "updateDate": "2026-07-17T18:49:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "834d7ebf-fb5b-4196-b0e0-b9e0161d2f08",
+    "rule": "python:S5720",
+    "severity": "CRITICAL",
+    "component": "brainhack-please-no__ecoquest-api:temp_repos/ecoQuest-api/api/routes.py",
+    "project": "brainhack-please-no__ecoquest-api",
+    "line": 259,
+    "hash": "2fd371827793b6510511447328b28e1c",
+    "textRange": {
+      "startLine": 259,
+      "endLine": 259,
+      "startOffset": 12,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename \"current_user\" to \"self\" or add the missing \"self\" parameter.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "confusing",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T18:49:41+0000",
+    "updateDate": "2026-07-17T18:49:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "233150b5-bf18-4b07-8360-d97916cf1c56",
+    "rule": "python:S5754",
+    "severity": "CRITICAL",
+    "component": "brainhack-please-no__ecoquest-api:temp_repos/ecoQuest-api/api/routes.py",
+    "project": "brainhack-please-no__ecoquest-api",
+    "line": 444,
+    "hash": "3e264f5fbab10735799511f21ca70842",
+    "textRange": {
+      "startLine": 444,
+      "endLine": 444,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify an exception class to catch or reraise the exception",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "bad-practice",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T18:49:41+0000",
+    "updateDate": "2026-07-17T18:49:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2b716019-28dc-4e61-8236-6185770a1b93",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "brainhack-please-no__ecoquest-api:temp_repos/ecoQuest-api/api/routes.py",
+    "project": "brainhack-please-no__ecoquest-api",
+    "line": 455,
+    "hash": "c37bfb42f150383a9c4d21840d1fab06",
+    "textRange": {
+      "startLine": 455,
+      "endLine": 455,
+      "startOffset": 8,
+      "endOffset": 12
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "brainhack-please-no__ecoquest-api:temp_repos/ecoQuest-api/api/routes.py",
+            "textRange": {
+              "startLine": 466,
+              "endLine": 466,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "brainhack-please-no__ecoquest-api:temp_repos/ecoQuest-api/api/routes.py",
+            "textRange": {
+              "startLine": 468,
+              "endLine": 468,
+              "startOffset": 12,
+              "endOffset": 15
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "brainhack-please-no__ecoquest-api:temp_repos/ecoQuest-api/api/routes.py",
+            "textRange": {
+              "startLine": 470,
+              "endLine": 470,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "brainhack-please-no__ecoquest-api:temp_repos/ecoQuest-api/api/routes.py",
+            "textRange": {
+              "startLine": 476,
+              "endLine": 476,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "brainhack-please-no__ecoquest-api:temp_repos/ecoQuest-api/api/routes.py",
+            "textRange": {
+              "startLine": 487,
+              "endLine": 487,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "brainhack-please-no__ecoquest-api:temp_repos/ecoQuest-api/api/routes.py",
+            "textRange": {
+              "startLine": 489,
+              "endLine": 489,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "brainhack-please-no__ecoquest-api:temp_repos/ecoQuest-api/api/routes.py",
+            "textRange": {
+              "startLine": 491,
+              "endLine": 491,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "brainhack-please-no__ecoquest-api:temp_repos/ecoQuest-api/api/routes.py",
+            "textRange": {
+              "startLine": 491,
+              "endLine": 491,
+              "startOffset": 54,
+              "endOffset": 57
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "brainhack-please-no__ecoquest-api:temp_repos/ecoQuest-api/api/routes.py",
+            "textRange": {
+              "startLine": 496,
+              "endLine": 496,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "brainhack-please-no__ecoquest-api:temp_repos/ecoQuest-api/api/routes.py",
+            "textRange": {
+              "startLine": 498,
+              "endLine": 498,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "brainhack-please-no__ecoquest-api:temp_repos/ecoQuest-api/api/routes.py",
+            "textRange": {
+              "startLine": 498,
+              "endLine": 498,
+              "startOffset": 55,
+              "endOffset": 58
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.",
+    "effort": "7min",
+    "debt": "7min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T18:49:41+0000",
+    "updateDate": "2026-07-17T18:49:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6492b1b2-e8a1-459e-aba7-899494c7fa9f",
+    "rule": "python:S5720",
+    "severity": "CRITICAL",
+    "component": "brainhack-please-no__ecoquest-api:temp_repos/ecoQuest-api/api/routes.py",
+    "project": "brainhack-please-no__ecoquest-api",
+    "line": 455,
+    "hash": "c37bfb42f150383a9c4d21840d1fab06",
+    "textRange": {
+      "startLine": 455,
+      "endLine": 455,
+      "startOffset": 13,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename \"user\" to \"self\" or add the missing \"self\" parameter.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "confusing",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T18:49:41+0000",
+    "updateDate": "2026-07-17T18:49:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ea9317db-157e-45a6-a86c-0dce788fac20",
+    "rule": "python:S101",
+    "severity": "MINOR",
+    "component": "brainhack-please-no__ecoquest-api:temp_repos/ecoQuest-api/api/routes.py",
+    "project": "brainhack-please-no__ecoquest-api",
+    "line": 506,
+    "hash": "b1c02da1053b9b58fa744e8a714c7a55",
+    "textRange": {
+      "startLine": 506,
+      "endLine": 506,
+      "startOffset": 6,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename class \"Quest_all\" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T18:49:41+0000",
+    "updateDate": "2026-07-17T18:49:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

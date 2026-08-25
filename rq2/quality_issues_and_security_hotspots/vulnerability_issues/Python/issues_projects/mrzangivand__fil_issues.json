@@ -1,0 +1,3137 @@
+[
+  {
+    "key": "0166eba3-50db-4652-8343-80fd77e236ac",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "mrzangivand__fil:temp_repos/fil/Dockerfile",
+    "project": "mrzangivand__fil",
+    "line": 6,
+    "hash": "d4b97294e0e1382f388f8b8635704643",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/Dockerfile",
+            "textRange": {
+              "startLine": 7,
+              "endLine": 7,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a0880f02-49c1-4af0-bc9d-b7b2104d4226",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/__main__.py",
+    "project": "mrzangivand__fil",
+    "line": 44,
+    "hash": "f0bb7f1c7c815e6f12b11b2714e04281",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 44,
+      "startOffset": 10,
+      "endOffset": 78
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/__main__.py",
+            "textRange": {
+              "startLine": 48,
+              "endLine": 48,
+              "startOffset": 10,
+              "endOffset": 78
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/__main__.py",
+            "textRange": {
+              "startLine": 53,
+              "endLine": 53,
+              "startOffset": 10,
+              "endOffset": 78
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"------------------------------ DONE ------------------------------\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "22724a3a-c5d9-4b8a-8cb3-15d45566baaa",
+    "rule": "python:S7494",
+    "severity": "MINOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/clients.py",
+    "project": "mrzangivand__fil",
+    "line": 10,
+    "hash": "e32eb8d32b7b73046bd5cbf3aa08d67d",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 17,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace dict constructor call with a dictionary comprehension.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0184bbc7-f7f8-4d07-ab30-fbdf860bcfc4",
+    "rule": "python:S5806",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+    "project": "mrzangivand__fil",
+    "line": 32,
+    "hash": "02f7fa8a7e2b17af081701adff8ae7d7",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 32,
+      "startOffset": 4,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this variable; it shadows a builtin.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "confusing",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "067099c7-fc4a-4510-bf2f-140117ddaa2e",
+    "rule": "python:S5806",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+    "project": "mrzangivand__fil",
+    "line": 53,
+    "hash": "98bf9e4b9298b3f71d5405615181ba19",
+    "textRange": {
+      "startLine": 53,
+      "endLine": 53,
+      "startOffset": 4,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this variable; it shadows a builtin.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "confusing",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "21b4c211-1fdc-49bb-bca7-37dd4482a755",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+    "project": "mrzangivand__fil",
+    "line": 72,
+    "hash": "490841ef91b518f581e421a228fb85ac",
+    "textRange": {
+      "startLine": 72,
+      "endLine": 72,
+      "startOffset": 10,
+      "endOffset": 20
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 75,
+              "endLine": 75,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 77,
+              "endLine": 77,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 94,
+              "endLine": 94,
+              "startOffset": 14,
+              "endOffset": 17
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 99,
+              "endLine": 99,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 101,
+              "endLine": 101,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 103,
+              "endLine": 103,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 105,
+              "endLine": 105,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 108,
+              "endLine": 108,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 110,
+              "endLine": 110,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 120,
+              "endLine": 120,
+              "startOffset": 16,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 122,
+              "endLine": 122,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 127,
+              "endLine": 127,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 132,
+              "endLine": 132,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3aec29e3-6ea1-453e-8c7c-fa62f9ca6556",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+    "project": "mrzangivand__fil",
+    "line": 76,
+    "hash": "c0a8a87fae343082bf3cbe4ee9498cf8",
+    "textRange": {
+      "startLine": 76,
+      "endLine": 76,
+      "startOffset": 72,
+      "endOffset": 73
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused loop index \"i\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "acb1344b-cebf-4c8e-82cc-edebe5666b1a",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+    "project": "mrzangivand__fil",
+    "line": 80,
+    "hash": "743d1f074fb4eb26daf2388495c39afc",
+    "textRange": {
+      "startLine": 80,
+      "endLine": 80,
+      "startOffset": 13,
+      "endOffset": 104
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6fd94e3d-66cd-432d-8b06-c8a0c9e50fca",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+    "project": "mrzangivand__fil",
+    "line": 87,
+    "hash": "4bed34d7ef749cc55f394fafeea5d010",
+    "textRange": {
+      "startLine": 87,
+      "endLine": 87,
+      "startOffset": 34,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b46482a4-83da-4aa7-9fe6-98bf47a339a0",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+    "project": "mrzangivand__fil",
+    "line": 93,
+    "hash": "5bc949be9f42ed1848a4d131a0e6ff4c",
+    "textRange": {
+      "startLine": 93,
+      "endLine": 93,
+      "startOffset": 29,
+      "endOffset": 44
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 134,
+              "endLine": 134,
+              "startOffset": 21,
+              "endOffset": 36
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 138,
+              "endLine": 138,
+              "startOffset": 14,
+              "endOffset": 29
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal 'broadcast.txt' 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "af85c40a-b0ab-406f-8c0a-09e100425a0a",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+    "project": "mrzangivand__fil",
+    "line": 112,
+    "hash": "a8208786884e8e2545eb3372ef1b7b34",
+    "textRange": {
+      "startLine": 112,
+      "endLine": 112,
+      "startOffset": 20,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "80ebcd2e-b036-474a-bead-211be221918b",
+    "rule": "python:S5754",
+    "severity": "CRITICAL",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+    "project": "mrzangivand__fil",
+    "line": 120,
+    "hash": "3e264f5fbab10735799511f21ca70842",
+    "textRange": {
+      "startLine": 120,
+      "endLine": 120,
+      "startOffset": 16,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify an exception class to catch or reraise the exception",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "bad-practice",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ac9c9e06-52fa-4167-9d1a-28e1c9a8e071",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+    "project": "mrzangivand__fil",
+    "line": 148,
+    "hash": "4c0426a021fd99688bfc8399e6124442",
+    "textRange": {
+      "startLine": 148,
+      "endLine": 148,
+      "startOffset": 17,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f8e7239b-26b2-4cb0-abf6-804ee4fe2d21",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/admin.py",
+    "project": "mrzangivand__fil",
+    "line": 155,
+    "hash": "409bea89352e2884f24279aab222f6c7",
+    "textRange": {
+      "startLine": 155,
+      "endLine": 155,
+      "startOffset": 13,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ca28e4fd-e332-4e58-95b0-596caf7e8e0f",
+    "rule": "python:S3626",
+    "severity": "MINOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/callback.py",
+    "project": "mrzangivand__fil",
+    "line": 52,
+    "hash": "e70c4df10ef0983b9c8c31bd06b2a2c3",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 52,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant return.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "redundant",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6a27f8c1-fef8-49f5-8c32-90a3d964b804",
+    "rule": "python:S3626",
+    "severity": "MINOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/callback.py",
+    "project": "mrzangivand__fil",
+    "line": 60,
+    "hash": "e70c4df10ef0983b9c8c31bd06b2a2c3",
+    "textRange": {
+      "startLine": 60,
+      "endLine": 60,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant return.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "redundant",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e23b0a7f-0413-4749-83f5-bf7b88800c7d",
+    "rule": "python:S3626",
+    "severity": "MINOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/callback.py",
+    "project": "mrzangivand__fil",
+    "line": 80,
+    "hash": "e70c4df10ef0983b9c8c31bd06b2a2c3",
+    "textRange": {
+      "startLine": 80,
+      "endLine": 80,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant return.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "redundant",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f54a26d1-4708-486f-8069-9dc0639696c9",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/callback.py",
+    "project": "mrzangivand__fil",
+    "line": 158,
+    "hash": "71c3056ed87535681ecbcb3e2abf818c",
+    "textRange": {
+      "startLine": 158,
+      "endLine": 158,
+      "startOffset": 4,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"TiMe\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2503bdc1-179b-4821-84fb-d0b50a22365f",
+    "rule": "python:S6660",
+    "severity": "MINOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/callback.py",
+    "project": "mrzangivand__fil",
+    "line": 159,
+    "hash": "83b9a1f6a52a8a3d969ef469059498c4",
+    "textRange": {
+      "startLine": 159,
+      "endLine": 159,
+      "startOffset": 18,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the `isinstance()` function here.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "typing"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f181020e-3fc3-44cf-9c93-89e57b66c117",
+    "rule": "python:S1172",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/callback.py",
+    "project": "mrzangivand__fil",
+    "line": 169,
+    "hash": "80b5caa3ccc355d95295a9e197637a9c",
+    "textRange": {
+      "startLine": 169,
+      "endLine": 169,
+      "startOffset": 32,
+      "endOffset": 49
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused function parameter \"file_list_no\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3ed7dfe6-d59c-48da-b562-acd61ecaec64",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/callback.py",
+    "project": "mrzangivand__fil",
+    "line": 181,
+    "hash": "b537aeb07fec08ef82e03ca996c7cab2",
+    "textRange": {
+      "startLine": 181,
+      "endLine": 181,
+      "startOffset": 91,
+      "endOffset": 105
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "16e520f1-ef6a-4251-8051-6dfdc141294d",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/callback.py",
+    "project": "mrzangivand__fil",
+    "line": 196,
+    "hash": "72b3783883aac645f448ea068069f7fa",
+    "textRange": {
+      "startLine": 196,
+      "endLine": 196,
+      "startOffset": 91,
+      "endOffset": 99
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0237580f-0cce-4a47-baab-182f71016050",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/start.py",
+    "project": "mrzangivand__fil",
+    "line": 18,
+    "hash": "2064740fc06f1f013ef6814ac4f30679",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 10,
+      "endOffset": 15
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 19,
+              "endLine": 19,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 23,
+              "endLine": 23,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 24,
+              "endLine": 24,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 31,
+              "endLine": 31,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 38,
+              "endLine": 38,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 39,
+              "endLine": 39,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 43,
+              "endLine": 43,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 54,
+              "endLine": 54,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 56,
+              "endLine": 56,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 60,
+              "endLine": 60,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 66,
+              "endLine": 66,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 72,
+              "endLine": 72,
+              "startOffset": 20,
+              "endOffset": 26
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 75,
+              "endLine": 75,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 77,
+              "endLine": 77,
+              "startOffset": 12,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/start.py",
+            "textRange": {
+              "startLine": 81,
+              "endLine": 81,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.",
+    "effort": "22min",
+    "debt": "22min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ad54af45-7f1d-4972-8143-5b689d089bf8",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/start.py",
+    "project": "mrzangivand__fil",
+    "line": 82,
+    "hash": "f8a0f8acb715469f6ed243532d1c81f8",
+    "textRange": {
+      "startLine": 82,
+      "endLine": 82,
+      "startOffset": 37,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "63d2e199-791f-47ce-a35d-90139be980c0",
+    "rule": "python:S1066",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/stream.py",
+    "project": "mrzangivand__fil",
+    "line": 35,
+    "hash": "a0a4f4bb42e5c8894932577284cc9f2b",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 8,
+      "endOffset": 10
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/stream.py",
+            "textRange": {
+              "startLine": 34,
+              "endLine": 34,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "enclosing",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this if statement with the enclosing one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "clumsy"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e4721884-6542-4451-b5ed-587d6eed4c8f",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/stream.py",
+    "project": "mrzangivand__fil",
+    "line": 77,
+    "hash": "9d8ce17139cdb290d27bdb578f09ca28",
+    "textRange": {
+      "startLine": 77,
+      "endLine": 77,
+      "startOffset": 22,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused local variable \"stream_link\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fdef93f1-80bf-4a94-affc-f70318fde4c7",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/bot/plugins/stream.py",
+    "project": "mrzangivand__fil",
+    "line": 77,
+    "hash": "9d8ce17139cdb290d27bdb578f09ca28",
+    "textRange": {
+      "startLine": 77,
+      "endLine": 77,
+      "startOffset": 8,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused local variable \"reply_markup\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b84b9219-8a37-43a4-a84e-430c081f3613",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/config.py",
+    "project": "mrzangivand__fil",
+    "line": 19,
+    "hash": "7d889365284fe994cc58d58bda4b34e0",
+    "textRange": {
+      "startLine": 19,
+      "endLine": 19,
+      "startOffset": 35,
+      "endOffset": 85
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/config.py",
+            "textRange": {
+              "startLine": 20,
+              "endLine": 20,
+              "startOffset": 37,
+              "endOffset": 87
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/config.py",
+            "textRange": {
+              "startLine": 21,
+              "endLine": 21,
+              "startOffset": 39,
+              "endOffset": 89
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"https://graph.org/file/ce2ed7d192b0200409306.png\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bd6f19f5-60d4-4024-bec7-121e805b2077",
+    "rule": "python:S7494",
+    "severity": "MINOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/config.py",
+    "project": "mrzangivand__fil",
+    "line": 27,
+    "hash": "16302b999a060b85b8ac9d9fe1f97ebf",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 22,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace set constructor call with a set comprehension.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8288926a-0d82-4c76-92e1-ce22e4cd22e1",
+    "rule": "python:S7494",
+    "severity": "MINOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/server/stream_routes.py",
+    "project": "mrzangivand__fil",
+    "line": 24,
+    "hash": "9edb97628006f99659a66a47c8fd5b16",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 21,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace dict constructor call with a dictionary comprehension.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a468954b-c0ff-4b82-ba06-89c8c0a99bec",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/server/stream_routes.py",
+    "project": "mrzangivand__fil",
+    "line": 123,
+    "hash": "534f0592cd8abf337874f70b19c25849",
+    "textRange": {
+      "startLine": 123,
+      "endLine": 123,
+      "startOffset": 4,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7771add7-d85b-4baf-b5dd-6e35d749b394",
+    "rule": "Web:UnsupportedTagsInHtml5Check",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/template/play.html",
+    "project": "mrzangivand__fil",
+    "line": 33,
+    "hash": "8d2087217220f9ecca1ebde6c049ba92",
+    "textRange": {
+      "startLine": 33,
+      "endLine": 33,
+      "startOffset": 4,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this deprecated \"center\" element.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "html5",
+      "obsolete",
+      "user-experience"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ec9bca34-f618-4b8c-9d5b-5e22b64d93c9",
+    "rule": "Web:S4084",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/template/play.html",
+    "project": "mrzangivand__fil",
+    "line": 44,
+    "hash": "a01ad12e181e8ac29eec4fbe77cf2c44",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 45,
+      "startOffset": 16,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add subtitles and description files for this video.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "html5"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3abdd5a7-4eb4-46cf-aa56-384ca77b20ac",
+    "rule": "Web:UnsupportedTagsInHtml5Check",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/template/play.html",
+    "project": "mrzangivand__fil",
+    "line": 106,
+    "hash": "8d2087217220f9ecca1ebde6c049ba92",
+    "textRange": {
+      "startLine": 106,
+      "endLine": 106,
+      "startOffset": 12,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this deprecated \"center\" element.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "html5",
+      "obsolete",
+      "user-experience"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ea092ba8-f8c6-4d3d-8e44-6528ae6f0ddc",
+    "rule": "Web:ImgWithoutAltCheck",
+    "severity": "MINOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/template/play.html",
+    "project": "mrzangivand__fil",
+    "line": 114,
+    "hash": "ece1a02ff4d352e5316ded3a33b5a158",
+    "textRange": {
+      "startLine": 114,
+      "endLine": 114,
+      "startOffset": 28,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add an \"alt\" attribute to this image.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c63efca0-f11d-4e71-8be7-a7f8f670d041",
+    "rule": "Web:UnsupportedTagsInHtml5Check",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/template/play.html",
+    "project": "mrzangivand__fil",
+    "line": 129,
+    "hash": "8d2087217220f9ecca1ebde6c049ba92",
+    "textRange": {
+      "startLine": 129,
+      "endLine": 129,
+      "startOffset": 12,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this deprecated \"center\" element.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "html5",
+      "obsolete",
+      "user-experience"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "baca70fb-4fd6-412d-97bc-f35aaae39236",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/bot_utils.py",
+    "project": "mrzangivand__fil",
+    "line": 74,
+    "hash": "5f3e24324e57eb4da8a04d89e0dbb460",
+    "textRange": {
+      "startLine": 74,
+      "endLine": 74,
+      "startOffset": 19,
+      "endOffset": 124
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "285a44cd-25af-41df-99bb-b2b88ef988f1",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/bot_utils.py",
+    "project": "mrzangivand__fil",
+    "line": 96,
+    "hash": "261b05673a51a18dfc5fbd9d25fca400",
+    "textRange": {
+      "startLine": 96,
+      "endLine": 96,
+      "startOffset": 85,
+      "endOffset": 93
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/bot_utils.py",
+            "textRange": {
+              "startLine": 105,
+              "endLine": 105,
+              "startOffset": 38,
+              "endOffset": 46
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/bot_utils.py",
+            "textRange": {
+              "startLine": 128,
+              "endLine": 128,
+              "startOffset": 85,
+              "endOffset": 93
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/bot_utils.py",
+            "textRange": {
+              "startLine": 135,
+              "endLine": 135,
+              "startOffset": 38,
+              "endOffset": 46
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"دانلود\" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d1a672d4-c3dc-4437-ac3a-501d5d67237c",
+    "rule": "python:S1172",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/bot_utils.py",
+    "project": "mrzangivand__fil",
+    "line": 114,
+    "hash": "a9e54b321a51152443d40d3bb1b8ab6a",
+    "textRange": {
+      "startLine": 114,
+      "endLine": 114,
+      "startOffset": 20,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused function parameter \"m\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f0eda4b3-d927-4253-8051-dcaef6c0a590",
+    "rule": "python:S1172",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/bot_utils.py",
+    "project": "mrzangivand__fil",
+    "line": 114,
+    "hash": "a9e54b321a51152443d40d3bb1b8ab6a",
+    "textRange": {
+      "startLine": 114,
+      "endLine": 114,
+      "startOffset": 37,
+      "endOffset": 47
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused function parameter \"name\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4481cd42-1005-43e9-9988-f88c7c7b278e",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/bot_utils.py",
+    "project": "mrzangivand__fil",
+    "line": 160,
+    "hash": "a5dde08a1b52ef7dee6c8a83475a49af",
+    "textRange": {
+      "startLine": 160,
+      "endLine": 160,
+      "startOffset": 37,
+      "endOffset": 57
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "68c09e7f-6664-4706-b92b-b945e559ce1e",
+    "rule": "python:S1940",
+    "severity": "MINOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/bot_utils.py",
+    "project": "mrzangivand__fil",
+    "line": 174,
+    "hash": "6dabb3980cc5226084a8adecd2901f31",
+    "textRange": {
+      "startLine": 174,
+      "endLine": 174,
+      "startOffset": 11,
+      "endOffset": 47
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the opposite operator (\"not in\") instead.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a42e1799-5542-4440-b58d-73b19d1f7311",
+    "rule": "python:S1066",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/bot_utils.py",
+    "project": "mrzangivand__fil",
+    "line": 213,
+    "hash": "a0a4f4bb42e5c8894932577284cc9f2b",
+    "textRange": {
+      "startLine": 213,
+      "endLine": 213,
+      "startOffset": 8,
+      "endOffset": 10
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/bot_utils.py",
+            "textRange": {
+              "startLine": 212,
+              "endLine": 212,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "enclosing",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this if statement with the enclosing one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "clumsy"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "daae7e31-4086-4c1b-8caf-7731876d0314",
+    "rule": "python:S7502",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/custom_dl.py",
+    "project": "mrzangivand__fil",
+    "line": 17,
+    "hash": "0b07994826821e2f996d354a1330ad98",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 17,
+      "startOffset": 8,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Save this task in a variable to prevent premature garbage collection.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "asyncio",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "48769be8-b441-46f7-9710-627337dceef0",
+    "rule": "python:S1940",
+    "severity": "MINOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/custom_dl.py",
+    "project": "mrzangivand__fil",
+    "line": 25,
+    "hash": "095505e63cb304639fbe50f83929f919",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 11,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the opposite operator (\"not in\") instead.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "39d97681-636c-480d-9e0d-514b8574745d",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/database.py",
+    "project": "mrzangivand__fil",
+    "line": 18,
+    "hash": "237e3b6da3ce41e05da68d73543052c3",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d656c462-14fc-4a45-a6e4-bd531c71af3a",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/database.py",
+    "project": "mrzangivand__fil",
+    "line": 39,
+    "hash": "76d10cf9354eed12ed6228ed159764e9",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 39,
+      "startOffset": 14,
+      "endOffset": 27
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/database.py",
+            "textRange": {
+              "startLine": 39,
+              "endLine": 39,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4ba44de0-b97e-4a25-b936-b0f7728b7604",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/database.py",
+    "project": "mrzangivand__fil",
+    "line": 49,
+    "hash": "237e3b6da3ce41e05da68d73543052c3",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 49,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a98b05a4-0ee3-4003-acf0-76726bb0b547",
+    "rule": "python:S1940",
+    "severity": "MINOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/file_properties.py",
+    "project": "mrzangivand__fil",
+    "line": 20,
+    "hash": "d6ba3220f7a15ffcdf0c2231a992b0ef",
+    "textRange": {
+      "startLine": 20,
+      "endLine": 20,
+      "startOffset": 8,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the opposite operator (\"not in\") instead.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a389a6ef-1910-4576-8cf6-0b1edfb53eaf",
+    "rule": "python:S1940",
+    "severity": "MINOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/file_properties.py",
+    "project": "mrzangivand__fil",
+    "line": 30,
+    "hash": "3f554052c32e3078c6b1fdb1adad2c8f",
+    "textRange": {
+      "startLine": 30,
+      "endLine": 30,
+      "startOffset": 7,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the opposite operator (\"not in\") instead.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "72013123-e94f-48fc-b0ff-930b04345857",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/file_properties.py",
+    "project": "mrzangivand__fil",
+    "line": 143,
+    "hash": "20520be2813dfcb80cafa29880f23cb5",
+    "textRange": {
+      "startLine": 143,
+      "endLine": 143,
+      "startOffset": 4,
+      "endOffset": 74
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b80fa2ce-39e0-4ae5-89ca-bf80c96f89b7",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/human_readable.py",
+    "project": "mrzangivand__fil",
+    "line": 6,
+    "hash": "2a6054e60a2aa7c529c2d7828cc91271",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 4,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"Dic_powerN\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3fd73abb-a52b-4a06-a908-f1eece3ad40f",
+    "rule": "python:S7493",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/render_template.py",
+    "project": "mrzangivand__fil",
+    "line": 23,
+    "hash": "9ae174a85234c6cd86574dc162f6f318",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 9,
+      "endOffset": 28
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/render_template.py",
+            "textRange": {
+              "startLine": 9,
+              "endLine": 9,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an asynchronous file API instead of synchronous open() in this async function.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5bb5f588-6743-476f-bd4f-d70874384c5f",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/translation.py",
+    "project": "mrzangivand__fil",
+    "line": 53,
+    "hash": "1248e8e0ca21df4ccfd28b76bfb6aee2",
+    "textRange": {
+      "startLine": 53,
+      "endLine": 53,
+      "startOffset": 34,
+      "endOffset": 54
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/translation.py",
+            "textRange": {
+              "startLine": 62,
+              "endLine": 62,
+              "startOffset": 34,
+              "endOffset": 54
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/translation.py",
+            "textRange": {
+              "startLine": 71,
+              "endLine": 71,
+              "startOffset": 34,
+              "endOffset": 54
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"📢 آپدیت های بیشتر\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c386f8ea-a7fb-4608-a87d-8bc69679a14b",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/translation.py",
+    "project": "mrzangivand__fil",
+    "line": 53,
+    "hash": "1248e8e0ca21df4ccfd28b76bfb6aee2",
+    "textRange": {
+      "startLine": 53,
+      "endLine": 53,
+      "startOffset": 60,
+      "endOffset": 85
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "855d39fa-7870-40a5-bea1-a226569a8251",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/translation.py",
+    "project": "mrzangivand__fil",
+    "line": 62,
+    "hash": "1248e8e0ca21df4ccfd28b76bfb6aee2",
+    "textRange": {
+      "startLine": 62,
+      "endLine": 62,
+      "startOffset": 60,
+      "endOffset": 85
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "05a92ed7-b771-4a45-94fa-72a9057298fd",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "mrzangivand__fil:temp_repos/fil/FileStream/utils/translation.py",
+    "project": "mrzangivand__fil",
+    "line": 71,
+    "hash": "1248e8e0ca21df4ccfd28b76bfb6aee2",
+    "textRange": {
+      "startLine": 71,
+      "endLine": 71,
+      "startOffset": 60,
+      "endOffset": 85
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T19:02:23+0000",
+    "updateDate": "2026-07-17T19:02:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

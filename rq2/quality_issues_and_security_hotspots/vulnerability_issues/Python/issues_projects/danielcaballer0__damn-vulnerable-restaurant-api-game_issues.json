@@ -1,0 +1,2374 @@
+[
+  {
+    "key": "c2e9e149-0ac8-436c-9849-88bb67261e9f",
+    "rule": "docker:S6476",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/Dockerfile",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 1,
+    "hash": "600097e4c2bfd6dea8e8fe294c27d70e",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 26,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace \"as\" with upper case format \"AS\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FORMATTED",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "81b3aa34-ac06-4f0e-845a-851a81b645b3",
+    "rule": "docker:S6476",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/Dockerfile",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 10,
+    "hash": "acafb82d585aff7110f1d9b06aec7620",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 31,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace \"as\" with upper case format \"AS\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FORMATTED",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "548cff7d-ecfe-47b3-a89c-333fbfb63884",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/Dockerfile",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 12,
+    "hash": "7933be1dec8c790625dab193422d3a3d",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/Dockerfile",
+            "textRange": {
+              "startLine": 13,
+              "endLine": 13,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d00e9686-70d2-45e4-85d7-77de715fbb3b",
+    "rule": "docker:S6595",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/Dockerfile",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 12,
+    "hash": "7933be1dec8c790625dab193422d3a3d",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 4,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Update cache and install packages in single RUN instruction.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8303c74b-16ab-4005-ad04-fcbd9105e775",
+    "rule": "docker:S6587",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/Dockerfile",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 13,
+    "hash": "5f56ca7447e32be90d7f66bec501afb1",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 4,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove cache after installing packages or store it in a cache mount.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b5b89287-3b1d-4e62-b4a5-d062a4c99868",
+    "rule": "docker:S7018",
+    "severity": "MINOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/Dockerfile",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 13,
+    "hash": "5f56ca7447e32be90d7f66bec501afb1",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 4,
+      "endOffset": 45
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Sort these package names alphanumerically.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9b5fe9a2-3d2e-47ed-b6d1-45e02a746992",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/Dockerfile",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 23,
+    "hash": "2ff64e2c80d3ac7e9ecb22f4fe0ed113",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/Dockerfile",
+            "textRange": {
+              "startLine": 26,
+              "endLine": 26,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/Dockerfile",
+            "textRange": {
+              "startLine": 27,
+              "endLine": 27,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8de8bf50-474a-4885-a5ea-c32df1b27b4c",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/apis/admin/services/reset_chef_password_service.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 37,
+    "hash": "7ebf2708c0597cc474c9aaa881dec4a8",
+    "textRange": {
+      "startLine": 37,
+      "endLine": 37,
+      "startOffset": 58,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused loop index \"i\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "de6e9976-9fbd-4e04-8835-691e2ecfbe38",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/apis/admin/utils.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 17,
+    "hash": "6dddc850a5d2a790a7e92ab09d351bec",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 17,
+      "startOffset": 8,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused local variable \"usage\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c190a07a-cfef-4839-835b-03dca51663e6",
+    "rule": "python:S5754",
+    "severity": "CRITICAL",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/apis/admin/utils.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 18,
+    "hash": "3e264f5fbab10735799511f21ca70842",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 4,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify an exception class to catch or reraise the exception",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "bad-practice",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a3081a4d-a761-4e1d-aa04-df07608342aa",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/apis/admin/utils.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 19,
+    "hash": "4965bc0ef215cd8064e3db81a257ac2a",
+    "textRange": {
+      "startLine": 19,
+      "endLine": 19,
+      "startOffset": 14,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8665d142-3f84-40c8-856c-dc85c2080c6e",
+    "rule": "python:S905",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/apis/admin/utils.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 20,
+    "hash": "21200883da716c3e6eb1ea7b198f89e0",
+    "textRange": {
+      "startLine": 20,
+      "endLine": 20,
+      "startOffset": 0,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove or refactor this statement; it has no side effects.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2a9cbd47-3564-4a27-b07e-b799309173b7",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/apis/auth/utils/jwt_auth.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 18,
+    "hash": "ce36317c2298deb073705bb6b8eb6bea",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 10,
+      "endOffset": 26
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/apis/auth/utils/jwt_auth.py",
+            "textRange": {
+              "startLine": 18,
+              "endLine": 18,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d0e3ec78-152f-4236-963e-9a164cf84929",
+    "rule": "python:S5659",
+    "severity": "CRITICAL",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/apis/auth/utils/jwt_auth.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 32,
+    "hash": "86e7874a3b89fd4baedb6a5e224173c7",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 32,
+      "startOffset": 20,
+      "endOffset": 58
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use a JWT token without verifying its signature.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "privacy"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0b543828-30fe-425f-8b73-45df2b19a195",
+    "rule": "python:S1135",
+    "severity": "INFO",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/apis/debug/service.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 7,
+    "hash": "b8fab7de525430d0c2d8c81a02b53ca1",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 0,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e9e8c96c-516f-47c1-ac5a-96cf4414e5d2",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/apis/orders/services/create_order_service.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 86,
+    "hash": "d565eb0b8dcd109fb2eee60103af48bd",
+    "textRange": {
+      "startLine": 86,
+      "endLine": 86,
+      "startOffset": 25,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fd5424d7-de17-4745-a727-601f1cf612e6",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/apis/users/services/update_user_role_service.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 31,
+    "hash": "b5cddea3f0effea11f9d84137c542a5f",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 4,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused local variable \"db_user\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "aa081f45-2725-4988-ad88-604e7ff637c0",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/db/models.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 67,
+    "hash": "f4f96f317ecfd387debbe78ff99e449a",
+    "textRange": {
+      "startLine": 67,
+      "endLine": 67,
+      "startOffset": 41,
+      "endOffset": 51
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/db/models.py",
+            "textRange": {
+              "startLine": 93,
+              "endLine": 93,
+              "startOffset": 41,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/db/models.py",
+            "textRange": {
+              "startLine": 95,
+              "endLine": 95,
+              "startOffset": 28,
+              "endOffset": 38
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"users.id\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "93edd70a-ff31-4643-b8f9-04166be55a15",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/db/schemas.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 78,
+    "hash": "50b78c6caf5051bd9d9e4658b1442608",
+    "textRange": {
+      "startLine": 78,
+      "endLine": 78,
+      "startOffset": 29,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "98a6e5c2-d2e5-4776-b26d-e668d3eaf73d",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/game.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 104,
+    "hash": "c0f79c7d23124272bcb6a9fca50274e9",
+    "textRange": {
+      "startLine": 104,
+      "endLine": 104,
+      "startOffset": 14,
+      "endOffset": 45
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "defdbb98-218c-4f88-954f-3e2fab9cb819",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/game.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 186,
+    "hash": "5550101d4bdacce72972206572ae2d9e",
+    "textRange": {
+      "startLine": 186,
+      "endLine": 186,
+      "startOffset": 8,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused loop index \"line\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8eeda27a-88db-495b-91e4-1e46e3b536f9",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/game.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 203,
+    "hash": "59b948e07b71612d4aeb8d302461658d",
+    "textRange": {
+      "startLine": 203,
+      "endLine": 203,
+      "startOffset": 8,
+      "endOffset": 177
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0150e1a9-4b00-4a77-8c79-09b43ca0c119",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/game.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 246,
+    "hash": "1fcfce33bb1e9d7e78580fce023bd948",
+    "textRange": {
+      "startLine": 246,
+      "endLine": 246,
+      "startOffset": 16,
+      "endOffset": 236
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d7dc941d-8939-483a-a3db-aa8d2b3c1f75",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/game.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 270,
+    "hash": "d891c401e036ceac3b3a181503309134",
+    "textRange": {
+      "startLine": 270,
+      "endLine": 270,
+      "startOffset": 16,
+      "endOffset": 190
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a0fc504a-540a-4a14-86bb-e2421a58efc4",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 15,
+    "hash": "c092b54794e16ccee7d3de1ab628bcd6",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 54,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused loop index \"i\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "69247cad-d0f4-47de-8dd5-fec3b6a16f53",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 66,
+    "hash": "0582981837b46b996ce24526e827df85",
+    "textRange": {
+      "startLine": 66,
+      "endLine": 66,
+      "startOffset": 21,
+      "endOffset": 40
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+            "textRange": {
+              "startLine": 74,
+              "endLine": 74,
+              "startOffset": 21,
+              "endOffset": 40
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+            "textRange": {
+              "startLine": 83,
+              "endLine": 83,
+              "startOffset": 21,
+              "endOffset": 40
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+            "textRange": {
+              "startLine": 92,
+              "endLine": 92,
+              "startOffset": 21,
+              "endOffset": 40
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Pollos Breakfasts\" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3d2f044b-1c52-45ad-ae72-0cfadbdc0b63",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 102,
+    "hash": "cc1e49777e540f4a4ec0ef56c7faa017",
+    "textRange": {
+      "startLine": 102,
+      "endLine": 102,
+      "startOffset": 21,
+      "endOffset": 38
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+            "textRange": {
+              "startLine": 111,
+              "endLine": 111,
+              "startOffset": 21,
+              "endOffset": 38
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+            "textRange": {
+              "startLine": 120,
+              "endLine": 120,
+              "startOffset": 21,
+              "endOffset": 38
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+            "textRange": {
+              "startLine": 129,
+              "endLine": 129,
+              "startOffset": 21,
+              "endOffset": 38
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Pollos Burritos\" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4e5f0bd3-7187-45f3-a7f3-9ddfa5c7bcbb",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 140,
+    "hash": "eda80f0856015ac7efe682b2964db5f8",
+    "textRange": {
+      "startLine": 140,
+      "endLine": 140,
+      "startOffset": 21,
+      "endOffset": 42
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+            "textRange": {
+              "startLine": 150,
+              "endLine": 150,
+              "startOffset": 21,
+              "endOffset": 42
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+            "textRange": {
+              "startLine": 160,
+              "endLine": 160,
+              "startOffset": 21,
+              "endOffset": 42
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/init.py",
+            "textRange": {
+              "startLine": 170,
+              "endLine": 170,
+              "startOffset": 21,
+              "endOffset": 42
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Chicken Specialties\" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e2b2afa6-10dc-4bdb-ac6b-35e2ff306dc9",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/conftest.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 23,
+    "hash": "1e4e6064785ceda6192137a591047074",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 0,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0108d26f-408f-4be4-a9df-e8da7fd9fabc",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/admin/test_admin_service.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 19,
+    "hash": "0c7c9762dfba73f97bc4676c141a2a77",
+    "textRange": {
+      "startLine": 19,
+      "endLine": 19,
+      "startOffset": 31,
+      "endOffset": 60
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a12ae14e-d9dd-4c2e-9da6-1e64e766db98",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/admin/test_admin_service.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 42,
+    "hash": "0c7c9762dfba73f97bc4676c141a2a77",
+    "textRange": {
+      "startLine": 42,
+      "endLine": 42,
+      "startOffset": 31,
+      "endOffset": 60
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f109b6cd-49b1-4055-94d5-4993cdeee59d",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/admin/test_admin_service.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 48,
+    "hash": "1ed20eb0c682cfd6b933263406efb555",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 31,
+      "endOffset": 51
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "32b5592f-45c5-46ed-80ee-0c6bfcc9b83f",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/admin/test_admin_service.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 56,
+    "hash": "fc818dfd55167a3ecf72d62c8c515c92",
+    "textRange": {
+      "startLine": 56,
+      "endLine": 56,
+      "startOffset": 31,
+      "endOffset": 51
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2f150939-812b-4630-a4e1-b564f25549bb",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/admin/test_admin_service.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 63,
+    "hash": "5e929d8ac2eaf4b25a9d35b1fe716f1a",
+    "textRange": {
+      "startLine": 63,
+      "endLine": 63,
+      "startOffset": 35,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "11f24739-08e8-4519-ba6d-efbd276dc60e",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/admin/test_admin_service.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 70,
+    "hash": "1ed44cea33e9838c7e92210b3cf961ae",
+    "textRange": {
+      "startLine": 70,
+      "endLine": 70,
+      "startOffset": 35,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3633121c-a911-4bc8-9357-1d670ad4a5bd",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/auth/test_auth_service.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 51,
+    "hash": "5e7293a9a718a2ae8e13857b8fb278fa",
+    "textRange": {
+      "startLine": 51,
+      "endLine": 51,
+      "startOffset": 4,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ae4372ba-e78e-4dc2-94c2-c8541661b399",
+    "rule": "python:S1542",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/auth/test_roles_based_auth_checker.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 9,
+    "hash": "04e6925c2c8774b0b9c41fc6cdd63a64",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 4,
+      "endOffset": 98
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename function \"test_RolesBasedAuthChecker_should_raise_403_http_exception_if_user_does_not_have_required_role\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "convention",
+      "pep"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8399e173-19fc-4811-8e17-d7fb1f65d115",
+    "rule": "python:S1542",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/auth/test_roles_based_auth_checker.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 24,
+    "hash": "c3f574c1be568e1a40a247c4a0d99293",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 4,
+      "endOffset": 75
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename function \"test_RolesBasedAuthChecker_should_return_true_if_user_has_required_role\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "convention",
+      "pep"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fa19ec55-4a71-40c7-b548-3f857180859a",
+    "rule": "python:S1244",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/menu/test_menu_service.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 23,
+    "hash": "a07435b58e54aa08518fb9a7dfef63a2",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 11,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not perform equality checks with floating point values.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pytorch",
+      "data-science",
+      "numpy",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "81f46134-18a3-460b-ab95-64eaa0096991",
+    "rule": "python:S1244",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/menu/test_menu_service.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 25,
+    "hash": "c2d4a67427940711ef39d0ce80ae5963",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 11,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not perform equality checks with floating point values.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pytorch",
+      "data-science",
+      "numpy",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "eb8fb133-e099-4190-b091-d0fbfcdeac7b",
+    "rule": "python:S1244",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/orders/test_orders_service.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 315,
+    "hash": "c061b9b5585f182860b6bff8ecc9123a",
+    "textRange": {
+      "startLine": 315,
+      "endLine": 315,
+      "startOffset": 11,
+      "endOffset": 53
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not perform equality checks with floating point values.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pytorch",
+      "data-science",
+      "numpy",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c5d91a18-41ef-46f8-aeef-4c7dc8152cff",
+    "rule": "python:S1244",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/orders/test_orders_service.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 355,
+    "hash": "db40d3dd36b2846c86c3550169116d1d",
+    "textRange": {
+      "startLine": 355,
+      "endLine": 355,
+      "startOffset": 11,
+      "endOffset": 52
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not perform equality checks with floating point values.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pytorch",
+      "data-science",
+      "numpy",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a7175d35-90d5-486b-bbfc-cf7633abcc9d",
+    "rule": "python:S1244",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/orders/test_orders_service.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 526,
+    "hash": "8e08e699164e601a18bd87dc6285487f",
+    "textRange": {
+      "startLine": 526,
+      "endLine": 526,
+      "startOffset": 11,
+      "endOffset": 53
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not perform equality checks with floating point values.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pytorch",
+      "data-science",
+      "numpy",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7506f14a-450b-4a7e-b09f-10383360dd0f",
+    "rule": "python:S1244",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/orders/test_orders_service.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 576,
+    "hash": "df958930b3badf0d96715b6404f94845",
+    "textRange": {
+      "startLine": 576,
+      "endLine": 576,
+      "startOffset": 11,
+      "endOffset": 53
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not perform equality checks with floating point values.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pytorch",
+      "data-science",
+      "numpy",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "589036c4-2a83-4719-96e7-0b162552e556",
+    "rule": "python:S1244",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/modules/referrals/test_referral_service.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 70,
+    "hash": "400d1146b0c56fdeb559422ce61bb593",
+    "textRange": {
+      "startLine": 70,
+      "endLine": 70,
+      "startOffset": 11,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not perform equality checks with floating point values.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pytorch",
+      "data-science",
+      "numpy",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5af3aadb-0123-410f-9966-7b53151140c4",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/vulns/level_2_unrestricted_profile_update_IDOR.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 43,
+    "hash": "2130d61e8008114abc7e45b9a1e0147f",
+    "textRange": {
+      "startLine": 43,
+      "endLine": 43,
+      "startOffset": 35,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a8b8aeb8-87fe-4fcb-bfc3-a41d4fb57aff",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/vulns/level_3_privilege_escalation.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 47,
+    "hash": "70e003c30705a7eccc19ea029ef6c400",
+    "textRange": {
+      "startLine": 47,
+      "endLine": 47,
+      "startOffset": 8,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bd739538-4742-455d-886a-6e463536023e",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/vulns/level_4_server_side_request_forgery.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 78,
+    "hash": "e7138e32ba4964adba20a5add2b3d7af",
+    "textRange": {
+      "startLine": 78,
+      "endLine": 78,
+      "startOffset": 35,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "40da9ca3-8cac-438d-b508-bd64f061b575",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "danielcaballer0__damn-vulnerable-restaurant-api-game:temp_repos/Damn-Vulnerable-RESTaurant-API-Game/app/tests/vulns/level_5_remote_code_execution.py",
+    "project": "danielcaballer0__damn-vulnerable-restaurant-api-game",
+    "line": 40,
+    "hash": "637d297be30415e3f730b82d05a9307f",
+    "textRange": {
+      "startLine": 40,
+      "endLine": 40,
+      "startOffset": 8,
+      "endOffset": 66
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:22:29+0000",
+    "updateDate": "2026-07-17T22:22:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

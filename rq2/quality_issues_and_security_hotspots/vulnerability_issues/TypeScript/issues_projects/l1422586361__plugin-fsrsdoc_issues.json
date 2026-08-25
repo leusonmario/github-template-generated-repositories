@@ -1,0 +1,1858 @@
+[
+  {
+    "key": "38748b9f-fc8f-44eb-a34f-f7da1bf66175",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/scripts/make_dev_link.js",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 1,
+    "hash": "b561a6854011601a6d403f2bb81dcae8",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "44790cfc-cba4-4675-94d5-536f189ed7c4",
+    "rule": "javascript:S2004",
+    "severity": "CRITICAL",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/scripts/make_dev_link.js",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 35,
+    "hash": "8bfee366048902fcf8d1cba63abdc9fa",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 29,
+      "endOffset": 31
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/scripts/make_dev_link.js",
+            "textRange": {
+              "startLine": 23,
+              "endLine": 23,
+              "startOffset": 15,
+              "endOffset": 22
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/scripts/make_dev_link.js",
+            "textRange": {
+              "startLine": 25,
+              "endLine": 25,
+              "startOffset": 41,
+              "endOffset": 43
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/scripts/make_dev_link.js",
+            "textRange": {
+              "startLine": 26,
+              "endLine": 26,
+              "startOffset": 51,
+              "endOffset": 53
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/scripts/make_dev_link.js",
+            "textRange": {
+              "startLine": 31,
+              "endLine": 31,
+              "startOffset": 29,
+              "endOffset": 31
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this code to not nest functions more than 4 levels deep.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2096b01f-feb8-4735-93b9-41c670ecd6d2",
+    "rule": "javascript:S7781",
+    "severity": "MINOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/scripts/make_dev_link.js",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 152,
+    "hash": "81d497b5298c1bfab29449456a25f4da",
+    "textRange": {
+      "startLine": 152,
+      "endLine": 152,
+      "startOffset": 18,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "061ad911-3c77-4cb9-b6b5-54cbc584b053",
+    "rule": "javascript:S7781",
+    "severity": "MINOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/scripts/make_dev_link.js",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 153,
+    "hash": "8c64f587464777b1c51a056a2cb11228",
+    "textRange": {
+      "startLine": 153,
+      "endLine": 153,
+      "startOffset": 18,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0dab580a-5ba6-4d63-b846-1d845ed5756e",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/api.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 9,
+    "hash": "326b3da1df6a206c60e02b1aa1ea7167",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 21,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:console` over `console`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d84bf28f-6f41-4048-8dfd-2696a1c0e8c8",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/api.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 9,
+    "hash": "326b3da1df6a206c60e02b1aa1ea7167",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 9,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'time'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1432f045-9a2e-418a-a17d-10e3e7def7f1",
+    "rule": "typescript:S2486",
+    "severity": "MINOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/api.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 307,
+    "hash": "17e14ab5cf0c39e1acf742c66429b3b6",
+    "textRange": {
+      "startLine": 307,
+      "endLine": 309,
+      "startOffset": 6,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b5f149a4-8100-4776-9592-57bfc21b9314",
+    "rule": "typescript:S7718",
+    "severity": "MINOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/api.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 307,
+    "hash": "17e14ab5cf0c39e1acf742c66429b3b6",
+    "textRange": {
+      "startLine": 307,
+      "endLine": 307,
+      "startOffset": 13,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The catch parameter `error_msg` should be named `error_`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e4124ce5-6f82-4f54-8a7d-558c16ec4a58",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/api.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 364,
+    "hash": "b664112f634839241534af497a7e435c",
+    "textRange": {
+      "startLine": 364,
+      "endLine": 364,
+      "startOffset": 12,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "51352d48-9e63-4d70-868c-dd4f419b5e16",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/index.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 12,
+    "hash": "03c111dd49bf285203dde40e26cd838e",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 4,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'Setting'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "905f7a01-4d94-4355-980b-c6a65651bf60",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/index.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 13,
+    "hash": "6ce6e981bf91190c326e19509da5427f",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 4,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'fetchPost'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6e85b759-99a3-4eac-a1ab-7381a0e277c4",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/index.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 14,
+    "hash": "0da4ac40f05759791c16569ae93de1ec",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 13,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'openWindow'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8dd42b39-0439-4bd9-8110-146b3b76d514",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/index.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 31,
+    "hash": "abd92feaf66e7023b91cd94fa9b9cb53",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 4,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'blockIconEventBindThis' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c1ae9588-9ac5-40eb-b6f2-8385078349a9",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/index.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 35,
+    "hash": "dc8cc132966a7e8cdf63ca9d9a6d6d93",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 8,
+      "endOffset": 66
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ed3bd4e9-2740-4652-ae79-8cb40482e4ca",
+    "rule": "typescript:S1854",
+    "severity": "MAJOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/index.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 49,
+    "hash": "39a72fb7ff0f9f8619161580743f230a",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 49,
+      "startOffset": 14,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this useless assignment to variable \"topBarElement\".",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a077ab79-8c40-4f03-88e6-b32789e7a060",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/index.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 237,
+    "hash": "cf4cdc9ff5aecf73e01399eabf6f0791",
+    "textRange": {
+      "startLine": 237,
+      "endLine": 237,
+      "startOffset": 8,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b18e4200-c709-4981-b370-cb645f33e9c5",
+    "rule": "typescript:S1848",
+    "severity": "MAJOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/index.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 241,
+    "hash": "332f6248c78ff59fdc141fe39b6581a4",
+    "textRange": {
+      "startLine": 241,
+      "endLine": 241,
+      "startOffset": 8,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Either remove this useless object instantiation of \"HelloExample\" or use it.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1e66f9b0-5d7e-484d-a834-23a65404cccc",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/index.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 307,
+    "hash": "f40858630a7f9513ca5391ff8e962596",
+    "textRange": {
+      "startLine": 307,
+      "endLine": 307,
+      "startOffset": 37,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "adb0efc8-a414-4e6d-9f04-784f6c0fb0e5",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/index.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 310,
+    "hash": "81a9966825b14e7b3324c491c12fa265",
+    "textRange": {
+      "startLine": 310,
+      "endLine": 310,
+      "startOffset": 74,
+      "endOffset": 81
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "51f99176-3011-4057-bcea-c7322b76aabf",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/index.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 329,
+    "hash": "b23d64d64026241084780d1c59040607",
+    "textRange": {
+      "startLine": 329,
+      "endLine": 329,
+      "startOffset": 16,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "88bfc0f9-d804-4763-86f9-9ef446eaa18d",
+    "rule": "typescript:S1848",
+    "severity": "MAJOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/index.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 332,
+    "hash": "332f6248c78ff59fdc141fe39b6581a4",
+    "textRange": {
+      "startLine": 332,
+      "endLine": 332,
+      "startOffset": 8,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Either remove this useless object instantiation of \"HelloExample\" or use it.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5576706a-f7c0-4b09-934a-e9f4d3637071",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/index.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 344,
+    "hash": "f8b3aeaccb68067710f847cf168bf25d",
+    "textRange": {
+      "startLine": 344,
+      "endLine": 351,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0f307fa6-8e77-4136-bf88-d63ac936edbb",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/index.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 371,
+    "hash": "f8b3aeaccb68067710f847cf168bf25d",
+    "textRange": {
+      "startLine": 371,
+      "endLine": 443,
+      "startOffset": 12,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "15777db0-9ecf-4856-a6ff-8e22363e409c",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/index.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 445,
+    "hash": "8bbdf7de7528e47a49d6e9cc44eeedc6",
+    "textRange": {
+      "startLine": 445,
+      "endLine": 464,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a8a6438e-c735-4f04-ac53-2be7249f59b4",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/js/query.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 13,
+    "hash": "ad4ec1bfc7cc7cd972203aefc8b949d7",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 23,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5ba166e8-2041-4cac-8bad-d080ed08e81a",
+    "rule": "typescript:S4123",
+    "severity": "CRITICAL",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/js/query.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 37,
+    "hash": "9a8819f4b3f592813cfd61169cf35f84",
+    "textRange": {
+      "startLine": 37,
+      "endLine": 37,
+      "startOffset": 16,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected `await` of a non-Promise (non-\"Thenable\") value.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f6e619df-f6e1-4da2-85f2-47992cd0e32c",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/js/query.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 39,
+    "hash": "7731963cfabfdfdf316c18c72d9d0884",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 39,
+      "startOffset": 7,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9c47c638-db16-4e0d-a004-224f6910e173",
+    "rule": "typescript:S4123",
+    "severity": "CRITICAL",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/js/query.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 92,
+    "hash": "9a2c054d9611dce8c1f63b0c1ee6c5c1",
+    "textRange": {
+      "startLine": 92,
+      "endLine": 92,
+      "startOffset": 22,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected `await` of a non-Promise (non-\"Thenable\") value.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "239b8128-3d66-4360-8971-e9d679cedf2f",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/js/query.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 93,
+    "hash": "f3dbbcaf75491e23b420e0a8a893a746",
+    "textRange": {
+      "startLine": 93,
+      "endLine": 96,
+      "startOffset": 4,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c11ecb9f-ee47-4b4d-8061-061d8f68c1aa",
+    "rule": "typescript:S4123",
+    "severity": "CRITICAL",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/js/query.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 113,
+    "hash": "3d32137ada6dd7b8eed5b61885aff429",
+    "textRange": {
+      "startLine": 113,
+      "endLine": 113,
+      "startOffset": 28,
+      "endOffset": 67
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected `await` of a non-Promise (non-\"Thenable\") value.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "61cce791-c07b-4f01-b866-a11480402267",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/js/query.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 126,
+    "hash": "be3461e01ab351198a908a7d47762da9",
+    "textRange": {
+      "startLine": 126,
+      "endLine": 126,
+      "startOffset": 7,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4ccbc74c-f964-4684-aab9-bded9caf338c",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/libs/setting-utils.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 32,
+    "hash": "853e6237ab11206eee2c7f875ad03550",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 32,
+      "startOffset": 20,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d4d919ac-6f60-4dd3-8d7f-5aba01513d66",
+    "rule": "typescript:S6836",
+    "severity": "MAJOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/libs/setting-utils.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 87,
+    "hash": "fdfe9295e204be7f63c41bedae4e9c14",
+    "textRange": {
+      "startLine": 87,
+      "endLine": 87,
+      "startOffset": 16,
+      "endOffset": 80
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected lexical declaration in case block.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b5e193f7-8a56-46aa-a090-b070e4c4ae94",
+    "rule": "typescript:S6836",
+    "severity": "MAJOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/libs/setting-utils.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 94,
+    "hash": "855f881f05f35df8f3a777939dff293a",
+    "textRange": {
+      "startLine": 94,
+      "endLine": 94,
+      "startOffset": 16,
+      "endOffset": 88
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected lexical declaration in case block.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8ae07dca-0fac-4ddb-acb3-d17c4692a8e8",
+    "rule": "typescript:S6836",
+    "severity": "MAJOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/libs/setting-utils.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 106,
+    "hash": "6cb819b9b88e975500339bab14269698",
+    "textRange": {
+      "startLine": 106,
+      "endLine": 106,
+      "startOffset": 16,
+      "endOffset": 86
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected lexical declaration in case block.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "98b63879-ef61-431e-9a9c-0ed89d62a800",
+    "rule": "typescript:S6836",
+    "severity": "MAJOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/libs/setting-utils.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 120,
+    "hash": "b0f33fa56b8315d5304b64263dcdb995",
+    "textRange": {
+      "startLine": 120,
+      "endLine": 120,
+      "startOffset": 16,
+      "endOffset": 89
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected lexical declaration in case block.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3f585e2a-43f6-4539-a9e1-b7fdcb9ae4be",
+    "rule": "typescript:S6836",
+    "severity": "MAJOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/libs/setting-utils.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 126,
+    "hash": "4ca17c44c007a7d0877ff7c3dda0ced7",
+    "textRange": {
+      "startLine": 126,
+      "endLine": 126,
+      "startOffset": 16,
+      "endOffset": 94
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected lexical declaration in case block.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b6994b06-18e1-4f6f-8eca-177e724b9256",
+    "rule": "typescript:S6836",
+    "severity": "MAJOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/libs/setting-utils.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 132,
+    "hash": "da5570eb60cdb8e1e5cd169bbffda100",
+    "textRange": {
+      "startLine": 132,
+      "endLine": 132,
+      "startOffset": 16,
+      "endOffset": 88
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected lexical declaration in case block.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "79d4c045-848d-4943-a8f0-b4f4662b1c8b",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/src/libs/setting-utils.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 185,
+    "hash": "9314d00b75f8f5f320df3cc9c7c999be",
+    "textRange": {
+      "startLine": 185,
+      "endLine": 185,
+      "startOffset": 29,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fd2923d0-32c2-4918-8a5c-4c9f16ca3b64",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/vite.config.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 1,
+    "hash": "59fef496db20a14c1a7dbc92ae95dbae",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 24,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "60409c7a-e9e9-44d4-b61f-a4a56d0bb953",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "l1422586361__plugin-fsrsdoc:temp_repos/plugin-fsrsdoc/vite.config.ts",
+    "project": "l1422586361__plugin-fsrsdoc",
+    "line": 2,
+    "hash": "b53558f9ae78f9605de22b432181f443",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 23,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'loadEnv'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T05:14:03+0000",
+    "updateDate": "2026-07-16T05:14:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

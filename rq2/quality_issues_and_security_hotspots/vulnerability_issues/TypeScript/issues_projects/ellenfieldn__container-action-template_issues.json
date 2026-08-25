@@ -1,0 +1,251 @@
+[
+  {
+    "key": "73140984-655c-4641-8a08-13f834167c58",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "ellenfieldn__container-action-template:temp_repos/container-action-template/Dockerfile",
+    "project": "ellenfieldn__container-action-template",
+    "line": 25,
+    "hash": "67e3d12ef1313bc2af677065f4d602e1",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "ellenfieldn__container-action-template:temp_repos/container-action-template/Dockerfile",
+            "textRange": {
+              "startLine": 27,
+              "endLine": 27,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T20:16:02+0000",
+    "updateDate": "2026-07-15T20:16:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "76f81a7b-7fd1-4384-be69-6a9696226c79",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "ellenfieldn__container-action-template:temp_repos/container-action-template/__tests__/wait.test.ts",
+    "project": "ellenfieldn__container-action-template",
+    "line": 8,
+    "hash": "e96664be536faffc88df1c9a0ed80abb",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 18,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-15T20:16:02+0000",
+    "updateDate": "2026-07-15T20:16:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a97019cc-cb1e-4a61-a575-8ea033a5743e",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "ellenfieldn__container-action-template:temp_repos/container-action-template/__tests__/wait.test.ts",
+    "project": "ellenfieldn__container-action-template",
+    "line": 10,
+    "hash": "9b04520d4f6c7b3a5c54bff71b800bc8",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 11,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.isNaN` over `isNaN`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-15T20:16:02+0000",
+    "updateDate": "2026-07-15T20:16:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c55c4884-c608-4df7-a185-24de6040b23c",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "ellenfieldn__container-action-template:temp_repos/container-action-template/src/main.ts",
+    "project": "ellenfieldn__container-action-template",
+    "line": 18,
+    "hash": "fe1c8370a3ba7989051c50f3605c9a3c",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 15,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-15T20:16:02+0000",
+    "updateDate": "2026-07-15T20:16:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9e852358-8ccf-495c-a341-6d252b0ddffa",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "ellenfieldn__container-action-template:temp_repos/container-action-template/src/wait.ts",
+    "project": "ellenfieldn__container-action-template",
+    "line": 9,
+    "hash": "9c217c0381a793a3370511666067f262",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 8,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.isNaN` over `isNaN`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-15T20:16:02+0000",
+    "updateDate": "2026-07-15T20:16:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

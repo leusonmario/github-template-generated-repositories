@@ -1,0 +1,205 @@
+[
+  {
+    "key": "f8c6a6c3-6d96-4000-974a-7eaff1494902",
+    "rule": "secrets:S6687",
+    "severity": "BLOCKER",
+    "component": "mavhungutrezzy__umami-tube:temp_repos/umami-tube/django_project/settings.py",
+    "project": "mavhungutrezzy__umami-tube",
+    "line": 24,
+    "hash": "1d58e36a6883f20eb94a87d0a229ac67",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 5,
+      "endOffset": 71
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make sure this Django key gets revoked, changed, and removed from the code.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T22:34:52+0000",
+    "updateDate": "2026-07-17T22:34:52+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5c7428a9-8b37-4f11-ad01-9a69915d2f77",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "mavhungutrezzy__umami-tube:temp_repos/umami-tube/django_project/settings.py",
+    "project": "mavhungutrezzy__umami-tube",
+    "line": 313,
+    "hash": "d8b46b9e9bbe786a4f805622ce3d1837",
+    "textRange": {
+      "startLine": 313,
+      "endLine": 313,
+      "startOffset": 21,
+      "endOffset": 59
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mavhungutrezzy__umami-tube:temp_repos/umami-tube/django_project/settings.py",
+            "textRange": {
+              "startLine": 320,
+              "endLine": 320,
+              "startOffset": 21,
+              "endOffset": 59
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mavhungutrezzy__umami-tube:temp_repos/umami-tube/django_project/settings.py",
+            "textRange": {
+              "startLine": 328,
+              "endLine": 328,
+              "startOffset": 21,
+              "endOffset": 59
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"logging.handlers.RotatingFileHandler\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T22:34:52+0000",
+    "updateDate": "2026-07-17T22:34:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3c7a671c-8b09-40f3-8772-c0ea449b4917",
+    "rule": "Web:S6819",
+    "severity": "MAJOR",
+    "component": "mavhungutrezzy__umami-tube:temp_repos/umami-tube/templates/_base.html",
+    "project": "mavhungutrezzy__umami-tube",
+    "line": 44,
+    "hash": "3337fd2ff05557522ab51c869df1475d",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 45,
+      "startOffset": 14,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <button> or <input> instead of the button role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T22:34:52+0000",
+    "updateDate": "2026-07-17T22:34:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b55251dc-1d59-4f58-9900-7c766cd81c5b",
+    "rule": "Web:MouseEventWithoutKeyboardEquivalentCheck",
+    "severity": "MINOR",
+    "component": "mavhungutrezzy__umami-tube:temp_repos/umami-tube/templates/_base.html",
+    "project": "mavhungutrezzy__umami-tube",
+    "line": 44,
+    "hash": "3337fd2ff05557522ab51c869df1475d",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 45,
+      "startOffset": 14,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a 'onKeyPress|onKeyDown|onKeyUp' attribute to this <a> tag.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T22:34:52+0000",
+    "updateDate": "2026-07-17T22:34:52+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

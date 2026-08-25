@@ -1,0 +1,1357 @@
+[
+  {
+    "key": "84bf192d-57a4-41eb-8004-3910abc150c1",
+    "rule": "secrets:S6698",
+    "severity": "BLOCKER",
+    "component": "leoamerio__notes-api:temp_repos/notes-api/docker-compose.yml",
+    "project": "leoamerio__notes-api",
+    "line": 13,
+    "hash": "3e3514f751020c2fd421f737a9320ae8",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 48,
+      "endOffset": 61
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make sure this PostgreSQL database password gets changed and removed from the code.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T20:41:24+0000",
+    "updateDate": "2026-07-17T20:41:24+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2c3b84fa-39be-4f79-990d-65d8985af2bb",
+    "rule": "docker:S7018",
+    "severity": "MINOR",
+    "component": "leoamerio__notes-api:temp_repos/notes-api/src/Dockerfile",
+    "project": "leoamerio__notes-api",
+    "line": 13,
+    "hash": "1ac7a2ab2c1bd6839710a3cadc26d44e",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 4,
+      "endOffset": 94
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Sort these package names alphanumerically.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T20:41:24+0000",
+    "updateDate": "2026-07-17T20:41:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7cea40a3-ecb6-4c25-b315-8afac6e97656",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "leoamerio__notes-api:temp_repos/notes-api/src/app/api/notes.py",
+    "project": "leoamerio__notes-api",
+    "line": 29,
+    "hash": "aa35579fd14b0d52fac966378b8dfa8e",
+    "textRange": {
+      "startLine": 29,
+      "endLine": 29,
+      "startOffset": 52,
+      "endOffset": 68
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "leoamerio__notes-api:temp_repos/notes-api/src/app/api/notes.py",
+            "textRange": {
+              "startLine": 42,
+              "endLine": 42,
+              "startOffset": 52,
+              "endOffset": 68
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "leoamerio__notes-api:temp_repos/notes-api/src/app/api/notes.py",
+            "textRange": {
+              "startLine": 58,
+              "endLine": 58,
+              "startOffset": 52,
+              "endOffset": 68
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Note not found\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:41:24+0000",
+    "updateDate": "2026-07-17T20:41:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cd44aeec-73e7-45ea-91a8-52160a30ff62",
+    "rule": "secrets:S6698",
+    "severity": "BLOCKER",
+    "component": "leoamerio__notes-api:temp_repos/notes-api/src/app/db.py",
+    "project": "leoamerio__notes-api",
+    "line": 11,
+    "hash": "32ba683fb37c6035261c757555545f0d",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 69,
+      "endOffset": 82
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make sure this PostgreSQL database password gets changed and removed from the code.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T20:41:24+0000",
+    "updateDate": "2026-07-17T20:41:24+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7848284a-95b1-4048-8eaa-9f8938bfb9ff",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+    "project": "leoamerio__notes-api",
+    "line": 32,
+    "hash": "0b70e9d15baf119ac5e25f67a25f1bc1",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 32,
+      "startOffset": 14,
+      "endOffset": 23
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+            "textRange": {
+              "startLine": 32,
+              "endLine": 32,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T20:41:24+0000",
+    "updateDate": "2026-07-17T20:41:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "58d28b2b-4dbd-423b-b2c1-d544b642e086",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+    "project": "leoamerio__notes-api",
+    "line": 53,
+    "hash": "0b70e9d15baf119ac5e25f67a25f1bc1",
+    "textRange": {
+      "startLine": 53,
+      "endLine": 53,
+      "startOffset": 14,
+      "endOffset": 23
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+            "textRange": {
+              "startLine": 53,
+              "endLine": 53,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T20:41:24+0000",
+    "updateDate": "2026-07-17T20:41:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c2e1338e-523b-4e44-88e7-12ee50dbff33",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+    "project": "leoamerio__notes-api",
+    "line": 67,
+    "hash": "af47eb6c58ede65ad9e45dea9a9d560f",
+    "textRange": {
+      "startLine": 67,
+      "endLine": 67,
+      "startOffset": 14,
+      "endOffset": 22
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+            "textRange": {
+              "startLine": 67,
+              "endLine": 67,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T20:41:24+0000",
+    "updateDate": "2026-07-17T20:41:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2080046b-2f62-4963-8e92-b7919a6b3989",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+    "project": "leoamerio__notes-api",
+    "line": 78,
+    "hash": "af47eb6c58ede65ad9e45dea9a9d560f",
+    "textRange": {
+      "startLine": 78,
+      "endLine": 78,
+      "startOffset": 14,
+      "endOffset": 22
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+            "textRange": {
+              "startLine": 78,
+              "endLine": 78,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T20:41:24+0000",
+    "updateDate": "2026-07-17T20:41:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2a199151-9a54-473f-aa9b-fd2b66a69e7e",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+    "project": "leoamerio__notes-api",
+    "line": 97,
+    "hash": "dc6e797a2715515d49330cca26bf33ed",
+    "textRange": {
+      "startLine": 97,
+      "endLine": 97,
+      "startOffset": 14,
+      "endOffset": 26
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+            "textRange": {
+              "startLine": 97,
+              "endLine": 97,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T20:41:24+0000",
+    "updateDate": "2026-07-17T20:41:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c4a8af2c-4564-4531-b52e-22c273f9c05f",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+    "project": "leoamerio__notes-api",
+    "line": 120,
+    "hash": "af47eb6c58ede65ad9e45dea9a9d560f",
+    "textRange": {
+      "startLine": 120,
+      "endLine": 120,
+      "startOffset": 14,
+      "endOffset": 22
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+            "textRange": {
+              "startLine": 120,
+              "endLine": 120,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T20:41:24+0000",
+    "updateDate": "2026-07-17T20:41:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "40eb96fd-505a-4e73-ab07-e8a0dbb757b6",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+    "project": "leoamerio__notes-api",
+    "line": 134,
+    "hash": "af47eb6c58ede65ad9e45dea9a9d560f",
+    "textRange": {
+      "startLine": 134,
+      "endLine": 134,
+      "startOffset": 14,
+      "endOffset": 22
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+            "textRange": {
+              "startLine": 134,
+              "endLine": 134,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T20:41:24+0000",
+    "updateDate": "2026-07-17T20:41:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9932c624-5bfa-43d4-be0f-9ee821838b2c",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+    "project": "leoamerio__notes-api",
+    "line": 137,
+    "hash": "e2b5a926efa3afc5d90cd6c104536df9",
+    "textRange": {
+      "startLine": 137,
+      "endLine": 137,
+      "startOffset": 14,
+      "endOffset": 25
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+            "textRange": {
+              "startLine": 137,
+              "endLine": 137,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T20:41:24+0000",
+    "updateDate": "2026-07-17T20:41:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "461ee24c-ddbf-449a-b41f-618a4d0f20ee",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+    "project": "leoamerio__notes-api",
+    "line": 149,
+    "hash": "af47eb6c58ede65ad9e45dea9a9d560f",
+    "textRange": {
+      "startLine": 149,
+      "endLine": 149,
+      "startOffset": 14,
+      "endOffset": 22
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+            "textRange": {
+              "startLine": 149,
+              "endLine": 149,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T20:41:24+0000",
+    "updateDate": "2026-07-17T20:41:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "64a044fb-96c6-48f3-973f-67c6ec2ba5d1",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+    "project": "leoamerio__notes-api",
+    "line": 171,
+    "hash": "e9c54c444e6d7892cf2b91b9a805f22d",
+    "textRange": {
+      "startLine": 171,
+      "endLine": 171,
+      "startOffset": 14,
+      "endOffset": 31
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+            "textRange": {
+              "startLine": 171,
+              "endLine": 171,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T20:41:24+0000",
+    "updateDate": "2026-07-17T20:41:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "57c1725e-cb9f-4172-b043-4bbb19e3c5ac",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+    "project": "leoamerio__notes-api",
+    "line": 187,
+    "hash": "8fdd22d1739949f528ef1898b3537a61",
+    "textRange": {
+      "startLine": 187,
+      "endLine": 187,
+      "startOffset": 14,
+      "endOffset": 32
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+            "textRange": {
+              "startLine": 187,
+              "endLine": 187,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T20:41:24+0000",
+    "updateDate": "2026-07-17T20:41:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2329262f-6e31-4e84-9738-0fd941b02314",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+    "project": "leoamerio__notes-api",
+    "line": 204,
+    "hash": "a549d25cc973d13e8e26862d803bcc8e",
+    "textRange": {
+      "startLine": 204,
+      "endLine": 204,
+      "startOffset": 14,
+      "endOffset": 36
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+            "textRange": {
+              "startLine": 204,
+              "endLine": 204,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T20:41:24+0000",
+    "updateDate": "2026-07-17T20:41:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e813b766-5e73-4cf6-96d4-91c561f12888",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+    "project": "leoamerio__notes-api",
+    "line": 218,
+    "hash": "0258a58163081b62029b6bbb8ceef33a",
+    "textRange": {
+      "startLine": 218,
+      "endLine": 218,
+      "startOffset": 14,
+      "endOffset": 37
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+            "textRange": {
+              "startLine": 218,
+              "endLine": 218,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T20:41:24+0000",
+    "updateDate": "2026-07-17T20:41:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2126f359-2d75-442c-8325-c8f9ab6f04ab",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+    "project": "leoamerio__notes-api",
+    "line": 232,
+    "hash": "a646ef443801437946348cef6c16d1a8",
+    "textRange": {
+      "startLine": 232,
+      "endLine": 232,
+      "startOffset": 14,
+      "endOffset": 30
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+            "textRange": {
+              "startLine": 232,
+              "endLine": 232,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T20:41:24+0000",
+    "updateDate": "2026-07-17T20:41:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "deddd5d4-cb8b-4217-b88b-0b90bf69f2d7",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+    "project": "leoamerio__notes-api",
+    "line": 246,
+    "hash": "a646ef443801437946348cef6c16d1a8",
+    "textRange": {
+      "startLine": 246,
+      "endLine": 246,
+      "startOffset": 14,
+      "endOffset": 30
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "leoamerio__notes-api:temp_repos/notes-api/src/tests/test_notes.py",
+            "textRange": {
+              "startLine": 246,
+              "endLine": 246,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T20:41:24+0000",
+    "updateDate": "2026-07-17T20:41:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b2013313-2bdc-435e-909b-65070bff1dc8",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "leoamerio__notes-api:temp_repos/notes-api/vue-client/src/Api.js",
+    "project": "leoamerio__notes-api",
+    "line": 3,
+    "hash": "1ae3bbd5dd063c325961f7d3c29698e5",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 17,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T20:41:24+0000",
+    "updateDate": "2026-07-17T20:41:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "89d45c6d-9557-4ed2-8823-291737c2e2a6",
+    "rule": "css:S4657",
+    "severity": "CRITICAL",
+    "component": "leoamerio__notes-api:temp_repos/notes-api/vue-client/src/App.vue",
+    "project": "leoamerio__notes-api",
+    "line": 84,
+    "hash": "de8ce8364d218dd93759a60dc7c6d0af",
+    "textRange": {
+      "startLine": 84,
+      "endLine": 84,
+      "startOffset": 0,
+      "endOffset": 57
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected shorthand \"animation\" after \"animation-play-state\"",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T20:41:24+0000",
+    "updateDate": "2026-07-17T20:41:24+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e14eb1ef-e047-43f2-9f6c-edca8269be29",
+    "rule": "Web:AvoidCommentedOutCodeCheck",
+    "severity": "MAJOR",
+    "component": "leoamerio__notes-api:temp_repos/notes-api/vue-client/src/components/HelloWorld.vue",
+    "project": "leoamerio__notes-api",
+    "line": 14,
+    "hash": "192854b536d91b0eb60462810730902b",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 0,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:41:24+0000",
+    "updateDate": "2026-07-17T20:41:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4cdec987-0ada-4e32-ad82-11e4a15a1d7e",
+    "rule": "css:S4666",
+    "severity": "MAJOR",
+    "component": "leoamerio__notes-api:temp_repos/notes-api/vue-client/src/style.css",
+    "project": "leoamerio__notes-api",
+    "line": 27,
+    "hash": "8c8eb911c0258aadf5c4c1112fe1fd90",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected duplicate selector \"a\", first used at line 18",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T20:41:24+0000",
+    "updateDate": "2026-07-17T20:41:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5b40beb8-76e0-4c02-b5b5-82b1dc7de55f",
+    "rule": "css:S4666",
+    "severity": "MAJOR",
+    "component": "leoamerio__notes-api:temp_repos/notes-api/vue-client/src/style.css",
+    "project": "leoamerio__notes-api",
+    "line": 32,
+    "hash": "d02ee02bf4386d2966575fa6c449b3e5",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 32,
+      "startOffset": 0,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected duplicate selector \"a:hover\", first used at line 23",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T20:41:24+0000",
+    "updateDate": "2026-07-17T20:41:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

@@ -1,0 +1,449 @@
+[
+  {
+    "key": "215ab300-ce38-49d6-8acc-2b0495a79146",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "p-orzech__skills-integrate-mcp-with-copilot:temp_repos/skills-integrate-mcp-with-copilot/src/app.py",
+    "project": "p-orzech__skills-integrate-mcp-with-copilot",
+    "line": 41,
+    "hash": "57bafbdbd354067e6ae73f2f4400b140",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 41,
+      "startOffset": 57,
+      "endOffset": 66
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "p-orzech__skills-integrate-mcp-with-copilot:temp_repos/skills-integrate-mcp-with-copilot/src/app.py",
+            "textRange": {
+              "startLine": 43,
+              "endLine": 43,
+              "startOffset": 39,
+              "endOffset": 48
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "p-orzech__skills-integrate-mcp-with-copilot:temp_repos/skills-integrate-mcp-with-copilot/src/app.py",
+            "textRange": {
+              "startLine": 124,
+              "endLine": 124,
+              "startOffset": 50,
+              "endOffset": 59
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "p-orzech__skills-integrate-mcp-with-copilot:temp_repos/skills-integrate-mcp-with-copilot/src/app.py",
+            "textRange": {
+              "startLine": 125,
+              "endLine": 125,
+              "startOffset": 43,
+              "endOffset": 52
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Bearer \" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-20T22:24:58+0000",
+    "updateDate": "2026-07-20T22:24:58+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9f72bbd1-8e07-459b-87c8-69ce1d060ff6",
+    "rule": "javascript:S7721",
+    "severity": "MAJOR",
+    "component": "p-orzech__skills-integrate-mcp-with-copilot:temp_repos/skills-integrate-mcp-with-copilot/src/static/app.js",
+    "project": "p-orzech__skills-integrate-mcp-with-copilot",
+    "line": 18,
+    "hash": "f14ea4b798ea431c3b43fa4522e9cbfd",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 2,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move function 'getToken' to the outer scope.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "optimization",
+      "javascript"
+    ],
+    "creationDate": "2026-07-20T22:24:58+0000",
+    "updateDate": "2026-07-20T22:24:58+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "32624f4e-0c71-460b-a388-79931f6c1a5f",
+    "rule": "javascript:S7721",
+    "severity": "MAJOR",
+    "component": "p-orzech__skills-integrate-mcp-with-copilot:temp_repos/skills-integrate-mcp-with-copilot/src/static/app.js",
+    "project": "p-orzech__skills-integrate-mcp-with-copilot",
+    "line": 22,
+    "hash": "a2a1b6c70cda7940a5a2d3dbfa855bce",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 2,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move function 'getUsername' to the outer scope.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "optimization",
+      "javascript"
+    ],
+    "creationDate": "2026-07-20T22:24:58+0000",
+    "updateDate": "2026-07-20T22:24:58+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2abbcf62-b97c-4a5c-a347-4028d745e985",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "p-orzech__skills-integrate-mcp-with-copilot:temp_repos/skills-integrate-mcp-with-copilot/src/static/app.js",
+    "project": "p-orzech__skills-integrate-mcp-with-copilot",
+    "line": 44,
+    "hash": "94c5deb9043a68a10dc7375968e54a7c",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 44,
+      "startOffset": 45,
+      "endOffset": 52
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T22:24:58+0000",
+    "updateDate": "2026-07-20T22:24:58+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d1ab8f53-9dd1-47ae-9be1-1c06bb267ff9",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "p-orzech__skills-integrate-mcp-with-copilot:temp_repos/skills-integrate-mcp-with-copilot/src/static/app.js",
+    "project": "p-orzech__skills-integrate-mcp-with-copilot",
+    "line": 117,
+    "hash": "aff45db436efb953ce14f70283aa4903",
+    "textRange": {
+      "startLine": 117,
+      "endLine": 117,
+      "startOffset": 33,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T22:24:58+0000",
+    "updateDate": "2026-07-20T22:24:58+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3ae1f77b-96d8-4d32-a04a-8cb5da270cc9",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "p-orzech__skills-integrate-mcp-with-copilot:temp_repos/skills-integrate-mcp-with-copilot/src/static/app.js",
+    "project": "p-orzech__skills-integrate-mcp-with-copilot",
+    "line": 160,
+    "hash": "4132a7be2a8fc618906bacbb9e16510f",
+    "textRange": {
+      "startLine": 160,
+      "endLine": 160,
+      "startOffset": 47,
+      "endOffset": 54
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T22:24:58+0000",
+    "updateDate": "2026-07-20T22:24:58+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "763aa3bd-e6c1-42da-bc5a-e10423a82fe1",
+    "rule": "javascript:S7761",
+    "severity": "MAJOR",
+    "component": "p-orzech__skills-integrate-mcp-with-copilot:temp_repos/skills-integrate-mcp-with-copilot/src/static/app.js",
+    "project": "p-orzech__skills-integrate-mcp-with-copilot",
+    "line": 175,
+    "hash": "0854c453ebaaec93335eecbadc6a5fac",
+    "textRange": {
+      "startLine": 175,
+      "endLine": 175,
+      "startOffset": 21,
+      "endOffset": 57
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `.dataset` over `getAttribute(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "dom",
+      "html",
+      "api"
+    ],
+    "creationDate": "2026-07-20T22:24:58+0000",
+    "updateDate": "2026-07-20T22:24:58+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b4fd20e5-a5cf-4897-8ffa-472435021704",
+    "rule": "javascript:S7761",
+    "severity": "MAJOR",
+    "component": "p-orzech__skills-integrate-mcp-with-copilot:temp_repos/skills-integrate-mcp-with-copilot/src/static/app.js",
+    "project": "p-orzech__skills-integrate-mcp-with-copilot",
+    "line": 176,
+    "hash": "ae7be20cf3583cf477fe3c499855d96e",
+    "textRange": {
+      "startLine": 176,
+      "endLine": 176,
+      "startOffset": 18,
+      "endOffset": 51
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `.dataset` over `getAttribute(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "dom",
+      "html",
+      "api"
+    ],
+    "creationDate": "2026-07-20T22:24:58+0000",
+    "updateDate": "2026-07-20T22:24:58+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c075df51-3ba1-4a66-822f-e8cfa03e4afe",
+    "rule": "css:S7924",
+    "severity": "MAJOR",
+    "component": "p-orzech__skills-integrate-mcp-with-copilot:temp_repos/skills-integrate-mcp-with-copilot/src/static/styles.css",
+    "project": "p-orzech__skills-integrate-mcp-with-copilot",
+    "line": 46,
+    "hash": "6a5e8cb97ac89286458bcafc604aeda5",
+    "textRange": {
+      "startLine": 46,
+      "endLine": 46,
+      "startOffset": 0,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Text does not meet the minimal contrast requirement with its background.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "css",
+      "accessibility",
+      "wcag",
+      "contrast"
+    ],
+    "creationDate": "2026-07-20T22:24:58+0000",
+    "updateDate": "2026-07-20T22:24:58+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

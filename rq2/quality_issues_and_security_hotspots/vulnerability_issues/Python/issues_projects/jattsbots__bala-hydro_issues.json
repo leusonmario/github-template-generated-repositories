@@ -1,0 +1,1978 @@
+[
+  {
+    "key": "967daa79-4652-45fd-8eff-b45cda109081",
+    "rule": "docker:S7018",
+    "severity": "MINOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/Dockerfile",
+    "project": "jattsbots__bala-hydro",
+    "line": 5,
+    "hash": "af23c9e223884c765775f1457e4514ed",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 8,
+      "startOffset": 22,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Sort these package names alphanumerically.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a7eead15-8b86-42cf-a466-30ae033bc37d",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/__main__.py",
+    "project": "jattsbots__bala-hydro",
+    "line": 49,
+    "hash": "f0bb7f1c7c815e6f12b11b2714e04281",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 49,
+      "startOffset": 10,
+      "endOffset": 78
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/__main__.py",
+            "textRange": {
+              "startLine": 53,
+              "endLine": 53,
+              "startOffset": 10,
+              "endOffset": 78
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/__main__.py",
+            "textRange": {
+              "startLine": 62,
+              "endLine": 62,
+              "startOffset": 10,
+              "endOffset": 78
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"------------------------------ DONE ------------------------------\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6ec94642-8526-4d24-bc21-998926f9c352",
+    "rule": "python:S7502",
+    "severity": "MAJOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/__main__.py",
+    "project": "jattsbots__bala-hydro",
+    "line": 57,
+    "hash": "151d32f06cbffb67409daccb8edd7340",
+    "textRange": {
+      "startLine": 57,
+      "endLine": 57,
+      "startOffset": 8,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Save this task in a variable to prevent premature garbage collection.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "asyncio",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dbfa6242-f6f2-48db-8ee1-a0924c08a6fb",
+    "rule": "python:S7494",
+    "severity": "MINOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/bot/clients.py",
+    "project": "jattsbots__bala-hydro",
+    "line": 12,
+    "hash": "e32eb8d32b7b73046bd5cbf3aa08d67d",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 17,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace dict constructor call with a dictionary comprehension.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fc526c29-a807-4931-8f4b-a50010ee6b28",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/bot/plugins/admin.py",
+    "project": "jattsbots__bala-hydro",
+    "line": 87,
+    "hash": "490841ef91b518f581e421a228fb85ac",
+    "textRange": {
+      "startLine": 87,
+      "endLine": 87,
+      "startOffset": 10,
+      "endOffset": 20
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 90,
+              "endLine": 90,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 92,
+              "endLine": 92,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 101,
+              "endLine": 101,
+              "startOffset": 14,
+              "endOffset": 17
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 103,
+              "endLine": 103,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 105,
+              "endLine": 105,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 107,
+              "endLine": 107,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 109,
+              "endLine": 109,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 112,
+              "endLine": 112,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 114,
+              "endLine": 114,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 118,
+              "endLine": 118,
+              "startOffset": 16,
+              "endOffset": 22
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 121,
+              "endLine": 121,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 126,
+              "endLine": 126,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 131,
+              "endLine": 131,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "198bb1ea-dea6-4f40-9650-2bd54625f644",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/bot/plugins/admin.py",
+    "project": "jattsbots__bala-hydro",
+    "line": 98,
+    "hash": "57c79a6dc6fa72f8a9e685907b942a0b",
+    "textRange": {
+      "startLine": 98,
+      "endLine": 98,
+      "startOffset": 34,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3d2db014-99e4-4ab2-ab1a-872d34bf4f8d",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/bot/plugins/admin.py",
+    "project": "jattsbots__bala-hydro",
+    "line": 100,
+    "hash": "5bc949be9f42ed1848a4d131a0e6ff4c",
+    "textRange": {
+      "startLine": 100,
+      "endLine": 100,
+      "startOffset": 29,
+      "endOffset": 44
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 133,
+              "endLine": 133,
+              "startOffset": 21,
+              "endOffset": 36
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/bot/plugins/admin.py",
+            "textRange": {
+              "startLine": 137,
+              "endLine": 137,
+              "startOffset": 14,
+              "endOffset": 29
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal 'broadcast.txt' 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0d1be7a6-928e-4b66-be7c-201ee7ca5dc9",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/bot/plugins/admin.py",
+    "project": "jattsbots__bala-hydro",
+    "line": 115,
+    "hash": "8a99285188fc215c0cb147e2c8e3abd4",
+    "textRange": {
+      "startLine": 115,
+      "endLine": 115,
+      "startOffset": 51,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a524b701-6af8-4a85-a043-79b6d9775892",
+    "rule": "python:S5754",
+    "severity": "CRITICAL",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/bot/plugins/admin.py",
+    "project": "jattsbots__bala-hydro",
+    "line": 118,
+    "hash": "3e264f5fbab10735799511f21ca70842",
+    "textRange": {
+      "startLine": 118,
+      "endLine": 118,
+      "startOffset": 16,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify an exception class to catch or reraise the exception",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "bad-practice",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9d90677a-e897-47ca-ab8a-80b8461dbcc8",
+    "rule": "python:S3626",
+    "severity": "MINOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/bot/plugins/callback.py",
+    "project": "jattsbots__bala-hydro",
+    "line": 65,
+    "hash": "e70c4df10ef0983b9c8c31bd06b2a2c3",
+    "textRange": {
+      "startLine": 65,
+      "endLine": 65,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant return.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "redundant",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ad6f7623-e33f-40ea-8fe3-e5d13d6c0d81",
+    "rule": "python:S3626",
+    "severity": "MINOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/bot/plugins/callback.py",
+    "project": "jattsbots__bala-hydro",
+    "line": 83,
+    "hash": "e70c4df10ef0983b9c8c31bd06b2a2c3",
+    "textRange": {
+      "startLine": 83,
+      "endLine": 83,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant return.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "redundant",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2c1bdf71-8d7f-4a71-9946-e25b0512932d",
+    "rule": "Web:S7926",
+    "severity": "MAJOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/template/req.html",
+    "project": "jattsbots__bala-hydro",
+    "line": 9,
+    "hash": "d35107db1bdb00804c5ecbe6238b4c9b",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 4,
+      "endOffset": 111
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Meta viewport disables zoom via user-scalable=no.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag",
+      "html"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "RESPECTFUL",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "786d0aa6-5813-42f6-8bc2-8a5ccafff4b4",
+    "rule": "Web:S4084",
+    "severity": "MAJOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/template/req.html",
+    "project": "jattsbots__bala-hydro",
+    "line": 23,
+    "hash": "9e9c54b057186d0ca57547dbf47ef9b2",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 16,
+      "endOffset": 165
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add subtitles and description files for this video.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "html5"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ce2aff2d-beb4-4fc1-a515-d5ab7694a622",
+    "rule": "Web:S6844",
+    "severity": "MAJOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/template/req.html",
+    "project": "jattsbots__bala-hydro",
+    "line": 36,
+    "hash": "c9d25fc30c7a7b7ac317de00745901a1",
+    "textRange": {
+      "startLine": 36,
+      "endLine": 36,
+      "startOffset": 20,
+      "endOffset": 60
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchor tags should not be used as buttons.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f110985b-25bd-4785-a670-07c51c9719f6",
+    "rule": "Web:S6844",
+    "severity": "MAJOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/template/req.html",
+    "project": "jattsbots__bala-hydro",
+    "line": 39,
+    "hash": "fdfb73d23938af880e5245001738225c",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 39,
+      "startOffset": 20,
+      "endOffset": 60
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchor tags should not be used as buttons.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a185747f-340c-4b45-86b7-52bc39fb6b76",
+    "rule": "Web:S6844",
+    "severity": "MAJOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/template/req.html",
+    "project": "jattsbots__bala-hydro",
+    "line": 42,
+    "hash": "7aae405ff8287f25f0e8aade8d661b6a",
+    "textRange": {
+      "startLine": 42,
+      "endLine": 42,
+      "startOffset": 20,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchor tags should not be used as buttons.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e0f0f32f-9b45-4a61-8c17-0f554da21057",
+    "rule": "Web:S6844",
+    "severity": "MAJOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/template/req.html",
+    "project": "jattsbots__bala-hydro",
+    "line": 45,
+    "hash": "43cc606ca0488849a3e1c5f7c6e5ae11",
+    "textRange": {
+      "startLine": 45,
+      "endLine": 45,
+      "startOffset": 20,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchor tags should not be used as buttons.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8cba65bf-0f62-4b54-b2f0-d290c04ff483",
+    "rule": "Web:S6844",
+    "severity": "MAJOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/template/req.html",
+    "project": "jattsbots__bala-hydro",
+    "line": 48,
+    "hash": "8583fcfa65af199c4713de9384df0f58",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 20,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchor tags should not be used as buttons.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a57fc310-64c9-4eee-b9aa-c7d8a51781cd",
+    "rule": "Web:S6844",
+    "severity": "MAJOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/template/req.html",
+    "project": "jattsbots__bala-hydro",
+    "line": 51,
+    "hash": "7bc630a19edb1566cb381e86ac924a2e",
+    "textRange": {
+      "startLine": 51,
+      "endLine": 51,
+      "startOffset": 20,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Anchor tags should not be used as buttons.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "da74976b-99ae-4928-8139-ec74c1f8a3b2",
+    "rule": "javascript:S1848",
+    "severity": "MAJOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/template/req.html",
+    "project": "jattsbots__bala-hydro",
+    "line": 75,
+    "hash": "a564c1da312c634d3e679bd08a070a68",
+    "textRange": {
+      "startLine": 75,
+      "endLine": 75,
+      "startOffset": 12,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Either remove this useless object instantiation of \"Plyr\" or use it.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "86caf885-8a58-4435-8a80-71942a1067cb",
+    "rule": "javascript:S7764",
+    "severity": "MINOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/template/req.html",
+    "project": "jattsbots__bala-hydro",
+    "line": 78,
+    "hash": "c85ccebb79925f7148293bd77ee3244e",
+    "textRange": {
+      "startLine": 78,
+      "endLine": 78,
+      "startOffset": 27,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1127019f-ae5e-4105-9a2f-973f413faf51",
+    "rule": "javascript:S7764",
+    "severity": "MINOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/template/req.html",
+    "project": "jattsbots__bala-hydro",
+    "line": 90,
+    "hash": "4a77ccdeaaf2375c9aa9d33d532aa25f",
+    "textRange": {
+      "startLine": 90,
+      "endLine": 90,
+      "startOffset": 12,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "48195adf-afc3-4a9c-8e0e-01e7bb684cf0",
+    "rule": "javascript:S7764",
+    "severity": "MINOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/template/req.html",
+    "project": "jattsbots__bala-hydro",
+    "line": 94,
+    "hash": "5447e25ca83f7d708368221f8583f200",
+    "textRange": {
+      "startLine": 94,
+      "endLine": 94,
+      "startOffset": 12,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "62d543ec-a48f-427f-8984-d365f1c57078",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/utils/Translation.py",
+    "project": "jattsbots__bala-hydro",
+    "line": 102,
+    "hash": "e0795934f9246fe6f4d65bed3498cba2",
+    "textRange": {
+      "startLine": 102,
+      "endLine": 102,
+      "startOffset": 33,
+      "endOffset": 42
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/utils/Translation.py",
+            "textRange": {
+              "startLine": 111,
+              "endLine": 111,
+              "startOffset": 33,
+              "endOffset": 42
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/utils/Translation.py",
+            "textRange": {
+              "startLine": 120,
+              "endLine": 120,
+              "startOffset": 33,
+              "endOffset": 42
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal '❌ Close' 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3dc78a43-b1c1-44f0-ae1c-be7253d4daf5",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/utils/Translation.py",
+    "project": "jattsbots__bala-hydro",
+    "line": 104,
+    "hash": "3c7b819f3970b3b9d7c67202ee1ffc8d",
+    "textRange": {
+      "startLine": 104,
+      "endLine": 104,
+      "startOffset": 30,
+      "endOffset": 46
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/utils/Translation.py",
+            "textRange": {
+              "startLine": 113,
+              "endLine": 113,
+              "startOffset": 30,
+              "endOffset": 46
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/utils/Translation.py",
+            "textRange": {
+              "startLine": 122,
+              "endLine": 122,
+              "startOffset": 30,
+              "endOffset": 46
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"📢 Bot Channel\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "14855496-4086-495f-8c8d-9874dd901b2f",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/utils/bot_utils.py",
+    "project": "jattsbots__bala-hydro",
+    "line": 45,
+    "hash": "a81a377819412d27a85ad8efe8056149",
+    "textRange": {
+      "startLine": 45,
+      "endLine": 45,
+      "startOffset": 10,
+      "endOffset": 18
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/utils/bot_utils.py",
+            "textRange": {
+              "startLine": 45,
+              "endLine": 45,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1cede081-3db5-4e6e-81bd-3480b92bfcf1",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/utils/bot_utils.py",
+    "project": "jattsbots__bala-hydro",
+    "line": 52,
+    "hash": "3eb886e35997b21b5c3aa3e47a6065d0",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 52,
+      "startOffset": 4,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"Stream_Text\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "134ecb75-95a2-427c-a254-5cc64ac33eda",
+    "rule": "python:S7502",
+    "severity": "MAJOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/utils/custom_dl.py",
+    "project": "jattsbots__bala-hydro",
+    "line": 33,
+    "hash": "0b07994826821e2f996d354a1330ad98",
+    "textRange": {
+      "startLine": 33,
+      "endLine": 33,
+      "startOffset": 8,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Save this task in a variable to prevent premature garbage collection.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "asyncio",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8a3abace-9d4a-48f7-b772-56537ae8cbe4",
+    "rule": "python:S1940",
+    "severity": "MINOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/utils/custom_dl.py",
+    "project": "jattsbots__bala-hydro",
+    "line": 41,
+    "hash": "095505e63cb304639fbe50f83929f919",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 41,
+      "startOffset": 11,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the opposite operator (\"not in\") instead.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "174bc445-ab3d-46f6-a5b1-be6474ef6a0f",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/utils/database.py",
+    "project": "jattsbots__bala-hydro",
+    "line": 21,
+    "hash": "237e3b6da3ce41e05da68d73543052c3",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "49eb0170-1dc1-4c48-9275-18a6a87d13f5",
+    "rule": "python:S7503",
+    "severity": "MINOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/utils/database.py",
+    "project": "jattsbots__bala-hydro",
+    "line": 38,
+    "hash": "76d10cf9354eed12ed6228ed159764e9",
+    "textRange": {
+      "startLine": 38,
+      "endLine": 38,
+      "startOffset": 14,
+      "endOffset": 27
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/utils/database.py",
+            "textRange": {
+              "startLine": 38,
+              "endLine": 38,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use asynchronous features in this function or remove the `async` keyword.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f6aad5ea-d61f-4f6e-aab4-9dbfc3d55107",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/utils/database.py",
+    "project": "jattsbots__bala-hydro",
+    "line": 52,
+    "hash": "237e3b6da3ce41e05da68d73543052c3",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 52,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "86886d44-8699-41e9-8682-5c25e9c28ce9",
+    "rule": "python:S117",
+    "severity": "MINOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/utils/human_readable.py",
+    "project": "jattsbots__bala-hydro",
+    "line": 10,
+    "hash": "2a6054e60a2aa7c529c2d7828cc91271",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 4,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable \"Dic_powerN\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3e1013de-9371-4404-9e3e-f2e630027506",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/vars.py",
+    "project": "jattsbots__bala-hydro",
+    "line": 26,
+    "hash": "3c75b77df6779826f526492bbfa2c322",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 36,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused argument.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dfcc2e42-7d95-4e6c-829b-52fadc42999f",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/vars.py",
+    "project": "jattsbots__bala-hydro",
+    "line": 26,
+    "hash": "3c75b77df6779826f526492bbfa2c322",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 12,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused argument.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ffba2c32-26bf-49d6-8236-02b692ba8bf5",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/WebStreamer/vars.py",
+    "project": "jattsbots__bala-hydro",
+    "line": 26,
+    "hash": "3c75b77df6779826f526492bbfa2c322",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 42,
+      "endOffset": 76
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused argument.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "49b5bec3-3ee0-4a5f-bf0a-700918057b7a",
+    "rule": "secrets:S6694",
+    "severity": "BLOCKER",
+    "component": "jattsbots__bala-hydro:temp_repos/Bala-Hydro/app.json",
+    "project": "jattsbots__bala-hydro",
+    "line": 35,
+    "hash": "908e122a826403016d4fe60e0395555a",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 60,
+      "endOffset": 67
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make sure this MongoDB database password gets changed and removed from the code.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T19:04:24+0000",
+    "updateDate": "2026-07-17T19:04:24+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

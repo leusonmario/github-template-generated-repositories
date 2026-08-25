@@ -1,0 +1,2096 @@
+[
+  {
+    "key": "fb8974fb-0d03-47a2-ae76-e287368993fd",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/scripts/make_dev_link.js",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 1,
+    "hash": "b561a6854011601a6d403f2bb81dcae8",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "07ecc7ad-c115-4e25-b377-eed683a36767",
+    "rule": "javascript:S2004",
+    "severity": "CRITICAL",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/scripts/make_dev_link.js",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 35,
+    "hash": "8bfee366048902fcf8d1cba63abdc9fa",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 29,
+      "endOffset": 31
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/scripts/make_dev_link.js",
+            "textRange": {
+              "startLine": 23,
+              "endLine": 23,
+              "startOffset": 15,
+              "endOffset": 22
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/scripts/make_dev_link.js",
+            "textRange": {
+              "startLine": 25,
+              "endLine": 25,
+              "startOffset": 41,
+              "endOffset": 43
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/scripts/make_dev_link.js",
+            "textRange": {
+              "startLine": 26,
+              "endLine": 26,
+              "startOffset": 51,
+              "endOffset": 53
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/scripts/make_dev_link.js",
+            "textRange": {
+              "startLine": 31,
+              "endLine": 31,
+              "startOffset": 29,
+              "endOffset": 31
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this code to not nest functions more than 4 levels deep.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "efc7926f-2c15-4fda-baa0-45a342274729",
+    "rule": "javascript:S7781",
+    "severity": "MINOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/scripts/make_dev_link.js",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 152,
+    "hash": "81d497b5298c1bfab29449456a25f4da",
+    "textRange": {
+      "startLine": 152,
+      "endLine": 152,
+      "startOffset": 18,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ceae2f60-c07d-4827-ae2b-e1b15e544736",
+    "rule": "javascript:S7781",
+    "severity": "MINOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/scripts/make_dev_link.js",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 153,
+    "hash": "8c64f587464777b1c51a056a2cb11228",
+    "textRange": {
+      "startLine": 153,
+      "endLine": 153,
+      "startOffset": 18,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2beff065-50c8-4bb5-b20d-79df4074a208",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/scripts/make_install.js",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 1,
+    "hash": "b561a6854011601a6d403f2bb81dcae8",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0a274742-163e-4907-bf47-e86e4856e17a",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/scripts/make_install.js",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 2,
+    "hash": "8fcc083438583900cab2e8dc30cdd92a",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 17,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e8c92fbf-45a7-4515-b1ed-23a9890b7f95",
+    "rule": "javascript:S2004",
+    "severity": "CRITICAL",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/scripts/make_install.js",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 32,
+    "hash": "8bfee366048902fcf8d1cba63abdc9fa",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 32,
+      "startOffset": 29,
+      "endOffset": 31
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/scripts/make_install.js",
+            "textRange": {
+              "startLine": 20,
+              "endLine": 20,
+              "startOffset": 15,
+              "endOffset": 22
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/scripts/make_install.js",
+            "textRange": {
+              "startLine": 22,
+              "endLine": 22,
+              "startOffset": 41,
+              "endOffset": 43
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/scripts/make_install.js",
+            "textRange": {
+              "startLine": 23,
+              "endLine": 23,
+              "startOffset": 51,
+              "endOffset": 53
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/scripts/make_install.js",
+            "textRange": {
+              "startLine": 28,
+              "endLine": 28,
+              "startOffset": 29,
+              "endOffset": 31
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this code to not nest functions more than 4 levels deep.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ec50f1f2-3a62-4925-bb6a-5a68a45e643b",
+    "rule": "javascript:S7781",
+    "severity": "MINOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/scripts/make_install.js",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 139,
+    "hash": "81d497b5298c1bfab29449456a25f4da",
+    "textRange": {
+      "startLine": 139,
+      "endLine": 139,
+      "startOffset": 18,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e676082b-0a99-414a-b3d2-7addad2d866f",
+    "rule": "javascript:S7781",
+    "severity": "MINOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/scripts/make_install.js",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 140,
+    "hash": "8c64f587464777b1c51a056a2cb11228",
+    "textRange": {
+      "startLine": 140,
+      "endLine": 140,
+      "startOffset": 18,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "73db4a97-4ca9-4927-af37-d36027477ea3",
+    "rule": "javascript:S930",
+    "severity": "CRITICAL",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/scripts/make_install.js",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 162,
+    "hash": "b03fede2425b2bfff77d3e1538132b5f",
+    "textRange": {
+      "startLine": 162,
+      "endLine": 162,
+      "startOffset": 12,
+      "endOffset": 17
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/scripts/make_install.js",
+            "textRange": {
+              "startLine": 13,
+              "endLine": 13,
+              "startOffset": 15,
+              "endOffset": 19
+            },
+            "msg": "Formal parameters",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/scripts/make_install.js",
+            "textRange": {
+              "startLine": 162,
+              "endLine": 162,
+              "startOffset": 53,
+              "endOffset": 56
+            },
+            "msg": "Extra argument",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This function expects 1 argument, but 2 were provided.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a7467763-e33a-4c03-a302-45087b41f5bf",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/scripts/make_install.js",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 167,
+    "hash": "5ccccea8f978e80b5dccc8d12f176fb9",
+    "textRange": {
+      "startLine": 167,
+      "endLine": 167,
+      "startOffset": 14,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "979df3c0-3301-4108-b1e7-0124e59c2195",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/api.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 412,
+    "hash": "b664112f634839241534af497a7e435c",
+    "textRange": {
+      "startLine": 412,
+      "endLine": 412,
+      "startOffset": 12,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"string\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "79be8618-dc1f-472f-810e-2ed20fefc3bd",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/index.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 37,
+    "hash": "abd92feaf66e7023b91cd94fa9b9cb53",
+    "textRange": {
+      "startLine": 37,
+      "endLine": 37,
+      "startOffset": 4,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'blockIconEventBindThis' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ccfd7434-d7b8-4ce3-a35e-2a1850702082",
+    "rule": "typescript:S4822",
+    "severity": "MAJOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/index.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 296,
+    "hash": "80d5b17efc16ace990c07580fc3e85eb",
+    "textRange": {
+      "startLine": 296,
+      "endLine": 296,
+      "startOffset": 8,
+      "endOffset": 11
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/index.ts",
+            "textRange": {
+              "startLine": 297,
+              "endLine": 297,
+              "startOffset": 12,
+              "endOffset": 36
+            },
+            "msg": "Promise",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Consider using 'await' for the promise inside this 'try' or replace it with 'Promise.prototype.catch(...)' usage.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b50b95be-6890-4956-be77-58722f9e32c2",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/index.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 348,
+    "hash": "cf4cdc9ff5aecf73e01399eabf6f0791",
+    "textRange": {
+      "startLine": 348,
+      "endLine": 348,
+      "startOffset": 8,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0e39de3b-f20d-4cb8-afb2-4bfb9f3814c6",
+    "rule": "typescript:S1848",
+    "severity": "MAJOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/index.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 360,
+    "hash": "332f6248c78ff59fdc141fe39b6581a4",
+    "textRange": {
+      "startLine": 360,
+      "endLine": 360,
+      "startOffset": 8,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Either remove this useless object instantiation of \"HelloExample\" or use it.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2d5b4ce3-050d-43a2-9451-23eb01c28eff",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/index.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 442,
+    "hash": "f40858630a7f9513ca5391ff8e962596",
+    "textRange": {
+      "startLine": 442,
+      "endLine": 442,
+      "startOffset": 37,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b45304f8-9e28-4284-8834-03340adac346",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/index.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 445,
+    "hash": "81a9966825b14e7b3324c491c12fa265",
+    "textRange": {
+      "startLine": 445,
+      "endLine": 445,
+      "startOffset": 74,
+      "endOffset": 81
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cc3e7992-e48b-4f1c-97bc-a5567fdd184e",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/index.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 459,
+    "hash": "1dd997c1632857df85c1989fb99c3e64",
+    "textRange": {
+      "startLine": 459,
+      "endLine": 472,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "86a1e45d-a1b0-4c80-8c4c-28f5dd36def1",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/index.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 499,
+    "hash": "ee2d21e44a645a396fd95c1e548e8bbf",
+    "textRange": {
+      "startLine": 499,
+      "endLine": 499,
+      "startOffset": 12,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1fc36ec1-4921-4444-951e-c60b336d964a",
+    "rule": "typescript:S7763",
+    "severity": "MINOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/libs/components/Form/index.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 6,
+    "hash": "104a395e4377cfdd80ba3dd7e14c3ebc",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 20,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `export…from` to re-export `FormWrap`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "decdf630-f06b-4cd0-aa3f-55b4ffb5c044",
+    "rule": "typescript:S7763",
+    "severity": "MINOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/libs/components/Form/index.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 6,
+    "hash": "104a395e4377cfdd80ba3dd7e14c3ebc",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 9,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `export…from` to re-export `FormInput`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "70f3365e-f836-498b-a49b-dc0824aa2c73",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/libs/dialog.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 23,
+    "hash": "51700660ef677f961ce525fac13df085",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 50,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9b578024-097c-4701-9e76-832c41ee7b30",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/libs/dialog.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 24,
+    "hash": "bb55d8eb559165a0b3cf6a37d436d8b6",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 77,
+      "endOffset": 83
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4d83187a-b7e6-4b48-bd12-384790aa40cd",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/libs/dialog.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 81,
+    "hash": "51700660ef677f961ce525fac13df085",
+    "textRange": {
+      "startLine": 81,
+      "endLine": 81,
+      "startOffset": 50,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "98b8d6c3-5aa2-4eb2-83fa-226e036c7720",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/libs/dialog.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 82,
+    "hash": "bb55d8eb559165a0b3cf6a37d436d8b6",
+    "textRange": {
+      "startLine": 82,
+      "endLine": 82,
+      "startOffset": 77,
+      "endOffset": 83
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "524e5410-fd3c-47e3-af5d-0aedbded14a2",
+    "rule": "typescript:S2681",
+    "severity": "MAJOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/libs/dialog.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 152,
+    "hash": "8a21a100c5421f3100857ebff0832228",
+    "textRange": {
+      "startLine": 152,
+      "endLine": 152,
+      "startOffset": 43,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This statement will not be executed conditionally; only the first statement will be. The rest will execute unconditionally.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FORMATTED",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "431f8c0c-5aeb-489a-8365-130890a8f98d",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/libs/setting-utils.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 36,
+    "hash": "2b9c90884eb648b587fbcbe433683c6e",
+    "textRange": {
+      "startLine": 36,
+      "endLine": 36,
+      "startOffset": 23,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d8ed7388-c45e-4439-9dca-45eec0af6e8a",
+    "rule": "typescript:S6606",
+    "severity": "MINOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/libs/setting-utils.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 251,
+    "hash": "6bb124df7a1c42ac9c124277bf5b972f",
+    "textRange": {
+      "startLine": 251,
+      "endLine": 253,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using nullish coalescing operator (`??=`) instead of an assignment expression, as it is simpler to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "nullish-coalescing",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1865526a-c879-47b0-bf49-36c1817958d4",
+    "rule": "typescript:S6606",
+    "severity": "MINOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/libs/setting-utils.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 254,
+    "hash": "35249d3b070aa81f3ac3ac46a68607e6",
+    "textRange": {
+      "startLine": 254,
+      "endLine": 256,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using nullish coalescing operator (`??=`) instead of an assignment expression, as it is simpler to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "nullish-coalescing",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2f4bb4c2-7b26-42cd-b8b5-fc71cef8a031",
+    "rule": "typescript:S6836",
+    "severity": "MAJOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/libs/setting-utils.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 297,
+    "hash": "fdfe9295e204be7f63c41bedae4e9c14",
+    "textRange": {
+      "startLine": 297,
+      "endLine": 297,
+      "startOffset": 16,
+      "endOffset": 80
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected lexical declaration in case block.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ca193e9a-4516-4483-b2c9-607fe2c5cfef",
+    "rule": "typescript:S6836",
+    "severity": "MAJOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/libs/setting-utils.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 305,
+    "hash": "855f881f05f35df8f3a777939dff293a",
+    "textRange": {
+      "startLine": 305,
+      "endLine": 305,
+      "startOffset": 16,
+      "endOffset": 88
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected lexical declaration in case block.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "eba20e01-85d3-43aa-9ab8-f7b3f53435ae",
+    "rule": "typescript:S6836",
+    "severity": "MAJOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/libs/setting-utils.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 307,
+    "hash": "6c5d0d1ff7e8c18b31b0a1a8be3628f4",
+    "textRange": {
+      "startLine": 307,
+      "endLine": 307,
+      "startOffset": 16,
+      "endOffset": 50
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected lexical declaration in case block.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4aef35c8-a601-422b-b07a-00580955fd80",
+    "rule": "typescript:S6836",
+    "severity": "MAJOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/libs/setting-utils.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 320,
+    "hash": "6cb819b9b88e975500339bab14269698",
+    "textRange": {
+      "startLine": 320,
+      "endLine": 320,
+      "startOffset": 16,
+      "endOffset": 86
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected lexical declaration in case block.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1705097b-9d9d-40d3-b0b9-822896a75e65",
+    "rule": "typescript:S6836",
+    "severity": "MAJOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/libs/setting-utils.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 335,
+    "hash": "b0f33fa56b8315d5304b64263dcdb995",
+    "textRange": {
+      "startLine": 335,
+      "endLine": 335,
+      "startOffset": 16,
+      "endOffset": 89
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected lexical declaration in case block.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cbf1eff5-563f-473d-99c6-4529bbce2e80",
+    "rule": "typescript:S6836",
+    "severity": "MAJOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/libs/setting-utils.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 343,
+    "hash": "4ca17c44c007a7d0877ff7c3dda0ced7",
+    "textRange": {
+      "startLine": 343,
+      "endLine": 343,
+      "startOffset": 16,
+      "endOffset": 94
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected lexical declaration in case block.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "aa5236f4-1b14-48ac-9789-ac496703c4f7",
+    "rule": "typescript:S6836",
+    "severity": "MAJOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/libs/setting-utils.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 350,
+    "hash": "fe874dbe7cd3d2fc78c721d5ffcd0c19",
+    "textRange": {
+      "startLine": 350,
+      "endLine": 350,
+      "startOffset": 16,
+      "endOffset": 86
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected lexical declaration in case block.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a1591e18-a1d3-4adf-a74e-4cda9758a1a9",
+    "rule": "typescript:S6836",
+    "severity": "MAJOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/libs/setting-utils.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 358,
+    "hash": "da5570eb60cdb8e1e5cd169bbffda100",
+    "textRange": {
+      "startLine": 358,
+      "endLine": 358,
+      "startOffset": 16,
+      "endOffset": 88
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected lexical declaration in case block.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "08eb0515-3200-4b38-86cd-ff8fd19cc2ec",
+    "rule": "typescript:S6836",
+    "severity": "MAJOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/libs/setting-utils.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 365,
+    "hash": "f79b0f805fdadde335630e237a62ca5e",
+    "textRange": {
+      "startLine": 365,
+      "endLine": 365,
+      "startOffset": 16,
+      "endOffset": 77
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected lexical declaration in case block.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cbf161c6-8515-490a-a2b1-72551ca00d85",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/src/libs/setting-utils.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 379,
+    "hash": "754ea9d7ed888d5ac948fd65f4b07d7d",
+    "textRange": {
+      "startLine": 379,
+      "endLine": 379,
+      "startOffset": 8,
+      "endOffset": 45
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "81e88ea2-dec4-41b3-a9ff-bbf814184dfe",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/vite.config.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 1,
+    "hash": "59fef496db20a14c1a7dbc92ae95dbae",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 24,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "31c3021d-db0f-4dc5-9ed6-68a33968803e",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/vite.config.ts",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 2,
+    "hash": "b53558f9ae78f9605de22b432181f443",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 23,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'loadEnv'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3d782814-d774-4f34-b581-e0ad87875fd4",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/yaml-plugin.js",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 10,
+    "hash": "b561a6854011601a6d403f2bb81dcae8",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c98876d1-d52f-437d-87ca-da3eb35c29a8",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "zxhd863943427__siyuan-plugin-quick-add-ref:temp_repos/siyuan-plugin-quick-add-ref/yaml-plugin.js",
+    "project": "zxhd863943427__siyuan-plugin-quick-add-ref",
+    "line": 12,
+    "hash": "cd6b88f029ce01b43bc7d19446b3b5d3",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 24,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T05:13:17+0000",
+    "updateDate": "2026-07-16T05:13:17+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

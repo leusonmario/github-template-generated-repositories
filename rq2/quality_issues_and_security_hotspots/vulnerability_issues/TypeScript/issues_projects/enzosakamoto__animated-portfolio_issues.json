@@ -1,0 +1,135 @@
+[
+  {
+    "key": "0fc3cec0-6011-4f1d-9337-fd6ad8050153",
+    "rule": "typescript:S6749",
+    "severity": "MINOR",
+    "component": "enzosakamoto__animated-portfolio:temp_repos/animated-portfolio/src/app/app.tsx",
+    "project": "enzosakamoto__animated-portfolio",
+    "line": 6,
+    "hash": "38559c871fba28d992ead51549367f83",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 13,
+      "startOffset": 4,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A fragment with only one child is redundant.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-14T18:11:45+0000",
+    "updateDate": "2026-07-14T18:11:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c70ac58a-224a-46a8-bd93-82f91ce9d9e6",
+    "rule": "typescript:S7746",
+    "severity": "MAJOR",
+    "component": "enzosakamoto__animated-portfolio:temp_repos/animated-portfolio/src/infrastructure/http/api.ts",
+    "project": "enzosakamoto__animated-portfolio",
+    "line": 17,
+    "hash": "3045bcba53db5b87e8557026743f967e",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 17,
+      "startOffset": 11,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `throw error` over `return Promise.reject(error)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "promise",
+      "confusing"
+    ],
+    "creationDate": "2026-07-14T18:11:45+0000",
+    "updateDate": "2026-07-14T18:11:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0d40bf84-9f56-41e3-841f-691437dfe77e",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "enzosakamoto__animated-portfolio:temp_repos/animated-portfolio/vite.config.ts",
+    "project": "enzosakamoto__animated-portfolio",
+    "line": 3,
+    "hash": "86d5e1b4b9e37b9f521e62e76cad3435",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 17,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-14T18:11:45+0000",
+    "updateDate": "2026-07-14T18:11:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

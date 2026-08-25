@@ -1,0 +1,857 @@
+[
+  {
+    "key": "70bf89c4-8dc6-4232-8318-355feaf34e07",
+    "rule": "typescript:S7785",
+    "severity": "MAJOR",
+    "component": "ikethecoder__quickstart-aps-hello:temp_repos/quickstart-aps-hello/backend/src/main.ts",
+    "project": "ikethecoder__quickstart-aps-hello",
+    "line": 9,
+    "hash": "ba228c3fcd4fbb77c5eca0e329988e23",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 3,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over using a promise chain.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-07-15T21:28:09+0000",
+    "updateDate": "2026-07-15T21:28:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d839577b-846c-4806-bb53-f8e7005efb89",
+    "rule": "typescript:S1854",
+    "severity": "MAJOR",
+    "component": "ikethecoder__quickstart-aps-hello:temp_repos/quickstart-aps-hello/backend/src/middleware/req.res.logger.spec.ts",
+    "project": "ikethecoder__quickstart-aps-hello",
+    "line": 16,
+    "hash": "df859cb4172821459b431324474530a2",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 4,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this useless assignment to variable \"logger\".",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-15T21:28:09+0000",
+    "updateDate": "2026-07-15T21:28:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d15a746b-59fa-430f-b0a2-841dbbd83634",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "ikethecoder__quickstart-aps-hello:temp_repos/quickstart-aps-hello/backend/src/middleware/req.res.logger.ts",
+    "project": "ikethecoder__quickstart-aps-hello",
+    "line": 6,
+    "hash": "bb7df690f256f6e8556eadea37e37a5b",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 2,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'logger' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T21:28:09+0000",
+    "updateDate": "2026-07-15T21:28:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "64a24a36-a9a4-4584-814b-082760c35e44",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "ikethecoder__quickstart-aps-hello:temp_repos/quickstart-aps-hello/backend/src/users/users.controller.ts",
+    "project": "ikethecoder__quickstart-aps-hello",
+    "line": 39,
+    "hash": "61c92119ed1c4115dc99263abb1fa2f0",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 39,
+      "startOffset": 8,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.isNaN` over `isNaN`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-15T21:28:09+0000",
+    "updateDate": "2026-07-15T21:28:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ccd4bb9e-b644-4a0b-9a42-add4a15eaad6",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "ikethecoder__quickstart-aps-hello:temp_repos/quickstart-aps-hello/backend/src/users/users.controller.ts",
+    "project": "ikethecoder__quickstart-aps-hello",
+    "line": 39,
+    "hash": "61c92119ed1c4115dc99263abb1fa2f0",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 39,
+      "startOffset": 23,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.isNaN` over `isNaN`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-15T21:28:09+0000",
+    "updateDate": "2026-07-15T21:28:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "88487eac-3899-483d-8828-7c28c5545be7",
+    "rule": "typescript:S1854",
+    "severity": "MAJOR",
+    "component": "ikethecoder__quickstart-aps-hello:temp_repos/quickstart-aps-hello/backend/src/users/users.service.spec.ts",
+    "project": "ikethecoder__quickstart-aps-hello",
+    "line": 43,
+    "hash": "4fcaeeb16552e7c28f4d3807854c74bc",
+    "textRange": {
+      "startLine": 43,
+      "endLine": 43,
+      "startOffset": 8,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this useless assignment to variable \"threeUser\".",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-15T21:28:09+0000",
+    "updateDate": "2026-07-15T21:28:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8c9dbe84-2485-400c-89cb-e6a6351f5415",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "ikethecoder__quickstart-aps-hello:temp_repos/quickstart-aps-hello/backend/src/users/users.service.ts",
+    "project": "ikethecoder__quickstart-aps-hello",
+    "line": 12,
+    "hash": "aabb2b4552ad07899216b87adc4bac4d",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 4,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'prisma: PrismaService' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T21:28:09+0000",
+    "updateDate": "2026-07-15T21:28:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f1c4ac6d-adcd-4bb6-aa15-8b127478bb26",
+    "rule": "typescript:S2486",
+    "severity": "MINOR",
+    "component": "ikethecoder__quickstart-aps-hello:temp_repos/quickstart-aps-hello/backend/src/users/users.service.ts",
+    "project": "ikethecoder__quickstart-aps-hello",
+    "line": 102,
+    "hash": "550051ee6b000602ffe414172dfff76d",
+    "textRange": {
+      "startLine": 102,
+      "endLine": 104,
+      "startOffset": 6,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-15T21:28:09+0000",
+    "updateDate": "2026-07-15T21:28:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1adaf9fa-c3cb-4997-81bd-7c0849f4b45c",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "ikethecoder__quickstart-aps-hello:temp_repos/quickstart-aps-hello/backend/src/users/users.service.ts",
+    "project": "ikethecoder__quickstart-aps-hello",
+    "line": 107,
+    "hash": "637f628f5221fcc40e8edfa38699252b",
+    "textRange": {
+      "startLine": 107,
+      "endLine": 107,
+      "startOffset": 12,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-15T21:28:09+0000",
+    "updateDate": "2026-07-15T21:28:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0603ce92-6846-443f-8116-206517c4ff5c",
+    "rule": "kubernetes:S6893",
+    "severity": "MAJOR",
+    "component": "ikethecoder__quickstart-aps-hello:temp_repos/quickstart-aps-hello/charts/quickstart-openshift/templates/knp.yaml",
+    "project": "ikethecoder__quickstart-aps-hello",
+    "line": 28,
+    "hash": "a487c8ae43eac201c4dbbce8de5ae453",
+    "textRange": {
+      "startLine": 28,
+      "endLine": 28,
+      "startOffset": 61,
+      "endOffset": 63
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a whitespace before \"}}\" in the template directive.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T21:28:09+0000",
+    "updateDate": "2026-07-15T21:28:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FORMATTED",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1fe4fdb5-4c8c-4016-8852-c39a3330ceee",
+    "rule": "kubernetes:S6893",
+    "severity": "MAJOR",
+    "component": "ikethecoder__quickstart-aps-hello:temp_repos/quickstart-aps-hello/charts/quickstart-openshift/templates/secret.yaml",
+    "project": "ikethecoder__quickstart-aps-hello",
+    "line": 1,
+    "hash": "c810d043b41f6f595c554f57e20e32a0",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 64,
+      "endOffset": 66
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a whitespace before \"}}\" in the template directive.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T21:28:09+0000",
+    "updateDate": "2026-07-15T21:28:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FORMATTED",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c4905826-7fbd-485b-970f-6b96e78e6813",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "ikethecoder__quickstart-aps-hello:temp_repos/quickstart-aps-hello/frontend/vite.config.ts",
+    "project": "ikethecoder__quickstart-aps-hello",
+    "line": 9,
+    "hash": "89b8f5f2d497d5986478b215df29dcb9",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 10,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-15T21:28:09+0000",
+    "updateDate": "2026-07-15T21:28:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8023a219-a7cf-4798-b5c8-43688b0da4d3",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "ikethecoder__quickstart-aps-hello:temp_repos/quickstart-aps-hello/integration-tests/src/main.js",
+    "project": "ikethecoder__quickstart-aps-hello",
+    "line": 3,
+    "hash": "236006d04f1286ddfd1dd6bf864eade4",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 20,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-15T21:28:09+0000",
+    "updateDate": "2026-07-15T21:28:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8bcbaed2-af07-43ed-8b7f-f53fa51273f3",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "ikethecoder__quickstart-aps-hello:temp_repos/quickstart-aps-hello/integration-tests/src/main.js",
+    "project": "ikethecoder__quickstart-aps-hello",
+    "line": 4,
+    "hash": "5efdc1a9a3afb59706e3344c25d63baf",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 22,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-15T21:28:09+0000",
+    "updateDate": "2026-07-15T21:28:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "87f55994-f95a-4ddd-9294-b211986f1ecc",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "ikethecoder__quickstart-aps-hello:temp_repos/quickstart-aps-hello/integration-tests/src/main.js",
+    "project": "ikethecoder__quickstart-aps-hello",
+    "line": 5,
+    "hash": "837a04de7967ff0613ba16d37ceea8c2",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 30,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:url` over `url`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-15T21:28:09+0000",
+    "updateDate": "2026-07-15T21:28:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5303d1f7-2550-4add-82b4-711d509105d7",
+    "rule": "javascript:S6861",
+    "severity": "CRITICAL",
+    "component": "ikethecoder__quickstart-aps-hello:temp_repos/quickstart-aps-hello/load-test/backend-test.js",
+    "project": "ikethecoder__quickstart-aps-hello",
+    "line": 6,
+    "hash": "e5e4f3e941b7a21bf08197ab86fb243c",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 7,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Exporting mutable 'let' binding, use 'const' instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "architecture"
+    ],
+    "creationDate": "2026-07-15T21:28:09+0000",
+    "updateDate": "2026-07-15T21:28:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0e8ada99-cd36-4a12-a404-9848400cc026",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "ikethecoder__quickstart-aps-hello:temp_repos/quickstart-aps-hello/load-test/backend-test.js",
+    "project": "ikethecoder__quickstart-aps-hello",
+    "line": 24,
+    "hash": "765afcbe030fce54e3aa9d116bc28792",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 15,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-15T21:28:09+0000",
+    "updateDate": "2026-07-15T21:28:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3d7d9621-665d-4d38-91b6-871a2f0e70d2",
+    "rule": "javascript:S6861",
+    "severity": "CRITICAL",
+    "component": "ikethecoder__quickstart-aps-hello:temp_repos/quickstart-aps-hello/load-test/frontend-test.js",
+    "project": "ikethecoder__quickstart-aps-hello",
+    "line": 6,
+    "hash": "e5e4f3e941b7a21bf08197ab86fb243c",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 7,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Exporting mutable 'let' binding, use 'const' instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "architecture"
+    ],
+    "creationDate": "2026-07-15T21:28:09+0000",
+    "updateDate": "2026-07-15T21:28:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3a330920-b986-494c-ae09-bcd75ca247f0",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "ikethecoder__quickstart-aps-hello:temp_repos/quickstart-aps-hello/load-test/frontend-test.js",
+    "project": "ikethecoder__quickstart-aps-hello",
+    "line": 24,
+    "hash": "765afcbe030fce54e3aa9d116bc28792",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 15,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-15T21:28:09+0000",
+    "updateDate": "2026-07-15T21:28:09+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

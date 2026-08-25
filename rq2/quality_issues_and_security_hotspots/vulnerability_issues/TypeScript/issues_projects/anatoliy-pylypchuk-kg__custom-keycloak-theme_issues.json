@@ -1,0 +1,307 @@
+[
+  {
+    "key": "22335223-4330-473a-aa04-e47c10f11c19",
+    "rule": "typescript:S4335",
+    "severity": "CRITICAL",
+    "component": "anatoliy-pylypchuk-kg__custom-keycloak-theme:temp_repos/custom-keycloak-theme/src/login/KcContext.ts",
+    "project": "anatoliy-pylypchuk-kg__custom-keycloak-theme",
+    "line": 7,
+    "hash": "ebf2488d24b404908d81a608d9142f68",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 42,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this type without members or change this type intersection.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-16T01:12:15+0000",
+    "updateDate": "2026-07-16T01:12:15+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b6420ac5-8a5c-4cd4-a199-1ae6640ba31d",
+    "rule": "typescript:S1301",
+    "severity": "MINOR",
+    "component": "anatoliy-pylypchuk-kg__custom-keycloak-theme:temp_repos/custom-keycloak-theme/src/login/KcPage.tsx",
+    "project": "anatoliy-pylypchuk-kg__custom-keycloak-theme",
+    "line": 26,
+    "hash": "b58eeef5c3f3093a51da91abd1ac57bb",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this \"switch\" statement by \"if\" statements to increase readability.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-16T01:12:15+0000",
+    "updateDate": "2026-07-16T01:12:15+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "24b8b185-21b3-47a5-a965-534fce3c6e13",
+    "rule": "typescript:S7776",
+    "severity": "MINOR",
+    "component": "anatoliy-pylypchuk-kg__custom-keycloak-theme:temp_repos/custom-keycloak-theme/src/login/pages/Login.stories.tsx",
+    "project": "anatoliy-pylypchuk-kg__custom-keycloak-theme",
+    "line": 30,
+    "hash": "060e685647ec1db8f0e5c58c66335d02",
+    "textRange": {
+      "startLine": 30,
+      "endLine": 30,
+      "startOffset": 18,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "`fieldNames` should be a `Set`, and use `fieldNames.has()` to check existence or non-existence.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "optimization"
+    ],
+    "creationDate": "2026-07-16T01:12:15+0000",
+    "updateDate": "2026-07-16T01:12:15+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "027aa0a7-183c-4ef3-87ac-15c8ad53fd72",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "anatoliy-pylypchuk-kg__custom-keycloak-theme:temp_repos/custom-keycloak-theme/src/main.tsx",
+    "project": "anatoliy-pylypchuk-kg__custom-keycloak-theme",
+    "line": 7,
+    "hash": "523048e7f5ca9550505f2d8ea6d587e7",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 16,
+      "startOffset": 0,
+      "endOffset": 2
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:12:15+0000",
+    "updateDate": "2026-07-16T01:12:15+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "66458d24-2b6b-45f0-8894-bccd1ea4afaa",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "anatoliy-pylypchuk-kg__custom-keycloak-theme:temp_repos/custom-keycloak-theme/src/main.tsx",
+    "project": "anatoliy-pylypchuk-kg__custom-keycloak-theme",
+    "line": 20,
+    "hash": "450f68c936e5f2bac751c59721bb10f4",
+    "textRange": {
+      "startLine": 20,
+      "endLine": 20,
+      "startOffset": 6,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T01:12:15+0000",
+    "updateDate": "2026-07-16T01:12:15+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "940e0cef-dac6-4bbc-b30d-93cfa8e1f5f5",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "anatoliy-pylypchuk-kg__custom-keycloak-theme:temp_repos/custom-keycloak-theme/src/main.tsx",
+    "project": "anatoliy-pylypchuk-kg__custom-keycloak-theme",
+    "line": 20,
+    "hash": "450f68c936e5f2bac751c59721bb10f4",
+    "textRange": {
+      "startLine": 20,
+      "endLine": 20,
+      "startOffset": 5,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T01:12:15+0000",
+    "updateDate": "2026-07-16T01:12:15+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8ff2d0d2-ad75-4165-8825-5f7107bd5514",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "anatoliy-pylypchuk-kg__custom-keycloak-theme:temp_repos/custom-keycloak-theme/src/main.tsx",
+    "project": "anatoliy-pylypchuk-kg__custom-keycloak-theme",
+    "line": 23,
+    "hash": "cef7f1d8d316b232fa8d611fa3660384",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 25,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T01:12:15+0000",
+    "updateDate": "2026-07-16T01:12:15+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

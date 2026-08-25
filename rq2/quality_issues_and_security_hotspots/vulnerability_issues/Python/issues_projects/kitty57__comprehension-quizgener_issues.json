@@ -1,0 +1,106 @@
+[
+  {
+    "key": "e6f4595f-70af-48a2-92d6-e074b57501ba",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "kitty57__comprehension-quizgener:temp_repos/comprehension-quizGener/streamlit_app.py",
+    "project": "kitty57__comprehension-quizgener",
+    "line": 12,
+    "hash": "2c1a4757e855bfe596147f62c3eb0d2f",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 12,
+      "endOffset": 145
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T22:11:15+0000",
+    "updateDate": "2026-07-17T22:11:15+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "aee97dc6-1de3-453b-8df9-ee34e568f4ee",
+    "rule": "python:S5713",
+    "severity": "MINOR",
+    "component": "kitty57__comprehension-quizgener:temp_repos/comprehension-quizGener/streamlit_app.py",
+    "project": "kitty57__comprehension-quizgener",
+    "line": 77,
+    "hash": "3ece716d4e67cc4a168429d0fca39471",
+    "textRange": {
+      "startLine": 77,
+      "endLine": 77,
+      "startOffset": 20,
+      "endOffset": 36
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "kitty57__comprehension-quizgener:temp_repos/comprehension-quizGener/streamlit_app.py",
+            "textRange": {
+              "startLine": 77,
+              "endLine": 77,
+              "startOffset": 38,
+              "endOffset": 49
+            },
+            "msg": "Parent class.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Remove this redundant Exception class; it derives from another which is already caught.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "bad-practice",
+      "unused"
+    ],
+    "creationDate": "2026-07-17T22:11:15+0000",
+    "updateDate": "2026-07-17T22:11:15+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

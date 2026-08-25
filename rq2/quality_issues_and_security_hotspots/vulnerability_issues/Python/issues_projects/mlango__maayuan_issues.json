@@ -1,0 +1,76 @@
+[
+  {
+    "key": "7d4b11c8-b24f-49fa-b851-e04f6c575b63",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "mlango__maayuan:temp_repos/MaaYuan/install.py",
+    "project": "mlango__maayuan",
+    "line": 49,
+    "hash": "0ecbf22bec65fef3af0bd24ecb416d32",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 49,
+      "startOffset": 33,
+      "endOffset": 49
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "mlango__maayuan:temp_repos/MaaYuan/install.py",
+            "textRange": {
+              "startLine": 53,
+              "endLine": 53,
+              "startOffset": 29,
+              "endOffset": 45
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "mlango__maayuan:temp_repos/MaaYuan/install.py",
+            "textRange": {
+              "startLine": 58,
+              "endLine": 58,
+              "startOffset": 29,
+              "endOffset": 45
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"interface.json\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:53:45+0000",
+    "updateDate": "2026-07-17T20:53:45+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

@@ -1,0 +1,2444 @@
+[
+  {
+    "key": "42adb408-cc24-4442-b960-d743ef3a6a81",
+    "rule": "javascript:S125",
+    "severity": "MAJOR",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 59,
+    "hash": "f6e0765cfd9d70bfbbe22696ce15cf2b",
+    "textRange": {
+      "startLine": 59,
+      "endLine": 60,
+      "startOffset": 15,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a5c739d1-d351-47cf-8b1f-1949451278a2",
+    "rule": "javascript:S5842",
+    "severity": "MINOR",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 62,
+    "hash": "3dcd8598e4783a7e7c6f4a006444625e",
+    "textRange": {
+      "startLine": 62,
+      "endLine": 62,
+      "startOffset": 69,
+      "endOffset": 73
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rework this part of the regex to not match the empty string.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "261389df-59bb-426e-8d3a-47ff6b9692ad",
+    "rule": "javascript:S6671",
+    "severity": "MAJOR",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 111,
+    "hash": "4da5a203c35fa34d09cc454177b62073",
+    "textRange": {
+      "startLine": 111,
+      "endLine": 111,
+      "startOffset": 54,
+      "endOffset": 70
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Expected the Promise rejection reason to be an Error.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2b41e837-1aef-4ecd-b0fa-c6bbd80f5483",
+    "rule": "javascript:S3776",
+    "severity": "CRITICAL",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 135,
+    "hash": "29ce41d21e7188f2831d3bf8a808d21f",
+    "textRange": {
+      "startLine": 135,
+      "endLine": 135,
+      "startOffset": 15,
+      "endOffset": 30
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 136,
+              "endLine": 136,
+              "startOffset": 1,
+              "endOffset": 3
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 142,
+              "endLine": 142,
+              "startOffset": 1,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 146,
+              "endLine": 146,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 153,
+              "endLine": 153,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 155,
+              "endLine": 155,
+              "startOffset": 5,
+              "endOffset": 9
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 168,
+              "endLine": 168,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 174,
+              "endLine": 174,
+              "startOffset": 3,
+              "endOffset": 6
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 178,
+              "endLine": 178,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 178,
+              "endLine": 178,
+              "startOffset": 48,
+              "endOffset": 50
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 187,
+              "endLine": 187,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.",
+    "effort": "7min",
+    "debt": "7min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "97e1fc79-74c8-4e16-874f-77fbaccc3f22",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 178,
+    "hash": "d47defe42da93d89df39fb6cfaa2055f",
+    "textRange": {
+      "startLine": 178,
+      "endLine": 178,
+      "startOffset": 51,
+      "endOffset": 61
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4395dab5-5f55-4a8d-80f9-66d944f7108e",
+    "rule": "javascript:S7781",
+    "severity": "MINOR",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 197,
+    "hash": "6068a00419449a68c03cd25903599297",
+    "textRange": {
+      "startLine": 197,
+      "endLine": 197,
+      "startOffset": 51,
+      "endOffset": 58
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b09f598f-5c90-44fd-b663-00dc979e3573",
+    "rule": "javascript:S7781",
+    "severity": "MINOR",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 197,
+    "hash": "6068a00419449a68c03cd25903599297",
+    "textRange": {
+      "startLine": 197,
+      "endLine": 197,
+      "startOffset": 22,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dd7cbc0e-9326-42cc-8873-3c4d03b73984",
+    "rule": "javascript:S3504",
+    "severity": "CRITICAL",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 197,
+    "hash": "6068a00419449a68c03cd25903599297",
+    "textRange": {
+      "startLine": 197,
+      "endLine": 197,
+      "startOffset": 1,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected var, use let or const instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "58f5f472-e7ea-4a82-acb4-4b3b2b6504fc",
+    "rule": "javascript:S7771",
+    "severity": "MINOR",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 200,
+    "hash": "0c74fd01497f6f427ca0a99a6c171b61",
+    "textRange": {
+      "startLine": 200,
+      "endLine": 200,
+      "startOffset": 57,
+      "endOffset": 93
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer negative index over length minus index for `slice`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f61d7cb0-96e7-4a62-a684-9747a5648d7e",
+    "rule": "javascript:S125",
+    "severity": "MAJOR",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 202,
+    "hash": "0beb7b617a71478f8e1d3fc0882ad9e1",
+    "textRange": {
+      "startLine": 202,
+      "endLine": 202,
+      "startOffset": 1,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "288235de-101f-41ba-940c-02be905717d3",
+    "rule": "javascript:S3776",
+    "severity": "CRITICAL",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 239,
+    "hash": "6d1ef1152ff398e2a96830f5de0c00a5",
+    "textRange": {
+      "startLine": 239,
+      "endLine": 239,
+      "startOffset": 7,
+      "endOffset": 12
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 240,
+              "endLine": 240,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 249,
+              "endLine": 249,
+              "startOffset": 36,
+              "endOffset": 37
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 251,
+              "endLine": 251,
+              "startOffset": 48,
+              "endOffset": 49
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 257,
+              "endLine": 257,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 265,
+              "endLine": 265,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 266,
+              "endLine": 266,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 267,
+              "endLine": 267,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 268,
+              "endLine": 268,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 269,
+              "endLine": 269,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 283,
+              "endLine": 283,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 286,
+              "endLine": 286,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 324,
+              "endLine": 324,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 286,
+              "endLine": 286,
+              "startOffset": 25,
+              "endOffset": 27
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 288,
+              "endLine": 288,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 298,
+              "endLine": 298,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 300,
+              "endLine": 300,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 300,
+              "endLine": 300,
+              "startOffset": 23,
+              "endOffset": 25
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 301,
+              "endLine": 301,
+              "startOffset": 9,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 302,
+              "endLine": 302,
+              "startOffset": 9,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 307,
+              "endLine": 307,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 312,
+              "endLine": 312,
+              "startOffset": 5,
+              "endOffset": 7
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 319,
+              "endLine": 319,
+              "startOffset": 6,
+              "endOffset": 11
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 332,
+              "endLine": 332,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 341,
+              "endLine": 341,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 364,
+              "endLine": 364,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 366,
+              "endLine": 366,
+              "startOffset": 5,
+              "endOffset": 9
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 368,
+              "endLine": 368,
+              "startOffset": 27,
+              "endOffset": 28
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 373,
+              "endLine": 373,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 375,
+              "endLine": 375,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 375,
+              "endLine": 375,
+              "startOffset": 42,
+              "endOffset": 44
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 382,
+              "endLine": 382,
+              "startOffset": 9,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 382,
+              "endLine": 382,
+              "startOffset": 66,
+              "endOffset": 68
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 388,
+              "endLine": 388,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 402,
+              "endLine": 402,
+              "startOffset": 5,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 408,
+              "endLine": 408,
+              "startOffset": 9,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 434,
+              "endLine": 434,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 408,
+              "endLine": 408,
+              "startOffset": 104,
+              "endOffset": 106
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 414,
+              "endLine": 414,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 428,
+              "endLine": 428,
+              "startOffset": 5,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 435,
+              "endLine": 435,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 436,
+              "endLine": 436,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 440,
+              "endLine": 440,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+4 (incl. 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 451,
+              "endLine": 451,
+              "startOffset": 7,
+              "endOffset": 12
+            },
+            "msg": "+4 (incl. 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 468,
+              "endLine": 468,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 611,
+              "endLine": 611,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 616,
+              "endLine": 616,
+              "startOffset": 3,
+              "endOffset": 5
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 76 to the 15 allowed.",
+    "effort": "1h6min",
+    "debt": "1h6min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "873b3cde-e76e-4869-a6ba-015264471f14",
+    "rule": "javascript:S125",
+    "severity": "MAJOR",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 241,
+    "hash": "3d2689ba79218884fcb81b09d73b289f",
+    "textRange": {
+      "startLine": 241,
+      "endLine": 241,
+      "startOffset": 2,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "40932d74-ba72-481c-8457-5148db5a8969",
+    "rule": "javascript:S125",
+    "severity": "MAJOR",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 272,
+    "hash": "523048e7f5ca9550505f2d8ea6d587e7",
+    "textRange": {
+      "startLine": 272,
+      "endLine": 281,
+      "startOffset": 2,
+      "endOffset": 4
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0416cb64-cfbd-427e-a04f-c13afe7a0aec",
+    "rule": "javascript:S125",
+    "severity": "MAJOR",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 284,
+    "hash": "2691fe3e17628d8ab05dad56802172bd",
+    "textRange": {
+      "startLine": 284,
+      "endLine": 284,
+      "startOffset": 2,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "def625c2-14a8-4f3d-8305-4ac082bc4c3e",
+    "rule": "javascript:S7745",
+    "severity": "MINOR",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 286,
+    "hash": "c3fd02f4ea4a7055958894371400b8f5",
+    "textRange": {
+      "startLine": 286,
+      "endLine": 286,
+      "startOffset": 14,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The non-empty check is useless as `Array#some()` returns `false` for an empty array.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "51d58b9e-4cf3-41fc-8f67-ef4a175a27e8",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 319,
+    "hash": "161b8313784081f5965c2da97df48970",
+    "textRange": {
+      "startLine": 319,
+      "endLine": 321,
+      "startOffset": 6,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4766923a-55ea-4741-84fd-a8a211ad652b",
+    "rule": "javascript:S6557",
+    "severity": "MAJOR",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 368,
+    "hash": "63dacd80a999bbe4778c96c833debe57",
+    "textRange": {
+      "startLine": 368,
+      "endLine": 368,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use 'String#startsWith' method instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "11acf83a-c4de-4d64-bf27-47fa8f743e31",
+    "rule": "javascript:S7745",
+    "severity": "MINOR",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 375,
+    "hash": "2aa0c207942c8567d63d8f3e645e92b6",
+    "textRange": {
+      "startLine": 375,
+      "endLine": 375,
+      "startOffset": 209,
+      "endOffset": 219
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The non-empty check is useless as `Array#some()` returns `false` for an empty array.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "29cb3426-9b0a-44b7-a9a8-9079f9494611",
+    "rule": "javascript:S1125",
+    "severity": "MINOR",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 468,
+    "hash": "8501256bbcaaf27a047978d751be2258",
+    "textRange": {
+      "startLine": 468,
+      "endLine": 468,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Refactor the code to avoid using this boolean literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "clumsy"
+    ],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "86c45e9a-7a45-4e12-967d-f74fe8b5a866",
+    "rule": "javascript:S3776",
+    "severity": "CRITICAL",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 475,
+    "hash": "069555dd96f38919228145d922ea3197",
+    "textRange": {
+      "startLine": 475,
+      "endLine": 475,
+      "startOffset": 57,
+      "endOffset": 59
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 480,
+              "endLine": 480,
+              "startOffset": 5,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 500,
+              "endLine": 500,
+              "startOffset": 7,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 481,
+              "endLine": 481,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 481,
+              "endLine": 481,
+              "startOffset": 32,
+              "endOffset": 34
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 487,
+              "endLine": 487,
+              "startOffset": 13,
+              "endOffset": 15
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 491,
+              "endLine": 491,
+              "startOffset": 13,
+              "endOffset": 15
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 497,
+              "endLine": 497,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 508,
+              "endLine": 508,
+              "startOffset": 5,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 508,
+              "endLine": 508,
+              "startOffset": 39,
+              "endOffset": 41
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 515,
+              "endLine": 515,
+              "startOffset": 5,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 516,
+              "endLine": 516,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 522,
+              "endLine": 522,
+              "startOffset": 5,
+              "endOffset": 7
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 525,
+              "endLine": 525,
+              "startOffset": 7,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.",
+    "effort": "9min",
+    "debt": "9min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d2519c49-9aee-4062-a921-d6dda8bbb430",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 480,
+    "hash": "febdf111e7efc552aea11a0b3a2cb594",
+    "textRange": {
+      "startLine": 480,
+      "endLine": 480,
+      "startOffset": 9,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "aeefa2b6-8a7c-40a8-b536-694a0708ea3b",
+    "rule": "javascript:S125",
+    "severity": "MAJOR",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 506,
+    "hash": "17e2634a119574d8cb22b0044fdb5e86",
+    "textRange": {
+      "startLine": 506,
+      "endLine": 506,
+      "startOffset": 5,
+      "endOffset": 45
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "74f6f762-936d-433e-97b0-292499cf6d21",
+    "rule": "javascript:S4158",
+    "severity": "MINOR",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 515,
+    "hash": "d089fcfffdc666d78b68ea468ce051ee",
+    "textRange": {
+      "startLine": 515,
+      "endLine": 515,
+      "startOffset": 22,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Review this usage of \"CMproxyIPs\" as it can only be empty here.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "884cf704-3bee-4dc8-8b66-7415b0853ed0",
+    "rule": "javascript:S3776",
+    "severity": "CRITICAL",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 538,
+    "hash": "b42120d48096db7a5fe50eb63ba8bb37",
+    "textRange": {
+      "startLine": 538,
+      "endLine": 538,
+      "startOffset": 52,
+      "endOffset": 54
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 543,
+              "endLine": 543,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 563,
+              "endLine": 563,
+              "startOffset": 6,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 544,
+              "endLine": 544,
+              "startOffset": 5,
+              "endOffset": 7
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 544,
+              "endLine": 544,
+              "startOffset": 31,
+              "endOffset": 33
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 550,
+              "endLine": 550,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 554,
+              "endLine": 554,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 560,
+              "endLine": 560,
+              "startOffset": 5,
+              "endOffset": 7
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 571,
+              "endLine": 571,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 571,
+              "endLine": 571,
+              "startOffset": 38,
+              "endOffset": 40
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 578,
+              "endLine": 578,
+              "startOffset": 5,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 579,
+              "endLine": 579,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 585,
+              "endLine": 585,
+              "startOffset": 5,
+              "endOffset": 7
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 588,
+              "endLine": 588,
+              "startOffset": 7,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 598,
+              "endLine": 598,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+            "textRange": {
+              "startLine": 598,
+              "endLine": 598,
+              "startOffset": 18,
+              "endOffset": 20
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.",
+    "effort": "11min",
+    "debt": "11min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d79f8170-5d21-42f5-b55d-1ac15bf06487",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 543,
+    "hash": "febdf111e7efc552aea11a0b3a2cb594",
+    "textRange": {
+      "startLine": 543,
+      "endLine": 543,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "152b430f-6338-467b-88a6-e7022e7e704f",
+    "rule": "javascript:S125",
+    "severity": "MAJOR",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 569,
+    "hash": "17e2634a119574d8cb22b0044fdb5e86",
+    "textRange": {
+      "startLine": 569,
+      "endLine": 569,
+      "startOffset": 4,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f1b83c8f-9abc-4a8c-bf8b-7699aaa2e4cb",
+    "rule": "javascript:S4158",
+    "severity": "MINOR",
+    "component": "zmzhuai__cfedge:temp_repos/cfedge/_worker.js",
+    "project": "zmzhuai__cfedge",
+    "line": 578,
+    "hash": "d089fcfffdc666d78b68ea468ce051ee",
+    "textRange": {
+      "startLine": 578,
+      "endLine": 578,
+      "startOffset": 22,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Review this usage of \"CMproxyIPs\" as it can only be empty here.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T17:50:50+0000",
+    "updateDate": "2026-07-20T17:50:50+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

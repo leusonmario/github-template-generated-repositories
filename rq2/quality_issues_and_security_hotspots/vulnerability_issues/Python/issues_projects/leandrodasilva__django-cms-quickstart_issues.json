@@ -1,0 +1,479 @@
+[
+  {
+    "key": "2c79657d-a5b5-45b0-8b8f-9815ecc8d36e",
+    "rule": "docker:S7019",
+    "severity": "MAJOR",
+    "component": "leandrodasilva__django-cms-quickstart:temp_repos/django-cms-quickstart/Dockerfile",
+    "project": "leandrodasilva__django-cms-quickstart",
+    "line": 14,
+    "hash": "8e0ef5e6aa3822ba0d6917455e0b09b1",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 4,
+      "endOffset": 49
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this shell form with exec form.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:29:21+0000",
+    "updateDate": "2026-07-17T19:29:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f86eba9d-0f30-490e-9c8d-d73b7b2a5b78",
+    "rule": "Web:ItemTagNotWithinContainerTagCheck",
+    "severity": "MINOR",
+    "component": "leandrodasilva__django-cms-quickstart:temp_repos/django-cms-quickstart/backend/templates/menu/menu.html",
+    "project": "leandrodasilva__django-cms-quickstart",
+    "line": 3,
+    "hash": "9e20afaea19043d6f8994fdfbe3f196d",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 8,
+      "endOffset": 127
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Surround this <li> item tag by a <ul> or <ol> container one.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:29:21+0000",
+    "updateDate": "2026-07-17T19:29:21+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7cbb9f84-1b42-4cb6-b3a4-e1422559fd65",
+    "rule": "Web:S6819",
+    "severity": "MAJOR",
+    "component": "leandrodasilva__django-cms-quickstart:temp_repos/django-cms-quickstart/backend/templates/menu/menu.html",
+    "project": "leandrodasilva__django-cms-quickstart",
+    "line": 4,
+    "hash": "9db3f35aa1912fb79863cd39d1b29910",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 35,
+      "endOffset": 177
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <button> or <input> instead of the button role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T19:29:21+0000",
+    "updateDate": "2026-07-17T19:29:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f021d283-ec5c-4759-a51f-d45b48f52894",
+    "rule": "Web:MouseEventWithoutKeyboardEquivalentCheck",
+    "severity": "MINOR",
+    "component": "leandrodasilva__django-cms-quickstart:temp_repos/django-cms-quickstart/backend/templates/menu/menu.html",
+    "project": "leandrodasilva__django-cms-quickstart",
+    "line": 4,
+    "hash": "9db3f35aa1912fb79863cd39d1b29910",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 35,
+      "endOffset": 177
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a 'onKeyPress|onKeyDown|onKeyUp' attribute to this <a> tag.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility"
+    ],
+    "creationDate": "2026-07-17T19:29:21+0000",
+    "updateDate": "2026-07-17T19:29:21+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6eb1b866-5187-4729-b66e-7ad421f5feed",
+    "rule": "Web:S5254",
+    "severity": "MAJOR",
+    "component": "leandrodasilva__django-cms-quickstart:temp_repos/django-cms-quickstart/backend/templates/minimal.html",
+    "project": "leandrodasilva__django-cms-quickstart",
+    "line": 2,
+    "hash": "166248a6129a1e4370d20adc2d4c23f3",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"<html>\" element",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-17T19:29:21+0000",
+    "updateDate": "2026-07-17T19:29:21+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "987fba6f-7640-48a9-9acd-4ecf6126f12a",
+    "rule": "Web:DoctypePresenceCheck",
+    "severity": "MAJOR",
+    "component": "leandrodasilva__django-cms-quickstart:temp_repos/django-cms-quickstart/backend/templates/minimal.html",
+    "project": "leandrodasilva__django-cms-quickstart",
+    "line": 2,
+    "hash": "166248a6129a1e4370d20adc2d4c23f3",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Insert a <!DOCTYPE> declaration to before this <html> tag.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "user-experience"
+    ],
+    "creationDate": "2026-07-17T19:29:21+0000",
+    "updateDate": "2026-07-17T19:29:21+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "620a3a78-7295-47e5-bcf8-e4a9c15675bb",
+    "rule": "Web:S5254",
+    "severity": "MAJOR",
+    "component": "leandrodasilva__django-cms-quickstart:temp_repos/django-cms-quickstart/backend/templates/whitenoise-static-files-demo.html",
+    "project": "leandrodasilva__django-cms-quickstart",
+    "line": 2,
+    "hash": "166248a6129a1e4370d20adc2d4c23f3",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"<html>\" element",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-17T19:29:21+0000",
+    "updateDate": "2026-07-17T19:29:21+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "63ef66c3-3dea-40c5-8ecd-5589c9d60707",
+    "rule": "Web:DoctypePresenceCheck",
+    "severity": "MAJOR",
+    "component": "leandrodasilva__django-cms-quickstart:temp_repos/django-cms-quickstart/backend/templates/whitenoise-static-files-demo.html",
+    "project": "leandrodasilva__django-cms-quickstart",
+    "line": 2,
+    "hash": "166248a6129a1e4370d20adc2d4c23f3",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Insert a <!DOCTYPE> declaration to before this <html> tag.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "user-experience"
+    ],
+    "creationDate": "2026-07-17T19:29:21+0000",
+    "updateDate": "2026-07-17T19:29:21+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "922f2a91-e3b8-4b77-acca-926e3dc17e15",
+    "rule": "Web:ImgWithoutAltCheck",
+    "severity": "MINOR",
+    "component": "leandrodasilva__django-cms-quickstart:temp_repos/django-cms-quickstart/backend/templates/whitenoise-static-files-demo.html",
+    "project": "leandrodasilva__django-cms-quickstart",
+    "line": 10,
+    "hash": "42d5fbdba444df3d4096d2bbdf3255c9",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 8,
+      "endOffset": 57
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add an \"alt\" attribute to this image.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-17T19:29:21+0000",
+    "updateDate": "2026-07-17T19:29:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0e04a190-a884-4934-b568-f7faad26a3d0",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "leandrodasilva__django-cms-quickstart:temp_repos/django-cms-quickstart/form_app/cms_plugins.py",
+    "project": "leandrodasilva__django-cms-quickstart",
+    "line": 28,
+    "hash": "a76a26daec07fa1acbc9c28475fca49f",
+    "textRange": {
+      "startLine": 28,
+      "endLine": 28,
+      "startOffset": 4,
+      "endOffset": 95
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:29:21+0000",
+    "updateDate": "2026-07-17T19:29:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "db3d575e-04b3-4d69-a9eb-dc72a58dc89c",
+    "rule": "javascript:S3504",
+    "severity": "CRITICAL",
+    "component": "leandrodasilva__django-cms-quickstart:temp_repos/django-cms-quickstart/form_app/static/form_app/js/hello.js",
+    "project": "leandrodasilva__django-cms-quickstart",
+    "line": 4,
+    "hash": "c355b2196f671db3d86cd1c40680008b",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 4,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected var, use let or const instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-17T19:29:21+0000",
+    "updateDate": "2026-07-17T19:29:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

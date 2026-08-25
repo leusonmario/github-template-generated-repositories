@@ -1,0 +1,3556 @@
+[
+  {
+    "key": "62b8bdf0-64e2-447c-951c-90be34a2d8ed",
+    "rule": "javascript:S3504",
+    "severity": "CRITICAL",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/functions/currency.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 9,
+    "hash": "cf7b55230fb1567bfd811095629bc1e6",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 2,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected var, use let or const instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "764745d8-cf92-4d6f-ab70-b19b866bdbdf",
+    "rule": "javascript:S7764",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/App.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 41,
+    "hash": "2a3b9c75bba7b94ef39f9e751688f33b",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 41,
+      "startOffset": 4,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "478aabd0-179e-4bce-979d-c95bd9d81009",
+    "rule": "javascript:S7764",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/App.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 54,
+    "hash": "25c9ab1b7c6d8d34ed323ffb9869aa4c",
+    "textRange": {
+      "startLine": 54,
+      "endLine": 54,
+      "startOffset": 6,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "68ca553e-287f-49ae-8482-be656b525a07",
+    "rule": "javascript:S7776",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/GAS.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 3,
+    "hash": "a28ddac3af63aaf338cfdb0d75f37308",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 6,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "`mutatingFunctions` should be a `Set`, and use `mutatingFunctions.has()` to check existence or non-existence.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "optimization"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2e62a621-2bad-4069-aa08-4d2380f6e447",
+    "rule": "javascript:S6582",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/GAS.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 13,
+    "hash": "2abf776e9dbf31ec36277f5e1f51a8fb",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 41,
+      "endOffset": 75
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "516121a3-5801-4dd9-8247-70efbd1d41d6",
+    "rule": "javascript:S6479",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/Dashboard.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 96,
+    "hash": "446abb4a72a263af4205f9bb77c2f873",
+    "textRange": {
+      "startLine": 96,
+      "endLine": 96,
+      "startOffset": 24,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4f1527ac-dd66-414a-ad6d-ff0dab438d78",
+    "rule": "javascript:S6479",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/Dashboard.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 124,
+    "hash": "17a0763dc91ec80bc0a985d0364e3af4",
+    "textRange": {
+      "startLine": 124,
+      "endLine": 124,
+      "startOffset": 26,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7425d472-d6ae-4c5d-98a9-5bfa07c949d5",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/DonationForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 17,
+    "hash": "1fff0c1e9e6de7a68aef214f84774bb6",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 17,
+      "startOffset": 31,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c9be336c-e698-4e02-88b8-905e1a4054cb",
+    "rule": "javascript:S6582",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/DonationForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 26,
+    "hash": "6fa43d9e9967788b78e2ddd1279fc3de",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 14,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f2c12897-f0de-4c33-85ed-de801674fda4",
+    "rule": "javascript:S1874",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/DonationForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 106,
+    "hash": "74482c43963e1f1625f6e137e73daa49",
+    "textRange": {
+      "startLine": 106,
+      "endLine": 106,
+      "startOffset": 17,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The signature '(...text: string[]): void' of 'win.document.write' is deprecated.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "type-dependent",
+      "obsolete"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f9e599d0-d0b1-44eb-b8c6-9e01b1001b0c",
+    "rule": "javascript:S6853",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/DonationForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 148,
+    "hash": "fcc7a1d28b3b01b2f04bc247f55f85dc",
+    "textRange": {
+      "startLine": 148,
+      "endLine": 148,
+      "startOffset": 13,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A form label must be associated with a control.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "336a7b8a-c41e-46eb-bb64-8931d896aa68",
+    "rule": "javascript:S6853",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/DonationForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 176,
+    "hash": "359a737fed9c177e4b8a45d0260ef24f",
+    "textRange": {
+      "startLine": 176,
+      "endLine": 176,
+      "startOffset": 11,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A form label must be associated with a control.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3cbd927f-26e6-4361-9ae0-312abceda596",
+    "rule": "javascript:S6853",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/DonationForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 190,
+    "hash": "c98dff4e1afcad6cf5f5078bab5fd9e4",
+    "textRange": {
+      "startLine": 190,
+      "endLine": 190,
+      "startOffset": 13,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A form label must be associated with a control.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "72a000c2-7a43-4cac-a846-0e7857035334",
+    "rule": "javascript:S6853",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/DonationForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 210,
+    "hash": "a86e9f0260bf51b67f67bd2ee148021f",
+    "textRange": {
+      "startLine": 210,
+      "endLine": 210,
+      "startOffset": 13,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A form label must be associated with a control.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "907c6b99-9bb3-44c0-8fbc-a2c8b9960a62",
+    "rule": "javascript:S6853",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/DonationForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 223,
+    "hash": "6d7af6277c6103bd6d6aae78fa8b21ed",
+    "textRange": {
+      "startLine": 223,
+      "endLine": 223,
+      "startOffset": 11,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A form label must be associated with a control.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3bd833fb-3844-45ea-bfe5-4590787a8d5d",
+    "rule": "javascript:S6853",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/DonationForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 240,
+    "hash": "0d72466b0797ca2ce8bef6e83486881a",
+    "textRange": {
+      "startLine": 240,
+      "endLine": 240,
+      "startOffset": 13,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A form label must be associated with a control.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ec00fde8-c883-4284-9f79-f2fc6622526c",
+    "rule": "javascript:S6853",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/DonationForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 252,
+    "hash": "5021efddf6deb9748ae2ac9aa69bace4",
+    "textRange": {
+      "startLine": 252,
+      "endLine": 252,
+      "startOffset": 13,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A form label must be associated with a control.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2f56dd65-5073-4c48-bc25-97a4ba8585aa",
+    "rule": "javascript:S1128",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/FoodPassForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 1,
+    "hash": "44e003d3b8a7d68ef8992c83a89ba53d",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 19,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'useEffect'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "caf0d477-6346-4653-96b3-3b24bd87aaf7",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/FoodPassForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 9,
+    "hash": "b607b65b79110af519293f91f77ed6b9",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 49,
+      "endOffset": 57
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0167086e-822b-48ad-972c-b4a533872d1e",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/FoodPassForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 12,
+    "hash": "c7455c66b9af9bcbcd4ec0584f4003c7",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 53,
+      "endOffset": 61
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9a661f63-5b57-46da-9b1b-8fcaf214a5c7",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/FoodPassForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 13,
+    "hash": "8d44194e3c5f27d4b8e7e9df3f94aff8",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 65,
+      "endOffset": 73
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2954329b-2701-478b-9c5c-0c600a8d4d1e",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/FoodPassForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 17,
+    "hash": "465f84902264ed64c40ea78157b67f0c",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 17,
+      "startOffset": 33,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "42438519-6aaa-4cb7-98ee-b32d44bfea9c",
+    "rule": "javascript:S1874",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/FoodPassForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 56,
+    "hash": "74482c43963e1f1625f6e137e73daa49",
+    "textRange": {
+      "startLine": 56,
+      "endLine": 56,
+      "startOffset": 17,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The signature '(...text: string[]): void' of 'win.document.write' is deprecated.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "type-dependent",
+      "obsolete"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9462acc4-8e85-44fa-9839-69c2aa080981",
+    "rule": "javascript:S6853",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/FoodPassForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 87,
+    "hash": "5c72e98a79e958d59e14da08ed1e81d9",
+    "textRange": {
+      "startLine": 87,
+      "endLine": 87,
+      "startOffset": 11,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A form label must be associated with a control.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "823faef7-7c20-42f9-a1cd-25ed939b5387",
+    "rule": "javascript:S6853",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/FoodPassForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 119,
+    "hash": "e0f5a24700b0eba5f7887a46d7cba0ad",
+    "textRange": {
+      "startLine": 119,
+      "endLine": 119,
+      "startOffset": 11,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A form label must be associated with a control.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d45ebfb1-b3e7-4204-a2fa-65c824677c91",
+    "rule": "javascript:S1874",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/GatePassForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 65,
+    "hash": "74482c43963e1f1625f6e137e73daa49",
+    "textRange": {
+      "startLine": 65,
+      "endLine": 65,
+      "startOffset": 17,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The signature '(...text: string[]): void' of 'win.document.write' is deprecated.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "type-dependent",
+      "obsolete"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "26ec837b-824d-48d8-8007-a6105d44e894",
+    "rule": "javascript:S6853",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/GatePassForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 98,
+    "hash": "9a00b0d742ebeeb26ca70148e32901d3",
+    "textRange": {
+      "startLine": 98,
+      "endLine": 98,
+      "startOffset": 11,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A form label must be associated with a control.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2f7977d4-0aae-4b65-9595-4311dd88b8ea",
+    "rule": "javascript:S6853",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/GatePassForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 109,
+    "hash": "5804942ed97f7328ac06bc8f830c6ec6",
+    "textRange": {
+      "startLine": 109,
+      "endLine": 109,
+      "startOffset": 11,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A form label must be associated with a control.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f033feef-b8f7-402a-8cca-b053b5d06481",
+    "rule": "javascript:S6853",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/GatePassForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 122,
+    "hash": "36a87be1e12647adfd5e80a7319c09bb",
+    "textRange": {
+      "startLine": 122,
+      "endLine": 122,
+      "startOffset": 13,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A form label must be associated with a control.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c609865f-9896-49bd-927c-8edd6bf975db",
+    "rule": "javascript:S6853",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/GatePassForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 133,
+    "hash": "f5ed466a8bf901bc400aabed36928ab3",
+    "textRange": {
+      "startLine": 133,
+      "endLine": 133,
+      "startOffset": 13,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A form label must be associated with a control.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "93cf144a-04f6-43e7-982b-364b088073c7",
+    "rule": "javascript:S6853",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/GatePassForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 146,
+    "hash": "f998b636d6436b9f4139ddea203d26a2",
+    "textRange": {
+      "startLine": 146,
+      "endLine": 146,
+      "startOffset": 11,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A form label must be associated with a control.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8eda2265-6a87-4eed-89da-fd1121fe90c0",
+    "rule": "javascript:S6774",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/VoucherForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 4,
+    "hash": "eb7c0174184a2c123d09006cf96ed8a2",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 23,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'onVoucherAdded' is missing in props validation",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8adbe9ee-56c5-48a5-b938-a8243f33ddd8",
+    "rule": "javascript:S6853",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/VoucherForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 61,
+    "hash": "e8c8cdfa9b1555042b9848952a92b2cb",
+    "textRange": {
+      "startLine": 61,
+      "endLine": 61,
+      "startOffset": 13,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A form label must be associated with a control.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "48d5f252-853a-4419-9153-9a059d6da86c",
+    "rule": "javascript:S6853",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/VoucherForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 73,
+    "hash": "5fd9c61e2aa575e5db453440cb821e5a",
+    "textRange": {
+      "startLine": 73,
+      "endLine": 73,
+      "startOffset": 13,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A form label must be associated with a control.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "53b83e56-8b4f-4111-b5ac-13b652f584f5",
+    "rule": "javascript:S6853",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/VoucherForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 87,
+    "hash": "edb3d5a97a916b896c4309eabe8ea5d8",
+    "textRange": {
+      "startLine": 87,
+      "endLine": 87,
+      "startOffset": 13,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A form label must be associated with a control.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7287f233-edf4-419c-b5aa-0c9eb01421d6",
+    "rule": "javascript:S6853",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/VoucherForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 100,
+    "hash": "85e47f4ed079df5327472f5e5bb232bf",
+    "textRange": {
+      "startLine": 100,
+      "endLine": 100,
+      "startOffset": 13,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A form label must be associated with a control.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c67ad176-218c-4bfd-91da-52f5b21ad707",
+    "rule": "javascript:S6853",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/VoucherForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 126,
+    "hash": "d1067537c58ee70a4abd7331d1e69e10",
+    "textRange": {
+      "startLine": 126,
+      "endLine": 126,
+      "startOffset": 13,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A form label must be associated with a control.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7c2b498a-419d-46ed-b5b0-18da2472de01",
+    "rule": "javascript:S6853",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/VoucherForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 139,
+    "hash": "5804942ed97f7328ac06bc8f830c6ec6",
+    "textRange": {
+      "startLine": 139,
+      "endLine": 139,
+      "startOffset": 13,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A form label must be associated with a control.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b4859b13-088e-41fa-98a0-4759222b67b2",
+    "rule": "javascript:S6853",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/VoucherForm.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 152,
+    "hash": "ac6bba98bea3187f2956b36da6c27b0e",
+    "textRange": {
+      "startLine": 152,
+      "endLine": 152,
+      "startOffset": 13,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A form label must be associated with a control.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a893f1f4-e412-4003-a288-ccb0ce2d5abe",
+    "rule": "javascript:S6774",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/VoucherList.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 4,
+    "hash": "815becab594bc156717eff4bdbe2ba40",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 23,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'refreshTrigger' is missing in props validation",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "187e7bd4-7ef1-43b3-b17a-2c5250c3ea7b",
+    "rule": "javascript:S1874",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/components/VoucherList.jsx",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 49,
+    "hash": "74482c43963e1f1625f6e137e73daa49",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 49,
+      "startOffset": 17,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The signature '(...text: string[]): void' of 'win.document.write' is deprecated.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "type-dependent",
+      "obsolete"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1f14960b-e635-4c8f-9711-2b974bf89fb9",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/utils/offlineSync.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 9,
+    "hash": "550051ee6b000602ffe414172dfff76d",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 11,
+      "startOffset": 4,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a16aab97-30b8-44ec-9adb-a2f646bee693",
+    "rule": "javascript:S1874",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/utils/offlineSync.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 21,
+    "hash": "b6408dfacdb6d157d63e3a70b244eb39",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 52,
+      "endOffset": 58
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'(from: number, length?: number): string' is deprecated.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "type-dependent",
+      "obsolete"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0e82b2a9-d5dd-497f-9019-c4d5640c2802",
+    "rule": "javascript:S3776",
+    "severity": "CRITICAL",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/utils/offlineSync.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 35,
+    "hash": "e4499152bf23bbcc0b0eccc966010505",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 40,
+      "endOffset": 42
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/utils/offlineSync.js",
+            "textRange": {
+              "startLine": 38,
+              "endLine": 38,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/utils/offlineSync.js",
+            "textRange": {
+              "startLine": 38,
+              "endLine": 38,
+              "startOffset": 11,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/utils/offlineSync.js",
+            "textRange": {
+              "startLine": 45,
+              "endLine": 45,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/utils/offlineSync.js",
+            "textRange": {
+              "startLine": 51,
+              "endLine": 51,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/utils/offlineSync.js",
+            "textRange": {
+              "startLine": 52,
+              "endLine": 52,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/utils/offlineSync.js",
+            "textRange": {
+              "startLine": 57,
+              "endLine": 57,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/utils/offlineSync.js",
+            "textRange": {
+              "startLine": 64,
+              "endLine": 64,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/utils/offlineSync.js",
+            "textRange": {
+              "startLine": 67,
+              "endLine": 67,
+              "startOffset": 10,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/utils/offlineSync.js",
+            "textRange": {
+              "startLine": 64,
+              "endLine": 64,
+              "startOffset": 21,
+              "endOffset": 23
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/utils/offlineSync.js",
+            "textRange": {
+              "startLine": 70,
+              "endLine": 70,
+              "startOffset": 8,
+              "endOffset": 13
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/utils/offlineSync.js",
+            "textRange": {
+              "startLine": 75,
+              "endLine": 75,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.",
+    "effort": "7min",
+    "debt": "7min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5516cdda-96fb-42f1-8eef-2532a958202b",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/utils/offlineSync.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 38,
+    "hash": "d355e479fb58f22be982299dbc504453",
+    "textRange": {
+      "startLine": 38,
+      "endLine": 38,
+      "startOffset": 27,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "53dc3cc2-3160-4be5-92be-490b3eb46a84",
+    "rule": "javascript:S6582",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/client/utils/offlineSync.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 64,
+    "hash": "eb622d923538c9ac252fd9df8cab9d9b",
+    "textRange": {
+      "startLine": 64,
+      "endLine": 64,
+      "startOffset": 12,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "13c6b4f0-76a1-4a3a-9c25-dd0dbb7d11a5",
+    "rule": "javascript:S7763",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/index.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 10,
+    "hash": "ece7666dbba2e9cac3c0913be4749cfc",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 88,
+      "endOffset": 99
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `export…from` to re-export `addDonation`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "45f79416-ed60-4c70-ba45-f6511ffa436a",
+    "rule": "javascript:S7763",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/index.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 10,
+    "hash": "ece7666dbba2e9cac3c0913be4749cfc",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 16,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `export…from` to re-export `getGmailAliases`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "585a7d8a-c75c-4898-8957-515cae2b2bf6",
+    "rule": "javascript:S7763",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/index.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 10,
+    "hash": "ece7666dbba2e9cac3c0913be4749cfc",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 118,
+      "endOffset": 129
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `export…from` to re-export `addGatePass`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "64c3a5e7-ba47-4a2d-b772-46d59c9cb608",
+    "rule": "javascript:S7763",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/index.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 10,
+    "hash": "ece7666dbba2e9cac3c0913be4749cfc",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 50,
+      "endOffset": 61
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `export…from` to re-export `getVouchers`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6a12696f-383a-4a46-93c0-eae799543a3f",
+    "rule": "javascript:S7763",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/index.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 10,
+    "hash": "ece7666dbba2e9cac3c0913be4749cfc",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 75,
+      "endOffset": 86
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `export…from` to re-export `addFoodPass`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "899c42ad-f124-4795-b530-6b93f6e581e5",
+    "rule": "javascript:S7763",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/index.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 10,
+    "hash": "ece7666dbba2e9cac3c0913be4749cfc",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 33,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `export…from` to re-export `makeQueryString`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9da62577-893e-4ea6-bef7-cf6c061fa098",
+    "rule": "javascript:S7763",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/index.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 10,
+    "hash": "ece7666dbba2e9cac3c0913be4749cfc",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 101,
+      "endOffset": 116
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `export…from` to re-export `getDonorDetails`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9e8dba5f-28a1-4bd7-afee-b03f6c45365b",
+    "rule": "javascript:S7763",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/index.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 10,
+    "hash": "ece7666dbba2e9cac3c0913be4749cfc",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 131,
+      "endOffset": 145
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `export…from` to re-export `getDailyReport`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b543de26-6046-4505-aade-ce8d79035259",
+    "rule": "javascript:S7763",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/index.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 10,
+    "hash": "ece7666dbba2e9cac3c0913be4749cfc",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 9,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `export…from` to re-export `doGet`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bde9934c-b0bf-4cd0-bec7-8fa00638ed08",
+    "rule": "javascript:S7763",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/index.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 10,
+    "hash": "ece7666dbba2e9cac3c0913be4749cfc",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 63,
+      "endOffset": 73
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `export…from` to re-export `addVoucher`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b8b9342f-60c3-429c-8ba2-948722b04482",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/server/donation.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 22,
+    "hash": "7f73b73f5eda1e1effba7e1cadccce0c",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 17,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cb39e517-06e8-436f-a5c7-4b3165474478",
+    "rule": "javascript:S7718",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/server/gmail.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 8,
+    "hash": "571f1426b1da64e53f26eed7de89e03f",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 11,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The catch parameter `f` should be named `error_`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "920dfba5-9daa-42bc-a9c3-e922a0e34ca5",
+    "rule": "javascript:S6594",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/server/report.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 31,
+    "hash": "9ab18e93827da790a3a8ab6ec455cd74",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 14,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the \"RegExp.exec()\" method instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "regex",
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f0f1bf60-0514-4ec6-8086-556a7b73a359",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/server/report.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 33,
+    "hash": "75de5df22ae0c9bc295149afcf5e7e18",
+    "textRange": {
+      "startLine": 33,
+      "endLine": 33,
+      "startOffset": 16,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "eeb07413-250c-4633-8963-4cb502870d90",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/server/report.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 63,
+    "hash": "8f74d3db65bec75350f8396cbd4a566e",
+    "textRange": {
+      "startLine": 63,
+      "endLine": 63,
+      "startOffset": 16,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "50317d55-22d1-4577-8aa5-41e29b61d778",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/server/report.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 65,
+    "hash": "c72c481e9d488a6bf7ee08cd5472951d",
+    "textRange": {
+      "startLine": 65,
+      "endLine": 65,
+      "startOffset": 22,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9ad4c494-642e-4b86-ae82-4f616dc5ca55",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/server/report.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 66,
+    "hash": "53f6a4a12407afc79f5a1da6ab42a19a",
+    "textRange": {
+      "startLine": 66,
+      "endLine": 66,
+      "startOffset": 22,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6026c422-9699-420d-be42-3b064a2ba1fb",
+    "rule": "javascript:S4165",
+    "severity": "MAJOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/server/report.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 74,
+    "hash": "1eb947cd32867535d1678fc1a49a032a",
+    "textRange": {
+      "startLine": 74,
+      "endLine": 74,
+      "startOffset": 24,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Review this redundant assignment: \"finalType\" already holds the assigned value along all execution paths.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "redundant"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "daa676f1-02a6-401d-b856-ba9ca3486469",
+    "rule": "javascript:S7770",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/server/report.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 76,
+    "hash": "969181bb46fb96ba335c1f870ec66518",
+    "textRange": {
+      "startLine": 76,
+      "endLine": 76,
+      "startOffset": 38,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "arrow function is equivalent to `String`. Use `String` directly.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "unnecessary"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "72320a67-4ae1-489a-863e-7832cbd5bae1",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/server/report.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 78,
+    "hash": "c0dacb73290812c7e965c6dded1572b3",
+    "textRange": {
+      "startLine": 78,
+      "endLine": 78,
+      "startOffset": 27,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "aa760f4e-8be5-4231-9104-0513626e3d4f",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/server/report.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 103,
+    "hash": "37208fa2299b2da514486748792ae588",
+    "textRange": {
+      "startLine": 103,
+      "endLine": 103,
+      "startOffset": 16,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b2338129-a1de-49cf-b8eb-583da3bbafa6",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/server/report.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 123,
+    "hash": "98f5a23f60b213dc06fd638c5117b499",
+    "textRange": {
+      "startLine": 123,
+      "endLine": 123,
+      "startOffset": 16,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b8bd4a0b-1c3b-4658-9d44-05456be7c2f5",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/server/report.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 126,
+    "hash": "340e6d32151cff70211460ba8104c5e9",
+    "textRange": {
+      "startLine": 126,
+      "endLine": 126,
+      "startOffset": 14,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a1e1cca6-f742-4e47-a232-1ce6159aa0fe",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/server/report.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 127,
+    "hash": "cc09868c841af8b57239b5bdcd3145e1",
+    "textRange": {
+      "startLine": 127,
+      "endLine": 127,
+      "startOffset": 18,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d59e3c98-c3cc-482e-8cad-a9a583752295",
+    "rule": "javascript:S7781",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/server/report.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 127,
+    "hash": "cc09868c841af8b57239b5bdcd3145e1",
+    "textRange": {
+      "startLine": 127,
+      "endLine": 127,
+      "startOffset": 49,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "33a72259-7747-4f94-b9a1-6fdd84e385b3",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/server/voucher.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 11,
+    "hash": "ab795a105e12f35a8a1ee0a07b1f96c3",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 12,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "16420d68-c16b-4ddd-8286-1a984cbb828f",
+    "rule": "javascript:S7759",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/src/server/voucher.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 23,
+    "hash": "9e171cc31b4ba89e2343820407309a8d",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 24,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Date.now()` over `Date#getTime()`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "83812e76-efd6-45ae-bf82-39b4fd88948f",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/vite.client.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 3,
+    "hash": "cd6b88f029ce01b43bc7d19446b3b5d3",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 24,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a48a9099-36e4-4fa6-90a2-536c08a8bd05",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/vite.config.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 1,
+    "hash": "12589765cc36c6a305237d98573979ba",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 33,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f3d0ca45-189d-4130-95d2-81aff0b4a803",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "swaminarayan-gurukul__gurukul-account-manager:temp_repos/gurukul-account-manager/vite.config.js",
+    "project": "swaminarayan-gurukul__gurukul-account-manager",
+    "line": 2,
+    "hash": "a2399efb114d0a6fcb1790973e42ecd2",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 30,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:url` over `url`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-20T19:36:40+0000",
+    "updateDate": "2026-07-20T19:36:40+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

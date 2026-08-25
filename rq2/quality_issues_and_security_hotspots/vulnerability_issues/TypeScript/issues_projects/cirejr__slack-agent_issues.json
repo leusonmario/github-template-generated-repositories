@@ -1,0 +1,540 @@
+[
+  {
+    "key": "df28ea0e-13b7-460a-94c2-3cdf0a1ea101",
+    "rule": "typescript:S7785",
+    "severity": "MAJOR",
+    "component": "cirejr__slack-agent:temp_repos/slack-agent/scripts/configure.ts",
+    "project": "cirejr__slack-agent",
+    "line": 69,
+    "hash": "73377e1e0d1751a7f97a777ee007d8ff",
+    "textRange": {
+      "startLine": 69,
+      "endLine": 69,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over an async function `main` call.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-07-16T06:31:48+0000",
+    "updateDate": "2026-07-16T06:31:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "811593f5-37cf-4070-a7eb-3683fcd7527b",
+    "rule": "typescript:S3776",
+    "severity": "CRITICAL",
+    "component": "cirejr__slack-agent:temp_repos/slack-agent/scripts/configure.ts",
+    "project": "cirejr__slack-agent",
+    "line": 248,
+    "hash": "23e8a48f4bf741abb01b2c916e6fd7d6",
+    "textRange": {
+      "startLine": 248,
+      "endLine": 248,
+      "startOffset": 15,
+      "endOffset": 32
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "cirejr__slack-agent:temp_repos/slack-agent/scripts/configure.ts",
+            "textRange": {
+              "startLine": 254,
+              "endLine": 254,
+              "startOffset": 2,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cirejr__slack-agent:temp_repos/slack-agent/scripts/configure.ts",
+            "textRange": {
+              "startLine": 260,
+              "endLine": 260,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cirejr__slack-agent:temp_repos/slack-agent/scripts/configure.ts",
+            "textRange": {
+              "startLine": 261,
+              "endLine": 261,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cirejr__slack-agent:temp_repos/slack-agent/scripts/configure.ts",
+            "textRange": {
+              "startLine": 262,
+              "endLine": 262,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+4 (incl. 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cirejr__slack-agent:temp_repos/slack-agent/scripts/configure.ts",
+            "textRange": {
+              "startLine": 263,
+              "endLine": 263,
+              "startOffset": 13,
+              "endOffset": 15
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cirejr__slack-agent:temp_repos/slack-agent/scripts/configure.ts",
+            "textRange": {
+              "startLine": 265,
+              "endLine": 265,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cirejr__slack-agent:temp_repos/slack-agent/scripts/configure.ts",
+            "textRange": {
+              "startLine": 264,
+              "endLine": 264,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+4 (incl. 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cirejr__slack-agent:temp_repos/slack-agent/scripts/configure.ts",
+            "textRange": {
+              "startLine": 275,
+              "endLine": 275,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cirejr__slack-agent:temp_repos/slack-agent/scripts/configure.ts",
+            "textRange": {
+              "startLine": 277,
+              "endLine": 277,
+              "startOffset": 6,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.",
+    "effort": "9min",
+    "debt": "9min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-16T06:31:48+0000",
+    "updateDate": "2026-07-16T06:31:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dee6284a-8bb1-4a6c-bd0c-7be4bb388759",
+    "rule": "typescript:S3776",
+    "severity": "CRITICAL",
+    "component": "cirejr__slack-agent:temp_repos/slack-agent/scripts/configure.ts",
+    "project": "cirejr__slack-agent",
+    "line": 400,
+    "hash": "5679aa49814d447ff94681e9be79b9a7",
+    "textRange": {
+      "startLine": 400,
+      "endLine": 400,
+      "startOffset": 9,
+      "endOffset": 28
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "cirejr__slack-agent:temp_repos/slack-agent/scripts/configure.ts",
+            "textRange": {
+              "startLine": 401,
+              "endLine": 401,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cirejr__slack-agent:temp_repos/slack-agent/scripts/configure.ts",
+            "textRange": {
+              "startLine": 403,
+              "endLine": 403,
+              "startOffset": 31,
+              "endOffset": 32
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cirejr__slack-agent:temp_repos/slack-agent/scripts/configure.ts",
+            "textRange": {
+              "startLine": 408,
+              "endLine": 408,
+              "startOffset": 2,
+              "endOffset": 4
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cirejr__slack-agent:temp_repos/slack-agent/scripts/configure.ts",
+            "textRange": {
+              "startLine": 408,
+              "endLine": 408,
+              "startOffset": 33,
+              "endOffset": 35
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cirejr__slack-agent:temp_repos/slack-agent/scripts/configure.ts",
+            "textRange": {
+              "startLine": 410,
+              "endLine": 410,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cirejr__slack-agent:temp_repos/slack-agent/scripts/configure.ts",
+            "textRange": {
+              "startLine": 411,
+              "endLine": 411,
+              "startOffset": 29,
+              "endOffset": 30
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cirejr__slack-agent:temp_repos/slack-agent/scripts/configure.ts",
+            "textRange": {
+              "startLine": 412,
+              "endLine": 412,
+              "startOffset": 29,
+              "endOffset": 30
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cirejr__slack-agent:temp_repos/slack-agent/scripts/configure.ts",
+            "textRange": {
+              "startLine": 413,
+              "endLine": 413,
+              "startOffset": 6,
+              "endOffset": 8
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "cirejr__slack-agent:temp_repos/slack-agent/scripts/configure.ts",
+            "textRange": {
+              "startLine": 417,
+              "endLine": 417,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-16T06:31:48+0000",
+    "updateDate": "2026-07-16T06:31:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "da983c39-2726-420e-8f9c-87cd83401971",
+    "rule": "typescript:S4624",
+    "severity": "MAJOR",
+    "component": "cirejr__slack-agent:temp_repos/slack-agent/scripts/configure.ts",
+    "project": "cirejr__slack-agent",
+    "line": 415,
+    "hash": "2d0326e4daabb98090dacee65eabca62",
+    "textRange": {
+      "startLine": 415,
+      "endLine": 415,
+      "startOffset": 56,
+      "endOffset": 66
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Refactor this code to not use nested template literals.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T06:31:48+0000",
+    "updateDate": "2026-07-16T06:31:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "96497b61-8f72-44db-a983-3393ec8a678f",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "cirejr__slack-agent:temp_repos/slack-agent/scripts/dev.tunnel.ts",
+    "project": "cirejr__slack-agent",
+    "line": 102,
+    "hash": "3f5ebc9d5face1422b70b47adb32ac32",
+    "textRange": {
+      "startLine": 102,
+      "endLine": 102,
+      "startOffset": 35,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T06:31:48+0000",
+    "updateDate": "2026-07-16T06:31:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f988ec55-a012-4fc0-b675-5351b26e3e6a",
+    "rule": "typescript:S7785",
+    "severity": "MAJOR",
+    "component": "cirejr__slack-agent:temp_repos/slack-agent/scripts/dev.tunnel.ts",
+    "project": "cirejr__slack-agent",
+    "line": 212,
+    "hash": "6ecb85f8ecd2144fa75249f174f1d4d8",
+    "textRange": {
+      "startLine": 212,
+      "endLine": 212,
+      "startOffset": 10,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over an async IIFE.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-07-16T06:31:48+0000",
+    "updateDate": "2026-07-16T06:31:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

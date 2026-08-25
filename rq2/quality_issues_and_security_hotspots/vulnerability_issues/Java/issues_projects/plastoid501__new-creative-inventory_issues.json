@@ -1,0 +1,4813 @@
+[
+  {
+    "key": "45460aba-5504-44c7-8634-8e345c6975c3",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/NewCreativeInventory.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 28,
+    "hash": "87f4a02f69b2d4cc27b590d53e28c603",
+    "textRange": {
+      "startLine": 28,
+      "endLine": 28,
+      "startOffset": 2,
+      "endOffset": 48
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/NewCreativeInventory.java",
+            "textRange": {
+              "startLine": 29,
+              "endLine": 29,
+              "startOffset": 2,
+              "endOffset": 44
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1092dec0-a099-4280-82ba-1203b0f5d562",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/NewCreativeInventory.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 39,
+    "hash": "7b00b501b45314c17d3729d9f6a15ba3",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 39,
+      "startOffset": 5,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "49c3ca6f-2827-4ed6-b53a-033c8af780fd",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/NewCreativeInventory.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 41,
+    "hash": "b2ceb98241ca6593b53fe61af74fe2c4",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 41,
+      "startOffset": 27,
+      "endOffset": 51
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use already-defined constant 'MOD_ID' instead of duplicating its value here.",
+    "effort": "4min",
+    "debt": "4min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "26f5eded-b24f-4d61-9482-191837e0c872",
+    "rule": "java:S1104",
+    "severity": "MINOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/NewCreativeInventory.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 45,
+    "hash": "ec00d0dd7c479e92f1ff045bb708e80d",
+    "textRange": {
+      "startLine": 45,
+      "endLine": 45,
+      "startOffset": 22,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make MOD_VERSION a static final constant or non-public and provide accessors if needed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "65fc1f38-3335-44ca-b33f-085978a8b979",
+    "rule": "java:S1444",
+    "severity": "MINOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/NewCreativeInventory.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 45,
+    "hash": "ec00d0dd7c479e92f1ff045bb708e80d",
+    "textRange": {
+      "startLine": 45,
+      "endLine": 45,
+      "startOffset": 22,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make this \"public static MOD_VERSION\" field final",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f81da838-2229-48e5-90e7-d0bba234f591",
+    "rule": "java:S3008",
+    "severity": "MINOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/NewCreativeInventory.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 45,
+    "hash": "ec00d0dd7c479e92f1ff045bb708e80d",
+    "textRange": {
+      "startLine": 45,
+      "endLine": 45,
+      "startOffset": 22,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this field \"MOD_VERSION\" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "27f41f12-c029-455f-ae1a-fe706ad9ba06",
+    "rule": "java:S1104",
+    "severity": "MINOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/NewCreativeInventory.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 46,
+    "hash": "18bac7ef3c90e602d7870c30dc4f6d47",
+    "textRange": {
+      "startLine": 46,
+      "endLine": 46,
+      "startOffset": 22,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make MOD_NAME a static final constant or non-public and provide accessors if needed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "47290a72-0ae0-4067-afc9-9d78f84b61e3",
+    "rule": "java:S1444",
+    "severity": "MINOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/NewCreativeInventory.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 46,
+    "hash": "18bac7ef3c90e602d7870c30dc4f6d47",
+    "textRange": {
+      "startLine": 46,
+      "endLine": 46,
+      "startOffset": 22,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make this \"public static MOD_NAME\" field final",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "eeef0356-fe9f-4bf6-8145-2b11e1f2a9de",
+    "rule": "java:S3008",
+    "severity": "MINOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/NewCreativeInventory.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 46,
+    "hash": "18bac7ef3c90e602d7870c30dc4f6d47",
+    "textRange": {
+      "startLine": 46,
+      "endLine": 46,
+      "startOffset": 22,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this field \"MOD_NAME\" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "72633842-7889-4231-b2d3-cefa8c30c93f",
+    "rule": "java:S2696",
+    "severity": "CRITICAL",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/NewCreativeInventory.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 52,
+    "hash": "f7d52cd80ebdd8fe04b71117738f649e",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 52,
+      "startOffset": 2,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make the enclosing method \"static\" or remove this set.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "multi-threading"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "35742531-0095-4a50-9a83-54b6a00afa70",
+    "rule": "java:S2696",
+    "severity": "CRITICAL",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/NewCreativeInventory.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 53,
+    "hash": "b59e48867b6e86e65018ff8183bf1fa3",
+    "textRange": {
+      "startLine": 53,
+      "endLine": 53,
+      "startOffset": 2,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make the enclosing method \"static\" or remove this set.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "multi-threading"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "559af80b-fd42-4593-9477-bbe32cbdc3e2",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroup.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 26,
+    "hash": "dd319f4ef1d827c1a531f829708ea900",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 2,
+      "endOffset": 54
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b0f05238-6bef-49ff-94d5-042ca3533f7a",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroup.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 31,
+    "hash": "5f2c397b805579b61453acbcdd7e2ec3",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 2,
+      "endOffset": 68
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ab282515-bd2c-4388-ad62-b97e13bed05a",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroup.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 40,
+    "hash": "35a649654e6acbe27478f41318d3753c",
+    "textRange": {
+      "startLine": 40,
+      "endLine": 40,
+      "startOffset": 2,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9c0d67a6-b9c3-4759-86ec-33903ed7f236",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroup.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 48,
+    "hash": "d8eb48bf1afeb3b126a30a9457e53240",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 2,
+      "endOffset": 61
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroup.java",
+            "textRange": {
+              "startLine": 50,
+              "endLine": 50,
+              "startOffset": 2,
+              "endOffset": 48
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "308f4a34-9593-4665-be07-b224b2703ce1",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroup.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 55,
+    "hash": "c19fe3b84ba44434ef5d0d5603ad976a",
+    "textRange": {
+      "startLine": 55,
+      "endLine": 55,
+      "startOffset": 2,
+      "endOffset": 45
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "43564cb0-042c-4ecd-8845-d1a269c56cac",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroup.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 78,
+    "hash": "a27854e9064072746cf778acacf3f6fc",
+    "textRange": {
+      "startLine": 78,
+      "endLine": 78,
+      "startOffset": 6,
+      "endOffset": 57
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroup.java",
+            "textRange": {
+              "startLine": 80,
+              "endLine": 80,
+              "startOffset": 6,
+              "endOffset": 52
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0ccfb92f-b788-4d25-9b1f-ac741e2e0654",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroup.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 97,
+    "hash": "628bbd2aaf4eefeef16af7637a4f81e0",
+    "textRange": {
+      "startLine": 97,
+      "endLine": 97,
+      "startOffset": 10,
+      "endOffset": 79
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroup.java",
+            "textRange": {
+              "startLine": 99,
+              "endLine": 99,
+              "startOffset": 10,
+              "endOffset": 74
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "93d5e723-2b43-42cb-b6bb-addea3db4158",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroup.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 179,
+    "hash": "abd1537e04a43da454dcf5b8e449dbff",
+    "textRange": {
+      "startLine": 179,
+      "endLine": 179,
+      "startOffset": 10,
+      "endOffset": 57
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a8cb926f-dfd2-4ce4-a1aa-a8016d038082",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroup.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 191,
+    "hash": "9b5e1f5c7ffe188bde51c56fb4be4b3f",
+    "textRange": {
+      "startLine": 191,
+      "endLine": 191,
+      "startOffset": 18,
+      "endOffset": 111
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6f7e20cc-6037-42bc-9808-fa5fbe353342",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroup.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 216,
+    "hash": "feee269eb50c0782cd75258c8e8b3b28",
+    "textRange": {
+      "startLine": 216,
+      "endLine": 216,
+      "startOffset": 14,
+      "endOffset": 67
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "651a8d58-f1e0-4f5e-a881-c2716d57ac62",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroup.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 257,
+    "hash": "6c6d6c283099b949c39e9f6558354309",
+    "textRange": {
+      "startLine": 257,
+      "endLine": 257,
+      "startOffset": 14,
+      "endOffset": 70
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroup.java",
+            "textRange": {
+              "startLine": 259,
+              "endLine": 259,
+              "startOffset": 14,
+              "endOffset": 79
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6058b582-6de3-4cc5-9ff0-819bcb3aad82",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroup.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 266,
+    "hash": "5d256a3201936ecdf9a5a56146e13439",
+    "textRange": {
+      "startLine": 266,
+      "endLine": 266,
+      "startOffset": 18,
+      "endOffset": 76
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bae035e8-b115-491b-91ae-5c9fd5221871",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroup.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 272,
+    "hash": "affb1b59460b6fbdf801572456fc51d4",
+    "textRange": {
+      "startLine": 272,
+      "endLine": 272,
+      "startOffset": 18,
+      "endOffset": 85
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroup.java",
+            "textRange": {
+              "startLine": 274,
+              "endLine": 274,
+              "startOffset": 18,
+              "endOffset": 94
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6acd82ff-dc49-4217-89a1-d4e5f062220a",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroup.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 280,
+    "hash": "587b1154e50a41dc4567dc0513b5b82d",
+    "textRange": {
+      "startLine": 280,
+      "endLine": 280,
+      "startOffset": 18,
+      "endOffset": 52
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroup.java",
+            "textRange": {
+              "startLine": 281,
+              "endLine": 281,
+              "startOffset": 18,
+              "endOffset": 37
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e3feeb58-6220-4fdb-9523-96c86be30b91",
+    "rule": "java:S117",
+    "severity": "MINOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroup.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 300,
+    "hash": "caa74a30fa60f59c38d427bef1986945",
+    "textRange": {
+      "startLine": 300,
+      "endLine": 300,
+      "startOffset": 19,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "47950acc-c58a-4656-880c-d8c05faab8c3",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroup.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 306,
+    "hash": "b2c5ce908c24cbf0bf53ee1c94af1edd",
+    "textRange": {
+      "startLine": 306,
+      "endLine": 306,
+      "startOffset": 18,
+      "endOffset": 83
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "51c8f12e-e008-43e9-baed-936e7bfdc820",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroup.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 382,
+    "hash": "9b5e1f5c7ffe188bde51c56fb4be4b3f",
+    "textRange": {
+      "startLine": 382,
+      "endLine": 382,
+      "startOffset": 18,
+      "endOffset": 111
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "11e02300-4867-482d-9e6f-4508cb1e350b",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroups.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 27,
+    "hash": "d8eb48bf1afeb3b126a30a9457e53240",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 2,
+      "endOffset": 61
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroups.java",
+            "textRange": {
+              "startLine": 29,
+              "endLine": 29,
+              "startOffset": 2,
+              "endOffset": 48
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4d4aaef4-6e06-4407-a643-bd848e716e0e",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroups.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 35,
+    "hash": "809bff57b0b2cc54346c7f230efdcaa0",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 2,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d5ae12dc-9198-4476-984f-786d2c122792",
+    "rule": "java:S1118",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroups.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 42,
+    "hash": "3bac5e533b0be0c208a23076e8bcf548",
+    "textRange": {
+      "startLine": 42,
+      "endLine": 42,
+      "startOffset": 13,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a private constructor to hide the implicit public one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9fd6d104-b576-40b4-8015-2401a19adff7",
+    "rule": "java:S2386",
+    "severity": "MINOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroups.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 44,
+    "hash": "123a140823ae15e6e2f020c57627da61",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 44,
+      "startOffset": 39,
+      "endOffset": 45
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make this member \"protected\".",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unpredictable",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "367862fe-0e02-4b63-bed1-8592fae10f03",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroups.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 324,
+    "hash": "6c8e7bc11dcf7003d1331830fdc3790e",
+    "textRange": {
+      "startLine": 324,
+      "endLine": 324,
+      "startOffset": 14,
+      "endOffset": 49
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d4ab605c-af3c-4dfc-9004-a8f6ff435b3c",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroups.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 488,
+    "hash": "a9ba343b43e03ca7683f729a43863719",
+    "textRange": {
+      "startLine": 488,
+      "endLine": 488,
+      "startOffset": 14,
+      "endOffset": 47
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ad8f2a17-364a-4a57-a39c-ab8d49026afd",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroups.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 862,
+    "hash": "109e3b117a44f239bf1e2821affa1987",
+    "textRange": {
+      "startLine": 862,
+      "endLine": 862,
+      "startOffset": 14,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c2ecf4d6-9a93-430f-9501-ce64b4314637",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/item/NewItemGroups.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 1187,
+    "hash": "8ad6ea0908ff1642e6136e91e558e832",
+    "textRange": {
+      "startLine": 1187,
+      "endLine": 1187,
+      "startOffset": 14,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b0224c19-5c5b-4e20-a6ad-7a6ad4fd3a7c",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 27,
+    "hash": "adca33db35640e70aefe55777c7e4f48",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 2,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4f078ed0-5e0e-4315-8dfb-89f2330f2dad",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 32,
+    "hash": "c105c075143f3c69ba3aa4019ebf7675",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 32,
+      "startOffset": 2,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ba15f694-cc80-4eda-8ee6-93734b861a99",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 40,
+    "hash": "e4cb1cb49f4758fac58e5d73f1ded027",
+    "textRange": {
+      "startLine": 40,
+      "endLine": 40,
+      "startOffset": 2,
+      "endOffset": 52
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 42,
+              "endLine": 42,
+              "startOffset": 2,
+              "endOffset": 56
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 45,
+              "endLine": 45,
+              "startOffset": 2,
+              "endOffset": 56
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b580cc9d-11c3-4771-b95a-951ddc795cdc",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 52,
+    "hash": "9a8f7958403f4407d98e47fc8490b638",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 52,
+      "startOffset": 2,
+      "endOffset": 53
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "21007e6b-f895-49ed-8012-71a9edf83885",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 62,
+    "hash": "b62385d4ac8f8cebdbad16e98f137a74",
+    "textRange": {
+      "startLine": 62,
+      "endLine": 62,
+      "startOffset": 2,
+      "endOffset": 41
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 63,
+              "endLine": 63,
+              "startOffset": 2,
+              "endOffset": 51
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c0fde82d-c1d4-4ebf-9d02-f94f342de40c",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 70,
+    "hash": "aad60e9710430c18d4bd33bf8c860d65",
+    "textRange": {
+      "startLine": 70,
+      "endLine": 70,
+      "startOffset": 2,
+      "endOffset": 53
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 71,
+              "endLine": 71,
+              "startOffset": 2,
+              "endOffset": 61
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 73,
+              "endLine": 73,
+              "startOffset": 2,
+              "endOffset": 48
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d2fcd61d-5d01-4163-98be-387a2b1bc2ac",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 81,
+    "hash": "c19fe3b84ba44434ef5d0d5603ad976a",
+    "textRange": {
+      "startLine": 81,
+      "endLine": 81,
+      "startOffset": 2,
+      "endOffset": 45
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c3644f04-025a-4ee2-b0ed-4f2d60b658c1",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 109,
+    "hash": "9efd3be2c40d3e3bbb70c52bd8e828c3",
+    "textRange": {
+      "startLine": 109,
+      "endLine": 109,
+      "startOffset": 6,
+      "endOffset": 61
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9bcf8557-4c47-43ee-8d8c-2b58ac165f09",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 114,
+    "hash": "5e6b41d9268ed11bffff0c105435770a",
+    "textRange": {
+      "startLine": 114,
+      "endLine": 114,
+      "startOffset": 6,
+      "endOffset": 70
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 116,
+              "endLine": 116,
+              "startOffset": 6,
+              "endOffset": 72
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ba0c444c-67c4-4511-933b-db7f049a20e1",
+    "rule": "java:S5993",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 141,
+    "hash": "725882a7df34ea3ca9de285e17350abc",
+    "textRange": {
+      "startLine": 141,
+      "endLine": 141,
+      "startOffset": 4,
+      "endOffset": 10
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 102,
+              "endLine": 102,
+              "startOffset": 7,
+              "endOffset": 15
+            },
+            "msg": "This class is \"abstract\".",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Change the visibility of this constructor to \"protected\".",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ad1cc885-e3d8-4381-9e24-2a25c2d4929b",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 156,
+    "hash": "3237af881d64f12a267708b07613cd37",
+    "textRange": {
+      "startLine": 156,
+      "endLine": 156,
+      "startOffset": 10,
+      "endOffset": 127
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c06cd926-a54f-48d4-b364-39e898e7dec0",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 182,
+    "hash": "8257bccd7d31db6c52ec32fcae702f20",
+    "textRange": {
+      "startLine": 182,
+      "endLine": 182,
+      "startOffset": 10,
+      "endOffset": 73
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 183,
+              "endLine": 183,
+              "startOffset": 10,
+              "endOffset": 14
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 184,
+              "endLine": 184,
+              "startOffset": 10,
+              "endOffset": 24
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 185,
+              "endLine": 185,
+              "startOffset": 10,
+              "endOffset": 14
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 186,
+              "endLine": 186,
+              "startOffset": 10,
+              "endOffset": 53
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cbe4e228-c652-4de7-8c7f-fd3f5fff341c",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 193,
+    "hash": "70d1896fb11c5a589dc29a27625d5244",
+    "textRange": {
+      "startLine": 193,
+      "endLine": 193,
+      "startOffset": 10,
+      "endOffset": 50
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d5314157-5fa2-47a0-9bce-7bc8bb53138d",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 287,
+    "hash": "ac64987a858e3806fe14557c01e96c48",
+    "textRange": {
+      "startLine": 287,
+      "endLine": 287,
+      "startOffset": 6,
+      "endOffset": 10
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 288,
+              "endLine": 288,
+              "startOffset": 6,
+              "endOffset": 71
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 289,
+              "endLine": 289,
+              "startOffset": 6,
+              "endOffset": 10
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "09e19f19-f932-4269-8ba7-bdc6d4336e42",
+    "rule": "java:S2696",
+    "severity": "CRITICAL",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 293,
+    "hash": "38a0d3a45391a62a8b0be4d3ea1255f0",
+    "textRange": {
+      "startLine": 293,
+      "endLine": 293,
+      "startOffset": 8,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make the enclosing method \"static\" or remove this set.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "multi-threading"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "637c6af0-8c6e-415f-9cb7-1d6d712adcc2",
+    "rule": "java:S2696",
+    "severity": "CRITICAL",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 294,
+    "hash": "f3d9433c9f012c9a8eed760747f57e4a",
+    "textRange": {
+      "startLine": 294,
+      "endLine": 294,
+      "startOffset": 8,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make the enclosing method \"static\" or remove this set.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "multi-threading"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "99857c80-53c6-49ab-8e32-2225d31b58d4",
+    "rule": "java:S2696",
+    "severity": "CRITICAL",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 308,
+    "hash": "fb90cfda4f598bbbe6fde24ae6b6cf80",
+    "textRange": {
+      "startLine": 308,
+      "endLine": 308,
+      "startOffset": 12,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make the enclosing method \"static\" or remove this set.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "multi-threading"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bf8a10f0-f282-4b4a-8c68-14b045409349",
+    "rule": "java:S2696",
+    "severity": "CRITICAL",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 309,
+    "hash": "42ecb8da559adff066b20a514e292c85",
+    "textRange": {
+      "startLine": 309,
+      "endLine": 309,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make the enclosing method \"static\" or remove this set.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "multi-threading"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a6d0e07d-76a7-47df-93c4-88f45294698c",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 463,
+    "hash": "0b6f94d6426798c0258418cfa256d0b5",
+    "textRange": {
+      "startLine": 463,
+      "endLine": 463,
+      "startOffset": 10,
+      "endOffset": 70
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 464,
+              "endLine": 464,
+              "startOffset": 10,
+              "endOffset": 49
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "406a2094-8549-4c12-a60b-9a9d24e70085",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 471,
+    "hash": "39e58b377f2a15bf981feb9db0b28fea",
+    "textRange": {
+      "startLine": 471,
+      "endLine": 471,
+      "startOffset": 10,
+      "endOffset": 45
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1dae2118-eb64-4d4a-9253-2ca20d84ae7e",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 500,
+    "hash": "9e99b614cabf968cdfed16681adaa60f",
+    "textRange": {
+      "startLine": 500,
+      "endLine": 500,
+      "startOffset": 10,
+      "endOffset": 53
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e3e0bba5-e408-4aeb-9a20-77372d196175",
+    "rule": "java:S2696",
+    "severity": "CRITICAL",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 543,
+    "hash": "38a0d3a45391a62a8b0be4d3ea1255f0",
+    "textRange": {
+      "startLine": 543,
+      "endLine": 543,
+      "startOffset": 8,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make the enclosing method \"static\" or remove this set.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "multi-threading"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5de246c1-4943-4152-82e6-d7798a5893ba",
+    "rule": "java:S2696",
+    "severity": "CRITICAL",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 544,
+    "hash": "f3d9433c9f012c9a8eed760747f57e4a",
+    "textRange": {
+      "startLine": 544,
+      "endLine": 544,
+      "startOffset": 8,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make the enclosing method \"static\" or remove this set.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "multi-threading"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d85d5a57-f0f2-4ea1-9d3d-272f729643d9",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 546,
+    "hash": "4aefd994cd61270b991dc71fbfbfdb78",
+    "textRange": {
+      "startLine": 546,
+      "endLine": 546,
+      "startOffset": 10,
+      "endOffset": 60
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 547,
+              "endLine": 547,
+              "startOffset": 10,
+              "endOffset": 42
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 549,
+              "endLine": 549,
+              "startOffset": 10,
+              "endOffset": 60
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 550,
+              "endLine": 550,
+              "startOffset": 10,
+              "endOffset": 46
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 552,
+              "endLine": 552,
+              "startOffset": 10,
+              "endOffset": 58
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1b4e5c49-0f67-4c85-92b0-e153104eaf4c",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 563,
+    "hash": "2cdca1e558889245de3717d2ffa662ac",
+    "textRange": {
+      "startLine": 563,
+      "endLine": 563,
+      "startOffset": 14,
+      "endOffset": 73
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 565,
+              "endLine": 565,
+              "startOffset": 14,
+              "endOffset": 70
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "56ae2f55-d375-4d96-8b0f-233f9e8c0c2f",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 574,
+    "hash": "c701278913bb79719e865230cd35cd43",
+    "textRange": {
+      "startLine": 574,
+      "endLine": 574,
+      "startOffset": 18,
+      "endOffset": 50
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "835a8218-09a3-4689-a07a-7b3b68b6e5a3",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 587,
+    "hash": "d90cc1d995296536b8d0b26fee9c39c9",
+    "textRange": {
+      "startLine": 587,
+      "endLine": 587,
+      "startOffset": 10,
+      "endOffset": 152
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 589,
+              "endLine": 589,
+              "startOffset": 10,
+              "endOffset": 149
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cb058a2e-d66a-415d-bf7e-a3faf691e442",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 595,
+    "hash": "3ee3eb43f99964389991ddc737db450f",
+    "textRange": {
+      "startLine": 595,
+      "endLine": 595,
+      "startOffset": 10,
+      "endOffset": 88
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2eae46d4-1910-4465-91d0-98a1383cd602",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 608,
+    "hash": "4aefd994cd61270b991dc71fbfbfdb78",
+    "textRange": {
+      "startLine": 608,
+      "endLine": 608,
+      "startOffset": 10,
+      "endOffset": 60
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 610,
+              "endLine": 610,
+              "startOffset": 10,
+              "endOffset": 58
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ea96c513-6da0-424e-ab9d-b803e1af9877",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 615,
+    "hash": "011e95afdca2607eeea1b62dd391065d",
+    "textRange": {
+      "startLine": 615,
+      "endLine": 615,
+      "startOffset": 10,
+      "endOffset": 37
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 616,
+              "endLine": 616,
+              "startOffset": 10,
+              "endOffset": 35
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0dda3c88-5df9-4f92-931d-d798fa2b060c",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 624,
+    "hash": "2cdca1e558889245de3717d2ffa662ac",
+    "textRange": {
+      "startLine": 624,
+      "endLine": 624,
+      "startOffset": 10,
+      "endOffset": 69
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 626,
+              "endLine": 626,
+              "startOffset": 10,
+              "endOffset": 66
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ddfa6125-2d99-4560-9b65-185240a3388a",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 633,
+    "hash": "50c51a50f54469162e14a5c99e0d560e",
+    "textRange": {
+      "startLine": 633,
+      "endLine": 633,
+      "startOffset": 14,
+      "endOffset": 138
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 635,
+              "endLine": 635,
+              "startOffset": 14,
+              "endOffset": 133
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "29d12cbe-e88b-4a9b-8af5-0f70dc13c0b7",
+    "rule": "java:S1905",
+    "severity": "MINOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 637,
+    "hash": "c22b3ddfda5a2ec9e52982cf42ee8ea1",
+    "textRange": {
+      "startLine": 637,
+      "endLine": 637,
+      "startOffset": 52,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unnecessary cast to \"float\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "redundant",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "82dc3786-5be1-46cf-9df4-f24ca484b708",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 642,
+    "hash": "644f76a5f06741807a84739f64b84516",
+    "textRange": {
+      "startLine": 642,
+      "endLine": 642,
+      "startOffset": 10,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "26321e7b-fed2-445c-9cd5-2a3659089f00",
+    "rule": "java:S2696",
+    "severity": "CRITICAL",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 680,
+    "hash": "fb90cfda4f598bbbe6fde24ae6b6cf80",
+    "textRange": {
+      "startLine": 680,
+      "endLine": 680,
+      "startOffset": 8,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make the enclosing method \"static\" or remove this set.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "multi-threading"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "369cee8a-47e6-482c-a0c7-f56e95167470",
+    "rule": "java:S2696",
+    "severity": "CRITICAL",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 681,
+    "hash": "42ecb8da559adff066b20a514e292c85",
+    "textRange": {
+      "startLine": 681,
+      "endLine": 681,
+      "startOffset": 8,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make the enclosing method \"static\" or remove this set.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "multi-threading"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a8b4f104-ed74-4da5-9a47-36aca8329d20",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 853,
+    "hash": "ac64987a858e3806fe14557c01e96c48",
+    "textRange": {
+      "startLine": 853,
+      "endLine": 853,
+      "startOffset": 6,
+      "endOffset": 10
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 854,
+              "endLine": 854,
+              "startOffset": 6,
+              "endOffset": 71
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 855,
+              "endLine": 855,
+              "startOffset": 6,
+              "endOffset": 10
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5e148815-44be-429d-9868-dafaafea0b15",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 991,
+    "hash": "79dda8f8127fb277b2aeb2c1812d9ba3",
+    "textRange": {
+      "startLine": 991,
+      "endLine": 991,
+      "startOffset": 10,
+      "endOffset": 49
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "04344b2c-c49b-413a-9593-8531ee61d8fe",
+    "rule": "java:S1226",
+    "severity": "MINOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 993,
+    "hash": "0f46351fb9d05baa510a4dc35bb8ccc8",
+    "textRange": {
+      "startLine": 993,
+      "endLine": 993,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Introduce a new variable instead of reusing the parameter \"x\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "304e2e23-114d-4191-8073-899491a734cd",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 1024,
+    "hash": "01fe5f3daec3c21d705bfdecf74851f9",
+    "textRange": {
+      "startLine": 1024,
+      "endLine": 1024,
+      "startOffset": 10,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7d16dbe2-7d4c-4b32-8252-74d2b926f13e",
+    "rule": "java:S4144",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 1039,
+    "hash": "a06c7391cf250242a7d72fe38a765373",
+    "textRange": {
+      "startLine": 1039,
+      "endLine": 1039,
+      "startOffset": 16,
+      "endOffset": 36
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 1020,
+              "endLine": 1020,
+              "startOffset": 16,
+              "endOffset": 36
+            },
+            "msg": "original implementation",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Update this method so that its implementation is not identical to \"modifyRenderTabIcon7\" on line 1020.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [
+      "confusing",
+      "duplicate",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1f4e797e-fc96-4129-be74-faa8f4b60f0f",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 1092,
+    "hash": "2ba99672aaf1494c8a6491071c713355",
+    "textRange": {
+      "startLine": 1092,
+      "endLine": 1092,
+      "startOffset": 10,
+      "endOffset": 50
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/CreativeInventoryScreenMixin.java",
+            "textRange": {
+              "startLine": 1093,
+              "endLine": 1093,
+              "startOffset": 10,
+              "endOffset": 70
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f3c3f25e-b092-4f1e-af6a-10ee30419273",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/DecorationItemMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 24,
+    "hash": "c105c075143f3c69ba3aa4019ebf7675",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 2,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e6e77b54-8278-443b-9a7d-7590fdfc8ddd",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/DecorationItemMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 31,
+    "hash": "5f2c397b805579b61453acbcdd7e2ec3",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 2,
+      "endOffset": 68
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "da8f23b1-a400-4a90-8874-0eac884c8cef",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/DecorationItemMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 39,
+    "hash": "35a649654e6acbe27478f41318d3753c",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 39,
+      "startOffset": 2,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "aa8f5667-f4e2-40fc-9754-bc757320c322",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/DecorationItemMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 44,
+    "hash": "82722aa76e7d959ec10f55516a456723",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 44,
+      "startOffset": 2,
+      "endOffset": 49
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/DecorationItemMixin.java",
+            "textRange": {
+              "startLine": 45,
+              "endLine": 45,
+              "startOffset": 2,
+              "endOffset": 45
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/DecorationItemMixin.java",
+            "textRange": {
+              "startLine": 46,
+              "endLine": 46,
+              "startOffset": 2,
+              "endOffset": 61
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/DecorationItemMixin.java",
+            "textRange": {
+              "startLine": 49,
+              "endLine": 49,
+              "startOffset": 2,
+              "endOffset": 61
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/DecorationItemMixin.java",
+            "textRange": {
+              "startLine": 51,
+              "endLine": 51,
+              "startOffset": 2,
+              "endOffset": 48
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a3f22300-a904-4e0a-92fc-b5f0c8cdfa98",
+    "rule": "java:S1068",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/DecorationItemMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 68,
+    "hash": "ac16136c61d1da829b6bd34c8a03dc59",
+    "textRange": {
+      "startLine": 68,
+      "endLine": 68,
+      "startOffset": 65,
+      "endOffset": 75
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused \"entityType\" private field.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "32136c49-303a-44f5-a40f-f73c8053063e",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/DecorationItemMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 89,
+    "hash": "d610a122a14080d189cf057d425ca95b",
+    "textRange": {
+      "startLine": 89,
+      "endLine": 89,
+      "startOffset": 10,
+      "endOffset": 54
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "246b3311-1b47-41b6-9ab1-8d6cbf3c977a",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/DecorationItemMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 97,
+    "hash": "ab39cd60791749e5d53dcb69ccba6cfc",
+    "textRange": {
+      "startLine": 97,
+      "endLine": 97,
+      "startOffset": 14,
+      "endOffset": 81
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ef0e94a1-b7eb-41a2-adde-ad9eca7cff3d",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/DecorationItemMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 122,
+    "hash": "ceaa077bddaa743bb0225f8479e83930",
+    "textRange": {
+      "startLine": 122,
+      "endLine": 122,
+      "startOffset": 18,
+      "endOffset": 96
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/DecorationItemMixin.java",
+            "textRange": {
+              "startLine": 124,
+              "endLine": 124,
+              "startOffset": 18,
+              "endOffset": 105
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "464a763e-051a-4135-90d6-380e001b4d48",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/SuspiciousStewItemMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 36,
+    "hash": "35a649654e6acbe27478f41318d3753c",
+    "textRange": {
+      "startLine": 36,
+      "endLine": 36,
+      "startOffset": 2,
+      "endOffset": 42
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/SuspiciousStewItemMixin.java",
+            "textRange": {
+              "startLine": 37,
+              "endLine": 37,
+              "startOffset": 2,
+              "endOffset": 38
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "56dd3de8-cb76-4979-b53f-980e5f7dd92f",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/SuspiciousStewItemMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 43,
+    "hash": "82722aa76e7d959ec10f55516a456723",
+    "textRange": {
+      "startLine": 43,
+      "endLine": 43,
+      "startOffset": 2,
+      "endOffset": 49
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/SuspiciousStewItemMixin.java",
+            "textRange": {
+              "startLine": 44,
+              "endLine": 44,
+              "startOffset": 2,
+              "endOffset": 45
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/SuspiciousStewItemMixin.java",
+            "textRange": {
+              "startLine": 45,
+              "endLine": 45,
+              "startOffset": 2,
+              "endOffset": 53
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/SuspiciousStewItemMixin.java",
+            "textRange": {
+              "startLine": 46,
+              "endLine": 46,
+              "startOffset": 2,
+              "endOffset": 61
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c99a8f05-7ff8-4690-b1d5-6c1c5e56e631",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/SuspiciousStewItemMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 86,
+    "hash": "7d862043b11568efe1e7ebe0933f3657",
+    "textRange": {
+      "startLine": 86,
+      "endLine": 86,
+      "startOffset": 14,
+      "endOffset": 191
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/SuspiciousStewItemMixin.java",
+            "textRange": {
+              "startLine": 87,
+              "endLine": 87,
+              "startOffset": 14,
+              "endOffset": 66
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4f706ec1-02b1-49b9-ac76-4bda074a5f4f",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/SuspiciousStewItemMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 115,
+    "hash": "a0e3a63c65f1c7971e5228de364ada8b",
+    "textRange": {
+      "startLine": 115,
+      "endLine": 115,
+      "startOffset": 30,
+      "endOffset": 65
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6a401f6e-e280-4418-a797-83a506ac9ee7",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/SuspiciousStewItemMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 136,
+    "hash": "d610a122a14080d189cf057d425ca95b",
+    "textRange": {
+      "startLine": 136,
+      "endLine": 136,
+      "startOffset": 10,
+      "endOffset": 54
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a196ad60-5b89-4d33-b470-f67a748eaab8",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/SuspiciousStewItemMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 144,
+    "hash": "7ae1fdcc22ea8329033f174117bc3296",
+    "textRange": {
+      "startLine": 144,
+      "endLine": 144,
+      "startOffset": 14,
+      "endOffset": 70
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c06d6888-c676-4e97-8324-e640defd52dd",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/SuspiciousStewItemMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 152,
+    "hash": "8d0ad7ee9168cefb066e709c6f220151",
+    "textRange": {
+      "startLine": 152,
+      "endLine": 152,
+      "startOffset": 18,
+      "endOffset": 71
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d011caf6-9530-4e91-b964-67160e804b46",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/SuspiciousStewItemMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 181,
+    "hash": "a80b73f7ce3e1e0b4135558d22972f31",
+    "textRange": {
+      "startLine": 181,
+      "endLine": 181,
+      "startOffset": 14,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "02da8d6e-2977-42f2-8578-e3c2c3173f6f",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "plastoid501__new-creative-inventory:src/main/java/net/plastoid501/nci/mixin/SuspiciousStewItemMixin.java",
+    "project": "plastoid501__new-creative-inventory",
+    "line": 223,
+    "hash": "890dbc6a4875bbe4faec56b8ac7d06ea",
+    "textRange": {
+      "startLine": 223,
+      "endLine": 223,
+      "startOffset": 22,
+      "endOffset": 61
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:40:49+0000",
+    "updateDate": "2026-07-21T18:40:49+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

@@ -1,0 +1,208 @@
+[
+  {
+    "key": "81709e5d-a574-49c8-a90b-0d10b9f1c6bd",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "rafsaf__minimal-fastapi-postgres-template:Dockerfile",
+    "project": "rafsaf__minimal-fastapi-postgres-template",
+    "line": 19,
+    "hash": "7fd175f28cd87e63698a53509a0ee97b",
+    "textRange": {
+      "startLine": 19,
+      "endLine": 19,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "rafsaf__minimal-fastapi-postgres-template:Dockerfile",
+            "textRange": {
+              "startLine": 22,
+              "endLine": 22,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T14:40:25+0000",
+    "updateDate": "2026-07-20T14:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a81185aa-c6f8-493d-8eef-d04cd84eca8b",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "rafsaf__minimal-fastapi-postgres-template:app/auth/api_messages.py",
+    "project": "rafsaf__minimal-fastapi-postgres-template",
+    "line": 15,
+    "hash": "d846cf4560f0eb6b5bf9ed9c010b9e89",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 12,
+      "endOffset": 30
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "rafsaf__minimal-fastapi-postgres-template:app/auth/api_messages.py",
+            "textRange": {
+              "startLine": 38,
+              "endLine": 38,
+              "startOffset": 20,
+              "endOffset": 38
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "rafsaf__minimal-fastapi-postgres-template:app/auth/api_messages.py",
+            "textRange": {
+              "startLine": 46,
+              "endLine": 46,
+              "startOffset": 12,
+              "endOffset": 30
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "rafsaf__minimal-fastapi-postgres-template:app/auth/api_messages.py",
+            "textRange": {
+              "startLine": 63,
+              "endLine": 63,
+              "startOffset": 12,
+              "endOffset": 30
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"application/json\" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-20T14:40:25+0000",
+    "updateDate": "2026-07-20T14:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1c1950a1-2072-42ac-8266-0460bc9bb4eb",
+    "rule": "python:S5717",
+    "severity": "CRITICAL",
+    "component": "rafsaf__minimal-fastapi-postgres-template:app/auth/views.py",
+    "project": "rafsaf__minimal-fastapi-postgres-template",
+    "line": 59,
+    "hash": "f9063bc32b75d6e00f0a5c8e44ba8099",
+    "textRange": {
+      "startLine": 59,
+      "endLine": 59,
+      "startOffset": 4,
+      "endOffset": 63
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "rafsaf__minimal-fastapi-postgres-template:app/auth/views.py",
+            "textRange": {
+              "startLine": 61,
+              "endLine": 61,
+              "startOffset": 4,
+              "endOffset": 16
+            },
+            "msg": "The parameter is modified.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Change this default value to \"None\" and initialize this parameter inside the function/method.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-20T14:40:25+0000",
+    "updateDate": "2026-07-20T14:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

@@ -1,0 +1,655 @@
+[
+  {
+    "key": "56f99ada-8ebc-4446-83af-1782e22dae0d",
+    "rule": "docker:S6476",
+    "severity": "MAJOR",
+    "component": "7webfrog__pixbyt:temp_repos/pixbyt/Dockerfile",
+    "project": "7webfrog__pixbyt",
+    "line": 4,
+    "hash": "5f2b0c067714c6dc3a116bcc012d0c62",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 20,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace \"as\" with upper case format \"AS\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T19:31:03+0000",
+    "updateDate": "2026-07-17T19:31:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FORMATTED",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1ec8606d-adfc-41d2-bdec-c49b7cf2a538",
+    "rule": "docker:S6595",
+    "severity": "MAJOR",
+    "component": "7webfrog__pixbyt:temp_repos/pixbyt/Dockerfile",
+    "project": "7webfrog__pixbyt",
+    "line": 11,
+    "hash": "7933be1dec8c790625dab193422d3a3d",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 4,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Update cache and install packages in single RUN instruction.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:31:03+0000",
+    "updateDate": "2026-07-17T19:31:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "907725c9-8475-41cc-b1ca-e2b27959b139",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "7webfrog__pixbyt:temp_repos/pixbyt/Dockerfile",
+    "project": "7webfrog__pixbyt",
+    "line": 11,
+    "hash": "7933be1dec8c790625dab193422d3a3d",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "7webfrog__pixbyt:temp_repos/pixbyt/Dockerfile",
+            "textRange": {
+              "startLine": 14,
+              "endLine": 14,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:31:03+0000",
+    "updateDate": "2026-07-17T19:31:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6f9d1c62-0d46-421a-9af2-a146b905bb13",
+    "rule": "docker:S6587",
+    "severity": "MAJOR",
+    "component": "7webfrog__pixbyt:temp_repos/pixbyt/Dockerfile",
+    "project": "7webfrog__pixbyt",
+    "line": 14,
+    "hash": "c45c64b7c1065aea113a1a298e9116a8",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 4,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove cache after installing packages or store it in a cache mount.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:31:03+0000",
+    "updateDate": "2026-07-17T19:31:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ff534a9c-e14b-429d-8f03-bae93ff8be1d",
+    "rule": "docker:S1135",
+    "severity": "INFO",
+    "component": "7webfrog__pixbyt:temp_repos/pixbyt/Dockerfile",
+    "project": "7webfrog__pixbyt",
+    "line": 15,
+    "hash": "8da907b1d91afad5933b10befcfd468f",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 0,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T19:31:03+0000",
+    "updateDate": "2026-07-17T19:31:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "01d2e971-c4dc-4e47-a9f9-e5ad236a5f36",
+    "rule": "docker:S6570",
+    "severity": "MAJOR",
+    "component": "7webfrog__pixbyt:temp_repos/pixbyt/Dockerfile",
+    "project": "7webfrog__pixbyt",
+    "line": 18,
+    "hash": "5aacf25d5d65895079cd618d1c4e4a60",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 9,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Surround this variable with double quotes; otherwise, it can lead to unexpected behavior.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:31:03+0000",
+    "updateDate": "2026-07-17T19:31:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "80cd4415-e79c-42ff-8d1a-17321cacfb37",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "7webfrog__pixbyt:temp_repos/pixbyt/Dockerfile",
+    "project": "7webfrog__pixbyt",
+    "line": 18,
+    "hash": "5aacf25d5d65895079cd618d1c4e4a60",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "7webfrog__pixbyt:temp_repos/pixbyt/Dockerfile",
+            "textRange": {
+              "startLine": 19,
+              "endLine": 19,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "7webfrog__pixbyt:temp_repos/pixbyt/Dockerfile",
+            "textRange": {
+              "startLine": 20,
+              "endLine": 20,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "7webfrog__pixbyt:temp_repos/pixbyt/Dockerfile",
+            "textRange": {
+              "startLine": 21,
+              "endLine": 21,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "7webfrog__pixbyt:temp_repos/pixbyt/Dockerfile",
+            "textRange": {
+              "startLine": 22,
+              "endLine": 22,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:31:03+0000",
+    "updateDate": "2026-07-17T19:31:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f1108495-2190-41c5-9dd4-b32355369593",
+    "rule": "docker:S7026",
+    "severity": "MINOR",
+    "component": "7webfrog__pixbyt:temp_repos/pixbyt/Dockerfile",
+    "project": "7webfrog__pixbyt",
+    "line": 19,
+    "hash": "b6d64298160748ac1231636759526d91",
+    "textRange": {
+      "startLine": 19,
+      "endLine": 19,
+      "startOffset": 4,
+      "endOffset": 156
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this invocation of \"curl\" with the ADD instruction.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:31:03+0000",
+    "updateDate": "2026-07-17T19:31:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b824da91-8247-4869-963c-6dbb71656b27",
+    "rule": "docker:S6476",
+    "severity": "MAJOR",
+    "component": "7webfrog__pixbyt:temp_repos/pixbyt/Dockerfile",
+    "project": "7webfrog__pixbyt",
+    "line": 30,
+    "hash": "a015e1755cb56fbb64e428f1f3912964",
+    "textRange": {
+      "startLine": 30,
+      "endLine": 30,
+      "startOffset": 10,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace \"as\" with upper case format \"AS\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T19:31:03+0000",
+    "updateDate": "2026-07-17T19:31:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FORMATTED",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "34ba06be-12d2-4f99-aa49-1d9fe594faf7",
+    "rule": "docker:S6476",
+    "severity": "MAJOR",
+    "component": "7webfrog__pixbyt:temp_repos/pixbyt/Dockerfile",
+    "project": "7webfrog__pixbyt",
+    "line": 34,
+    "hash": "52adc256b7c657521b46a5c801d312c4",
+    "textRange": {
+      "startLine": 34,
+      "endLine": 34,
+      "startOffset": 10,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace \"as\" with upper case format \"AS\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T19:31:03+0000",
+    "updateDate": "2026-07-17T19:31:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FORMATTED",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3f927aee-b915-4659-a536-ba364eb4e7e0",
+    "rule": "docker:S6476",
+    "severity": "MAJOR",
+    "component": "7webfrog__pixbyt:temp_repos/pixbyt/Dockerfile",
+    "project": "7webfrog__pixbyt",
+    "line": 37,
+    "hash": "13928a07a092ee4417de93c658b9fb4d",
+    "textRange": {
+      "startLine": 37,
+      "endLine": 37,
+      "startOffset": 27,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace \"as\" with upper case format \"AS\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-17T19:31:03+0000",
+    "updateDate": "2026-07-17T19:31:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FORMATTED",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "96a60a5c-14a9-4209-8e89-ed3b5aa0651a",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "7webfrog__pixbyt:temp_repos/pixbyt/Dockerfile",
+    "project": "7webfrog__pixbyt",
+    "line": 43,
+    "hash": "79be834241b8a062769269e0913cca16",
+    "textRange": {
+      "startLine": 43,
+      "endLine": 43,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "7webfrog__pixbyt:temp_repos/pixbyt/Dockerfile",
+            "textRange": {
+              "startLine": 44,
+              "endLine": 44,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "7webfrog__pixbyt:temp_repos/pixbyt/Dockerfile",
+            "textRange": {
+              "startLine": 47,
+              "endLine": 47,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T19:31:03+0000",
+    "updateDate": "2026-07-17T19:31:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "eb33524b-6fe4-40b2-ad83-cdea41752f5a",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "7webfrog__pixbyt:temp_repos/pixbyt/plugins/airflow/dags/meltano_dag_generator.py",
+    "project": "7webfrog__pixbyt",
+    "line": 92,
+    "hash": "cdc94628b077dc63ff37d8b11bf36f37",
+    "textRange": {
+      "startLine": 92,
+      "endLine": 92,
+      "startOffset": 8,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused local variable \"elt\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T19:31:03+0000",
+    "updateDate": "2026-07-17T19:31:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

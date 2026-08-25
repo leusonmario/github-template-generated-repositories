@@ -1,0 +1,2278 @@
+[
+  {
+    "key": "c551f242-6ac9-41d0-ada3-31773ce6a20e",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/Dockerfile",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 23,
+    "hash": "daf6742c9cc1f218ffcfb4831cd5742c",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/Dockerfile",
+            "textRange": {
+              "startLine": 24,
+              "endLine": 24,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5aecbc8d-f860-4bb1-96c8-300a99162269",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/app/Main.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 5,
+    "hash": "30aebd45d961e7afa21e8073e3f09774",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 7,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'NewsletterForm'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b47376da-d419-48f8-875e-550538e2dd18",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/app/blog/[...slug]/page.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 4,
+    "hash": "52b918760f119c59126739bc76d41b7e",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 7,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'PageTitle'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "37f17ed9-33cc-46be-97e3-b4ca01ddf9dd",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/app/blog/[...slug]/page.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 83,
+    "hash": "305775ee42acb0f40436d0864b3adc0f",
+    "textRange": {
+      "startLine": 83,
+      "endLine": 83,
+      "startOffset": 35,
+      "endOffset": 77
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0813510c-33d4-4755-a198-d313addded1a",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/app/blog/page/[page]/page.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 14,
+    "hash": "c9273d26bf3018d0182b896aa9005627",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 29,
+      "endOffset": 69
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "30bd48f6-6efd-44a1-91ba-9a62671f4d51",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/app/blog/page/[page]/page.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 16,
+    "hash": "4aa91861eea13890b9f6d4ccf2b4aed5",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 21,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d4bb39be-aa64-40e5-bb46-435ced77141b",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/app/blog/page/[page]/page.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 16,
+    "hash": "4aa91861eea13890b9f6d4ccf2b4aed5",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 30,
+      "endOffset": 51
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5bcd7e0e-4624-4fe4-9d51-de13f0e04bf2",
+    "rule": "typescript:S6749",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/app/info/page.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 14,
+    "hash": "38559c871fba28d992ead51549367f83",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 18,
+      "startOffset": 4,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A fragment with only one child is redundant.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8ebc654e-531b-4e17-95d5-9bcbda580e45",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/app/layout.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 60,
+    "hash": "6f917eab0389b6ec065c7f6c7a3567fc",
+    "textRange": {
+      "startLine": 60,
+      "endLine": 60,
+      "startOffset": 35,
+      "endOffset": 78
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e3e3ecff-b2e8-4398-bba5-376b4092f002",
+    "rule": "typescript:S6749",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/app/projects/page.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 9,
+    "hash": "38559c871fba28d992ead51549367f83",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 33,
+      "startOffset": 4,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A fragment with only one child is redundant.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0df2be3f-b3c1-492f-bba6-c5ed68a0822b",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/app/tags/[tag]/page.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 33,
+    "hash": "cd2fb37cb83068c343dbf0e9b31dcfda",
+    "textRange": {
+      "startLine": 33,
+      "endLine": 33,
+      "startOffset": 32,
+      "endOffset": 71
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "13360188-13e3-4c2f-a7cf-94fb1e0c9f55",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/app/tags/[tag]/page.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 38,
+    "hash": "c36e99c35f494b206eff96283acacfbd",
+    "textRange": {
+      "startLine": 38,
+      "endLine": 38,
+      "startOffset": 40,
+      "endOffset": 96
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9136a169-3f0f-4e76-a89c-3f24bb0eca18",
+    "rule": "typescript:S4043",
+    "severity": "MAJOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/app/tags/page.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 12,
+    "hash": "7e127889cd09fad57385eeaea50e7179",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 21,
+      "endOffset": 72
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this array \"sort\" operation to a separate statement or replace it with \"toSorted\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8a2bd820-f55b-444c-9096-c91add0a9eec",
+    "rule": "typescript:S6749",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/app/tags/page.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 14,
+    "hash": "38559c871fba28d992ead51549367f83",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 39,
+      "startOffset": 4,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A fragment with only one child is redundant.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "064c6590-b8ac-442a-8f90-fb4e936f270f",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/app/theme-providers.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 6,
+    "hash": "c2a5aa10da87b1fbd4c24adb2a29f5ef",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 31,
+      "endOffset": 74
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "84288ddf-f441-4c1d-8e8a-b9fbf52c8158",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/components/Comments.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 5,
+    "hash": "91af987d46ecfccfe8a74c0242319468",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 33,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dc95eb99-cbcf-4ca4-afa1-5def77f42c21",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/components/Header.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 6,
+    "hash": "7aa972476be883d8fa7ed2c400e46616",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 7,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'SearchButton'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fe9596e2-bbc8-47cd-b28f-6514ce841022",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/components/Link.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 7,
+    "hash": "f012735aa37e6574114839b62500124b",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 25,
+      "endOffset": 53
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2244e76b-b300-4973-8c8b-1aa181ccb68e",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/components/Link.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 8,
+    "hash": "3fe55196d0ec98e37eed9ccbd3818930",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 23,
+      "endOffset": 51
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f54a5561-b36b-40d1-8874-159a48761978",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/components/PageTitle.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 7,
+    "hash": "6c320c625e3281852b60e7b191cff023",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 34,
+      "endOffset": 53
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "487dcfa8-e40b-4b48-9ba2-2d66fe2dea94",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/components/SectionContainer.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 7,
+    "hash": "8fa1fae46a5af9041ba78c50afc3728d",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 41,
+      "endOffset": 60
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ba41c931-d23e-42e9-99d2-17dcbbe07d9c",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/contentlayer.config.ts",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 2,
+    "hash": "80c8f6e958309cef359ea1aaa5e40cd7",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 30,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e3a3e20c-f658-4130-8375-287495a87c8b",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/contentlayer.config.ts",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 5,
+    "hash": "86d5e1b4b9e37b9f521e62e76cad3435",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 17,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b5ee7d06-75ec-4df9-97b1-551fcbe133c3",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/contentlayer.config.ts",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 50,
+    "hash": "3dcb8dcec4e77fa3d55e88de71f23a36",
+    "textRange": {
+      "startLine": 50,
+      "endLine": 50,
+      "startOffset": 11,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0c76dffb-8da0-4040-8800-bdd457b36f4a",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/contentlayer.config.ts",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 52,
+    "hash": "79df3181c425a496c1fe4bf20e1955cf",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 52,
+      "startOffset": 16,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "84d663ee-f092-491c-9fc9-0c0ae63d02ae",
+    "rule": "css:S4666",
+    "severity": "MAJOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/css/prism.css",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 142,
+    "hash": "4158887838919ba0e16e6d8dbb70d889",
+    "textRange": {
+      "startLine": 142,
+      "endLine": 142,
+      "startOffset": 0,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected duplicate selector \".token.table\", first used at line 138",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "92266490-a4f3-429b-a741-d9facaeb4c32",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/layouts/AuthorLayout.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 11,
+    "hash": "44a6e00614aae029fdb63a2eecf49e92",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 37,
+      "endOffset": 65
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "db29ba4f-f45e-46a5-bef9-ae3da8e54c1e",
+    "rule": "typescript:S6749",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/layouts/AuthorLayout.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 15,
+    "hash": "38559c871fba28d992ead51549367f83",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 48,
+      "startOffset": 4,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A fragment with only one child is redundant.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2cd5f892-6713-4b7a-9e42-7c5c5cdbbec0",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/layouts/ListLayout.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 23,
+    "hash": "4aa22749eb9c9aafc3c26b6e4207af4a",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 20,
+      "endOffset": 64
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "11073d8f-34f1-44c0-8643-83a9570d119f",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/layouts/ListLayout.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 63,
+    "hash": "e11f80f480ede812d449d7c1a4076388",
+    "textRange": {
+      "startLine": 63,
+      "endLine": 68,
+      "startOffset": 35,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6a9811d3-b418-45f1-ba86-8f1eaf88df40",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/layouts/ListLayoutWithTags.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 25,
+    "hash": "4aa22749eb9c9aafc3c26b6e4207af4a",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 20,
+      "endOffset": 64
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "10f90e37-2fe7-4ee1-a0e6-a49746257f4d",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/layouts/ListLayoutWithTags.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 65,
+    "hash": "8527728d5e34e411a0015d1134b1c5dc",
+    "textRange": {
+      "startLine": 65,
+      "endLine": 70,
+      "startOffset": 43,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5411729a-f0f8-4236-be31-14d8be69e15e",
+    "rule": "typescript:S4043",
+    "severity": "MAJOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/layouts/ListLayoutWithTags.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 74,
+    "hash": "7e127889cd09fad57385eeaea50e7179",
+    "textRange": {
+      "startLine": 74,
+      "endLine": 74,
+      "startOffset": 21,
+      "endOffset": 72
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this array \"sort\" operation to a separate statement or replace it with \"toSorted\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dabb5deb-5553-42f0-b368-14839f1bbacc",
+    "rule": "typescript:S6749",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/layouts/ListLayoutWithTags.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 79,
+    "hash": "38559c871fba28d992ead51549367f83",
+    "textRange": {
+      "startLine": 79,
+      "endLine": 161,
+      "startOffset": 4,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A fragment with only one child is redundant.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9e063c82-3949-4c90-8cdd-b8afc6530279",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/layouts/PostBanner.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 20,
+    "hash": "f95448cfa550d5b2cc9134263c6b1eeb",
+    "textRange": {
+      "startLine": 20,
+      "endLine": 20,
+      "startOffset": 36,
+      "endOffset": 82
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1cff2f88-2368-4f2b-8b1e-c888d07c53e1",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/layouts/PostBanner.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 50,
+    "hash": "116c62533b96678d1e8c635a24777d72",
+    "textRange": {
+      "startLine": 50,
+      "endLine": 50,
+      "startOffset": 15,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b3a3337a-1575-4f7d-89d1-55d69aef638a",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/layouts/PostBanner.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 61,
+    "hash": "514887150c82d0afd2bc42b3921c6547",
+    "textRange": {
+      "startLine": 61,
+      "endLine": 61,
+      "startOffset": 15,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0bdcaab8-7906-4414-ad69-02c5e9627694",
+    "rule": "typescript:S4624",
+    "severity": "MAJOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/layouts/PostLayout.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 15,
+    "hash": "25e832109b75bc4be93b85e01d6d2866",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 60,
+      "endOffset": 93
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Refactor this code to not use nested template literals.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d2c4eab4-9976-4d50-8829-931492831706",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/layouts/PostLayout.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 32,
+    "hash": "e87a2f24d6bbc60d2644088cf72427e8",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 32,
+      "startOffset": 35,
+      "endOffset": 96
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d2cdfe46-f1be-424f-8251-a0c94435f5df",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/layouts/PostLayout.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 128,
+    "hash": "116c62533b96678d1e8c635a24777d72",
+    "textRange": {
+      "startLine": 128,
+      "endLine": 128,
+      "startOffset": 21,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2005a8cc-9fa8-487c-80ce-9cf064b4574d",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/layouts/PostLayout.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 138,
+    "hash": "514887150c82d0afd2bc42b3921c6547",
+    "textRange": {
+      "startLine": 138,
+      "endLine": 138,
+      "startOffset": 21,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b352d995-96c8-46f6-bb26-4a95d4027665",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/layouts/PostSimple.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 19,
+    "hash": "465919badd4e191251dcf98893de3eaa",
+    "textRange": {
+      "startLine": 19,
+      "endLine": 19,
+      "startOffset": 35,
+      "endOffset": 81
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9eec711a-a22a-4f1c-baf6-e7914d284b12",
+    "rule": "typescript:S1854",
+    "severity": "MAJOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/layouts/PostSimple.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 20,
+    "hash": "1c53caadc48315a6ab8a02188a96d67f",
+    "textRange": {
+      "startLine": 20,
+      "endLine": 20,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this useless assignment to variable \"path\".",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "62c3e4b2-a99b-49a0-9062-e17e3124c809",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/layouts/PostSimple.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 53,
+    "hash": "116c62533b96678d1e8c635a24777d72",
+    "textRange": {
+      "startLine": 53,
+      "endLine": 53,
+      "startOffset": 17,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7c112ea1-66e1-4649-b070-dcf97b48aa55",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/layouts/PostSimple.tsx",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 64,
+    "hash": "514887150c82d0afd2bc42b3921c6547",
+    "textRange": {
+      "startLine": 64,
+      "endLine": 64,
+      "startOffset": 17,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "12ff4141-c684-4fac-a3bb-00d59a0c60e7",
+    "rule": "javascript:S7781",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/next.config.js",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 23,
+    "hash": "0fd82a9e2854ba88d93d0ec7bcfa1b66",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 33,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "60ccac43-eaf9-421e-9620-64eb2a626bcb",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/next.config.js",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 60,
+    "hash": "aef301e0d100ca3f9bbcfca31a484699",
+    "textRange": {
+      "startLine": 60,
+      "endLine": 60,
+      "startOffset": 20,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8a0cb5cc-d285-4ec5-bc5c-dd3d754b2cd0",
+    "rule": "javascript:S4123",
+    "severity": "CRITICAL",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/scripts/postbuild.mjs",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 4,
+    "hash": "6c2fb5b11fbba4ef00d612efa368acf5",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 2,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected `await` of a non-Promise (non-\"Thenable\") value.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1e42c834-18a7-4734-8c13-58385d64939a",
+    "rule": "javascript:S7785",
+    "severity": "MAJOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/scripts/postbuild.mjs",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 7,
+    "hash": "08b7b6a7d897d53dca4b591dfc18d0fb",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 0,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over an async function `postbuild` call.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bf49793f-4579-41fc-bd9c-fd05de0294a5",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/scripts/rss.mjs",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 1,
+    "hash": "f90ea93eb4b6cba68cc190ff08cb274f",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 41,
+      "endOffset": 45
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "aef9a291-b87f-479c-a793-4852700d415b",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/scripts/rss.mjs",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 2,
+    "hash": "86d5e1b4b9e37b9f521e62e76cad3435",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 17,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "adfdf0a6-aa2b-4628-bd1e-ce325fa4fcc3",
+    "rule": "javascript:S6582",
+    "severity": "MAJOR",
+    "component": "esfe-fablab__esfe-fablab:temp_repos/esfe-fablab/scripts/rss.mjs",
+    "project": "esfe-fablab__esfe-fablab",
+    "line": 18,
+    "hash": "2f6934fe523abff92a0439c3e2f19bfd",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 6,
+      "endOffset": 77
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:15:57+0000",
+    "updateDate": "2026-07-16T06:15:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

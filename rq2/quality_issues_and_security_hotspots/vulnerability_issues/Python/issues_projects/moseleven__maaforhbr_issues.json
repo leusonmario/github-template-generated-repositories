@@ -1,0 +1,76 @@
+[
+  {
+    "key": "f878bbaf-d686-446c-8470-db3879e217c4",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "moseleven__maaforhbr:temp_repos/MaaForHBR/install.py",
+    "project": "moseleven__maaforhbr",
+    "line": 49,
+    "hash": "0ecbf22bec65fef3af0bd24ecb416d32",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 49,
+      "startOffset": 33,
+      "endOffset": 49
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "moseleven__maaforhbr:temp_repos/MaaForHBR/install.py",
+            "textRange": {
+              "startLine": 63,
+              "endLine": 63,
+              "startOffset": 29,
+              "endOffset": 45
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "moseleven__maaforhbr:temp_repos/MaaForHBR/install.py",
+            "textRange": {
+              "startLine": 68,
+              "endLine": 68,
+              "startOffset": 29,
+              "endOffset": 45
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"interface.json\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:51:39+0000",
+    "updateDate": "2026-07-17T20:51:39+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]
