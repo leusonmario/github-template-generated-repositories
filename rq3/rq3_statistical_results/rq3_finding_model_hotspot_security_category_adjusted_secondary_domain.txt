@@ -1,0 +1,53 @@
+Formula: category_persistence_proportion ~ log2_commit_count + C(owner_type, Treatment(reference="Organization")) + C(language, Treatment(reference="TypeScript")) + C(category, Treatment(reference="OTHERS")) + C(domain_grouped, Treatment(reference="Web Development"))
+Rows: 6801
+Source templates: 370
+Generated repositories: 3236
+Languages: 5
+Categories: 11
+References: {'owner_type': 'Organization', 'language': 'TypeScript', 'category': 'OTHERS', 'domain_grouped': 'Web Development'}
+Converged: True
+
+                                    GEE Regression Results                                    
+==============================================================================================
+Dep. Variable:        category_persistence_proportion   No. Observations:                 6801
+Model:                                            GEE   No. clusters:                      370
+Method:                                   Generalized   Min. cluster size:                   1
+                                 Estimating Equations   Max. cluster size:                2826
+Family:                                      Binomial   Mean cluster size:                18.4
+Dependence structure:                    Independence   Num. iterations:                     2
+Date:                                Wed, 26 Aug 2026   Scale:                           1.000
+Covariance type:                               robust   Time:                         20:03:05
+================================================================================================================================================================
+                                                                                                   coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                                                       -0.8284      0.736     -1.126      0.260      -2.271       0.614
+C(owner_type, Treatment(reference="Organization"))[T.User]                                      -0.1678      0.416     -0.403      0.687      -0.984       0.648
+C(language, Treatment(reference="TypeScript"))[T.C#]                                             5.1056      1.575      3.241      0.001       2.018       8.193
+C(language, Treatment(reference="TypeScript"))[T.Java]                                           0.6426      1.001      0.642      0.521      -1.319       2.604
+C(language, Treatment(reference="TypeScript"))[T.JavaScript]                                     0.8640      0.549      1.575      0.115      -0.211       1.939
+C(language, Treatment(reference="TypeScript"))[T.Python]                                        -0.5406      0.596     -0.907      0.365      -1.709       0.628
+C(category, Treatment(reference="OTHERS"))[T.AUTH]                                               0.8683      0.632      1.374      0.169      -0.370       2.106
+C(category, Treatment(reference="OTHERS"))[T.COMMAND-INJECTION]                                 -1.9746      0.753     -2.624      0.009      -3.450      -0.500
+C(category, Treatment(reference="OTHERS"))[T.CSRF]                                               4.1778      1.190      3.511      0.000       1.846       6.510
+C(category, Treatment(reference="OTHERS"))[T.DOS]                                               -0.5383      0.823     -0.654      0.513      -2.151       1.075
+C(category, Treatment(reference="OTHERS"))[T.ENCRYPT-DATA]                                      -1.0588      0.564     -1.878      0.060      -2.164       0.046
+C(category, Treatment(reference="OTHERS"))[T.INSECURE-CONF]                                      1.1596      0.946      1.226      0.220      -0.694       3.013
+C(category, Treatment(reference="OTHERS"))[T.PERMISSION]                                         0.9967      0.823      1.211      0.226      -0.617       2.610
+C(category, Treatment(reference="OTHERS"))[T.RCE]                                                2.3559      0.862      2.732      0.006       0.666       4.046
+C(category, Treatment(reference="OTHERS"))[T.WEAK-CRYPTOGRAPHY]                                  1.5958      0.623      2.562      0.010       0.375       2.816
+C(category, Treatment(reference="OTHERS"))[T.XSS]                                                0.5098      0.757      0.674      0.500      -0.973       1.993
+C(domain_grouped, Treatment(reference="Web Development"))[T.Automation/DevOps]                   1.7444      1.029      1.695      0.090      -0.273       3.761
+C(domain_grouped, Treatment(reference="Web Development"))[T.Communication/Bots]                  2.4558      0.861      2.851      0.004       0.768       4.144
+C(domain_grouped, Treatment(reference="Web Development"))[T.Education]                           1.5400      0.908      1.695      0.090      -0.240       3.320
+C(domain_grouped, Treatment(reference="Web Development"))[T.Game Development]                    0.1284      0.700      0.184      0.854      -1.243       1.499
+C(domain_grouped, Treatment(reference="Web Development"))[T.Infrastructure/Cloud]                1.4774      1.104      1.338      0.181      -0.686       3.641
+C(domain_grouped, Treatment(reference="Web Development"))[T.Machine Learning/AI]                 2.4457      0.773      3.166      0.002       0.932       3.960
+C(domain_grouped, Treatment(reference="Web Development"))[T.Mobile Development]                  1.9363      1.201      1.612      0.107      -0.419       4.291
+C(domain_grouped, Treatment(reference="Web Development"))[T.Other]                               3.6977      1.063      3.478      0.001       1.614       5.781
+C(domain_grouped, Treatment(reference="Web Development"))[T.Plugin/Extensibility Frameworks]     1.0702      0.630      1.700      0.089      -0.164       2.304
+C(domain_grouped, Treatment(reference="Web Development"))[T.Regular Project]                     0.2654      0.585      0.453      0.650      -0.882       1.413
+log2_commit_count                                                                                0.0875      0.070      1.249      0.212      -0.050       0.225
+==============================================================================
+Skew:                         -0.1509   Kurtosis:                       1.1030
+Centered skew:                -0.2812   Centered kurtosis:              3.6810
+==============================================================================

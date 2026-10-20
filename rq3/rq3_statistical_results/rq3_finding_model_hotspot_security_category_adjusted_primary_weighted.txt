@@ -1,0 +1,43 @@
+Formula: category_persistence_proportion ~ log2_commit_count + C(owner_type, Treatment(reference="Organization")) + C(language, Treatment(reference="TypeScript")) + C(category, Treatment(reference="OTHERS"))
+Rows: 7029
+Source templates: 402
+Generated repositories: 3344
+Languages: 5
+Categories: 11
+References: {'owner_type': 'Organization', 'language': 'TypeScript', 'category': 'OTHERS'}
+Converged: True
+
+                                    GEE Regression Results                                    
+==============================================================================================
+Dep. Variable:        category_persistence_proportion   No. Observations:                 7029
+Model:                                            GEE   No. clusters:                      402
+Method:                                   Generalized   Min. cluster size:                   1
+                                 Estimating Equations   Max. cluster size:                2826
+Family:                                      Binomial   Mean cluster size:                17.5
+Dependence structure:                    Independence   Num. iterations:                     2
+Date:                                Wed, 26 Aug 2026   Scale:                           1.000
+Covariance type:                               robust   Time:                         20:03:04
+===================================================================================================================================
+                                                                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                           0.2872      0.814      0.353      0.724      -1.309       1.883
+C(owner_type, Treatment(reference="Organization"))[T.User]          1.0201      0.626      1.629      0.103      -0.207       2.248
+C(language, Treatment(reference="TypeScript"))[T.C#]                5.9047      1.417      4.168      0.000       3.128       8.681
+C(language, Treatment(reference="TypeScript"))[T.Java]              2.7139      1.424      1.906      0.057      -0.077       5.505
+C(language, Treatment(reference="TypeScript"))[T.JavaScript]        2.4673      0.694      3.554      0.000       1.107       3.828
+C(language, Treatment(reference="TypeScript"))[T.Python]            0.9288      0.777      1.196      0.232      -0.593       2.451
+C(category, Treatment(reference="OTHERS"))[T.AUTH]                 -0.4592      0.816     -0.563      0.574      -2.058       1.140
+C(category, Treatment(reference="OTHERS"))[T.COMMAND-INJECTION]    -2.8153      1.024     -2.750      0.006      -4.822      -0.809
+C(category, Treatment(reference="OTHERS"))[T.CSRF]                  3.4829      1.220      2.856      0.004       1.092       5.873
+C(category, Treatment(reference="OTHERS"))[T.DOS]                  -1.7138      0.945     -1.814      0.070      -3.566       0.138
+C(category, Treatment(reference="OTHERS"))[T.ENCRYPT-DATA]         -2.8902      1.015     -2.848      0.004      -4.879      -0.901
+C(category, Treatment(reference="OTHERS"))[T.INSECURE-CONF]        -0.5544      1.006     -0.551      0.581      -2.525       1.416
+C(category, Treatment(reference="OTHERS"))[T.PERMISSION]            0.2317      0.858      0.270      0.787      -1.450       1.913
+C(category, Treatment(reference="OTHERS"))[T.RCE]                   0.3492      1.127      0.310      0.757      -1.859       2.558
+C(category, Treatment(reference="OTHERS"))[T.WEAK-CRYPTOGRAPHY]     0.6475      0.821      0.788      0.430      -0.962       2.257
+C(category, Treatment(reference="OTHERS"))[T.XSS]                  -1.8609      1.078     -1.726      0.084      -3.974       0.252
+log2_commit_count                                                  -0.0487      0.079     -0.618      0.536      -0.203       0.106
+==============================================================================
+Skew:                         -0.3250   Kurtosis:                       1.7558
+Centered skew:                -0.0663   Centered kurtosis:              3.8154
+==============================================================================

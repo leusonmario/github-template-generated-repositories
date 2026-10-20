@@ -1,0 +1,41 @@
+Formula: category_persistence_proportion ~ log2_commit_count * C(category, Treatment(reference="MAJOR")) + C(owner_type, Treatment(reference="Organization")) + C(language, Treatment(reference="TypeScript"))
+Rows: 13980
+Source templates: 650
+Generated repositories: 4588
+Languages: 5
+Categories: 5
+References: {'owner_type': 'Organization', 'language': 'TypeScript', 'category': 'MAJOR'}
+Converged: True
+
+                                    GEE Regression Results                                    
+==============================================================================================
+Dep. Variable:        category_persistence_proportion   No. Observations:                13980
+Model:                                            GEE   No. clusters:                      650
+Method:                                   Generalized   Min. cluster size:                   1
+                                 Estimating Equations   Max. cluster size:                5652
+Family:                                      Binomial   Mean cluster size:                21.5
+Dependence structure:                    Independence   Num. iterations:                     2
+Date:                                Wed, 26 Aug 2026   Scale:                           1.000
+Covariance type:                               robust   Time:                         20:03:04
+===========================================================================================================================================
+                                                                              coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                                   0.8701      0.649      1.340      0.180      -0.403       2.143
+C(category, Treatment(reference="MAJOR"))[T.BLOCKER]                       -1.4179      1.490     -0.952      0.341      -4.338       1.502
+C(category, Treatment(reference="MAJOR"))[T.CRITICAL]                       0.7538      0.553      1.363      0.173      -0.331       1.838
+C(category, Treatment(reference="MAJOR"))[T.INFO]                           1.3942      1.095      1.273      0.203      -0.752       3.540
+C(category, Treatment(reference="MAJOR"))[T.MINOR]                          0.1651      0.341      0.484      0.628      -0.503       0.833
+C(owner_type, Treatment(reference="Organization"))[T.User]                 -0.4100      0.338     -1.213      0.225      -1.072       0.252
+C(language, Treatment(reference="TypeScript"))[T.C#]                        6.4686      1.320      4.899      0.000       3.881       9.056
+C(language, Treatment(reference="TypeScript"))[T.Java]                     -3.3385      1.046     -3.192      0.001      -5.388      -1.289
+C(language, Treatment(reference="TypeScript"))[T.JavaScript]                2.1568      0.593      3.640      0.000       0.995       3.318
+C(language, Treatment(reference="TypeScript"))[T.Python]                    0.0327      0.453      0.072      0.943      -0.855       0.920
+log2_commit_count                                                          -0.0115      0.092     -0.126      0.900      -0.192       0.168
+log2_commit_count:C(category, Treatment(reference="MAJOR"))[T.BLOCKER]      0.5398      0.538      1.004      0.315      -0.514       1.594
+log2_commit_count:C(category, Treatment(reference="MAJOR"))[T.CRITICAL]     0.0417      0.094      0.441      0.659      -0.143       0.227
+log2_commit_count:C(category, Treatment(reference="MAJOR"))[T.INFO]        -0.4830      0.312     -1.550      0.121      -1.094       0.128
+log2_commit_count:C(category, Treatment(reference="MAJOR"))[T.MINOR]       -0.1053      0.069     -1.529      0.126      -0.240       0.030
+==============================================================================
+Skew:                         -0.6960   Kurtosis:                       1.8416
+Centered skew:                -0.6933   Centered kurtosis:              4.3947
+==============================================================================

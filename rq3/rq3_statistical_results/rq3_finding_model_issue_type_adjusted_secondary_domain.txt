@@ -1,0 +1,45 @@
+Formula: category_persistence_proportion ~ log2_commit_count + C(owner_type, Treatment(reference="Organization")) + C(language, Treatment(reference="TypeScript")) + C(category, Treatment(reference="CODE_SMELL")) + C(domain_grouped, Treatment(reference="Web Development"))
+Rows: 6291
+Source templates: 606
+Generated repositories: 4462
+Languages: 5
+Categories: 3
+References: {'owner_type': 'Organization', 'language': 'TypeScript', 'category': 'CODE_SMELL', 'domain_grouped': 'Web Development'}
+Converged: True
+
+                                    GEE Regression Results                                    
+==============================================================================================
+Dep. Variable:        category_persistence_proportion   No. Observations:                 6291
+Model:                                            GEE   No. clusters:                      606
+Method:                                   Generalized   Min. cluster size:                   1
+                                 Estimating Equations   Max. cluster size:                1413
+Family:                                      Binomial   Mean cluster size:                10.4
+Dependence structure:                    Independence   Num. iterations:                     2
+Date:                                Wed, 26 Aug 2026   Scale:                           1.000
+Covariance type:                               robust   Time:                         20:03:02
+================================================================================================================================================================
+                                                                                                   coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                                                        0.4128      0.664      0.622      0.534      -0.889       1.714
+C(owner_type, Treatment(reference="Organization"))[T.User]                                       0.2032      0.352      0.577      0.564      -0.487       0.893
+C(language, Treatment(reference="TypeScript"))[T.C#]                                             8.5247      1.794      4.751      0.000       5.008      12.042
+C(language, Treatment(reference="TypeScript"))[T.Java]                                          -2.4088      0.925     -2.603      0.009      -4.223      -0.595
+C(language, Treatment(reference="TypeScript"))[T.JavaScript]                                     1.4916      0.589      2.531      0.011       0.336       2.647
+C(language, Treatment(reference="TypeScript"))[T.Python]                                        -1.2401      0.592     -2.096      0.036      -2.400      -0.080
+C(category, Treatment(reference="CODE_SMELL"))[T.BUG]                                            0.5977      0.423      1.411      0.158      -0.232       1.428
+C(category, Treatment(reference="CODE_SMELL"))[T.VULNERABILITY]                                 -0.0707      0.460     -0.154      0.878      -0.972       0.830
+C(domain_grouped, Treatment(reference="Web Development"))[T.Automation/DevOps]                   0.3992      0.888      0.449      0.653      -1.342       2.140
+C(domain_grouped, Treatment(reference="Web Development"))[T.Communication/Bots]                  1.2749      0.562      2.268      0.023       0.173       2.377
+C(domain_grouped, Treatment(reference="Web Development"))[T.Education]                           2.6074      0.762      3.423      0.001       1.114       4.100
+C(domain_grouped, Treatment(reference="Web Development"))[T.Game Development]                   -1.8119      0.776     -2.334      0.020      -3.333      -0.290
+C(domain_grouped, Treatment(reference="Web Development"))[T.Infrastructure/Cloud]               -0.7813      1.067     -0.732      0.464      -2.872       1.310
+C(domain_grouped, Treatment(reference="Web Development"))[T.Machine Learning/AI]                 0.9954      1.186      0.839      0.401      -1.330       3.321
+C(domain_grouped, Treatment(reference="Web Development"))[T.Mobile Development]                 -1.0955      0.617     -1.777      0.076      -2.304       0.113
+C(domain_grouped, Treatment(reference="Web Development"))[T.Other]                               2.7337      0.381      7.172      0.000       1.987       3.481
+C(domain_grouped, Treatment(reference="Web Development"))[T.Plugin/Extensibility Frameworks]    -1.2085      0.669     -1.808      0.071      -2.519       0.102
+C(domain_grouped, Treatment(reference="Web Development"))[T.Regular Project]                    -0.2485      0.526     -0.473      0.636      -1.279       0.782
+log2_commit_count                                                                                0.0313      0.074      0.420      0.674      -0.115       0.177
+==============================================================================
+Skew:                         -0.5063   Kurtosis:                       0.8619
+Centered skew:                -0.6150   Centered kurtosis:              3.1449
+==============================================================================

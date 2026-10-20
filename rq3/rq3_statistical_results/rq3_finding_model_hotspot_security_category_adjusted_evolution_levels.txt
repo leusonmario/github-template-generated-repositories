@@ -1,0 +1,44 @@
+Formula: category_persistence_proportion ~ C(evolution_level, Treatment(reference="Slightly evolved")) + C(owner_type, Treatment(reference="Organization")) + C(language, Treatment(reference="TypeScript")) + C(category, Treatment(reference="OTHERS"))
+Rows: 7029
+Source templates: 402
+Generated repositories: 3344
+Languages: 5
+Categories: 11
+References: {'evolution_level': 'Slightly evolved', 'owner_type': 'Organization', 'language': 'TypeScript', 'category': 'OTHERS'}
+Converged: True
+
+                                    GEE Regression Results                                    
+==============================================================================================
+Dep. Variable:        category_persistence_proportion   No. Observations:                 7029
+Model:                                            GEE   No. clusters:                      402
+Method:                                   Generalized   Min. cluster size:                   1
+                                 Estimating Equations   Max. cluster size:                2826
+Family:                                      Binomial   Mean cluster size:                17.5
+Dependence structure:                    Independence   Num. iterations:                     2
+Date:                                Wed, 26 Aug 2026   Scale:                           1.000
+Covariance type:                               robust   Time:                         20:03:04
+========================================================================================================================================================
+                                                                                           coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                                                0.1980      0.745      0.266      0.790      -1.262       1.658
+C(evolution_level, Treatment(reference="Slightly evolved"))[T.Moderately evolved]        0.1966      0.277      0.710      0.478      -0.346       0.739
+C(evolution_level, Treatment(reference="Slightly evolved"))[T.Substantially evolved]    -0.5048      0.390     -1.293      0.196      -1.270       0.260
+C(owner_type, Treatment(reference="Organization"))[T.User]                               1.0248      0.627      1.634      0.102      -0.204       2.254
+C(language, Treatment(reference="TypeScript"))[T.C#]                                     5.9366      1.416      4.194      0.000       3.162       8.711
+C(language, Treatment(reference="TypeScript"))[T.Java]                                   2.7286      1.398      1.951      0.051      -0.012       5.469
+C(language, Treatment(reference="TypeScript"))[T.JavaScript]                             2.4274      0.695      3.494      0.000       1.066       3.789
+C(language, Treatment(reference="TypeScript"))[T.Python]                                 0.9125      0.772      1.183      0.237      -0.600       2.425
+C(category, Treatment(reference="OTHERS"))[T.AUTH]                                      -0.4419      0.830     -0.532      0.594      -2.069       1.185
+C(category, Treatment(reference="OTHERS"))[T.COMMAND-INJECTION]                         -2.7961      1.032     -2.711      0.007      -4.818      -0.774
+C(category, Treatment(reference="OTHERS"))[T.CSRF]                                       3.3788      1.209      2.795      0.005       1.009       5.748
+C(category, Treatment(reference="OTHERS"))[T.DOS]                                       -1.7149      0.942     -1.820      0.069      -3.562       0.132
+C(category, Treatment(reference="OTHERS"))[T.ENCRYPT-DATA]                              -2.8698      1.004     -2.859      0.004      -4.837      -0.902
+C(category, Treatment(reference="OTHERS"))[T.INSECURE-CONF]                             -0.5038      0.997     -0.505      0.613      -2.458       1.451
+C(category, Treatment(reference="OTHERS"))[T.PERMISSION]                                 0.2067      0.853      0.242      0.809      -1.466       1.879
+C(category, Treatment(reference="OTHERS"))[T.RCE]                                        0.3879      1.125      0.345      0.730      -1.817       2.593
+C(category, Treatment(reference="OTHERS"))[T.WEAK-CRYPTOGRAPHY]                          0.5773      0.811      0.712      0.476      -1.012       2.166
+C(category, Treatment(reference="OTHERS"))[T.XSS]                                       -1.8082      1.096     -1.650      0.099      -3.955       0.339
+==============================================================================
+Skew:                         -0.3266   Kurtosis:                       1.7391
+Centered skew:                -0.0667   Centered kurtosis:              3.8105
+==============================================================================

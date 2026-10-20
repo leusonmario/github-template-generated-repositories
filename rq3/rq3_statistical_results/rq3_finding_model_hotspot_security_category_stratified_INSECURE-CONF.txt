@@ -1,0 +1,33 @@
+Formula: category_persistence_proportion ~ log2_commit_count + C(owner_type, Treatment(reference="Organization")) + C(language, Treatment(reference="TypeScript"))
+Rows: 96
+Source templates: 29
+Generated repositories: 96
+Languages: 5
+Categories: 1
+References: {'owner_type': 'Organization', 'language': 'TypeScript'}
+Converged: True
+
+                                    GEE Regression Results                                    
+==============================================================================================
+Dep. Variable:        category_persistence_proportion   No. Observations:                   96
+Model:                                            GEE   No. clusters:                       29
+Method:                                   Generalized   Min. cluster size:                   1
+                                 Estimating Equations   Max. cluster size:                  18
+Family:                                      Binomial   Mean cluster size:                 3.3
+Dependence structure:                    Independence   Num. iterations:                     2
+Date:                                Wed, 26 Aug 2026   Scale:                           1.000
+Covariance type:                               robust   Time:                         20:03:07
+================================================================================================================================
+                                                                   coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                        1.8773      0.951      1.974      0.048       0.013       3.742
+C(owner_type, Treatment(reference="Organization"))[T.User]      -1.2952      0.984     -1.316      0.188      -3.224       0.634
+C(language, Treatment(reference="TypeScript"))[T.C#]            22.1493      1.347     16.440      0.000      19.509      24.790
+C(language, Treatment(reference="TypeScript"))[T.Java]          22.7558      1.018     22.356      0.000      20.761      24.751
+C(language, Treatment(reference="TypeScript"))[T.JavaScript]     3.5745      0.741      4.827      0.000       2.123       5.026
+C(language, Treatment(reference="TypeScript"))[T.Python]         0.8936      1.048      0.853      0.394      -1.161       2.948
+log2_commit_count                                               -0.2906      0.160     -1.821      0.069      -0.603       0.022
+==============================================================================
+Skew:                         -0.6271   Kurtosis:                      -0.3643
+Centered skew:                 0.1301   Centered kurtosis:              9.8376
+==============================================================================

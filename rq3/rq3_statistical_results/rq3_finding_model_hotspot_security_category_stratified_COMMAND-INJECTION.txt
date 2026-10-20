@@ -1,0 +1,30 @@
+Formula: category_persistence_proportion ~ log2_commit_count + C(owner_type, Treatment(reference="Organization")) + C(language, Treatment(reference="TypeScript"))
+Rows: 166
+Source templates: 31
+Generated repositories: 166
+Languages: 2
+Categories: 1
+References: {'owner_type': 'Organization', 'language': 'TypeScript'}
+Converged: True
+
+                                    GEE Regression Results                                    
+==============================================================================================
+Dep. Variable:        category_persistence_proportion   No. Observations:                  166
+Model:                                            GEE   No. clusters:                       31
+Method:                                   Generalized   Min. cluster size:                   1
+                                 Estimating Equations   Max. cluster size:                  20
+Family:                                      Binomial   Mean cluster size:                 5.4
+Dependence structure:                    Independence   Num. iterations:                     2
+Date:                                Wed, 26 Aug 2026   Scale:                           1.000
+Covariance type:                               robust   Time:                         20:03:06
+================================================================================================================================
+                                                                   coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                        0.2608      1.186      0.220      0.826      -2.063       2.585
+C(owner_type, Treatment(reference="Organization"))[T.User]      -0.6375      1.086     -0.587      0.557      -2.766       1.491
+C(language, Treatment(reference="TypeScript"))[T.JavaScript]    -1.0853      1.155     -0.939      0.348      -3.350       1.179
+log2_commit_count                                               -0.0185      0.111     -0.166      0.868      -0.237       0.200
+==============================================================================
+Skew:                          0.2903   Kurtosis:                      -1.6160
+Centered skew:                -1.2519   Centered kurtosis:             10.8010
+==============================================================================

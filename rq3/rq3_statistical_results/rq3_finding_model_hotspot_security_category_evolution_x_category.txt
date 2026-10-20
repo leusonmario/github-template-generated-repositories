@@ -1,0 +1,53 @@
+Formula: category_persistence_proportion ~ log2_commit_count * C(category, Treatment(reference="OTHERS")) + C(owner_type, Treatment(reference="Organization")) + C(language, Treatment(reference="TypeScript"))
+Rows: 7029
+Source templates: 402
+Generated repositories: 3344
+Languages: 5
+Categories: 11
+References: {'owner_type': 'Organization', 'language': 'TypeScript', 'category': 'OTHERS'}
+Converged: True
+
+                                    GEE Regression Results                                    
+==============================================================================================
+Dep. Variable:        category_persistence_proportion   No. Observations:                 7029
+Model:                                            GEE   No. clusters:                      402
+Method:                                   Generalized   Min. cluster size:                   1
+                                 Estimating Equations   Max. cluster size:                2826
+Family:                                      Binomial   Mean cluster size:                17.5
+Dependence structure:                    Independence   Num. iterations:                     2
+Date:                                Wed, 26 Aug 2026   Scale:                           1.000
+Covariance type:                               robust   Time:                         20:03:05
+=====================================================================================================================================================
+                                                                                        coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                                             0.8973      1.086      0.826      0.409      -1.232       3.026
+C(category, Treatment(reference="OTHERS"))[T.AUTH]                                   -1.3006      1.214     -1.071      0.284      -3.680       1.079
+C(category, Treatment(reference="OTHERS"))[T.COMMAND-INJECTION]                      -4.3619      1.394     -3.129      0.002      -7.094      -1.630
+C(category, Treatment(reference="OTHERS"))[T.CSRF]                                    1.7437      5.393      0.323      0.746      -8.826      12.314
+C(category, Treatment(reference="OTHERS"))[T.DOS]                                    -2.0507      1.476     -1.389      0.165      -4.944       0.842
+C(category, Treatment(reference="OTHERS"))[T.ENCRYPT-DATA]                           -4.0185      1.455     -2.762      0.006      -6.871      -1.166
+C(category, Treatment(reference="OTHERS"))[T.INSECURE-CONF]                          -0.1028      1.784     -0.058      0.954      -3.599       3.394
+C(category, Treatment(reference="OTHERS"))[T.PERMISSION]                             -0.2868      1.260     -0.228      0.820      -2.756       2.182
+C(category, Treatment(reference="OTHERS"))[T.RCE]                                     0.4934      1.679      0.294      0.769      -2.798       3.784
+C(category, Treatment(reference="OTHERS"))[T.WEAK-CRYPTOGRAPHY]                       0.1707      1.276      0.134      0.894      -2.330       2.671
+C(category, Treatment(reference="OTHERS"))[T.XSS]                                    -4.4190      1.864     -2.371      0.018      -8.071      -0.766
+C(owner_type, Treatment(reference="Organization"))[T.User]                            0.9370      0.595      1.575      0.115      -0.229       2.103
+C(language, Treatment(reference="TypeScript"))[T.C#]                                  5.7797      1.409      4.102      0.000       3.018       8.541
+C(language, Treatment(reference="TypeScript"))[T.Java]                                2.6315      1.417      1.857      0.063      -0.146       5.409
+C(language, Treatment(reference="TypeScript"))[T.JavaScript]                          2.4619      0.697      3.535      0.000       1.097       3.827
+C(language, Treatment(reference="TypeScript"))[T.Python]                              0.9078      0.780      1.164      0.244      -0.621       2.436
+log2_commit_count                                                                    -0.2531      0.192     -1.316      0.188      -0.630       0.124
+log2_commit_count:C(category, Treatment(reference="OTHERS"))[T.AUTH]                  0.2783      0.207      1.343      0.179      -0.128       0.684
+log2_commit_count:C(category, Treatment(reference="OTHERS"))[T.COMMAND-INJECTION]     0.5088      0.241      2.115      0.034       0.037       0.980
+log2_commit_count:C(category, Treatment(reference="OTHERS"))[T.CSRF]                  0.6384      2.141      0.298      0.766      -3.559       4.835
+log2_commit_count:C(category, Treatment(reference="OTHERS"))[T.DOS]                   0.1426      0.214      0.666      0.505      -0.277       0.562
+log2_commit_count:C(category, Treatment(reference="OTHERS"))[T.ENCRYPT-DATA]          0.4323      0.215      2.009      0.045       0.011       0.854
+log2_commit_count:C(category, Treatment(reference="OTHERS"))[T.INSECURE-CONF]        -0.1064      0.276     -0.386      0.699      -0.646       0.434
+log2_commit_count:C(category, Treatment(reference="OTHERS"))[T.PERMISSION]            0.1758      0.194      0.907      0.365      -0.204       0.556
+log2_commit_count:C(category, Treatment(reference="OTHERS"))[T.RCE]                  -0.0186      0.226     -0.082      0.934      -0.462       0.425
+log2_commit_count:C(category, Treatment(reference="OTHERS"))[T.WEAK-CRYPTOGRAPHY]     0.1695      0.246      0.688      0.492      -0.313       0.652
+log2_commit_count:C(category, Treatment(reference="OTHERS"))[T.XSS]                   0.7610      0.467      1.631      0.103      -0.154       1.675
+==============================================================================
+Skew:                         -0.3471   Kurtosis:                       1.7462
+Centered skew:                -0.0736   Centered kurtosis:              3.8843
+==============================================================================

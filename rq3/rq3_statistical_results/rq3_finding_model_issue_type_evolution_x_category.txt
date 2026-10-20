@@ -1,0 +1,37 @@
+Formula: category_persistence_proportion ~ log2_commit_count * C(category, Treatment(reference="CODE_SMELL")) + C(owner_type, Treatment(reference="Organization")) + C(language, Treatment(reference="TypeScript"))
+Rows: 6509
+Source templates: 650
+Generated repositories: 4588
+Languages: 5
+Categories: 3
+References: {'owner_type': 'Organization', 'language': 'TypeScript', 'category': 'CODE_SMELL'}
+Converged: True
+
+                                    GEE Regression Results                                    
+==============================================================================================
+Dep. Variable:        category_persistence_proportion   No. Observations:                 6509
+Model:                                            GEE   No. clusters:                      650
+Method:                                   Generalized   Min. cluster size:                   1
+                                 Estimating Equations   Max. cluster size:                1413
+Family:                                      Binomial   Mean cluster size:                10.0
+Dependence structure:                    Independence   Num. iterations:                     2
+Date:                                Wed, 26 Aug 2026   Scale:                           1.000
+Covariance type:                               robust   Time:                         20:03:02
+=====================================================================================================================================================
+                                                                                        coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                                             0.9992      0.517      1.931      0.053      -0.015       2.013
+C(category, Treatment(reference="CODE_SMELL"))[T.BUG]                                -1.6846      1.065     -1.582      0.114      -3.772       0.402
+C(category, Treatment(reference="CODE_SMELL"))[T.VULNERABILITY]                      -1.2287      0.537     -2.288      0.022      -2.281      -0.176
+C(owner_type, Treatment(reference="Organization"))[T.User]                           -0.3712      0.330     -1.126      0.260      -1.017       0.275
+C(language, Treatment(reference="TypeScript"))[T.C#]                                  6.5576      1.313      4.995      0.000       3.984       9.131
+C(language, Treatment(reference="TypeScript"))[T.Java]                               -3.0933      1.014     -3.051      0.002      -5.080      -1.106
+C(language, Treatment(reference="TypeScript"))[T.JavaScript]                          2.4540      0.665      3.691      0.000       1.151       3.757
+C(language, Treatment(reference="TypeScript"))[T.Python]                              0.3513      0.423      0.831      0.406      -0.478       1.180
+log2_commit_count                                                                    -0.0723      0.046     -1.585      0.113      -0.162       0.017
+log2_commit_count:C(category, Treatment(reference="CODE_SMELL"))[T.BUG]               0.4978      0.371      1.342      0.180      -0.229       1.225
+log2_commit_count:C(category, Treatment(reference="CODE_SMELL"))[T.VULNERABILITY]     0.1950      0.128      1.520      0.129      -0.056       0.446
+==============================================================================
+Skew:                         -0.5488   Kurtosis:                       0.5256
+Centered skew:                -0.4456   Centered kurtosis:              2.7099
+==============================================================================
