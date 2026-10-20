@@ -1132,3 +1132,5 @@ def generate_charts(
 
 if __name__ == "__main__":
     main()
+
+# python -u check_evolution_multi_language.py --templates_dir ../data_collection --generated_dir reports --output_dir multi_language_evolution_results

@@ -1206,3 +1206,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# python -u analyze_evolution_by_template_ownership_combined_chart.py
+# --templates_dir ../data_collection
+# --generated_dir reports
+# --output_dir ownership_evolution_results
