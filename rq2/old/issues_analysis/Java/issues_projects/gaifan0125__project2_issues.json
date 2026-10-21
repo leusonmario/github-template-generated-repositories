@@ -1,0 +1,5360 @@
+[
+  {
+    "key": "860a80fe-fcb1-4d9b-9cd0-268862b18b4d",
+    "rule": "kotlin:S6624",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/build.gradle.kts",
+    "project": "gaifan0125__project2",
+    "line": 15,
+    "hash": "06b856a0f914b13c3ffdc38cc8c8811c",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 37,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not hardcode version numbers.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "gradle"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "71e6ad2b-f3e2-45ec-9fbf-4bec7d3c08ff",
+    "rule": "java:S2589",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/dto/AuthInfo.java",
+    "project": "gaifan0125__project2",
+    "line": 51,
+    "hash": "e90c05481260db627b85f0c080979e3e",
+    "textRange": {
+      "startLine": 51,
+      "endLine": 51,
+      "startOffset": 18,
+      "endOffset": 30
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/dto/AuthInfo.java",
+            "textRange": {
+              "startLine": 51,
+              "endLine": 51,
+              "startOffset": 18,
+              "endOffset": 30
+            },
+            "msg": "Expression is always true.",
+            "msgFormattings": []
+          },
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/dto/AuthInfo.java",
+            "textRange": {
+              "startLine": 47,
+              "endLine": 47,
+              "startOffset": 22,
+              "endOffset": 34
+            },
+            "msg": "Implies 'wechat' is true.",
+            "msgFormattings": []
+          },
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/dto/AuthInfo.java",
+            "textRange": {
+              "startLine": 47,
+              "endLine": 47,
+              "startOffset": 22,
+              "endOffset": 34
+            },
+            "msg": "Implies 'wechat' can be null.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Remove this expression which always evaluates to \"true\"",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "symbolic-execution",
+      "suspicious",
+      "redundant"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cd82e9fa-af51-4992-b31a-87fcf8b9e7d2",
+    "rule": "java:S2095",
+    "severity": "BLOCKER",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/dto/AuthInfo.java",
+    "project": "gaifan0125__project2",
+    "line": 55,
+    "hash": "325cbf8e8bc2139fcebdf14c07600b50",
+    "textRange": {
+      "startLine": 55,
+      "endLine": 55,
+      "startOffset": 35,
+      "endOffset": 60
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use try-with-resources or close this \"PreparedStatement\" in a \"finally\" clause.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "symbolic-execution",
+      "leak",
+      "denial-of-service",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b6102af1-3c3c-4bdf-92ac-e83fab7dbdee",
+    "rule": "java:S2095",
+    "severity": "BLOCKER",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/dto/AuthInfo.java",
+    "project": "gaifan0125__project2",
+    "line": 56,
+    "hash": "800f5d92bda55903f087e0ca74e25d5d",
+    "textRange": {
+      "startLine": 56,
+      "endLine": 56,
+      "startOffset": 36,
+      "endOffset": 62
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use try-with-resources or close this \"PreparedStatement\" in a \"finally\" clause.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "symbolic-execution",
+      "leak",
+      "denial-of-service",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5c494edb-1590-457d-b0a8-00b1d8fb46c4",
+    "rule": "java:S1126",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/dto/AuthInfo.java",
+    "project": "gaifan0125__project2",
+    "line": 62,
+    "hash": "3e4da2c832555589cf56bb9b7c80e634",
+    "textRange": {
+      "startLine": 62,
+      "endLine": 62,
+      "startOffset": 12,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this if-then-else statement by a single return statement.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "clumsy"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1d62414d-14b0-4e04-a62b-f1a9030f7dc4",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/dto/AuthInfo.java",
+    "project": "gaifan0125__project2",
+    "line": 66,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 66,
+      "endLine": 66,
+      "startOffset": 22,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "60d256b8-9cbf-4033-83d3-416d5cb16bf8",
+    "rule": "java:S2095",
+    "severity": "BLOCKER",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/dto/AuthInfo.java",
+    "project": "gaifan0125__project2",
+    "line": 73,
+    "hash": "325cbf8e8bc2139fcebdf14c07600b50",
+    "textRange": {
+      "startLine": 73,
+      "endLine": 73,
+      "startOffset": 36,
+      "endOffset": 61
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use try-with-resources or close this \"PreparedStatement\" in a \"finally\" clause.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "symbolic-execution",
+      "leak",
+      "denial-of-service",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9244f292-6b09-474d-bd41-33c430302a51",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/dto/AuthInfo.java",
+    "project": "gaifan0125__project2",
+    "line": 80,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 80,
+      "endLine": 80,
+      "startOffset": 22,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9b610bf7-0888-4932-aecc-98cf9e669d58",
+    "rule": "java:S1135",
+    "severity": "INFO",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 45,
+    "hash": "8d09648d7bfa3cd7eb34e80586d7bc91",
+    "textRange": {
+      "startLine": 45,
+      "endLine": 45,
+      "startOffset": 0,
+      "endOffset": 68
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this TODO comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e0c8652c-144b-4d0a-a365-7d90f3bef7cb",
+    "rule": "java:S2095",
+    "severity": "BLOCKER",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 57,
+    "hash": "5e9d808825069cc152d4cc70cfdcd350",
+    "textRange": {
+      "startLine": 57,
+      "endLine": 57,
+      "startOffset": 28,
+      "endOffset": 54
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use try-with-resources or close this \"Connection\" in a \"finally\" clause.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "symbolic-execution",
+      "leak",
+      "denial-of-service",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "00256918-5f37-49cc-b192-9b384526cd4b",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 87,
+    "hash": "f10e2d3bcad629751be6bd33db28ba3f",
+    "textRange": {
+      "startLine": 87,
+      "endLine": 87,
+      "startOffset": 12,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c01debe7-ecde-4a14-9f48-94766159499c",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 88,
+    "hash": "5fc165dbe2c1b4b88489e0ec44d9380c",
+    "textRange": {
+      "startLine": 88,
+      "endLine": 88,
+      "startOffset": 12,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d283819e-ca80-4e01-842f-538b41a5be4b",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 89,
+    "hash": "f442e272af4e4ac4937ec10057e1bffc",
+    "textRange": {
+      "startLine": 89,
+      "endLine": 89,
+      "startOffset": 12,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "34bb0ea3-959e-49c1-9ce7-dfdaa2273d1d",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 91,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 91,
+      "endLine": 91,
+      "startOffset": 22,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4040c525-6fee-4fa7-aea0-a150e7590774",
+    "rule": "java:S2147",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 92,
+    "hash": "eb375774c265dedeefeb29283ceea9bc",
+    "textRange": {
+      "startLine": 92,
+      "endLine": 92,
+      "startOffset": 17,
+      "endOffset": 39
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+            "textRange": {
+              "startLine": 90,
+              "endLine": 92,
+              "startOffset": 10,
+              "endOffset": 9
+            },
+            "msg": "Combine with this catch",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Combine this catch with the one at line 90, which has the same body. (sonar.java.source not set. Assuming 7 or greater.)",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "clumsy"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e2075591-b600-4671-8737-1ca91a1c68cd",
+    "rule": "java:S2142",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 92,
+    "hash": "eb375774c265dedeefeb29283ceea9bc",
+    "textRange": {
+      "startLine": 92,
+      "endLine": 92,
+      "startOffset": 17,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Either re-interrupt this method or rethrow the \"InterruptedException\" that can be caught here.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "multi-threading"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "289ab57d-0421-416f-9d85-cb2c573bee4e",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 93,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 93,
+      "endLine": 93,
+      "startOffset": 22,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6c60e068-02f8-4cd5-9308-beecf820eebd",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 128,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 128,
+      "endLine": 128,
+      "startOffset": 22,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3a958947-794a-46fe-9648-fe11f28481cf",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/DatabaseServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 146,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 146,
+      "endLine": 146,
+      "startOffset": 22,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "969e1ae6-253c-4df8-b300-81cbb4ee6ece",
+    "rule": "java:S1168",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/RecommenderServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 25,
+    "hash": "04306a25016da10a56f8d0211effb02b",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 36,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Return an empty collection instead of null.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "743220cc-993d-437a-aa22-8e374c117929",
+    "rule": "java:S2095",
+    "severity": "BLOCKER",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/RecommenderServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 35,
+    "hash": "f13aa4e298c8423c6886ee28d15df8ef",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 36,
+      "endOffset": 62
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use try-with-resources or close this \"PreparedStatement\" in a \"finally\" clause.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "symbolic-execution",
+      "leak",
+      "denial-of-service",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e4ec5e88-e337-475c-91a4-bad0aecb2b25",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/RecommenderServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 50,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 50,
+      "endLine": 50,
+      "startOffset": 23,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a5986533-d6aa-4c13-a32d-a0e09bc8d330",
+    "rule": "java:S1168",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/RecommenderServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 57,
+    "hash": "0bfbec0a1efbb727f0406cdec3a89a44",
+    "textRange": {
+      "startLine": 57,
+      "endLine": 57,
+      "startOffset": 45,
+      "endOffset": 49
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Return an empty collection instead of null.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "aa7cc616-d8b3-485e-b05c-7d9b6aa445b3",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/RecommenderServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 78,
+    "hash": "bd4596fe7c99fb546c0448987437db68",
+    "textRange": {
+      "startLine": 78,
+      "endLine": 78,
+      "startOffset": 36,
+      "endOffset": 46
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/RecommenderServiceImpl.java",
+            "textRange": {
+              "startLine": 78,
+              "endLine": 78,
+              "startOffset": 36,
+              "endOffset": 46
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/RecommenderServiceImpl.java",
+            "textRange": {
+              "startLine": 112,
+              "endLine": 112,
+              "startOffset": 41,
+              "endOffset": 51
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/RecommenderServiceImpl.java",
+            "textRange": {
+              "startLine": 154,
+              "endLine": 154,
+              "startOffset": 35,
+              "endOffset": 45
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \" offset \" 3 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1d10bcdb-2376-4902-8c56-a3ff94559d76",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/RecommenderServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 90,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 90,
+      "endLine": 90,
+      "startOffset": 24,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "da66ace5-b214-46a5-afe5-2761c0d97f32",
+    "rule": "java:S1168",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/RecommenderServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 118,
+    "hash": "ee11573e5bd436bbc8236d2a899fb231",
+    "textRange": {
+      "startLine": 118,
+      "endLine": 118,
+      "startOffset": 73,
+      "endOffset": 77
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Return an empty collection instead of null.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "834fd9fa-86b4-4322-b16b-eb1fc9f4bd0a",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/RecommenderServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 134,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 134,
+      "endLine": 134,
+      "startOffset": 27,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dbebb703-fb95-4dc9-82ef-b074ccbe2565",
+    "rule": "java:S1168",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/RecommenderServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 160,
+    "hash": "ee11573e5bd436bbc8236d2a899fb231",
+    "textRange": {
+      "startLine": 160,
+      "endLine": 160,
+      "startOffset": 68,
+      "endOffset": 72
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Return an empty collection instead of null.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "71ecaa67-650b-4bdb-b82b-4630e0102092",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/RecommenderServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 176,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 176,
+      "endLine": 176,
+      "startOffset": 22,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "266f425b-632f-41e9-8746-f453a0c41c90",
+    "rule": "java:S6541",
+    "severity": "INFO",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 31,
+    "hash": "4d8584e099a0c1f95646b4ef408dad16",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 24,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A \"Brain Method\" was detected. Refactor it to reduce at least one of the following metrics: LOC from 77 to 64, Complexity from 22 to 14, Nesting Level from 3 to 2, Number of Variables from 28 to 6.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "design",
+      "architecture"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c2490d0d-e255-4563-b6b9-dd85ee479c30",
+    "rule": "java:S3776",
+    "severity": "CRITICAL",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 31,
+    "hash": "4d8584e099a0c1f95646b4ef408dad16",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 24,
+      "endOffset": 35
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 36,
+              "endLine": 36,
+              "startOffset": 10,
+              "endOffset": 15
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 39,
+              "endLine": 39,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 40,
+              "endLine": 40,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 40,
+              "endLine": 40,
+              "startOffset": 26,
+              "endOffset": 28
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 41,
+              "endLine": 41,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 41,
+              "endLine": 41,
+              "startOffset": 22,
+              "endOffset": 24
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 46,
+              "endLine": 46,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 49,
+              "endLine": 49,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 52,
+              "endLine": 52,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 53,
+              "endLine": 53,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 55,
+              "endLine": 55,
+              "startOffset": 13,
+              "endOffset": 17
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 60,
+              "endLine": 60,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 61,
+              "endLine": 61,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 63,
+              "endLine": 63,
+              "startOffset": 13,
+              "endOffset": 17
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 68,
+              "endLine": 68,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 69,
+              "endLine": 69,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 71,
+              "endLine": 71,
+              "startOffset": 13,
+              "endOffset": 17
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 76,
+              "endLine": 76,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 77,
+              "endLine": 77,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 79,
+              "endLine": 79,
+              "startOffset": 13,
+              "endOffset": 17
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 89,
+              "endLine": 89,
+              "startOffset": 12,
+              "endOffset": 17
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 100,
+              "endLine": 100,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 100,
+              "endLine": 100,
+              "startOffset": 37,
+              "endOffset": 39
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 100,
+              "endLine": 100,
+              "startOffset": 88,
+              "endOffset": 90
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 100,
+              "endLine": 100,
+              "startOffset": 114,
+              "endOffset": 116
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 102,
+              "endLine": 102,
+              "startOffset": 17,
+              "endOffset": 21
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 111,
+              "endLine": 111,
+              "startOffset": 10,
+              "endOffset": 15
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.",
+    "effort": "22min",
+    "debt": "22min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "70d654c7-bb15-4477-9721-b084d970908a",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 37,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 37,
+      "endLine": 37,
+      "startOffset": 22,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "449eb290-2abe-43eb-815a-7ef3fc2965d9",
+    "rule": "java:S1168",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 39,
+    "hash": "e4c971fd65734817f062ec7141812e25",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 39,
+      "startOffset": 39,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Return an empty collection instead of null.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "de772ee7-d770-40af-b61b-0a2d73c9b0ea",
+    "rule": "java:S1168",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 40,
+    "hash": "c57ea36e86f66556689fcd9aa80f13e8",
+    "textRange": {
+      "startLine": 40,
+      "endLine": 40,
+      "startOffset": 55,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Return an empty collection instead of null.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8ffceaf6-5330-4fcc-b9b3-adb34c4e794e",
+    "rule": "java:S1168",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 41,
+    "hash": "0bfbec0a1efbb727f0406cdec3a89a44",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 41,
+      "startOffset": 43,
+      "endOffset": 47
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Return an empty collection instead of null.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a8069832-cd5b-4ce0-bad7-9a9aa026e9e2",
+    "rule": "java:S2681",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 43,
+    "hash": "7604c4d8b366ba707f1e93649a0d6701",
+    "textRange": {
+      "startLine": 43,
+      "endLine": 43,
+      "startOffset": 9,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This line will not be executed conditionally; only the first line of this 3-line block will be. The rest will execute unconditionally.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FORMATTED",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4d1853aa-3632-482f-8100-f8cfd8dacaf2",
+    "rule": "java:S3024",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 47,
+    "hash": "95db13e52b15e61cceef40fdb0e4b725",
+    "textRange": {
+      "startLine": 47,
+      "endLine": 47,
+      "startOffset": 22,
+      "endOffset": 126
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use multiple calls to \"append\" instead of string concatenation.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "performance",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f5ff9b72-9154-45e2-9c2b-cdf840646129",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 47,
+    "hash": "95db13e52b15e61cceef40fdb0e4b725",
+    "textRange": {
+      "startLine": 47,
+      "endLine": 47,
+      "startOffset": 83,
+      "endOffset": 106
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 47,
+              "endLine": 47,
+              "startOffset": 83,
+              "endOffset": 106
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 54,
+              "endLine": 54,
+              "startOffset": 95,
+              "endOffset": 118
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+            "textRange": {
+              "startLine": 56,
+              "endLine": 56,
+              "startOffset": 95,
+              "endOffset": 118
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"','','gi')))/length('\" 3 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6b5d936e-a61c-4923-b75d-c1d28e4d116e",
+    "rule": "java:S3024",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 50,
+    "hash": "c91c7192593be92e549d08defaf8b5ca",
+    "textRange": {
+      "startLine": 50,
+      "endLine": 50,
+      "startOffset": 22,
+      "endOffset": 162
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use multiple calls to \"append\" instead of string concatenation.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "performance",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2c685496-2d37-48d3-b601-f516772de91b",
+    "rule": "java:S3024",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 54,
+    "hash": "89a2bc629c13f92b5f96d3dd0b68c8f3",
+    "textRange": {
+      "startLine": 54,
+      "endLine": 54,
+      "startOffset": 26,
+      "endOffset": 149
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use multiple calls to \"append\" instead of string concatenation.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "performance",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "15a291c2-ed22-4215-a5f1-3ef59cca3efa",
+    "rule": "java:S3024",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 56,
+    "hash": "f2e2530e4259743bf6ad22de3d3ba31c",
+    "textRange": {
+      "startLine": 56,
+      "endLine": 56,
+      "startOffset": 26,
+      "endOffset": 138
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use multiple calls to \"append\" instead of string concatenation.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "performance",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0761e8d9-5674-4c3d-8180-838e9830cd56",
+    "rule": "java:S3024",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 64,
+    "hash": "38df6f02de2ec194cb8ffd84b1ea79ae",
+    "textRange": {
+      "startLine": 64,
+      "endLine": 64,
+      "startOffset": 26,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use multiple calls to \"append\" instead of string concatenation.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "performance",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "30a3e1b0-b3e5-4de4-90da-99ecb27d1e66",
+    "rule": "java:S3024",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 72,
+    "hash": "38df6f02de2ec194cb8ffd84b1ea79ae",
+    "textRange": {
+      "startLine": 72,
+      "endLine": 72,
+      "startOffset": 26,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use multiple calls to \"append\" instead of string concatenation.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "performance",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d077709b-67ae-4b86-b2e0-c7a79cd9fc6d",
+    "rule": "java:S3024",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 80,
+    "hash": "38df6f02de2ec194cb8ffd84b1ea79ae",
+    "textRange": {
+      "startLine": 80,
+      "endLine": 80,
+      "startOffset": 26,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use multiple calls to \"append\" instead of string concatenation.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "performance",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "124d518d-18d4-4535-bab1-20bd6cf0cd76",
+    "rule": "java:S6912",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 93,
+    "hash": "abf6551b03fab30340e376ba3fa1722c",
+    "textRange": {
+      "startLine": 93,
+      "endLine": 93,
+      "startOffset": 29,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use \"addBatch\" and \"executeBatch\" to execute multiple SQL statements in a single call.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "sustainability",
+      "sql"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a971a984-023c-41d8-af2a-886f8c0d355d",
+    "rule": "java:S108",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 100,
+    "hash": "08ec7cabec9debae91c962fe57f2c4ae",
+    "textRange": {
+      "startLine": 100,
+      "endLine": 100,
+      "startOffset": 141,
+      "endOffset": 142
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this block of code, fill it in, or add a comment explaining why it is empty.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "621ff3db-a1f2-4320-a9c7-d274b647e681",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 112,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 112,
+      "endLine": 112,
+      "startOffset": 22,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2c4aa59e-6524-4419-b53a-b26d3d0da11a",
+    "rule": "java:S2095",
+    "severity": "BLOCKER",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 147,
+    "hash": "f13aa4e298c8423c6886ee28d15df8ef",
+    "textRange": {
+      "startLine": 147,
+      "endLine": 147,
+      "startOffset": 35,
+      "endOffset": 61
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use try-with-resources or close this \"PreparedStatement\" in a \"finally\" clause.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "symbolic-execution",
+      "leak",
+      "denial-of-service",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "05b5373f-cdd0-4dd5-9d8b-e9bafb1faab7",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/impl/VideoServiceImpl.java",
+    "project": "gaifan0125__project2",
+    "line": 161,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 161,
+      "endLine": 161,
+      "startOffset": 22,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4ac6b565-867b-43af-bcd3-e46895d9b46b",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadDanmu.java",
+    "project": "gaifan0125__project2",
+    "line": 25,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 22,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "729a59ca-5192-4246-b372-2eb3248347b7",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadDanmu.java",
+    "project": "gaifan0125__project2",
+    "line": 44,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 44,
+      "startOffset": 26,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "51eb13ec-c788-49d3-980e-86f8be9a7d6b",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadDanmu.java",
+    "project": "gaifan0125__project2",
+    "line": 47,
+    "hash": "c20c1d6209156a443199946716f78204",
+    "textRange": {
+      "startLine": 47,
+      "endLine": 47,
+      "startOffset": 14,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "50d1c12d-5044-48a7-a8a6-b0840ceffdba",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadDanmu.java",
+    "project": "gaifan0125__project2",
+    "line": 56,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 56,
+      "endLine": 56,
+      "startOffset": 30,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bcafca6d-c1be-4ddf-9f03-396ed6f71650",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadDanmu.java",
+    "project": "gaifan0125__project2",
+    "line": 67,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 67,
+      "endLine": 67,
+      "startOffset": 22,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f2de3229-cf64-4813-8489-5faf0c48357b",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadDanmu.java",
+    "project": "gaifan0125__project2",
+    "line": 70,
+    "hash": "65c2122d98464daf2eadeb218914a0f8",
+    "textRange": {
+      "startLine": 70,
+      "endLine": 70,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b6d79b9f-663e-4038-844b-751436d0a73f",
+    "rule": "java:S117",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadDanmu.java",
+    "project": "gaifan0125__project2",
+    "line": 72,
+    "hash": "83ba6512bfb7fd8664e07cdce0e6fe91",
+    "textRange": {
+      "startLine": 72,
+      "endLine": 72,
+      "startOffset": 38,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "949f77dc-797c-40d9-a749-3ef061d5589e",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadDanmu.java",
+    "project": "gaifan0125__project2",
+    "line": 93,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 93,
+      "endLine": 93,
+      "startOffset": 22,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2cac684a-de7d-4f7d-b23c-8024584a6d17",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadUser.java",
+    "project": "gaifan0125__project2",
+    "line": 24,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 22,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fb2e19a3-564c-47d9-8053-f537727f176a",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadUser.java",
+    "project": "gaifan0125__project2",
+    "line": 41,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 41,
+      "startOffset": 26,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6a9106d5-2be2-4cfb-a81f-813ae2f6aa52",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadUser.java",
+    "project": "gaifan0125__project2",
+    "line": 52,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 52,
+      "startOffset": 30,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "aa2e4025-cc51-4316-bdc6-143f006592b3",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadUser.java",
+    "project": "gaifan0125__project2",
+    "line": 55,
+    "hash": "4a87f7144ab3fcc3bd1a83d57bdff5f9",
+    "textRange": {
+      "startLine": 55,
+      "endLine": 55,
+      "startOffset": 14,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c527098d-65ed-46be-886d-78ef8bb597e3",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadUser.java",
+    "project": "gaifan0125__project2",
+    "line": 64,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 64,
+      "endLine": 64,
+      "startOffset": 22,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fb858b67-3bd1-456a-8510-710284a01bd1",
+    "rule": "java:S107",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadUser.java",
+    "project": "gaifan0125__project2",
+    "line": 68,
+    "hash": "792e3fcc2645a751eb89c4312575ff50",
+    "textRange": {
+      "startLine": 68,
+      "endLine": 68,
+      "startOffset": 17,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Method has 11 parameters, which is greater than 7 authorized.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7c2ac3c5-5771-4d62-ab1e-9cf1cd5ae45e",
+    "rule": "java:S3740",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadUser.java",
+    "project": "gaifan0125__project2",
+    "line": 69,
+    "hash": "4be6243cdb354f31ca0496c4a09f2dfd",
+    "textRange": {
+      "startLine": 69,
+      "endLine": 69,
+      "startOffset": 42,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Provide the parametrized type for this generic.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b47258c1-76cf-47f2-86f3-6e7bafbda886",
+    "rule": "java:S117",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadUser.java",
+    "project": "gaifan0125__project2",
+    "line": 86,
+    "hash": "602a329316213821a0d30d9948e8d98c",
+    "textRange": {
+      "startLine": 86,
+      "endLine": 86,
+      "startOffset": 50,
+      "endOffset": 63
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0bbb52fa-f998-430b-a024-1450765e0a34",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadUser.java",
+    "project": "gaifan0125__project2",
+    "line": 97,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 97,
+      "endLine": 97,
+      "startOffset": 22,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2fcd1bbd-b718-4a9e-94ac-eccd7d7c7a3a",
+    "rule": "java:S1659",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 10,
+    "hash": "99bb120b297b67c311009d30b88414ac",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 36,
+      "endOffset": 44
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+            "textRange": {
+              "startLine": 10,
+              "endLine": 10,
+              "startOffset": 46,
+              "endOffset": 54
+            },
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+            "textRange": {
+              "startLine": 10,
+              "endLine": 10,
+              "startOffset": 56,
+              "endOffset": 63
+            },
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+            "textRange": {
+              "startLine": 10,
+              "endLine": 10,
+              "startOffset": 65,
+              "endOffset": 73
+            },
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Declare \"stmtLike\" and all following declarations on a separate line.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FORMATTED",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c362ee05-aeba-41d5-9a0e-ccedc16c2798",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 20,
+    "hash": "0e3aba14df3788079b2aa02fffd8331e",
+    "textRange": {
+      "startLine": 20,
+      "endLine": 20,
+      "startOffset": 81,
+      "endOffset": 94
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+            "textRange": {
+              "startLine": 20,
+              "endLine": 20,
+              "startOffset": 81,
+              "endOffset": 94
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+            "textRange": {
+              "startLine": 21,
+              "endLine": 21,
+              "startOffset": 80,
+              "endOffset": 93
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+            "textRange": {
+              "startLine": 22,
+              "endLine": 22,
+              "startOffset": 83,
+              "endOffset": 96
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"values(?,?)\" 3 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6af258ce-22bb-4cfa-836c-7a1ba16c07fc",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 25,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 22,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7a7fa704-ffaf-4d35-a4e4-23fa2e0ed9f8",
+    "rule": "java:S3776",
+    "severity": "CRITICAL",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 34,
+    "hash": "c0a4636e14eb4f6b03cb2dde77b07d70",
+    "textRange": {
+      "startLine": 34,
+      "endLine": 34,
+      "startOffset": 16,
+      "endOffset": 19
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+            "textRange": {
+              "startLine": 36,
+              "endLine": 36,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+            "textRange": {
+              "startLine": 41,
+              "endLine": 41,
+              "startOffset": 16,
+              "endOffset": 19
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+            "textRange": {
+              "startLine": 44,
+              "endLine": 44,
+              "startOffset": 16,
+              "endOffset": 19
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+            "textRange": {
+              "startLine": 47,
+              "endLine": 47,
+              "startOffset": 16,
+              "endOffset": 19
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+            "textRange": {
+              "startLine": 50,
+              "endLine": 50,
+              "startOffset": 16,
+              "endOffset": 19
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+            "textRange": {
+              "startLine": 54,
+              "endLine": 54,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+            "textRange": {
+              "startLine": 67,
+              "endLine": 67,
+              "startOffset": 22,
+              "endOffset": 27
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+            "textRange": {
+              "startLine": 72,
+              "endLine": 72,
+              "startOffset": 14,
+              "endOffset": 19
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+            "textRange": {
+              "startLine": 89,
+              "endLine": 89,
+              "startOffset": 10,
+              "endOffset": 15
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.",
+    "effort": "7min",
+    "debt": "7min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a34c8ac7-5a0a-45cf-a91e-fb6b1540539f",
+    "rule": "java:S1141",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 55,
+    "hash": "80d5b17efc16ace990c07580fc3e85eb",
+    "textRange": {
+      "startLine": 55,
+      "endLine": 55,
+      "startOffset": 20,
+      "endOffset": 23
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+            "textRange": {
+              "startLine": 37,
+              "endLine": 37,
+              "startOffset": 12,
+              "endOffset": 15
+            },
+            "msg": "Nesting + 1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Extract this nested try block into a separate method.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "confusing"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ad0ca55f-26b6-4680-8fd1-8b22a85350b0",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 68,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 68,
+      "endLine": 68,
+      "startOffset": 34,
+      "endOffset": 50
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9c230ce9-1ba3-4c38-a6fc-ae9f7a7acd26",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 71,
+    "hash": "3bc3ef32f88d147e4b9a8f1b99f2fd5d",
+    "textRange": {
+      "startLine": 71,
+      "endLine": 71,
+      "startOffset": 18,
+      "endOffset": 47
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "205a9b75-cb1b-4026-911e-132f696030aa",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 73,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 73,
+      "endLine": 73,
+      "startOffset": 26,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "691c3b6f-8e38-4a52-bb7d-11951431c655",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 90,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 90,
+      "endLine": 90,
+      "startOffset": 22,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d1d58948-31c7-49f1-a21d-0333c96b22d5",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 92,
+    "hash": "f17e8419a1ec0e23b7cd2f5638037d8d",
+    "textRange": {
+      "startLine": 92,
+      "endLine": 92,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ed1d2be6-02ea-4c7c-a84a-31ac40d8bb4d",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 94,
+    "hash": "65c2122d98464daf2eadeb218914a0f8",
+    "textRange": {
+      "startLine": 94,
+      "endLine": 94,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "506565a4-7315-4655-801d-f10d45c2c6d1",
+    "rule": "java:S117",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 97,
+    "hash": "01788861cc34e599814b76e14da8e8e8",
+    "textRange": {
+      "startLine": 97,
+      "endLine": 97,
+      "startOffset": 37,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a7e2bbab-77bd-46b8-99e9-eaf1c3c9d77e",
+    "rule": "java:S117",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 97,
+    "hash": "01788861cc34e599814b76e14da8e8e8",
+    "textRange": {
+      "startLine": 97,
+      "endLine": 97,
+      "startOffset": 46,
+      "endOffset": 54
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "847b3a74-744a-4df4-9fcd-5f6d66d0ca3f",
+    "rule": "java:S117",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 105,
+    "hash": "e76b542b4d75696c385f93b4efb045ad",
+    "textRange": {
+      "startLine": 105,
+      "endLine": 105,
+      "startOffset": 46,
+      "endOffset": 54
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "de9b4515-97c1-46ef-895b-7b272bd5035c",
+    "rule": "java:S117",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 105,
+    "hash": "e76b542b4d75696c385f93b4efb045ad",
+    "textRange": {
+      "startLine": 105,
+      "endLine": 105,
+      "startOffset": 37,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8b6a7d68-2a17-4edc-840a-dfceadfa5b6d",
+    "rule": "java:S117",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 113,
+    "hash": "c86691fbce144bdff7088be339ded994",
+    "textRange": {
+      "startLine": 113,
+      "endLine": 113,
+      "startOffset": 41,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dbf64050-2b84-4377-9787-973c26addc2d",
+    "rule": "java:S117",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 113,
+    "hash": "c86691fbce144bdff7088be339ded994",
+    "textRange": {
+      "startLine": 113,
+      "endLine": 113,
+      "startOffset": 50,
+      "endOffset": 58
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "40c1b99f-cdb2-43c0-87bd-879027d229e1",
+    "rule": "java:S117",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 121,
+    "hash": "6dcd32ffc0de0013e06de8bc8da8b047",
+    "textRange": {
+      "startLine": 121,
+      "endLine": 121,
+      "startOffset": 62,
+      "endOffset": 72
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "673a3831-9c21-4ad7-9b7b-600dde043cfd",
+    "rule": "java:S117",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 121,
+    "hash": "6dcd32ffc0de0013e06de8bc8da8b047",
+    "textRange": {
+      "startLine": 121,
+      "endLine": 121,
+      "startOffset": 37,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "abd0609c-b1a3-4b4f-837e-4c5527bcf30c",
+    "rule": "java:S117",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 121,
+    "hash": "6dcd32ffc0de0013e06de8bc8da8b047",
+    "textRange": {
+      "startLine": 121,
+      "endLine": 121,
+      "startOffset": 46,
+      "endOffset": 54
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "63410991-055b-481f-bfea-caff929f0842",
+    "rule": "java:S117",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 130,
+    "hash": "bb386028e2f0b84b3a1828b743993c9e",
+    "textRange": {
+      "startLine": 130,
+      "endLine": 130,
+      "startOffset": 79,
+      "endOffset": 89
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "788c5698-b094-4503-b47f-6d6396058245",
+    "rule": "java:S107",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 130,
+    "hash": "bb386028e2f0b84b3a1828b743993c9e",
+    "textRange": {
+      "startLine": 130,
+      "endLine": 130,
+      "startOffset": 17,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Method has 10 parameters, which is greater than 7 authorized.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9c4413c7-0306-449b-8375-b5948c61ff34",
+    "rule": "java:S117",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 130,
+    "hash": "bb386028e2f0b84b3a1828b743993c9e",
+    "textRange": {
+      "startLine": 130,
+      "endLine": 130,
+      "startOffset": 61,
+      "endOffset": 70
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9c64e582-3bc6-4c4c-ba2d-fa66e67ca483",
+    "rule": "java:S117",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 130,
+    "hash": "bb386028e2f0b84b3a1828b743993c9e",
+    "textRange": {
+      "startLine": 130,
+      "endLine": 130,
+      "startOffset": 38,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "19b0350e-2afd-462e-b3c6-a8819095dcea",
+    "rule": "java:S117",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 131,
+    "hash": "2463ee065e541d5cbd24b1a57eab9e65",
+    "textRange": {
+      "startLine": 131,
+      "endLine": 131,
+      "startOffset": 41,
+      "endOffset": 52
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "37ffa93d-0736-4cc4-8e5e-6f1ff9379151",
+    "rule": "java:S117",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 131,
+    "hash": "2463ee065e541d5cbd24b1a57eab9e65",
+    "textRange": {
+      "startLine": 131,
+      "endLine": 131,
+      "startOffset": 64,
+      "endOffset": 75
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b10cf28b-5b94-4788-a08f-eebe1a3a6c1f",
+    "rule": "java:S117",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 131,
+    "hash": "2463ee065e541d5cbd24b1a57eab9e65",
+    "textRange": {
+      "startLine": 131,
+      "endLine": 131,
+      "startOffset": 87,
+      "endOffset": 98
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "54a97476-c5b9-4b4d-b707-c3c3eab89f49",
+    "rule": "java:S117",
+    "severity": "MINOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 132,
+    "hash": "14527297874e9d233aabff78e348ed6e",
+    "textRange": {
+      "startLine": 132,
+      "endLine": 132,
+      "startOffset": 73,
+      "endOffset": 85
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fc957bfc-d80e-4719-9e6a-500745246e6d",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-api/src/main/java/io/sustc/service/tread/InsertThreadVideo.java",
+    "project": "gaifan0125__project2",
+    "line": 152,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 152,
+      "endLine": 152,
+      "startOffset": 22,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "97759f5f-41e4-442e-a2b0-5aff0a2ab9a9",
+    "rule": "kotlin:S6629",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-runner/build.gradle.kts",
+    "project": "gaifan0125__project2",
+    "line": 11,
+    "hash": "b490d615c1ef875ddafe48b74fbd0974",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 0,
+      "endOffset": 12
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-runner/build.gradle.kts",
+            "textRange": {
+              "startLine": 17,
+              "endLine": 17,
+              "startOffset": 4,
+              "endOffset": 18
+            },
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-runner/build.gradle.kts",
+            "textRange": {
+              "startLine": 18,
+              "endLine": 18,
+              "startOffset": 4,
+              "endOffset": 18
+            },
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-runner/build.gradle.kts",
+            "textRange": {
+              "startLine": 19,
+              "endLine": 19,
+              "startOffset": 4,
+              "endOffset": 18
+            },
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-runner/build.gradle.kts",
+            "textRange": {
+              "startLine": 21,
+              "endLine": 21,
+              "startOffset": 4,
+              "endOffset": 18
+            },
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "gaifan0125__project2:sustc-runner/build.gradle.kts",
+            "textRange": {
+              "startLine": 22,
+              "endLine": 22,
+              "startOffset": 4,
+              "endOffset": 18
+            },
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Group dependencies by their destination.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "gradle"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "80b2f6cf-5879-4fc6-aadc-b45b61139600",
+    "rule": "kotlin:S6624",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-runner/build.gradle.kts",
+    "project": "gaifan0125__project2",
+    "line": 17,
+    "hash": "09ae56d2a3bc8fe400a3d024a3a3dfc1",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 17,
+      "startOffset": 40,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not hardcode version numbers.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "gradle"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "944d0e30-34bc-4578-8f1a-e8012e5c2ddd",
+    "rule": "kotlin:S6624",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-runner/build.gradle.kts",
+    "project": "gaifan0125__project2",
+    "line": 18,
+    "hash": "db70e54332e94b08d4ea7d82fea62391",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 42,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not hardcode version numbers.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "gradle"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c45fbcb3-d8ef-4624-b581-422c89731ff1",
+    "rule": "kotlin:S6624",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-runner/build.gradle.kts",
+    "project": "gaifan0125__project2",
+    "line": 19,
+    "hash": "245213abe1d185f1263b91f6d1e12c18",
+    "textRange": {
+      "startLine": 19,
+      "endLine": 19,
+      "startOffset": 41,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not hardcode version numbers.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "gradle"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "641195fb-c6ce-414d-9791-cd6ecbed55b2",
+    "rule": "java:S3864",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkRunner.java",
+    "project": "gaifan0125__project2",
+    "line": 58,
+    "hash": "3cde6535309760d40c977be9a912bd1b",
+    "textRange": {
+      "startLine": 58,
+      "endLine": 58,
+      "startOffset": 17,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this use of \"Stream.peek\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "java8",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9d4ee01b-c760-4a11-9836-427cdb25501b",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "gaifan0125__project2:sustc-runner/src/main/java/io/sustc/benchmark/BenchmarkRunner.java",
+    "project": "gaifan0125__project2",
+    "line": 84,
+    "hash": "fdda924e16c6c8cb6afc035461946766",
+    "textRange": {
+      "startLine": 84,
+      "endLine": 84,
+      "startOffset": 34,
+      "endOffset": 50
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9f3ee6c9-2978-4c8d-95c6-0abb59560931",
+    "rule": "java:S6437",
+    "severity": "BLOCKER",
+    "component": "gaifan0125__project2:sustc-runner/src/main/resources/application.yml",
+    "project": "gaifan0125__project2",
+    "line": 5,
+    "hash": "e1aab13873724cb72e883f20f6253a9c",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 14,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Revoke and change this password, as it is compromised.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-21T18:56:35+0000",
+    "updateDate": "2026-07-21T18:56:35+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

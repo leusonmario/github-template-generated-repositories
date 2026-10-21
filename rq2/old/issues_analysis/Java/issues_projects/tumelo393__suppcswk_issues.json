@@ -1,0 +1,2097 @@
+[
+  {
+    "key": "288d1586-8e7d-4bda-b5af-8f726fb73cce",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/controller/MainController.java",
+    "project": "tumelo393__suppcswk",
+    "line": 80,
+    "hash": "db67174ccb9d148275e76a2c7fd12794",
+    "textRange": {
+      "startLine": 80,
+      "endLine": 80,
+      "startOffset": 58,
+      "endOffset": 67
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T20:29:41+0000",
+    "updateDate": "2026-07-21T20:29:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "aef44170-a940-4c03-b661-7523c9c1aa74",
+    "rule": "java:S1130",
+    "severity": "MINOR",
+    "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/controller/MainController.java",
+    "project": "tumelo393__suppcswk",
+    "line": 143,
+    "hash": "b5e63ebd03d3102b0c23f4cfd7c28f8f",
+    "textRange": {
+      "startLine": 143,
+      "endLine": 143,
+      "startOffset": 63,
+      "endOffset": 74
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "unused",
+      "redundant",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-21T20:29:41+0000",
+    "updateDate": "2026-07-21T20:29:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "720fbf02-7dc1-4813-bbbc-c421db8bffd9",
+    "rule": "java:S1130",
+    "severity": "MINOR",
+    "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/controller/MainController.java",
+    "project": "tumelo393__suppcswk",
+    "line": 173,
+    "hash": "c1fbecba9ebcb11637b6b34d9fb3a8bd",
+    "textRange": {
+      "startLine": 173,
+      "endLine": 173,
+      "startOffset": 54,
+      "endOffset": 65
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "unused",
+      "redundant",
+      "clumsy"
+    ],
+    "creationDate": "2026-07-21T20:29:41+0000",
+    "updateDate": "2026-07-21T20:29:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "511d9412-8842-440e-95db-7372daaa35a9",
+    "rule": "java:S6905",
+    "severity": "MAJOR",
+    "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/dao/AccountDAO.java",
+    "project": "tumelo393__suppcswk",
+    "line": 73,
+    "hash": "0ca764bd87ee20467fdc1b376e21f147",
+    "textRange": {
+      "startLine": 73,
+      "endLine": 73,
+      "startOffset": 21,
+      "endOffset": 66
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use the query \"SELECT *\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "sustainability",
+      "sql"
+    ],
+    "creationDate": "2026-07-21T20:29:41+0000",
+    "updateDate": "2026-07-21T20:29:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7919d52d-734b-4b31-a29c-cebb0ce04c14",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/dao/AccountDAO.java",
+    "project": "tumelo393__suppcswk",
+    "line": 87,
+    "hash": "8f59fdb1e46d76ea5e076692d013386a",
+    "textRange": {
+      "startLine": 87,
+      "endLine": 87,
+      "startOffset": 41,
+      "endOffset": 56
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/dao/AccountDAO.java",
+            "textRange": {
+              "startLine": 87,
+              "endLine": 87,
+              "startOffset": 41,
+              "endOffset": 56
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/dao/AccountDAO.java",
+            "textRange": {
+              "startLine": 94,
+              "endLine": 94,
+              "startOffset": 41,
+              "endOffset": 56
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/dao/AccountDAO.java",
+            "textRange": {
+              "startLine": 101,
+              "endLine": 101,
+              "startOffset": 41,
+              "endOffset": 56
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"accountNumber\" 3 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T20:29:41+0000",
+    "updateDate": "2026-07-21T20:29:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8e7a9751-a0a2-41db-8e8d-c535dcb07b77",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/dao/AccountDAO.java",
+    "project": "tumelo393__suppcswk",
+    "line": 88,
+    "hash": "0e39aadd5fbc0840d76dc834f35ec392",
+    "textRange": {
+      "startLine": 88,
+      "endLine": 88,
+      "startOffset": 41,
+      "endOffset": 50
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/dao/AccountDAO.java",
+            "textRange": {
+              "startLine": 88,
+              "endLine": 88,
+              "startOffset": 41,
+              "endOffset": 50
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/dao/AccountDAO.java",
+            "textRange": {
+              "startLine": 95,
+              "endLine": 95,
+              "startOffset": 41,
+              "endOffset": 50
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/dao/AccountDAO.java",
+            "textRange": {
+              "startLine": 102,
+              "endLine": 102,
+              "startOffset": 41,
+              "endOffset": 50
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"balance\" 3 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T20:29:41+0000",
+    "updateDate": "2026-07-21T20:29:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e055ada3-8738-42a0-bd0b-35ae7764c141",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/dao/AccountDAO.java",
+    "project": "tumelo393__suppcswk",
+    "line": 89,
+    "hash": "f78398ff902518182d5f9ca9fdc3f9eb",
+    "textRange": {
+      "startLine": 89,
+      "endLine": 89,
+      "startOffset": 41,
+      "endOffset": 49
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/dao/AccountDAO.java",
+            "textRange": {
+              "startLine": 89,
+              "endLine": 89,
+              "startOffset": 41,
+              "endOffset": 49
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/dao/AccountDAO.java",
+            "textRange": {
+              "startLine": 96,
+              "endLine": 96,
+              "startOffset": 41,
+              "endOffset": 49
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/dao/AccountDAO.java",
+            "textRange": {
+              "startLine": 103,
+              "endLine": 103,
+              "startOffset": 41,
+              "endOffset": 49
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"branch\" 3 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T20:29:41+0000",
+    "updateDate": "2026-07-21T20:29:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "74551079-f134-4acf-95b6-27c30ccbc8ba",
+    "rule": "java:S6905",
+    "severity": "MAJOR",
+    "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/dao/CustomerDAO.java",
+    "project": "tumelo393__suppcswk",
+    "line": 55,
+    "hash": "29a327292f430b4b544e7d0718ac9a0e",
+    "textRange": {
+      "startLine": 55,
+      "endLine": 55,
+      "startOffset": 21,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use the query \"SELECT *\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "sustainability",
+      "sql"
+    ],
+    "creationDate": "2026-07-21T20:29:41+0000",
+    "updateDate": "2026-07-21T20:29:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0d726e73-75b2-4c97-8d23-ac5448bc33d7",
+    "rule": "java:S5993",
+    "severity": "MAJOR",
+    "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/model/Account.java",
+    "project": "tumelo393__suppcswk",
+    "line": 9,
+    "hash": "73c586f47981e6d88ec2339db99b7bbd",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 4,
+      "endOffset": 10
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/model/Account.java",
+            "textRange": {
+              "startLine": 3,
+              "endLine": 3,
+              "startOffset": 7,
+              "endOffset": 15
+            },
+            "msg": "This class is \"abstract\".",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Change the visibility of this constructor to \"protected\".",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T20:29:41+0000",
+    "updateDate": "2026-07-21T20:29:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "742a2014-cc6e-40e7-a2f1-4852640a4958",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/model/Account.java",
+    "project": "tumelo393__suppcswk",
+    "line": 39,
+    "hash": "adeb453a55317a4cacb25fab13170c74",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 39,
+      "startOffset": 47,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T20:29:41+0000",
+    "updateDate": "2026-07-21T20:29:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3bd2eb5e-d3c4-4651-9983-4794f7e6a2a7",
+    "rule": "java:S112",
+    "severity": "MAJOR",
+    "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/model/Account.java",
+    "project": "tumelo393__suppcswk",
+    "line": 41,
+    "hash": "f4ad464788730d0139fabc1027c97423",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 41,
+      "startOffset": 22,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace generic exceptions with specific library exceptions or a custom exception.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T20:29:41+0000",
+    "updateDate": "2026-07-21T20:29:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "75a5c1fe-1402-4b13-8a40-9aca39e33521",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/test/IntegrationTest.java",
+    "project": "tumelo393__suppcswk",
+    "line": 13,
+    "hash": "c22f647939ef124810b126efc71b5007",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 12,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T20:29:41+0000",
+    "updateDate": "2026-07-21T20:29:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6e5472f5-f2fc-4e39-be64-34966e5d5d98",
+    "rule": "java:S1118",
+    "severity": "MAJOR",
+    "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/util/DBUtil.java",
+    "project": "tumelo393__suppcswk",
+    "line": 10,
+    "hash": "6d8db9174d77cd68df79d41b00afce4e",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 13,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a private constructor to hide the implicit public one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T20:29:41+0000",
+    "updateDate": "2026-07-21T20:29:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d43d3b10-973e-473a-85ca-9ff4ac980ed4",
+    "rule": "java:S1450",
+    "severity": "MINOR",
+    "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+    "project": "tumelo393__suppcswk",
+    "line": 30,
+    "hash": "230c0b2389e70f1b4958908699fbade3",
+    "textRange": {
+      "startLine": 30,
+      "endLine": 30,
+      "startOffset": 19,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the \"registerCustomerBtn\" field and declare it as a local variable in the relevant methods.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-21T20:29:41+0000",
+    "updateDate": "2026-07-21T20:29:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d1a32e03-02e3-4137-a3f5-d817cc3654a1",
+    "rule": "java:S1450",
+    "severity": "MINOR",
+    "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+    "project": "tumelo393__suppcswk",
+    "line": 31,
+    "hash": "8957f57b17b18ab5873903acb502221f",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 19,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the \"openAccountBtn\" field and declare it as a local variable in the relevant methods.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-21T20:29:41+0000",
+    "updateDate": "2026-07-21T20:29:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "30312b23-9375-4184-ab93-75c84cf49efb",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+    "project": "tumelo393__suppcswk",
+    "line": 53,
+    "hash": "10e6b50140c0b3ab4257101b2f8ac84a",
+    "textRange": {
+      "startLine": 53,
+      "endLine": 53,
+      "startOffset": 22,
+      "endOffset": 46
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 53,
+              "endLine": 53,
+              "startOffset": 22,
+              "endOffset": 46
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 87,
+              "endLine": 87,
+              "startOffset": 33,
+              "endOffset": 57
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 322,
+              "endLine": 322,
+              "startOffset": 22,
+              "endOffset": 46
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 357,
+              "endLine": 357,
+              "startOffset": 16,
+              "endOffset": 40
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 359,
+              "endLine": 359,
+              "startOffset": 16,
+              "endOffset": 40
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 391,
+              "endLine": 391,
+              "startOffset": 40,
+              "endOffset": 64
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 393,
+              "endLine": 393,
+              "startOffset": 16,
+              "endOffset": 40
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 395,
+              "endLine": 395,
+              "startOffset": 16,
+              "endOffset": 40
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 423,
+              "endLine": 423,
+              "startOffset": 22,
+              "endOffset": 46
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 445,
+              "endLine": 445,
+              "startOffset": 16,
+              "endOffset": 40
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 447,
+              "endLine": 447,
+              "startOffset": 16,
+              "endOffset": 40
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 487,
+              "endLine": 487,
+              "startOffset": 22,
+              "endOffset": 46
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 514,
+              "endLine": 514,
+              "startOffset": 16,
+              "endOffset": 40
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 516,
+              "endLine": 516,
+              "startOffset": 16,
+              "endOffset": 40
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 553,
+              "endLine": 553,
+              "startOffset": 46,
+              "endOffset": 70
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 555,
+              "endLine": 555,
+              "startOffset": 16,
+              "endOffset": 40
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 557,
+              "endLine": 557,
+              "startOffset": 16,
+              "endOffset": 40
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 588,
+              "endLine": 588,
+              "startOffset": 39,
+              "endOffset": 63
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 598,
+              "endLine": 598,
+              "startOffset": 16,
+              "endOffset": 40
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 610,
+              "endLine": 610,
+              "startOffset": 15,
+              "endOffset": 39
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 619,
+              "endLine": 619,
+              "startOffset": 15,
+              "endOffset": 39
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 628,
+              "endLine": 628,
+              "startOffset": 15,
+              "endOffset": 39
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 637,
+              "endLine": 637,
+              "startOffset": 15,
+              "endOffset": 39
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 646,
+              "endLine": 646,
+              "startOffset": 15,
+              "endOffset": 39
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 655,
+              "endLine": 655,
+              "startOffset": 15,
+              "endOffset": 39
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"-fx-background-color: \" 25 times.",
+    "effort": "52min",
+    "debt": "52min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T20:29:41+0000",
+    "updateDate": "2026-07-21T20:29:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cb73bd0c-2e9f-49eb-80c3-5889d8bdb03d",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+    "project": "tumelo393__suppcswk",
+    "line": 67,
+    "hash": "0b377429c7bcf0c18f61dfefb420a0d0",
+    "textRange": {
+      "startLine": 67,
+      "endLine": 67,
+      "startOffset": 40,
+      "endOffset": 48
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 67,
+              "endLine": 67,
+              "startOffset": 40,
+              "endOffset": 48
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 114,
+              "endLine": 114,
+              "startOffset": 40,
+              "endOffset": 48
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 145,
+              "endLine": 145,
+              "startOffset": 39,
+              "endOffset": 47
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 149,
+              "endLine": 149,
+              "startOffset": 44,
+              "endOffset": 52
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 168,
+              "endLine": 168,
+              "startOffset": 39,
+              "endOffset": 47
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 184,
+              "endLine": 184,
+              "startOffset": 34,
+              "endOffset": 42
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 205,
+              "endLine": 205,
+              "startOffset": 38,
+              "endOffset": 46
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 256,
+              "endLine": 256,
+              "startOffset": 37,
+              "endOffset": 45
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 263,
+              "endLine": 263,
+              "startOffset": 39,
+              "endOffset": 47
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 341,
+              "endLine": 341,
+              "startOffset": 34,
+              "endOffset": 42
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 430,
+              "endLine": 430,
+              "startOffset": 38,
+              "endOffset": 46
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 494,
+              "endLine": 494,
+              "startOffset": 38,
+              "endOffset": 46
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"System\" 12 times.",
+    "effort": "26min",
+    "debt": "26min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T20:29:41+0000",
+    "updateDate": "2026-07-21T20:29:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b0fe2088-3ded-4d3e-9680-4e97e1102274",
+    "rule": "java:S1872",
+    "severity": "MAJOR",
+    "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+    "project": "tumelo393__suppcswk",
+    "line": 279,
+    "hash": "69008c2efa674a5721d67dd7abdcc313",
+    "textRange": {
+      "startLine": 279,
+      "endLine": 279,
+      "startOffset": 16,
+      "endOffset": 71
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use an \"instanceof\" comparison instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T20:29:41+0000",
+    "updateDate": "2026-07-21T20:29:41+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d2e4a198-9d1b-41d5-a827-1385b36e44b2",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+    "project": "tumelo393__suppcswk",
+    "line": 357,
+    "hash": "c48d277b7978b25d10bc4523e6cc60f2",
+    "textRange": {
+      "startLine": 357,
+      "endLine": 357,
+      "startOffset": 59,
+      "endOffset": 126
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 357,
+              "endLine": 357,
+              "startOffset": 59,
+              "endOffset": 126
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 359,
+              "endLine": 359,
+              "startOffset": 56,
+              "endOffset": 123
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 393,
+              "endLine": 393,
+              "startOffset": 61,
+              "endOffset": 128
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 395,
+              "endLine": 395,
+              "startOffset": 56,
+              "endOffset": 123
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 445,
+              "endLine": 445,
+              "startOffset": 59,
+              "endOffset": 126
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 447,
+              "endLine": 447,
+              "startOffset": 56,
+              "endOffset": 123
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 514,
+              "endLine": 514,
+              "startOffset": 59,
+              "endOffset": 126
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 516,
+              "endLine": 516,
+              "startOffset": 56,
+              "endOffset": 123
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 555,
+              "endLine": 555,
+              "startOffset": 58,
+              "endOffset": 125
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 557,
+              "endLine": 557,
+              "startOffset": 56,
+              "endOffset": 123
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 598,
+              "endLine": 598,
+              "startOffset": 57,
+              "endOffset": 124
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"; -fx-text-fill: white; -fx-font-weight: bold; -fx-padding: 8 20;\" 11 times.",
+    "effort": "24min",
+    "debt": "24min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T20:29:41+0000",
+    "updateDate": "2026-07-21T20:29:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9696b918-295c-46ae-b57d-8999787be77a",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+    "project": "tumelo393__suppcswk",
+    "line": 368,
+    "hash": "386e138810204fa6fd361d570cdc6b98",
+    "textRange": {
+      "startLine": 368,
+      "endLine": 368,
+      "startOffset": 30,
+      "endOffset": 39
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 368,
+              "endLine": 368,
+              "startOffset": 30,
+              "endOffset": 39
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 404,
+              "endLine": 404,
+              "startOffset": 26,
+              "endOffset": 35
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 466,
+              "endLine": 466,
+              "startOffset": 26,
+              "endOffset": 35
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 535,
+              "endLine": 535,
+              "startOffset": 26,
+              "endOffset": 35
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 568,
+              "endLine": 568,
+              "startOffset": 30,
+              "endOffset": 39
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Success\" 5 times.",
+    "effort": "12min",
+    "debt": "12min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T20:29:41+0000",
+    "updateDate": "2026-07-21T20:29:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "024968a0-241c-44e4-9366-dc6de4886450",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+    "project": "tumelo393__suppcswk",
+    "line": 370,
+    "hash": "c0625868e814be51bba41eeefe3d754a",
+    "textRange": {
+      "startLine": 370,
+      "endLine": 370,
+      "startOffset": 30,
+      "endOffset": 37
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 370,
+              "endLine": 370,
+              "startOffset": 30,
+              "endOffset": 37
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 406,
+              "endLine": 406,
+              "startOffset": 26,
+              "endOffset": 33
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 460,
+              "endLine": 460,
+              "startOffset": 30,
+              "endOffset": 37
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 468,
+              "endLine": 468,
+              "startOffset": 26,
+              "endOffset": 33
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 470,
+              "endLine": 470,
+              "startOffset": 26,
+              "endOffset": 33
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 529,
+              "endLine": 529,
+              "startOffset": 30,
+              "endOffset": 37
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 537,
+              "endLine": 537,
+              "startOffset": 26,
+              "endOffset": 33
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 539,
+              "endLine": 539,
+              "startOffset": 26,
+              "endOffset": 33
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "tumelo393__suppcswk:BankingSystem/BankingSystem/src/main/java/view/BankingApp.java",
+            "textRange": {
+              "startLine": 573,
+              "endLine": 573,
+              "startOffset": 30,
+              "endOffset": 37
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Error\" 9 times.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T20:29:41+0000",
+    "updateDate": "2026-07-21T20:29:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cdc91550-88a8-45b3-9588-8fb4d2bc9f3d",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "tumelo393__suppcswk:src/main/java/com/mycompany/app/App.java",
+    "project": "tumelo393__suppcswk",
+    "line": 10,
+    "hash": "a2c5e8f048d6aefe6828f40a9959e3bf",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T20:29:41+0000",
+    "updateDate": "2026-07-21T20:29:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "24433a5b-4252-49d0-a5b4-149365e23c04",
+    "rule": "java:S1186",
+    "severity": "CRITICAL",
+    "component": "tumelo393__suppcswk:src/test/java/com/mycompany/app/AppTest.java",
+    "project": "tumelo393__suppcswk",
+    "line": 9,
+    "hash": "b21ba11bc15bbe2447da5d0fa6617e2b",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 11,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-21T20:29:41+0000",
+    "updateDate": "2026-07-21T20:29:41+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

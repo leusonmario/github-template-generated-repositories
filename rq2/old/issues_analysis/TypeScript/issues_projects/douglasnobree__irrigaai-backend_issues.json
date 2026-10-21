@@ -1,0 +1,265 @@
+[
+  {
+    "key": "9378330c-15f5-46e6-9dd6-05be05c0ed03",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "douglasnobree__irrigaai-backend:temp_repos/irrigaai-backend/src/api-docs/openAPIResponseBuilders.ts",
+    "project": "douglasnobree__irrigaai-backend",
+    "line": 21,
+    "hash": "5758896be79760e6e83f2f3c250e3bc3",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 41,
+      "startOffset": 0,
+      "endOffset": 4
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-15T22:30:21+0000",
+    "updateDate": "2026-07-15T22:30:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "56ba5425-dcdb-4a57-afc0-d311a4abb974",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "douglasnobree__irrigaai-backend:temp_repos/irrigaai-backend/src/api/user/__tests__/userRouter.test.ts",
+    "project": "douglasnobree__irrigaai-backend",
+    "line": 21,
+    "hash": "1a1af775228c6fe24b613486377ecd12",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 69,
+      "endOffset": 89
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-15T22:30:21+0000",
+    "updateDate": "2026-07-15T22:30:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dc9f79e4-ff28-420d-a1b2-43e47820bf7a",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "douglasnobree__irrigaai-backend:temp_repos/irrigaai-backend/src/api/user/__tests__/userRouter.test.ts",
+    "project": "douglasnobree__irrigaai-backend",
+    "line": 21,
+    "hash": "1a1af775228c6fe24b613486377ecd12",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 31,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-15T22:30:21+0000",
+    "updateDate": "2026-07-15T22:30:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c10a98fb-64e7-41c2-bdaa-438f3a0821cd",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "douglasnobree__irrigaai-backend:temp_repos/irrigaai-backend/src/api/user/userService.ts",
+    "project": "douglasnobree__irrigaai-backend",
+    "line": 9,
+    "hash": "f9425785d874c83b6941e57ea689a912",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 1,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'userRepository' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T22:30:21+0000",
+    "updateDate": "2026-07-15T22:30:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "613b29dd-a1d1-4164-b3e8-0bf39af9d4bc",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "douglasnobree__irrigaai-backend:temp_repos/irrigaai-backend/src/common/middleware/errorHandler.ts",
+    "project": "douglasnobree__irrigaai-backend",
+    "line": 13,
+    "hash": "4110bcab5ddfa6d082b921ebba9214c5",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 57,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-15T22:30:21+0000",
+    "updateDate": "2026-07-15T22:30:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d93f388f-4601-42b8-a257-8e1e7b2aec64",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "douglasnobree__irrigaai-backend:temp_repos/irrigaai-backend/src/common/utils/auth.ts",
+    "project": "douglasnobree__irrigaai-backend",
+    "line": 3,
+    "hash": "7e9656fdfb92e1d35bd9343c03ed285c",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 9,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'customSession'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-15T22:30:21+0000",
+    "updateDate": "2026-07-15T22:30:21+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

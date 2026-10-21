@@ -1,0 +1,325 @@
+[
+  {
+    "key": "e3bd2ffe-eef3-4c1c-a177-0e831bb7ed02",
+    "rule": "docker:S6587",
+    "severity": "MAJOR",
+    "component": "selora__prefect-pack:temp_repos/prefect-pack/Dockerfile.demo",
+    "project": "selora__prefect-pack",
+    "line": 5,
+    "hash": "74590be06fc12249f81d102de9075527",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 22,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove cache after installing packages or store it in a cache mount.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T22:39:54+0000",
+    "updateDate": "2026-07-17T22:39:54+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1b36560a-8a77-411d-b3ce-19d4e7d96857",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "selora__prefect-pack:temp_repos/prefect-pack/Dockerfile.demo",
+    "project": "selora__prefect-pack",
+    "line": 12,
+    "hash": "65cd870810bf757c42fba5853096f0cf",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "selora__prefect-pack:temp_repos/prefect-pack/Dockerfile.demo",
+            "textRange": {
+              "startLine": 13,
+              "endLine": 13,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T22:39:54+0000",
+    "updateDate": "2026-07-17T22:39:54+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "22398b44-51c9-4ba0-b59e-0072f403453a",
+    "rule": "docker:S7018",
+    "severity": "MINOR",
+    "component": "selora__prefect-pack:temp_repos/prefect-pack/Dockerfile.demo",
+    "project": "selora__prefect-pack",
+    "line": 12,
+    "hash": "65cd870810bf757c42fba5853096f0cf",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 14,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Sort these package names alphanumerically.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T22:39:54+0000",
+    "updateDate": "2026-07-17T22:39:54+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e965feb2-1877-4bd1-bcbb-e8e43dd22de8",
+    "rule": "secrets:S6698",
+    "severity": "BLOCKER",
+    "component": "selora__prefect-pack:temp_repos/prefect-pack/examples/run_a_prefect_server/docker_compose/compose.yaml",
+    "project": "selora__prefect-pack",
+    "line": 23,
+    "hash": "fb79b54bf04e2a8453a852d4389d963a",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 76,
+      "endOffset": 83
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Make sure this PostgreSQL database password gets changed and removed from the code.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T22:39:54+0000",
+    "updateDate": "2026-07-17T22:39:54+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cf1ac26c-e730-4de5-ac62-84d877f57ca7",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "selora__prefect-pack:temp_repos/prefect-pack/examples/run_a_prefect_worker/on_docker/Dockerfile",
+    "project": "selora__prefect-pack",
+    "line": 5,
+    "hash": "dfbcb88f862333970ebd1d52eee69d82",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "selora__prefect-pack:temp_repos/prefect-pack/examples/run_a_prefect_worker/on_docker/Dockerfile",
+            "textRange": {
+              "startLine": 8,
+              "endLine": 8,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T22:39:54+0000",
+    "updateDate": "2026-07-17T22:39:54+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "380e324d-fedb-43ef-a2f8-d0bd3b520d50",
+    "rule": "python:S1186",
+    "severity": "CRITICAL",
+    "component": "selora__prefect-pack:temp_repos/prefect-pack/examples/run_flows_via_serve/conditional_source.py",
+    "project": "selora__prefect-pack",
+    "line": 9,
+    "hash": "41fdc951aea20448d63aa4681b3d281a",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 4,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a nested comment explaining why this function is empty, or complete the implementation.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T22:39:54+0000",
+    "updateDate": "2026-07-17T22:39:54+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d6f8c2f2-d787-448d-82dd-b219d0badb58",
+    "rule": "docker:S6587",
+    "severity": "MAJOR",
+    "component": "selora__prefect-pack:temp_repos/prefect-pack/flows/with_special_deps/Dockerfile",
+    "project": "selora__prefect-pack",
+    "line": 3,
+    "hash": "74590be06fc12249f81d102de9075527",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 22,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove cache after installing packages or store it in a cache mount.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T22:39:54+0000",
+    "updateDate": "2026-07-17T22:39:54+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

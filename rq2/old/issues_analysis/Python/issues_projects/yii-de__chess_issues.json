@@ -1,0 +1,1056 @@
+[
+  {
+    "key": "46fc0b21-7942-4dc0-81c7-45cc0ac4fe6f",
+    "rule": "python:S1135",
+    "severity": "INFO",
+    "component": "yii-de__chess:temp_repos/chess/main.py",
+    "project": "yii-de__chess",
+    "line": 16,
+    "hash": "b542c758a5e98f0ecf7e8cffd7b3febb",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 0,
+      "endOffset": 61
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T20:54:48+0000",
+    "updateDate": "2026-07-17T20:54:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fb9917f7-0ad9-4fcf-aca8-14a35c68789a",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "yii-de__chess:temp_repos/chess/main.py",
+    "project": "yii-de__chess",
+    "line": 41,
+    "hash": "b3c4886309dba85fac80232615bb4194",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 41,
+      "startOffset": 14,
+      "endOffset": 35
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 92,
+              "endLine": 92,
+              "startOffset": 18,
+              "endOffset": 39
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 111,
+              "endLine": 111,
+              "startOffset": 18,
+              "endOffset": 39
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 180,
+              "endLine": 180,
+              "startOffset": 18,
+              "endOffset": 39
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 197,
+              "endLine": 197,
+              "startOffset": 18,
+              "endOffset": 39
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal 'data/last_moves.txt' 5 times.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:54:48+0000",
+    "updateDate": "2026-07-17T20:54:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "46560d7e-aa59-4a7c-9d69-1ecedb82a81c",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "yii-de__chess:temp_repos/chess/main.py",
+    "project": "yii-de__chess",
+    "line": 76,
+    "hash": "80f772aa5ae68b300b084fe9bf11e17b",
+    "textRange": {
+      "startLine": 76,
+      "endLine": 76,
+      "startOffset": 4,
+      "endOffset": 8
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 83,
+              "endLine": 83,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 84,
+              "endLine": 84,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 84,
+              "endLine": 84,
+              "startOffset": 47,
+              "endOffset": 50
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 102,
+              "endLine": 102,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 103,
+              "endLine": 103,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 116,
+              "endLine": 116,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 119,
+              "endLine": 119,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 125,
+              "endLine": 125,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 131,
+              "endLine": 131,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 131,
+              "endLine": 131,
+              "startOffset": 39,
+              "endOffset": 42
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 137,
+              "endLine": 137,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 143,
+              "endLine": 143,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 148,
+              "endLine": 148,
+              "startOffset": 39,
+              "endOffset": 41
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 149,
+              "endLine": 149,
+              "startOffset": 33,
+              "endOffset": 35
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 162,
+              "endLine": 162,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 173,
+              "endLine": 173,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 185,
+              "endLine": 185,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 187,
+              "endLine": 187,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 212,
+              "endLine": 212,
+              "startOffset": 26,
+              "endOffset": 28
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 30 to the 15 allowed.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T20:54:48+0000",
+    "updateDate": "2026-07-17T20:54:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "631b6ce1-afe0-4319-bb96-06f675b0da98",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "yii-de__chess:temp_repos/chess/main.py",
+    "project": "yii-de__chess",
+    "line": 84,
+    "hash": "1bddc3952805a314f337c115e3b8247f",
+    "textRange": {
+      "startLine": 84,
+      "endLine": 84,
+      "startOffset": 26,
+      "endOffset": 45
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 103,
+              "endLine": 103,
+              "startOffset": 30,
+              "endOffset": 49
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 107,
+              "endLine": 107,
+              "startOffset": 18,
+              "endOffset": 37
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 168,
+              "endLine": 168,
+              "startOffset": 26,
+              "endOffset": 45
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/main.py",
+            "textRange": {
+              "startLine": 196,
+              "endLine": 196,
+              "startOffset": 18,
+              "endOffset": 37
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal 'games/current.pgn' 5 times.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:54:48+0000",
+    "updateDate": "2026-07-17T20:54:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "23394e01-42c0-4f0c-8991-20e361948c0c",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "yii-de__chess:temp_repos/chess/src/markdown.py",
+    "project": "yii-de__chess",
+    "line": 35,
+    "hash": "16a47c59ed3526185cbef6cc2cf45860",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 65,
+      "endOffset": 86
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/src/markdown.py",
+            "textRange": {
+              "startLine": 63,
+              "endLine": 63,
+              "startOffset": 94,
+              "endOffset": 115
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/src/markdown.py",
+            "textRange": {
+              "startLine": 65,
+              "endLine": 65,
+              "startOffset": 78,
+              "endOffset": 99
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"https://github.com/\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:54:48+0000",
+    "updateDate": "2026-07-17T20:54:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "67248ec3-0d89-48ca-8039-4c643a526b5d",
+    "rule": "python:S1940",
+    "severity": "MINOR",
+    "component": "yii-de__chess:temp_repos/chess/src/markdown.py",
+    "project": "yii-de__chess",
+    "line": 50,
+    "hash": "301ec3b07f6280ad253c93d2429c9df9",
+    "textRange": {
+      "startLine": 50,
+      "endLine": 50,
+      "startOffset": 15,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the opposite operator (\"not in\") instead.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T20:54:48+0000",
+    "updateDate": "2026-07-17T20:54:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "00d25acc-7eb2-4ec4-9ed1-9f96790bfc53",
+    "rule": "python:S7500",
+    "severity": "MINOR",
+    "component": "yii-de__chess:temp_repos/chess/src/markdown.py",
+    "project": "yii-de__chess",
+    "line": 101,
+    "hash": "18808c6a55b237a593670fb5748fa4fc",
+    "textRange": {
+      "startLine": 101,
+      "endLine": 101,
+      "startOffset": 18,
+      "endOffset": 52
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this comprehension with passing the iterable to the collection constructor call",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T20:54:48+0000",
+    "updateDate": "2026-07-17T20:54:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9775718e-5936-479c-8067-04780dab974d",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "yii-de__chess:temp_repos/chess/src/selftest.py",
+    "project": "yii-de__chess",
+    "line": 7,
+    "hash": "43ca5426ecff370a838c8eeb5271a0de",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 4,
+      "endOffset": 17
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/src/selftest.py",
+            "textRange": {
+              "startLine": 11,
+              "endLine": 11,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/src/selftest.py",
+            "textRange": {
+              "startLine": 12,
+              "endLine": 12,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/src/selftest.py",
+            "textRange": {
+              "startLine": 14,
+              "endLine": 14,
+              "startOffset": 8,
+              "endOffset": 12
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/src/selftest.py",
+            "textRange": {
+              "startLine": 16,
+              "endLine": 16,
+              "startOffset": 4,
+              "endOffset": 8
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/src/selftest.py",
+            "textRange": {
+              "startLine": 16,
+              "endLine": 16,
+              "startOffset": 85,
+              "endOffset": 88
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/src/selftest.py",
+            "textRange": {
+              "startLine": 16,
+              "endLine": 16,
+              "startOffset": 44,
+              "endOffset": 46
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/src/selftest.py",
+            "textRange": {
+              "startLine": 16,
+              "endLine": 16,
+              "startOffset": 120,
+              "endOffset": 122
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/src/selftest.py",
+            "textRange": {
+              "startLine": 17,
+              "endLine": 17,
+              "startOffset": 27,
+              "endOffset": 29
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/src/selftest.py",
+            "textRange": {
+              "startLine": 20,
+              "endLine": 20,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/src/selftest.py",
+            "textRange": {
+              "startLine": 20,
+              "endLine": 20,
+              "startOffset": 32,
+              "endOffset": 35
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/src/selftest.py",
+            "textRange": {
+              "startLine": 24,
+              "endLine": 24,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/src/selftest.py",
+            "textRange": {
+              "startLine": 24,
+              "endLine": 24,
+              "startOffset": 30,
+              "endOffset": 33
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/src/selftest.py",
+            "textRange": {
+              "startLine": 28,
+              "endLine": 28,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/src/selftest.py",
+            "textRange": {
+              "startLine": 28,
+              "endLine": 28,
+              "startOffset": 33,
+              "endOffset": 36
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/src/selftest.py",
+            "textRange": {
+              "startLine": 31,
+              "endLine": 31,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/src/selftest.py",
+            "textRange": {
+              "startLine": 31,
+              "endLine": 31,
+              "startOffset": 37,
+              "endOffset": 40
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/src/selftest.py",
+            "textRange": {
+              "startLine": 35,
+              "endLine": 35,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yii-de__chess:temp_repos/chess/src/selftest.py",
+            "textRange": {
+              "startLine": 35,
+              "endLine": 35,
+              "startOffset": 33,
+              "endOffset": 36
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T20:54:48+0000",
+    "updateDate": "2026-07-17T20:54:48+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

@@ -1,0 +1,497 @@
+[
+  {
+    "key": "e83880cd-2b05-4206-b145-19aa27f8ddfe",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "autopen__autopenproj:temp_repos/AutoPenProj/Dockerfile",
+    "project": "autopen__autopenproj",
+    "line": 9,
+    "hash": "d4b97294e0e1382f388f8b8635704643",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "autopen__autopenproj:temp_repos/AutoPenProj/Dockerfile",
+            "textRange": {
+              "startLine": 10,
+              "endLine": 10,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T18:50:19+0000",
+    "updateDate": "2026-07-17T18:50:19+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fd930527-da15-41d4-9d64-09a40b73c4f0",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "autopen__autopenproj:temp_repos/AutoPenProj/core/settings.py",
+    "project": "autopen__autopenproj",
+    "line": 28,
+    "hash": "1d99c7795171ee7752feb7a22cdcba97",
+    "textRange": {
+      "startLine": 28,
+      "endLine": 28,
+      "startOffset": 70,
+      "endOffset": 71
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace the unused loop index \"i\" with \"_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T18:50:19+0000",
+    "updateDate": "2026-07-17T18:50:19+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "975a352a-cc5d-4d73-84bb-f067dda4276d",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "autopen__autopenproj:temp_repos/AutoPenProj/core/settings.py",
+    "project": "autopen__autopenproj",
+    "line": 161,
+    "hash": "32930e9e3212967851b2a888e04a92c1",
+    "textRange": {
+      "startLine": 161,
+      "endLine": 161,
+      "startOffset": 0,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T18:50:19+0000",
+    "updateDate": "2026-07-17T18:50:19+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "60ab8fba-c3a9-4971-add7-98999abcad18",
+    "rule": "javascript:S3504",
+    "severity": "CRITICAL",
+    "component": "autopen__autopenproj:temp_repos/AutoPenProj/gulpfile.js",
+    "project": "autopen__autopenproj",
+    "line": 9,
+    "hash": "0684433c61444b5e28e6407aa2935aa3",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 0,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected var, use let or const instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-17T18:50:19+0000",
+    "updateDate": "2026-07-17T18:50:19+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "78166192-e6d9-46da-9487-4064cd9ca91a",
+    "rule": "javascript:S3504",
+    "severity": "CRITICAL",
+    "component": "autopen__autopenproj:temp_repos/AutoPenProj/gulpfile.js",
+    "project": "autopen__autopenproj",
+    "line": 10,
+    "hash": "6efd5f0bd6b4c76c8e911882471a02d6",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 0,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected var, use let or const instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-17T18:50:19+0000",
+    "updateDate": "2026-07-17T18:50:19+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2c6c84c1-a6e1-4930-81dd-5e2aae796e02",
+    "rule": "javascript:S3504",
+    "severity": "CRITICAL",
+    "component": "autopen__autopenproj:temp_repos/AutoPenProj/gulpfile.js",
+    "project": "autopen__autopenproj",
+    "line": 11,
+    "hash": "202d8e7a821f2596942cf06d806e6e59",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 0,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected var, use let or const instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-17T18:50:19+0000",
+    "updateDate": "2026-07-17T18:50:19+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5cb98598-576c-4d1e-8a67-1f62e4b8e340",
+    "rule": "javascript:S3504",
+    "severity": "CRITICAL",
+    "component": "autopen__autopenproj:temp_repos/AutoPenProj/gulpfile.js",
+    "project": "autopen__autopenproj",
+    "line": 12,
+    "hash": "2f1faab7d6751e10355c5b29e2260c2c",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 0,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected var, use let or const instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-17T18:50:19+0000",
+    "updateDate": "2026-07-17T18:50:19+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bc237cd1-4e3f-4121-92aa-52cf97c1295b",
+    "rule": "javascript:S3504",
+    "severity": "CRITICAL",
+    "component": "autopen__autopenproj:temp_repos/AutoPenProj/gulpfile.js",
+    "project": "autopen__autopenproj",
+    "line": 14,
+    "hash": "9b0d2a5e14eaf00d5d227ba12b131f69",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 0,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected var, use let or const instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-17T18:50:19+0000",
+    "updateDate": "2026-07-17T18:50:19+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d97f10a5-be18-4680-a8ce-571113299e8d",
+    "rule": "javascript:S3504",
+    "severity": "CRITICAL",
+    "component": "autopen__autopenproj:temp_repos/AutoPenProj/gulpfile.js",
+    "project": "autopen__autopenproj",
+    "line": 15,
+    "hash": "9ef570c332f118ca9b751628a160ba46",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 0,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected var, use let or const instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-17T18:50:19+0000",
+    "updateDate": "2026-07-17T18:50:19+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b18cdf53-cbae-448e-a57f-241c823155c7",
+    "rule": "javascript:S3504",
+    "severity": "CRITICAL",
+    "component": "autopen__autopenproj:temp_repos/AutoPenProj/gulpfile.js",
+    "project": "autopen__autopenproj",
+    "line": 16,
+    "hash": "62f9f2a412157994daaf2274dbc3d81c",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 0,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected var, use let or const instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-17T18:50:19+0000",
+    "updateDate": "2026-07-17T18:50:19+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "06e4cad9-e678-4c1c-ba41-5a8270bf6699",
+    "rule": "javascript:S3504",
+    "severity": "CRITICAL",
+    "component": "autopen__autopenproj:temp_repos/AutoPenProj/gulpfile.js",
+    "project": "autopen__autopenproj",
+    "line": 17,
+    "hash": "739930bcd1ded3601c20f739a40ae79a",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 17,
+      "startOffset": 0,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected var, use let or const instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-17T18:50:19+0000",
+    "updateDate": "2026-07-17T18:50:19+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

@@ -1,0 +1,1033 @@
+[
+  {
+    "key": "a6a036ee-639e-4a2c-8b7d-4b410e57de27",
+    "rule": "kotlin:S6624",
+    "severity": "MAJOR",
+    "component": "zindy__qupath-extension-fireparser:build.gradle.kts",
+    "project": "zindy__qupath-extension-fireparser",
+    "line": 38,
+    "hash": "e9fa6abac626372cc9e610e553703cd5",
+    "textRange": {
+      "startLine": 38,
+      "endLine": 38,
+      "startOffset": 51,
+      "endOffset": 57
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not hardcode version numbers.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "gradle"
+    ],
+    "creationDate": "2026-07-21T21:37:15+0000",
+    "updateDate": "2026-07-21T21:37:15+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1bf28927-1945-4e10-96fe-45a4c4bf1525",
+    "rule": "kotlin:S6625",
+    "severity": "MAJOR",
+    "component": "zindy__qupath-extension-fireparser:settings.gradle.kts",
+    "project": "zindy__qupath-extension-fireparser",
+    "flows": [],
+    "status": "OPEN",
+    "message": "Assign rootProject.name in settings.gradle.kts.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "gradle"
+    ],
+    "creationDate": "2026-07-21T21:37:15+0000",
+    "updateDate": "2026-07-21T21:37:15+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [
+      {
+        "start": 7,
+        "end": 23,
+        "type": "CODE"
+      },
+      {
+        "start": 27,
+        "end": 46,
+        "type": "CODE"
+      }
+    ],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2cedd6d8-790a-41e9-b891-1aa005df8a2a",
+    "rule": "java:S1450",
+    "severity": "MINOR",
+    "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/FireParserExtension.java",
+    "project": "zindy__qupath-extension-fireparser",
+    "line": 85,
+    "hash": "cc0c905c11ef610df3ce0b60958f42f9",
+    "textRange": {
+      "startLine": 85,
+      "endLine": 85,
+      "startOffset": 15,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the \"prefixStage\" field and declare it as a local variable in the relevant methods.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "pitfall"
+    ],
+    "creationDate": "2026-07-21T21:37:15+0000",
+    "updateDate": "2026-07-21T21:37:15+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7ce8874f-14ae-4f67-a3e6-b230467b1a4c",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/FireParserExtension.java",
+    "project": "zindy__qupath-extension-fireparser",
+    "line": 153,
+    "hash": "5905187ba6e6c2acbd43af4003605c42",
+    "textRange": {
+      "startLine": 153,
+      "endLine": 153,
+      "startOffset": 49,
+      "endOffset": 56
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/FireParserExtension.java",
+            "textRange": {
+              "startLine": 153,
+              "endLine": 153,
+              "startOffset": 49,
+              "endOffset": 56
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/FireParserExtension.java",
+            "textRange": {
+              "startLine": 177,
+              "endLine": 177,
+              "startOffset": 48,
+              "endOffset": 55
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/FireParserExtension.java",
+            "textRange": {
+              "startLine": 180,
+              "endLine": 180,
+              "startOffset": 48,
+              "endOffset": 55
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"error\" 3 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T21:37:15+0000",
+    "updateDate": "2026-07-21T21:37:15+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b1516614-4ff6-49bb-b1d0-54dd781aadaf",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/FireParserExtension.java",
+    "project": "zindy__qupath-extension-fireparser",
+    "line": 173,
+    "hash": "ac9b13843d02e6a747b7339822de405b",
+    "textRange": {
+      "startLine": 173,
+      "endLine": 173,
+      "startOffset": 5,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T21:37:15+0000",
+    "updateDate": "2026-07-21T21:37:15+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "76d2c6fa-4b4e-43bb-af37-5d0e56e97d97",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+    "project": "zindy__qupath-extension-fireparser",
+    "line": 68,
+    "hash": "56cc5d06d009c9b2356c8f6e3af921b0",
+    "textRange": {
+      "startLine": 68,
+      "endLine": 68,
+      "startOffset": 10,
+      "endOffset": 111
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T21:37:15+0000",
+    "updateDate": "2026-07-21T21:37:15+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5ffa9b88-9852-47c6-b7ad-9c1ed7b83580",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+    "project": "zindy__qupath-extension-fireparser",
+    "line": 162,
+    "hash": "d6433921ef2039b991f4b7b9623a4ab0",
+    "textRange": {
+      "startLine": 162,
+      "endLine": 162,
+      "startOffset": 8,
+      "endOffset": 42
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+            "textRange": {
+              "startLine": 163,
+              "endLine": 163,
+              "startOffset": 12,
+              "endOffset": 64
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+            "textRange": {
+              "startLine": 164,
+              "endLine": 164,
+              "startOffset": 12,
+              "endOffset": 44
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+            "textRange": {
+              "startLine": 165,
+              "endLine": 165,
+              "startOffset": 12,
+              "endOffset": 23
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+            "textRange": {
+              "startLine": 166,
+              "endLine": 166,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T21:37:15+0000",
+    "updateDate": "2026-07-21T21:37:15+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8b577c6d-cd08-45cd-ada1-aff8e4d788cf",
+    "rule": "java:S125",
+    "severity": "MAJOR",
+    "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+    "project": "zindy__qupath-extension-fireparser",
+    "line": 224,
+    "hash": "60cc8e44394e5cd506cfac4d7e160791",
+    "textRange": {
+      "startLine": 224,
+      "endLine": 224,
+      "startOffset": 6,
+      "endOffset": 39
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+            "textRange": {
+              "startLine": 225,
+              "endLine": 225,
+              "startOffset": 6,
+              "endOffset": 38
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+            "textRange": {
+              "startLine": 226,
+              "endLine": 226,
+              "startOffset": 6,
+              "endOffset": 34
+            },
+            "msg": "Code",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This block of commented-out lines of code should be removed.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T21:37:15+0000",
+    "updateDate": "2026-07-21T21:37:15+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dd74ae32-1cdd-44d9-9d5b-98192dc7041c",
+    "rule": "java:S3776",
+    "severity": "CRITICAL",
+    "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+    "project": "zindy__qupath-extension-fireparser",
+    "line": 235,
+    "hash": "bcc57da225b183a28531ed226cf47bbf",
+    "textRange": {
+      "startLine": 235,
+      "endLine": 235,
+      "startOffset": 13,
+      "endOffset": 20
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+            "textRange": {
+              "startLine": 240,
+              "endLine": 240,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+            "textRange": {
+              "startLine": 248,
+              "endLine": 248,
+              "startOffset": 6,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+            "textRange": {
+              "startLine": 257,
+              "endLine": 257,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+            "textRange": {
+              "startLine": 263,
+              "endLine": 263,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+            "textRange": {
+              "startLine": 265,
+              "endLine": 265,
+              "startOffset": 12,
+              "endOffset": 15
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+            "textRange": {
+              "startLine": 268,
+              "endLine": 268,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+            "textRange": {
+              "startLine": 273,
+              "endLine": 273,
+              "startOffset": 18,
+              "endOffset": 23
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+            "textRange": {
+              "startLine": 278,
+              "endLine": 278,
+              "startOffset": 10,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+            "textRange": {
+              "startLine": 287,
+              "endLine": 287,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+            "textRange": {
+              "startLine": 292,
+              "endLine": 292,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+            "textRange": {
+              "startLine": 296,
+              "endLine": 296,
+              "startOffset": 6,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.",
+    "effort": "11min",
+    "debt": "11min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-21T21:37:15+0000",
+    "updateDate": "2026-07-21T21:37:15+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "12ea02a2-c9ca-4c88-91a5-59f9a94e6a34",
+    "rule": "java:S5361",
+    "severity": "CRITICAL",
+    "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+    "project": "zindy__qupath-extension-fireparser",
+    "line": 319,
+    "hash": "edcee414ca931d3946d2ba9677cfbff2",
+    "textRange": {
+      "startLine": 319,
+      "endLine": 319,
+      "startOffset": 25,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this call to \"replaceAll()\" by a call to the \"replace()\" method.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "regex",
+      "performance"
+    ],
+    "creationDate": "2026-07-21T21:37:15+0000",
+    "updateDate": "2026-07-21T21:37:15+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "24be033e-195f-4438-9b68-5db4e36e4f8d",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+    "project": "zindy__qupath-extension-fireparser",
+    "line": 335,
+    "hash": "2cf6dcf6321afac872b3821f64c18104",
+    "textRange": {
+      "startLine": 335,
+      "endLine": 335,
+      "startOffset": 47,
+      "endOffset": 54
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+            "textRange": {
+              "startLine": 335,
+              "endLine": 335,
+              "startOffset": 47,
+              "endOffset": 54
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+            "textRange": {
+              "startLine": 351,
+              "endLine": 351,
+              "startOffset": 28,
+              "endOffset": 35
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+            "textRange": {
+              "startLine": 363,
+              "endLine": 363,
+              "startOffset": 47,
+              "endOffset": 54
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+            "textRange": {
+              "startLine": 367,
+              "endLine": 367,
+              "startOffset": 43,
+              "endOffset": 50
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+            "textRange": {
+              "startLine": 371,
+              "endLine": 371,
+              "startOffset": 32,
+              "endOffset": 39
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"plain\" 5 times.",
+    "effort": "12min",
+    "debt": "12min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T21:37:15+0000",
+    "updateDate": "2026-07-21T21:37:15+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c16b3905-ef27-41ac-bc37-d7d3a9d2d4cd",
+    "rule": "java:S5857",
+    "severity": "MINOR",
+    "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+    "project": "zindy__qupath-extension-fireparser",
+    "line": 343,
+    "hash": "9787aed4b889ce34395a87e684af656c",
+    "textRange": {
+      "startLine": 343,
+      "endLine": 343,
+      "startOffset": 29,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of a reluctant quantifier with \"[^\\\\]]*+\".",
+    "effort": "3min",
+    "debt": "3min",
+    "author": "",
+    "tags": [
+      "regex"
+    ],
+    "creationDate": "2026-07-21T21:37:15+0000",
+    "updateDate": "2026-07-21T21:37:15+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a6180f8d-1f49-4ef1-8269-e4e7c7adbc5c",
+    "rule": "java:S5857",
+    "severity": "MINOR",
+    "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+    "project": "zindy__qupath-extension-fireparser",
+    "line": 344,
+    "hash": "aa5b084381891492c49f962a0b073754",
+    "textRange": {
+      "startLine": 344,
+      "endLine": 344,
+      "startOffset": 30,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of a reluctant quantifier with \"[^\\\\}]*+\".",
+    "effort": "3min",
+    "debt": "3min",
+    "author": "",
+    "tags": [
+      "regex"
+    ],
+    "creationDate": "2026-07-21T21:37:15+0000",
+    "updateDate": "2026-07-21T21:37:15+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "46bd46a5-4b13-4f5b-b7f0-fc13c53c065b",
+    "rule": "java:S1144",
+    "severity": "MAJOR",
+    "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+    "project": "zindy__qupath-extension-fireparser",
+    "line": 370,
+    "hash": "2c5b1176fb8e22f1015c92d9ed397022",
+    "textRange": {
+      "startLine": 370,
+      "endLine": 370,
+      "startOffset": 19,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused private \"getStyleClass\" method.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T21:37:15+0000",
+    "updateDate": "2026-07-21T21:37:15+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b2ff25cf-c1b5-48a7-bf6b-06e9a39478ef",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "zindy__qupath-extension-fireparser:src/main/java/qupath/ext/fireparser/ui/PatternController.java",
+    "project": "zindy__qupath-extension-fireparser",
+    "line": 429,
+    "hash": "b5527b6e1c82af2bae9588a17a4712d4",
+    "textRange": {
+      "startLine": 429,
+      "endLine": 429,
+      "startOffset": 12,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.err by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T21:37:15+0000",
+    "updateDate": "2026-07-21T21:37:15+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

@@ -1,0 +1,3621 @@
+[
+  {
+    "key": "2dd6c24d-9aaf-49bd-bea9-8826482c909a",
+    "rule": "docker:S7029",
+    "severity": "MAJOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/Dockerfile",
+    "project": "baswag__console-plugin-capsule",
+    "line": 6,
+    "hash": "99303e1c8bbc5586a2f5b4e73da732aa",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 0,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this ADD instruction with a COPY instruction.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6171dd3c-ae40-4c14-989e-853ff18ee1da",
+    "rule": "kubernetes:S6865",
+    "severity": "MAJOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/charts/openshift-console-plugin/templates/deployment.yaml",
+    "project": "baswag__console-plugin-capsule",
+    "line": 23,
+    "hash": "d9e939dad9db0fbf12a7e7ed37d92d0f",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 6,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Bind this resource's automounted service account to RBAC or disable automounting.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "67fda5db-e827-4510-89f5-940ce7e3a55f",
+    "rule": "kubernetes:S6897",
+    "severity": "MAJOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/charts/openshift-console-plugin/templates/deployment.yaml",
+    "project": "baswag__console-plugin-capsule",
+    "line": 24,
+    "hash": "0aa9cf452944ef2f52970aee14283f12",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify a storage request for this container.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f74b6cb8-9bc4-45f2-84a3-ffe7baf3bbda",
+    "rule": "kubernetes:S6864",
+    "severity": "MAJOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/charts/openshift-console-plugin/templates/deployment.yaml",
+    "project": "baswag__console-plugin-capsule",
+    "line": 24,
+    "hash": "0aa9cf452944ef2f52970aee14283f12",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify a memory limit for this container.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "388f0d9e-9a13-4133-96dc-acf3216b3ff8",
+    "rule": "kubernetes:S6893",
+    "severity": "MAJOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/charts/openshift-console-plugin/templates/deployment.yaml",
+    "project": "baswag__console-plugin-capsule",
+    "line": 25,
+    "hash": "b0f838668ff594a4f7a644ceb483b85f",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 17,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a whitespace after \"{{\" in the template directive.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FORMATTED",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5dc42aa5-590c-4309-90f0-ca2edfc8a856",
+    "rule": "kubernetes:S6893",
+    "severity": "MAJOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/charts/openshift-console-plugin/templates/deployment.yaml",
+    "project": "baswag__console-plugin-capsule",
+    "line": 25,
+    "hash": "b0f838668ff594a4f7a644ceb483b85f",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 92,
+      "endOffset": 94
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a whitespace before \"}}\" in the template directive.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FORMATTED",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9711d402-eda1-4221-b1e1-a9b268fe0267",
+    "rule": "kubernetes:S6897",
+    "severity": "MAJOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/charts/openshift-console-plugin/templates/patch-consoles-job.yaml",
+    "project": "baswag__console-plugin-capsule",
+    "line": 27,
+    "hash": "40e458a3836bc68bf093966ef151a31e",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify a storage request for this container.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ceb2b182-161f-413d-8259-aaa2cc21cf40",
+    "rule": "kubernetes:S6864",
+    "severity": "MAJOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/charts/openshift-console-plugin/templates/patch-consoles-job.yaml",
+    "project": "baswag__console-plugin-capsule",
+    "line": 27,
+    "hash": "40e458a3836bc68bf093966ef151a31e",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify a memory limit for this container.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c5364273-61d8-4349-a2c9-9e7ddfa81478",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/i18n-scripts/common.js",
+    "project": "baswag__console-plugin-capsule",
+    "line": 1,
+    "hash": "44f9b15d3b1641faca5561b190d8261a",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 19,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5c83a3cc-2c45-40a8-928e-2d558d57f354",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/i18n-scripts/common.js",
+    "project": "baswag__console-plugin-capsule",
+    "line": 2,
+    "hash": "85968f5b9f570a82c65709eacc211a09",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 21,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3734ff87-ef61-407a-a9d5-af7fb46534f8",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/i18n-scripts/common.js",
+    "project": "baswag__console-plugin-capsule",
+    "line": 9,
+    "hash": "550051ee6b000602ffe414172dfff76d",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 12,
+      "startOffset": 6,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e551a0e0-c47e-4897-9908-1f53db74cf56",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/i18n-scripts/lexers.js",
+    "project": "baswag__console-plugin-capsule",
+    "line": 1,
+    "hash": "96026fbbab9a544f3ada3acaff3a0a2a",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 29,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:events` over `events`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "604b332e-e3ae-4e34-be78-7d485e602042",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/i18n-scripts/set-english-defaults.js",
+    "project": "baswag__console-plugin-capsule",
+    "line": 1,
+    "hash": "44f9b15d3b1641faca5561b190d8261a",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 19,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7ba36a1a-203e-43ca-ac1e-b8b58b673378",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/i18n-scripts/set-english-defaults.js",
+    "project": "baswag__console-plugin-capsule",
+    "line": 2,
+    "hash": "85968f5b9f570a82c65709eacc211a09",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 21,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "006ff3c0-09e3-4354-9671-9223c459b8ab",
+    "rule": "javascript:S4138",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/i18n-scripts/set-english-defaults.js",
+    "project": "baswag__console-plugin-capsule",
+    "line": 29,
+    "hash": "869e1783869f34f952156de008c85896",
+    "textRange": {
+      "startLine": 29,
+      "endLine": 55,
+      "startOffset": 2,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Expected a `for-of` loop instead of a `for` loop with this simple iteration.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "clumsy"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e17a85be-93ec-4594-a07f-98fc852107cb",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/integration-tests/pages/login.ts",
+    "project": "baswag__console-plugin-capsule",
+    "line": 17,
+    "hash": "83600466699ddf929a0f3cdbf74fa3fa",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 17,
+      "startOffset": 36,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0baf48a8-4f30-4d11-9b6b-085e66a678b0",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/integration-tests/support/index.ts",
+    "project": "baswag__console-plugin-capsule",
+    "line": 6,
+    "hash": "6dd90d6d260bcac6af76ee177679d4f6",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 11,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "908daed5-b1b5-416f-bc76-70bc8026d356",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/integration-tests/tests/example-page.spec.ts",
+    "project": "baswag__console-plugin-capsule",
+    "line": 1,
+    "hash": "7c552f816a95066f194a2f13e401f875",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 25,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:child_process` over `child_process`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d38baf51-1596-4ed9-b035-d84ee747cdc5",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/integration-tests/tests/example-page.spec.ts",
+    "project": "baswag__console-plugin-capsule",
+    "line": 44,
+    "hash": "94332f2413ac9791552ad3275938ebe6",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 44,
+      "startOffset": 8,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "77886c87-8ce3-4d97-b6a2-770d02f9535d",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/integration-tests/tests/example-page.spec.ts",
+    "project": "baswag__console-plugin-capsule",
+    "line": 59,
+    "hash": "94332f2413ac9791552ad3275938ebe6",
+    "textRange": {
+      "startLine": 59,
+      "endLine": 59,
+      "startOffset": 8,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "023fd43b-08e5-4ee3-b255-8ba9ebae05d5",
+    "rule": "javascript:S7780",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/jest.config.js",
+    "project": "baswag__console-plugin-capsule",
+    "line": 5,
+    "hash": "5f91800e6434f3095318276a6d3b8a2a",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 13,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "`String.raw` should be used to avoid escaping `\\`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "006dd0c3-8e89-4b0d-9e23-d8cc309b2c7c",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/CreateNamespaceModal.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 30,
+    "hash": "3fdef1e0cf0eff5b5e77143edfd77c5d",
+    "textRange": {
+      "startLine": 30,
+      "endLine": 34,
+      "startOffset": 45,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "df16471e-4acb-452c-8f48-8784bbe81be0",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/CreateResourcePoolClaimModal.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 32,
+    "hash": "277e478ef6b6b848e715d7d81299193b",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 39,
+      "startOffset": 53,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fe82fb23-868c-48f4-8ff6-84d34445fae2",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/EditResourcePoolClaimModal.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 24,
+    "hash": "e5b565d7d8febfeb9cbc00ae9f2e783e",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 29,
+      "startOffset": 51,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7dbebf1f-a3d3-4864-b276-eba7b6750cd4",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/ResourcePoolClaimsTable.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 65,
+    "hash": "ce3c644587c7e26febf1723e6b366bc6",
+    "textRange": {
+      "startLine": 65,
+      "endLine": 72,
+      "startOffset": 40,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b00fba48-174b-47e6-8c2a-3b8b368dfe84",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/ResourcePoolClaimsTable.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 108,
+    "hash": "97e8a3db43f1a27fa202a869da182229",
+    "textRange": {
+      "startLine": 108,
+      "endLine": 108,
+      "startOffset": 22,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ae0653f6-eb61-466d-abd1-c8cea8ea8e43",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/ResourcePoolClaimsTable.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 110,
+    "hash": "6807c963d272e0e43844e374938f551a",
+    "textRange": {
+      "startLine": 110,
+      "endLine": 114,
+      "startOffset": 6,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "daf35531-67f6-4f64-81f1-ccf1da66b018",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/ResourcePoolClaimsTable.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 112,
+    "hash": "e879e31ea3cb488a1a93ac14257405a5",
+    "textRange": {
+      "startLine": 112,
+      "endLine": 114,
+      "startOffset": 8,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6c5f1be4-37d9-4f0a-99f5-a1e30966d6a6",
+    "rule": "typescript:S6477",
+    "severity": "MAJOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/ResourcePoolClaimsTable.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 131,
+    "hash": "9baa84b5be03d39edc10d05aded6c7c9",
+    "textRange": {
+      "startLine": 131,
+      "endLine": 131,
+      "startOffset": 4,
+      "endOffset": 62
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Missing \"key\" prop for element in array",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1a9b3d32-3a10-4b08-92e9-dea5cba67de4",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/ResourcePoolClaimsTable.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 132,
+    "hash": "8f43d3f3b2997da58da0b8366bd724af",
+    "textRange": {
+      "startLine": 132,
+      "endLine": 132,
+      "startOffset": 4,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "86b8e763-1d4b-40b7-a28d-4cfbb6c90e45",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/ResourcePoolClaimsTable.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 141,
+    "hash": "8f43d3f3b2997da58da0b8366bd724af",
+    "textRange": {
+      "startLine": 141,
+      "endLine": 141,
+      "startOffset": 4,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "19f52ff4-a26b-41a9-afe5-ea9095130083",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/ResourcePoolsPage.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 163,
+    "hash": "5eccec38524dcda2941fe98cf0bd84f6",
+    "textRange": {
+      "startLine": 163,
+      "endLine": 163,
+      "startOffset": 22,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1e9a98a5-779d-49a7-af7f-bbccd45fb1cd",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/ResourcePoolsPage.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 165,
+    "hash": "4d254152454d94c50aaeebeb3adcda1e",
+    "textRange": {
+      "startLine": 165,
+      "endLine": 169,
+      "startOffset": 6,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a884904d-26e8-419c-9e42-2f6f21816aad",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/ResourcePoolsPage.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 167,
+    "hash": "e879e31ea3cb488a1a93ac14257405a5",
+    "textRange": {
+      "startLine": 167,
+      "endLine": 169,
+      "startOffset": 8,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "218fe818-be13-401e-b56d-5f5204c34299",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/TenantNamespaceDetailPage.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 111,
+    "hash": "403f0e0b47d5edca83989e05bba547c9",
+    "textRange": {
+      "startLine": 111,
+      "endLine": 111,
+      "startOffset": 25,
+      "endOffset": 78
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e15db8c7-0853-44c6-9b7d-1d92a429185a",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/TenantNamespaceDetailPage.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 113,
+    "hash": "1b9af83756f9086c8f10e515be273642",
+    "textRange": {
+      "startLine": 113,
+      "endLine": 113,
+      "startOffset": 15,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5cf845e4-dc4a-4c14-b14a-3ba5edb194a1",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/TenantNamespaceDetailPage.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 218,
+    "hash": "3cbd62a131173c1edd3d41c88aa07ad3",
+    "textRange": {
+      "startLine": 218,
+      "endLine": 218,
+      "startOffset": 24,
+      "endOffset": 73
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e27cefe9-0c65-41cb-a940-0947e2ffcb95",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/TenantNamespaceDetailPage.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 269,
+    "hash": "c885888e7defac975964f23ae4fdb953",
+    "textRange": {
+      "startLine": 269,
+      "endLine": 269,
+      "startOffset": 30,
+      "endOffset": 88
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5279bb52-5e5b-4771-bad6-d72912988043",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/TenantNamespaceDetailPage.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 271,
+    "hash": "1b9af83756f9086c8f10e515be273642",
+    "textRange": {
+      "startLine": 271,
+      "endLine": 271,
+      "startOffset": 15,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8d9cdcd7-2eac-45d0-b140-ccf1a5d4044c",
+    "rule": "typescript:S6478",
+    "severity": "MAJOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/TenantNamespaceDetailPage.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 618,
+    "hash": "8b7a97f9e337be62bcf57557e4fc6e5e",
+    "textRange": {
+      "startLine": 618,
+      "endLine": 618,
+      "startOffset": 36,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Move this component definition out of the parent component and pass data as props.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9bc94464-3e11-4c3b-bc7d-ac1832e55cf3",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/TenantNamespaceDetailPage.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 671,
+    "hash": "e1a36b949a2f73dc6a23e734916b706b",
+    "textRange": {
+      "startLine": 671,
+      "endLine": 671,
+      "startOffset": 21,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8b239088-cc88-44df-9ea6-83b3e6bc0347",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/TenantNamespacesPage.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 57,
+    "hash": "7d65d2de632cb7fb10d159322a1aaced",
+    "textRange": {
+      "startLine": 57,
+      "endLine": 57,
+      "startOffset": 27,
+      "endOffset": 94
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "50f7b46b-408d-459e-a8e6-61b56e4c8e69",
+    "rule": "typescript:S6477",
+    "severity": "MAJOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/TenantNamespacesPage.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 234,
+    "hash": "8cec532b15c0150f37d35e6f7d7b5f6e",
+    "textRange": {
+      "startLine": 234,
+      "endLine": 239,
+      "startOffset": 4,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Missing \"key\" prop for element in array",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9779f409-c0da-4237-b6de-e62011d4b200",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/TenantNamespacesPage.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 242,
+    "hash": "5eccec38524dcda2941fe98cf0bd84f6",
+    "textRange": {
+      "startLine": 242,
+      "endLine": 242,
+      "startOffset": 22,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b4fc6b1a-bf8b-400c-8eed-3e8061781712",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/TenantNamespacesPage.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 244,
+    "hash": "4e8dddc05508a69e70e8765268f25676",
+    "textRange": {
+      "startLine": 244,
+      "endLine": 248,
+      "startOffset": 6,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9b5700ba-8abd-4a3d-8a59-4c58184b5b60",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/TenantNamespacesPage.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 246,
+    "hash": "e879e31ea3cb488a1a93ac14257405a5",
+    "textRange": {
+      "startLine": 246,
+      "endLine": 248,
+      "startOffset": 8,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f636fd02-0781-45e8-8110-f4b14704f00b",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/TenantResourcePage.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 157,
+    "hash": "5eccec38524dcda2941fe98cf0bd84f6",
+    "textRange": {
+      "startLine": 157,
+      "endLine": 157,
+      "startOffset": 22,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2e3a4d5b-bc49-4e1e-bdc0-e6935d4a989c",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/TenantResourcePage.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 159,
+    "hash": "4d254152454d94c50aaeebeb3adcda1e",
+    "textRange": {
+      "startLine": 159,
+      "endLine": 163,
+      "startOffset": 6,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "67ee0376-db74-4612-946e-5abf4ca549a3",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/TenantResourcePage.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 161,
+    "hash": "e879e31ea3cb488a1a93ac14257405a5",
+    "textRange": {
+      "startLine": 161,
+      "endLine": 163,
+      "startOffset": 8,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b1b0ff87-3e24-41a2-a5f3-03c1c5a22a51",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/TenantsPage.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 102,
+    "hash": "5eccec38524dcda2941fe98cf0bd84f6",
+    "textRange": {
+      "startLine": 102,
+      "endLine": 102,
+      "startOffset": 22,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8ee5bbe9-945f-4d32-bb0b-3513f795431a",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/TenantsPage.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 104,
+    "hash": "4d254152454d94c50aaeebeb3adcda1e",
+    "textRange": {
+      "startLine": 104,
+      "endLine": 108,
+      "startOffset": 6,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "90e3393d-a31b-4827-9d2f-7be8b73c4584",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/components/TenantsPage.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 106,
+    "hash": "e879e31ea3cb488a1a93ac14257405a5",
+    "textRange": {
+      "startLine": 106,
+      "endLine": 108,
+      "startOffset": 8,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7b6a5758-9b3f-42c6-b40c-04a3d59d94b1",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/capsule.ts",
+    "project": "baswag__console-plugin-capsule",
+    "line": 12,
+    "hash": "b1f727663f9f18f0457f9550edeb01dc",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 2,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'proxyBase' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cc1bf2e0-360e-452a-a556-53ebaf116e57",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/capsule.ts",
+    "project": "baswag__console-plugin-capsule",
+    "line": 14,
+    "hash": "b0e86c0aa0be704d8851f13532bef91f",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 4,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'resource: {\n      apiGroup: string;\n      apiVersion: string;\n      apiKind: string;\n      apiKindSingle: string;\n    }' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c9433a28-8279-462f-a191-5dd901777ba7",
+    "rule": "typescript:S6594",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/capsule.ts",
+    "project": "baswag__console-plugin-capsule",
+    "line": 195,
+    "hash": "705d1170686e27672675a62212fed197",
+    "textRange": {
+      "startLine": 195,
+      "endLine": 195,
+      "startOffset": 15,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the \"RegExp.exec()\" method instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "regex",
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "66aa1697-b09b-4043-b93c-7bf45788f0e6",
+    "rule": "typescript:S6594",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/capsule.ts",
+    "project": "baswag__console-plugin-capsule",
+    "line": 196,
+    "hash": "24117c20a5c2633c75511e6a3bf7c424",
+    "textRange": {
+      "startLine": 196,
+      "endLine": 196,
+      "startOffset": 11,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the \"RegExp.exec()\" method instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "regex",
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8004f274-d760-4ebe-a94f-2cda606c9cd5",
+    "rule": "typescript:S6594",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/capsule.ts",
+    "project": "baswag__console-plugin-capsule",
+    "line": 197,
+    "hash": "2f1963e5a268a1106be5318b4fb763aa",
+    "textRange": {
+      "startLine": 197,
+      "endLine": 197,
+      "startOffset": 15,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the \"RegExp.exec()\" method instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "regex",
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cb0ddea2-ac47-4e95-bbf3-b3244bbcc250",
+    "rule": "typescript:S6594",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/capsule.ts",
+    "project": "baswag__console-plugin-capsule",
+    "line": 198,
+    "hash": "34452ac6b126386183eb5f4c3b345c85",
+    "textRange": {
+      "startLine": 198,
+      "endLine": 198,
+      "startOffset": 11,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the \"RegExp.exec()\" method instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "regex",
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0f593f1a-31cd-4348-b9d0-876ec40ad25b",
+    "rule": "typescript:S6594",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/capsule.ts",
+    "project": "baswag__console-plugin-capsule",
+    "line": 199,
+    "hash": "1bea512cbb233cb4ac9608b7d71a10f1",
+    "textRange": {
+      "startLine": 199,
+      "endLine": 199,
+      "startOffset": 15,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the \"RegExp.exec()\" method instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "regex",
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "106f9ccd-3b8e-494f-b8cf-5f4cd3ea0e40",
+    "rule": "typescript:S6594",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/capsule.ts",
+    "project": "baswag__console-plugin-capsule",
+    "line": 200,
+    "hash": "eee6075950f5505cbce98af69867bdf4",
+    "textRange": {
+      "startLine": 200,
+      "endLine": 200,
+      "startOffset": 11,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the \"RegExp.exec()\" method instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "regex",
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "801f39a9-b3f7-43e5-b98f-5ac0f6544e6e",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/capsule.ts",
+    "project": "baswag__console-plugin-capsule",
+    "line": 201,
+    "hash": "84cc2ed1206d5ba6bdb4b463e401be93",
+    "textRange": {
+      "startLine": 201,
+      "endLine": 201,
+      "startOffset": 26,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ea4a7b12-5881-4f0f-bd3c-fac5890f3901",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/capsule.ts",
+    "project": "baswag__console-plugin-capsule",
+    "line": 201,
+    "hash": "84cc2ed1206d5ba6bdb4b463e401be93",
+    "textRange": {
+      "startLine": 201,
+      "endLine": 201,
+      "startOffset": 46,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7a1b5cc0-599f-44b6-8b84-46170fb9c1c4",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/capsule.ts",
+    "project": "baswag__console-plugin-capsule",
+    "line": 202,
+    "hash": "a31b5a0ccd875da431a3a040efd5695d",
+    "textRange": {
+      "startLine": 202,
+      "endLine": 202,
+      "startOffset": 45,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "96cf3bbe-1870-483e-92cf-83fc1fd84878",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/capsule.ts",
+    "project": "baswag__console-plugin-capsule",
+    "line": 202,
+    "hash": "a31b5a0ccd875da431a3a040efd5695d",
+    "textRange": {
+      "startLine": 202,
+      "endLine": 202,
+      "startOffset": 65,
+      "endOffset": 75
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6b7ca1f2-bf01-4955-98db-5437c4971d50",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/capsule.ts",
+    "project": "baswag__console-plugin-capsule",
+    "line": 203,
+    "hash": "ff690c694d3b9b71cc760df18b388fea",
+    "textRange": {
+      "startLine": 203,
+      "endLine": 203,
+      "startOffset": 50,
+      "endOffset": 60
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c58dda41-73cf-40a9-9c32-38569ef88fe6",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/capsule.ts",
+    "project": "baswag__console-plugin-capsule",
+    "line": 203,
+    "hash": "ff690c694d3b9b71cc760df18b388fea",
+    "textRange": {
+      "startLine": 203,
+      "endLine": 203,
+      "startOffset": 30,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5e749359-2e7e-48b8-a624-20920c2a2109",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/common.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 10,
+    "hash": "60c336782d48bfca7323512bb5d59e4e",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 30,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a9491294-34e9-4268-bd9c-6994c5ae9093",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/common.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 11,
+    "hash": "bac8b3feb59183ed0de41441b7863da4",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 31,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2c40510b-6176-4a19-9173-596a06a56e64",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/common.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 12,
+    "hash": "605e2132d3c7bcb7a65865f0dfd72fb9",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 31,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3ef7fe16-0671-4e19-9da4-9cf04823743a",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/common.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 13,
+    "hash": "1d3ed718b3a31ecce57af4bd7c0a0593",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 31,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "845d6605-e30f-4cf2-8e33-2b370600d594",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/common.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 14,
+    "hash": "95fdbdad4b5c524ee368ed8bffadc9b8",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 31,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "de24d123-a58e-4338-a598-8a722330a706",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/common.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 15,
+    "hash": "f9db329cba1e53f4a47cc8896d118eac",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 30,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "38954897-feec-4d40-bbf9-fab453c4b4df",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/common.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 16,
+    "hash": "a585ee09b7bd6e7f6106378de303207e",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 30,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c9f34eaa-7f43-4769-9bb3-3a89803fe2f8",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/common.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 17,
+    "hash": "d614a973f17916a52479d7b82914342b",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 17,
+      "startOffset": 30,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ea9bc811-017e-4d0f-94d4-21f4673a9a53",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/common.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 18,
+    "hash": "dae488ee57ed21bf6a468b819c2d4ed0",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 30,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c9bc59c6-8745-4c16-8741-ef626aeb7a62",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/common.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 19,
+    "hash": "a32126bd43ea3049566bff1ce945b7a4",
+    "textRange": {
+      "startLine": 19,
+      "endLine": 19,
+      "startOffset": 9,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c9780f1f-cb47-4cf5-bd2f-7e9b20b41060",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/common.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 28,
+    "hash": "8ece7b1e6ab54df2c890557d5863e819",
+    "textRange": {
+      "startLine": 28,
+      "endLine": 28,
+      "startOffset": 27,
+      "endOffset": 68
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "53f5cff2-6366-4fe7-bec4-f68dc9f3bb3b",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/common.tsx",
+    "project": "baswag__console-plugin-capsule",
+    "line": 44,
+    "hash": "9f5eb16c126006eb17dc10fc4c89d4b9",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 46,
+      "startOffset": 8,
+      "endOffset": 61
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "081e9b5e-c1c8-42db-b044-474fae0fb557",
+    "rule": "typescript:S7766",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/useListPage.ts",
+    "project": "baswag__console-plugin-capsule",
+    "line": 42,
+    "hash": "4da9d1d8363e8de99defa3bbaf2bde36",
+    "textRange": {
+      "startLine": 42,
+      "endLine": 42,
+      "startOffset": 37,
+      "endOffset": 63
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Math.max()` to simplify ternary expressions.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5e0ba049-6a7d-4079-8411-5f52e6c7b588",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/src/utils/useListPage.ts",
+    "project": "baswag__console-plugin-capsule",
+    "line": 53,
+    "hash": "94a96583f33ccf9353c383bd4dbcb996",
+    "textRange": {
+      "startLine": 53,
+      "endLine": 53,
+      "startOffset": 33,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "651feb09-0b1d-4f61-9dc4-4cd8f6df609f",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "baswag__console-plugin-capsule:temp_repos/console-plugin-capsule/webpack.config.ts",
+    "project": "baswag__console-plugin-capsule",
+    "line": 3,
+    "hash": "6c88602ec87337f7ced5b0656f1d5f29",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 22,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T03:36:04+0000",
+    "updateDate": "2026-07-16T03:36:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

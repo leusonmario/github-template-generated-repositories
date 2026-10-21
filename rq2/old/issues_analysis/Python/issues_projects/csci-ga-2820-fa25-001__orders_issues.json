@@ -1,0 +1,1100 @@
+[
+  {
+    "key": "3acea7d2-1e1f-4ca6-995d-2ffb9c37f135",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/features/steps/web_steps.py",
+    "project": "csci-ga-2820-fa25-001__orders",
+    "line": 225,
+    "hash": "5e11fcffc5ca1f600d0bf53d38f19ae7",
+    "textRange": {
+      "startLine": 225,
+      "endLine": 225,
+      "startOffset": 28,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused local variable \"e\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:21:02+0000",
+    "updateDate": "2026-07-17T21:21:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "de267c97-39f6-4183-b08e-a9318e91b8f4",
+    "rule": "kubernetes:S6865",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/k8s/deployment.yaml",
+    "project": "csci-ga-2820-fa25-001__orders",
+    "line": 23,
+    "hash": "d9e939dad9db0fbf12a7e7ed37d92d0f",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 6,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Bind this resource's automounted service account to RBAC or disable automounting.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:21:02+0000",
+    "updateDate": "2026-07-17T21:21:02+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5b570c1c-196e-4471-bd1e-ded79c01d107",
+    "rule": "kubernetes:S6897",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/k8s/deployment.yaml",
+    "project": "csci-ga-2820-fa25-001__orders",
+    "line": 24,
+    "hash": "ccaaded57eeabe26746a1909445fe2f9",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 8,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify a storage request for this container.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:21:02+0000",
+    "updateDate": "2026-07-17T21:21:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "00dd5952-d5d3-4d31-b3f9-76e7044cfb83",
+    "rule": "kubernetes:S6865",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/k8s/postgresql/statefulset.yaml",
+    "project": "csci-ga-2820-fa25-001__orders",
+    "line": 21,
+    "hash": "d9e939dad9db0fbf12a7e7ed37d92d0f",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 6,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Bind this resource's automounted service account to RBAC or disable automounting.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:21:02+0000",
+    "updateDate": "2026-07-17T21:21:02+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "37538e4e-0fe5-45e1-9f3a-fc7547423e64",
+    "rule": "kubernetes:S6897",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/k8s/postgresql/statefulset.yaml",
+    "project": "csci-ga-2820-fa25-001__orders",
+    "line": 22,
+    "hash": "fe36e22994fdb5387d55f4b86a3b8f6d",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify a storage request for this container.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:21:02+0000",
+    "updateDate": "2026-07-17T21:21:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5f8a16ee-2cea-4e01-9898-7175a8bc1067",
+    "rule": "kubernetes:S6870",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/k8s/postgresql/statefulset.yaml",
+    "project": "csci-ga-2820-fa25-001__orders",
+    "line": 22,
+    "hash": "fe36e22994fdb5387d55f4b86a3b8f6d",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/k8s/postgresql/statefulset.yaml",
+            "textRange": {
+              "startLine": 44,
+              "endLine": 44,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "for this volume mount",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Specify a storage limit for this container.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:21:02+0000",
+    "updateDate": "2026-07-17T21:21:02+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7d4b9631-1bf8-41b0-80eb-d4671db0913c",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/service/config.py",
+    "project": "csci-ga-2820-fa25-001__orders",
+    "line": 16,
+    "hash": "23741feba191b485658111d13f474bf9",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 0,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:21:02+0000",
+    "updateDate": "2026-07-17T21:21:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "13ba7643-d148-46b5-87d0-a6674cbff51b",
+    "rule": "python:S7504",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/service/models/order.py",
+    "project": "csci-ga-2820-fa25-001__orders",
+    "line": 82,
+    "hash": "422a28fb4ec7707252a816c5e81ae248",
+    "textRange": {
+      "startLine": 82,
+      "endLine": 82,
+      "startOffset": 25,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unnecessary `list()` call on an already iterable object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:21:02+0000",
+    "updateDate": "2026-07-17T21:21:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c1283896-7714-4fc8-8079-c34732880335",
+    "rule": "Web:S5254",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/service/static/index.html",
+    "project": "csci-ga-2820-fa25-001__orders",
+    "line": 2,
+    "hash": "166248a6129a1e4370d20adc2d4c23f3",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"<html>\" element",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-17T21:21:02+0000",
+    "updateDate": "2026-07-17T21:21:02+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "430b712c-2bf4-4469-8435-27771a1be3ea",
+    "rule": "Web:S5256",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/service/static/index.html",
+    "project": "csci-ga-2820-fa25-001__orders",
+    "line": 20,
+    "hash": "99686b27b2ad525df0b3aa55cb0ffd73",
+    "textRange": {
+      "startLine": 20,
+      "endLine": 20,
+      "startOffset": 8,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add \"<th>\" headers to this \"<table>\".",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-17T21:21:02+0000",
+    "updateDate": "2026-07-17T21:21:02+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ce96df22-4e71-44e0-bb73-9574316fcc74",
+    "rule": "Web:S7930",
+    "severity": "CRITICAL",
+    "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/service/static/index.html",
+    "project": "csci-ga-2820-fa25-001__orders",
+    "line": 219,
+    "hash": "d0a29c718f5202bef91b099c02101584",
+    "textRange": {
+      "startLine": 219,
+      "endLine": 219,
+      "startOffset": 10,
+      "endOffset": 76
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Duplicate id \"delete_item-btn\" found. First occurrence was on line 153.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "web",
+      "html"
+    ],
+    "creationDate": "2026-07-17T21:21:02+0000",
+    "updateDate": "2026-07-17T21:21:02+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "544674cf-5815-4412-bcda-918eeb4677c2",
+    "rule": "javascript:S1854",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+    "project": "csci-ga-2820-fa25-001__orders",
+    "line": 71,
+    "hash": "cf8a7857cf952b8f8a1916a63bb07b74",
+    "textRange": {
+      "startLine": 71,
+      "endLine": 71,
+      "startOffset": 8,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this useless assignment to variable \"ajax\".",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:21:02+0000",
+    "updateDate": "2026-07-17T21:21:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b8061dbd-d306-4698-b262-eb1e555858ae",
+    "rule": "javascript:S1481",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+    "project": "csci-ga-2820-fa25-001__orders",
+    "line": 71,
+    "hash": "cf8a7857cf952b8f8a1916a63bb07b74",
+    "textRange": {
+      "startLine": 71,
+      "endLine": 71,
+      "startOffset": 8,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the declaration of the unused 'ajax' variable.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:21:02+0000",
+    "updateDate": "2026-07-17T21:21:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c820e075-27a0-4dac-9d03-3ce6ec7ee391",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+    "project": "csci-ga-2820-fa25-001__orders",
+    "line": 218,
+    "hash": "866188042330c0524e627b92852ab953",
+    "textRange": {
+      "startLine": 218,
+      "endLine": 218,
+      "startOffset": 13,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-17T21:21:02+0000",
+    "updateDate": "2026-07-17T21:21:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cc9d6ac9-e9af-4d46-9600-68fc02abeff8",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+    "project": "csci-ga-2820-fa25-001__orders",
+    "line": 312,
+    "hash": "665d0588b1d0604ca9d4a009e00b807e",
+    "textRange": {
+      "startLine": 312,
+      "endLine": 312,
+      "startOffset": 12,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-17T21:21:02+0000",
+    "updateDate": "2026-07-17T21:21:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4f793454-9b24-48d0-90e6-b98d6a288660",
+    "rule": "javascript:S930",
+    "severity": "CRITICAL",
+    "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+    "project": "csci-ga-2820-fa25-001__orders",
+    "line": 350,
+    "hash": "807be167dbf2734cd429e1c0bfa4d81e",
+    "textRange": {
+      "startLine": 350,
+      "endLine": 350,
+      "startOffset": 6,
+      "endOffset": 34
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+            "textRange": {
+              "startLine": 332,
+              "endLine": 332,
+              "startOffset": 13,
+              "endOffset": 41
+            },
+            "msg": "Formal parameters",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+            "textRange": {
+              "startLine": 350,
+              "endLine": 350,
+              "startOffset": 35,
+              "endOffset": 37
+            },
+            "msg": "Extra argument",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "This function expects no arguments, but 1 was provided.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T21:21:02+0000",
+    "updateDate": "2026-07-17T21:21:02+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "31575413-a05d-4ed9-bc64-795b52540c56",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+    "project": "csci-ga-2820-fa25-001__orders",
+    "line": 360,
+    "hash": "bfc401200d1657624c8776d560676979",
+    "textRange": {
+      "startLine": 360,
+      "endLine": 360,
+      "startOffset": 23,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-17T21:21:02+0000",
+    "updateDate": "2026-07-17T21:21:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0463903f-4845-44b0-aab8-9fa3abee920b",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+    "project": "csci-ga-2820-fa25-001__orders",
+    "line": 362,
+    "hash": "c7c5dacc905f4c13833f7b76db9c8dfe",
+    "textRange": {
+      "startLine": 362,
+      "endLine": 362,
+      "startOffset": 20,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-17T21:21:02+0000",
+    "updateDate": "2026-07-17T21:21:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a19f86dd-34fa-417b-a869-960acc47a6c2",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+    "project": "csci-ga-2820-fa25-001__orders",
+    "line": 363,
+    "hash": "c88993a406aeafcc1ff7dc9c3051049a",
+    "textRange": {
+      "startLine": 363,
+      "endLine": 363,
+      "startOffset": 23,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-17T21:21:02+0000",
+    "updateDate": "2026-07-17T21:21:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8e993137-6920-48a2-a42e-1cd147876a99",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+    "project": "csci-ga-2820-fa25-001__orders",
+    "line": 447,
+    "hash": "c88993a406aeafcc1ff7dc9c3051049a",
+    "textRange": {
+      "startLine": 447,
+      "endLine": 447,
+      "startOffset": 23,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-17T21:21:02+0000",
+    "updateDate": "2026-07-17T21:21:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4eec6fcf-c4b6-4aa9-a093-d8ea474f0038",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+    "project": "csci-ga-2820-fa25-001__orders",
+    "line": 448,
+    "hash": "c7c5dacc905f4c13833f7b76db9c8dfe",
+    "textRange": {
+      "startLine": 448,
+      "endLine": 448,
+      "startOffset": 20,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseFloat` over `parseFloat`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-17T21:21:02+0000",
+    "updateDate": "2026-07-17T21:21:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8831b49e-7098-4532-a0ce-ec2ba8cdeef9",
+    "rule": "python:S5906",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/tests/test_order.py",
+    "project": "csci-ga-2820-fa25-001__orders",
+    "line": 86,
+    "hash": "c313543c0f5c99107fcb69792548eddf",
+    "textRange": {
+      "startLine": 86,
+      "endLine": 86,
+      "startOffset": 8,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Consider using \"assertIsNone\" instead.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "tests",
+      "unittest"
+    ],
+    "creationDate": "2026-07-17T21:21:02+0000",
+    "updateDate": "2026-07-17T21:21:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "49bda5d4-81be-4210-8105-694f2b380370",
+    "rule": "python:S1854",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/tests/test_orderitem.py",
+    "project": "csci-ga-2820-fa25-001__orders",
+    "line": 179,
+    "hash": "f698abf693afe24e91a32764df380326",
+    "textRange": {
+      "startLine": 179,
+      "endLine": 179,
+      "startOffset": 8,
+      "endOffset": 49
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-fa25-001__orders:temp_repos/orders/tests/test_orderitem.py",
+            "textRange": {
+              "startLine": 188,
+              "endLine": 188,
+              "startOffset": 8,
+              "endOffset": 38
+            },
+            "msg": "'orderitem' is reassigned here.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Remove this assignment to local variable 'orderitem'; the value is never used.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:21:02+0000",
+    "updateDate": "2026-07-17T21:21:02+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

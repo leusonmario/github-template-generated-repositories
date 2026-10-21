@@ -1,0 +1,2855 @@
+[
+  {
+    "key": "7b447ef1-fe76-4f3e-b1af-e0b83f856b19",
+    "rule": "java:S1118",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 12,
+    "hash": "d67dd42fdda79dbd53e2b482c3a6f253",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 13,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a private constructor to hide the implicit public one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2ff273b7-332f-4aff-ac5e-9ea937a3c9b5",
+    "rule": "java:S6541",
+    "severity": "INFO",
+    "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 24,
+    "hash": "9b0bbd4fe78bf771573178ad9962c906",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 24,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A \"Brain Method\" was detected. Refactor it to reduce at least one of the following metrics: LOC from 65 to 64, Complexity from 15 to 14, Nesting Level from 7 to 2, Number of Variables from 22 to 6.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "design",
+      "architecture"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8de8fb33-5b3b-4738-9bfd-3f6efc22af87",
+    "rule": "java:S3776",
+    "severity": "CRITICAL",
+    "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 24,
+    "hash": "9b0bbd4fe78bf771573178ad9962c906",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 24,
+      "endOffset": 32
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 26,
+              "endLine": 26,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 36,
+              "endLine": 36,
+              "startOffset": 16,
+              "endOffset": 21
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 38,
+              "endLine": 38,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 44,
+              "endLine": 44,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 54,
+              "endLine": 54,
+              "startOffset": 24,
+              "endOffset": 26
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 54,
+              "endLine": 54,
+              "startOffset": 48,
+              "endOffset": 50
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 57,
+              "endLine": 57,
+              "startOffset": 32,
+              "endOffset": 34
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 60,
+              "endLine": 60,
+              "startOffset": 30,
+              "endOffset": 35
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 66,
+              "endLine": 66,
+              "startOffset": 24,
+              "endOffset": 26
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 70,
+              "endLine": 70,
+              "startOffset": 28,
+              "endOffset": 30
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 70,
+              "endLine": 70,
+              "startOffset": 56,
+              "endOffset": 58
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 72,
+              "endLine": 72,
+              "startOffset": 30,
+              "endOffset": 34
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 79,
+              "endLine": 79,
+              "startOffset": 24,
+              "endOffset": 26
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 81,
+              "endLine": 81,
+              "startOffset": 28,
+              "endOffset": 30
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 81,
+              "endLine": 81,
+              "startOffset": 50,
+              "endOffset": 52
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 101,
+              "endLine": 101,
+              "startOffset": 22,
+              "endOffset": 27
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 107,
+              "endLine": 107,
+              "startOffset": 10,
+              "endOffset": 15
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.",
+    "effort": "21min",
+    "debt": "21min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5a813602-ef7e-4398-8dd2-0aeb5d4a2fc4",
+    "rule": "java:S135",
+    "severity": "MINOR",
+    "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 36,
+    "hash": "ba26a53cc4a7bd8d92d3c51dc325a22c",
+    "textRange": {
+      "startLine": 36,
+      "endLine": 36,
+      "startOffset": 16,
+      "endOffset": 21
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 40,
+              "endLine": 40,
+              "startOffset": 24,
+              "endOffset": 33
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 45,
+              "endLine": 45,
+              "startOffset": 24,
+              "endOffset": 33
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Reduce the total number of break and continue statements in this loop to use at most one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "02fea527-c8cb-40f0-aae4-52b6af04a4a9",
+    "rule": "java:S1141",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 48,
+    "hash": "80d5b17efc16ace990c07580fc3e85eb",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 20,
+      "endOffset": 23
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 25,
+              "endLine": 25,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "Nesting + 1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Extract this nested try block into a separate method.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "confusing"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "656c3412-72bc-4ad8-9575-5ca072432c45",
+    "rule": "java:S1141",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 55,
+    "hash": "80d5b17efc16ace990c07580fc3e85eb",
+    "textRange": {
+      "startLine": 55,
+      "endLine": 55,
+      "startOffset": 28,
+      "endOffset": 31
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 48,
+              "endLine": 48,
+              "startOffset": 20,
+              "endOffset": 23
+            },
+            "msg": "Nesting + 1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 25,
+              "endLine": 25,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "Nesting + 1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Extract this nested try block into a separate method.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "confusing"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "195c0f6c-ccb7-40cf-b4d7-33fbeac3ecb1",
+    "rule": "java:S1126",
+    "severity": "MINOR",
+    "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 70,
+    "hash": "3ae2fa2a5323ced7e3a528839f7353be",
+    "textRange": {
+      "startLine": 70,
+      "endLine": 70,
+      "startOffset": 28,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this if-then-else statement by a single method invocation.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "clumsy"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c454fbe7-38a0-448f-a57e-44fa04801a35",
+    "rule": "java:S1066",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 133,
+    "hash": "6101d9686635957ce813e172c27704c8",
+    "textRange": {
+      "startLine": 133,
+      "endLine": 133,
+      "startOffset": 12,
+      "endOffset": 14
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 131,
+              "endLine": 131,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this if statement with the enclosing one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "clumsy"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9bb2823c-cff1-409c-85dc-5f433837bb4a",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 145,
+    "hash": "f11717370bc463b9567e8f4f783ec36f",
+    "textRange": {
+      "startLine": 145,
+      "endLine": 145,
+      "startOffset": 19,
+      "endOffset": 26
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 145,
+              "endLine": 145,
+              "startOffset": 19,
+              "endOffset": 26
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 149,
+              "endLine": 149,
+              "startOffset": 68,
+              "endOffset": 75
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 151,
+              "endLine": 151,
+              "startOffset": 19,
+              "endOffset": 26
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"magic\" 3 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5c8b0672-8099-4dba-ba53-64f655c9e14c",
+    "rule": "java:S3776",
+    "severity": "CRITICAL",
+    "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 175,
+    "hash": "8972356d298e3e500849471f60417f44",
+    "textRange": {
+      "startLine": 175,
+      "endLine": 175,
+      "startOffset": 28,
+      "endOffset": 40
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 181,
+              "endLine": 181,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 182,
+              "endLine": 182,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 184,
+              "endLine": 184,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 186,
+              "endLine": 186,
+              "startOffset": 18,
+              "endOffset": 22
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 189,
+              "endLine": 189,
+              "startOffset": 14,
+              "endOffset": 18
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 190,
+              "endLine": 190,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 192,
+              "endLine": 192,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 195,
+              "endLine": 195,
+              "startOffset": 23,
+              "endOffset": 25
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NPCDataLoader.java",
+            "textRange": {
+              "startLine": 197,
+              "endLine": 197,
+              "startOffset": 18,
+              "endOffset": 22
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.",
+    "effort": "7min",
+    "debt": "7min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "24399bb2-e571-4f38-bb6e-eda4c63cf58c",
+    "rule": "java:S3776",
+    "severity": "CRITICAL",
+    "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 147,
+    "hash": "4dbd094f4c749eaf6bfd2685d0c99e9e",
+    "textRange": {
+      "startLine": 147,
+      "endLine": 147,
+      "startOffset": 21,
+      "endOffset": 27
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 150,
+              "endLine": 150,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 153,
+              "endLine": 153,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 156,
+              "endLine": 156,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 158,
+              "endLine": 158,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 159,
+              "endLine": 159,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 162,
+              "endLine": 162,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 166,
+              "endLine": 166,
+              "startOffset": 56,
+              "endOffset": 58
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 167,
+              "endLine": 167,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 173,
+              "endLine": 173,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 173,
+              "endLine": 173,
+              "startOffset": 34,
+              "endOffset": 36
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 177,
+              "endLine": 177,
+              "startOffset": 17,
+              "endOffset": 19
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 181,
+              "endLine": 181,
+              "startOffset": 17,
+              "endOffset": 19
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 186,
+              "endLine": 186,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 191,
+              "endLine": 191,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 191,
+              "endLine": 191,
+              "startOffset": 35,
+              "endOffset": 37
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 199,
+              "endLine": 199,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 212,
+              "endLine": 212,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 215,
+              "endLine": 215,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 221,
+              "endLine": 221,
+              "startOffset": 69,
+              "endOffset": 71
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 224,
+              "endLine": 224,
+              "startOffset": 86,
+              "endOffset": 87
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 224,
+              "endLine": 224,
+              "startOffset": 70,
+              "endOffset": 72
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 226,
+              "endLine": 226,
+              "startOffset": 62,
+              "endOffset": 63
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 228,
+              "endLine": 228,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 232,
+              "endLine": 232,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 238,
+              "endLine": 238,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 246,
+              "endLine": 246,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this method to reduce its Cognitive Complexity from 54 to the 15 allowed.",
+    "effort": "44min",
+    "debt": "44min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b1c5fd21-8266-4080-89a9-ea58cbbd2b71",
+    "rule": "java:S6541",
+    "severity": "INFO",
+    "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 147,
+    "hash": "4dbd094f4c749eaf6bfd2685d0c99e9e",
+    "textRange": {
+      "startLine": 147,
+      "endLine": 147,
+      "startOffset": 21,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A \"Brain Method\" was detected. Refactor it to reduce at least one of the following metrics: LOC from 80 to 64, Complexity from 27 to 14, Nesting Level from 4 to 2, Number of Variables from 27 to 6.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "design",
+      "architecture"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a38ba8ab-05f4-4ac6-b5fa-11758ae5489c",
+    "rule": "java:S135",
+    "severity": "MINOR",
+    "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 153,
+    "hash": "d3f5ab567a01c92bd679b214a2b3664f",
+    "textRange": {
+      "startLine": 153,
+      "endLine": 153,
+      "startOffset": 8,
+      "endOffset": 11
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 156,
+              "endLine": 156,
+              "startOffset": 30,
+              "endOffset": 39
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 158,
+              "endLine": 158,
+              "startOffset": 31,
+              "endOffset": 40
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 159,
+              "endLine": 159,
+              "startOffset": 46,
+              "endOffset": 55
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 167,
+              "endLine": 167,
+              "startOffset": 31,
+              "endOffset": 40
+            },
+            "msg": "\"continue\" statement.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Reduce the total number of break and continue statements in this loop to use at most one.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "07b1b8fa-59af-4aeb-a3c8-5ff5f2287bdd",
+    "rule": "java:S1066",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 215,
+    "hash": "1779b4c6f1bdd3b6117c46e7e794ae09",
+    "textRange": {
+      "startLine": 215,
+      "endLine": 215,
+      "startOffset": 20,
+      "endOffset": 22
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+            "textRange": {
+              "startLine": 212,
+              "endLine": 212,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this if statement with the enclosing one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "clumsy"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5b70d7b2-ad7a-483e-af41-f9d20a013435",
+    "rule": "java:S1135",
+    "severity": "INFO",
+    "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 218,
+    "hash": "be066d3efd5e686c8a4e97c556373594",
+    "textRange": {
+      "startLine": 218,
+      "endLine": 218,
+      "startOffset": 0,
+      "endOffset": 99
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this TODO comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a2cd5681-d9ee-4934-bbe0-b5c7bd0824ef",
+    "rule": "java:S1144",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/main/java/com/dexhonsa/NpcLevelPlugin.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 267,
+    "hash": "b315a0eaad733d51d3d854eed19ee528",
+    "textRange": {
+      "startLine": 267,
+      "endLine": 267,
+      "startOffset": 27,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused private \"isAttackable\" method.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "caf22f05-c3aa-484b-970e-924fef904f55",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 17,
+    "hash": "0c8f88aba3ecd63463dcd6c694896e1b",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 17,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fe078dc0-7f1f-4a9a-b5f2-4fbecce48f10",
+    "rule": "java:S1192",
+    "severity": "CRITICAL",
+    "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 68,
+    "hash": "fc3c38d54d902113476b8f863eca43ca",
+    "textRange": {
+      "startLine": 68,
+      "endLine": 68,
+      "startOffset": 82,
+      "endOffset": 89
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+            "textRange": {
+              "startLine": 68,
+              "endLine": 68,
+              "startOffset": 82,
+              "endOffset": 89
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+            "textRange": {
+              "startLine": 96,
+              "endLine": 96,
+              "startOffset": 21,
+              "endOffset": 28
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+            "textRange": {
+              "startLine": 121,
+              "endLine": 121,
+              "startOffset": 85,
+              "endOffset": 92
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+            "textRange": {
+              "startLine": 196,
+              "endLine": 196,
+              "startOffset": 60,
+              "endOffset": 67
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"magic\" 4 times.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1fe92266-30b3-4bc8-a60a-2845bf94f52f",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 70,
+    "hash": "a43f3479cb88dd8da91acd8a5fe92fde",
+    "textRange": {
+      "startLine": 70,
+      "endLine": 70,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3d9f28b3-834f-4ba5-b5d5-cc5c6af3de11",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 71,
+    "hash": "b63f2007f6a96ae042ec4c9bad9edd34",
+    "textRange": {
+      "startLine": 71,
+      "endLine": 71,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c8656d6b-466f-45cd-a9c6-2b9aaab22126",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 72,
+    "hash": "b46598140304d21929e788d9bfc3cf26",
+    "textRange": {
+      "startLine": 72,
+      "endLine": 72,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a2ad95a7-e923-4710-8d05-968b612f2cd2",
+    "rule": "java:S131",
+    "severity": "CRITICAL",
+    "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 92,
+    "hash": "c51e297f20ccd37abdb31741b07a789a",
+    "textRange": {
+      "startLine": 92,
+      "endLine": 92,
+      "startOffset": 12,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a default case to this switch.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c6d3b2d1-d51b-4851-b2db-a66366b76f5a",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 101,
+    "hash": "fe23de3d6ff1b12e23a502c2aead7841",
+    "textRange": {
+      "startLine": 101,
+      "endLine": 101,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c2039f28-0b42-45a3-ae05-353a8b8912ef",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 102,
+    "hash": "51028b49009979bf8bfdec91a6f880f4",
+    "textRange": {
+      "startLine": 102,
+      "endLine": 102,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f0f11b47-63b2-4371-bdad-73b88e6752d9",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 103,
+    "hash": "c64e7d3cc38b92d0c694f9fc4f34e961",
+    "textRange": {
+      "startLine": 103,
+      "endLine": 103,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6f60d3d7-54c5-4f4e-9081-4204b8f3c423",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 104,
+    "hash": "9ca458682e808a3140b80ee568883cef",
+    "textRange": {
+      "startLine": 104,
+      "endLine": 104,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c637844f-a50f-4f79-9af8-3a108bdd91a2",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 105,
+    "hash": "541f1f9faf5037d7d5e5ef834a4a8433",
+    "textRange": {
+      "startLine": 105,
+      "endLine": 105,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "884fca83-47b5-4961-9a3c-75f54c5f0ce7",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 106,
+    "hash": "e0cbde1ae12e5f7ad7be817d090dc87c",
+    "textRange": {
+      "startLine": 106,
+      "endLine": 106,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5e2c706f-150a-4e9f-8520-34991f39dac2",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 107,
+    "hash": "a36a695e2e405b0f598d4ae8b8a59c3d",
+    "textRange": {
+      "startLine": 107,
+      "endLine": 107,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a238be77-744e-410d-9ed4-0a219b20a020",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 126,
+    "hash": "5c1e5c490ccf3fce4d337949e608e8a1",
+    "textRange": {
+      "startLine": 126,
+      "endLine": 126,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "668657e8-3c38-4770-94fc-3819b3a4cc82",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 127,
+    "hash": "66fcb545c5d8cca99b693c21d0570334",
+    "textRange": {
+      "startLine": 127,
+      "endLine": 127,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "24e2d3e8-530b-4b2a-9bc2-66674ae0d21b",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 139,
+    "hash": "4aaa4b27d9cf7dbe94eeeaef837bb242",
+    "textRange": {
+      "startLine": 139,
+      "endLine": 139,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "64868dde-5491-4ff1-b873-71c34c293d21",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 156,
+    "hash": "80f54713b27f42883e017638f87af12d",
+    "textRange": {
+      "startLine": 156,
+      "endLine": 156,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "edfc4d83-5f6c-4640-ad3f-903c573ebe3a",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 157,
+    "hash": "113bc52a9904fbfc9ab82a52b729fead",
+    "textRange": {
+      "startLine": 157,
+      "endLine": 157,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4a378cf2-8004-4e3e-9bda-90cae58510bf",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 158,
+    "hash": "6ff77541edafdd732034c8eca8010cf6",
+    "textRange": {
+      "startLine": 158,
+      "endLine": 158,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1e55945b-c12b-4d6f-a17b-bf4c25654a5c",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 159,
+    "hash": "5cd02a88ee36b4d770841202a77f4d91",
+    "textRange": {
+      "startLine": 159,
+      "endLine": 159,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "60641eae-a420-42ce-a192-8b016f35f9cc",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 168,
+    "hash": "394321a3d3ffb17ee121d3aa241d23c3",
+    "textRange": {
+      "startLine": 168,
+      "endLine": 168,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a6031730-4a4b-42de-a33e-6aa7c6b79ca6",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 176,
+    "hash": "fe01a4ac855dc81fed9fe72a0116dbad",
+    "textRange": {
+      "startLine": 176,
+      "endLine": 176,
+      "startOffset": 12,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "97751597-0a02-47ef-b374-4e51ba30a548",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 190,
+    "hash": "5e8687138c3c68597bfda3524e4b6720",
+    "textRange": {
+      "startLine": 190,
+      "endLine": 190,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1f84dc8c-acc9-46f0-91fc-1b117dfbf1b1",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 192,
+    "hash": "cdbacc4ead41e16f8292f2388a0bbde1",
+    "textRange": {
+      "startLine": 192,
+      "endLine": 192,
+      "startOffset": 12,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e243e990-85fc-4fb2-97b3-af5a1a7b92d0",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "dexhonsa__npcleveloverlay:src/test/java/com/dexhonsa/NPCDataLoaderTest.java",
+    "project": "dexhonsa__npcleveloverlay",
+    "line": 202,
+    "hash": "8b382a6c99737ad75f5117c938677264",
+    "textRange": {
+      "startLine": 202,
+      "endLine": 202,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T22:09:03+0000",
+    "updateDate": "2026-07-21T22:09:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

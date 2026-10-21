@@ -1,0 +1,1035 @@
+[
+  {
+    "key": "aa4352a8-6b7d-4528-bf89-657b96901c0a",
+    "rule": "kubernetes:S6865",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/k8s/deployment.yaml",
+    "project": "csci-ga-2820-sp24-001__orders",
+    "line": 23,
+    "hash": "d9e939dad9db0fbf12a7e7ed37d92d0f",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 6,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Bind this resource's automounted service account to RBAC or disable automounting.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:22:20+0000",
+    "updateDate": "2026-07-17T21:22:20+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "88263831-5298-4ef1-a3d1-66a9241ccc64",
+    "rule": "kubernetes:S6897",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/k8s/deployment.yaml",
+    "project": "csci-ga-2820-sp24-001__orders",
+    "line": 24,
+    "hash": "ccaaded57eeabe26746a1909445fe2f9",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 8,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify a storage request for this container.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:22:20+0000",
+    "updateDate": "2026-07-17T21:22:20+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5316f9ea-eb86-47d4-8820-b90a5a5e4730",
+    "rule": "kubernetes:S6865",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/k8s/postgresql.yaml",
+    "project": "csci-ga-2820-sp24-001__orders",
+    "line": 21,
+    "hash": "d9e939dad9db0fbf12a7e7ed37d92d0f",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 6,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Bind this resource's automounted service account to RBAC or disable automounting.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:22:20+0000",
+    "updateDate": "2026-07-17T21:22:20+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2ae37f41-64d6-4639-ae35-01e47cbac44c",
+    "rule": "kubernetes:S6870",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/k8s/postgresql.yaml",
+    "project": "csci-ga-2820-sp24-001__orders",
+    "line": 22,
+    "hash": "fe36e22994fdb5387d55f4b86a3b8f6d",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/k8s/postgresql.yaml",
+            "textRange": {
+              "startLine": 44,
+              "endLine": 44,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "for this volume mount",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Specify a storage limit for this container.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:22:20+0000",
+    "updateDate": "2026-07-17T21:22:20+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8a97290c-d589-4ecf-acd6-ed53ceceb043",
+    "rule": "kubernetes:S6897",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/k8s/postgresql.yaml",
+    "project": "csci-ga-2820-sp24-001__orders",
+    "line": 22,
+    "hash": "fe36e22994fdb5387d55f4b86a3b8f6d",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify a storage request for this container.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:22:20+0000",
+    "updateDate": "2026-07-17T21:22:20+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cd8fe628-7ffe-4bdb-b739-745b91d0c995",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/config.py",
+    "project": "csci-ga-2820-sp24-001__orders",
+    "line": 16,
+    "hash": "23741feba191b485658111d13f474bf9",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 0,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:22:20+0000",
+    "updateDate": "2026-07-17T21:22:20+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3aeb804e-7e6a-4024-9241-382330be7975",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/models.py",
+    "project": "csci-ga-2820-sp24-001__orders",
+    "line": 114,
+    "hash": "e7e86c0566995f69167a1cecf5110008",
+    "textRange": {
+      "startLine": 114,
+      "endLine": 114,
+      "startOffset": 39,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T21:22:20+0000",
+    "updateDate": "2026-07-17T21:22:20+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "14fc844c-41fc-4870-9355-438d6fd64e70",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/routes.py",
+    "project": "csci-ga-2820-sp24-001__orders",
+    "line": 181,
+    "hash": "e3dfdb32434d301a833509b26291e1b3",
+    "textRange": {
+      "startLine": 181,
+      "endLine": 181,
+      "startOffset": 40,
+      "endOffset": 57
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/routes.py",
+            "textRange": {
+              "startLine": 242,
+              "endLine": 242,
+              "startOffset": 40,
+              "endOffset": 57
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/routes.py",
+            "textRange": {
+              "startLine": 259,
+              "endLine": 259,
+              "startOffset": 40,
+              "endOffset": 57
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/routes.py",
+            "textRange": {
+              "startLine": 321,
+              "endLine": 321,
+              "startOffset": 40,
+              "endOffset": 57
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Order not found\" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T21:22:20+0000",
+    "updateDate": "2026-07-17T21:22:20+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b40eab83-086b-477d-9351-c03e46270aae",
+    "rule": "Web:S5254",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/static/index.html",
+    "project": "csci-ga-2820-sp24-001__orders",
+    "line": 2,
+    "hash": "166248a6129a1e4370d20adc2d4c23f3",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"<html>\" element",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-17T21:22:20+0000",
+    "updateDate": "2026-07-17T21:22:20+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6d9a78c2-c2f1-434b-8fdf-22ffd2798159",
+    "rule": "Web:S5256",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/static/index.html",
+    "project": "csci-ga-2820-sp24-001__orders",
+    "line": 19,
+    "hash": "99686b27b2ad525df0b3aa55cb0ffd73",
+    "textRange": {
+      "startLine": 19,
+      "endLine": 19,
+      "startOffset": 8,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add \"<th>\" headers to this \"<table>\".",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-17T21:22:20+0000",
+    "updateDate": "2026-07-17T21:22:20+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0bfb54a7-cecc-486b-9415-a3308aca074d",
+    "rule": "javascript:S3776",
+    "severity": "CRITICAL",
+    "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+    "project": "csci-ga-2820-sp24-001__orders",
+    "line": 186,
+    "hash": "f987349013b0051388d3fae91aaaead1",
+    "textRange": {
+      "startLine": 186,
+      "endLine": 186,
+      "startOffset": 27,
+      "endOffset": 35
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+            "textRange": {
+              "startLine": 196,
+              "endLine": 196,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+            "textRange": {
+              "startLine": 199,
+              "endLine": 199,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+            "textRange": {
+              "startLine": 200,
+              "endLine": 200,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+            "textRange": {
+              "startLine": 202,
+              "endLine": 202,
+              "startOffset": 14,
+              "endOffset": 18
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+            "textRange": {
+              "startLine": 206,
+              "endLine": 206,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+            "textRange": {
+              "startLine": 207,
+              "endLine": 207,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+            "textRange": {
+              "startLine": 209,
+              "endLine": 209,
+              "startOffset": 14,
+              "endOffset": 18
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+            "textRange": {
+              "startLine": 213,
+              "endLine": 213,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+            "textRange": {
+              "startLine": 214,
+              "endLine": 214,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+            "textRange": {
+              "startLine": 216,
+              "endLine": 216,
+              "startOffset": 14,
+              "endOffset": 18
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+            "textRange": {
+              "startLine": 220,
+              "endLine": 220,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+            "textRange": {
+              "startLine": 221,
+              "endLine": 221,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/service/static/js/rest_api.js",
+            "textRange": {
+              "startLine": 223,
+              "endLine": 223,
+              "startOffset": 14,
+              "endOffset": 18
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.",
+    "effort": "7min",
+    "debt": "7min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T21:22:20+0000",
+    "updateDate": "2026-07-17T21:22:20+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "91edf59f-39a1-42b0-b6e5-fc02b638486c",
+    "rule": "python:S1854",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/tests/test_routes.py",
+    "project": "csci-ga-2820-sp24-001__orders",
+    "line": 317,
+    "hash": "2d6034c529edcaf150eada109d158e7c",
+    "textRange": {
+      "startLine": 317,
+      "endLine": 320,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/tests/test_routes.py",
+            "textRange": {
+              "startLine": 321,
+              "endLine": 324,
+              "startOffset": 8,
+              "endOffset": 9
+            },
+            "msg": "'resp' is reassigned here.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Remove this assignment to local variable 'resp'; the value is never used.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:22:20+0000",
+    "updateDate": "2026-07-17T21:22:20+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b40ecc93-ba61-4d0b-9f60-b8abe7295d8b",
+    "rule": "python:S1854",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/tests/test_routes.py",
+    "project": "csci-ga-2820-sp24-001__orders",
+    "line": 321,
+    "hash": "2d6034c529edcaf150eada109d158e7c",
+    "textRange": {
+      "startLine": 321,
+      "endLine": 324,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/tests/test_routes.py",
+            "textRange": {
+              "startLine": 327,
+              "endLine": 327,
+              "startOffset": 8,
+              "endOffset": 56
+            },
+            "msg": "'resp' is reassigned here.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Remove this assignment to local variable 'resp'; the value is never used.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:22:20+0000",
+    "updateDate": "2026-07-17T21:22:20+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f4f430a6-91ad-4133-a208-695cb5bd0a1b",
+    "rule": "python:S1854",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/tests/test_routes.py",
+    "project": "csci-ga-2820-sp24-001__orders",
+    "line": 344,
+    "hash": "2d6034c529edcaf150eada109d158e7c",
+    "textRange": {
+      "startLine": 344,
+      "endLine": 347,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/tests/test_routes.py",
+            "textRange": {
+              "startLine": 350,
+              "endLine": 353,
+              "startOffset": 8,
+              "endOffset": 9
+            },
+            "msg": "'resp' is reassigned here.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Remove this assignment to local variable 'resp'; the value is never used.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:22:20+0000",
+    "updateDate": "2026-07-17T21:22:20+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bd1fdef0-7a1e-4f4b-9a06-4773066eb495",
+    "rule": "python:S1854",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/tests/test_routes.py",
+    "project": "csci-ga-2820-sp24-001__orders",
+    "line": 390,
+    "hash": "2d6034c529edcaf150eada109d158e7c",
+    "textRange": {
+      "startLine": 390,
+      "endLine": 393,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/tests/test_routes.py",
+            "textRange": {
+              "startLine": 396,
+              "endLine": 396,
+              "startOffset": 8,
+              "endOffset": 59
+            },
+            "msg": "'resp' is reassigned here.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Remove this assignment to local variable 'resp'; the value is never used.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:22:20+0000",
+    "updateDate": "2026-07-17T21:22:20+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e360557c-2ab9-456b-bf58-d2a45b5d74b2",
+    "rule": "python:S1854",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-sp24-001__orders:temp_repos/orders/tests/test_routes.py",
+    "project": "csci-ga-2820-sp24-001__orders",
+    "line": 418,
+    "hash": "a7d81cfd1720ec2726129bc784db908a",
+    "textRange": {
+      "startLine": 418,
+      "endLine": 418,
+      "startOffset": 8,
+      "endOffset": 69
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this assignment to local variable 'resp'; the value is never used.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:22:20+0000",
+    "updateDate": "2026-07-17T21:22:20+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

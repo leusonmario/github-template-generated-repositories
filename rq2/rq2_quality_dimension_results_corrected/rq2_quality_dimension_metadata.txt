@@ -1,0 +1,18 @@
+RQ2 quality-dimension persistence aggregation
+
+pair_summary.json files: 5
+unique pairs: 4586
+unique source templates: 648
+unique generated repositories: 4586
+
+Dimensions:
+  issue_type <- breakdown_by_type
+  severity <- breakdown_by_severity
+  software_quality <- breakdown_by_software_quality
+
+Weighted micro persistence:
+  sum(persistent_issue_count * sampling_weight) / sum(template_issue_count * sampling_weight) * 100
+
+Missing/null/non-positive sampling weights are treated as 1.0.
+Software-quality classifications may overlap, so their counts should not be summed to reconstruct unique issue totals.
+SECURITY is retained as the SonarQube software-quality classification and is not renamed SECURITY_HOTSPOT.

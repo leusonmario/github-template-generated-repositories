@@ -1,0 +1,345 @@
+[
+  {
+    "key": "a4240806-04d8-403d-801b-d6fc82d926be",
+    "rule": "docker:S6476",
+    "severity": "MAJOR",
+    "component": "runpod__serverless-ckpt-template:Dockerfile",
+    "project": "runpod__serverless-ckpt-template",
+    "line": 2,
+    "hash": "008ce0e33549062a0e65fae3cb6255db",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 19,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace \"as\" with upper case format \"AS\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-20T14:42:24+0000",
+    "updateDate": "2026-07-20T14:42:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FORMATTED",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "22562311-e7f6-4809-a645-751a188c90f2",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "runpod__serverless-ckpt-template:Dockerfile",
+    "project": "runpod__serverless-ckpt-template",
+    "line": 11,
+    "hash": "b50d83463eef325903b2ed72afdfb007",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "runpod__serverless-ckpt-template:Dockerfile",
+            "textRange": {
+              "startLine": 12,
+              "endLine": 12,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "runpod__serverless-ckpt-template:Dockerfile",
+            "textRange": {
+              "startLine": 13,
+              "endLine": 13,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T14:42:24+0000",
+    "updateDate": "2026-07-20T14:42:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4a309895-d989-403c-9ff9-6e9135e450e8",
+    "rule": "docker:S7018",
+    "severity": "MINOR",
+    "component": "runpod__serverless-ckpt-template:Dockerfile",
+    "project": "runpod__serverless-ckpt-template",
+    "line": 15,
+    "hash": "d21ad0b7b6e53312d6cedfb5ea7bce9c",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 19,
+      "startOffset": 4,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Sort these package names alphanumerically.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T14:42:24+0000",
+    "updateDate": "2026-07-20T14:42:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3e0ad979-d799-409a-ab85-f52781585e38",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "runpod__serverless-ckpt-template:Dockerfile",
+    "project": "runpod__serverless-ckpt-template",
+    "line": 32,
+    "hash": "648659cad4b23dd7c56fbf448ec37f7f",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 32,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "runpod__serverless-ckpt-template:Dockerfile",
+            "textRange": {
+              "startLine": 33,
+              "endLine": 33,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T14:42:24+0000",
+    "updateDate": "2026-07-20T14:42:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "eb2f420d-8c4f-4c7d-9fed-c81765d44abb",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "runpod__serverless-ckpt-template:sd_runner.py",
+    "project": "runpod__serverless-ckpt-template",
+    "line": 38,
+    "hash": "345cb4e6e51740b75f4ac0fe074408a9",
+    "textRange": {
+      "startLine": 38,
+      "endLine": 38,
+      "startOffset": 8,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused local variable \"safety_checker\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-20T14:42:24+0000",
+    "updateDate": "2026-07-20T14:42:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "aa7d78d7-f143-4730-9bd7-e0a07713eb06",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "runpod__serverless-ckpt-template:sd_runner.py",
+    "project": "runpod__serverless-ckpt-template",
+    "line": 45,
+    "hash": "145724dafb291f2697962d75161daffe",
+    "textRange": {
+      "startLine": 45,
+      "endLine": 45,
+      "startOffset": 12,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-20T14:42:24+0000",
+    "updateDate": "2026-07-20T14:42:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bbed8670-2fea-4cc0-8609-5fe3d59e4c6b",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "runpod__serverless-ckpt-template:sd_runner.py",
+    "project": "runpod__serverless-ckpt-template",
+    "line": 94,
+    "hash": "581477db8ca000655dc35f4766473b4d",
+    "textRange": {
+      "startLine": 94,
+      "endLine": 95,
+      "startOffset": 18,
+      "endOffset": 90
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-20T14:42:24+0000",
+    "updateDate": "2026-07-20T14:42:24+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

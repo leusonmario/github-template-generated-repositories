@@ -1,0 +1,939 @@
+[
+  {
+    "key": "6c28797e-758e-4d6a-8c6f-459b6d96e08c",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-sp24-001__shopcarts:temp_repos/shopcarts/features/steps/web_steps.py",
+    "project": "csci-ga-2820-sp24-001__shopcarts",
+    "line": 86,
+    "hash": "e74963b5601b8d3020d75d9170f97cde",
+    "textRange": {
+      "startLine": 86,
+      "endLine": 86,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused local variable \"element_id\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:23:12+0000",
+    "updateDate": "2026-07-17T21:23:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d8ed9a2a-209f-486a-95b0-5e5e9a4fe9f9",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-sp24-001__shopcarts:temp_repos/shopcarts/features/steps/web_steps.py",
+    "project": "csci-ga-2820-sp24-001__shopcarts",
+    "line": 128,
+    "hash": "1f532707caaafd41c9aa91bc538d7839",
+    "textRange": {
+      "startLine": 128,
+      "endLine": 128,
+      "startOffset": 4,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the unused local variable \"element\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:23:12+0000",
+    "updateDate": "2026-07-17T21:23:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ff0bb582-e1ca-4730-83ee-c929e965fd00",
+    "rule": "kubernetes:S6865",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-sp24-001__shopcarts:temp_repos/shopcarts/k8s/deployment.yaml",
+    "project": "csci-ga-2820-sp24-001__shopcarts",
+    "line": 23,
+    "hash": "d9e939dad9db0fbf12a7e7ed37d92d0f",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 6,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Bind this resource's automounted service account to RBAC or disable automounting.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:23:12+0000",
+    "updateDate": "2026-07-17T21:23:12+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "aae674af-1ac9-4521-a54e-b58bb1d1d958",
+    "rule": "kubernetes:S6897",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-sp24-001__shopcarts:temp_repos/shopcarts/k8s/deployment.yaml",
+    "project": "csci-ga-2820-sp24-001__shopcarts",
+    "line": 24,
+    "hash": "2edd0d59409766af6168c89547114db4",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify a storage request for this container.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:23:12+0000",
+    "updateDate": "2026-07-17T21:23:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9c765741-0278-46e4-9b9b-e1f6f2e0cbd4",
+    "rule": "kubernetes:S6865",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-sp24-001__shopcarts:temp_repos/shopcarts/k8s/postgresql.yaml",
+    "project": "csci-ga-2820-sp24-001__shopcarts",
+    "line": 21,
+    "hash": "d9e939dad9db0fbf12a7e7ed37d92d0f",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 6,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Bind this resource's automounted service account to RBAC or disable automounting.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:23:12+0000",
+    "updateDate": "2026-07-17T21:23:12+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d67fa5e7-129b-410a-9e4a-b0574ec35bc3",
+    "rule": "kubernetes:S6870",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-sp24-001__shopcarts:temp_repos/shopcarts/k8s/postgresql.yaml",
+    "project": "csci-ga-2820-sp24-001__shopcarts",
+    "line": 22,
+    "hash": "fe36e22994fdb5387d55f4b86a3b8f6d",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__shopcarts:temp_repos/shopcarts/k8s/postgresql.yaml",
+            "textRange": {
+              "startLine": 44,
+              "endLine": 44,
+              "startOffset": 14,
+              "endOffset": 18
+            },
+            "msg": "for this volume mount",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Specify a storage limit for this container.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:23:12+0000",
+    "updateDate": "2026-07-17T21:23:12+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dcdd452f-7d04-4c37-880e-ff205cfbdace",
+    "rule": "kubernetes:S6897",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-sp24-001__shopcarts:temp_repos/shopcarts/k8s/postgresql.yaml",
+    "project": "csci-ga-2820-sp24-001__shopcarts",
+    "line": 22,
+    "hash": "fe36e22994fdb5387d55f4b86a3b8f6d",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify a storage request for this container.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T21:23:12+0000",
+    "updateDate": "2026-07-17T21:23:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c1b966d7-5193-415f-9678-db2206893ff5",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-sp24-001__shopcarts:temp_repos/shopcarts/service/config.py",
+    "project": "csci-ga-2820-sp24-001__shopcarts",
+    "line": 16,
+    "hash": "23741feba191b485658111d13f474bf9",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 0,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T21:23:12+0000",
+    "updateDate": "2026-07-17T21:23:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6ca5820f-c611-4295-8733-9738274b4598",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "csci-ga-2820-sp24-001__shopcarts:temp_repos/shopcarts/service/models/shopcart.py",
+    "project": "csci-ga-2820-sp24-001__shopcarts",
+    "line": 25,
+    "hash": "3da5657d0586179fba9fb23eca251321",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 51,
+      "endOffset": 68
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T21:23:12+0000",
+    "updateDate": "2026-07-17T21:23:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "87c8aca3-703b-42d9-b715-f3ab00988f26",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "csci-ga-2820-sp24-001__shopcarts:temp_repos/shopcarts/service/models/shopcart.py",
+    "project": "csci-ga-2820-sp24-001__shopcarts",
+    "line": 28,
+    "hash": "d220add9f30d7001ee61db10cf380997",
+    "textRange": {
+      "startLine": 28,
+      "endLine": 28,
+      "startOffset": 16,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T21:23:12+0000",
+    "updateDate": "2026-07-17T21:23:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f34780e8-783e-4e2f-b662-4447538d1fb7",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "csci-ga-2820-sp24-001__shopcarts:temp_repos/shopcarts/service/models/shopcart.py",
+    "project": "csci-ga-2820-sp24-001__shopcarts",
+    "line": 29,
+    "hash": "78ecfb329d4fd970d71542f3d48f7b43",
+    "textRange": {
+      "startLine": 29,
+      "endLine": 29,
+      "startOffset": 17,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T21:23:12+0000",
+    "updateDate": "2026-07-17T21:23:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f29e9aa7-61f9-4887-83b6-9f3eda403f5d",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "csci-ga-2820-sp24-001__shopcarts:temp_repos/shopcarts/service/routes.py",
+    "project": "csci-ga-2820-sp24-001__shopcarts",
+    "line": 69,
+    "hash": "6591b439b72f476f7307288051a3ddfa",
+    "textRange": {
+      "startLine": 69,
+      "endLine": 69,
+      "startOffset": 23,
+      "endOffset": 41
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__shopcarts:temp_repos/shopcarts/service/routes.py",
+            "textRange": {
+              "startLine": 178,
+              "endLine": 178,
+              "startOffset": 23,
+              "endOffset": 41
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__shopcarts:temp_repos/shopcarts/service/routes.py",
+            "textRange": {
+              "startLine": 206,
+              "endLine": 206,
+              "startOffset": 23,
+              "endOffset": 41
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__shopcarts:temp_repos/shopcarts/service/routes.py",
+            "textRange": {
+              "startLine": 270,
+              "endLine": 270,
+              "startOffset": 23,
+              "endOffset": 41
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"application/json\" 4 times.",
+    "effort": "8min",
+    "debt": "8min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T21:23:12+0000",
+    "updateDate": "2026-07-17T21:23:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "164c20e3-5c6a-4ba6-916b-47595f20140e",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "csci-ga-2820-sp24-001__shopcarts:temp_repos/shopcarts/service/routes.py",
+    "project": "csci-ga-2820-sp24-001__shopcarts",
+    "line": 290,
+    "hash": "4df49599d4b731c160eae7e4ab5795ac",
+    "textRange": {
+      "startLine": 290,
+      "endLine": 290,
+      "startOffset": 8,
+      "endOffset": 57
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__shopcarts:temp_repos/shopcarts/service/routes.py",
+            "textRange": {
+              "startLine": 400,
+              "endLine": 400,
+              "startOffset": 8,
+              "endOffset": 57
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "csci-ga-2820-sp24-001__shopcarts:temp_repos/shopcarts/service/routes.py",
+            "textRange": {
+              "startLine": 447,
+              "endLine": 447,
+              "startOffset": 8,
+              "endOffset": 57
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Item with id %d in shopcart with id %d updated.\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T21:23:12+0000",
+    "updateDate": "2026-07-17T21:23:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2c1d85d5-774c-45cc-affb-9562fd83fc5f",
+    "rule": "Web:S5254",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-sp24-001__shopcarts:temp_repos/shopcarts/service/static/index.html",
+    "project": "csci-ga-2820-sp24-001__shopcarts",
+    "line": 2,
+    "hash": "166248a6129a1e4370d20adc2d4c23f3",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"<html>\" element",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-17T21:23:12+0000",
+    "updateDate": "2026-07-17T21:23:12+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3a1c71fb-87ca-4ccd-a733-66ec80f5a5f2",
+    "rule": "Web:S5256",
+    "severity": "MAJOR",
+    "component": "csci-ga-2820-sp24-001__shopcarts:temp_repos/shopcarts/service/static/index.html",
+    "project": "csci-ga-2820-sp24-001__shopcarts",
+    "line": 21,
+    "hash": "99686b27b2ad525df0b3aa55cb0ffd73",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 8,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add \"<th>\" headers to this \"<table>\".",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-17T21:23:12+0000",
+    "updateDate": "2026-07-17T21:23:12+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "44a13cc0-6d73-4575-ab1b-964d99998409",
+    "rule": "javascript:S1135",
+    "severity": "INFO",
+    "component": "csci-ga-2820-sp24-001__shopcarts:temp_repos/shopcarts/service/static/js/rest_api.js",
+    "project": "csci-ga-2820-sp24-001__shopcarts",
+    "line": 147,
+    "hash": "6fceef46231bdd1bfee592a1cf93e3ba",
+    "textRange": {
+      "startLine": 147,
+      "endLine": 147,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T21:23:12+0000",
+    "updateDate": "2026-07-17T21:23:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b12a1b2c-54e2-48bc-abe3-043d5919fe16",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-sp24-001__shopcarts:temp_repos/shopcarts/service/static/js/rest_api.js",
+    "project": "csci-ga-2820-sp24-001__shopcarts",
+    "line": 392,
+    "hash": "b4bff4eb135b1d846e207612470d1b3f",
+    "textRange": {
+      "startLine": 392,
+      "endLine": 392,
+      "startOffset": 16,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-17T21:23:12+0000",
+    "updateDate": "2026-07-17T21:23:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6ce7f060-1cc6-4a86-9ce2-95dc2a4b5af1",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-sp24-001__shopcarts:temp_repos/shopcarts/service/static/js/rest_api.js",
+    "project": "csci-ga-2820-sp24-001__shopcarts",
+    "line": 424,
+    "hash": "68a45c439a73ce5da3d52f92634f700e",
+    "textRange": {
+      "startLine": 424,
+      "endLine": 424,
+      "startOffset": 16,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-17T21:23:12+0000",
+    "updateDate": "2026-07-17T21:23:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f318e331-3317-4e51-979d-1fdb0f57dcfc",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "csci-ga-2820-sp24-001__shopcarts:temp_repos/shopcarts/service/static/js/rest_api.js",
+    "project": "csci-ga-2820-sp24-001__shopcarts",
+    "line": 466,
+    "hash": "5a5b1742f4491bd854f94c479c29f830",
+    "textRange": {
+      "startLine": 466,
+      "endLine": 466,
+      "startOffset": 16,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-17T21:23:12+0000",
+    "updateDate": "2026-07-17T21:23:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

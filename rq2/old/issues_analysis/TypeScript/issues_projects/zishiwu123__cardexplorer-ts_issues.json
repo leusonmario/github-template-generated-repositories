@@ -1,0 +1,443 @@
+[
+  {
+    "key": "49e1c62e-2eeb-4b79-880c-a116f25019c6",
+    "rule": "docker:S7019",
+    "severity": "MAJOR",
+    "component": "zishiwu123__cardexplorer-ts:temp_repos/cardexplorer-ts/Dockerfile",
+    "project": "zishiwu123__cardexplorer-ts",
+    "line": 22,
+    "hash": "322ba1d92abedc84a08de0691cd68114",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 4,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this shell form with exec form.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T22:33:16+0000",
+    "updateDate": "2026-07-15T22:33:16+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fde9a658-4139-4bb9-a75d-87263db116e4",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "zishiwu123__cardexplorer-ts:temp_repos/cardexplorer-ts/src/api-docs/openAPIResponseBuilders.ts",
+    "project": "zishiwu123__cardexplorer-ts",
+    "line": 21,
+    "hash": "5758896be79760e6e83f2f3c250e3bc3",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 41,
+      "startOffset": 0,
+      "endOffset": 4
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-15T22:33:16+0000",
+    "updateDate": "2026-07-15T22:33:16+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fbed1ead-1083-48fb-8c85-582025f970c5",
+    "rule": "typescript:S7755",
+    "severity": "MINOR",
+    "component": "zishiwu123__cardexplorer-ts:temp_repos/cardexplorer-ts/src/api/card/__tests__/cardRouter.test.ts",
+    "project": "zishiwu123__cardexplorer-ts",
+    "line": 48,
+    "hash": "212b7f92fcd0eb479a3156863f469f29",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 36,
+      "endOffset": 74
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `.at(…)` over `[….length - index]`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance",
+      "es2022"
+    ],
+    "creationDate": "2026-07-15T22:33:16+0000",
+    "updateDate": "2026-07-15T22:33:16+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6ef8bce8-156f-4cfc-b648-b94dde64cfa9",
+    "rule": "typescript:S7059",
+    "severity": "CRITICAL",
+    "component": "zishiwu123__cardexplorer-ts:temp_repos/cardexplorer-ts/src/api/card/cardRepository.ts",
+    "project": "zishiwu123__cardexplorer-ts",
+    "line": 56,
+    "hash": "e93dfbc429592fb1b41a1c2b972c31dc",
+    "textRange": {
+      "startLine": 56,
+      "endLine": 56,
+      "startOffset": 4,
+      "endOffset": 16
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Refactor this asynchronous operation outside of the constructor.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-15T22:33:16+0000",
+    "updateDate": "2026-07-15T22:33:16+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "be81f032-58bd-42df-991c-845f1056f48a",
+    "rule": "typescript:S7765",
+    "severity": "MINOR",
+    "component": "zishiwu123__cardexplorer-ts:temp_repos/cardexplorer-ts/src/api/card/cardRepository.ts",
+    "project": "zishiwu123__cardexplorer-ts",
+    "line": 87,
+    "hash": "3570147e98e70be9eafc30a8399db54e",
+    "textRange": {
+      "startLine": 87,
+      "endLine": 87,
+      "startOffset": 63,
+      "endOffset": 70
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `.includes()`, rather than `.indexOf()`, when checking for existence.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es6"
+    ],
+    "creationDate": "2026-07-15T22:33:16+0000",
+    "updateDate": "2026-07-15T22:33:16+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "128d21f6-0a99-4422-873e-ef094c75f6d8",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "zishiwu123__cardexplorer-ts:temp_repos/cardexplorer-ts/src/api/card/cardService.ts",
+    "project": "zishiwu123__cardexplorer-ts",
+    "line": 9,
+    "hash": "22cb0ba774de6c19941e44024ca4f06d",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 2,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'cardRepository' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T22:33:16+0000",
+    "updateDate": "2026-07-15T22:33:16+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7296bf27-af52-4345-a160-801e2dae2571",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "zishiwu123__cardexplorer-ts:temp_repos/cardexplorer-ts/src/api/user/__tests__/userRouter.test.ts",
+    "project": "zishiwu123__cardexplorer-ts",
+    "line": 21,
+    "hash": "1a1af775228c6fe24b613486377ecd12",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 34,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-15T22:33:16+0000",
+    "updateDate": "2026-07-15T22:33:16+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b6b114af-47b3-427a-8e49-f6e23ffbd2a9",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "zishiwu123__cardexplorer-ts:temp_repos/cardexplorer-ts/src/api/user/__tests__/userRouter.test.ts",
+    "project": "zishiwu123__cardexplorer-ts",
+    "line": 21,
+    "hash": "1a1af775228c6fe24b613486377ecd12",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 72,
+      "endOffset": 92
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-15T22:33:16+0000",
+    "updateDate": "2026-07-15T22:33:16+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6a014192-e36f-4da6-bbb5-90e09c87c964",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "zishiwu123__cardexplorer-ts:temp_repos/cardexplorer-ts/src/api/user/userService.ts",
+    "project": "zishiwu123__cardexplorer-ts",
+    "line": 9,
+    "hash": "f9425785d874c83b6941e57ea689a912",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 2,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'userRepository' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T22:33:16+0000",
+    "updateDate": "2026-07-15T22:33:16+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4d6047a8-167f-4be5-a5cb-5c894329c846",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "zishiwu123__cardexplorer-ts:temp_repos/cardexplorer-ts/src/common/middleware/errorHandler.ts",
+    "project": "zishiwu123__cardexplorer-ts",
+    "line": 13,
+    "hash": "3be2214408d0943d44a1104986c48030",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 18,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-15T22:33:16+0000",
+    "updateDate": "2026-07-15T22:33:16+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

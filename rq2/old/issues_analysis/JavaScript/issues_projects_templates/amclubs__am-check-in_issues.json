@@ -1,0 +1,350 @@
+[
+  {
+    "key": "db7c8ace-ab4c-45a9-8b60-bf7d0e59b451",
+    "rule": "javascript:S7741",
+    "severity": "MINOR",
+    "component": "amclubs__am-check-in:_worker.js",
+    "project": "amclubs__am-check-in",
+    "line": 13,
+    "hash": "d42d877fc7e98db874149f01c484d2cb",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 4,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Compare with `undefined` directly instead of using `typeof`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability",
+      "style"
+    ],
+    "creationDate": "2026-07-21T13:30:57+0000",
+    "updateDate": "2026-07-21T13:30:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d1ad47b0-2d5b-4f04-ac7e-c052c1a431cc",
+    "rule": "javascript:S125",
+    "severity": "MAJOR",
+    "component": "amclubs__am-check-in:_worker.js",
+    "project": "amclubs__am-check-in",
+    "line": 27,
+    "hash": "32d2ccf667e0d5108bea72420b9bc93e",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 3,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T13:30:57+0000",
+    "updateDate": "2026-07-21T13:30:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e001b08c-a6c3-4632-8220-46aedced82b6",
+    "rule": "javascript:S7785",
+    "severity": "MAJOR",
+    "component": "amclubs__am-check-in:_worker.js",
+    "project": "amclubs__am-check-in",
+    "line": 44,
+    "hash": "7e18d1d1eec75b79f7568317c762217a",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 44,
+      "startOffset": 9,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over using a promise chain.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-07-21T13:30:57+0000",
+    "updateDate": "2026-07-21T13:30:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "12b0994b-94c6-4810-b01c-f95ee8e0a334",
+    "rule": "javascript:S7758",
+    "severity": "MINOR",
+    "component": "amclubs__am-check-in:_worker.js",
+    "project": "amclubs__am-check-in",
+    "line": 87,
+    "hash": "36ea366cf4a06dc176b9acf43826e483",
+    "textRange": {
+      "startLine": 87,
+      "endLine": 87,
+      "startOffset": 49,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#codePointAt()` over `String#charCodeAt()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "internationalization",
+      "unicode"
+    ],
+    "creationDate": "2026-07-21T13:30:57+0000",
+    "updateDate": "2026-07-21T13:30:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a423c1fb-82a1-4019-90f4-10f21bc570b0",
+    "rule": "javascript:S3358",
+    "severity": "MAJOR",
+    "component": "amclubs__am-check-in:_worker.js",
+    "project": "amclubs__am-check-in",
+    "line": 201,
+    "hash": "4d6ba2961e26e8ee3071dff7757e2995",
+    "textRange": {
+      "startLine": 201,
+      "endLine": 203,
+      "startOffset": 6,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-21T13:30:57+0000",
+    "updateDate": "2026-07-21T13:30:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "88ac4e75-3604-42a7-835a-727517de547b",
+    "rule": "javascript:S6535",
+    "severity": "MAJOR",
+    "component": "amclubs__am-check-in:_worker.js",
+    "project": "amclubs__am-check-in",
+    "line": 292,
+    "hash": "f49194c99044756432d0980730c51c2c",
+    "textRange": {
+      "startLine": 292,
+      "endLine": 292,
+      "startOffset": 40,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unnecessary escape character: \\/.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-21T13:30:57+0000",
+    "updateDate": "2026-07-21T13:30:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8dc96878-5268-4a84-815e-7da5134e4006",
+    "rule": "javascript:S6535",
+    "severity": "MAJOR",
+    "component": "amclubs__am-check-in:_worker.js",
+    "project": "amclubs__am-check-in",
+    "line": 299,
+    "hash": "926adf9c1287e37192d65e322f1d6133",
+    "textRange": {
+      "startLine": 299,
+      "endLine": 299,
+      "startOffset": 39,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unnecessary escape character: \\@.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-21T13:30:57+0000",
+    "updateDate": "2026-07-21T13:30:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "50b9cdf2-a4b1-4d32-9798-283047877323",
+    "rule": "javascript:S125",
+    "severity": "MAJOR",
+    "component": "amclubs__am-check-in:_worker.js",
+    "project": "amclubs__am-check-in",
+    "line": 321,
+    "hash": "e85bfc946f99b678b6140f2904934d62",
+    "textRange": {
+      "startLine": 321,
+      "endLine": 321,
+      "startOffset": 4,
+      "endOffset": 50
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-21T13:30:57+0000",
+    "updateDate": "2026-07-21T13:30:57+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

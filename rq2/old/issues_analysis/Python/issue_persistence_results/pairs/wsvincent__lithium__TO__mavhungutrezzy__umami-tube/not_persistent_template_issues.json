@@ -1,0 +1,73 @@
+[
+  {
+    "pair_id": "wsvincent__lithium__TO__mavhungutrezzy__umami-tube",
+    "template_repository": "wsvincent/lithium",
+    "generated_repository": "mavhungutrezzy/umami-tube",
+    "template_issue": {
+      "key": "2bca8eb6-74ab-470e-bf5c-f7af870c81cd",
+      "rule": "docker:S7029",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "software_qualities": [
+        "MAINTAINABILITY",
+        "RELIABILITY",
+        "SECURITY"
+      ],
+      "component": "wsvincent__lithium:Dockerfile",
+      "relative_path": "Dockerfile",
+      "line": 10,
+      "hash": "4857dff1cdf1b38c3be7bfe416b6f89d",
+      "message": "Replace this ADD instruction with a COPY instruction.",
+      "effort": "5min",
+      "debt": "5min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  },
+  {
+    "pair_id": "wsvincent__lithium__TO__mavhungutrezzy__umami-tube",
+    "template_repository": "wsvincent/lithium",
+    "generated_repository": "mavhungutrezzy/umami-tube",
+    "template_issue": {
+      "key": "e8f4ad13-57f0-49ec-8f88-8e052f7c7527",
+      "rule": "python:S2772",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "software_qualities": [
+        "MAINTAINABILITY"
+      ],
+      "component": "wsvincent__lithium:accounts/models.py",
+      "relative_path": "accounts/models.py",
+      "line": 5,
+      "hash": "1a1dc91c907325c69271ddf0c944bc72",
+      "message": "Remove this unneeded \"pass\".",
+      "effort": "2min",
+      "debt": "2min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  },
+  {
+    "pair_id": "wsvincent__lithium__TO__mavhungutrezzy__umami-tube",
+    "template_repository": "wsvincent/lithium",
+    "generated_repository": "mavhungutrezzy/umami-tube",
+    "template_issue": {
+      "key": "743196b5-d531-459c-a596-ed56206a9376",
+      "rule": "secrets:S6687",
+      "type": "VULNERABILITY",
+      "severity": "BLOCKER",
+      "software_qualities": [
+        "SECURITY"
+      ],
+      "component": "wsvincent__lithium:django_project/settings.py",
+      "relative_path": "django_project/settings.py",
+      "line": 12,
+      "hash": "b3b29cabf124fe7207289222a1ffff49",
+      "message": "Make sure this Django key gets revoked, changed, and removed from the code.",
+      "effort": "30min",
+      "debt": "30min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  }
+]

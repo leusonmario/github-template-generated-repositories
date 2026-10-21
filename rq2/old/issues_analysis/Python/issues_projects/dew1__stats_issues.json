@@ -1,0 +1,1714 @@
+[
+  {
+    "key": "6cbb6ffd-1f3b-4268-b0fc-67c04a7da86b",
+    "rule": "python:S7493",
+    "severity": "MAJOR",
+    "component": "dew1__stats:temp_repos/stats/generate_images.py",
+    "project": "dew1__stats",
+    "line": 35,
+    "hash": "f7c88cc97dae254fac4be0adc57bf888",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 9,
+      "endOffset": 44
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/generate_images.py",
+            "textRange": {
+              "startLine": 30,
+              "endLine": 30,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an asynchronous file API instead of synchronous open() in this async function.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9da41aaf-ece8-462f-9371-7f1aeb5b61c7",
+    "rule": "python:S5361",
+    "severity": "CRITICAL",
+    "component": "dew1__stats:temp_repos/stats/generate_images.py",
+    "project": "dew1__stats",
+    "line": 38,
+    "hash": "dae9ea869b1d3f5bd3f53799fd30a63b",
+    "textRange": {
+      "startLine": 38,
+      "endLine": 38,
+      "startOffset": 13,
+      "endOffset": 19
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/generate_images.py",
+            "textRange": {
+              "startLine": 38,
+              "endLine": 38,
+              "startOffset": 21,
+              "endOffset": 31
+            },
+            "msg": "Expression without regular expression features.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Replace this \"re.sub()\" call by a \"str.replace()\" function call.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "regex",
+      "performance"
+    ],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9bf20e74-5cfd-4dce-9a05-dce244677b18",
+    "rule": "python:S5361",
+    "severity": "CRITICAL",
+    "component": "dew1__stats:temp_repos/stats/generate_images.py",
+    "project": "dew1__stats",
+    "line": 39,
+    "hash": "6e5fc162afd759fdba8200ed0d256246",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 39,
+      "startOffset": 13,
+      "endOffset": 19
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/generate_images.py",
+            "textRange": {
+              "startLine": 39,
+              "endLine": 39,
+              "startOffset": 21,
+              "endOffset": 32
+            },
+            "msg": "Expression without regular expression features.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Replace this \"re.sub()\" call by a \"str.replace()\" function call.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "regex",
+      "performance"
+    ],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b54b8970-0341-466c-b9f1-11d0a1bc1466",
+    "rule": "python:S5361",
+    "severity": "CRITICAL",
+    "component": "dew1__stats:temp_repos/stats/generate_images.py",
+    "project": "dew1__stats",
+    "line": 40,
+    "hash": "fa21178bcea92387fe7f60200b69c816",
+    "textRange": {
+      "startLine": 40,
+      "endLine": 40,
+      "startOffset": 13,
+      "endOffset": 19
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/generate_images.py",
+            "textRange": {
+              "startLine": 40,
+              "endLine": 40,
+              "startOffset": 21,
+              "endOffset": 32
+            },
+            "msg": "Expression without regular expression features.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Replace this \"re.sub()\" call by a \"str.replace()\" function call.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "regex",
+      "performance"
+    ],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "aaa935d5-3dcc-45b4-aa09-f21725659ad1",
+    "rule": "python:S5361",
+    "severity": "CRITICAL",
+    "component": "dew1__stats:temp_repos/stats/generate_images.py",
+    "project": "dew1__stats",
+    "line": 41,
+    "hash": "9f86e00b04b003d292a79b3e33fe1fa5",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 41,
+      "startOffset": 13,
+      "endOffset": 19
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/generate_images.py",
+            "textRange": {
+              "startLine": 41,
+              "endLine": 41,
+              "startOffset": 21,
+              "endOffset": 40
+            },
+            "msg": "Expression without regular expression features.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Replace this \"re.sub()\" call by a \"str.replace()\" function call.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "regex",
+      "performance"
+    ],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a52bd54f-a3bc-46b9-acce-8ddb743341c3",
+    "rule": "python:S5361",
+    "severity": "CRITICAL",
+    "component": "dew1__stats:temp_repos/stats/generate_images.py",
+    "project": "dew1__stats",
+    "line": 43,
+    "hash": "70f14ae078afa9d562b2701aae0925b8",
+    "textRange": {
+      "startLine": 43,
+      "endLine": 43,
+      "startOffset": 13,
+      "endOffset": 19
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/generate_images.py",
+            "textRange": {
+              "startLine": 43,
+              "endLine": 43,
+              "startOffset": 21,
+              "endOffset": 40
+            },
+            "msg": "Expression without regular expression features.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Replace this \"re.sub()\" call by a \"str.replace()\" function call.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "regex",
+      "performance"
+    ],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6fcf5364-991b-48eb-8b0b-9d3ef24780ab",
+    "rule": "python:S5361",
+    "severity": "CRITICAL",
+    "component": "dew1__stats:temp_repos/stats/generate_images.py",
+    "project": "dew1__stats",
+    "line": 44,
+    "hash": "1c104fc36bddeee23f00ce3c29fcafa5",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 44,
+      "startOffset": 13,
+      "endOffset": 19
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/generate_images.py",
+            "textRange": {
+              "startLine": 44,
+              "endLine": 44,
+              "startOffset": 21,
+              "endOffset": 32
+            },
+            "msg": "Expression without regular expression features.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Replace this \"re.sub()\" call by a \"str.replace()\" function call.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "regex",
+      "performance"
+    ],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6f21ef43-7d9c-40d2-819c-c86ae1fcc2a3",
+    "rule": "python:S5361",
+    "severity": "CRITICAL",
+    "component": "dew1__stats:temp_repos/stats/generate_images.py",
+    "project": "dew1__stats",
+    "line": 45,
+    "hash": "3c58d9ac86d89658675e83ae97be7d22",
+    "textRange": {
+      "startLine": 45,
+      "endLine": 45,
+      "startOffset": 13,
+      "endOffset": 19
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/generate_images.py",
+            "textRange": {
+              "startLine": 45,
+              "endLine": 45,
+              "startOffset": 21,
+              "endOffset": 32
+            },
+            "msg": "Expression without regular expression features.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Replace this \"re.sub()\" call by a \"str.replace()\" function call.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "regex",
+      "performance"
+    ],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8dea81f5-a0e4-44d0-93b7-e0525ad48ec1",
+    "rule": "python:S7493",
+    "severity": "MAJOR",
+    "component": "dew1__stats:temp_repos/stats/generate_images.py",
+    "project": "dew1__stats",
+    "line": 48,
+    "hash": "3346657755da19b9fedf546918954c92",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 9,
+      "endOffset": 44
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/generate_images.py",
+            "textRange": {
+              "startLine": 30,
+              "endLine": 30,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an asynchronous file API instead of synchronous open() in this async function.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bae494df-f4f5-45dd-b7e1-bf9dab22a42c",
+    "rule": "python:S7493",
+    "severity": "MAJOR",
+    "component": "dew1__stats:temp_repos/stats/generate_images.py",
+    "project": "dew1__stats",
+    "line": 57,
+    "hash": "7eddc652e7605198d4dc777d90b81bb2",
+    "textRange": {
+      "startLine": 57,
+      "endLine": 57,
+      "startOffset": 9,
+      "endOffset": 45
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/generate_images.py",
+            "textRange": {
+              "startLine": 52,
+              "endLine": 52,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an asynchronous file API instead of synchronous open() in this async function.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "010f88f8-c734-43f7-9df9-a5d68a8cdd50",
+    "rule": "python:S5361",
+    "severity": "CRITICAL",
+    "component": "dew1__stats:temp_repos/stats/generate_images.py",
+    "project": "dew1__stats",
+    "line": 85,
+    "hash": "cb733677cf89f13685428685dc22c913",
+    "textRange": {
+      "startLine": 85,
+      "endLine": 85,
+      "startOffset": 13,
+      "endOffset": 19
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/generate_images.py",
+            "textRange": {
+              "startLine": 85,
+              "endLine": 85,
+              "startOffset": 22,
+              "endOffset": 36
+            },
+            "msg": "Expression without regular expression features.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Replace this \"re.sub()\" call by a \"str.replace()\" function call.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "regex",
+      "performance"
+    ],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4271aec3-c16f-4695-9ac4-24b55a5e43d1",
+    "rule": "python:S5361",
+    "severity": "CRITICAL",
+    "component": "dew1__stats:temp_repos/stats/generate_images.py",
+    "project": "dew1__stats",
+    "line": 86,
+    "hash": "bb28415c94049296b66f5b341331b8e1",
+    "textRange": {
+      "startLine": 86,
+      "endLine": 86,
+      "startOffset": 13,
+      "endOffset": 19
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/generate_images.py",
+            "textRange": {
+              "startLine": 86,
+              "endLine": 86,
+              "startOffset": 22,
+              "endOffset": 37
+            },
+            "msg": "Expression without regular expression features.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Replace this \"re.sub()\" call by a \"str.replace()\" function call.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "regex",
+      "performance"
+    ],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ee97490e-79cc-46c8-9216-76df8ac12d65",
+    "rule": "python:S7493",
+    "severity": "MAJOR",
+    "component": "dew1__stats:temp_repos/stats/generate_images.py",
+    "project": "dew1__stats",
+    "line": 89,
+    "hash": "0fbc697f1963ed9accfcf9fba91fb351",
+    "textRange": {
+      "startLine": 89,
+      "endLine": 89,
+      "startOffset": 9,
+      "endOffset": 45
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/generate_images.py",
+            "textRange": {
+              "startLine": 52,
+              "endLine": 52,
+              "startOffset": 0,
+              "endOffset": 5
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an asynchronous file API instead of synchronous open() in this async function.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0aea92ca-c26b-4b49-95b0-0d41f3a1bc7d",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "dew1__stats:temp_repos/stats/generate_images.py",
+    "project": "dew1__stats",
+    "line": 104,
+    "hash": "8a3d4cdd45c52eac6fe4cb925f43e4cf",
+    "textRange": {
+      "startLine": 104,
+      "endLine": 104,
+      "startOffset": 8,
+      "endOffset": 50
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "de8dee09-90ce-4afc-86a2-326f7ffc4f3b",
+    "rule": "python:S112",
+    "severity": "MAJOR",
+    "component": "dew1__stats:temp_repos/stats/generate_images.py",
+    "project": "dew1__stats",
+    "line": 105,
+    "hash": "dceed7b575691640fcc1cb3edb073188",
+    "textRange": {
+      "startLine": 105,
+      "endLine": 105,
+      "startOffset": 14,
+      "endOffset": 74
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this generic exception class with a more specific one.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling"
+    ],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e7feee50-f54d-4c05-b74c-dfaa89a83e84",
+    "rule": "python:S2761",
+    "severity": "MAJOR",
+    "component": "dew1__stats:temp_repos/stats/generate_images.py",
+    "project": "dew1__stats",
+    "line": 120,
+    "hash": "d5f524501b00af2fe3c685029568cbfd",
+    "textRange": {
+      "startLine": 120,
+      "endLine": 120,
+      "startOffset": 8,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use the \"bool()\" builtin function instead of calling \"not\" twice.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d844e6ad-59fa-40eb-8fd2-a406af50881c",
+    "rule": "python:S5754",
+    "severity": "CRITICAL",
+    "component": "dew1__stats:temp_repos/stats/github_stats.py",
+    "project": "dew1__stats",
+    "line": 54,
+    "hash": "3e264f5fbab10735799511f21ca70842",
+    "textRange": {
+      "startLine": 54,
+      "endLine": 54,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify an exception class to catch or reraise the exception",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "bad-practice",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fa74ec6f-0ba3-4976-9a9d-87ede20ad710",
+    "rule": "python:S7499",
+    "severity": "MAJOR",
+    "component": "dew1__stats:temp_repos/stats/github_stats.py",
+    "project": "dew1__stats",
+    "line": 58,
+    "hash": "fc4f214e49b0a213355081dabe4ab722",
+    "textRange": {
+      "startLine": 58,
+      "endLine": 58,
+      "startOffset": 29,
+      "endOffset": 42
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/github_stats.py",
+            "textRange": {
+              "startLine": 34,
+              "endLine": 34,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an async HTTP client in this async function instead of a synchronous one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio",
+      "http"
+    ],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "85fc818b-dd89-43e2-bff2-41fc9fd10b71",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "dew1__stats:temp_repos/stats/github_stats.py",
+    "project": "dew1__stats",
+    "line": 66,
+    "hash": "c7ae60bb190d422caa4e216000b7a3ba",
+    "textRange": {
+      "startLine": 66,
+      "endLine": 66,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "57d74189-4b34-4f47-9c96-6934967f9349",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "dew1__stats:temp_repos/stats/github_stats.py",
+    "project": "dew1__stats",
+    "line": 81,
+    "hash": "55edcbdeb4bd200a686d3a9f1f58d685",
+    "textRange": {
+      "startLine": 81,
+      "endLine": 81,
+      "startOffset": 25,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2d9d46c6-402c-407a-9a26-56bbacf7c7bd",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "dew1__stats:temp_repos/stats/github_stats.py",
+    "project": "dew1__stats",
+    "line": 93,
+    "hash": "ea2ac4d5b19a6cb711f354ce14e3ce31",
+    "textRange": {
+      "startLine": 93,
+      "endLine": 93,
+      "startOffset": 26,
+      "endOffset": 61
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9c0f60b1-6e94-4b0d-ad2e-fea91be11d14",
+    "rule": "python:S5754",
+    "severity": "CRITICAL",
+    "component": "dew1__stats:temp_repos/stats/github_stats.py",
+    "project": "dew1__stats",
+    "line": 100,
+    "hash": "3e264f5fbab10735799511f21ca70842",
+    "textRange": {
+      "startLine": 100,
+      "endLine": 100,
+      "startOffset": 12,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify an exception class to catch or reraise the exception",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "bad-practice",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "674480b8-ba4e-4903-b190-305894607171",
+    "rule": "python:S7499",
+    "severity": "MAJOR",
+    "component": "dew1__stats:temp_repos/stats/github_stats.py",
+    "project": "dew1__stats",
+    "line": 104,
+    "hash": "64e2fbfaf3829b48e5450db70bcd6ead",
+    "textRange": {
+      "startLine": 104,
+      "endLine": 104,
+      "startOffset": 33,
+      "endOffset": 45
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/github_stats.py",
+            "textRange": {
+              "startLine": 68,
+              "endLine": 68,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an async HTTP client in this async function instead of a synchronous one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio",
+      "http"
+    ],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "47c73f65-3364-4ac0-9532-a5a90e9b92c1",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "dew1__stats:temp_repos/stats/github_stats.py",
+    "project": "dew1__stats",
+    "line": 110,
+    "hash": "ea2ac4d5b19a6cb711f354ce14e3ce31",
+    "textRange": {
+      "startLine": 110,
+      "endLine": 110,
+      "startOffset": 30,
+      "endOffset": 65
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "10ae5fbc-3e12-4f94-adcb-e5cb5ca0ea0e",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "dew1__stats:temp_repos/stats/github_stats.py",
+    "project": "dew1__stats",
+    "line": 117,
+    "hash": "c7ae60bb190d422caa4e216000b7a3ba",
+    "textRange": {
+      "startLine": 117,
+      "endLine": 117,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "725a363b-0505-456b-877e-af67eacd2656",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "dew1__stats:temp_repos/stats/github_stats.py",
+    "project": "dew1__stats",
+    "line": 298,
+    "hash": "620eecb0afbda2626561e0a8a8b1a2dd",
+    "textRange": {
+      "startLine": 298,
+      "endLine": 298,
+      "startOffset": 14,
+      "endOffset": 23
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/github_stats.py",
+            "textRange": {
+              "startLine": 311,
+              "endLine": 311,
+              "startOffset": 8,
+              "endOffset": 13
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/github_stats.py",
+            "textRange": {
+              "startLine": 317,
+              "endLine": 317,
+              "startOffset": 38,
+              "endOffset": 40
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/github_stats.py",
+            "textRange": {
+              "startLine": 320,
+              "endLine": 320,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/github_stats.py",
+            "textRange": {
+              "startLine": 337,
+              "endLine": 337,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/github_stats.py",
+            "textRange": {
+              "startLine": 340,
+              "endLine": 340,
+              "startOffset": 12,
+              "endOffset": 15
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/github_stats.py",
+            "textRange": {
+              "startLine": 341,
+              "endLine": 341,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/github_stats.py",
+            "textRange": {
+              "startLine": 344,
+              "endLine": 344,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/github_stats.py",
+            "textRange": {
+              "startLine": 344,
+              "endLine": 344,
+              "startOffset": 39,
+              "endOffset": 41
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/github_stats.py",
+            "textRange": {
+              "startLine": 350,
+              "endLine": 350,
+              "startOffset": 16,
+              "endOffset": 19
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/github_stats.py",
+            "textRange": {
+              "startLine": 353,
+              "endLine": 353,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/github_stats.py",
+            "textRange": {
+              "startLine": 355,
+              "endLine": 355,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/github_stats.py",
+            "textRange": {
+              "startLine": 358,
+              "endLine": 358,
+              "startOffset": 20,
+              "endOffset": 24
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/github_stats.py",
+            "textRange": {
+              "startLine": 365,
+              "endLine": 365,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/github_stats.py",
+            "textRange": {
+              "startLine": 367,
+              "endLine": 367,
+              "startOffset": 14,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/github_stats.py",
+            "textRange": {
+              "startLine": 374,
+              "endLine": 374,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "dew1__stats:temp_repos/stats/github_stats.py",
+            "textRange": {
+              "startLine": 380,
+              "endLine": 380,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 33 to the 15 allowed.",
+    "effort": "23min",
+    "debt": "23min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9d7d2e9e-1e55-431f-9718-55b663302d7c",
+    "rule": "python:S7498",
+    "severity": "MINOR",
+    "component": "dew1__stats:temp_repos/stats/github_stats.py",
+    "project": "dew1__stats",
+    "line": 304,
+    "hash": "8b4a927b425220b0525f0ea3d9aaccc2",
+    "textRange": {
+      "startLine": 304,
+      "endLine": 304,
+      "startOffset": 26,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this constructor call with a literal.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a6a53b64-b72d-43a9-9036-50ddc21e4cfe",
+    "rule": "python:S1135",
+    "severity": "INFO",
+    "component": "dew1__stats:temp_repos/stats/github_stats.py",
+    "project": "dew1__stats",
+    "line": 377,
+    "hash": "9fdd46d8a69f91d53dc8387cfc8d35c1",
+    "textRange": {
+      "startLine": 377,
+      "endLine": 377,
+      "startOffset": 8,
+      "endOffset": 72
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-17T20:35:23+0000",
+    "updateDate": "2026-07-17T20:35:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

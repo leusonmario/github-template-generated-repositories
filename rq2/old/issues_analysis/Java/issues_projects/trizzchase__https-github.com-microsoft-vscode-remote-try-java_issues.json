@@ -1,0 +1,89 @@
+[
+  {
+    "key": "103c4153-7552-4437-b41e-3f163e657c69",
+    "rule": "java:S106",
+    "severity": "MAJOR",
+    "component": "trizzchase__https-github.com-microsoft-vscode-remote-try-java:src/main/java/com/mycompany/app/App.java",
+    "project": "trizzchase__https-github.com-microsoft-vscode-remote-try-java",
+    "line": 10,
+    "hash": "a2c5e8f048d6aefe6828f40a9959e3bf",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 8,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this use of System.out by a logger.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "cert"
+    ],
+    "creationDate": "2026-07-21T20:29:20+0000",
+    "updateDate": "2026-07-21T20:29:20+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "920f4e36-61d9-4116-93b1-a8edf401d415",
+    "rule": "java:S1186",
+    "severity": "CRITICAL",
+    "component": "trizzchase__https-github.com-microsoft-vscode-remote-try-java:src/test/java/com/mycompany/app/AppTest.java",
+    "project": "trizzchase__https-github.com-microsoft-vscode-remote-try-java",
+    "line": 9,
+    "hash": "b21ba11bc15bbe2447da5d0fa6617e2b",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 11,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "suspicious"
+    ],
+    "creationDate": "2026-07-21T20:29:20+0000",
+    "updateDate": "2026-07-21T20:29:20+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

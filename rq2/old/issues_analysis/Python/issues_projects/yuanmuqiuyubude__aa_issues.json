@@ -1,0 +1,135 @@
+[
+  {
+    "key": "6f3b399c-cfb9-47eb-b730-93879e58afe0",
+    "rule": "python:S1481",
+    "severity": "MINOR",
+    "component": "yuanmuqiuyubude__aa:temp_repos/AA/agent/my_reco.py",
+    "project": "yuanmuqiuyubude__aa",
+    "line": 15,
+    "hash": "59a092afa257df4f8367096ca58a4bc5",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 8,
+      "endOffset": 19
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "yuanmuqiuyubude__aa:temp_repos/AA/agent/my_reco.py",
+            "textRange": {
+              "startLine": 28,
+              "endLine": 28,
+              "startOffset": 8,
+              "endOffset": 19
+            },
+            "msg": "Assignment to unused local variable \"reco_detail\".",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Remove the unused local variable \"reco_detail\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:54:03+0000",
+    "updateDate": "2026-07-17T20:54:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e9906012-52ae-4070-9273-ba4e0a1992a5",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "yuanmuqiuyubude__aa:temp_repos/AA/install.py",
+    "project": "yuanmuqiuyubude__aa",
+    "line": 49,
+    "hash": "0ecbf22bec65fef3af0bd24ecb416d32",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 49,
+      "startOffset": 33,
+      "endOffset": 49
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "yuanmuqiuyubude__aa:temp_repos/AA/install.py",
+            "textRange": {
+              "startLine": 53,
+              "endLine": 53,
+              "startOffset": 29,
+              "endOffset": 45
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "yuanmuqiuyubude__aa:temp_repos/AA/install.py",
+            "textRange": {
+              "startLine": 58,
+              "endLine": 58,
+              "startOffset": 29,
+              "endOffset": 45
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"interface.json\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:54:03+0000",
+    "updateDate": "2026-07-17T20:54:03+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

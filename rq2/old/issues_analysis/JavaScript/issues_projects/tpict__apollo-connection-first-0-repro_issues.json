@@ -1,0 +1,391 @@
+[
+  {
+    "key": "ee3d7180-69f1-4fba-9cf2-ab217696f2d8",
+    "rule": "javascript:S1128",
+    "severity": "MINOR",
+    "component": "tpict__apollo-connection-first-0-repro:temp_repos/apollo-connection-first-0-repro/src/index.jsx",
+    "project": "tpict__apollo-connection-first-0-repro",
+    "line": 11,
+    "hash": "3306c9cbd12aa7f986a40b8b50021dd0",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 2,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'useMutation'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-20T17:33:55+0000",
+    "updateDate": "2026-07-20T17:33:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "993dc4de-f3c4-4e2d-8998-ac932e01016b",
+    "rule": "javascript:S1854",
+    "severity": "MAJOR",
+    "component": "tpict__apollo-connection-first-0-repro:temp_repos/apollo-connection-first-0-repro/src/index.jsx",
+    "project": "tpict__apollo-connection-first-0-repro",
+    "line": 59,
+    "hash": "3727ba187bddd70ae3815006a34d1151",
+    "textRange": {
+      "startLine": 59,
+      "endLine": 59,
+      "startOffset": 10,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this useless assignment to variable \"loading\".",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-20T17:33:55+0000",
+    "updateDate": "2026-07-20T17:33:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e80359cf-4761-471f-9a64-d3aaa30cb9c1",
+    "rule": "javascript:S1481",
+    "severity": "MINOR",
+    "component": "tpict__apollo-connection-first-0-repro:temp_repos/apollo-connection-first-0-repro/src/index.jsx",
+    "project": "tpict__apollo-connection-first-0-repro",
+    "line": 59,
+    "hash": "3727ba187bddd70ae3815006a34d1151",
+    "textRange": {
+      "startLine": 59,
+      "endLine": 59,
+      "startOffset": 10,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove the declaration of the unused 'loading' variable.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-20T17:33:55+0000",
+    "updateDate": "2026-07-20T17:33:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fada06e8-0670-47b5-bfe1-039d919682a7",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "tpict__apollo-connection-first-0-repro:temp_repos/apollo-connection-first-0-repro/src/schema.js",
+    "project": "tpict__apollo-connection-first-0-repro",
+    "line": 25,
+    "hash": "a05d40a981df3748194c8d6cfb0594ff",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 9,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-20T17:33:55+0000",
+    "updateDate": "2026-07-20T17:33:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3d01c85f-b500-4717-aead-a9daf3956bfc",
+    "rule": "javascript:S6644",
+    "severity": "MINOR",
+    "component": "tpict__apollo-connection-first-0-repro:temp_repos/apollo-connection-first-0-repro/src/schema.js",
+    "project": "tpict__apollo-connection-first-0-repro",
+    "line": 84,
+    "hash": "5dfb1c721206d340e57559f3dcad473c",
+    "textRange": {
+      "startLine": 84,
+      "endLine": 84,
+      "startOffset": 27,
+      "endOffset": 60
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unnecessary use of boolean literals in conditional expression.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T17:33:55+0000",
+    "updateDate": "2026-07-20T17:33:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a7ce4d04-0e2d-47dd-94f5-fee482b7f1f5",
+    "rule": "javascript:S6644",
+    "severity": "MINOR",
+    "component": "tpict__apollo-connection-first-0-repro:temp_repos/apollo-connection-first-0-repro/src/schema.js",
+    "project": "tpict__apollo-connection-first-0-repro",
+    "line": 85,
+    "hash": "edcb755247c7a957df61be8c681edf5c",
+    "textRange": {
+      "startLine": 85,
+      "endLine": 85,
+      "startOffset": 31,
+      "endOffset": 60
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unnecessary use of boolean literals in conditional expression.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T17:33:55+0000",
+    "updateDate": "2026-07-20T17:33:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4088560e-fdac-49c1-ac5f-8861f3cc05af",
+    "rule": "javascript:S6644",
+    "severity": "MINOR",
+    "component": "tpict__apollo-connection-first-0-repro:temp_repos/apollo-connection-first-0-repro/src/schema.js",
+    "project": "tpict__apollo-connection-first-0-repro",
+    "line": 104,
+    "hash": "afc8fa76c0703f68b91804e18f3d589b",
+    "textRange": {
+      "startLine": 104,
+      "endLine": 104,
+      "startOffset": 25,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unnecessary use of boolean literals in conditional expression.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T17:33:55+0000",
+    "updateDate": "2026-07-20T17:33:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7f884d08-ffcc-419d-b848-c53a5166f809",
+    "rule": "javascript:S6644",
+    "severity": "MINOR",
+    "component": "tpict__apollo-connection-first-0-repro:temp_repos/apollo-connection-first-0-repro/src/schema.js",
+    "project": "tpict__apollo-connection-first-0-repro",
+    "line": 105,
+    "hash": "edcb755247c7a957df61be8c681edf5c",
+    "textRange": {
+      "startLine": 105,
+      "endLine": 105,
+      "startOffset": 29,
+      "endOffset": 58
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unnecessary use of boolean literals in conditional expression.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-20T17:33:55+0000",
+    "updateDate": "2026-07-20T17:33:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1c36c900-cb87-4c6d-a016-115a71fbbd93",
+    "rule": "javascript:S7755",
+    "severity": "MINOR",
+    "component": "tpict__apollo-connection-first-0-repro:temp_repos/apollo-connection-first-0-repro/src/schema.js",
+    "project": "tpict__apollo-connection-first-0-repro",
+    "line": 107,
+    "hash": "75c000dcc401f8849c2a1bb986899346",
+    "textRange": {
+      "startLine": 107,
+      "endLine": 107,
+      "startOffset": 48,
+      "endOffset": 64
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `.at(…)` over `[….length - index]`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance",
+      "es2022"
+    ],
+    "creationDate": "2026-07-20T17:33:55+0000",
+    "updateDate": "2026-07-20T17:33:55+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

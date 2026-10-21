@@ -1,0 +1,335 @@
+[
+  {
+    "key": "c26637d3-af29-4b26-9631-43606cd0d63e",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "9d8dev__pay:Dockerfile",
+    "project": "9d8dev__pay",
+    "line": 47,
+    "hash": "9c3ce62f063479a17855ae90816f354d",
+    "textRange": {
+      "startLine": 47,
+      "endLine": 47,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "9d8dev__pay:Dockerfile",
+            "textRange": {
+              "startLine": 48,
+              "endLine": 48,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T21:06:36+0000",
+    "updateDate": "2026-07-16T21:06:36+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "28e41175-e018-4d39-8cdb-b46f76026107",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "9d8dev__pay:Dockerfile",
+    "project": "9d8dev__pay",
+    "line": 53,
+    "hash": "565c154f530412c5ad54e2d48e909c4c",
+    "textRange": {
+      "startLine": 53,
+      "endLine": 53,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "9d8dev__pay:Dockerfile",
+            "textRange": {
+              "startLine": 54,
+              "endLine": 54,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T21:06:36+0000",
+    "updateDate": "2026-07-16T21:06:36+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3522855c-81e5-4dfc-9ed3-379eb8fce445",
+    "rule": "docker:S7019",
+    "severity": "MAJOR",
+    "component": "9d8dev__pay:Dockerfile",
+    "project": "9d8dev__pay",
+    "line": 69,
+    "hash": "290f3078e0e22eed3739e9b28a96f9b6",
+    "textRange": {
+      "startLine": 69,
+      "endLine": 69,
+      "startOffset": 4,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this shell form with exec form.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T21:06:36+0000",
+    "updateDate": "2026-07-16T21:06:36+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2744b882-64e3-4ee4-8106-6cea4fc9eeb9",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "9d8dev__pay:src/app/(frontend)/layout.tsx",
+    "project": "9d8dev__pay",
+    "line": 23,
+    "hash": "6f917eab0389b6ec065c7f6c7a3567fc",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 35,
+      "endOffset": 78
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T21:06:36+0000",
+    "updateDate": "2026-07-16T21:06:36+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "637e4cdb-e614-4e95-9125-b8fbda3e97b7",
+    "rule": "css:S4667",
+    "severity": "MAJOR",
+    "component": "9d8dev__pay:src/app/(payload)/custom.scss",
+    "project": "9d8dev__pay",
+    "line": 1,
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 0,
+      "endOffset": 0
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected empty source",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T21:06:36+0000",
+    "updateDate": "2026-07-16T21:06:36+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cc4bd830-1bf1-4942-ba23-69cccaf83443",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "9d8dev__pay:src/payload.config.ts",
+    "project": "9d8dev__pay",
+    "line": 6,
+    "hash": "9e469f479db3d21fb3a95403c323eed1",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 30,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:url` over `url`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T21:06:36+0000",
+    "updateDate": "2026-07-16T21:06:36+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4cf93526-5065-49f4-bd19-fa9b2ac3eacf",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "9d8dev__pay:src/payload.config.ts",
+    "project": "9d8dev__pay",
+    "line": 9,
+    "hash": "86d5e1b4b9e37b9f521e62e76cad3435",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 17,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T21:06:36+0000",
+    "updateDate": "2026-07-16T21:06:36+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

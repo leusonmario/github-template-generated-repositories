@@ -1,0 +1,4662 @@
+[
+  {
+    "key": "37c0c256-e4a5-44d6-bfbc-2628b5e437b0",
+    "rule": "docker:S7018",
+    "severity": "MINOR",
+    "component": "adh319__lunox:Dockerfile",
+    "project": "adh319__lunox",
+    "line": 12,
+    "hash": "88dcf77e9ddc352ab39d0a4ec8f478b2",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 4,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Sort these package names alphanumerically.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9c242223-62cc-4b58-a5bc-822ff1074f51",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/clients/lunox.js",
+    "project": "adh319__lunox",
+    "line": 41,
+    "hash": "5ed0a27bb00eee68aac847013ed9d499",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 41,
+      "startOffset": 68,
+      "endOffset": 75
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0678bbd5-f878-40d9-a55c-d73eb34f4132",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/commands/interaction/general/help.js",
+    "project": "adh319__lunox",
+    "line": 2,
+    "hash": "c42b21ad7e4dbc55a5c056804053a2f7",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 32,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "500333fb-6ecd-4853-aeb5-d57ae61f3cd0",
+    "rule": "javascript:S1854",
+    "severity": "MAJOR",
+    "component": "adh319__lunox:src/commands/interaction/music/join.js",
+    "project": "adh319__lunox",
+    "line": 25,
+    "hash": "f4a79f15f75bae77e3f197321df53ce4",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 12,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this useless assignment to variable \"player\".",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "24d28c8e-b79a-4114-8315-8a583100a7bf",
+    "rule": "javascript:S7781",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/commands/interaction/music/lyric.js",
+    "project": "adh319__lunox",
+    "line": 23,
+    "hash": "a7c4fb7ddbcc601916f672afe64c7606",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 17,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "883ead3c-b968-4fba-890d-1fd73825ec20",
+    "rule": "javascript:S7781",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/commands/interaction/music/lyric.js",
+    "project": "adh319__lunox",
+    "line": 24,
+    "hash": "dece656a560d0092d404b9318a64f548",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 17,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d0fd22c3-4900-45a0-af87-2cdd0605b3d9",
+    "rule": "javascript:S7781",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/commands/interaction/music/lyric.js",
+    "project": "adh319__lunox",
+    "line": 25,
+    "hash": "ee2839e73c919da32fae8ec2ac8ecbc9",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 17,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e06f67b0-e4f4-4e55-bc2e-902336ab9a28",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/databases/connector.js",
+    "project": "adh319__lunox",
+    "line": 4,
+    "hash": "de0ce25ce7123b796c45071588c4d22c",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 32,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f8e6865e-0596-4516-b3b3-4f33496af71f",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/databases/updater.js",
+    "project": "adh319__lunox",
+    "line": 4,
+    "hash": "de0ce25ce7123b796c45071588c4d22c",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 32,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5d0dca9f-0a40-45eb-9db6-4e7adabf638a",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/bot/client/clientReady.js",
+    "project": "adh319__lunox",
+    "line": 5,
+    "hash": "de0ce25ce7123b796c45071588c4d22c",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 32,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1d360b22-4d97-437d-b67c-538ca86e2473",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/bot/client/clientReady.js",
+    "project": "adh319__lunox",
+    "line": 10,
+    "hash": "c67202d73c2d07923f7c73db551de9a9",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 14,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8511e481-a2c6-4645-9f61-3ba3cbcbaf87",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/bot/client/clientReady.js",
+    "project": "adh319__lunox",
+    "line": 18,
+    "hash": "62d6b0d70518c099b225961ba767eaf2",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 13,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "769a839d-32f5-4ffb-ad39-4dca61b50cb7",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/bot/client/disconnect.js",
+    "project": "adh319__lunox",
+    "line": 3,
+    "hash": "de0ce25ce7123b796c45071588c4d22c",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 32,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4a930c38-620e-4340-9799-46146abe60f7",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/bot/client/error.js",
+    "project": "adh319__lunox",
+    "line": 3,
+    "hash": "dac2912a513cb1d6bc34c5fdb5dc6871",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 47,
+      "endOffset": 49
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "07771887-695b-4668-aa3a-3e29dddbfbd4",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/bot/client/rateLimit.js",
+    "project": "adh319__lunox",
+    "line": 3,
+    "hash": "771d02bd74b7d668f1a9fc4571e23061",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 38,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "198ad686-bf7f-4fdc-b04b-7c5a2b5c203d",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/bot/client/reconnecting.js",
+    "project": "adh319__lunox",
+    "line": 3,
+    "hash": "de0ce25ce7123b796c45071588c4d22c",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 32,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "feff01db-7f43-4c32-8248-82713fc8338a",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/bot/client/warn.js",
+    "project": "adh319__lunox",
+    "line": 3,
+    "hash": "de0ce25ce7123b796c45071588c4d22c",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 32,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b8658e1e-7fe0-4b46-8659-f91357bf0bcf",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/bot/guild/guildCreate.js",
+    "project": "adh319__lunox",
+    "line": 3,
+    "hash": "10057c1fc8bcddb8bdd42c3763ff50af",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 39,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8e275fb4-54f6-4708-93fd-ef92d1faffe6",
+    "rule": "javascript:S3776",
+    "severity": "CRITICAL",
+    "component": "adh319__lunox:src/events/bot/guild/interactionCreate.js",
+    "project": "adh319__lunox",
+    "line": 6,
+    "hash": "34f71a5208338215efa9039f39d721af",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 45,
+      "endOffset": 47
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/interactionCreate.js",
+            "textRange": {
+              "startLine": 7,
+              "endLine": 7,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/interactionCreate.js",
+            "textRange": {
+              "startLine": 18,
+              "endLine": 18,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/interactionCreate.js",
+            "textRange": {
+              "startLine": 20,
+              "endLine": 20,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/interactionCreate.js",
+            "textRange": {
+              "startLine": 29,
+              "endLine": 29,
+              "startOffset": 8,
+              "endOffset": 11
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/interactionCreate.js",
+            "textRange": {
+              "startLine": 30,
+              "endLine": 30,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/interactionCreate.js",
+            "textRange": {
+              "startLine": 33,
+              "endLine": 33,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/interactionCreate.js",
+            "textRange": {
+              "startLine": 39,
+              "endLine": 39,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/interactionCreate.js",
+            "textRange": {
+              "startLine": 39,
+              "endLine": 39,
+              "startOffset": 21,
+              "endOffset": 23
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/interactionCreate.js",
+            "textRange": {
+              "startLine": 47,
+              "endLine": 47,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/interactionCreate.js",
+            "textRange": {
+              "startLine": 47,
+              "endLine": 47,
+              "startOffset": 24,
+              "endOffset": 26
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.",
+    "effort": "7min",
+    "debt": "7min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d1b3e668-ebcd-4169-b727-70dd7153b9b0",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/bot/guild/interactionCreate.js",
+    "project": "adh319__lunox",
+    "line": 6,
+    "hash": "34f71a5208338215efa9039f39d721af",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 45,
+      "endOffset": 47
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f21ad8e3-c058-4fe0-ae73-0702a2842ccf",
+    "rule": "javascript:S6582",
+    "severity": "MAJOR",
+    "component": "adh319__lunox:src/events/bot/guild/interactionCreate.js",
+    "project": "adh319__lunox",
+    "line": 39,
+    "hash": "bbafba45e9cdf731a2825bd8401222c6",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 39,
+      "startOffset": 12,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5aa7331e-d9b8-4cc9-b0d4-40227eabf5a4",
+    "rule": "javascript:S3776",
+    "severity": "CRITICAL",
+    "component": "adh319__lunox:src/events/bot/guild/messageCreate.js",
+    "project": "adh319__lunox",
+    "line": 5,
+    "hash": "2dfda1254f3c4e6efa028e5b590eabb3",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 41,
+      "endOffset": 43
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/messageCreate.js",
+            "textRange": {
+              "startLine": 6,
+              "endLine": 6,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/messageCreate.js",
+            "textRange": {
+              "startLine": 20,
+              "endLine": 20,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/messageCreate.js",
+            "textRange": {
+              "startLine": 21,
+              "endLine": 21,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/messageCreate.js",
+            "textRange": {
+              "startLine": 24,
+              "endLine": 24,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/messageCreate.js",
+            "textRange": {
+              "startLine": 27,
+              "endLine": 27,
+              "startOffset": 59,
+              "endOffset": 60
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/messageCreate.js",
+            "textRange": {
+              "startLine": 34,
+              "endLine": 34,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/messageCreate.js",
+            "textRange": {
+              "startLine": 42,
+              "endLine": 42,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/messageCreate.js",
+            "textRange": {
+              "startLine": 42,
+              "endLine": 42,
+              "startOffset": 43,
+              "endOffset": 45
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/messageCreate.js",
+            "textRange": {
+              "startLine": 43,
+              "endLine": 43,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/messageCreate.js",
+            "textRange": {
+              "startLine": 43,
+              "endLine": 43,
+              "startOffset": 44,
+              "endOffset": 46
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/messageCreate.js",
+            "textRange": {
+              "startLine": 50,
+              "endLine": 50,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/messageCreate.js",
+            "textRange": {
+              "startLine": 56,
+              "endLine": 56,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/messageCreate.js",
+            "textRange": {
+              "startLine": 60,
+              "endLine": 60,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/messageCreate.js",
+            "textRange": {
+              "startLine": 61,
+              "endLine": 61,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/messageCreate.js",
+            "textRange": {
+              "startLine": 67,
+              "endLine": 67,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/messageCreate.js",
+            "textRange": {
+              "startLine": 67,
+              "endLine": 67,
+              "startOffset": 17,
+              "endOffset": 19
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/messageCreate.js",
+            "textRange": {
+              "startLine": 75,
+              "endLine": 75,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/messageCreate.js",
+            "textRange": {
+              "startLine": 75,
+              "endLine": 75,
+              "startOffset": 20,
+              "endOffset": 22
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c4f64176-99c9-4077-a0fa-a5d2d5a04244",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/bot/guild/messageCreate.js",
+    "project": "adh319__lunox",
+    "line": 5,
+    "hash": "2dfda1254f3c4e6efa028e5b590eabb3",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 41,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3c03c4d5-6a42-4a11-a7b8-f7ece8e2cf5a",
+    "rule": "javascript:S7780",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/bot/guild/messageCreate.js",
+    "project": "adh319__lunox",
+    "line": 47,
+    "hash": "9ac5e7e4b327bd6e0db328c10d1d6a04",
+    "textRange": {
+      "startLine": 47,
+      "endLine": 47,
+      "startOffset": 68,
+      "endOffset": 74
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "`String.raw` should be used to avoid escaping `\\`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9fe3780e-dced-4971-9f06-b433428d10f4",
+    "rule": "javascript:S7781",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/bot/guild/messageCreate.js",
+    "project": "adh319__lunox",
+    "line": 47,
+    "hash": "9ac5e7e4b327bd6e0db328c10d1d6a04",
+    "textRange": {
+      "startLine": 47,
+      "endLine": 47,
+      "startOffset": 37,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1efb92fc-2c57-4419-8389-b3cdf0d2d2df",
+    "rule": "javascript:S6582",
+    "severity": "MAJOR",
+    "component": "adh319__lunox:src/events/bot/guild/messageCreate.js",
+    "project": "adh319__lunox",
+    "line": 67,
+    "hash": "bbafba45e9cdf731a2825bd8401222c6",
+    "textRange": {
+      "startLine": 67,
+      "endLine": 67,
+      "startOffset": 8,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3cd38c9e-92dd-4aa4-b151-262e2de1f3cf",
+    "rule": "javascript:S3776",
+    "severity": "CRITICAL",
+    "component": "adh319__lunox:src/events/bot/guild/voiceStateUpdate.js",
+    "project": "adh319__lunox",
+    "line": 3,
+    "hash": "b4a7be071349d5d04b174c1361accbc7",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 52,
+      "endOffset": 54
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/voiceStateUpdate.js",
+            "textRange": {
+              "startLine": 4,
+              "endLine": 4,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/voiceStateUpdate.js",
+            "textRange": {
+              "startLine": 4,
+              "endLine": 4,
+              "startOffset": 27,
+              "endOffset": 29
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/voiceStateUpdate.js",
+            "textRange": {
+              "startLine": 5,
+              "endLine": 5,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/voiceStateUpdate.js",
+            "textRange": {
+              "startLine": 15,
+              "endLine": 15,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/voiceStateUpdate.js",
+            "textRange": {
+              "startLine": 15,
+              "endLine": 15,
+              "startOffset": 23,
+              "endOffset": 25
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/voiceStateUpdate.js",
+            "textRange": {
+              "startLine": 16,
+              "endLine": 16,
+              "startOffset": 35,
+              "endOffset": 36
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/voiceStateUpdate.js",
+            "textRange": {
+              "startLine": 21,
+              "endLine": 21,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/voiceStateUpdate.js",
+            "textRange": {
+              "startLine": 21,
+              "endLine": 21,
+              "startOffset": 18,
+              "endOffset": 20
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/voiceStateUpdate.js",
+            "textRange": {
+              "startLine": 25,
+              "endLine": 25,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/voiceStateUpdate.js",
+            "textRange": {
+              "startLine": 28,
+              "endLine": 28,
+              "startOffset": 49,
+              "endOffset": 51
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/voiceStateUpdate.js",
+            "textRange": {
+              "startLine": 30,
+              "endLine": 30,
+              "startOffset": 49,
+              "endOffset": 51
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/voiceStateUpdate.js",
+            "textRange": {
+              "startLine": 32,
+              "endLine": 32,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/voiceStateUpdate.js",
+            "textRange": {
+              "startLine": 33,
+              "endLine": 33,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/voiceStateUpdate.js",
+            "textRange": {
+              "startLine": 39,
+              "endLine": 39,
+              "startOffset": 60,
+              "endOffset": 62
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/voiceStateUpdate.js",
+            "textRange": {
+              "startLine": 41,
+              "endLine": 41,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/voiceStateUpdate.js",
+            "textRange": {
+              "startLine": 41,
+              "endLine": 41,
+              "startOffset": 49,
+              "endOffset": 50
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/bot/guild/voiceStateUpdate.js",
+            "textRange": {
+              "startLine": 42,
+              "endLine": 42,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+4 (incl. 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "64364497-000c-4672-9a86-9824cd07f7ce",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/bot/guild/voiceStateUpdate.js",
+    "project": "adh319__lunox",
+    "line": 3,
+    "hash": "b4a7be071349d5d04b174c1361accbc7",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 52,
+      "endOffset": 54
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2b429a43-8028-4af1-b63a-5a7362a75846",
+    "rule": "javascript:S905",
+    "severity": "MAJOR",
+    "component": "adh319__lunox:src/events/bot/guild/voiceStateUpdate.js",
+    "project": "adh319__lunox",
+    "line": 16,
+    "hash": "7efc9f52cd366e94284aeb8065d096ba",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 8,
+      "endOffset": 69
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Expected an assignment or function call and instead saw an expression.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "unused"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "98829cec-286d-4a08-8ef7-6ed1eaeff28a",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/bot/guild/voiceStateUpdate.js",
+    "project": "adh319__lunox",
+    "line": 16,
+    "hash": "7efc9f52cd366e94284aeb8065d096ba",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 8,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "086a0267-137d-48b4-a10f-30176de15e11",
+    "rule": "javascript:S6582",
+    "severity": "MAJOR",
+    "component": "adh319__lunox:src/events/bot/guild/voiceStateUpdate.js",
+    "project": "adh319__lunox",
+    "line": 21,
+    "hash": "c9bbf28f310238d694f05a60f3306d71",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 8,
+      "endOffset": 47
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "693fe2cc-f7c4-415d-9937-8f70142c87b3",
+    "rule": "javascript:S6582",
+    "severity": "MAJOR",
+    "component": "adh319__lunox:src/events/bot/guild/voiceStateUpdate.js",
+    "project": "adh319__lunox",
+    "line": 28,
+    "hash": "35451b26a42c200b77aaac7d9ae3a812",
+    "textRange": {
+      "startLine": 28,
+      "endLine": 28,
+      "startOffset": 8,
+      "endOffset": 137
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3747e572-6139-498c-88bd-6e4f5a1a3528",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/bot/shard/shardDisconnect.js",
+    "project": "adh319__lunox",
+    "line": 3,
+    "hash": "d5342d74c8104a382652c0fd91921645",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 43,
+      "endOffset": 45
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "953e0fdf-fcc9-488e-b0f1-7247068ff960",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/bot/shard/shardError.js",
+    "project": "adh319__lunox",
+    "line": 3,
+    "hash": "d5342d74c8104a382652c0fd91921645",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 43,
+      "endOffset": 45
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ef23960d-52c5-4c37-a437-50db23b0fcd1",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/bot/shard/shardReady.js",
+    "project": "adh319__lunox",
+    "line": 3,
+    "hash": "fc80f53bada0d4a0cb6d8cfc3fbb19c9",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 36,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "59b3bd31-82f0-4deb-9469-edd089736d90",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/bot/shard/shardReconnecting.js",
+    "project": "adh319__lunox",
+    "line": 3,
+    "hash": "fc80f53bada0d4a0cb6d8cfc3fbb19c9",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 36,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0775c48e-c9c7-4f6b-8b9a-3a7fe493a579",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/bot/shard/shardResume.js",
+    "project": "adh319__lunox",
+    "line": 3,
+    "hash": "fc80f53bada0d4a0cb6d8cfc3fbb19c9",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 36,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b72f6bce-c8a9-4009-90e4-0d3983341c4f",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/rainlink/node/nodeClosed.js",
+    "project": "adh319__lunox",
+    "line": 3,
+    "hash": "11935e8e71abe8c0e5f37dfca2760ccf",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 32,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bd44840d-0e22-41c1-b781-faa13cc4f91a",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/rainlink/node/nodeConnect.js",
+    "project": "adh319__lunox",
+    "line": 3,
+    "hash": "d04c1c3d53f1083725a20552b25307c0",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 38,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "432b9ae5-c4f9-4815-8f47-2b6c2f52b7f7",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/rainlink/node/nodeConnect.js",
+    "project": "adh319__lunox",
+    "line": 11,
+    "hash": "93d802e5c16ceee96ab29346922c64be",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 15,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b51db08f-896b-4c8d-9fe4-6507735904d1",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/rainlink/node/nodeDisconnect.js",
+    "project": "adh319__lunox",
+    "line": 3,
+    "hash": "f60a2b46d1680ca9a892e71003b67358",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 46,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "53138eb8-b251-472f-be88-ae1b2c72f90e",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/rainlink/node/nodeError.js",
+    "project": "adh319__lunox",
+    "line": 3,
+    "hash": "56929f0ffd7aba51bec508f61851af3f",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 39,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a5da0a9f-0713-429f-848a-703025c319c0",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/rainlink/node/nodeReconnect.js",
+    "project": "adh319__lunox",
+    "line": 3,
+    "hash": "d04c1c3d53f1083725a20552b25307c0",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 38,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e1fb3f0f-1749-43ef-bddf-fefc97b20293",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/rainlink/player/playerCreate.js",
+    "project": "adh319__lunox",
+    "line": 3,
+    "hash": "b38dd325ae5499576a8d239326806181",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 40,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "29eb9c2d-b13d-4466-a3d5-04aa33543014",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/rainlink/player/playerDestroy.js",
+    "project": "adh319__lunox",
+    "line": 3,
+    "hash": "b38dd325ae5499576a8d239326806181",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 40,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9cdd98af-5e4f-4de4-9fd0-b7c1d392eea2",
+    "rule": "javascript:S6582",
+    "severity": "MAJOR",
+    "component": "adh319__lunox:src/events/rainlink/player/playerDestroy.js",
+    "project": "adh319__lunox",
+    "line": 14,
+    "hash": "574d838a454f317e2d924e1a9134a5c5",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 8,
+      "endOffset": 47
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c83a0b30-152f-452d-8363-cb253af0cfeb",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/rainlink/player/playerException.js",
+    "project": "adh319__lunox",
+    "line": 4,
+    "hash": "c760151447c56351f9a411191629996d",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 46,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a53285b7-7725-424f-ba02-4f68798ae2c6",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/rainlink/player/playerException.js",
+    "project": "adh319__lunox",
+    "line": 16,
+    "hash": "e827b41be51bfd713f3e49e92e7c14a0",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 8,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "10876f74-5fb5-49c0-8787-b6f1560ca053",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/rainlink/player/queueEmpty.js",
+    "project": "adh319__lunox",
+    "line": 3,
+    "hash": "b38dd325ae5499576a8d239326806181",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 40,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ed2d9087-fb83-4e39-822b-69d292c38e9b",
+    "rule": "javascript:S6582",
+    "severity": "MAJOR",
+    "component": "adh319__lunox:src/events/rainlink/player/queueEmpty.js",
+    "project": "adh319__lunox",
+    "line": 16,
+    "hash": "2d5d43884fca23cb8e346ccecc8e6047",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 12,
+      "endOffset": 62
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ad277183-fa03-429a-ad27-8cc19c08f248",
+    "rule": "javascript:S6582",
+    "severity": "MAJOR",
+    "component": "adh319__lunox:src/events/rainlink/player/queueEmpty.js",
+    "project": "adh319__lunox",
+    "line": 30,
+    "hash": "c9bbf28f310238d694f05a60f3306d71",
+    "textRange": {
+      "startLine": 30,
+      "endLine": 30,
+      "startOffset": 12,
+      "endOffset": 51
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3b4752d7-e2dd-45e5-a3ea-3e195642f3f1",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/rainlink/player/trackEnd.js",
+    "project": "adh319__lunox",
+    "line": 3,
+    "hash": "b38dd325ae5499576a8d239326806181",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 40,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8e073e9a-9508-46d7-bf97-2f465a4d9177",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/rainlink/player/trackResolveError.js",
+    "project": "adh319__lunox",
+    "line": 4,
+    "hash": "5e809340dcf4c1152aae64d1e81980c6",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 56,
+      "endOffset": 58
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "13327576-209d-4cb4-ad6c-f81273fd3433",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/rainlink/player/trackResolveError.js",
+    "project": "adh319__lunox",
+    "line": 16,
+    "hash": "e827b41be51bfd713f3e49e92e7c14a0",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 8,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5e3f7f45-01ae-492c-8075-a51de72b086c",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/rainlink/player/trackStart.js",
+    "project": "adh319__lunox",
+    "line": 4,
+    "hash": "83d853269701fdaf9e00316af1150bc8",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 47,
+      "endOffset": 49
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ce4e972d-3a3d-4172-a0f0-34b37058172d",
+    "rule": "javascript:S3776",
+    "severity": "CRITICAL",
+    "component": "adh319__lunox:src/events/rainlink/player/trackStart.js",
+    "project": "adh319__lunox",
+    "line": 47,
+    "hash": "2558e6d6952f25feda402cbf9e130a86",
+    "textRange": {
+      "startLine": 47,
+      "endLine": 47,
+      "startOffset": 44,
+      "endOffset": 46
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/rainlink/player/trackStart.js",
+            "textRange": {
+              "startLine": 48,
+              "endLine": 48,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/rainlink/player/trackStart.js",
+            "textRange": {
+              "startLine": 51,
+              "endLine": 51,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/rainlink/player/trackStart.js",
+            "textRange": {
+              "startLine": 58,
+              "endLine": 58,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/rainlink/player/trackStart.js",
+            "textRange": {
+              "startLine": 64,
+              "endLine": 64,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/rainlink/player/trackStart.js",
+            "textRange": {
+              "startLine": 66,
+              "endLine": 66,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/rainlink/player/trackStart.js",
+            "textRange": {
+              "startLine": 73,
+              "endLine": 73,
+              "startOffset": 18,
+              "endOffset": 22
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/rainlink/player/trackStart.js",
+            "textRange": {
+              "startLine": 85,
+              "endLine": 85,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/rainlink/player/trackStart.js",
+            "textRange": {
+              "startLine": 96,
+              "endLine": 96,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/rainlink/player/trackStart.js",
+            "textRange": {
+              "startLine": 96,
+              "endLine": 96,
+              "startOffset": 41,
+              "endOffset": 43
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/rainlink/player/trackStart.js",
+            "textRange": {
+              "startLine": 107,
+              "endLine": 107,
+              "startOffset": 16,
+              "endOffset": 22
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/rainlink/player/trackStart.js",
+            "textRange": {
+              "startLine": 127,
+              "endLine": 127,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/rainlink/player/trackStart.js",
+            "textRange": {
+              "startLine": 139,
+              "endLine": 139,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/events/rainlink/player/trackStart.js",
+            "textRange": {
+              "startLine": 153,
+              "endLine": 153,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dfb085c3-c347-4f3f-aa75-0168dfc1cde3",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/rainlink/player/trackStart.js",
+    "project": "adh319__lunox",
+    "line": 66,
+    "hash": "3b738b729cb0e4cb17ebd55a9bc56036",
+    "textRange": {
+      "startLine": 66,
+      "endLine": 66,
+      "startOffset": 20,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a9c6f8f6-787b-4d84-ac9f-b6e8aa9d7810",
+    "rule": "javascript:S6836",
+    "severity": "MAJOR",
+    "component": "adh319__lunox:src/events/rainlink/player/trackStart.js",
+    "project": "adh319__lunox",
+    "line": 145,
+    "hash": "1c45f3383603b35f2e050c1829de3a9d",
+    "textRange": {
+      "startLine": 145,
+      "endLine": 145,
+      "startOffset": 16,
+      "endOffset": 54
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected lexical declaration in case block.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "50411a44-66e6-458a-bffc-ddbeb5e7d9ab",
+    "rule": "javascript:S6836",
+    "severity": "MAJOR",
+    "component": "adh319__lunox:src/events/rainlink/player/trackStart.js",
+    "project": "adh319__lunox",
+    "line": 159,
+    "hash": "685e8774c66d30c44a4d672d5094226f",
+    "textRange": {
+      "startLine": 159,
+      "endLine": 159,
+      "startOffset": 16,
+      "endOffset": 52
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected lexical declaration in case block.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "889337f3-7d95-456d-9100-fff9d6066b07",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/rainlink/player/trackStuck.js",
+    "project": "adh319__lunox",
+    "line": 4,
+    "hash": "b38dd325ae5499576a8d239326806181",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 40,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a6cb9e6a-281b-4c5f-bd9c-2cd2d313158f",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/events/rainlink/player/trackStuck.js",
+    "project": "adh319__lunox",
+    "line": 16,
+    "hash": "e827b41be51bfd713f3e49e92e7c14a0",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 8,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6f30d067-7388-4308-8e6a-4b280c02ca4f",
+    "rule": "javascript:S3776",
+    "severity": "CRITICAL",
+    "component": "adh319__lunox:src/functions/getPermission.js",
+    "project": "adh319__lunox",
+    "line": 4,
+    "hash": "b5e47ad8a78981007496fda3d5246f76",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 72,
+      "endOffset": 74
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/functions/getPermission.js",
+            "textRange": {
+              "startLine": 5,
+              "endLine": 5,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/functions/getPermission.js",
+            "textRange": {
+              "startLine": 6,
+              "endLine": 6,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/functions/getPermission.js",
+            "textRange": {
+              "startLine": 13,
+              "endLine": 13,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/functions/getPermission.js",
+            "textRange": {
+              "startLine": 14,
+              "endLine": 14,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/functions/getPermission.js",
+            "textRange": {
+              "startLine": 21,
+              "endLine": 21,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/functions/getPermission.js",
+            "textRange": {
+              "startLine": 22,
+              "endLine": 22,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/functions/getPermission.js",
+            "textRange": {
+              "startLine": 28,
+              "endLine": 28,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/functions/getPermission.js",
+            "textRange": {
+              "startLine": 37,
+              "endLine": 37,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/functions/getPermission.js",
+            "textRange": {
+              "startLine": 46,
+              "endLine": 46,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/functions/getPermission.js",
+            "textRange": {
+              "startLine": 47,
+              "endLine": 47,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/functions/getPermission.js",
+            "textRange": {
+              "startLine": 56,
+              "endLine": 56,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/functions/getPermission.js",
+            "textRange": {
+              "startLine": 67,
+              "endLine": 67,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/functions/getPermission.js",
+            "textRange": {
+              "startLine": 68,
+              "endLine": 68,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/functions/getPermission.js",
+            "textRange": {
+              "startLine": 74,
+              "endLine": 74,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/functions/getPermission.js",
+            "textRange": {
+              "startLine": 81,
+              "endLine": 81,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/functions/getPermission.js",
+            "textRange": {
+              "startLine": 82,
+              "endLine": 82,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/functions/getPermission.js",
+            "textRange": {
+              "startLine": 89,
+              "endLine": 89,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/functions/getPermission.js",
+            "textRange": {
+              "startLine": 90,
+              "endLine": 90,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/functions/getPermission.js",
+            "textRange": {
+              "startLine": 99,
+              "endLine": 99,
+              "startOffset": 10,
+              "endOffset": 15
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 33 to the 15 allowed.",
+    "effort": "23min",
+    "debt": "23min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "78e00596-8852-4a7f-87df-fd188a139481",
+    "rule": "javascript:S2310",
+    "severity": "MAJOR",
+    "component": "adh319__lunox:src/functions/timeFormat.js",
+    "project": "adh319__lunox",
+    "line": 25,
+    "hash": "0dd578d50cfa4265d49d2164f357a42b",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 20,
+      "endOffset": 21
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "adh319__lunox:src/functions/timeFormat.js",
+            "textRange": {
+              "startLine": 17,
+              "endLine": 17,
+              "startOffset": 48,
+              "endOffset": 49
+            },
+            "msg": "Counter variable update",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Remove this assignment of \"i\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d7cabaf2-98b9-4b07-9c85-1fe449f13e3a",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/handlers/anticrash.js",
+    "project": "adh319__lunox",
+    "line": 3,
+    "hash": "d153e5b2dd2239188eb6c42ef99b13f0",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 26,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e87e4876-c13b-4faf-adbd-f2ddb079269a",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/handlers/commands.js",
+    "project": "adh319__lunox",
+    "line": 5,
+    "hash": "b994015d395010566a76a484f844ffb5",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 26,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7ae5c415-7ede-49a6-91e9-605ade67dc32",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/handlers/commands.js",
+    "project": "adh319__lunox",
+    "line": 9,
+    "hash": "153b8cbe6be69757a7aeece75813d0dd",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 51,
+      "endOffset": 58
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "511ee672-5030-4a98-86bf-a23f781c43a6",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/handlers/commands.js",
+    "project": "adh319__lunox",
+    "line": 34,
+    "hash": "a9cdf82b5b6b35f9c2ecaca384a6b11c",
+    "textRange": {
+      "startLine": 34,
+      "endLine": 34,
+      "startOffset": 47,
+      "endOffset": 54
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a6fde8d5-73b4-4fe8-a47d-8293fab3f9f6",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/handlers/database.js",
+    "project": "adh319__lunox",
+    "line": 1,
+    "hash": "de0ce25ce7123b796c45071588c4d22c",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 32,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "96a7622d-4574-4b73-ae83-858847077ea1",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/handlers/events.js",
+    "project": "adh319__lunox",
+    "line": 1,
+    "hash": "c42b21ad7e4dbc55a5c056804053a2f7",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 32,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "48512c90-97f4-4fae-8a0c-e380b21b3a09",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/handlers/events.js",
+    "project": "adh319__lunox",
+    "line": 4,
+    "hash": "b994015d395010566a76a484f844ffb5",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 26,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1d8028e1-e401-4966-a1b9-730717212fb1",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/handlers/events.js",
+    "project": "adh319__lunox",
+    "line": 6,
+    "hash": "77b6f60c7b9ce2b914764933a5d391f8",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 41,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e2b4a6d4-7e60-47c0-a22b-7970cbcfd6ee",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/handlers/rainlink.js",
+    "project": "adh319__lunox",
+    "line": 1,
+    "hash": "c42b21ad7e4dbc55a5c056804053a2f7",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 32,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "34b01784-733c-45d5-a3e2-98590368dd11",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/handlers/rainlink.js",
+    "project": "adh319__lunox",
+    "line": 4,
+    "hash": "b994015d395010566a76a484f844ffb5",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 26,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4d330697-8d12-4411-886d-09179426e28e",
+    "rule": "javascript:S7728",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/handlers/rainlink.js",
+    "project": "adh319__lunox",
+    "line": 6,
+    "hash": "1ac088132d491ff6e6011adee166008d",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 46,
+      "endOffset": 53
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "62e926ac-0cfd-4c1e-bc72-f3c77fa1c44c",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/settings/config.js",
+    "project": "adh319__lunox",
+    "line": 10,
+    "hash": "8d4682a6740e3cb3a0de712574696b1b",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 18,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3fb26de3-cc99-4364-b7b9-61d3e5d6c8e6",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/settings/config.js",
+    "project": "adh319__lunox",
+    "line": 11,
+    "hash": "4f375d023242bc8561936bfe6784188c",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 19,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bd3c1d9f-3641-4e1b-b0ba-dd31bc085324",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/settings/config.js",
+    "project": "adh319__lunox",
+    "line": 12,
+    "hash": "12d74b11c0a22b9e29fa01459f3d30fc",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 15,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "61124738-f34a-4c88-8fd1-2f223cec8613",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/settings/config.js",
+    "project": "adh319__lunox",
+    "line": 13,
+    "hash": "e5be0089aa46963a17227bd7dfd6969e",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 15,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "35ab5427-aef3-4cdb-8d46-e45451718897",
+    "rule": "javascript:S7773",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/settings/config.js",
+    "project": "adh319__lunox",
+    "line": 35,
+    "hash": "ca297655c59ab5e4e75a2162e0969237",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 18,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7e812100-ac1e-4e68-8d4a-e0d86e8d9b6a",
+    "rule": "javascript:S7726",
+    "severity": "MINOR",
+    "component": "adh319__lunox:src/settings/emoji.js",
+    "project": "adh319__lunox",
+    "line": 1,
+    "hash": "de0ce25ce7123b796c45071588c4d22c",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 32,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The async arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-21T13:28:52+0000",
+    "updateDate": "2026-07-21T13:28:52+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

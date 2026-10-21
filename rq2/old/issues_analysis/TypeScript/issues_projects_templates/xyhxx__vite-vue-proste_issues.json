@@ -1,0 +1,91 @@
+[
+  {
+    "key": "09ce429b-86a8-4354-b3c0-e63fc4dd078e",
+    "rule": "Web:ImgWithoutAltCheck",
+    "severity": "MINOR",
+    "component": "xyhxx__vite-vue-proste:src/pages/home/index.vue",
+    "project": "xyhxx__vite-vue-proste",
+    "line": 15,
+    "hash": "1482a1fd2f179032f97c223f925b45a6",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 4,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add an \"alt\" attribute to this image.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-16T23:36:08+0000",
+    "updateDate": "2026-07-16T23:36:08+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4ca7f448-dd28-4cfe-95f1-e893a98632e7",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "xyhxx__vite-vue-proste:vite.config.ts",
+    "project": "xyhxx__vite-vue-proste",
+    "line": 4,
+    "hash": "cd6b88f029ce01b43bc7d19446b3b5d3",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 22,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T23:36:08+0000",
+    "updateDate": "2026-07-16T23:36:08+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

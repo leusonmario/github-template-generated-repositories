@@ -1,0 +1,2650 @@
+[
+  {
+    "key": "f7a3be5f-14c9-435c-b8fb-8199d1725231",
+    "rule": "docker:S6587",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/fastapi_backend/Dockerfile",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 7,
+    "hash": "6bf37032f25ffbf2da468bc4cf5fff9c",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 22,
+      "endOffset": 69
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove cache after installing packages or store it in a cache mount.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "65023862-8e95-43a1-9fe9-6d5b33dcee48",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/fastapi_backend/alembic_migrations/env.py",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 29,
+    "hash": "e7e0a22eb93835d5e687e91ba77f9c82",
+    "textRange": {
+      "startLine": 29,
+      "endLine": 29,
+      "startOffset": 0,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "edb763fd-0327-49f6-9201-581bd05de3db",
+    "rule": "Web:DoctypePresenceCheck",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/fastapi_backend/app/email_templates/password_reset.html",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 1,
+    "hash": "166248a6129a1e4370d20adc2d4c23f3",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Insert a <!DOCTYPE> declaration to before this <html> tag.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "user-experience"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f7d942e7-e49a-4430-b3d8-86186e8015dc",
+    "rule": "Web:PageWithoutTitleCheck",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/fastapi_backend/app/email_templates/password_reset.html",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 1,
+    "hash": "166248a6129a1e4370d20adc2d4c23f3",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a <title> tag to this page.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "user-experience"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f9e652f4-ca52-4190-83c2-0160a12bebfd",
+    "rule": "Web:S5254",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/fastapi_backend/app/email_templates/password_reset.html",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 1,
+    "hash": "166248a6129a1e4370d20adc2d4c23f3",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"<html>\" element",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e2c8af99-8c98-4e15-ac41-f266690081cd",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/Dockerfile",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 19,
+    "hash": "48fd6584e01d2ae40ea6036f34457800",
+    "textRange": {
+      "startLine": 19,
+      "endLine": 19,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/Dockerfile",
+            "textRange": {
+              "startLine": 22,
+              "endLine": 22,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/Dockerfile",
+            "textRange": {
+              "startLine": 25,
+              "endLine": 25,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0d73a3db-4963-41db-adf0-9a8676da1957",
+    "rule": "typescript:S2486",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/api/auth/google/authorize/route.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 36,
+    "hash": "161b8313784081f5965c2da97df48970",
+    "textRange": {
+      "startLine": 36,
+      "endLine": 39,
+      "startOffset": 4,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1df03dbc-0950-4d47-8a4c-1b1c9f70d3c9",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/dashboard/deleteButton.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 10,
+    "hash": "603b7e0bc25fe8570aefc888d18bd6ba",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 29,
+      "endOffset": 58
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5cc09557-547b-44b3-b880-5928efd2a72a",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/dashboard/layout.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 21,
+    "hash": "4d9a740cfa35096526b129cfe283f271",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 25,
+      "startOffset": 40,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "69d47138-45d9-4e45-91f1-50ddc58dce28",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/dashboard/page.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 30,
+    "hash": "634b735480eebb93afb8a2b906e9c3c8",
+    "textRange": {
+      "startLine": 30,
+      "endLine": 32,
+      "startOffset": 44,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b7f7431e-f704-4e93-afe8-eaf7ae31d34f",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/dashboard/page.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 71,
+    "hash": "cf173b6243573952f1d2806ef0be9178",
+    "textRange": {
+      "startLine": 71,
+      "endLine": 71,
+      "startOffset": 13,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "51c4ff6f-ca76-45ea-bdaf-de4f4b338887",
+    "rule": "typescript:S6479",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/dashboard/page.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 79,
+    "hash": "2a7560b3de272634ae567c3da71c5138",
+    "textRange": {
+      "startLine": 79,
+      "endLine": 79,
+      "startOffset": 31,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a0acc9a1-5223-4eaa-bb5e-3ae4670bee1a",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 102,
+    "hash": "5bc39e51a2ca90cc190f02e9f7e106c8",
+    "textRange": {
+      "startLine": 102,
+      "endLine": 102,
+      "startOffset": 12,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"BearerResponse\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "19068a1e-a568-4208-99de-743a564e50eb",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 106,
+    "hash": "d4488cc020eae858ed315630fc9fe2ea",
+    "textRange": {
+      "startLine": 106,
+      "endLine": 106,
+      "startOffset": 12,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"unknown\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "359126e6-dd19-41b4-88fc-17365498f5f8",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 108,
+    "hash": "ba8e038cbc064573769e7d9d19201a87",
+    "textRange": {
+      "startLine": 108,
+      "endLine": 108,
+      "startOffset": 12,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"unknown\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ccd3457a-aee5-4eef-81b9-99b27849f969",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 114,
+    "hash": "85dfbf9f54cf8c9ad950fc9a0641c812",
+    "textRange": {
+      "startLine": 114,
+      "endLine": 114,
+      "startOffset": 12,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"UserRead\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "254c2371-efee-480c-8737-dc85471df083",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 122,
+    "hash": "ceac2dd6abfdf42792de899cd5231a36",
+    "textRange": {
+      "startLine": 122,
+      "endLine": 122,
+      "startOffset": 12,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"unknown\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c269d47a-adf1-447d-8df6-480fe6bc418e",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 124,
+    "hash": "371e0f8d7f1c269738363037ffd8ef4b",
+    "textRange": {
+      "startLine": 124,
+      "endLine": 124,
+      "startOffset": 12,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"HTTPValidationError\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cb0713d0-e5f2-4020-ab3b-dd22aa827199",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 130,
+    "hash": "9428ae68053257c07d6604d1faa15473",
+    "textRange": {
+      "startLine": 130,
+      "endLine": 130,
+      "startOffset": 12,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"unknown\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a52b1edb-3b3a-4a84-963b-7400c1002f38",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 138,
+    "hash": "ccbf878ba2280ba1a0f0743e02ac9460",
+    "textRange": {
+      "startLine": 138,
+      "endLine": 138,
+      "startOffset": 12,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"unknown\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3805bf30-0716-42c9-863d-a5ee086bd6e7",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 140,
+    "hash": "d97fa92caa232433c244afd791df8dc5",
+    "textRange": {
+      "startLine": 140,
+      "endLine": 140,
+      "startOffset": 12,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"HTTPValidationError\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bf71a114-6adc-48c0-bb05-82f24c1a54d0",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 146,
+    "hash": "4627862f8a46abe9a8b65dd08c003879",
+    "textRange": {
+      "startLine": 146,
+      "endLine": 146,
+      "startOffset": 12,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"UserRead\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "21f093b8-8704-4009-9ec8-45eab9b8c7b7",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 150,
+    "hash": "5f55be48af8af98808946a3fa52103bb",
+    "textRange": {
+      "startLine": 150,
+      "endLine": 150,
+      "startOffset": 12,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"UserRead\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a2f9b344-33b3-404a-97ae-c9d18b0a1f1c",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 152,
+    "hash": "2a1be9cf043dec235c2e9d08c1c598c3",
+    "textRange": {
+      "startLine": 152,
+      "endLine": 152,
+      "startOffset": 12,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"unknown\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4023d4e4-b951-41e8-9a0b-f4850a9b4630",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 158,
+    "hash": "29eedfddd9ff986e710bf61ca70eee22",
+    "textRange": {
+      "startLine": 158,
+      "endLine": 158,
+      "startOffset": 12,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"UserRead\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a3096554-2486-489a-a013-dede9baa1b2f",
+    "rule": "typescript:S6571",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 162,
+    "hash": "42e3de08c65b1ee25ee407fa6b622dac",
+    "textRange": {
+      "startLine": 162,
+      "endLine": 162,
+      "startOffset": 4,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'unknown' overrides all other types in this union type.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6481afee-e8bc-4c23-b8c8-114fbcf06559",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 171,
+    "hash": "bc8c6dabf7fabdc09cdf387a684f48db",
+    "textRange": {
+      "startLine": 171,
+      "endLine": 171,
+      "startOffset": 12,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"UserRead\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2142d9de-cd64-4502-b9e7-864d68d32655",
+    "rule": "typescript:S6571",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 173,
+    "hash": "7da47424138dc2d55158de18ecb209b8",
+    "textRange": {
+      "startLine": 173,
+      "endLine": 173,
+      "startOffset": 29,
+      "endOffset": 36
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'unknown' overrides all other types in this union type.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3bec7556-a275-42e6-b373-54cd4a7dc411",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 182,
+    "hash": "9e60702cd1323974eadcbfdcc01359ed",
+    "textRange": {
+      "startLine": 182,
+      "endLine": 182,
+      "startOffset": 12,
+      "endOffset": 34
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"UserRead\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a489c790-c923-4133-bd96-e1e1c8753d19",
+    "rule": "typescript:S6571",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 184,
+    "hash": "c42b5ef68e217cb629fefbdfecbb7982",
+    "textRange": {
+      "startLine": 184,
+      "endLine": 184,
+      "startOffset": 47,
+      "endOffset": 54
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'unknown' overrides all other types in this union type.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6b8275c9-e4d2-47da-8bbb-041fa78c703b",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 192,
+    "hash": "94c6ab5f95d0dc1d6444e96151d7e4a9",
+    "textRange": {
+      "startLine": 192,
+      "endLine": 192,
+      "startOffset": 12,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"void\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "79ebb559-bb9d-4bbc-8ef9-fb31fe767fa9",
+    "rule": "typescript:S6571",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 194,
+    "hash": "070f3cb88132c205174344cfbeb5e5e1",
+    "textRange": {
+      "startLine": 194,
+      "endLine": 194,
+      "startOffset": 35,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'unknown' overrides all other types in this union type.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "db007285-b873-41e8-914c-6ab9d65f8b57",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 209,
+    "hash": "50564de32b57ba200b21c5ca58861e4c",
+    "textRange": {
+      "startLine": 209,
+      "endLine": 209,
+      "startOffset": 12,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"Page_ItemRead_\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ad64a66a-9920-4aa6-8115-a2e8f7edeb39",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 211,
+    "hash": "aa4f34590459e84938d4f53341f354eb",
+    "textRange": {
+      "startLine": 211,
+      "endLine": 211,
+      "startOffset": 12,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"HTTPValidationError\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f2a345f0-6980-4151-aa39-9951bf6715c2",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 217,
+    "hash": "7c2a42778f515779fcd6f65935b5f792",
+    "textRange": {
+      "startLine": 217,
+      "endLine": 217,
+      "startOffset": 12,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"ItemRead\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d8210b19-1bfd-4bf7-9941-152ed1a7a38d",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 219,
+    "hash": "cdf3a50d77298029924a26cbf3e6660d",
+    "textRange": {
+      "startLine": 219,
+      "endLine": 219,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"HTTPValidationError\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bc1cc488-f158-4aa0-8ec6-2bbb642e5c0c",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 227,
+    "hash": "ad01c9a00a4a910f33c9291cb6839405",
+    "textRange": {
+      "startLine": 227,
+      "endLine": 227,
+      "startOffset": 12,
+      "endOffset": 30
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"unknown\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3c12a1ba-7557-4fd4-aea4-4754a7db1f69",
+    "rule": "typescript:S6564",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/openapi-client/types.gen.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 229,
+    "hash": "553033b0ac74a436dc76cc71ae0eefb6",
+    "textRange": {
+      "startLine": 229,
+      "endLine": 229,
+      "startOffset": 12,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this redundant type alias and replace its occurrences with \"HTTPValidationError\".",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0202d48c-09fc-4bc0-8973-72468e235c3a",
+    "rule": "typescript:S3863",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/password-recovery/confirm/page.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 3,
+    "hash": "bbce1e3e2c39e3bff26f5e8226100137",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 31,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'react' imported multiple times.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e3c30196-c1ff-4f25-9286-4ad809dbd844",
+    "rule": "typescript:S3863",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/app/password-recovery/confirm/page.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 16,
+    "hash": "84de79e2fff19ad2b249f4a6eeee654e",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 25,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'react' imported multiple times.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "325c3936-8478-4a3b-843d-2a209f56f7d0",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/components/UserMenu.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 2,
+    "hash": "f77ec5e64b71a2365b938c6a5b6e70b6",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 9,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'User'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c017e0ab-5f7d-4eb1-b210-a298b2aa4699",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/components/UserMenu.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 15,
+    "hash": "d62a8b64dcceff50d6ab80ef86ca975b",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 25,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "567356b4-e786-4fd7-b553-f77f12261983",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/components/page-pagination.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 18,
+    "hash": "6ec36e20c2abcccddbfafaecd2340b26",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 24,
+      "startOffset": 31,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0d01f973-58b0-4694-b326-7d1243bf62ad",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/components/page-pagination.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 49,
+    "hash": "0c9ff9d4f4d70c82cee4ffaa25ed544e",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 49,
+      "startOffset": 21,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8fd3c66f-98e7-4c48-b27e-10d05d92766f",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/components/page-pagination.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 59,
+    "hash": "0c9ff9d4f4d70c82cee4ffaa25ed544e",
+    "textRange": {
+      "startLine": 59,
+      "endLine": 59,
+      "startOffset": 21,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2254c5c8-7136-40a8-9500-ef900755211a",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/components/page-size-selector.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 16,
+    "hash": "6594ff0791ce7f3cd5b6218531b6c1a0",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 33,
+      "endOffset": 71
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c789d21d-c65d-4983-8b2d-230da94ee13a",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/components/ui/FormError.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 14,
+    "hash": "f2f3cb99e7493fbd1f45499e8270a018",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 26,
+      "endOffset": 67
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f445060e-f61a-473c-9598-143588c73647",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/components/ui/FormError.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 29,
+    "hash": "1bf6329148e6284e8408ba3b5ead69ad",
+    "textRange": {
+      "startLine": 29,
+      "endLine": 29,
+      "startOffset": 27,
+      "endOffset": 76
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "313d0ef1-d8cf-4efc-ac0c-94aa7da4e07d",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/components/ui/breadcrumb.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 63,
+    "hash": "8a6c065819987cf2b44de8c2f5493486",
+    "textRange": {
+      "startLine": 63,
+      "endLine": 70,
+      "startOffset": 2,
+      "endOffset": 4
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <a href=...>, or <area href=...> instead of the \"link\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "56869401-6428-4e8d-8562-fc1b21f72e2c",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/components/ui/breadcrumb.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 79,
+    "hash": "b0651008da5abf68c9d90e615f642cd4",
+    "textRange": {
+      "startLine": 79,
+      "endLine": 84,
+      "startOffset": 2,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <img alt=...> instead of the \"presentation\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "663f5203-7383-43ff-808d-da095bd7ad76",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/components/ui/breadcrumb.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 94,
+    "hash": "8a6c065819987cf2b44de8c2f5493486",
+    "textRange": {
+      "startLine": 94,
+      "endLine": 99,
+      "startOffset": 2,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <img alt=...> instead of the \"presentation\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b881a22a-1286-4832-907c-7156c67fe402",
+    "rule": "typescript:S6850",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/components/ui/card.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 36,
+    "hash": "7bbb0578ee9897d673a97250669d8dec",
+    "textRange": {
+      "startLine": 36,
+      "endLine": 40,
+      "startOffset": 2,
+      "endOffset": 4
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Headings must have content and the content must be accessible by a screen reader.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2b0b51dc-4db5-4b26-939a-f031f776ba8b",
+    "rule": "typescript:S6481",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/components/ui/form.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 38,
+    "hash": "67a261a453fe58f7c5782a0f2e21dcc9",
+    "textRange": {
+      "startLine": 38,
+      "endLine": 38,
+      "startOffset": 38,
+      "endOffset": 58
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The object passed as the value prop to the Context provider changes every render. To fix this consider wrapping it in a useMemo hook.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "752f1d1c-3a61-4bc2-80f5-2839c3f0fd12",
+    "rule": "typescript:S6481",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/components/ui/form.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 82,
+    "hash": "471e6011dfb5d503b04373806824705c",
+    "textRange": {
+      "startLine": 82,
+      "endLine": 82,
+      "startOffset": 37,
+      "endOffset": 43
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The object passed as the value prop to the Context provider changes every render. To fix this consider wrapping it in a useMemo hook.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "86473782-8fb5-4a44-b946-9cf0970c97a7",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/components/ui/form.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 118,
+    "hash": "e0d7ead16591dc999f55a68b661b7012",
+    "textRange": {
+      "startLine": 118,
+      "endLine": 118,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "dad4ba60-9be3-4d58-a1cc-ab2c7eb3ed5a",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/components/ui/google-auth-button.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 13,
+    "hash": "987feeadfa6a4eb87d1ce037ba5cf291",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 33,
+      "endOffset": 82
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0c29a069-ebf0-45db-9e6c-0f241ce90cf8",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/components/ui/google-auth-button.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 18,
+    "hash": "93257b91d3c9be9b1aa0976db576d0ed",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 4,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0f88a9e6-d006-4b8a-bae3-c806e3b7fb70",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/components/ui/submitButton.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 3,
+    "hash": "7f5133ee96c6eac1d8a1b731d1fd5bac",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 29,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0e89c525-465a-450d-ac32-e9b1e2358168",
+    "rule": "typescript:S5256",
+    "severity": "MAJOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/components/ui/table.tsx",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 10,
+    "hash": "e2874e8e0fdc613d154ecc1ffa50bef1",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 14,
+      "startOffset": 4,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add a valid header row or column to this \"<table>\".",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "949d10e5-3263-4bd8-8934-67cebff77637",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/lib/definitions.ts",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 40,
+    "hash": "cdb8fad2ecf978fe486ff66e2deb4b50",
+    "textRange": {
+      "startLine": 40,
+      "endLine": 40,
+      "startOffset": 24,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d5907d83-4553-4bd0-ab5b-b75890dbc340",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "wanjiasu__my-fullstack-app:temp_repos/my-fullstack-app/nextjs-frontend/watcher.js",
+    "project": "wanjiasu__my-fullstack-app",
+    "line": 4,
+    "hash": "bb33f30ef7eaae918081e0b1710a4732",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 25,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:child_process` over `child_process`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T06:39:12+0000",
+    "updateDate": "2026-07-16T06:39:12+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

@@ -1,0 +1,3518 @@
+[
+  {
+    "key": "9e9c9461-b41e-4226-a142-f1f2198d1baa",
+    "rule": "Web:S5254",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/index.html",
+    "project": "rajumark__app-biopsy",
+    "line": 3,
+    "hash": "166248a6129a1e4370d20adc2d4c23f3",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"<html>\" element",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "wcag2-a"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1a5c5525-8d88-4392-a80a-423063ea0e3f",
+    "rule": "typescript:S7785",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/scripts/bump-ui.ts",
+    "project": "rajumark__app-biopsy",
+    "line": 71,
+    "hash": "d8fdc2ef89fb926eebf4cbf4e2df0b87",
+    "textRange": {
+      "startLine": 71,
+      "endLine": 71,
+      "startOffset": 7,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over using a promise chain.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6ac7a89b-1a7f-47e0-904d-00d35eac532f",
+    "rule": "typescript:S2301",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/actions/theme.ts",
+    "project": "rajumark__app-biopsy",
+    "line": 48,
+    "hash": "5e293c012f00395b6374e8fb4591bc58",
+    "textRange": {
+      "startLine": 48,
+      "endLine": 48,
+      "startOffset": 6,
+      "endOffset": 16
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/actions/theme.ts",
+            "textRange": {
+              "startLine": 47,
+              "endLine": 47,
+              "startOffset": 29,
+              "endOffset": 48
+            },
+            "msg": "Parameter \"isDarkMode\" was declared here",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Provide multiple methods instead of using \"isDarkMode\" to determine which action to take.",
+    "effort": "15min",
+    "debt": "15min",
+    "author": "",
+    "tags": [
+      "design",
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "59114df2-efb4-4e41-86f2-70bc7b0d3d3c",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/app-menubar.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 18,
+    "hash": "1aa730783e523393fcadb9a30db0e8e8",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 27,
+      "endOffset": 158
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2c7ce1ac-a09d-40b2-aaa1-b6065a3ce9d0",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/decompile-manager-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 11,
+    "hash": "51ebae8d3708f213459e5e07162b1279",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 39,
+      "endOffset": 87
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a25b3492-4330-4f19-a7f0-33fb66786a00",
+    "rule": "typescript:S6848",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/decompile-manager-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 75,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 75,
+      "endLine": 78,
+      "startOffset": 6,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cb4cd1a6-fc9c-4246-bcf1-82530c9fabaf",
+    "rule": "typescript:S1082",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/decompile-manager-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 75,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 75,
+      "endLine": 78,
+      "startOffset": 6,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Visible, non-interactive elements with click handlers must have at least one keyboard listener.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "aadf1efe-5234-45ed-8475-683e27d1574d",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/decompile-manager-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 101,
+    "hash": "f1cb80741a50543ee28490fc516cc6bd",
+    "textRange": {
+      "startLine": 101,
+      "endLine": 109,
+      "startOffset": 20,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fe1f1b46-eeb0-4bdb-8982-cccbe201be22",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/decompile-manager-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 127,
+    "hash": "b67de8eabefc098490f22cea0f689782",
+    "textRange": {
+      "startLine": 127,
+      "endLine": 135,
+      "startOffset": 20,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "51d5bcdd-e405-4130-92cb-ed610844320a",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/decompiling-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 13,
+    "hash": "d0bca7f89a8bc17e06ad29f5b8cd5c15",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 34,
+      "endOffset": 100
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "81a9d5b1-ba9b-4f61-937d-7a6e9d8d9ebc",
+    "rule": "typescript:S1082",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/decompiling-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 111,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 111,
+      "endLine": 114,
+      "startOffset": 6,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Visible, non-interactive elements with click handlers must have at least one keyboard listener.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b24b3857-aaed-47b7-b645-f45d82d475e7",
+    "rule": "typescript:S6848",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/decompiling-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 111,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 111,
+      "endLine": 114,
+      "startOffset": 6,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2bd7ba45-c1a8-4124-a7ee-f1b0fc899f28",
+    "rule": "typescript:S6479",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/decompiling-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 188,
+    "hash": "cdfeebcec866dd10e8850e9ffcd5b727",
+    "textRange": {
+      "startLine": 188,
+      "endLine": 188,
+      "startOffset": 28,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Do not use Array index in keys",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c8f8d6e6-d812-46b0-9c38-f6510a5b9aa0",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/default-page.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 3,
+    "hash": "29d8c03050c10e8f356ad46065e42868",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 36,
+      "endOffset": 64
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "18fee5d0-fede-457e-8407-225d87d81220",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/drag-window-region.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 9,
+    "hash": "346e2cc41c9baa00b0895223267aec11",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 41,
+      "endOffset": 73
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3bff301e-61c2-4126-9765-8f5204f16898",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/drag-window-region.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 62,
+    "hash": "eccbf9df726dd355bf1cfcfdd8d29434",
+    "textRange": {
+      "startLine": 62,
+      "endLine": 68,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <img alt=...>, or <img alt=...> instead of the \"img\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d581601f-c4d9-46a7-b923-2107943b3481",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/drag-window-region.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 78,
+    "hash": "eccbf9df726dd355bf1cfcfdd8d29434",
+    "textRange": {
+      "startLine": 78,
+      "endLine": 84,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <img alt=...>, or <img alt=...> instead of the \"img\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "247ca43f-268c-4b90-b86b-561c89fefccb",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/drag-window-region.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 101,
+    "hash": "eccbf9df726dd355bf1cfcfdd8d29434",
+    "textRange": {
+      "startLine": 101,
+      "endLine": 107,
+      "startOffset": 8,
+      "endOffset": 9
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <img alt=...>, or <img alt=...> instead of the \"img\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9a21c1f9-babd-4ea3-9d22-32c2fc1283bf",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/files-category-panel.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 26,
+    "hash": "5546978edf91d908445517a1e9f26df3",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 35,
+      "endOffset": 91
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f96a86b5-40e3-43e8-8554-f75a58f711ce",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/files-category-panel.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 42,
+    "hash": "5e02c27f139716310bdf46901bc0ffc3",
+    "textRange": {
+      "startLine": 42,
+      "endLine": 42,
+      "startOffset": 26,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ce0a780a-343d-43c6-a912-a868aaf340b9",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/files-category-panel.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 43,
+    "hash": "9a4a0bd0e2c3acc83c53521e7217a9f8",
+    "textRange": {
+      "startLine": 43,
+      "endLine": 43,
+      "startOffset": 35,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fea79062-2a30-4b70-9d62-406b90307059",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/files-category-panel.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 231,
+    "hash": "1daef17e19047ac7b78d65b43da402be",
+    "textRange": {
+      "startLine": 231,
+      "endLine": 231,
+      "startOffset": 35,
+      "endOffset": 66
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "11b6cbf0-9f5d-4fdd-8ef8-dcc6cf08815a",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/files-category-panel.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 254,
+    "hash": "ab1c5fe83e81307f3a6a8dce8dbaf5f7",
+    "textRange": {
+      "startLine": 254,
+      "endLine": 254,
+      "startOffset": 27,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "17282bdb-906a-4913-a1c3-a43af0bd2cfc",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/files-category-panel.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 256,
+    "hash": "169bd9934def5b3b71c5cc7333dbd0be",
+    "textRange": {
+      "startLine": 256,
+      "endLine": 256,
+      "startOffset": 28,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9159cbe5-26c5-45c0-8005-ca6720955e89",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/project-list-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 27,
+    "hash": "79851b0cabcc194adbc67952b71f8188",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 34,
+      "startOffset": 34,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "398652d0-7314-4318-a193-4e766fe7ab2c",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/project-list-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 67,
+    "hash": "ec691c87484f161a67adfe80ba602302",
+    "textRange": {
+      "startLine": 67,
+      "endLine": 67,
+      "startOffset": 27,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7ed455f7-d3cc-411f-802b-881c4b3a7252",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/project-list-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 71,
+    "hash": "80c3f7e05d074a8e00385f06a700941a",
+    "textRange": {
+      "startLine": 71,
+      "endLine": 71,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "22a8d727-6070-4595-9440-a5cd8daadf81",
+    "rule": "typescript:S6848",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/project-list-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 88,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 88,
+      "endLine": 91,
+      "startOffset": 6,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7a33b577-9942-4e58-973c-83100027ec8a",
+    "rule": "typescript:S1082",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/project-list-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 88,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 88,
+      "endLine": 91,
+      "startOffset": 6,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Visible, non-interactive elements with click handlers must have at least one keyboard listener.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7244d30c-daf6-4fa5-9cbc-2c702ea6f157",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/project-list-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 131,
+    "hash": "6f20f491d1b828da125757fd8526e0ce",
+    "textRange": {
+      "startLine": 131,
+      "endLine": 167,
+      "startOffset": 14,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3c4497e8-d4ae-46b4-8ba0-1134b953c77c",
+    "rule": "typescript:S1082",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/project-list-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 141,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 141,
+      "endLine": 144,
+      "startOffset": 16,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Visible, non-interactive elements with click handlers must have at least one keyboard listener.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a30355c7-d18c-4d3c-b2f0-9b20bf3a9dca",
+    "rule": "typescript:S6848",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/project-list-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 141,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 141,
+      "endLine": 144,
+      "startOffset": 16,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "590e1231-b480-4cf4-9029-3445d10ce5d1",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/project-list-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 152,
+    "hash": "ae4dc19a1ee7d084de5ded266aabe930",
+    "textRange": {
+      "startLine": 152,
+      "endLine": 152,
+      "startOffset": 139,
+      "endOffset": 153
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8ce84953-a408-42c5-be95-0dac10d4ad79",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/project-list-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 152,
+    "hash": "ae4dc19a1ee7d084de5ded266aabe930",
+    "textRange": {
+      "startLine": 152,
+      "endLine": 152,
+      "startOffset": 79,
+      "endOffset": 93
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2339dcbd-3f3a-468b-9962-4ff349a1aa75",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/simple-sidebar.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 25,
+    "hash": "662b9cb6e8ddbe8fca9a2c114c855f42",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 30,
+      "startOffset": 30,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5bddff35-a4f9-491c-9c52-4c9eff7311c2",
+    "rule": "typescript:S6848",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/simple-sidebar.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 42,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 42,
+      "endLine": 46,
+      "startOffset": 6,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "70aa43da-a9c3-40b2-b869-79c7020141f5",
+    "rule": "typescript:S1082",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/simple-sidebar.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 42,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 42,
+      "endLine": 46,
+      "startOffset": 6,
+      "endOffset": 7
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Visible, non-interactive elements with click handlers must have at least one keyboard listener.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6f4ac4c5-99f8-4b62-bbb0-097d447c2666",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/ui/breadcrumb.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 61,
+    "hash": "8a6c065819987cf2b44de8c2f5493486",
+    "textRange": {
+      "startLine": 61,
+      "endLine": 68,
+      "startOffset": 4,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <a href=...>, or <area href=...> instead of the \"link\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "799c2d48-1ae4-4414-a4e6-f7a9b4a80c82",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/ui/breadcrumb.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 78,
+    "hash": "b0651008da5abf68c9d90e615f642cd4",
+    "textRange": {
+      "startLine": 78,
+      "endLine": 84,
+      "startOffset": 4,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <img alt=...> instead of the \"presentation\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1b8039cd-0527-4248-b089-55242153d789",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/ui/breadcrumb.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 97,
+    "hash": "8a6c065819987cf2b44de8c2f5493486",
+    "textRange": {
+      "startLine": 97,
+      "endLine": 106,
+      "startOffset": 4,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <img alt=...> instead of the \"presentation\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7b8dbf7b-3e3e-4eb5-a354-d990f7720944",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/ui/input-group.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 13,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 21,
+      "startOffset": 4,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <details>, <fieldset>, <optgroup>, or <address> instead of the \"group\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "6c2264c6-96bc-4f0d-a292-e93c8aaf9ac8",
+    "rule": "typescript:S6819",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/ui/input-group.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 52,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 64,
+      "startOffset": 4,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use <details>, <fieldset>, <optgroup>, or <address> instead of the \"group\" role to ensure accessibility across all devices.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b216d089-551e-47ce-a30a-3e99dc0060c9",
+    "rule": "typescript:S6847",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/ui/input-group.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 52,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 64,
+      "startOffset": 4,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Non-interactive elements should not be assigned mouse or keyboard event listeners.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f84095c8-94dc-416e-8bd4-98caa81bf94a",
+    "rule": "typescript:S1082",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/ui/input-group.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 52,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 64,
+      "startOffset": 4,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Visible, non-interactive elements with click handlers must have at least one keyboard listener.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "238b8bff-e497-43d6-bd8c-6856f02bd660",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/ui/sidebar.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 107,
+    "hash": "8c3b4197be0c2fe421895eaa1bb8399f",
+    "textRange": {
+      "startLine": 107,
+      "endLine": 107,
+      "startOffset": 4,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f87078ab-86a0-4425-9510-78816ea12e0a",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/ui/sidebar.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 108,
+    "hash": "06ae7142f9addf1230dc0a789b097a8b",
+    "textRange": {
+      "startLine": 108,
+      "endLine": 108,
+      "startOffset": 17,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d06b3944-ef6e-4da8-bd36-d84d0cd60088",
+    "rule": "typescript:S6481",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/ui/toggle-group.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 50,
+    "hash": "1ca2debd733397f01032daa24a0bfef2",
+    "textRange": {
+      "startLine": 50,
+      "endLine": 50,
+      "startOffset": 15,
+      "endOffset": 54
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The object passed as the value prop to the Context provider changes every render. To fix this consider wrapping it in a useMemo hook.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c216b19b-3571-417e-a444-d1bf50846237",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/upload-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 15,
+    "hash": "736325a3d59d4e691ea26790c240618e",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 29,
+      "endOffset": 85
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f7a86430-fed7-45a9-8cba-d5d08d17a156",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/upload-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 71,
+    "hash": "c1f09f8498a6611fb8b162d87614f3aa",
+    "textRange": {
+      "startLine": 71,
+      "endLine": 71,
+      "startOffset": 8,
+      "endOffset": 56
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "263f4f99-0c2c-4cfa-8d82-30482e405ec2",
+    "rule": "typescript:S6848",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/upload-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 120,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 120,
+      "endLine": 123,
+      "startOffset": 6,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4adcaf6a-6658-4223-ba45-82a295cd66b6",
+    "rule": "typescript:S1082",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/upload-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 120,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 120,
+      "endLine": 123,
+      "startOffset": 6,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Visible, non-interactive elements with click handlers must have at least one keyboard listener.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d0ec25b0-4a0e-455f-a1e1-08dec2683ed7",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/upload-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 137,
+    "hash": "0dc4620a216e08cfc8e9bc450c044ba5",
+    "textRange": {
+      "startLine": 137,
+      "endLine": 137,
+      "startOffset": 11,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "eb458fad-a700-4241-90c5-af70cfa2890d",
+    "rule": "typescript:S6848",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/upload-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 138,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 138,
+      "endLine": 148,
+      "startOffset": 12,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ef91a5a7-073b-43a3-a87d-83e87b36d106",
+    "rule": "typescript:S1082",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/upload-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 138,
+    "hash": "d90c26198ff23a5c54f81269ceed5c01",
+    "textRange": {
+      "startLine": 138,
+      "endLine": 148,
+      "startOffset": 12,
+      "endOffset": 13
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Visible, non-interactive elements with click handlers must have at least one keyboard listener.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "caf43688-bd18-49cb-ba1d-c5c58474a4a9",
+    "rule": "typescript:S6853",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/components/upload-dialog.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 178,
+    "hash": "9ebea1ebbcbc2ea4d3d73d855aeb6582",
+    "textRange": {
+      "startLine": 178,
+      "endLine": 178,
+      "startOffset": 17,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "A form label must be associated with a control.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "accessibility",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0279792e-51fa-4412-9620-e07b36d27438",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/hooks/use-mobile.ts",
+    "project": "rajumark__app-biopsy",
+    "line": 9,
+    "hash": "fe4b72efcfcf3fa5bfe1f7d77a027895",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 16,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "514b929e-2a80-40f7-81c4-02c7e0a598b4",
+    "rule": "typescript:S2819",
+    "severity": "CRITICAL",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/ipc/manager.ts",
+    "project": "rajumark__app-biopsy",
+    "line": 38,
+    "hash": "6cd42d03d746795931b37df9361d9f8e",
+    "textRange": {
+      "startLine": 38,
+      "endLine": 38,
+      "startOffset": 4,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify a target origin for this message.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "html5",
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c4014fb9-8e12-4fae-aca5-8570a95744aa",
+    "rule": "typescript:S6759",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/layouts/base-layout.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 4,
+    "hash": "f31d3947fc7ff422237b2d0fa31c2238",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 8,
+      "startOffset": 35,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Mark the props of the component as read-only.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "react"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3f55dcd0-3c99-4875-966e-3296d2d513fb",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/lib/monaco.ts",
+    "project": "rajumark__app-biopsy",
+    "line": 11,
+    "hash": "b9a1e16faf683dea5bb35822d46eebd2",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 0,
+      "endOffset": 6
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2ec4cd46-df6a-4bbd-a5f6-ae85dad51317",
+    "rule": "typescript:S7763",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/lib/monaco.ts",
+    "project": "rajumark__app-biopsy",
+    "line": 31,
+    "hash": "91d81f314d8fa9c00f14dd278d09af85",
+    "textRange": {
+      "startLine": 31,
+      "endLine": 31,
+      "startOffset": 9,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `export…from` to re-export `monaco`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "98a32f6e-f746-42c5-9305-2c80fe74f4f7",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/main.ts",
+    "project": "rajumark__app-biopsy",
+    "line": 85,
+    "hash": "9ce63517c430a5ba1815fd9e163b4608",
+    "textRange": {
+      "startLine": 85,
+      "endLine": 85,
+      "startOffset": 6,
+      "endOffset": 28
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0e2cc710-8bec-4c77-bf9b-4b0eded15d30",
+    "rule": "typescript:S7735",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/main.ts",
+    "project": "rajumark__app-biopsy",
+    "line": 102,
+    "hash": "938b833eb18ab13eccf477625877331b",
+    "textRange": {
+      "startLine": 102,
+      "endLine": 102,
+      "startOffset": 6,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "20c3c2df-e216-4a1c-9f9c-f987842ee1c6",
+    "rule": "typescript:S7785",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/main.ts",
+    "project": "rajumark__app-biopsy",
+    "line": 120,
+    "hash": "bde1a6505e2ebd46ad3ecffa6c7fc931",
+    "textRange": {
+      "startLine": 120,
+      "endLine": 120,
+      "startOffset": 16,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over using a promise chain.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "488176e4-dcba-43a4-befa-f35c1967c217",
+    "rule": "typescript:S2819",
+    "severity": "CRITICAL",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/preload.ts",
+    "project": "rajumark__app-biopsy",
+    "line": 4,
+    "hash": "49b685c97acceea515b40fbec24e6c49",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 0,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Verify the origin of the received message.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "html5",
+      "type-dependent"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "80ffe445-d909-4b4d-8b78-76a27222ed13",
+    "rule": "typescript:S7724",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/routeTree.gen.ts",
+    "project": "rajumark__app-biopsy",
+    "line": 1,
+    "hash": "0c27889cae463d2974c68f5420ec20fd",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 0,
+      "endOffset": 20
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify the rules you want to disable.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "eslint",
+      "linting"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "924f2258-b9f3-44af-bb2b-d14f59b83d2f",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/routes/index.tsx",
+    "project": "rajumark__app-biopsy",
+    "line": 10,
+    "hash": "b9e34090134d4fb69312b04d9f000291",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 9,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'Button'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "de484c37-789e-4fca-ba55-3b39b08690d1",
+    "rule": "css:S4662",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/styles/global.css",
+    "project": "rajumark__app-biopsy",
+    "line": 7,
+    "hash": "d01821e9c2938a121c6da9c0038b7981",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 0,
+      "endOffset": 37
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected unknown at-rule \"@custom-variant\"",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "703e9af1-629f-4d01-a834-191f74d119dc",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/utils/path.ts",
+    "project": "rajumark__app-biopsy",
+    "line": 7,
+    "hash": "37e5d30d22a5b4d797df6c2b5770dbf9",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 9,
+      "endOffset": 62
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f113445b-d066-4cb0-abeb-ee5f64504680",
+    "rule": "typescript:S7741",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/utils/path.ts",
+    "project": "rajumark__app-biopsy",
+    "line": 7,
+    "hash": "37e5d30d22a5b4d797df6c2b5770dbf9",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 9,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Compare with `undefined` directly instead of using `typeof`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability",
+      "style"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "724a424b-6451-4b96-9e81-b9fa95d7d665",
+    "rule": "typescript:S3358",
+    "severity": "MAJOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/utils/path.ts",
+    "project": "rajumark__app-biopsy",
+    "line": 9,
+    "hash": "5a191aa1c9715ad844dd1c468422ecc9",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 11,
+      "startOffset": 6,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Extract this nested ternary operation into an independent statement.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8c05a99e-3168-48de-a78d-1fa9a14abffe",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/utils/tools-manager.ts",
+    "project": "rajumark__app-biopsy",
+    "line": 6,
+    "hash": "cc36254ed25e895eacc314414bcfb3b3",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 9,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'app'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bd81fd6f-f301-425f-a4b9-b9b3157e7441",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/utils/tools-manager.ts",
+    "project": "rajumark__app-biopsy",
+    "line": 56,
+    "hash": "5c11c88410644e137f24e4334cd8f0c9",
+    "textRange": {
+      "startLine": 56,
+      "endLine": 56,
+      "startOffset": 25,
+      "endOffset": 51
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since the receiver accepts the original type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2c389edf-1e7f-4316-be37-0aaa8e39e5f7",
+    "rule": "typescript:S2004",
+    "severity": "CRITICAL",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/utils/tools-manager.ts",
+    "project": "rajumark__app-biopsy",
+    "line": 60,
+    "hash": "727772aa5ca0e7d20a4980a719c0716d",
+    "textRange": {
+      "startLine": 60,
+      "endLine": 60,
+      "startOffset": 29,
+      "endOffset": 31
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/utils/tools-manager.ts",
+            "textRange": {
+              "startLine": 48,
+              "endLine": 48,
+              "startOffset": 9,
+              "endOffset": 21
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/utils/tools-manager.ts",
+            "textRange": {
+              "startLine": 49,
+              "endLine": 49,
+              "startOffset": 39,
+              "endOffset": 41
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/utils/tools-manager.ts",
+            "textRange": {
+              "startLine": 53,
+              "endLine": 53,
+              "startOffset": 41,
+              "endOffset": 43
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/utils/tools-manager.ts",
+            "textRange": {
+              "startLine": 54,
+              "endLine": 54,
+              "startOffset": 39,
+              "endOffset": 41
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this code to not nest functions more than 4 levels deep.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1862b8ae-6725-45b8-940e-5245f35ab3d9",
+    "rule": "typescript:S2004",
+    "severity": "CRITICAL",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/utils/tools-manager.ts",
+    "project": "rajumark__app-biopsy",
+    "line": 66,
+    "hash": "8a3e0a0fc8cdbc92c76896c1a4934a7a",
+    "textRange": {
+      "startLine": 66,
+      "endLine": 66,
+      "startOffset": 29,
+      "endOffset": 31
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/utils/tools-manager.ts",
+            "textRange": {
+              "startLine": 48,
+              "endLine": 48,
+              "startOffset": 9,
+              "endOffset": 21
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/utils/tools-manager.ts",
+            "textRange": {
+              "startLine": 49,
+              "endLine": 49,
+              "startOffset": 39,
+              "endOffset": 41
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/utils/tools-manager.ts",
+            "textRange": {
+              "startLine": 53,
+              "endLine": 53,
+              "startOffset": 41,
+              "endOffset": 43
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/utils/tools-manager.ts",
+            "textRange": {
+              "startLine": 54,
+              "endLine": 54,
+              "startOffset": 39,
+              "endOffset": 41
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this code to not nest functions more than 4 levels deep.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "93c87d62-755f-4136-b2e0-2838be853fbb",
+    "rule": "typescript:S2004",
+    "severity": "CRITICAL",
+    "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/utils/tools-manager.ts",
+    "project": "rajumark__app-biopsy",
+    "line": 71,
+    "hash": "727772aa5ca0e7d20a4980a719c0716d",
+    "textRange": {
+      "startLine": 71,
+      "endLine": 71,
+      "startOffset": 27,
+      "endOffset": 29
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/utils/tools-manager.ts",
+            "textRange": {
+              "startLine": 48,
+              "endLine": 48,
+              "startOffset": 9,
+              "endOffset": 21
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/utils/tools-manager.ts",
+            "textRange": {
+              "startLine": 49,
+              "endLine": 49,
+              "startOffset": 39,
+              "endOffset": 41
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/utils/tools-manager.ts",
+            "textRange": {
+              "startLine": 53,
+              "endLine": 53,
+              "startOffset": 41,
+              "endOffset": 43
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "rajumark__app-biopsy:temp_repos/app-biopsy/src/utils/tools-manager.ts",
+            "textRange": {
+              "startLine": 70,
+              "endLine": 70,
+              "startOffset": 27,
+              "endOffset": 29
+            },
+            "msg": "Nesting +1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this code to not nest functions more than 4 levels deep.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-07-16T01:40:25+0000",
+    "updateDate": "2026-07-16T01:40:25+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

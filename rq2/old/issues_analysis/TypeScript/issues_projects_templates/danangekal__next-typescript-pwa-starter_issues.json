@@ -1,0 +1,149 @@
+[
+  {
+    "key": "65ed4598-3216-4d58-9e6b-2dd81db87227",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "danangekal__next-typescript-pwa-starter:Dockerfile",
+    "project": "danangekal__next-typescript-pwa-starter",
+    "line": 41,
+    "hash": "9c3ce62f063479a17855ae90816f354d",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 41,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "danangekal__next-typescript-pwa-starter:Dockerfile",
+            "textRange": {
+              "startLine": 42,
+              "endLine": 42,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T21:41:11+0000",
+    "updateDate": "2026-07-16T21:41:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8b2719fd-7f35-4804-86a4-9fd6f6811bd1",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "danangekal__next-typescript-pwa-starter:pages/_app.tsx",
+    "project": "danangekal__next-typescript-pwa-starter",
+    "line": 17,
+    "hash": "c8b132ddef556342cf4c73b04755dfe7",
+    "textRange": {
+      "startLine": 17,
+      "endLine": 18,
+      "startOffset": 0,
+      "endOffset": 4
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T21:41:11+0000",
+    "updateDate": "2026-07-16T21:41:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "cd0d3135-9156-44e8-b07f-ce95514faa0e",
+    "rule": "typescript:S6772",
+    "severity": "MAJOR",
+    "component": "danangekal__next-typescript-pwa-starter:pages/index.tsx",
+    "project": "danangekal__next-typescript-pwa-starter",
+    "line": 18,
+    "hash": "0020191b267aedfc2ccdc4ea0fcc7982",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 0,
+      "endOffset": 64
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Ambiguous spacing before next element code",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T21:41:11+0000",
+    "updateDate": "2026-07-16T21:41:11+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FORMATTED",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

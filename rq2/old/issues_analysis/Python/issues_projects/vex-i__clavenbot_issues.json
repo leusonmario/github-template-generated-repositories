@@ -1,0 +1,551 @@
+[
+  {
+    "key": "42c34fae-1a0c-4876-988d-9f94d4cb6b03",
+    "rule": "python:S125",
+    "severity": "MAJOR",
+    "component": "vex-i__clavenbot:temp_repos/Clavenbot/bot.py",
+    "project": "vex-i__clavenbot",
+    "line": 67,
+    "hash": "909a012859715eba03911adf766f8840",
+    "textRange": {
+      "startLine": 67,
+      "endLine": 67,
+      "startOffset": 0,
+      "endOffset": 32
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-17T20:44:23+0000",
+    "updateDate": "2026-07-17T20:44:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "159c448e-113b-4061-bb7d-0ee0fe881593",
+    "rule": "python:S5806",
+    "severity": "MAJOR",
+    "component": "vex-i__clavenbot:temp_repos/Clavenbot/bot.py",
+    "project": "vex-i__clavenbot",
+    "line": 94,
+    "hash": "9a1bcb792cb3aa5352f3fe7fdca8151f",
+    "textRange": {
+      "startLine": 94,
+      "endLine": 94,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "vex-i__clavenbot:temp_repos/Clavenbot/bot.py",
+            "textRange": {
+              "startLine": 95,
+              "endLine": 95,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "Variable also assigned here.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "vex-i__clavenbot:temp_repos/Clavenbot/bot.py",
+            "textRange": {
+              "startLine": 96,
+              "endLine": 96,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "Variable also assigned here.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "vex-i__clavenbot:temp_repos/Clavenbot/bot.py",
+            "textRange": {
+              "startLine": 97,
+              "endLine": 97,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "Variable also assigned here.",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "vex-i__clavenbot:temp_repos/Clavenbot/bot.py",
+            "textRange": {
+              "startLine": 98,
+              "endLine": 98,
+              "startOffset": 8,
+              "endOffset": 14
+            },
+            "msg": "Variable also assigned here.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Rename this variable; it shadows a builtin.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "confusing",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T20:44:23+0000",
+    "updateDate": "2026-07-17T20:44:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "609a4888-8ddc-4b39-95b8-9d2414358a28",
+    "rule": "python:S7493",
+    "severity": "MAJOR",
+    "component": "vex-i__clavenbot:temp_repos/Clavenbot/bot.py",
+    "project": "vex-i__clavenbot",
+    "line": 145,
+    "hash": "eecb6af1a9808a3778eca312ebebedf4",
+    "textRange": {
+      "startLine": 145,
+      "endLine": 148,
+      "startOffset": 17,
+      "endOffset": 13
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "vex-i__clavenbot:temp_repos/Clavenbot/bot.py",
+            "textRange": {
+              "startLine": 141,
+              "endLine": 141,
+              "startOffset": 4,
+              "endOffset": 9
+            },
+            "msg": "This function is async.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Use an asynchronous file API instead of synchronous open() in this async function.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "trio",
+      "asyncio",
+      "anyio"
+    ],
+    "creationDate": "2026-07-17T20:44:23+0000",
+    "updateDate": "2026-07-17T20:44:23+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7e1354e5-c89b-46cb-b6cb-d7e7f14fe073",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "vex-i__clavenbot:temp_repos/Clavenbot/cogs/coordinatelogging.py",
+    "project": "vex-i__clavenbot",
+    "line": 22,
+    "hash": "773553713e92bb49faa6093846777de2",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 64,
+      "endOffset": 82
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "vex-i__clavenbot:temp_repos/Clavenbot/cogs/coordinatelogging.py",
+            "textRange": {
+              "startLine": 23,
+              "endLine": 23,
+              "startOffset": 64,
+              "endOffset": 82
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "vex-i__clavenbot:temp_repos/Clavenbot/cogs/coordinatelogging.py",
+            "textRange": {
+              "startLine": 24,
+              "endLine": 24,
+              "startOffset": 64,
+              "endOffset": 82
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Enter coordinate\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:44:23+0000",
+    "updateDate": "2026-07-17T20:44:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5afe5614-ca35-4bf7-b7ca-f49c109d0e0d",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "vex-i__clavenbot:temp_repos/Clavenbot/cogs/coordinatelogging.py",
+    "project": "vex-i__clavenbot",
+    "line": 33,
+    "hash": "11d6c5d630aa042b7c2ba3428bc4ea5e",
+    "textRange": {
+      "startLine": 33,
+      "endLine": 33,
+      "startOffset": 37,
+      "endOffset": 59
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "vex-i__clavenbot:temp_repos/Clavenbot/cogs/coordinatelogging.py",
+            "textRange": {
+              "startLine": 87,
+              "endLine": 87,
+              "startOffset": 37,
+              "endOffset": 59
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "vex-i__clavenbot:temp_repos/Clavenbot/cogs/coordinatelogging.py",
+            "textRange": {
+              "startLine": 129,
+              "endLine": 129,
+              "startOffset": 37,
+              "endOffset": 59
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "vex-i__clavenbot:temp_repos/Clavenbot/cogs/coordinatelogging.py",
+            "textRange": {
+              "startLine": 148,
+              "endLine": 148,
+              "startOffset": 37,
+              "endOffset": 59
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "vex-i__clavenbot:temp_repos/Clavenbot/cogs/coordinatelogging.py",
+            "textRange": {
+              "startLine": 179,
+              "endLine": 179,
+              "startOffset": 37,
+              "endOffset": 59
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"database/database.db\" 5 times.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-07-17T20:44:23+0000",
+    "updateDate": "2026-07-17T20:44:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "e61fd1dd-f49a-496a-9156-f3e645b68ca8",
+    "rule": "python:S3457",
+    "severity": "MAJOR",
+    "component": "vex-i__clavenbot:temp_repos/Clavenbot/cogs/coordinatelogging.py",
+    "project": "vex-i__clavenbot",
+    "line": 49,
+    "hash": "fd2f5e50b63b4874cf5b3f05ab956660",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 49,
+      "startOffset": 56,
+      "endOffset": 73
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Add replacement fields or use a normal string instead of an f-string.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "confusing"
+    ],
+    "creationDate": "2026-07-17T20:44:23+0000",
+    "updateDate": "2026-07-17T20:44:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2f862ee3-8b55-4a23-b2e7-f451509fe73c",
+    "rule": "python:S5806",
+    "severity": "MAJOR",
+    "component": "vex-i__clavenbot:temp_repos/Clavenbot/cogs/coordinatelogging.py",
+    "project": "vex-i__clavenbot",
+    "line": 64,
+    "hash": "3a0c5ca8d81d1a690c11d7fdc0c49977",
+    "textRange": {
+      "startLine": 64,
+      "endLine": 64,
+      "startOffset": 12,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Rename this variable; it shadows a builtin.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice",
+      "confusing",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T20:44:23+0000",
+    "updateDate": "2026-07-17T20:44:23+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "bce8ca9c-84e3-48af-a3d3-2d1f264715e2",
+    "rule": "python:S3862",
+    "severity": "BLOCKER",
+    "component": "vex-i__clavenbot:temp_repos/Clavenbot/cogs/memeoftheday.py",
+    "project": "vex-i__clavenbot",
+    "line": 42,
+    "hash": "6da6eb5b75c14860b3ea2453a9a1c97f",
+    "textRange": {
+      "startLine": 42,
+      "endLine": 42,
+      "startOffset": 21,
+      "endOffset": 38
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "vex-i__clavenbot:temp_repos/Clavenbot/cogs/memeoftheday.py",
+            "textRange": {
+              "startLine": 42,
+              "endLine": 42,
+              "startOffset": 21,
+              "endOffset": 38
+            },
+            "msg": "Replace this expression with an iterable object.",
+            "msgFormattings": []
+          },
+          {
+            "component": "vex-i__clavenbot:temp_repos/Clavenbot/cogs/memeoftheday.py",
+            "textRange": {
+              "startLine": 24,
+              "endLine": 24,
+              "startOffset": 14,
+              "endOffset": 24
+            },
+            "msg": "Definition of \"fetchMemes\".",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Replace this expression with an iterable object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "defign",
+      "typing",
+      "pitfall"
+    ],
+    "creationDate": "2026-07-17T20:44:23+0000",
+    "updateDate": "2026-07-17T20:44:23+0000",
+    "type": "BUG",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "LOGICAL",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

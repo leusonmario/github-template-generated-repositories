@@ -1,0 +1,536 @@
+[
+  {
+    "key": "0ff06705-5a4c-486d-a46c-b4ac371f4bc7",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "iqbalpa__express-ts:temp_repos/express-ts/src/api-docs/openAPIResponseBuilders.ts",
+    "project": "iqbalpa__express-ts",
+    "line": 21,
+    "hash": "5758896be79760e6e83f2f3c250e3bc3",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 41,
+      "startOffset": 0,
+      "endOffset": 4
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-15T22:31:04+0000",
+    "updateDate": "2026-07-15T22:31:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "718e96b1-39d6-40a5-b1f8-b1cc7377d2af",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "iqbalpa__express-ts:temp_repos/express-ts/src/api/book/bookController.ts",
+    "project": "iqbalpa__express-ts",
+    "line": 5,
+    "hash": "4cae199f96373757592610ad21305ccb",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 9,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'logger'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-15T22:31:04+0000",
+    "updateDate": "2026-07-15T22:31:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1b8cccbf-f9ee-4c3f-a37a-c229d8a9ff72",
+    "rule": "typescript:S1128",
+    "severity": "MINOR",
+    "component": "iqbalpa__express-ts:temp_repos/express-ts/src/api/book/bookModel.ts",
+    "project": "iqbalpa__express-ts",
+    "line": 4,
+    "hash": "9cf317a944dbce4c3681da4db765e274",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 9,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this unused import of 'commonValidations'.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015",
+      "type-dependent",
+      "unused"
+    ],
+    "creationDate": "2026-07-15T22:31:04+0000",
+    "updateDate": "2026-07-15T22:31:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "39cc3c99-8f8c-4a53-94f6-c4160c1e1179",
+    "rule": "typescript:S6861",
+    "severity": "CRITICAL",
+    "component": "iqbalpa__express-ts:temp_repos/express-ts/src/api/book/bookRepository.ts",
+    "project": "iqbalpa__express-ts",
+    "line": 4,
+    "hash": "834764070615c2c3c880225589ec882d",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 30,
+      "startOffset": 7,
+      "endOffset": 2
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Exporting mutable 'let' binding, use 'const' instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "architecture"
+    ],
+    "creationDate": "2026-07-15T22:31:04+0000",
+    "updateDate": "2026-07-15T22:31:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "MODULAR",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "84fbdf92-bace-45a8-a708-f6527d58f060",
+    "rule": "typescript:S2486",
+    "severity": "MINOR",
+    "component": "iqbalpa__express-ts:temp_repos/express-ts/src/api/book/bookRepository.ts",
+    "project": "iqbalpa__express-ts",
+    "line": 50,
+    "hash": "550051ee6b000602ffe414172dfff76d",
+    "textRange": {
+      "startLine": 50,
+      "endLine": 52,
+      "startOffset": 4,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-15T22:31:04+0000",
+    "updateDate": "2026-07-15T22:31:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "114d097e-2e33-452b-b834-8b0ac4c675f1",
+    "rule": "typescript:S2486",
+    "severity": "MINOR",
+    "component": "iqbalpa__express-ts:temp_repos/express-ts/src/api/book/bookRepository.ts",
+    "project": "iqbalpa__express-ts",
+    "line": 67,
+    "hash": "550051ee6b000602ffe414172dfff76d",
+    "textRange": {
+      "startLine": 67,
+      "endLine": 69,
+      "startOffset": 4,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-15T22:31:04+0000",
+    "updateDate": "2026-07-15T22:31:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ad3a17ab-3962-4277-9fcc-fb0ef9ed749e",
+    "rule": "typescript:S2486",
+    "severity": "MINOR",
+    "component": "iqbalpa__express-ts:temp_repos/express-ts/src/api/book/bookRepository.ts",
+    "project": "iqbalpa__express-ts",
+    "line": 80,
+    "hash": "550051ee6b000602ffe414172dfff76d",
+    "textRange": {
+      "startLine": 80,
+      "endLine": 82,
+      "startOffset": 4,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-07-15T22:31:04+0000",
+    "updateDate": "2026-07-15T22:31:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c121c55d-14d3-4280-80bf-f1136c6eb368",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "iqbalpa__express-ts:temp_repos/express-ts/src/api/book/bookService.ts",
+    "project": "iqbalpa__express-ts",
+    "line": 9,
+    "hash": "bf44924742f8adf94429f6964514492e",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 1,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'bookRepository' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T22:31:04+0000",
+    "updateDate": "2026-07-15T22:31:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "3b97f43c-8a5f-4d86-88d4-b4e996de298d",
+    "rule": "typescript:S4325",
+    "severity": "MINOR",
+    "component": "iqbalpa__express-ts:temp_repos/express-ts/src/api/user/__tests__/userRouter.test.ts",
+    "project": "iqbalpa__express-ts",
+    "line": 21,
+    "hash": "1a1af775228c6fe24b613486377ecd12",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 69,
+      "endOffset": 89
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "redundant"
+    ],
+    "creationDate": "2026-07-15T22:31:04+0000",
+    "updateDate": "2026-07-15T22:31:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7185bc81-77cb-4b8c-bc91-ff819c83997d",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "iqbalpa__express-ts:temp_repos/express-ts/src/api/user/__tests__/userRouter.test.ts",
+    "project": "iqbalpa__express-ts",
+    "line": 21,
+    "hash": "1a1af775228c6fe24b613486377ecd12",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 31,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-15T22:31:04+0000",
+    "updateDate": "2026-07-15T22:31:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a8cb26c1-7807-4bab-b4b3-84c18c39e888",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "iqbalpa__express-ts:temp_repos/express-ts/src/api/user/userService.ts",
+    "project": "iqbalpa__express-ts",
+    "line": 9,
+    "hash": "f9425785d874c83b6941e57ea689a912",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 1,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'userRepository' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-15T22:31:04+0000",
+    "updateDate": "2026-07-15T22:31:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "20f5c6f0-1017-4bc5-b8ad-40e1b8374625",
+    "rule": "typescript:S7726",
+    "severity": "MINOR",
+    "component": "iqbalpa__express-ts:temp_repos/express-ts/src/common/middleware/errorHandler.ts",
+    "project": "iqbalpa__express-ts",
+    "line": 13,
+    "hash": "4110bcab5ddfa6d082b921ebba9214c5",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 57,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The arrow function should be named.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention"
+    ],
+    "creationDate": "2026-07-15T22:31:04+0000",
+    "updateDate": "2026-07-15T22:31:04+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "IDENTIFIABLE",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

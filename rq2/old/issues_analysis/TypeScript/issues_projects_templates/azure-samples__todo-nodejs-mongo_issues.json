@@ -1,0 +1,2014 @@
+[
+  {
+    "key": "5149bca9-db7c-4e37-b63c-5d77f12dfd2e",
+    "rule": "docker:S7031",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/Dockerfile",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 7,
+    "hash": "78647f454d93b59294c34ca1f3ed714a",
+    "textRange": {
+      "startLine": 7,
+      "endLine": 7,
+      "startOffset": 0,
+      "endOffset": 3
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "azure-samples__todo-nodejs-mongo:src/api/Dockerfile",
+            "textRange": {
+              "startLine": 8,
+              "endLine": 8,
+              "startOffset": 0,
+              "endOffset": 3
+            },
+            "msg": "consecutive RUN instruction",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this RUN instruction with the consecutive ones.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "837fd837-7317-4440-b1db-5f81136f276b",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/app.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 35,
+    "hash": "9398c5f6859087719edee5c13c64f1a8",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 32,
+      "endOffset": 39
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "4b6c43ca-7a33-43fa-ae19-71383ed23dd1",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/config/applicationInsightsTransport.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 13,
+    "hash": "2dd51fec25c129998e14017cb234da8c",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 4,
+      "endOffset": 18
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'client' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c8eca58d-f296-4726-8282-e1dce87585f7",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/config/index.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 63,
+    "hash": "99c9d4ffc3833816b4fe96b4d87ddd59",
+    "textRange": {
+      "startLine": 63,
+      "endLine": 63,
+      "startOffset": 40,
+      "endOffset": 47
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "5285f045-cd34-4fd2-a108-7f39ae159714",
+    "rule": "typescript:S6582",
+    "severity": "MAJOR",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/models/cosmosClient.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 89,
+    "hash": "deaf97e1e743eedd08c9344d1eaca963",
+    "textRange": {
+      "startLine": 89,
+      "endLine": 89,
+      "startOffset": 20,
+      "endOffset": 63
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f68d3dbd-660b-417a-a9a9-e69ba0350fc9",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/models/todoItemRepository.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 6,
+    "hash": "bff07165d83caede19e4ac023fcd2e62",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 4,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'container' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9e2a8b60-ba72-4750-abdc-c331e628c0cc",
+    "rule": "typescript:S2933",
+    "severity": "MAJOR",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/models/todoListRepository.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 6,
+    "hash": "5557a66c58ddfd0168a22edc3fc07a38",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 4,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Member 'container' is never reassigned; mark it as `readonly`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "500ef737-e050-4509-8a2e-19695960bfc6",
+    "rule": "typescript:S3863",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/routes/items.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 1,
+    "hash": "c93995530754a71b11d2f586b1585eb5",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 20,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'express' imported multiple times.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "be6971e9-05bf-4190-9e42-ae0787ce77e7",
+    "rule": "typescript:S3863",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/routes/items.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 2,
+    "hash": "9276cab4fb6d8e314be638906b77fbf3",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 24,
+      "endOffset": 33
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'express' imported multiple times.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "db363719-3494-4455-a566-dc669e8841c1",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/routes/items.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 16,
+    "hash": "0c4237b21fbb1cf93a97ee156c87df10",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 18,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a02076dc-62b7-4346-92e6-ee7755dfabe6",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/routes/items.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 24,
+    "hash": "b525696206ef93a31bb770b9cbbeaed1",
+    "textRange": {
+      "startLine": 24,
+      "endLine": 24,
+      "startOffset": 38,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9fc1f4a0-2468-4609-bbb4-ea48982c779b",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/routes/items.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 25,
+    "hash": "a9b4183b7f44bcb70f50098797b70899",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 25,
+      "startOffset": 36,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b56f27e6-21cc-4228-b2be-f7f5a0dafa11",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/routes/items.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 36,
+    "hash": "1536e4c34cf427dacb190c4f2de9cdfb",
+    "textRange": {
+      "startLine": 36,
+      "endLine": 36,
+      "startOffset": 17,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2150e112-0e59-4ad4-87cf-f9a75e8cef2b",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/routes/items.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 55,
+    "hash": "60f73ac173d4ae2e532147dd46ae3e71",
+    "textRange": {
+      "startLine": 55,
+      "endLine": 55,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9b9d8447-ba40-4c95-9196-2d16297688ba",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/routes/items.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 74,
+    "hash": "2e85da3696730fd7ce208aab8be85c98",
+    "textRange": {
+      "startLine": 74,
+      "endLine": 74,
+      "startOffset": 13,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8f60fa47-8d19-4981-9233-c8d69dd1a6d5",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/routes/items.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 96,
+    "hash": "6f8bdfaedf6361cc347f5ccc61459043",
+    "textRange": {
+      "startLine": 96,
+      "endLine": 96,
+      "startOffset": 13,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "15dfc997-eac1-41c3-a860-d980c7aa9e4f",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/routes/items.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 126,
+    "hash": "b525696206ef93a31bb770b9cbbeaed1",
+    "textRange": {
+      "startLine": 126,
+      "endLine": 126,
+      "startOffset": 38,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "78a7be36-57e1-4126-8c61-b35d037f7b48",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/routes/items.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 127,
+    "hash": "a9b4183b7f44bcb70f50098797b70899",
+    "textRange": {
+      "startLine": 127,
+      "endLine": 127,
+      "startOffset": 36,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a7acf360-c13e-46cc-a08d-17ed2d06a6db",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/routes/lists.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 14,
+    "hash": "577486cf4623c2cca1d417bccc413848",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 18,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "90e8b7ec-4bde-4ae9-9d27-061150b10eb3",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/routes/lists.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 22,
+    "hash": "b525696206ef93a31bb770b9cbbeaed1",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 38,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a44bab48-7642-4413-bf73-dcbcc8b33387",
+    "rule": "typescript:S7773",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/routes/lists.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 23,
+    "hash": "a9b4183b7f44bcb70f50098797b70899",
+    "textRange": {
+      "startLine": 23,
+      "endLine": 23,
+      "startOffset": 36,
+      "endOffset": 44
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `Number.parseInt` over `parseInt`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ea187336-e3b9-484a-a172-c802b0f49536",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/routes/lists.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 34,
+    "hash": "00a126219f0ae9427d04224dfaaaa0ba",
+    "textRange": {
+      "startLine": 34,
+      "endLine": 34,
+      "startOffset": 17,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c073f13d-dba1-4d3f-8008-4e7d4ff6cbe2",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/routes/lists.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 50,
+    "hash": "1f647ea5d1be3db9a4e911e823e7326d",
+    "textRange": {
+      "startLine": 50,
+      "endLine": 50,
+      "startOffset": 10,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0a892af7-60ab-48e4-83e3-499199a247fc",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/routes/lists.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 69,
+    "hash": "4525f5beb2748d406efd10a8b6c26411",
+    "textRange": {
+      "startLine": 69,
+      "endLine": 69,
+      "startOffset": 13,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b0c2f2b7-0cb7-48e5-a833-9c461773140d",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/routes/lists.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 88,
+    "hash": "23f56ae542f3190bc8aba2d4d941ec71",
+    "textRange": {
+      "startLine": 88,
+      "endLine": 88,
+      "startOffset": 13,
+      "endOffset": 17
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "84dfcca8-04ba-460f-b7a6-49daf8ce79f1",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/routes/routes.spec.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 2,
+    "hash": "b36d254ec868c9fae1e5e6d8494b8162",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 23,
+      "endOffset": 29
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:http` over `http`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "2f2c5929-7628-49e2-ada7-0288950c8a59",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "azure-samples__todo-nodejs-mongo:src/api/src/routes/routes.spec.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 209,
+    "hash": "fe5d2e1eeff1396408185b4f7efdfa48",
+    "textRange": {
+      "startLine": 209,
+      "endLine": 209,
+      "startOffset": 83,
+      "endOffset": 87
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fee7339b-a29d-460c-a445-85401115e58b",
+    "rule": "typescript:S6481",
+    "severity": "MAJOR",
+    "component": "azure-samples__todo-nodejs-mongo:src/web/src/App.tsx",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 18,
+    "hash": "d20b4c53379c3e4ae8702e09c411a2d2",
+    "textRange": {
+      "startLine": 18,
+      "endLine": 18,
+      "startOffset": 37,
+      "endOffset": 84
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "The 'initialContext' object passed as the value prop to the Context provider changes every render. To fix this consider wrapping it in a useMemo hook.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "performance",
+      "react",
+      "jsx"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "f931374e-4aae-4a0f-938f-a39212bc35a0",
+    "rule": "typescript:S6598",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-nodejs-mongo:src/web/src/actions/actionCreators.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 13,
+    "hash": "4b9a1ed6896f042271045024ae67c8e7",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 4,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Interface has only a call signature, you should use a function type instead.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "function",
+      "type"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "103d7e66-ce57-40ef-909d-08a068f49587",
+    "rule": "typescript:S7746",
+    "severity": "MAJOR",
+    "component": "azure-samples__todo-nodejs-mongo:src/web/src/actions/itemActions.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 32,
+    "hash": "30dbb0ed0648b08da117d9d879c798a2",
+    "textRange": {
+      "startLine": 32,
+      "endLine": 32,
+      "startOffset": 11,
+      "endOffset": 26
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `return value` over `return Promise.resolve(value)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "promise",
+      "confusing"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "0898f69b-0d6d-43f1-8c18-5bdfd4b51213",
+    "rule": "typescript:S6767",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-nodejs-mongo:src/web/src/components/todoItemListPane.tsx",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 15,
+    "hash": "5778d14fe58f15d4ab567a3ab3a919e7",
+    "textRange": {
+      "startLine": 15,
+      "endLine": 15,
+      "startOffset": 4,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'onSelect' PropType is defined but prop is never used",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "react"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7907a996-f9c2-414c-ab63-84b96ca87ee6",
+    "rule": "typescript:S1301",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-nodejs-mongo:src/web/src/components/todoItemListPane.tsx",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 173,
+    "hash": "54e58ae02af166553c53cbba46d60db8",
+    "textRange": {
+      "startLine": 173,
+      "endLine": 173,
+      "startOffset": 8,
+      "endOffset": 14
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Replace this \"switch\" statement by \"if\" statements to increase readability.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "bad-practice"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "d65b216e-ffc2-42e2-8eda-0454ad48e1e4",
+    "rule": "typescript:S7747",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-nodejs-mongo:src/web/src/reducers/listsReducer.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 14,
+    "hash": "675631a69593152529f4c27b0d9e3b0a",
+    "textRange": {
+      "startLine": 14,
+      "endLine": 14,
+      "startOffset": 20,
+      "endOffset": 73
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unnecessarily cloning an array.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c58b8889-bd7d-4f18-8034-17bcd8b2d143",
+    "rule": "typescript:S3776",
+    "severity": "CRITICAL",
+    "component": "azure-samples__todo-nodejs-mongo:src/web/src/reducers/selectedListReducer.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 5,
+    "hash": "e6e4e9eff644e9ca06180c2a3a487330",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 130,
+      "endOffset": 132
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "azure-samples__todo-nodejs-mongo:src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 6,
+              "endLine": 6,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "azure-samples__todo-nodejs-mongo:src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 9,
+              "endLine": 9,
+              "startOffset": 35,
+              "endOffset": 36
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "azure-samples__todo-nodejs-mongo:src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 12,
+              "endLine": 12,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "azure-samples__todo-nodejs-mongo:src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 12,
+              "endLine": 12,
+              "startOffset": 22,
+              "endOffset": 24
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "azure-samples__todo-nodejs-mongo:src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 17,
+              "endLine": 17,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "azure-samples__todo-nodejs-mongo:src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 22,
+              "endLine": 22,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "azure-samples__todo-nodejs-mongo:src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 25,
+              "endLine": 25,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+3 (incl. 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "azure-samples__todo-nodejs-mongo:src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 28,
+              "endLine": 28,
+              "startOffset": 18,
+              "endOffset": 22
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "azure-samples__todo-nodejs-mongo:src/web/src/reducers/selectedListReducer.ts",
+            "textRange": {
+              "startLine": 34,
+              "endLine": 34,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+2 (incl. 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "brain-overload",
+      "architecture"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "510aaf89-d779-4bd9-8a7e-4aedfba3b81a",
+    "rule": "typescript:S7747",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-nodejs-mongo:src/web/src/reducers/selectedListReducer.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 35,
+    "hash": "e97fcbfdd93ef2cc99eebb327d7db1c7",
+    "textRange": {
+      "startLine": 35,
+      "endLine": 35,
+      "startOffset": 30,
+      "endOffset": 97
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unnecessarily cloning an array.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c8f161ca-1bdd-42f1-b1bb-3cf06b777872",
+    "rule": "typescript:S7732",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-nodejs-mongo:src/web/src/reportWebVitals.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 4,
+    "hash": "3c9749fcb92f545a8c753e00920b1884",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 21,
+      "endOffset": 52
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid using `instanceof` for type checking as it can lead to unreliable results.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "cross-browser"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "a387ed61-c84c-4d67-83b8-ecd97129121e",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-nodejs-mongo:src/web/src/services/telemetryService.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 12,
+    "hash": "16b58ecc3dd8dacd02ef37f9cd4d0072",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 58,
+      "endOffset": 64
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "db7eb47a-6e08-4fa6-9c6d-6bfc0d468be0",
+    "rule": "typescript:S1135",
+    "severity": "INFO",
+    "component": "azure-samples__todo-nodejs-mongo:src/web/src/services/telemetryService.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 41,
+    "hash": "ed2762fe404fb2bbe399cea9f346b5e6",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 41,
+      "startOffset": 11,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "effort": "0min",
+    "debt": "0min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "INFO"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9e8999a3-7414-4b4a-b6c1-3c1a4e6a6fb1",
+    "rule": "typescript:S3863",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-nodejs-mongo:tests/playwright.config.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 1,
+    "hash": "16d9e175a4758ca241fbac7aaadb0875",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 37,
+      "endOffset": 55
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'@playwright/test' imported multiple times.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "c865e728-ec3a-44c0-9351-49c09c15c818",
+    "rule": "typescript:S3863",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-nodejs-mongo:tests/playwright.config.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 2,
+    "hash": "2936c076af5401ae3059cb093c74a62e",
+    "textRange": {
+      "startLine": 2,
+      "endLine": 2,
+      "startOffset": 20,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "'@playwright/test' imported multiple times.",
+    "effort": "1min",
+    "debt": "1min",
+    "author": "",
+    "tags": [
+      "es2015"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "1ef3f9f7-39cd-4c5a-92c8-c2443d185eb3",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-nodejs-mongo:tests/playwright.config.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 3,
+    "hash": "e6257dc4b1f21417043851734f5ab373",
+    "textRange": {
+      "startLine": 3,
+      "endLine": 3,
+      "startOffset": 15,
+      "endOffset": 19
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "fc863297-a382-447a-b89c-a84b0f8ac01d",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "azure-samples__todo-nodejs-mongo:tests/playwright.config.ts",
+    "project": "azure-samples__todo-nodejs-mongo",
+    "line": 4,
+    "hash": "f40651a1f94655f3cffc68ed8db5f6b9",
+    "textRange": {
+      "startLine": 4,
+      "endLine": 4,
+      "startOffset": 21,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T21:23:26+0000",
+    "updateDate": "2026-07-16T21:23:26+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]

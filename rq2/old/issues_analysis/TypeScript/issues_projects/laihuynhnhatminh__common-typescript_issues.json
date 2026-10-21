@@ -1,0 +1,269 @@
+[
+  {
+    "key": "21cdf992-0e67-45a4-80ad-941b6e1a9e8c",
+    "rule": "javascript:S7780",
+    "severity": "MINOR",
+    "component": "laihuynhnhatminh__common-typescript:temp_repos/common-typescript/jest.config.js",
+    "project": "laihuynhnhatminh__common-typescript",
+    "line": 10,
+    "hash": "5b769e0f2c09b161588ad38152950e36",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 13,
+      "endOffset": 59
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "`String.raw` should be used to avoid escaping `\\`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-07-16T00:57:29+0000",
+    "updateDate": "2026-07-16T00:57:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "9f020de9-eeb2-4a76-8ac7-76fa953f673b",
+    "rule": "typescript:S7772",
+    "severity": "MINOR",
+    "component": "laihuynhnhatminh__common-typescript:temp_repos/common-typescript/src/functions/number/randomNumber.function.ts",
+    "project": "laihuynhnhatminh__common-typescript",
+    "line": 1,
+    "hash": "125fd4456f01cf94b0b08cc4a69374ef",
+    "textRange": {
+      "startLine": 1,
+      "endLine": 1,
+      "startOffset": 19,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:crypto` over `crypto`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-07-16T00:57:29+0000",
+    "updateDate": "2026-07-16T00:57:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "7a625729-e53c-4c36-9f8d-168bca8d490c",
+    "rule": "typescript:S7781",
+    "severity": "MINOR",
+    "component": "laihuynhnhatminh__common-typescript:temp_repos/common-typescript/src/functions/string/randomString.function.ts",
+    "project": "laihuynhnhatminh__common-typescript",
+    "line": 9,
+    "hash": "dc13b0f1ccc781d791bbdb0cbcd2bfc6",
+    "textRange": {
+      "startLine": 9,
+      "endLine": 9,
+      "startOffset": 5,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `String#replaceAll()` over `String#replace()`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "es2021"
+    ],
+    "creationDate": "2026-07-16T00:57:29+0000",
+    "updateDate": "2026-07-16T00:57:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "LOW"
+      },
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "b69e4e0e-5d43-4cfc-956c-14e0345eea70",
+    "rule": "typescript:S7764",
+    "severity": "MINOR",
+    "component": "laihuynhnhatminh__common-typescript:temp_repos/common-typescript/src/functions/utils/localStorage.ts",
+    "project": "laihuynhnhatminh__common-typescript",
+    "line": 13,
+    "hash": "5dca6f1c46e3294c84ccc572a174d379",
+    "textRange": {
+      "startLine": 13,
+      "endLine": 13,
+      "startOffset": 19,
+      "endOffset": 25
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `globalThis` over `window`.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "portability",
+      "es2020"
+    ],
+    "creationDate": "2026-07-16T00:57:29+0000",
+    "updateDate": "2026-07-16T00:57:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "ab521811-c162-41a2-bee2-80b4173698fa",
+    "rule": "typescript:S7728",
+    "severity": "MINOR",
+    "component": "laihuynhnhatminh__common-typescript:temp_repos/common-typescript/src/types/nullish/nullish.example.ts",
+    "project": "laihuynhnhatminh__common-typescript",
+    "line": 16,
+    "hash": "9296c22037d078095bf9481f134cc1df",
+    "textRange": {
+      "startLine": 16,
+      "endLine": 16,
+      "startOffset": 43,
+      "endOffset": 50
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use `for…of` instead of `.forEach(…)`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "readability",
+      "performance"
+    ],
+    "creationDate": "2026-07-16T00:57:29+0000",
+    "updateDate": "2026-07-16T00:57:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "EFFICIENT",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  },
+  {
+    "key": "8e9bd948-25c0-47f6-ae53-e4e68b73adf7",
+    "rule": "typescript:S125",
+    "severity": "MAJOR",
+    "component": "laihuynhnhatminh__common-typescript:temp_repos/common-typescript/src/types/readonlyDeep/readonlyDeep.example.ts",
+    "project": "laihuynhnhatminh__common-typescript",
+    "line": 25,
+    "hash": "bd36563bdd78693e0b71465d6604fa74",
+    "textRange": {
+      "startLine": 25,
+      "endLine": 26,
+      "startOffset": 0,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Remove this commented out code.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "unused"
+    ],
+    "creationDate": "2026-07-16T00:57:29+0000",
+    "updateDate": "2026-07-16T00:57:29+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": []
+  }
+]
