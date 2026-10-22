@@ -1,0 +1,38 @@
+Formula: category_persistence_proportion ~ C(evolution_level, Treatment(reference="Slightly evolved")) + C(owner_type, Treatment(reference="Organization")) + C(language, Treatment(reference="TypeScript")) + C(category, Treatment(reference="MAJOR"))
+Rows: 13960
+Source templates: 648
+Generated repositories: 4586
+Languages: 5
+Categories: 5
+References: {'evolution_level': 'Slightly evolved', 'owner_type': 'Organization', 'language': 'TypeScript', 'category': 'MAJOR'}
+Converged: True
+
+                                    GEE Regression Results                                    
+==============================================================================================
+Dep. Variable:        category_persistence_proportion   No. Observations:                13960
+Model:                                            GEE   No. clusters:                      648
+Method:                                   Generalized   Min. cluster size:                   1
+                                 Estimating Equations   Max. cluster size:                5652
+Family:                                      Binomial   Mean cluster size:                21.5
+Dependence structure:                    Independence   Num. iterations:                     2
+Date:                                Thu, 22 Oct 2026   Scale:                           1.000
+Covariance type:                               robust   Time:                         16:06:09
+========================================================================================================================================================
+                                                                                           coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                                                0.8831      0.545      1.620      0.105      -0.185       1.951
+C(evolution_level, Treatment(reference="Slightly evolved"))[T.Moderately evolved]       -0.0453      0.388     -0.117      0.907      -0.806       0.716
+C(evolution_level, Treatment(reference="Slightly evolved"))[T.Substantially evolved]    -0.1086      0.303     -0.358      0.720      -0.703       0.486
+C(owner_type, Treatment(reference="Organization"))[T.User]                              -0.4370      0.329     -1.327      0.185      -1.083       0.209
+C(language, Treatment(reference="TypeScript"))[T.C#]                                     6.5757      1.314      5.004      0.000       4.000       9.151
+C(language, Treatment(reference="TypeScript"))[T.Java]                                   1.2609      0.929      1.357      0.175      -0.560       3.082
+C(language, Treatment(reference="TypeScript"))[T.JavaScript]                             2.1694      0.585      3.709      0.000       1.023       3.316
+C(language, Treatment(reference="TypeScript"))[T.Python]                                 0.0139      0.458      0.030      0.976      -0.884       0.912
+C(category, Treatment(reference="MAJOR"))[T.BLOCKER]                                     0.1843      0.345      0.534      0.594      -0.492       0.861
+C(category, Treatment(reference="MAJOR"))[T.CRITICAL]                                    0.8948      0.400      2.236      0.025       0.111       1.679
+C(category, Treatment(reference="MAJOR"))[T.INFO]                                       -0.0621      0.364     -0.171      0.865      -0.775       0.651
+C(category, Treatment(reference="MAJOR"))[T.MINOR]                                      -0.1831      0.208     -0.882      0.378      -0.590       0.224
+==============================================================================
+Skew:                         -1.2063   Kurtosis:                       1.4625
+Centered skew:                -0.6745   Centered kurtosis:              4.2775
+==============================================================================

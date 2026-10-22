@@ -1,0 +1,37 @@
+model,dimension,result_kind,characteristic,odds_ratio,ci_95_low,ci_95_high,p_value,wald_chi2,df
+issue_type_adjusted_primary_weighted,issue_type,coefficient,Commit count (doubling),0.9936305664378234,0.869520142759278,1.1354558152344942,0.9252167173080705,,
+issue_type_adjusted_no_sampling_weights,issue_type,coefficient,Commit count (doubling),0.9977223412295049,0.885652447880565,1.1239734870836446,0.9700791128543018,,
+issue_type_adjusted_pair_level_weighted,issue_type,coefficient,Commit count (doubling),0.7893733849359419,0.6173078289942798,1.0093997055899977,0.059377976761351724,,
+severity_adjusted_primary_weighted,severity,coefficient,Commit count (doubling),0.9832910916227146,0.8628244328128082,1.1205771812842862,0.8005049103418661,,
+severity_adjusted_no_sampling_weights,severity,coefficient,Commit count (doubling),0.98936485277698,0.8832370393953864,1.1082447499942658,0.8534760162234242,,
+severity_adjusted_pair_level_weighted,severity,coefficient,Commit count (doubling),0.9692793033736044,0.6576377096838587,1.4286017272337677,0.8747254929731226,,
+hotspot_security_category_adjusted_primary_weighted,hotspot_security_category,coefficient,Commit count (doubling),0.9554875484415648,0.8193161812262415,1.1142907660635752,0.561615765024086,,
+hotspot_security_category_adjusted_no_sampling_weights,hotspot_security_category,coefficient,Commit count (doubling),0.9136899419188164,0.7856964377408118,1.0625341669666657,0.2411038686233491,,
+hotspot_security_category_adjusted_pair_level_weighted,hotspot_security_category,coefficient,Commit count (doubling),1.016502372610859,0.7771992218119051,1.329488044409771,0.904869965978974,,
+hotspot_vulnerability_probability_adjusted_primary_weighted,hotspot_vulnerability_probability,coefficient,Commit count (doubling),0.9221371073888439,0.7572054976642576,1.122993490467895,0.42010358626259026,,
+hotspot_vulnerability_probability_adjusted_no_sampling_weights,hotspot_vulnerability_probability,coefficient,Commit count (doubling),0.8933320446937741,0.763813299933274,1.0448131004611672,0.15812038502804893,,
+hotspot_vulnerability_probability_adjusted_pair_level_weighted,hotspot_vulnerability_probability,coefficient,Commit count (doubling),1.6140606277063163,0.8518839587665773,3.058153265010065,0.14201854482411816,,
+issue_type_adjusted_no_csharp,issue_type,coefficient,Commit count (doubling),0.9936249979597137,0.8695159979738616,1.1354485010868312,0.9251508527493375,,
+hotspot_security_category_adjusted_no_csharp,hotspot_security_category,coefficient,Commit count (doubling),0.9552597251032987,0.8191586882547669,1.1139735871551009,0.559450064625052,,
+issue_type_adjusted_primary_weighted,issue_type,omnibus_wald,programming_language,,,,4.102622479006467e-08,40.11250372461756,4.0
+issue_type_adjusted_primary_weighted,issue_type,omnibus_wald,source_template_ownership,,,,0.2277144161974325,1.455080959251284,1.0
+issue_type_adjusted_primary_weighted,issue_type,omnibus_wald,issue_type,,,,0.5141325998721002,1.3305481407845974,2.0
+issue_type_adjusted_evolution_levels,issue_type,omnibus_wald,evolution_level,,,,0.961987100112238,0.07750847570615217,2.0
+issue_type_evolution_x_category,issue_type,omnibus_wald,evolution_by_issue_type_interaction,,,,0.12382132025840635,4.177831436449076,2.0
+issue_type_adjusted_secondary_domain,issue_type,omnibus_wald,domain,,,,1.6564490066192325e-20,117.4600600964125,10.0
+severity_adjusted_primary_weighted,severity,omnibus_wald,programming_language,,,,1.1361544738943347e-08,42.804380364880316,4.0
+severity_adjusted_primary_weighted,severity,omnibus_wald,source_template_ownership,,,,0.1920187486679109,1.7020603491890731,1.0
+severity_adjusted_primary_weighted,severity,omnibus_wald,severity,,,,0.06144193386181348,8.986335641289916,4.0
+severity_adjusted_evolution_levels,severity,omnibus_wald,evolution_level,,,,0.9377566280349355,0.12852964405198494,2.0
+severity_evolution_x_category,severity,omnibus_wald,evolution_by_severity_interaction,,,,0.04539047658556666,9.721453083895812,4.0
+hotspot_security_category_adjusted_primary_weighted,hotspot_security_category,omnibus_wald,programming_language,,,,5.013022442068735e-05,25.007724364020405,4.0
+hotspot_security_category_adjusted_primary_weighted,hotspot_security_category,omnibus_wald,source_template_ownership,,,,0.11033067572504114,2.5494783823086262,1.0
+hotspot_security_category_adjusted_primary_weighted,hotspot_security_category,omnibus_wald,hotspot_security_category,,,,2.452522036119207e-05,39.085782687689296,10.0
+hotspot_security_category_adjusted_evolution_levels,hotspot_security_category,omnibus_wald,evolution_level,,,,0.14965600872512194,3.798831787268703,2.0
+hotspot_security_category_evolution_x_category,hotspot_security_category,omnibus_wald,evolution_by_hotspot_security_category_interaction,,,,0.08578065215146521,16.516113981519222,10.0
+hotspot_security_category_adjusted_secondary_domain,hotspot_security_category,omnibus_wald,domain,,,,0.004600628678626795,25.421913172593456,10.0
+hotspot_vulnerability_probability_adjusted_primary_weighted,hotspot_vulnerability_probability,omnibus_wald,programming_language,,,,1.7640756624800547e-05,27.256506883342347,4.0
+hotspot_vulnerability_probability_adjusted_primary_weighted,hotspot_vulnerability_probability,omnibus_wald,source_template_ownership,,,,0.30936460484020234,1.0333864848487349,1.0
+hotspot_vulnerability_probability_adjusted_primary_weighted,hotspot_vulnerability_probability,omnibus_wald,hotspot_vulnerability_probability,,,,0.4258215487573117,1.7074698402129016,2.0
+hotspot_vulnerability_probability_adjusted_evolution_levels,hotspot_vulnerability_probability,omnibus_wald,evolution_level,,,,0.02717157032412924,7.211168121926808,2.0
+hotspot_vulnerability_probability_evolution_x_category,hotspot_vulnerability_probability,omnibus_wald,evolution_by_hotspot_vulnerability_probability_interaction,,,,0.8423287481259292,0.34316980747278086,2.0

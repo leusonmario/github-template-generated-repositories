@@ -1,0 +1,38 @@
+Input RQ3 dataset: /home/leusonmario/MSR/template_based_analysis/rq3/rq3_results_validated/rq3_analysis_dataset.csv
+Age reference date: 2026-08-17T00:00:00+00:00
+Pair-summary JSON files: 5
+  - /home/leusonmario/MSR/template_based_analysis/rq2/quality_issues_and_security_hotspots/vulnerability_issues/CSharp/issue_persistence_results_validated/pair_summary.json
+  - /home/leusonmario/MSR/template_based_analysis/rq2/quality_issues_and_security_hotspots/vulnerability_issues/Java/issue_persistence_results_validated/pair_summary.json
+  - /home/leusonmario/MSR/template_based_analysis/rq2/quality_issues_and_security_hotspots/vulnerability_issues/Python/issue_persistence_results_validated/pair_summary.json
+  - /home/leusonmario/MSR/template_based_analysis/rq2/quality_issues_and_security_hotspots/vulnerability_issues/TypeScript/issue_persistence_results_validated/pair_summary.json
+  - /home/leusonmario/MSR/template_based_analysis/rq2/quality_issues_and_security_hotspots/vulnerability_issues/JavaScript/issue_persistence_results_validated/pair_summary.json
+
+Finding dimensions discovered:
+  issue_type: CODE_SMELL, BUG, VULNERABILITY
+  severity: MINOR, CRITICAL, MAJOR, BLOCKER, INFO
+  software_quality: MAINTAINABILITY, RELIABILITY, SECURITY
+  hotspot_security_category: OTHERS, WEAK-CRYPTOGRAPHY, PERMISSION, ENCRYPT-DATA, CSRF, DOS, AUTH, COMMAND-INJECTION, RCE, INSECURE-CONF, XSS, SQL-INJECTION, TRACEABILITY
+  hotspot_vulnerability_probability: LOW, MEDIUM, HIGH
+  hotspot_status: TO_REVIEW
+
+Issue type, severity, Hotspot security category, Hotspot vulnerability probability, and Hotspot status are mutually exclusive within their respective finding families.
+Software quality is treated only through separate stratified models because SonarQube software-quality labels can overlap.
+Quality Issues and Security Hotspots are modeled separately; their counts are never pooled into one denominator.
+Adjusted Hotspot security-category models exclude categories represented by fewer than 10 source templates. Sparse categories remain in descriptive outputs.
+Exploratory category-stratified commit-count tests use Benjamini-Hochberg FDR correction across the complete family of fitted stratified evolution tests.
+Repository-age coverage: 100.00%
+Repository age included in models: False
+
+Primary estimation:
+Binomial GEE on pair x finding-category observations, clustered by source template, independence working correlation, robust sandwich covariance.
+Primary weight = category-specific inherited finding count * RQ2 sampling weight.
+
+Corrected pair-level sensitivity:
+For mutually exclusive long-format dimensions, each pair's sampling weight is divided by the number of category rows represented by that pair in the fitted model. Therefore, the category rows sum back to the pair's original sampling weight.
+
+Software:
+Python: 3.12.7
+pandas: 2.2.2
+numpy: 1.26.4
+scipy: 1.13.1
+statsmodels: 0.14.2
