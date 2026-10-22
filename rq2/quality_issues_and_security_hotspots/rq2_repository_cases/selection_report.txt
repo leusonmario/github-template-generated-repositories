@@ -1,0 +1,39 @@
+RQ2 repository case-selection report
+These are descriptive examples, not a statistically representative sample of mechanisms.
+A low match rate does not prove that a concern was fixed; an unmatched generated finding does not prove it was newly introduced.
+Minimum template issue count: 20; hotspot count: 3
+Top/bottom per language and concern type: 3; max per template per extreme: 2
+Within-family contrasts per language/kind: 3; min family pairs: 2; min spread: 20.0 pp
+Single-repository persistence is matched/template, so survey sampling weights do not alter its rank.
+C#: vulnerability_issues/CSharp/issue_persistence_results_validated/pair_summary.csv (1417 pairs)
+Java: vulnerability_issues/Java/issue_persistence_results_validated/pair_summary.csv (225 pairs)
+Python: vulnerability_issues/Python/issue_persistence_results_validated/pair_summary.csv (694 pairs)
+TypeScript: vulnerability_issues/TypeScript/issue_persistence_results_validated/pair_summary.csv (1631 pairs)
+JavaScript: vulnerability_issues/JavaScript/issue_persistence_results_validated/pair_summary.csv (989 pairs)
+Optional sample files: 4; matched commit-count records: 3395
+C# issues: 4 eligible pairs / 1417 total
+Java issues: 3 eligible pairs / 225 total
+Python issues: 246 eligible pairs / 694 total
+TypeScript issues: 791 eligible pairs / 1631 total
+JavaScript issues: 533 eligible pairs / 989 total
+C# issues: 1 families with >= 2 eligible pairs, 0 with >= 20 pp spread, 0 contrasts selected
+Java issues: 1 families with >= 2 eligible pairs, 0 with >= 20 pp spread, 0 contrasts selected
+Python issues: 31 families with >= 2 eligible pairs, 14 with >= 20 pp spread, 3 contrasts selected
+TypeScript issues: 92 families with >= 2 eligible pairs, 45 with >= 20 pp spread, 3 contrasts selected
+JavaScript issues: 63 families with >= 2 eligible pairs, 20 with >= 20 pp spread, 3 contrasts selected
+C# hotspots: 2 eligible pairs / 1417 total
+Java hotspots: 2 eligible pairs / 225 total
+Python hotspots: 357 eligible pairs / 694 total
+TypeScript hotspots: 520 eligible pairs / 1631 total
+JavaScript hotspots: 353 eligible pairs / 989 total
+C# hotspots: 0 families with >= 2 eligible pairs, 0 with >= 20 pp spread, 0 contrasts selected
+Java hotspots: 1 families with >= 2 eligible pairs, 0 with >= 20 pp spread, 0 contrasts selected
+Python hotspots: 48 families with >= 2 eligible pairs, 21 with >= 20 pp spread, 3 contrasts selected
+TypeScript hotspots: 58 families with >= 2 eligible pairs, 28 with >= 20 pp spread, 3 contrasts selected
+JavaScript hotspots: 42 families with >= 2 eligible pairs, 15 with >= 20 pp spread, 3 contrasts selected
+Ranked 1048 template families, shortlisted 38 LOW and 38 HIGH families
+Family extreme thresholds: pairs >= 2; issues >= 100, hotspots >= 10; rank metric: weighted
+Families are ranked by the pooled rate across their eligible observed pairs, not by a single repository's extreme rate.
+Selected 206 distinct (language, kind, repository) cases; 18 within-family contrasts
+For larger/less restrictive samples, lower --min-issues / --min-hotspots, or increase --top-n / --family-n.
+Inspect actual code changes before interpreting unmatched findings as repaired or introduced.
