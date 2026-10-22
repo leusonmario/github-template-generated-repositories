@@ -1,0 +1,233 @@
+[
+  {
+    "pair_id": "maua-dev__hexagonal_arch_react_template__TO__enzosakamoto__animated-portfolio",
+    "template_repository": "maua-dev/hexagonal_arch_react_template",
+    "generated_repository": "enzosakamoto/animated-portfolio",
+    "template_issue": {
+      "key": "38abe4bc-44f3-4053-a619-599f0da7a051",
+      "rule": "typescript:S6759",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "software_qualities": [
+        "MAINTAINABILITY"
+      ],
+      "component": "maua-dev__hexagonal_arch_react_template:src/app/components/user-card.tsx",
+      "relative_path": "src/app/components/user-card.tsx",
+      "line": 8,
+      "hash": "e7d245b68a43ae4f5da1eb085d9843c2",
+      "message": "Mark the props of the component as read-only.",
+      "effort": "5min",
+      "debt": "5min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  },
+  {
+    "pair_id": "maua-dev__hexagonal_arch_react_template__TO__enzosakamoto__animated-portfolio",
+    "template_repository": "maua-dev/hexagonal_arch_react_template",
+    "generated_repository": "enzosakamoto/animated-portfolio",
+    "template_issue": {
+      "key": "47b42d36-4c39-4b67-b042-e332c9a9b922",
+      "rule": "typescript:S6848",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "software_qualities": [
+        "MAINTAINABILITY",
+        "RELIABILITY"
+      ],
+      "component": "maua-dev__hexagonal_arch_react_template:src/app/components/user-card.tsx",
+      "relative_path": "src/app/components/user-card.tsx",
+      "line": 17,
+      "hash": "d90c26198ff23a5c54f81269ceed5c01",
+      "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+      "effort": "5min",
+      "debt": "5min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  },
+  {
+    "pair_id": "maua-dev__hexagonal_arch_react_template__TO__enzosakamoto__animated-portfolio",
+    "template_repository": "maua-dev/hexagonal_arch_react_template",
+    "generated_repository": "enzosakamoto/animated-portfolio",
+    "template_issue": {
+      "key": "efbbec87-a736-45a8-95c1-d1a526bc60d1",
+      "rule": "typescript:S1082",
+      "type": "BUG",
+      "severity": "MINOR",
+      "software_qualities": [
+        "RELIABILITY"
+      ],
+      "component": "maua-dev__hexagonal_arch_react_template:src/app/components/user-card.tsx",
+      "relative_path": "src/app/components/user-card.tsx",
+      "line": 17,
+      "hash": "d90c26198ff23a5c54f81269ceed5c01",
+      "message": "Visible, non-interactive elements with click handlers must have at least one keyboard listener.",
+      "effort": "5min",
+      "debt": "5min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  },
+  {
+    "pair_id": "maua-dev__hexagonal_arch_react_template__TO__enzosakamoto__animated-portfolio",
+    "template_repository": "maua-dev/hexagonal_arch_react_template",
+    "generated_repository": "enzosakamoto/animated-portfolio",
+    "template_issue": {
+      "key": "9d9dbd6e-f9d0-45aa-91be-826a59d4b8de",
+      "rule": "typescript:S6481",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "software_qualities": [
+        "MAINTAINABILITY"
+      ],
+      "component": "maua-dev__hexagonal_arch_react_template:src/app/contexts/user-context.tsx",
+      "relative_path": "src/app/contexts/user-context.tsx",
+      "line": 18,
+      "hash": "8ea7d709ed65386090797874cd88e5be",
+      "message": "The object passed as the value prop to the Context provider changes every render. To fix this consider wrapping it in a useMemo hook.",
+      "effort": "5min",
+      "debt": "5min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  },
+  {
+    "pair_id": "maua-dev__hexagonal_arch_react_template__TO__enzosakamoto__animated-portfolio",
+    "template_repository": "maua-dev/hexagonal_arch_react_template",
+    "generated_repository": "enzosakamoto/animated-portfolio",
+    "template_issue": {
+      "key": "08aba46c-9350-4dee-b90b-83b672fcbcfa",
+      "rule": "typescript:S6551",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "software_qualities": [
+        "MAINTAINABILITY"
+      ],
+      "component": "maua-dev__hexagonal_arch_react_template:src/infrastructure/repositories/http/user-repository-http.ts",
+      "relative_path": "src/infrastructure/repositories/http/user-repository-http.ts",
+      "line": 31,
+      "hash": "5c5ab7aa7816bd5bf529737dfccac943",
+      "message": "'user' will use Object's default stringification format ('[object Object]') when stringified.",
+      "effort": "5min",
+      "debt": "5min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  },
+  {
+    "pair_id": "maua-dev__hexagonal_arch_react_template__TO__enzosakamoto__animated-portfolio",
+    "template_repository": "maua-dev/hexagonal_arch_react_template",
+    "generated_repository": "enzosakamoto/animated-portfolio",
+    "template_issue": {
+      "key": "81ad2503-74b8-4968-8ef5-e1327e45cb34",
+      "rule": "typescript:S7754",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "software_qualities": [
+        "MAINTAINABILITY"
+      ],
+      "component": "maua-dev__hexagonal_arch_react_template:src/infrastructure/repositories/mock/user-repository-mock.ts",
+      "relative_path": "src/infrastructure/repositories/mock/user-repository-mock.ts",
+      "line": 63,
+      "hash": "67eec9b90123555a7367a86eef9621e3",
+      "message": "Prefer `.some(…)` over `.find(…)`.",
+      "effort": "5min",
+      "debt": "5min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  },
+  {
+    "pair_id": "maua-dev__hexagonal_arch_react_template__TO__enzosakamoto__animated-portfolio",
+    "template_repository": "maua-dev/hexagonal_arch_react_template",
+    "generated_repository": "enzosakamoto/animated-portfolio",
+    "template_issue": {
+      "key": "7db433d0-e9b9-485f-b399-b8c2d16e5c45",
+      "rule": "typescript:S2933",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "software_qualities": [
+        "MAINTAINABILITY"
+      ],
+      "component": "maua-dev__hexagonal_arch_react_template:src/services/user-service.ts",
+      "relative_path": "src/services/user-service.ts",
+      "line": 9,
+      "hash": "3ed46adaae353be3ce34a5c99b44a106",
+      "message": "Member 'getUserListUseCase' is never reassigned; mark it as `readonly`.",
+      "effort": "2min",
+      "debt": "2min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  },
+  {
+    "pair_id": "maua-dev__hexagonal_arch_react_template__TO__enzosakamoto__animated-portfolio",
+    "template_repository": "maua-dev/hexagonal_arch_react_template",
+    "generated_repository": "enzosakamoto/animated-portfolio",
+    "template_issue": {
+      "key": "bb93d887-9a14-4b26-ba5b-ab2d3dff3ae0",
+      "rule": "typescript:S2933",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "software_qualities": [
+        "MAINTAINABILITY"
+      ],
+      "component": "maua-dev__hexagonal_arch_react_template:src/services/user-service.ts",
+      "relative_path": "src/services/user-service.ts",
+      "line": 10,
+      "hash": "b89336d3312ceaaf9bf3e86f4ff9eefe",
+      "message": "Member 'getUserUseCase' is never reassigned; mark it as `readonly`.",
+      "effort": "2min",
+      "debt": "2min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  },
+  {
+    "pair_id": "maua-dev__hexagonal_arch_react_template__TO__enzosakamoto__animated-portfolio",
+    "template_repository": "maua-dev/hexagonal_arch_react_template",
+    "generated_repository": "enzosakamoto/animated-portfolio",
+    "template_issue": {
+      "key": "57c7d6e2-77c6-43ef-a803-ecdc4fb71a57",
+      "rule": "typescript:S2933",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "software_qualities": [
+        "MAINTAINABILITY"
+      ],
+      "component": "maua-dev__hexagonal_arch_react_template:src/services/user-service.ts",
+      "relative_path": "src/services/user-service.ts",
+      "line": 11,
+      "hash": "2c859c0a6d1d45ee510bb75cfeca256c",
+      "message": "Member 'createUserUseCase' is never reassigned; mark it as `readonly`.",
+      "effort": "2min",
+      "debt": "2min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  },
+  {
+    "pair_id": "maua-dev__hexagonal_arch_react_template__TO__enzosakamoto__animated-portfolio",
+    "template_repository": "maua-dev/hexagonal_arch_react_template",
+    "generated_repository": "enzosakamoto/animated-portfolio",
+    "template_issue": {
+      "key": "35860852-e870-431d-94e9-5fda99d78419",
+      "rule": "typescript:S2933",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "software_qualities": [
+        "MAINTAINABILITY"
+      ],
+      "component": "maua-dev__hexagonal_arch_react_template:src/services/user-service.ts",
+      "relative_path": "src/services/user-service.ts",
+      "line": 12,
+      "hash": "1880c5dc12d49ba71c2664d2a0c83807",
+      "message": "Member 'deleteUserUseCase' is never reassigned; mark it as `readonly`.",
+      "effort": "2min",
+      "debt": "2min",
+      "status": "OPEN",
+      "issue_status": "OPEN"
+    }
+  }
+]
