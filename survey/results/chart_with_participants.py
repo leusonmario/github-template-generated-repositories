@@ -62,32 +62,32 @@ LIKERT_COLORS = {
 # =============================================================================
 
 GUIDELINES = {
-    "G1": (
+    "TC1": (
         "Inspect code-quality and security vulnerabilities before adopting "
         "a template"
     ),
 
-    "G2": (
+    "TC2": (
         "Consider the programming language and its ecosystem when evaluating "
         "the template"
     ),
 
-    "G3a": (
+    "TC3a": (
         "Consider the effort required to maintain the reused code and "
         "incorporate future"
     ),
 
-    "G3b": (
+    "TC3b": (
         "Evaluate whether the template's predefined structure, dependencies, "
         "and configurations"
     ),
 
-    "G4a": (
+    "TC4a": (
         "Consider whether the template is maintained by an individual or "
         "an organization"
     ),
 
-    "G4b": (
+    "TC4b": (
         "Consider the ownership of the source template"
     ),
 }
